@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rational Drug Use (RDU) Quiz</title>
+    <title>Thai Pharmacy Quizzes</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -21,134 +21,77 @@
         .reasoning {
             transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out;
         }
+        /* Tab Styles */
+        .tab-btn.active {
+            border-color: #2563eb; /* blue-600 */
+            background-color: #2563eb;
+            color: white;
+        }
     </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
 
     <div class="container mx-auto p-4 sm:p-6 md:p-8 max-w-4xl">
-        <header class="text-center mb-8">
-            <h1 class="text-3xl sm:text-4xl font-bold text-gray-900">Rational Drug Use (RDU) Quiz</h1>
-            <p class="mt-2 text-lg text-gray-600">Test your knowledge about RDU policies in Thailand.</p>
-        </header>
+        <div class="mb-8 flex border-b border-gray-300">
+            <button id="rduTabBtn" class="tab-btn active py-2 px-6 font-semibold border-b-2 transition-colors duration-300">
+                RDU Quiz
+            </button>
+            <button id="pvTabBtn" class="tab-btn py-2 px-6 font-semibold border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-400 transition-colors duration-300">
+                Pharmacovigilance Quiz
+            </button>
+        </div>
 
-        <div id="quiz-container" class="space-y-8">
-            <!-- Questions will be dynamically inserted here -->
+        <div id="rduContent" class="tab-content">
+            <header class="text-center mb-8">
+                <h1 class="text-3xl sm:text-4xl font-bold text-gray-900">Rational Drug Use (RDU) Quiz</h1>
+                <p class="mt-2 text-lg text-gray-600">Test your knowledge about RDU policies in Thailand.</p>
+            </header>
+            <div id="rdu-quiz-container" class="space-y-8">
+                </div>
+        </div>
+
+        <div id="pvContent" class="tab-content hidden">
+            <header class="text-center mb-8">
+                <h1 class="text-3xl sm:text-4xl font-bold text-gray-900">Thai Pharmacovigilance Quiz</h1>
+                <p class="mt-2 text-lg text-gray-600">Test your knowledge about the national drug safety system in Thailand.</p>
+            </header>
+            <div id="pv-quiz-container" class="space-y-8">
+                </div>
         </div>
     </div>
 
     <script>
-        const quizData = [
-            {
-                question: "In monitoring the rational use of drugs (RDU) at a hospital in Thailand, which of the following indicators is a key measure used to evaluate prescribing patterns?",
-                choices: {
-                    A: "The number of imported drugs used.",
-                    B: "The number of adverse events reported per month.",
-                    C: "The annual budget spent on drug advertising.",
-                    D: "The percentage of prescriptions containing at least one injectable medicine.",
-                    E: "The percentage of pharmacists in treatment and management at the hospital."
-                },
-                correctAnswer: "D",
-                reasoning: {
-                    correct: "This is a classic 'Prescribing Pattern Indicator.' Monitoring the frequency of injections helps assess clinical decision-making, as overuse can be costly, increase the risk of infection, and may not be necessary. It is a direct measure of how drugs are being prescribed.",
-                    incorrect: {
-                        A: "A drug's country of origin does not determine if its use is rational.",
-                        B: "This is an outcome indicator related to patient safety (pharmacovigilance), not a direct measure of the prescribing pattern itself.",
-                        C: "Hospitals do not have budgets for advertising drugs to consumers.",
-                        E: "The ratio of staff is a structural indicator of hospital resources, not a measure of prescribing behavior."
-                    }
-                }
-            },
-            {
-                question: "According to the Ministry of Public Health, what is the main objective of Thailand's RDU project?",
-                choices: {
-                    A: "To reduce the use of all types of prescription drugs.",
-                    B: "To increase drug sales and exports worldwide.",
-                    C: "To limit access to expensive, specialized drugs.",
-                    D: "To promote the use of traditional medicine in all public hospitals.",
-                    E: "To promote the safe, effective, and cost-effective use of medicines based on evidence."
-                },
-                correctAnswer: "E",
-                reasoning: {
-                    correct: "This choice perfectly encapsulates the global definition of Rational Drug Use (RDU). The project's goal is to ensure that patients receive medicine appropriate for their clinical needs, in the correct dose, for an adequate duration, and at the lowest possible cost to them and the community, all guided by scientific evidence.",
-                    incorrect: {
-                        A: "The goal is to reduce irrational drug use, not to stop the use of necessary medications.",
-                        B: "This is a commercial objective, whereas the RDU project is a public health initiative.",
-                        C: "The project aims for rational access to all necessary medicines, not to create barriers to essential treatments.",
-                        D: "The RDU project applies to all medicines, with a primary focus on modern pharmaceuticals, not exclusively on promoting traditional medicine."
-                    }
-                }
-            },
-            {
-                question: "According to the national Rational Drug Use (RDU) hospital project, which of the following is a key objective that aligns with Thailand's national strategic goals?",
-                choices: {
-                    A: "Reduce the prescription of antibiotics for upper respiratory tract infections.",
-                    B: "Every hospital must create its own proprietary drug list.",
-                    C: "Antiviral drugs must be available for sale without a prescription.",
-                    D: "Painkillers must be completely removed from the outpatient drug list.",
-                    E: "Every patient must receive at least two types of antibiotics per prescription."
-                },
-                correctAnswer: "A",
-                reasoning: {
-                    correct: "A primary indicator for the success of the RDU project is the reduction of antibiotic prescriptions for conditions that are often viral, such as upper respiratory tract infections (URIs) and acute diarrhea. This measure directly addresses the critical national goal of combating antimicrobial resistance (AMR).",
-                    incorrect: {
-                        B: "Hospitals in Thailand are guided by the National List of Essential Medicines, not by creating their own proprietary lists.",
-                        C: "Antiviral drugs require a doctor's prescription for proper diagnosis and monitoring.",
-                        D: "While their use should be rational, painkillers are essential medications and cannot be entirely removed from use.",
-                        E: "Prescribing multiple antibiotics (polypharmacy) is generally discouraged as it increases the risk of adverse drug reactions and bacterial resistance."
-                    }
-                }
-            },
-            {
-                question: "Which Thai government agency has the primary responsibility for advising and overseeing the implementation of RDU nationwide?",
-                choices: {
-                    A: "The Pharmacy Council of Thailand.",
-                    B: "The National Health Security Office (NHSO).",
-                    C: "The Food and Drug Administration (FDA).",
-                    D: "Health Systems Research Institutes and universities.",
-                    E: "The Food and Drug Administration (FDA) and the Ministry of Public Health (MOPH)."
-                },
-                correctAnswer: "E",
-                reasoning: {
-                    correct: "The national RDU policy is driven at the highest level by the Ministry of Public Health (MOPH), which sets the overarching strategy. The Food and Drug Administration (FDA) is the key operational agency within the MOPH responsible for drug regulation and implementation. Together, they form the primary authority for guiding and overseeing the project.",
-                    incorrect: {
-                        A: "The Pharmacy Council is a professional body that governs pharmacists, not a government agency that implements national health policy.",
-                        B: "The NHSO is primarily responsible for managing the universal healthcare budget, not for the direct clinical oversight of RDU implementation.",
-                        C: "While the FDA is a critical component, it operates under the broader policy direction of the MOPH, making the combined answer more complete.",
-                        D: "Research institutes and universities provide evidence and academic support but are not the official governing or regulatory bodies."
-                    }
-                }
-            },
-            {
-                question: "Which of the following best demonstrates the rational use of drugs at the community level in Thailand?",
-                choices: {
-                    A: "Encourage all villagers to stockpile paracetamol and antibiotics.",
-                    B: "Selling antibiotics for fever without a prescription at local pharmacies.",
-                    C: "Educating patients to buy specific brands of antibiotics for better results.",
-                    D: "Completely replacing necessary medicines with herbal supplements.",
-                    E: "Promoting community health volunteers to support adherence to medication instructions and report side effects."
-                },
-                correctAnswer: "E",
-                reasoning: {
-                    correct: "Community health volunteers (known in Thai as Or Sor Mor) are a cornerstone of Thailand's primary healthcare system. Empowering them to help patients follow medication instructions correctly and monitor for adverse effects is a key strategy for promoting rational drug use at the grassroots level.",
-                    incorrect: {
-                        A: "Stockpiling medicines is irrational and can lead to the use of expired or inappropriate drugs, especially antibiotics.",
-                        B: "Selling antibiotics without a prescription is a major contributor to antibiotic resistance and is against the principles of RDU.",
-                        C: "Rational drug use focuses on the appropriate generic medication for the condition, not on promoting specific brands.",
-                        D: "Herbal supplements cannot and should not be used as a complete substitute for essential, evidence-based medicines needed to treat specific diseases."
-                    }
-                }
-            }
+        // --- DATA FOR QUIZ 1: RDU ---
+        const rduQuizData = [
+            { question: "In monitoring the rational use of drugs (RDU) at a hospital in Thailand, which of the following indicators is a key measure used to evaluate prescribing patterns?", choices: { A: "The number of imported drugs used.", B: "The number of adverse events reported per month.", C: "The annual budget spent on drug advertising.", D: "The percentage of prescriptions containing at least one injectable medicine.", E: "The percentage of pharmacists in treatment and management at the hospital." }, correctAnswer: "D", reasoning: { correct: "This is a classic 'Prescribing Pattern Indicator.' Monitoring the frequency of injections helps assess clinical decision-making, as overuse can be costly, increase the risk of infection, and may not be necessary. It is a direct measure of how drugs are being prescribed.", incorrect: { A: "A drug's country of origin does not determine if its use is rational.", B: "This is an outcome indicator related to patient safety (pharmacovigilance), not a direct measure of the prescribing pattern itself.", C: "Hospitals do not have budgets for advertising drugs to consumers.", E: "The ratio of staff is a structural indicator of hospital resources, not a measure of prescribing behavior." } } },
+            { question: "According to the Ministry of Public Health, what is the main objective of Thailand's RDU project?", choices: { A: "To reduce the use of all types of prescription drugs.", B: "To increase drug sales and exports worldwide.", C: "To limit access to expensive, specialized drugs.", D: "To promote the use of traditional medicine in all public hospitals.", E: "To promote the safe, effective, and cost-effective use of medicines based on evidence." }, correctAnswer: "E", reasoning: { correct: "This choice perfectly encapsulates the global definition of Rational Drug Use (RDU). The project's goal is to ensure that patients receive medicine appropriate for their clinical needs, in the correct dose, for an adequate duration, and at the lowest possible cost to them and the community, all guided by scientific evidence.", incorrect: { A: "The goal is to reduce irrational drug use, not to stop the use of necessary medications.", B: "This is a commercial objective, whereas the RDU project is a public health initiative.", C: "The project aims for rational access to all necessary medicines, not to create barriers to essential treatments.", D: "The RDU project applies to all medicines, with a primary focus on modern pharmaceuticals, not exclusively on promoting traditional medicine." } } },
+            { question: "According to the national Rational Drug Use (RDU) hospital project, which of the following is a key objective that aligns with Thailand's national strategic goals?", choices: { A: "Reduce the prescription of antibiotics for upper respiratory tract infections.", B: "Every hospital must create its own proprietary drug list.", C: "Antiviral drugs must be available for sale without a prescription.", D: "Painkillers must be completely removed from the outpatient drug list.", E: "Every patient must receive at least two types of antibiotics per prescription." }, correctAnswer: "A", reasoning: { correct: "A primary indicator for the success of the RDU project is the reduction of antibiotic prescriptions for conditions that are often viral, such as upper respiratory tract infections (URIs) and acute diarrhea. This measure directly addresses the critical national goal of combating antimicrobial resistance (AMR).", incorrect: { B: "Hospitals in Thailand are guided by the National List of Essential Medicines, not by creating their own proprietary lists.", C: "Antiviral drugs require a doctor's prescription for proper diagnosis and monitoring.", D: "While their use should be rational, painkillers are essential medications and cannot be entirely removed from use.", E: "Prescribing multiple antibiotics (polypharmacy) is generally discouraged as it increases the risk of adverse drug reactions and bacterial resistance." } } },
+            { question: "Which Thai government agency has the primary responsibility for advising and overseeing the implementation of RDU nationwide?", choices: { A: "The Pharmacy Council of Thailand.", B: "The National Health Security Office (NHSO).", C: "The Food and Drug Administration (FDA).", D: "Health Systems Research Institutes and universities.", E: "The Food and Drug Administration (FDA) and the Ministry of Public Health (MOPH)." }, correctAnswer: "E", reasoning: { correct: "The national RDU policy is driven at the highest level by the Ministry of Public Health (MOPH), which sets the overarching strategy. The Food and Drug Administration (FDA) is the key operational agency within the MOPH responsible for drug regulation and implementation. Together, they form the primary authority for guiding and overseeing the project.", incorrect: { A: "The Pharmacy Council is a professional body that governs pharmacists, not a government agency that implements national health policy.", B: "The NHSO is primarily responsible for managing the universal healthcare budget, not for the direct clinical oversight of RDU implementation.", C: "While the FDA is a critical component, it operates under the broader policy direction of the MOPH, making the combined answer more complete.", D: "Research institutes and universities provide evidence and academic support but are not the official governing or regulatory bodies." } } },
+            { question: "Which of the following best demonstrates the rational use of drugs at the community level in Thailand?", choices: { A: "Encourage all villagers to stockpile paracetamol and antibiotics.", B: "Selling antibiotics for fever without a prescription at local pharmacies.", C: "Educating patients to buy specific brands of antibiotics for better results.", D: "Completely replacing necessary medicines with herbal supplements.", E: "Promoting community health volunteers to support adherence to medication instructions and report side effects." }, correctAnswer: "E", reasoning: { correct: "Community health volunteers (known in Thai as Or Sor Mor) are a cornerstone of Thailand's primary healthcare system. Empowering them to help patients follow medication instructions correctly and monitor for adverse effects is a key strategy for promoting rational drug use at the grassroots level.", incorrect: { A: "Stockpiling medicines is irrational and can lead to the use of expired or inappropriate drugs, especially antibiotics.", B: "Selling antibiotics without a prescription is a major contributor to antibiotic resistance and is against the principles of RDU.", C: "Rational drug use focuses on the appropriate generic medication for the condition, not on promoting specific brands.", D: "Herbal supplements cannot and should not be used as a complete substitute for essential, evidence-based medicines needed to treat specific diseases." } } }
         ];
 
-        const quizContainer = document.getElementById('quiz-container');
+        // --- DATA FOR QUIZ 2: Pharmacovigilance ---
+        const pvQuizData = [
+            { question: "A pharmacist at a Thai hospital wants to report a suspected adverse drug reaction (ADR) using the national reporting system. What method should they use?", choices: { A: "Reporting ADR via MedWatch", B: "Sending reports directly to the World Health Organization (WHO) in Geneva", C: "Reporting online via the Thai FDA's e-submission system", D: "Reporting by phone to the Ministry of Public Health (Mandatory)", E: "Using a QR code on the drug packaging to access the WHO database" }, correctAnswer: "C", reasoning: { correct: "In Thailand, healthcare professionals, including pharmacists, are required to report ADRs through the national system, which is the Thai FDA's e-submission system. This is the correct channel for submitting reports to the national pharmacovigilance center.", incorrect: { A: "MedWatch is the reporting system used in the United States, not Thailand.", B: "Direct reporting to the WHO is not the standard procedure for national pharmacovigilance. The national system collects the data first, and then it is submitted to the WHO database.", D: "While it's possible to report by phone, it's not the mandatory or primary method. The e-submission system is the standard and required channel for official reports.", E: "QR codes on drug packaging are not a standard method for reporting to the WHO database in Thailand." } } },
+            { question: "What is the main objective of the National Pharmacovigilance System of Thailand?", choices: { A: "To facilitate clinical trials for new chemical substances", B: "To monitor drug prices at community pharmacies", C: "To identify, assess, and prevent adverse drug reactions (ADRs) and build patient confidence in safety", D: "To monitor and promote the use of traditional herbs and dietary supplements", E: "To evaluate the cost-effectiveness of drug advertising and hospital management" }, correctAnswer: "C", reasoning: { correct: "The core purpose of the National Pharmacovigilance System is to ensure public health and safety by actively identifying, assessing, and preventing ADRs. A key goal is to build and maintain public trust in the safety of medications.", incorrect: { A: "Clinical trials are a separate process, although pharmacovigilance data can inform trial design. The main objective isn't to facilitate trials.", B: "Monitoring drug prices is handled by other government agencies and is not a function of pharmacovigilance.", D: "While pharmacovigilance includes traditional medicine, monitoring and promoting their use is not the system's primary objective.", E: "Evaluating the cost-effectiveness of advertising and hospital management are not part of pharmacovigilance." } } },
+            { question: "Which organization serves as the National Pharmacovigilance Center of Thailand, responsible for collecting and analyzing adverse drug reactions (ADR) reports?", choices: { A: "Department of Disease Control", B: "Health Systems Research Institute (HSRI)", C: "Ministry of Finance and Ministry of Foreign Affairs", D: "Bureau of Drug Control, Food and Drug Administration (under the Ministry of Public Health)", E: "National Science and Technology Development Agency (NSTDA)" }, correctAnswer: "D", reasoning: { correct: "The Bureau of Drug Control, Food and Drug Administration (FDA) is the main agency responsible for pharmacovigilance in Thailand. It collects ADR reports and analyzes them to ensure drug safety. The Pharmacovigilance Center is under the Bureau of Drug Control, which is the main coordination center for the pharmacovigilance system in Thailand.", incorrect: { A: "The Department of Disease Control is responsible for monitoring and controlling communicable and non-communicable diseases. Their work is related to epidemiology and disease surveillance.", B: "The Health Systems Research Institute focuses on health systems research and policy recommendations, not on day-to-day operational work of collecting and analyzing ADR reports.", C: "The Ministry of Finance and the Ministry of Foreign Affairs have entirely different functions and are not involved in pharmacovigilance.", E: "The National Science and Technology Development Agency (NSTDA) is a funding agency for scientific and technological research and development. Their work is much broader than just pharmacovigilance." } } },
+            { question: "Which healthcare professionals are legally and ethically encouraged to report suspected adverse drug reactions (ADRs) in Thailand?", choices: { A: "Doctors only", B: "Pharmacists only", C: "Hospital directors only", D: "Representatives from the pharmaceutical industry only", E: "All licensed healthcare professionals, including doctors, pharmacists, and nurses" }, correctAnswer: "E", reasoning: { correct: "The law and ethical guidelines in Thailand encourage all licensed healthcare professionals—including doctors, dentists, pharmacists, and nurses—to report ADRs. This collective responsibility ensures the comprehensive collection of data for the national pharmacovigilance system.", incorrect: { A: "This is incorrect because it improperly restricts the responsibility to a single group. The national pharmacovigilance system relies on reports from all healthcare professionals to be effective.", B: "This is incorrect because it improperly restricts the responsibility to a single group. The national pharmacovigilance system relies on reports from all healthcare professionals to be effective.", C: "This is incorrect because it improperly restricts the responsibility to a single group. The national pharmacovigilance system relies on reports from all healthcare professionals to be effective.", D: "This is incorrect because it improperly restricts the responsibility to a single group. The national pharmacovigilance system relies on reports from all healthcare professionals to be effective." } } },
+            { question: "According to the Thai national pharmacovigilance guidelines, which type of adverse drug reaction (ADR) should be prioritized for reporting?", choices: { A: "Minor side effects that disappear within 24 hours", B: "All adverse reactions from over-the-counter (OTC) drugs", C: "Reactions from dietary supplements and cosmetics only", D: "Severe, unexpected, and new ADRs from all drug classes", E: "Only reactions from herbal products and dietary supplements" }, correctAnswer: "D", reasoning: { correct: "The national pharmacovigilance system's primary focus is on severe, unexpected, and new ADRs from all drug classes. These reactions pose the greatest risk to public health and require immediate attention and analysis to prevent future harm.", incorrect: { A: "While minor side effects can be reported, they are not the main priority. The system prioritizes more serious and unexpected events.", B: "OTC drugs are part of the system, but the focus is on the severity and unexpected nature of the reaction, not the drug's classification.", C: "Reactions from dietary supplements and cosmetics are part of the system, but they are not the sole focus.", E: "This is too restrictive. The system covers all types of drugs, not just herbal products and supplements." } } }
+        ];
 
-        // Function to build the quiz UI
-        function buildQuiz() {
+        // --- REUSABLE QUIZ FUNCTIONS ---
+
+        function buildQuiz(quizData, containerId) {
+            const quizContainer = document.getElementById(containerId);
+            if (!quizContainer) return;
+
+            quizContainer.innerHTML = ''; // Clear previous content
+
             quizData.forEach((item, index) => {
                 const questionIndex = index + 1;
                 const choicesHTML = Object.entries(item.choices).map(([key, value]) => `
-                    <label for="q${questionIndex}_${key}" class="quiz-option block p-4 border-2 border-gray-300 rounded-lg cursor-pointer hover:bg-gray-200 transition-colors duration-200">
-                        <input type="radio" name="question${questionIndex}" id="q${questionIndex}_${key}" value="${key}" class="mr-3 text-blue-600 focus:ring-blue-500">
+                    <label for="${containerId}_q${questionIndex}_${key}" class="quiz-option block p-4 border-2 border-gray-300 rounded-lg cursor-pointer hover:bg-gray-200 transition-colors duration-200">
+                        <input type="radio" name="${containerId}_question${questionIndex}" id="${containerId}_q${questionIndex}_${key}" value="${key}" class="mr-3 text-blue-600 focus:ring-blue-500">
                         <span class="font-medium">${key}.</span> ${value}
                     </label>
                 `).join('');
@@ -160,13 +103,13 @@
                         <h2 class="text-xl font-semibold mb-4">
                             <span class="text-blue-600 font-bold">Question ${questionIndex}:</span> ${item.question}
                         </h2>
-                        <div class="choices space-y-3" id="choices${questionIndex}">
+                        <div class="choices space-y-3" id="${containerId}_choices${questionIndex}">
                             ${choicesHTML}
                         </div>
-                        <button class="check-btn mt-6 w-full sm:w-auto bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-transform transform hover:scale-105" data-question-index="${index}">Check Answer</button>
-                        <div class="reasoning hidden opacity-0 max-h-0 mt-6 p-4 border-l-4" id="reasoning${questionIndex}">
-                            <h3 class="font-bold text-lg mb-2" id="result-title${questionIndex}"></h3>
-                            <div id="result-text${questionIndex}"></div>
+                        <button class="check-btn mt-6 w-full sm:w-auto bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-transform transform hover:scale-105" data-question-index="${index}" data-quiz-type="${containerId}">Check Answer</button>
+                        <div class="reasoning hidden opacity-0 max-h-0 mt-6 p-4 border-l-4" id="${containerId}_reasoning${questionIndex}">
+                            <h3 class="font-bold text-lg mb-2" id="${containerId}_result-title${questionIndex}"></h3>
+                            <div id="${containerId}_result-text${questionIndex}"></div>
                         </div>
                     </div>
                 `;
@@ -174,40 +117,40 @@
             });
         }
 
-        // Function to handle checking the answer
         function checkAnswer(event) {
             const button = event.target;
+            const quizType = button.dataset.quizType;
+            const quizData = (quizType === 'rdu-quiz-container') ? rduQuizData : pvQuizData;
+            
             const questionIndex = parseInt(button.dataset.questionIndex, 10);
             const questionData = quizData[questionIndex];
             const qIndexForId = questionIndex + 1;
 
-            const selectedOption = document.querySelector(`input[name="question${qIndexForId}"]:checked`);
+            const selectedOption = document.querySelector(`input[name="${quizType}_question${qIndexForId}"]:checked`);
             
+            const reasoningDiv = document.getElementById(`${quizType}_reasoning${qIndexForId}`);
+            const resultTitle = document.getElementById(`${quizType}_result-title${qIndexForId}`);
+
             if (!selectedOption) {
-                // Simple feedback if no answer is selected
-                const reasoningDiv = document.getElementById(`reasoning${qIndexForId}`);
                 reasoningDiv.classList.remove('hidden');
                 reasoningDiv.classList.add('border-yellow-400', 'bg-yellow-50');
-                document.getElementById(`result-title${qIndexForId}`).textContent = 'Please select an answer first!';
-                document.getElementById(`result-title${qIndexForId}`).classList.add('text-yellow-700');
+                resultTitle.textContent = 'Please select an answer first!';
+                resultTitle.classList.add('text-yellow-700');
                 setTimeout(() => {
                     reasoningDiv.classList.add('hidden');
                     reasoningDiv.classList.remove('border-yellow-400', 'bg-yellow-50');
-                    document.getElementById(`result-title${qIndexForId}`).textContent = '';
-                    document.getElementById(`result-title${qIndexForId}`).classList.remove('text-yellow-700');
+                    resultTitle.textContent = '';
+                    resultTitle.classList.remove('text-yellow-700');
                 }, 2000);
                 return;
             }
 
             const userAnswer = selectedOption.value;
             const isCorrect = userAnswer === questionData.correctAnswer;
+            
+            const resultText = document.getElementById(`${quizType}_result-text${qIndexForId}`);
+            const choicesContainer = document.getElementById(`${quizType}_choices${qIndexForId}`);
 
-            const reasoningDiv = document.getElementById(`reasoning${qIndexForId}`);
-            const resultTitle = document.getElementById(`result-title${qIndexForId}`);
-            const resultText = document.getElementById(`result-text${qIndexForId}`);
-            const choicesContainer = document.getElementById(`choices${qIndexForId}`);
-
-            // Style the reasoning container and title
             reasoningDiv.classList.remove('hidden');
             setTimeout(() => {
                 reasoningDiv.classList.remove('opacity-0', 'max-h-0');
@@ -235,7 +178,6 @@
                 `;
             }
 
-            // Disable inputs and highlight answers
             const allOptions = choicesContainer.querySelectorAll('input[type="radio"]');
             allOptions.forEach(radio => {
                 const label = radio.parentElement;
@@ -248,21 +190,43 @@
                 radio.disabled = true;
             });
 
-            // Disable the button
             button.disabled = true;
             button.classList.add('bg-gray-400', 'cursor-not-allowed');
             button.classList.remove('hover:bg-blue-700', 'hover:scale-105');
         }
 
-        // Initialize the quiz
+        // --- INITIALIZATION AND TAB LOGIC ---
         document.addEventListener('DOMContentLoaded', () => {
-            buildQuiz();
+            const rduTabBtn = document.getElementById('rduTabBtn');
+            const pvTabBtn = document.getElementById('pvTabBtn');
+            const rduContent = document.getElementById('rduContent');
+            const pvContent = document.getElementById('pvContent');
+
+            // Build both quizzes
+            buildQuiz(rduQuizData, 'rdu-quiz-container');
+            buildQuiz(pvQuizData, 'pv-quiz-container');
+
+            // Attach event listeners to all check buttons
             const checkButtons = document.querySelectorAll('.check-btn');
             checkButtons.forEach(button => {
                 button.addEventListener('click', checkAnswer);
             });
+            
+            // Tab switching logic
+            rduTabBtn.addEventListener('click', () => {
+                rduContent.classList.remove('hidden');
+                pvContent.classList.add('hidden');
+                rduTabBtn.classList.add('active');
+                pvTabBtn.classList.remove('active');
+            });
+            
+            pvTabBtn.addEventListener('click', () => {
+                pvContent.classList.remove('hidden');
+                rduContent.classList.add('hidden');
+                pvTabBtn.classList.add('active');
+                rduTabBtn.classList.remove('active');
+            });
         });
     </script>
-
 </body>
 </html>
