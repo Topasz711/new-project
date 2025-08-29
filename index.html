@@ -73,6 +73,26 @@
             </div>
 
             <div id="pharmacologyContent" class="main-content-pane hidden">
+                <div id="progress-tracker" class="mb-4 p-4 bg-white rounded-lg shadow-md hidden">
+                    <div class="flex justify-between items-center text-sm text-gray-600 mb-2 flex-wrap">
+                        <span class="w-1/2 sm:w-auto sm:flex-1">ทำไปแล้ว: <b id="answered-count">0</b>/<b id="total-count">0</b> ข้อ</span>
+                        <span class="w-1/2 sm:w-auto sm:flex-1 text-center text-green-600">✅ ถูก: <b id="correct-count">0</b></span>
+                        <span class="w-1/2 sm:w-auto sm:flex-1 text-center text-red-600">❌ ผิด: <b id="incorrect-count">0</b></span>
+                        <span class="w-1/2 sm:w-auto sm:flex-1 text-right">เหลือ: <b id="remaining-count">0</b> ข้อ</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5">
+                        <div id="progress-bar-fill" class="bg-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
+                    </div>
+                    <div id="retry-buttons" class="mt-4 text-center">
+                        <button id="retry-btn" class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors">
+                            เริ่ม Quiz ใหม่อีกครั้ง
+                        </button>
+                        <button id="retry-incorrect-btn" class="bg-orange-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-orange-600 ml-2 transition-colors">
+                            ลองทำเฉพาะข้อที่ผิด
+                        </button>
+                    </div>
+                </div>
+
                 <div class="mb-8 border-b border-gray-300 overflow-x-auto">
                     <div class="flex -mb-px">
                         <button class="pharma-tab-btn flex-shrink-0 py-2 px-4 font-semibold border-b-2 transition-colors duration-300 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-400" data-target="paraContent">Parasympathomimetic Drugs</button>
@@ -101,6 +121,7 @@
 
     <script>
         // --- ALL QUIZ DATA (FULL VERSION) ---
+
         const paraQuizData = [
             { question: "A farmworker is brought to the emergency room with symptoms of excessive salivation, lacrimation, bronchospasm, and bradycardia after exposure to an insecticide. Which of the following is the most likely cause?", choices: { A: "Direct stimulation of M2 and M3 receptors.", B: "Blockade of acetylcholine release from the axon terminal.", C: "Irreversible inhibition of acetylcholinesterase.", D: "Competitive antagonism of muscarinic receptors.", E: "Depolarizing neuromuscular blockade." }, correctAnswer: "C", reasoning: { correct: "The symptoms presented are classic signs of a muscarinic cholinergic crisis. Organophosphates in insecticides are irreversible inhibitors of acetylcholinesterase (AChE), leading to an accumulation of ACh and overstimulation of its receptors.", incorrect: { A: "This describes the mechanism of a direct-acting drug, not an indirect one like insecticide poisoning.", B: "This is the mechanism of botulinum toxin, which causes opposite symptoms.", D: "This is the mechanism of an antidote like atropine.", E: "This describes the action of succinylcholine at nicotinic receptors." } } },
             { question: "A patient is given atropine as a pre-operative medication. Which of the following effects is intended?", choices: { A: "To cause muscle paralysis for easier intubation.", B: "To increase gastrointestinal motility post-surgery.", C: "To reduce bronchial and salivary secretions.", D: "To constrict the pupils (miosis).", E: "To decrease heart rate in case of surgical stress." }, correctAnswer: "C", reasoning: { correct: "Atropine is a muscarinic receptor antagonist. By blocking M3 receptors on exocrine glands, it decreases secretions. One of its key clinical uses is reducing salivation and bronchial secretions before surgery to maintain a clear airway and prevent aspiration.", incorrect: { A: "Muscle paralysis for intubation is achieved with neuromuscular blockers (NMBs) like rocuronium or succinylcholine, which act on nicotinic receptors at the neuromuscular junction. Atropine does not cause muscle paralysis.", B: "As a muscarinic antagonist, atropine relaxes GI smooth muscle and decreases motility, leading to constipation.", D: "Atropine blocks M3 receptors on the pupillary constrictor muscle, causing the pupil to dilate (mydriasis), not constrict. Miosis is caused by muscarinic agonists.", E: "Atropine blocks M2 receptors in the heart, which leads to an increase in heart rate (tachycardia). It is used to treat bradycardia (low heart rate)." } } },
@@ -163,7 +184,54 @@
             { question: "According to the Thai national pharmacovigilance guidelines, which type of adverse drug reaction (ADR) should be prioritized for reporting?", choices: { A: "Minor side effects that disappear within 24 hours", B: "All adverse reactions from over-the-counter (OTC) drugs", C: "Reactions from dietary supplements and cosmetics only", D: "Severe, unexpected, and new ADRs from all drug classes", E: "Only reactions from herbal products and dietary supplements" }, correctAnswer: "D", reasoning: { correct: "The national pharmacovigilance system's primary focus is on severe, unexpected, and new ADRs from all drug classes. These reactions pose the greatest risk to public health and require immediate attention and analysis to prevent future harm.", incorrect: { A: "While minor side effects can be reported, they are not the main priority. The system prioritizes more serious and unexpected events.", B: "OTC drugs are part of the system, but the focus is on the severity and unexpected nature of the reaction, not the drug's classification.", C: "Reactions from dietary supplements and cosmetics are part of the system, but they are not the sole focus.", E: "This is too restrictive. The system covers all types of drugs, not just herbal products and supplements." } } }
         ];
 
-        // --- INITIALIZATION, SIDEBAR, and TAB LOGIC ---
+        // --- GLOBAL STATE & INITIALIZATION ---
+        let quizState = {};
+
+        function initializeQuizState(quizData, containerId) {
+            if (!quizData || quizData.length === 0) {
+                document.getElementById('progress-tracker').classList.add('hidden');
+                return;
+            }
+            quizState = {
+                totalQuestions: quizData.length,
+                answered: 0,
+                correct: 0,
+                incorrect: 0,
+                incorrectIndices: [],
+                currentQuizDataRef: quizData,
+                containerId: containerId
+            };
+            document.getElementById('progress-tracker').classList.remove('hidden');
+            document.getElementById('retry-buttons').classList.remove('hidden'); // Show buttons immediately
+            updateProgressBar();
+        }
+
+        function updateProgressBar() {
+            const remaining = quizState.totalQuestions - quizState.answered;
+            const percentage = quizState.totalQuestions > 0 ? (quizState.answered / quizState.totalQuestions) * 100 : 0;
+
+            document.getElementById('answered-count').innerText = quizState.answered;
+            document.getElementById('total-count').innerText = quizState.totalQuestions;
+            document.getElementById('correct-count').innerText = quizState.correct;
+            document.getElementById('incorrect-count').innerText = quizState.incorrect;
+            document.getElementById('remaining-count').innerText = remaining;
+            document.getElementById('progress-bar-fill').style.width = `${percentage}%`;
+
+            const retryIncorrectBtn = document.getElementById('retry-incorrect-btn');
+            if (quizState.incorrectIndices.length === 0) {
+                retryIncorrectBtn.disabled = true;
+                retryIncorrectBtn.classList.add('opacity-50', 'cursor-not-allowed');
+            } else {
+                retryIncorrectBtn.disabled = false;
+                retryIncorrectBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+            }
+        }
+
+        function startNewQuiz(quizData, containerId) {
+            buildQuiz(quizData, containerId);
+            initializeQuizState(quizData, containerId);
+        }
+        
         document.addEventListener('DOMContentLoaded', () => {
             const menuBtn = document.getElementById('menu-btn');
             const sidebar = document.getElementById('sidebar');
@@ -173,6 +241,9 @@
             const contentPanes = document.querySelectorAll('.main-content-pane');
             const pharmaTabBtns = document.querySelectorAll('.pharma-tab-btn');
             const pharmaTabContents = document.querySelectorAll('.pharma-tab-content');
+            const progressTracker = document.getElementById('progress-tracker');
+            const retryBtn = document.getElementById('retry-btn');
+            const retryIncorrectBtn = document.getElementById('retry-incorrect-btn');
 
             function openSidebar() { sidebar.classList.remove('-translate-x-full'); overlay.classList.remove('hidden'); }
             function closeSidebar() { sidebar.classList.add('-translate-x-full'); overlay.classList.add('hidden'); }
@@ -192,7 +263,11 @@
                         pharmaTabBtns.forEach(btn => btn.classList.remove('active'));
                         pharmaTabContents.forEach(content => content.classList.add('hidden'));
                         pharmaTabBtns[0].classList.add('active');
-                        document.getElementById(pharmaTabBtns[0].dataset.target)?.classList.remove('hidden');
+                        const firstTabContent = document.getElementById(pharmaTabBtns[0].dataset.target);
+                        firstTabContent?.classList.remove('hidden');
+                        startNewQuiz(paraQuizData, 'para-quiz-container');
+                    } else {
+                        progressTracker.classList.add('hidden');
                     }
                     closeSidebar();
                 });
@@ -204,24 +279,69 @@
                     pharmaTabContents.forEach(content => content.classList.add('hidden'));
                     button.classList.add('active');
                     document.getElementById(button.dataset.target)?.classList.remove('hidden');
+                    
+                    let currentQuizData;
+                    let containerId;
+                    switch(button.dataset.target) {
+                        case 'paraContent': currentQuizData = paraQuizData; containerId = 'para-quiz-container'; break;
+                        case 'glucoContent': currentQuizData = glucoQuizData; containerId = 'gluco-quiz-container'; break;
+                        case 'chemoContent': currentQuizData = chemoQuizData; containerId = 'chemo-quiz-container'; break;
+                        case 'antidoteContent': currentQuizData = antidoteQuizData; containerId = 'antidote-quiz-container'; break;
+                        case 'rduContent': currentQuizData = rduQuizData; containerId = 'rdu-quiz-container'; break;
+                        case 'pvContent': currentQuizData = pvQuizData; containerId = 'pv-quiz-container'; break;
+                        default: currentQuizData = [];
+                    }
+                    startNewQuiz(currentQuizData, containerId);
                 });
             });
 
-            // Build all quizzes
+            retryBtn.addEventListener('click', () => {
+                startNewQuiz(quizState.currentQuizDataRef, quizState.containerId);
+            });
+
+            retryIncorrectBtn.addEventListener('click', () => {
+                quizState.answered -= quizState.incorrectIndices.length;
+                quizState.incorrect = 0;
+                
+                quizState.incorrectIndices.forEach(index => {
+                    const questionNumber = index + 1;
+                    const containerId = quizState.containerId;
+                    const choicesContainer = document.getElementById(`${containerId}_choices${questionNumber}`);
+                    const reasoningDiv = document.getElementById(`${containerId}_reasoning${questionNumber}`);
+                    const card = choicesContainer.closest('.question-card');
+                    const button = card.querySelector('.check-btn');
+
+                    choicesContainer.querySelectorAll('input[type="radio"]').forEach(radio => {
+                        radio.disabled = false;
+                        radio.checked = false;
+                        const label = radio.parentElement;
+                        label.classList.remove('bg-blue-100', 'border-blue-500', 'bg-red-100', 'border-red-500');
+                    });
+                    
+                    reasoningDiv.classList.add('hidden', 'opacity-0', 'max-h-0');
+                    button.disabled = false;
+                    button.classList.remove('bg-gray-400', 'cursor-not-allowed');
+                });
+                quizState.incorrectIndices = [];
+                updateProgressBar();
+            });
+
+            // Build all quizzes initially
             buildQuiz(paraQuizData, 'para-quiz-container');
             buildQuiz(glucoQuizData, 'gluco-quiz-container');
             buildQuiz(chemoQuizData, 'chemo-quiz-container');
             buildQuiz(antidoteQuizData, 'antidote-quiz-container');
             buildQuiz(rduQuizData, 'rdu-quiz-container');
             buildQuiz(pvQuizData, 'pv-quiz-container');
-
-            document.querySelectorAll('.check-btn').forEach(button => button.addEventListener('click', checkAnswer));
         });
 
         // --- REUSABLE QUIZ FUNCTIONS ---
         function buildQuiz(quizData, containerId) {
             const quizContainer = document.getElementById(containerId);
-            if (!quizContainer || !quizData || quizData.length === 0) return;
+            if (!quizContainer || !quizData || quizData.length === 0) {
+                if(quizContainer) quizContainer.innerHTML = ''; 
+                return;
+            }
             quizContainer.innerHTML = ''; 
             quizData.forEach((item, index) => {
                 const questionNumber = index + 1;
@@ -232,12 +352,16 @@
                 questionElement.classList.add('question-card', 'bg-white', 'p-6', 'rounded-xl', 'shadow-md');
                 questionElement.innerHTML = `<h2 class="text-xl font-semibold mb-4"><span class="text-blue-600 font-bold">Question ${questionNumber}:</span> ${item.question}</h2><div class="choices space-y-3" id="${containerId}_choices${questionNumber}">${choicesHTML}</div><button class="check-btn mt-6 w-full sm:w-auto bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700" data-question-index="${index}" data-quiz-type="${containerId}">Check Answer</button><div class="reasoning hidden opacity-0 max-h-0 mt-6 p-4 border-l-4" id="${containerId}_reasoning${questionNumber}"><h3 class="font-bold text-lg mb-2" id="${containerId}_result-title${questionNumber}"></h3><div id="${containerId}_result-text${questionNumber}"></div></div>`;
                 quizContainer.appendChild(questionElement);
+                questionElement.querySelector('.check-btn').addEventListener('click', checkAnswer);
             });
         }
 
         function checkAnswer(event) {
             const button = event.target;
+            const card = button.closest('.question-card');
             const quizType = button.dataset.quizType;
+            const questionIndex = parseInt(button.dataset.questionIndex, 10);
+            
             let quizData;
             if (quizType === 'para-quiz-container') quizData = paraQuizData;
             else if (quizType === 'gluco-quiz-container') quizData = glucoQuizData;
@@ -246,69 +370,56 @@
             else if (quizType === 'rdu-quiz-container') quizData = rduQuizData;
             else if (quizType === 'pv-quiz-container') quizData = pvQuizData;
             else return;
-            
-            const questionIndex = parseInt(button.dataset.questionIndex, 10);
-            const questionNumber = questionIndex + 1;
+
             const questionData = quizData[questionIndex];
-            
-            const selectedOption = document.querySelector(`input[name="${quizType}_question${questionNumber}"]:checked`);
+            const selectedOption = card.querySelector(`input[type="radio"]:checked`);
+
             if (!selectedOption) { return; }
 
             const userAnswer = selectedOption.value;
             const isCorrect = userAnswer === questionData.correctAnswer;
             
-            const choicesContainer = document.getElementById(`${quizType}_choices${questionNumber}`);
-            const reasoningDiv = document.getElementById(`${quizType}_reasoning${questionNumber}`);
-            const resultTitle = document.getElementById(`${quizType}_result-title${questionNumber}`);
-            const resultText = document.getElementById(`${quizType}_result-text${questionNumber}`);
-            
-            const allRadios = choicesContainer.querySelectorAll('input[type="radio"]');
+            const reasoningDiv = card.querySelector('.reasoning');
+            const resultTitle = reasoningDiv.querySelector('h3');
+            const resultText = reasoningDiv.querySelector('div');
+            const allRadios = card.querySelectorAll('input[type="radio"]');
 
             button.disabled = true;
             button.classList.add('bg-gray-400', 'cursor-not-allowed');
-            allRadios.forEach(radio => {
-                radio.disabled = true;
-            });
+            allRadios.forEach(radio => radio.disabled = true);
 
-            setTimeout(() => {
-                reasoningDiv.classList.remove('hidden', 'opacity-0', 'max-h-0');
-                reasoningDiv.classList.remove('border-blue-500', 'bg-blue-100', 'border-red-500', 'bg-red-50');
-                resultTitle.classList.remove('text-blue-700', 'text-red-700');
-                reasoningDiv.classList.add('opacity-100', 'max-h-screen');
-                
-                if (isCorrect) {
-                    resultTitle.textContent = '✅ Correct!';
-                    resultTitle.classList.add('text-blue-700');
-                    reasoningDiv.classList.add('border-blue-500', 'bg-blue-100');
-                    resultText.innerHTML = `<p>${questionData.reasoning.correct}</p>`;
-                } else {
-                    resultTitle.textContent = '❌ Incorrect';
-                    resultTitle.classList.add('text-red-700');
-                    reasoningDiv.classList.add('border-red-500', 'bg-red-50');
-                    let incorrectReasonsHTML = '<ul>';
-                    for (const key in questionData.reasoning.incorrect) {
-                        incorrectReasonsHTML += `<li class="mb-2"><strong>Why '${key}' is incorrect:</strong> ${questionData.reasoning.incorrect[key]}</li>`;
-                    }
-                    incorrectReasonsHTML += '</ul>';
-                    resultText.innerHTML = `<p class="mb-3"><strong>The correct answer is ${questionData.correctAnswer}.</strong> ${questionData.reasoning.correct}</p><h4 class="font-semibold mt-4 mb-2">Why other choices are incorrect:</h4>${incorrectReasonsHTML}`;
+            quizState.answered++;
+            if (isCorrect) {
+                quizState.correct++;
+            } else {
+                quizState.incorrect++;
+                quizState.incorrectIndices.push(questionIndex);
+            }
+            updateProgressBar();
+
+            reasoningDiv.classList.remove('hidden', 'opacity-0', 'max-h-0', 'border-blue-500', 'bg-blue-100', 'border-red-500', 'bg-red-50');
+            resultTitle.classList.remove('text-blue-700', 'text-red-700');
+            reasoningDiv.classList.add('opacity-100', 'max-h-screen');
+            
+            if (isCorrect) {
+                resultTitle.textContent = '✅ Correct!';
+                resultTitle.classList.add('text-blue-700');
+                reasoningDiv.classList.add('border-blue-500', 'bg-blue-100');
+                resultText.innerHTML = `<p>${questionData.reasoning.correct}</p>`;
+                selectedOption.parentElement.classList.add('bg-blue-100', 'border-blue-500');
+            } else {
+                resultTitle.textContent = '❌ Incorrect';
+                resultTitle.classList.add('text-red-700');
+                reasoningDiv.classList.add('border-red-500', 'bg-red-50');
+                let incorrectReasonsHTML = '<ul>';
+                for (const key in questionData.reasoning.incorrect) {
+                    incorrectReasonsHTML += `<li class="mb-2"><strong>Why '${key}' is incorrect:</strong> ${questionData.reasoning.incorrect[key]}</li>`;
                 }
-
-                allRadios.forEach(radio => {
-                    const label = radio.parentElement;
-                    if (isCorrect) {
-                        if (radio.checked) {
-                            label.classList.add('bg-blue-100', 'border-blue-500');
-                        }
-                    } else {
-                        if (radio.value === questionData.correctAnswer) {
-                            label.classList.add('bg-blue-100', 'border-blue-500');
-                        }
-                        if (radio.checked) {
-                            label.classList.add('bg-red-100', 'border-red-500');
-                        }
-                    }
-                });
-            }, 50); 
+                incorrectReasonsHTML += '</ul>';
+                resultText.innerHTML = `<p class="mb-3"><strong>The correct answer is ${questionData.correctAnswer}.</strong> ${questionData.reasoning.correct}</p><h4 class="font-semibold mt-4 mb-2">Why other choices are incorrect:</h4>${incorrectReasonsHTML}`;
+                selectedOption.parentElement.classList.add('bg-red-100', 'border-red-500');
+                card.querySelector(`input[value="${questionData.correctAnswer}"]`).parentElement.classList.add('bg-blue-100', 'border-blue-500');
+            }
         }
     </script>
 </body>
