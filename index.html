@@ -255,8 +255,12 @@
 
             try {
                 const quizFiles = [
-                    'para-quiz.json', 'gluco-quiz.json', 'chemo-quiz.json', 
-                    'antidote-quiz.json', 'rdu-quiz.json', 'pv-quiz.json'
+                    'pharmaco/para-quiz.json', 
+                    'pharmaco/gluco-quiz.json', 
+                    'pharmaco/chemo-quiz.json', 
+                    'pharmaco/antidote-quiz.json', 
+                    'pharmaco/rdu-quiz.json', 
+                    'pharmaco/pv-quiz.json'
                 ];
                 const responses = await Promise.all(quizFiles.map(file => fetch(file)));
 
