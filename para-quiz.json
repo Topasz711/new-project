@@ -1,0 +1,242 @@
+[
+    {
+        "question": "A farmworker is brought to the emergency room with symptoms of excessive salivation, lacrimation, bronchospasm, and bradycardia after exposure to an insecticide. Which of the following is the most likely cause?",
+        "choices": {
+            "A": "Direct stimulation of M2 and M3 receptors.",
+            "B": "Blockade of acetylcholine release from the axon terminal.",
+            "C": "Irreversible inhibition of acetylcholinesterase.",
+            "D": "Competitive antagonism of muscarinic receptors.",
+            "E": "Depolarizing neuromuscular blockade."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The symptoms presented are classic signs of a muscarinic cholinergic crisis. Organophosphates in insecticides are irreversible inhibitors of acetylcholinesterase (AChE), leading to an accumulation of ACh and overstimulation of its receptors.",
+            "incorrect": {
+                "A": "This describes the mechanism of a direct-acting drug, not an indirect one like insecticide poisoning.",
+                "B": "This is the mechanism of botulinum toxin, which causes opposite symptoms.",
+                "D": "This is the mechanism of an antidote like atropine.",
+                "E": "This describes the action of succinylcholine at nicotinic receptors."
+            }
+        }
+    },
+    {
+        "question": "A patient is given atropine as a pre-operative medication. Which of the following effects is intended?",
+        "choices": {
+            "A": "To cause muscle paralysis for easier intubation.",
+            "B": "To increase gastrointestinal motility post-surgery.",
+            "C": "To reduce bronchial and salivary secretions.",
+            "D": "To constrict the pupils (miosis).",
+            "E": "To decrease heart rate in case of surgical stress."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Atropine is a muscarinic receptor antagonist. By blocking M3 receptors on exocrine glands, it decreases secretions. One of its key clinical uses is reducing salivation and bronchial secretions before surgery to maintain a clear airway and prevent aspiration.",
+            "incorrect": {
+                "A": "Muscle paralysis for intubation is achieved with neuromuscular blockers (NMBs) like rocuronium or succinylcholine, which act on nicotinic receptors at the neuromuscular junction. Atropine does not cause muscle paralysis.",
+                "B": "As a muscarinic antagonist, atropine relaxes GI smooth muscle and decreases motility, leading to constipation.",
+                "D": "Atropine blocks M3 receptors on the pupillary constrictor muscle, causing the pupil to dilate (mydriasis), not constrict. Miosis is caused by muscarinic agonists.",
+                "E": "Atropine blocks M2 receptors in the heart, which leads to an increase in heart rate (tachycardia). It is used to treat bradycardia (low heart rate)."
+            }
+        }
+    },
+    {
+        "question": "Succinylcholine is used as a neuromuscular blocker. How does its mechanism differ from that of rocuronium?",
+        "choices": {
+            "A": "Succinylcholine is a competitive antagonist, while rocuronium is a non-competitive antagonist.",
+            "B": "Succinylcholine acts as a receptor agonist, while rocuronium is a competitive antagonist.",
+            "C": "Succinylcholine prevents ACh release, while rocuronium blocks the receptor.",
+            "D": "Succinylcholine can be reversed by neostigmine, while rocuronium cannot.",
+            "E": "Succinylcholine has a longer duration of action than rocuronium."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "These two drugs represent the two main classes of neuromuscular blockers. Succinylcholine is a depolarizing blocker; it acts as an acetylcholine (nACh) receptor agonist, binding to the receptor and causing a prolonged depolarization that leads to flaccid paralysis. Rocuronium is a non-depolarizing blocker; it acts as a competitive antagonist, preventing ACh from binding to its receptor, thereby preventing muscle depolarization.",
+            "incorrect": {
+                "A": "Succinylcholine is an agonist, not an antagonist. Rocuronium is a competitive antagonist.",
+                "C": "Preventing ACh release is the mechanism of botulinum toxin, not succinylcholine.",
+                "D": "The opposite is true. The block from non-depolarizing agents like rocuronium is reversed by acetylcholinesterase inhibitors like neostigmine. Administering neostigmine would worsen the paralysis caused by succinylcholine (in Phase I).",
+                "E": "Succinylcholine has a very short duration of action, while non-depolarizing agents like rocuronium generally last longer."
+            }
+        }
+    },
+    {
+        "question": "What is the specific therapeutic role of Pralidoxime (2-PAM) in treating organophosphate poisoning?",
+        "choices": {
+            "A": "It regenerates acetylcholinesterase by removing the organophosphate from the enzyme.",
+            "B": "It directly metabolizes the organophosphate compound in the bloodstream.",
+            "C": "It provides a source of new acetylcholinesterase enzyme to the body.",
+            "D": "It acts as a competitive antagonist at muscarinic receptors to block the effects of excess acetylcholine.",
+            "E": "It enhances the function of the sympathetic nervous system to counteract the parasympathetic overstimulation."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "Pralidoxime (2-PAM) is a cholinesterase reactivator. Its mechanism is to attach to the organophosphate molecule that is bound to the acetylcholinesterase enzyme and break the bond between them. This action removes the poison from the enzyme, allowing the enzyme to be regenerated and resume its normal function of breaking down acetylcholine. This must be done before the bond 'ages' and becomes permanent.",
+            "incorrect": {
+                "B": "Pralidoxime does not metabolize the poison; it works by salvaging the existing, poisoned enzyme.",
+                "C": "Pralidoxime does not create a new enzyme; it works by salvaging the existing, poisoned enzyme.",
+                "D": "This is the mechanism of action for atropine, which is also used in organophosphate poisoning but for a different purpose (symptom control).",
+                "E": "Pralidoxime's action is confined to regenerating AChE within the cholinergic system; it does not directly affect the sympathetic nervous system."
+            }
+        }
+    },
+    {
+        "question": "A patient presents with delirium, severe tachycardia, and mydriasis due to an overdose of a belladonna alkaloid. Which of the following would be the most effective antidote to reverse both the central and peripheral symptoms?",
+        "choices": {
+            "A": "Pralidoxime",
+            "B": "Physostigmine",
+            "C": "Bethanechol",
+            "D": "Neostigmine",
+            "E": "Edrophonium"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The patient is suffering from an anticholinergic toxidrome, likely from atropine or scopolamine (belladonna alkaloids). The treatment is an acetylcholinesterase inhibitor. To reverse the central symptoms (delirium), the antidote must be able to cross the blood-brain barrier (BBB). Physostigmine is a tertiary amine that crosses the BBB and is specifically indicated as an antidote for poisoning with anticholinergic agents to reverse toxic, life-threatening delirium.",
+            "incorrect": {
+                "A": "Pralidoxime is a cholinesterase reactivator used only for organophosphate poisoning.",
+                "C": "Bethanechol is a direct muscarinic agonist. While it could counter peripheral symptoms, it is not the standard antidote and would not address the central effects.",
+                "D": "Neostigmine and edrophonium are quaternary amines that do not cross the BBB effectively. They could reverse peripheral symptoms (tachycardia, mydriasis) but would not resolve the central delirium.",
+                "E": "Neostigmine and edrophonium are quaternary amines that do not cross the BBB effectively. They could reverse peripheral symptoms (tachycardia, mydriasis) but would not resolve the central delirium."
+            }
+        }
+    },
+    {
+        "question": "A patient with organophosphate poisoning has been given atropine, which has resolved their bradycardia and excessive secretions. However, they continue to experience severe muscle weakness. What is the rationale for adding pralidoxime (2-PAM) to their treatment?",
+        "choices": {
+            "A": "Pralidoxime enhances the muscarinic blocking effects of atropine at the heart and glands.",
+            "B": "Atropine does not affect nicotinic receptors at the neuromuscular junction, which are the cause of the muscle weakness.",
+            "C": "Pralidoxime is needed to reverse the toxic CNS effects that atropine cannot reach.",
+            "D": "The combination of atropine and pralidoxime directly neutralizes the organophosphate in the blood.",
+            "E": "Atropine can worsen muscle weakness, and pralidoxime is administered to counteract this specific side effect."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Organophosphate poisoning causes overstimulation of both muscarinic and nicotinic receptors. Atropine is a muscarinic antagonist and is very effective at blocking the muscarinic symptoms (bradycardia, salivation, bronchospasm). However, atropine has no effect at nicotinic receptors. Muscle weakness, fasciculations, and paralysis are nicotinic effects caused by ACh overstimulation at the neuromuscular junction (NMJ). Pralidoxime is required to regenerate AChE at the NMJ to break down the excess ACh, thereby reversing the muscle weakness.",
+            "incorrect": {
+                "A": "These statements describe incorrect mechanisms. Atropine and pralidoxime work via different, independent mechanisms and do not enhance each other.",
+                "C": "Pralidoxime works primarily in the periphery. Atropine can cross the BBB to address central muscarinic effects.",
+                "D": "These statements describe incorrect mechanisms. Atropine and pralidoxime do not directly neutralize the poison.",
+                "E": "These statements describe incorrect mechanisms. Atropine and pralidoxime work via different, independent mechanisms."
+            }
+        }
+    },
+    {
+        "question": "A 55-year-old man with a history of myasthenia gravis is undergoing surgery. Anesthesia requires the use of a neuromuscular blocking agent. Post-operatively, neostigmine is administered to reverse the muscle paralysis. Which of the following neuromuscular blockers was most likely used during his surgery?",
+        "choices": {
+            "A": "Benztropine",
+            "B": "Rocuronium",
+            "C": "Trimethaphan",
+            "D": "Succinylcholine",
+            "E": "Botulinum toxin"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Neostigmine is an acetylcholinesterase inhibitor that works by increasing the amount of acetylcholine at the neuromuscular junction. This increased level of ACh helps it to outcompete a competitive antagonist, thereby reversing its effect. Rocuronium is a non-depolarizing, competitive antagonist neuromuscular blocker.",
+            "incorrect": {
+                "A": "Benztropine is an anticholinergic for Parkinson's disease, not a neuromuscular blocker.",
+                "C": "Trimethaphan is a ganglionic blocker; neither is a neuromuscular blocker used in surgery.",
+                "D": "Succinylcholine is a depolarizing blocker (an agonist). Administering an AChE inhibitor like neostigmine would potentiate, not reverse, its paralytic effect.",
+                "E": "Botulinum toxin works by preventing ACh release, so increasing ACh with an inhibitor would have no substrate to act upon and would not reverse the paralysis."
+            }
+        }
+    },
+    {
+        "question": "A patient being treated for moderate Alzheimer's disease is prescribed a medication that is a centrally-acting acetylcholinesterase inhibitor. Which of the following medications was likely prescribed?",
+        "choices": {
+            "A": "Pilocarpine",
+            "B": "Neostigmine",
+            "C": "Donepezil",
+            "D": "Atropine",
+            "E": "Sugammadex"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Alzheimer's disease involves a cholinergic deficit in the brain. The primary treatment strategy is to increase central acetylcholine levels using an acetylcholinesterase inhibitor that can cross the blood-brain barrier. Donepezil, Rivastigmine, and Galantamine are acetylcholinesterase inhibitors used for mild to moderate Alzheimer's disease.",
+            "incorrect": {
+                "A": "Pilocarpine is a direct-acting muscarinic agonist used for glaucoma and dry mouth.",
+                "B": "Neostigmine is an acetylcholinesterase inhibitor, but it does not cross the blood-brain barrier and is used for peripheral conditions like myasthenia gravis.",
+                "D": "Atropine is a muscarinic antagonist and would worsen the cognitive symptoms of Alzheimer's.",
+                "E": "Sugammadex is a specific reversal agent for certain neuromuscular blockers and has no role in Alzheimer's treatment."
+            }
+        }
+    },
+    {
+        "question": "Which of the following agents is a depolarizing neuromuscular blocker that acts as a Nicotinic receptor agonist?",
+        "choices": {
+            "A": "d-Tubocurarine",
+            "B": "Nicotine",
+            "C": "Rocuronium",
+            "D": "Scopolamine",
+            "E": "Succinylcholine"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The definition of a depolarizing neuromuscular blocker is an agent that acts as a nicotinic acetylcholine (nACh) receptor agonist at the neuromuscular junction. Succinylcholine fits this description perfectly. It binds to nACh receptors, generating an action potential (depolarization), but its prolonged binding prevents the end plate from repolarizing, resulting in flaccid paralysis.",
+            "incorrect": {
+                "A": "d-Tubocurarine and rocuronium are non-depolarizing neuromuscular blockers; they act as competitive antagonists, not agonists.",
+                "B": "While nicotine is a nicotinic receptor agonist, it is not used clinically as a neuromuscular blocker.",
+                "C": "d-Tubocurarine and rocuronium are non-depolarizing neuromuscular blockers; they act as competitive antagonists, not agonists.",
+                "D": "Scopolamine is a muscarinic receptor antagonist, not a nicotinic agonist."
+            }
+        }
+    },
+    {
+        "question": "A patient with postoperative urinary retention who is not otherwise obstructed would be best treated with which of the following agents to stimulate urination?",
+        "choices": {
+            "A": "Pilocarpine",
+            "B": "Oxybutynin",
+            "C": "Bethanechol",
+            "D": "Benztropine",
+            "E": "Scopolamine"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "To treat urinary retention, a drug that stimulates the contraction of the bladder's detrusor muscle is needed. This is achieved by stimulating muscarinic (M3) receptors. Bethanechol is a direct-acting muscarinic agonist whose specific clinical use is the treatment of acute postoperative and postpartum nonobstructive urinary retention.",
+            "incorrect": {
+                "A": "Pilocarpine is also a muscarinic agonist, but its primary uses are for glaucoma and Sjögren syndrome, not urinary retention.",
+                "B": "Oxybutynin is a muscarinic antagonist used to treat an overactive bladder by relaxing the detrusor muscle—the exact opposite of the desired effect.",
+                "D": "Benztropine and scopolamine are muscarinic antagonists used for Parkinson's disease and motion sickness, respectively. They would worsen urinary retention.",
+                "E": "Benztropine and scopolamine are muscarinic antagonists used for Parkinson's disease and motion sickness, respectively. They would worsen urinary retention."
+            }
+        }
+    },
+    {
+        "question": "A farmer is exposed to a large amount of an organophosphate insecticide. He presents with symptoms of diarrhea, urination, miosis, bronchospasm, and excessive salivation. The physician administers Atropine, which alleviates most symptoms. However, one specific symptom persists because it is mediated by a different receptor type than the others. Which symptom is LEAST likely to be resolved by Atropine?",
+        "choices": {
+            "A": "Miosis",
+            "B": "Diarrhea",
+            "C": "Muscle twitching",
+            "D": "Bronchospasm",
+            "E": "Excessive salivation"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Atropine is a muscarinic receptor antagonist. It is effective at blocking the effects of acetylcholine at muscarinic receptors. All the symptoms listed—diarrhea (M3), miosis (M3), bronchospasm (M3), and salivation (M3)—are mediated by muscarinic receptors and would be alleviated by atropine. However, muscle twitching (fasciculations) is a nicotinic effect, caused by acetylcholine acting on nicotinic receptors at the neuromuscular junction (NMJ). Since atropine does not block nicotinic receptors, it will not resolve this symptom.",
+            "incorrect": {
+                "A": "This is a classic muscarinic effect of parasympathetic overstimulation, which is effectively blocked by atropine.",
+                "B": "This is a classic muscarinic effect of parasympathetic overstimulation, which is effectively blocked by atropine.",
+                "D": "This is a classic muscarinic effect of parasympathetic overstimulation, which is effectively blocked by atropine.",
+                "E": "This is a classic muscarinic effect of parasympathetic overstimulation, which is effectively blocked by atropine."
+            }
+        }
+    },
+    {
+        "question": "A 65-year-old man with COPD is managed with a long-acting beta-agonist. To achieve better symptom control, his doctor adds an inhaled anticholinergic agent. Which of the following would be the most suitable choice for a once-daily maintenance therapy due to its prolonged duration of action and selectivity for M1/M3 receptors?",
+        "choices": {
+            "A": "Ipratropium",
+            "B": "Benztropine",
+            "C": "Tiotropium",
+            "D": "Pilocarpine",
+            "E": "Atropine"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The goal is to provide long-term bronchodilation for COPD with a once-daily inhaled medication. This requires a Long-Acting Muscarinic Antagonist (LAMA). Tiotropium is a LAMA with a duration of action that typically lasts over 24 hours, allowing for once-daily dosing, making it ideal for long-term maintenance treatment for COPD.",
+            "incorrect": {
+                "A": "Ipratropium is a Short-Acting Muscarinic Antagonist (SAMA) with a duration of only 4-6 hours, requiring more frequent dosing and is typically used as a reliever, not for long-term maintenance.",
+                "B": "Benztropine is an anticholinergic used for Parkinson's disease and is not administered via inhalation for COPD.",
+                "D": "Pilocarpine is a muscarinic agonist and would cause bronchoconstriction, worsening COPD symptoms.",
+                "E": "While atropine is an anticholinergic, it is not formulated for long-acting, once-daily inhalation for COPD and has more systemic side effects. Tiotropium is the more modern and appropriate choice."
+            }
+        }
+    }
+]

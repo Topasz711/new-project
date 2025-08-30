@@ -1,0 +1,82 @@
+[
+    {
+        "question": "A 60-year-old male has been on high-dose prednisone therapy for the past two years to manage severe rheumatoid arthritis. Which of the following adverse effects is the most likely consequence of his long-term treatment?",
+        "choices": {
+            "A": "Hypotension",
+            "B": "Osteoporosis",
+            "C": "Mydriasis (pupil dilation)",
+            "D": "Increased muscle mass",
+            "E": "Hypoglycemia"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Long-term use of glucocorticoids like prednisone is a well-documented cause of osteoporosis. This occurs because these medications decrease bone formation and can lead to a loss of bone mass over time.",
+            "incorrect": {
+                "A": "Hypotension: This is incorrect. Glucocorticoids often cause salt and water retention, which typically leads to hypertension (high blood pressure), not hypotension.",
+                "C": "Mydriasis (pupil dilation): This is incorrect. While eye-related side effects can occur, they are typically glaucoma and cataracts, not pupil dilation.",
+                "D": "Increased muscle mass: This is incorrect. Glucocorticoids have catabolic effects on protein, leading to decreased muscle mass, muscle atrophy, and weakness.",
+                "E": "Hypoglycemia: This is incorrect. Glucocorticoids increase gluconeogenesis and insulin resistance, leading to hyperglycemia (high blood sugar) and a diabetogenic effect."
+            }
+        }
+    },
+    {
+        "question": "Which of the following drugs exerts its anti-inflammatory effect by directly inhibiting the enzyme Phospholipase A2, thereby preventing the formation of arachidonic acid?",
+        "choices": {
+            "A": "Aspirin",
+            "B": "Mifepristone",
+            "C": "Prednisolone",
+            "D": "Spironolactone",
+            "E": "Ketoconazole"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Prednisolone is a corticosteroid. The primary anti-inflammatory mechanism of corticosteroids is the inhibition of the enzyme Phospholipase A2. This action blocks the release of arachidonic acid from phospholipids, which is the precursor for inflammatory mediators like prostaglandins and leukotrienes.",
+            "incorrect": {
+                "A": "Aspirin: This is incorrect. Aspirin is a nonsteroidal anti-inflammatory drug (NSAID) that works by inhibiting the Cyclooxygenase (COX) enzyme, which is further down the inflammatory pathway from arachidonic acid.",
+                "B": "Mifepristone: This is incorrect. Mifepristone acts as a glucocorticoid receptor antagonist, meaning it blocks the receptor itself rather than an enzyme in the inflammatory pathway.",
+                "D": "Spironolactone: This is incorrect. Spironolactone is a mineralocorticoid antagonist that competes with aldosterone at its receptor site. It does not inhibit Phospholipase A2.",
+                "E": "Ketoconazole: This is incorrect. Ketoconazole is an antifungal agent that also inhibits several enzymes involved in steroid synthesis, not the inflammatory pathway enzymes."
+            }
+        }
+    },
+    {
+        "question": "A patient with Cushing's syndrome caused by an adrenal tumor is treated with ketoconazole. What is the primary mechanism that makes this drug effective in this condition?",
+        "choices": {
+            "A": "It increases the metabolic clearance of cortisol from the body.",
+            "B": "It strongly inhibits 17α-hydroxylase, reducing cortisol synthesis.",
+            "C": "It blocks glucocorticoid receptors in peripheral tissues.",
+            "D": "It acts as a competitive antagonist at the aldosterone receptor.",
+            "E": "It inhibits the release of ACTH from the pituitary gland."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Ketoconazole is a potent, nonselective inhibitor of adrenal steroid synthesis. It works by blocking multiple enzymes in the cortisol production pathway, including 17α-hydroxylase. This inhibition leads to a decrease in the overall synthesis of cortisol, making it an effective treatment for Cushing's syndrome.",
+            "incorrect": {
+                "A": "It increases the metabolic clearance of cortisol from the body: This is incorrect. Ketoconazole works by blocking the production of cortisol, not by increasing its removal from the body.",
+                "C": "It blocks glucocorticoid receptors in peripheral tissues: This is incorrect. This describes the mechanism of action for Mifepristone, a glucocorticoid receptor antagonist.",
+                "D": "It acts as a competitive antagonist at the aldosterone receptor: This is incorrect. This is the mechanism of action for Spironolactone.",
+                "E": "It inhibits the release of ACTH from the pituitary gland: This is incorrect. Ketoconazole acts directly on the adrenal cortex to inhibit steroid synthesis; it does not primarily affect the pituitary gland's release of ACTH."
+            }
+        }
+    },
+    {
+        "question": "A patient abruptly stops taking corticosteroids and develops adrenal insufficiency. What symptom will be found in this patient?",
+        "choices": {
+            "A": "Emotional disturbance",
+            "B": "Hypertension",
+            "C": "Hyperglycemia",
+            "D": "Dehydration",
+            "E": "Moon face"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "Abruptly stopping long-term corticosteroid therapy can cause acute adrenal insufficiency because the body's natural production of cortisol has been suppressed (HPA axis suppression). Cortisol naturally has some mineralocorticoid effects, which include promoting sodium and water retention. The sudden lack of cortisol leads to the loss of sodium and water, resulting in dehydration.",
+            "incorrect": {
+                "A": "Emotional disturbance: This is incorrect. Emotional disturbances, mood changes, and psychosis are associated with corticosteroid excess, not deficiency.",
+                "B": "Hypertension: This is incorrect. Hypertension is a common side effect of corticosteroid excess due to salt and water retention. Adrenal insufficiency would more likely cause hypotension.",
+                "C": "Hyperglycemia: This is incorrect. Hyperglycemia is a characteristic metabolic effect of corticosteroid excess. Adrenal insufficiency can lead to hypoglycemia.",
+                "E": "Moon face: This is incorrect. Moon face, along with buffalo hump, and truncul obesity, is a classic sign of fat redistribution caused by corticosteroid excess (Cushingoid appearance)."
+            }
+        }
+    }
+]

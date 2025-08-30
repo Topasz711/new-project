@@ -1,0 +1,102 @@
+[
+    {
+        "question": "In monitoring the rational use of drugs (RDU) at a hospital in Thailand, which of the following indicators is a key measure used to evaluate prescribing patterns?",
+        "choices": {
+            "A": "The number of imported drugs used.",
+            "B": "The number of adverse events reported per month.",
+            "C": "The annual budget spent on drug advertising.",
+            "D": "The percentage of prescriptions containing at least one injectable medicine.",
+            "E": "The percentage of pharmacists in treatment and management at the hospital."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "This is a classic 'Prescribing Pattern Indicator.' Monitoring the frequency of injections helps assess clinical decision-making, as overuse can be costly, increase the risk of infection, and may not be necessary. It is a direct measure of how drugs are being prescribed.",
+            "incorrect": {
+                "A": "A drug's country of origin does not determine if its use is rational.",
+                "B": "This is an outcome indicator related to patient safety (pharmacovigilance), not a direct measure of the prescribing pattern itself.",
+                "C": "Hospitals do not have budgets for advertising drugs to consumers.",
+                "E": "The ratio of staff is a structural indicator of hospital resources, not a measure of prescribing behavior."
+            }
+        }
+    },
+    {
+        "question": "According to the Ministry of Public Health, what is the main objective of Thailand's RDU project?",
+        "choices": {
+            "A": "To reduce the use of all types of prescription drugs.",
+            "B": "To increase drug sales and exports worldwide.",
+            "C": "To limit access to expensive, specialized drugs.",
+            "D": "To promote the use of traditional medicine in all public hospitals.",
+            "E": "To promote the safe, effective, and cost-effective use of medicines based on evidence."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "This choice perfectly encapsulates the global definition of Rational Drug Use (RDU). The project's goal is to ensure that patients receive medicine appropriate for their clinical needs, in the correct dose, for an adequate duration, and at the lowest possible cost to them and the community, all guided by scientific evidence.",
+            "incorrect": {
+                "A": "The goal is to reduce irrational drug use, not to stop the use of necessary medications.",
+                "B": "This is a commercial objective, whereas the RDU project is a public health initiative.",
+                "C": "The project aims for rational access to all necessary medicines, not to create barriers to essential treatments.",
+                "D": "The RDU project applies to all medicines, with a primary focus on modern pharmaceuticals, not exclusively on promoting traditional medicine."
+            }
+        }
+    },
+    {
+        "question": "According to the national Rational Drug Use (RDU) hospital project, which of the following is a key objective that aligns with Thailand's national strategic goals?",
+        "choices": {
+            "A": "Reduce the prescription of antibiotics for upper respiratory tract infections.",
+            "B": "Every hospital must create its own proprietary drug list.",
+            "C": "Antiviral drugs must be available for sale without a prescription.",
+            "D": "Painkillers must be completely removed from the outpatient drug list.",
+            "E": "Every patient must receive at least two types of antibiotics per prescription."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "A primary indicator for the success of the RDU project is the reduction of antibiotic prescriptions for conditions that are often viral, such as upper respiratory tract infections (URIs) and acute diarrhea. This measure directly addresses the critical national goal of combating antimicrobial resistance (AMR).",
+            "incorrect": {
+                "B": "Hospitals in Thailand are guided by the National List of Essential Medicines, not by creating their own proprietary lists.",
+                "C": "Antiviral drugs require a doctor's prescription for proper diagnosis and monitoring.",
+                "D": "While their use should be rational, painkillers are essential medications and cannot be entirely removed from use.",
+                "E": "Prescribing multiple antibiotics (polypharmacy) is generally discouraged as it increases the risk of adverse drug reactions and bacterial resistance."
+            }
+        }
+    },
+    {
+        "question": "Which Thai government agency has the primary responsibility for advising and overseeing the implementation of RDU nationwide?",
+        "choices": {
+            "A": "The Pharmacy Council of Thailand.",
+            "B": "The National Health Security Office (NHSO).",
+            "C": "The Food and Drug Administration (FDA).",
+            "D": "Health Systems Research Institutes and universities.",
+            "E": "The Food and drug Administration (FDA) and the Ministry of Public Health (MOPH)."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The national RDU policy is driven at the highest level by the Ministry of Public Health (MOPH), which sets the overarching strategy. The Food and Drug Administration (FDA) is the key operational agency within the MOPH responsible for drug regulation and implementation. Together, they form the primary authority for guiding and overseeing the project.",
+            "incorrect": {
+                "A": "The Pharmacy Council is a professional body that governs pharmacists, not a government agency that implements national health policy.",
+                "B": "The NHSO is primarily responsible for managing the universal healthcare budget, not for the direct clinical oversight of RDU implementation.",
+                "C": "While the FDA is a critical component, it operates under the broader policy direction of the MOPH, making the combined answer more complete.",
+                "D": "Research institutes and universities provide evidence and academic support but are not the official governing or regulatory bodies."
+            }
+        }
+    },
+    {
+        "question": "Which of the following best demonstrates the rational use of drugs at the community level in Thailand?",
+        "choices": {
+            "A": "Encourage all villagers to stockpile paracetamol and antibiotics.",
+            "B": "Selling antibiotics for fever without a prescription at local pharmacies.",
+            "C": "Educating patients to buy specific brands of antibiotics for better results.",
+            "D": "Completely replacing necessary medicines with herbal supplements.",
+            "E": "Promoting community health volunteers to support adherence to medication instructions and report side effects."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "Community health volunteers (known in Thai as Or Sor Mor) are a cornerstone of Thailand's primary healthcare system. Empowering them to help patients follow medication instructions correctly and monitor for adverse effects is a key strategy for promoting rational drug use at the grassroots level.",
+            "incorrect": {
+                "A": "Stockpiling medicines is irrational and can lead to the use of expired or inappropriate drugs, especially antibiotics.",
+                "B": "Selling antibiotics without a prescription is a major contributor to antibiotic resistance and is against the principles of RDU.",
+                "C": "Rational drug use focuses on the appropriate generic medication for the condition, not on promoting specific brands.",
+                "D": "Herbal supplements cannot and should not be used as a complete substitute for essential, evidence-based medicines needed to treat specific diseases."
+            }
+        }
+    }
+]

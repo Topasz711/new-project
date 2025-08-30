@@ -1,0 +1,102 @@
+[
+    {
+        "question": "A pharmacist at a Thai hospital wants to report a suspected adverse drug reaction (ADR) using the national reporting system. What method should they use?",
+        "choices": {
+            "A": "Reporting ADR via MedWatch",
+            "B": "Sending reports directly to the World Health Organization (WHO) in Geneva",
+            "C": "Reporting online via the Thai FDA's e-submission system",
+            "D": "Reporting by phone to the Ministry of Public Health (Mandatory)",
+            "E": "Using a QR code on the drug packaging to access the WHO database"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "In Thailand, healthcare professionals, including pharmacists, are required to report ADRs through the national system, which is the Thai FDA's e-submission system. This is the correct channel for submitting reports to the national pharmacovigilance center.",
+            "incorrect": {
+                "A": "MedWatch is the reporting system used in the United States, not Thailand.",
+                "B": "Direct reporting to the WHO is not the standard procedure for national pharmacovigilance. The national system collects the data first, and then it is submitted to the WHO database.",
+                "D": "While it's possible to report by phone, it's not the mandatory or primary method. The e-submission system is the standard and required channel for official reports.",
+                "E": "QR codes on drug packaging are not a standard method for reporting to the WHO database in Thailand."
+            }
+        }
+    },
+    {
+        "question": "What is the main objective of the National Pharmacovigilance System of Thailand?",
+        "choices": {
+            "A": "To facilitate clinical trials for new chemical substances",
+            "B": "To monitor drug prices at community pharmacies",
+            "C": "To identify, assess, and prevent adverse drug reactions (ADRs) and build patient confidence in safety",
+            "D": "To monitor and promote the use of traditional herbs and dietary supplements",
+            "E": "To evaluate the cost-effectiveness of drug advertising and hospital management"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The core purpose of the National Pharmacovigilance System is to ensure public health and safety by actively identifying, assessing, and preventing ADRs. A key goal is to build and maintain public trust in the safety of medications.",
+            "incorrect": {
+                "A": "Clinical trials are a separate process, although pharmacovigilance data can inform trial design. The main objective isn't to facilitate trials.",
+                "B": "Monitoring drug prices is handled by other government agencies and is not a function of pharmacovigilance.",
+                "D": "While pharmacovigilance includes traditional medicine, monitoring and promoting their use is not the system's primary objective.",
+                "E": "Evaluating the cost-effectiveness of advertising and hospital management are not part of pharmacovigilance."
+            }
+        }
+    },
+    {
+        "question": "Which organization serves as the National Pharmacovigilance Center of Thailand, responsible for collecting and analyzing adverse drug reactions (ADR) reports?",
+        "choices": {
+            "A": "Department of Disease Control",
+            "B": "Health Systems Research Institute (HSRI)",
+            "C": "Ministry of Finance and Ministry of Foreign Affairs",
+            "D": "Bureau of Drug Control, Food and Drug Administration (under the Ministry of Public Health)",
+            "E": "National Science and Technology Development Agency (NSTDA)"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The Bureau of Drug Control, Food and Drug Administration (FDA) is the main agency responsible for pharmacovigilance in Thailand. It collects ADR reports and analyzes them to ensure drug safety. The Pharmacovigilance Center is under the Bureau of Drug Control, which is the main coordination center for the pharmacovigilance system in Thailand.",
+            "incorrect": {
+                "A": "The Department of Disease Control is responsible for monitoring and controlling communicable and non-communicable diseases. Their work is related to epidemiology and disease surveillance.",
+                "B": "The Health Systems Research Institute focuses on health systems research and policy recommendations, not on day-to-day operational work of collecting and analyzing ADR reports.",
+                "C": "The Ministry of Finance and the Ministry of Foreign Affairs have entirely different functions and are not involved in pharmacovigilance.",
+                "E": "The National Science and Technology Development Agency (NSTDA) is a funding agency for scientific and technological research and development. Their work is much broader than just pharmacovigilance."
+            }
+        }
+    },
+    {
+        "question": "Which healthcare professionals are legally and ethically encouraged to report suspected adverse drug reactions (ADRs) in Thailand?",
+        "choices": {
+            "A": "Doctors only",
+            "B": "Pharmacists only",
+            "C": "Hospital directors only",
+            "D": "Representatives from the pharmaceutical industry only",
+            "E": "All licensed healthcare professionals, including doctors, pharmacists, and nurses"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The law and ethical guidelines in Thailand encourage all licensed healthcare professionals—including doctors, dentists, pharmacists, and nurses—to report ADRs. This collective responsibility ensures the comprehensive collection of data for the national pharmacovigilance system.",
+            "incorrect": {
+                "A": "This is incorrect because it improperly restricts the responsibility to a single group. The national pharmacovigilance system relies on reports from all healthcare professionals to be effective.",
+                "B": "This is incorrect because it improperly restricts the responsibility to a single group. The national pharmacovigilance system relies on reports from all healthcare professionals to be effective.",
+                "C": "This is incorrect because it improperly restricts the responsibility to a single group. The national pharmacovigilance system relies on reports from all healthcare professionals to be effective.",
+                "D": "This is incorrect because it improperly restricts the responsibility to a single group. The national pharmacovigilance system relies on reports from all healthcare professionals to be effective."
+            }
+        }
+    },
+    {
+        "question": "According to the Thai national pharmacovigilance guidelines, which type of adverse drug reaction (ADR) should be prioritized for reporting?",
+        "choices": {
+            "A": "Minor side effects that disappear within 24 hours",
+            "B": "All adverse reactions from over-the-counter (OTC) drugs",
+            "C": "Reactions from dietary supplements and cosmetics only",
+            "D": "Severe, unexpected, and new ADRs from all drug classes",
+            "E": "Only reactions from herbal products and dietary supplements"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The national pharmacovigilance system's primary focus is on severe, unexpected, and new ADRs from all drug classes. These reactions pose the greatest risk to public health and require immediate attention and analysis to prevent future harm.",
+            "incorrect": {
+                "A": "While minor side effects can be reported, they are not the main priority. The system prioritizes more serious and unexpected events.",
+                "B": "OTC drugs are part of the system, but the focus is on the severity and unexpected nature of the reaction, not the drug's classification.",
+                "C": "Reactions from dietary supplements and cosmetics are part of the system, but they are not the sole focus.",
+                "E": "This is too restrictive. The system covers all types of drugs, not just herbal products and supplements."
+            }
+        }
+    }
+]

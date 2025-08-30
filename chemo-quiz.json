@@ -1,0 +1,122 @@
+[
+    {
+        "question": "A 60-year-old woman is being treated for breast cancer with a regimen that includes an anthracycline antibiotic. She later develops signs of heart failure. Which of the following drugs is most likely responsible for this irreversible cardiotoxicity?",
+        "choices": {
+            "A": "Cisplatin",
+            "B": "Doxorubicin",
+            "C": "Vincristine",
+            "D": "Methotrexate",
+            "E": "Bleomycin"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Doxorubicin is listed as an anthracycline antibiotic. The documents explicitly state that \"Anthracyclines produce irreversible cardiotoxicity\", which can manifest as cardiomyopathy and heart failure.",
+            "incorrect": {
+                "A": "Cisplatin is associated with severe emesis, nephrotoxicity, and ototoxicity, not cardiotoxicity.",
+                "C": "Vincristine's primary toxicity is peripheral neuropathy.",
+                "D": "Methotrexate toxicity includes nephrotoxicity, hepatotoxicity, and pulmonary fibrosis.",
+                "E": "Bleomycin is known for causing pulmonary fibrosis and skin hyperpigmentation."
+            }
+        }
+    },
+    {
+        "question": "A patient with advanced breast cancer complains of numbness and tingling in her hands and feet after starting chemotherapy. Which drug, known for stabilizing microtubules and inhibiting mitosis, most likely caused this adverse effect?",
+        "choices": {
+            "A": "Cyclophosphamide",
+            "B": "Trastuzumab",
+            "C": "Doxorubicin",
+            "D": "Docetaxel",
+            "E": "Tamoxifen"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "Docetaxel is classified as a taxane. The mechanism of action for taxanes is to bind to tubulin and stabilize microtubules, which inhibits mitosis. A major toxicity associated with this class is peripheral neuropathy, which presents with symptoms like numbness and tingling.",
+            "incorrect": {
+                "A": "Cyclophosphamide's characteristic toxicity is hemorrhagic cystitis.",
+                "B": "Trastuzumab is not discussed in the provided documents.",
+                "C": "Doxorubicin's main dose-limiting toxicity is cardiotoxicity.",
+                "E": "Tamoxifen is not discussed in the provided documents."
+            }
+        }
+    },
+    {
+        "question": "A patient with gout is prescribed allopurinol, a xanthine oxidase inhibitor. This patient is also receiving chemotherapy for acute lymphocytic leukemia. The oncologist decides to significantly reduce the dose of one of the chemotherapy agents to prevent toxicity. Which chemotherapeutic drug's metabolism is inhibited by allopurinol?",
+        "choices": {
+            "A": "Doxorubicin",
+            "B": "Fluorouracil",
+            "C": "Bleomycin",
+            "D": "6-Mercaptopurine",
+            "E": "Mitomycin C"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The metabolic pathway shows that 6-Mercaptopurine (6-MP) is metabolized by the enzyme xanthine oxidase. Allopurinol inhibits this enzyme. This inhibition prevents the breakdown of 6-MP, leading to significantly increased drug levels and potential toxicity. Therefore, the dose of 6-MP must be reduced when given with allopurinol.",
+            "incorrect": {
+                "A": "The documents do not describe a similar metabolic interaction between allopurinol and doxorubicin.",
+                "B": "The documents do not describe a similar metabolic interaction between allopurinol and fluorouracil.",
+                "C": "The documents do not describe a similar metabolic interaction between allopurinol and bleomycin.",
+                "E": "The documents do not describe a similar metabolic interaction between allopurinol and mitomycin C."
+            }
+        }
+    },
+    {
+        "question": "Vinca alkaloids (like vincristine) and taxanes (like paclitaxel) are both mitotic inhibitors derived from plants, yet they have opposing mechanisms of action on microtubules. Which statement accurately describes their mechanisms?",
+        "choices": {
+            "A": "Vinca alkaloids act in the G1 phase, while taxanes act in the S phase.",
+            "B": "Both drug classes work by inhibiting topoisomerase II.",
+            "C": "Vinca alkaloids stabilize microtubules, while taxanes inhibit their polymerization.",
+            "D": "Both drug classes intercalate into DNA to prevent transcription.",
+            "E": "Vinca alkaloids inhibit the polymerization of tubulin, while taxanes stabilize existing microtubules, preventing their disassembly."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The diagram clearly shows that Vinca alkaloids inhibit the polymerization of tubulin into microtubules, preventing mitotic spindle formation. In contrast, taxanes stabilize existing microtubules, preventing the cell from breaking them down, which also halts mitosis.",
+            "incorrect": {
+                "A": "Both are mitotic inhibitors and act in the M phase of the cell cycle.",
+                "B": "Topoisomerase II is inhibited by drugs like epipodophyllotoxins.",
+                "C": "This statement reverses the actual mechanisms of the two drug classes.",
+                "D": "DNA intercalation is a mechanism used by anticancer antibiotics like doxorubicin."
+            }
+        }
+    },
+    {
+        "question": "A patient is treated for non-Hodgkin's lymphoma with a CHOP regimen (Cyclophosphamide, Doxorubicin, Vincristine, Prednisone). Which combination of drug and potential long-term, irreversible toxicity is correctly matched?",
+        "choices": {
+            "A": "Cyclophosphamide - Pulmonary fibrosis",
+            "B": "Doxorubicin - Cardiomyopathy",
+            "C": "Prednisone - Nephrotoxicity",
+            "D": "Cyclophosphamide - Peripheral neuropathy",
+            "E": "Vincristine - Hemorrhagic cystitis"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Doxorubicin is an anthracycline known to cause irreversible cardiotoxicity, specifically leading to cardiomyopathy and heart failure.",
+            "incorrect": {
+                "A": "The primary toxicity of Cyclophosphamide is hemorrhagic cystitis, not pulmonary fibrosis.",
+                "C": "Prednisone and its toxicities are not discussed in the provided documents.",
+                "D": "The primary toxicity of Cyclophosphamide is hemorrhagic cystitis, not peripheral neuropathy.",
+                "E": "The primary dose-limiting toxicity of Vincristine is peripheral neuropathy, not hemorrhagic cystitis. The choices in D and E incorrectly swap the toxicities of cyclophosphamide and vincristine."
+            }
+        }
+    },
+    {
+        "question": "A patient receiving a chemotherapy regimen including both cyclophosphamide and ifosfamide develops severe hemorrhagic cystitis and also exhibits signs of confusion and lethargy. While acrolein is a common metabolite responsible for the bladder toxicity of both drugs, which neurotoxic metabolite is uniquely associated with ifosfamide metabolism?",
+        "choices": {
+            "A": "Phosphoramide mustard",
+            "B": "Acrolein",
+            "C": "Methylene blue",
+            "D": "Chloroacetaldehyde",
+            "E": "7-hydroxymethotrexate"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The diagram shows that ifosfamide is metabolized to acrolein and chloroacetaldehyde. The diagram explicitly links chloroacetaldehyde to neurotoxicity, which would account for symptoms like confusion and lethargy.",
+            "incorrect": {
+                "A": "Phosphoramide mustard is an active metabolite of cyclophosphamide.",
+                "B": "Acrolein is the metabolite from both drugs that causes hemorrhagic cystitis, not neurotoxicity.",
+                "C": "Methylene blue is mentioned as a treatment used to alleviate the neurotoxicity from ifosfamide, it is not the toxic metabolite itself.",
+                "E": "7-hydroxymethotrexate is a metabolite of methotrexate associated with nephrotoxicity."
+            }
+        }
+    }
+]

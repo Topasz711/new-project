@@ -1,0 +1,237 @@
+[
+    {
+        "question": "A patient is admitted with acute arsenic poisoning. Based on the treatment information for heavy metal poisoning, which of the following chelating agents would be most appropriate for this patient?",
+        "choices": {
+            "A": "Calcium EDTA",
+            "B": "Succimer",
+            "C": "Penicillamine",
+            "D": "Deferoxamine",
+            "E": "Dimercaprol"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The document explicitly lists Dimercaprol as the chelating agent for treating acute arsenic poisoning. It is administered via deep intramuscular injection.",
+            "incorrect": {
+                "A": "Calcium EDTA is indicated for lead poisoning.",
+                "B": "Succimer (DMSA) is used for treating lead, arsenic, and mercury poisoning, but Dimercaprol is specified as the primary treatment for acute arsenic poisoning in the text.",
+                "C": "Penicillamine is primarily used for copper poisoning (specifically Wilson's disease) and can also be used for lead and mercury poisoning.",
+                "D": "Deferoxamine is the specific chelating agent for iron poisoning."
+            }
+        }
+    },
+    {
+        "question": "A group of friends goes foraging for mushrooms. One of them consumes a mushroom and later experiences visual hallucinations and euphoria. The mushroom is identified as Psilocybe cubensis (เห็ดขี้ควาย). What is the toxin responsible for these psychoactive effects?",
+        "choices": {
+            "A": "Amatoxins",
+            "B": "Psilocybin",
+            "C": "Muscarine",
+            "D": "Gyromitrin",
+            "E": "Cyclopeptide"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The provided material identifies Psilocybe cubensis (เห็ดขี้ควาย) as a mushroom that causes hallucinations. The toxins responsible for its psychoactive effects are psilocybin and psilocin. The symptoms of euphoria and visual hallucinations match the description of poisoning from this mushroom.",
+            "incorrect": {
+                "A & E": "Amatoxins and other cyclopeptides are found in mushrooms like Amanita phalloides (Death Cap). They are potent hepatotoxins that cause severe liver damage after a delayed onset of 6-24 hours and do not cause psychoactive symptoms.",
+                "C": "Muscarine is a toxin that stimulates muscarinic acetylcholine receptors, leading to symptoms like sweating, salivation, and lacrimation. It does not cause hallucinations.",
+                "D": "Gyromitrin is a toxin found in false morels (Gyromitra esculenta) which is metabolized to monomethylhydrazine (MMH). It is a neurotoxin but causes symptoms like dizziness and seizures, not the psychoactive effects described."
+            }
+        }
+    },
+    {
+        "question": "A 30-year-old man is bitten by a snake with distinct yellow and black bands. He develops progressive muscle weakness and flaccid paralysis. The venom is identified as a neurotoxin that binds irreversibly to acetylcholine receptors at the presynaptic neuron. Which snake is the most likely cause?",
+        "choices": {
+            "A": "Sea snake",
+            "B": "King Cobra",
+            "C": "Banded krait",
+            "D": "Green pit viper",
+            "E": "Russell's viper"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The Banded krait (Bungarus fasciatus) is described as having potent neurotoxins (α- and β-bungarotoxin) that act on presynaptic neurons, irreversibly blocking acetylcholine release. This leads to the classic symptoms of progressive flaccid paralysis and muscle weakness. The snake's appearance matches the yellow and black band description.",
+            "incorrect": {
+                "A": "While sea snakes have neurotoxic venom, the specific mechanism described (irreversible presynaptic binding) is characteristic of kraits.",
+                "B": "The King Cobra's neurotoxin primarily acts on the postsynaptic acetylcholine receptors, competing with acetylcholine.",
+                "D & E": "The Green pit viper and Russell's viper are primarily hematotoxic, causing coagulation problems, bleeding, and local tissue damage, not the primary neurotoxic symptoms described."
+            }
+        }
+    },
+    {
+        "question": "A 45-year-old man is brought to the hospital with paralysis of voluntary muscles, including the diaphragm, leading to respiratory arrest. His heart rate is rapid, and he has a loss of sensation. The mechanism of the toxin involves blocking fast voltage-gated sodium channels. Which of the following is the most likely causative agent?",
+        "choices": {
+            "A": "Dioxin",
+            "B": "Botulinum Toxin",
+            "C": "Organophosphate",
+            "D": "Tetrodotoxin",
+            "E": "Strychnine"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "Tetrodotoxin (TTX), found in pufferfish, is explicitly stated to block fast voltage-gated sodium channels in nerve and muscle membranes. This action prevents nerve impulse transmission, leading to motor and sensory paralysis, including respiratory arrest, which perfectly matches the patient's symptoms.",
+            "incorrect": {
+                "A": "Dioxin is a persistent environmental pollutant that causes a wide range of long-term toxic effects, not acute paralysis.",
+                "B": "Botulinum toxin acts presynaptically to prevent the release of acetylcholine, causing flaccid paralysis, but it does not block sodium channels.",
+                "C": "Organophosphates are acetylcholinesterase inhibitors, leading to a cholinergic crisis (overstimulation), which presents with symptoms opposite to flaccid paralysis (e.g., muscle fasciculations, seizures).",
+                "E": "Strychnine is an antagonist of the glycine receptor in the spinal cord, which inhibits postsynaptic inhibition, leading to convulsive seizures, not flaccid paralysis."
+            }
+        }
+    },
+    {
+        "question": "Which volatile organic compound is specifically noted for its toxic effect on the hematopoietic system and red blood cells, essentially affecting bone marrow function?",
+        "choices": {
+            "A": "Toluene",
+            "B": "Chloroform",
+            "C": "Benzene",
+            "D": "Methanol",
+            "E": "Xylene"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The documentation specifies that Benzene has a toxic effect on the hematopoietic system, affecting red blood cells and bone marrow function, which can lead to aplastic anemia and leukemia.",
+            "incorrect": {
+                "A, E": "Toluene and Xylene are noted for their effects on the central nervous system (CNS), causing symptoms like dizziness and confusion.",
+                "B": "Chloroform is mentioned as being toxic to the liver and kidneys and is a CNS depressant.",
+                "D": "Methanol is metabolized into formic acid, which causes metabolic acidosis and is specifically toxic to the optic nerve, potentially leading to blindness."
+            }
+        }
+    },
+    {
+        "question": "A patient taking phenobarbital for seizures presents with an overdose. To enhance the elimination of the drug from the body, which of the following strategies would be most effective?",
+        "choices": {
+            "A": "Administration of activated charcoal",
+            "B": "Hemodialysis with a lipid emulsion",
+            "C": "Acidification of the urine",
+            "D": "Alkalinization of the urine",
+            "E": "Administration of flumazenil"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "Phenobarbital is a weak acid. The principle of ion trapping states that to enhance the renal excretion of a weak acid, the urine should be made more alkaline. The documents state that elevating urine pH with sodium bicarbonate (NaHCO₃) promotes the excretion of acids like aspirin and phenobarbital.",
+            "incorrect": {
+                "A": "Activated charcoal is used to prevent the initial absorption of the drug from the gastrointestinal tract, not to enhance its elimination once it has been absorbed.",
+                "B": "Lipid emulsion therapy is used for lipophilic drug toxicity (e.g., local anesthetics), not for phenobarbital.",
+                "C": "Acidification of the urine would decrease the ionization of phenobarbital, promoting its reabsorption and reducing its elimination. This strategy is used for weak bases.",
+                "E": "Flumazenil is a specific antidote for benzodiazepine overdose, not barbiturates like phenobarbital."
+            }
+        }
+    },
+    {
+        "question": "A 50-year-old woman is found unconscious in her home during the winter. A faulty space heater was running. She has cherry-red skin, headache, and dizziness. Her blood's oxygen-carrying capacity is severely diminished despite a normal partial pressure of oxygen. What is the most likely poison and its immediate antidote?",
+        "choices": {
+            "A": "Cyanide; Hydroxocobalamin",
+            "B": "Carbon monoxide; 100% Oxygen",
+            "C": "Sulfur dioxide; Bronchodilators",
+            "D": "Benzene; Supportive care",
+            "E": "Methemoglobin; Methylene blue"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The scenario (faulty heater, winter) and symptoms (cherry-red skin, headache, dizziness, unconsciousness) are classic for Carbon Monoxide (CO) poisoning. CO binds to hemoglobin with an affinity 200-300 times greater than oxygen, forming carboxyhemoglobin and severely reducing the blood's oxygen-carrying capacity. The immediate and primary treatment is the administration of 100% oxygen to displace CO from hemoglobin.",
+            "incorrect": {
+                "A": "Cyanide poisoning impairs oxygen utilization at the cellular level by inhibiting cytochrome c oxidase. While it's a chemical asphyxiant, the classic signs and antidote differ.",
+                "C": "Sulfur dioxide is a respiratory irritant and would cause coughing and bronchospasm, not the described systemic symptoms.",
+                "D": "Benzene toxicity affects the bone marrow and is not associated with these acute symptoms.",
+                "E": "Methemoglobinemia results in 'chocolate brown' blood and cyanosis. Its antidote is methylene blue."
+            }
+        }
+    },
+    {
+        "question": "A researcher is studying a new herbicide. A single, high dose is administered to a group of rats to determine the lethal dose. The animals are observed for 24 hours. However, to get regulatory approval for long-term use, the researcher must also assess toxicity from repeated exposure over a period of 1 to 3 months. What is this second type of study called?",
+        "choices": {
+            "A": "Chronic toxicity study",
+            "B": "Subchronic toxicity study",
+            "C": "Acute toxicity study",
+            "D": "Hyperacute toxicity study",
+            "E": "Subacute toxicity study"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The provided material defines a subchronic toxicity study as one involving repeated exposure to a substance for a duration of 1 to 3 months.",
+            "incorrect": {
+                "A": "A chronic toxicity study involves repeated exposure for more than 3 months.",
+                "C": "An acute toxicity study, which the researcher already performed, involves a single administration or multiple doses within 24 hours (e.g., LD50 test).",
+                "D": "This term is not a standard classification in the provided documents.",
+                "E": "A subacute toxicity study is defined as repeated exposure for 1 month or less."
+            }
+        }
+    },
+    {
+        "question": "A 54-year-old farmer presents to the emergency department after being bitten by a snake, which was identified as a Russell's Viper (Vipera russelli siamensis). The patient develops bleeding from the gums and the bite site. Laboratory tests reveal a prolonged venous clotting time (VCT), thrombocytopenia, and evidence of disseminated intravascular coagulation (DIC). Based on the coagulation cascade diagram provided in the learning materials, which of the following best describes the most direct mechanism of this venom's hematotoxicity?",
+        "choices": {
+            "A": "Activation of Factor V and Factor X, leading to excessive thrombin generation.",
+            "B": "Direct conversion of fibrinogen to fibrin, bypassing the upstream coagulation factors.",
+            "C": "Inhibition of thrombin, leading to a severe bleeding disorder.",
+            "D": "Chelation of calcium ions, thereby preventing multiple steps in the coagulation cascade.",
+            "E": "Blocking of acetylcholine receptors at the neuromuscular junction, causing paralysis."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The venom of the Russell's Viper is described as a potent activator of Factor X and Factor V in the coagulation cascade. This leads to a massive, uncontrolled generation of thrombin, which in turn converts fibrinogen to fibrin, forming widespread microthrombi (DIC). This process consumes clotting factors and platelets, leading to a subsequent bleeding disorder (prolonged VCT, thrombocytopenia), which matches the patient's clinical presentation.",
+            "incorrect": {
+                "B": "Some venoms act directly on fibrinogen, but Russell's Viper venom acts further upstream on Factors V and X.",
+                "C": "The venom activates the cascade, leading to thrombin generation, rather than inhibiting it. The subsequent bleeding is due to the consumption of clotting factors.",
+                "D": "This is not the mechanism of Russell's Viper venom.",
+                "E": "This describes the mechanism of a neurotoxin, whereas Russell's Viper is primarily hematotoxic."
+            }
+        }
+    },
+    {
+        "question": "Which snake's venom is uniquely identified as having both neurotoxic and cardiotoxic effects?",
+        "choices": {
+            "A": "King Cobra (Ophiophagus hannah)",
+            "B": "Common Krait",
+            "C": "Spectacled Cobra",
+            "D": "Russell's Viper",
+            "E": "Saws Scaled Viper"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The King Cobra's venom is specifically mentioned in the text as having both potent neurotoxic components that cause paralysis and cardiotoxic components that can directly affect the heart, potentially leading to cardiac arrest.",
+            "incorrect": {
+                "B, C": "Kraits and other cobras are primarily known for their potent neurotoxins.",
+                "D, E": "Russell's Viper and the Saw-scaled Viper are primarily known for their powerful hematotoxic effects, causing severe coagulation abnormalities."
+            }
+        }
+    },
+    {
+        "question": "A patient is brought to the emergency room with drooping eyelids, difficulty swallowing, and progressive muscle weakness that started an hour after being bitten by a snake. The bite site shows minimal pain and swelling. Based on the document, which type of venom is most likely responsible, and what is the most appropriate specific treatment?",
+        "choices": {
+            "A": "Hematotoxin; administer platelet and coagulation factors.",
+            "B": "Neurotoxin; administer the appropriate antivenom.",
+            "C": "Myotoxin (Rhabdomyolysis); begin hemodialysis for kidney failure.",
+            "D": "Cardiotoxin; administer high-dose insulin and IV glucagon.",
+            "E": "Cytotoxin; debride the wound and administer broad-spectrum antibiotics."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The symptoms of drooping eyelids (ptosis), difficulty swallowing (dysphagia), and progressive muscle weakness with minimal local signs are classic manifestations of a neurotoxic snakebite (e.g., from a cobra or krait). The document clearly states that the treatment for such envenomation is the administration of a specific antivenom to neutralize the venom's effects.",
+            "incorrect": {
+                "A": "Hematotoxic venom would cause symptoms of bleeding, swelling, and pain at the bite site, which are absent here.",
+                "C": "Myotoxicity leading to rhabdomyolysis would present with severe muscle pain and dark urine, and while supportive, dialysis is not the primary specific treatment.",
+                "D": "These treatments are not indicated for snakebite cardiotoxicity.",
+                "E": "Cytotoxic venom would cause severe local pain, swelling, and tissue necrosis, which contradicts the 'minimal pain and swelling' description."
+            }
+        }
+    },
+    {
+        "question": "A group of people fall ill after foraging for and eating wild mushrooms. The symptoms begin approximately 10-12 hours after ingestion and include severe abdominal cramps and vomiting. Blood tests in the hospital reveal acute liver failure with sharply elevated AST and ALT levels. Based on the document, which mushroom toxin is the most likely cause?",
+        "choices": {
+            "A": "Gastrointestinal irritants from Chlorophyllum molybdites.",
+            "B": "Monomethylhydrazine, which inhibits GABA synthesis.",
+            "C": "Amatoxins, which inhibit RNA polymerase in liver cells.",
+            "D": "Muscarine, which stimulates muscarinic receptors.",
+            "E": "Psilocybin, which acts as a serotonin agonist."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The clinical picture is classic for amatoxin poisoning, typically from Amanita species (death cap mushrooms). The key features are the delayed onset of gastrointestinal symptoms (6-24 hours), followed by a period of apparent recovery, and then the development of fulminant liver failure (elevated AST/ALT). The mechanism described is the inhibition of RNA polymerase II, which is particularly devastating to metabolically active cells like hepatocytes.",
+            "incorrect": {
+                "A": "Gastrointestinal irritants from mushrooms like Chlorophyllum molybdites cause rapid onset of symptoms (usually within 1-3 hours) and do not typically cause severe liver failure.",
+                "B": "Monomethylhydrazine (from gyromitrin) is primarily neurotoxic.",
+                "D": "Muscarine causes a rapid-onset cholinergic syndrome (sweating, salivation, etc.) and does not cause delayed liver failure.",
+                "E": "Psilocybin causes rapid-onset psychoactive effects (hallucinations) and does not cause liver failure."
+            }
+        }
+    }
+]
