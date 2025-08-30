@@ -415,22 +415,27 @@
             } 
             updateProgressBar(); 
             reasoningDiv.classList.remove('hidden', 'opacity-0', 'max-h-0'); 
-            reasoningDiv.classList.add('opacity-100', 'max-h-screen'); 
+            reasoningDiv.classList.add('opacity-100', 'max-h-screen');
+            
+            // Build incorrect reasons HTML regardless of the answer
+            let incorrectReasonsHTML = '<ul>';
+            for (const key in questionData.reasoning.incorrect) {
+                if (key !== questionData.correctAnswer) { // Ensure not to show the correct answer in the "incorrect" list
+                    incorrectReasonsHTML += `<li class="mb-2"><strong>Why '${key}' is incorrect:</strong> ${questionData.reasoning.incorrect[key]}</li>`;
+                }
+            }
+            incorrectReasonsHTML += '</ul>';
+
             if (isCorrect) { 
                 resultTitle.textContent = '✅ Correct!'; 
                 resultTitle.classList.add('text-blue-700', 'dark:text-blue-400'); 
                 reasoningDiv.classList.add('border-blue-500', 'bg-blue-100', 'dark:bg-blue-900/50', 'dark:border-blue-500'); 
-                resultText.innerHTML = `<p>${questionData.reasoning.correct}</p>`; 
+                resultText.innerHTML = `<p class="mb-3">${questionData.reasoning.correct}</p><h4 class="font-semibold mt-4 mb-2">Why other choices are incorrect:</h4>${incorrectReasonsHTML}`; 
                 selectedOption.parentElement.classList.add('bg-blue-100', 'dark:bg-blue-900/50', 'border-blue-500'); 
             } else { 
                 resultTitle.textContent = '❌ Incorrect'; 
                 resultTitle.classList.add('text-red-700', 'dark:text-red-400'); 
                 reasoningDiv.classList.add('border-red-500', 'bg-red-50', 'dark:bg-red-900/20', 'dark:border-red-500'); 
-                let incorrectReasonsHTML = '<ul>'; 
-                for (const key in questionData.reasoning.incorrect) { 
-                    incorrectReasonsHTML += `<li class="mb-2"><strong>Why '${key}' is incorrect:</strong> ${questionData.reasoning.incorrect[key]}</li>`; 
-                } 
-                incorrectReasonsHTML += '</ul>'; 
                 resultText.innerHTML = `<p class="mb-3"><strong>The correct answer is ${questionData.correctAnswer}.</strong> ${questionData.reasoning.correct}</p><h4 class="font-semibold mt-4 mb-2">Why other choices are incorrect:</h4>${incorrectReasonsHTML}`; 
                 selectedOption.parentElement.classList.add('bg-red-100', 'dark:bg-red-900/50', 'border-red-500'); 
                 card.querySelector(`input[value="${questionData.correctAnswer}"]`).parentElement.classList.add('bg-blue-100', 'dark:bg-blue-900/50', 'border-blue-500'); 
