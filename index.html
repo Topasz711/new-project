@@ -21,6 +21,32 @@
         .pharma-tab-btn {
             white-space: nowrap;
         }
+        #sidebar-nav-container {
+            position: relative;
+            width: 100%;
+            height: calc(100% - 65px); /* Adjust height to fit the header */
+            overflow-x: hidden;
+        }
+        .nav-menu {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.3s ease-in-out;
+        }
+        .nav-menu.main-menu {
+            transform: translateX(0);
+        }
+        .nav-menu.sub-menu {
+            transform: translateX(100%);
+        }
+        .nav-menu.show {
+            transform: translateX(0);
+        }
+        .nav-menu.hide-left {
+            transform: translateX(-100%);
+        }
     </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
@@ -29,19 +55,30 @@
         <div class="p-4 border-b">
             <h2 class="text-xl font-bold text-gray-800">Topics</h2>
         </div>
-        <nav class="mt-4">
-            <ul>
-                <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="homeContent">Home</a></li>
-                <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="pharmacologyContent">Pharmacology</a></li>
-                <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="placeholderContent">Infectious</a></li>
-                <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="placeholderContent">Epidemiology</a></li>
-                <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="placeholderContent">Skin</a></li>
-                <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="placeholderContent">Musculoskeletal</a></li>
-                <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="placeholderContent">CNS</a></li>
-                <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="placeholderContent">Urban Health</a></li>
-                <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="placeholderContent">Cardiovascular</a></li>
-            </ul>
-        </nav>
+        <div id="sidebar-nav-container">
+            <nav id="main-menu" class="nav-menu main-menu mt-4">
+                <ul>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="homeContent">Home</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="pharmacologyContent">Pharmacology</a></li>
+                    <li><a href="#" id="infectious-menu-btn" class="flex justify-between items-center w-full py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full"><span>Infectious</span><span>&gt;</span></a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="placeholderContent">Epidemiology</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="placeholderContent">Skin</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="placeholderContent">Musculoskeletal</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="placeholderContent">CNS</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="placeholderContent">Urban Health</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="placeholderContent">Cardiovascular</a></li>
+                </ul>
+            </nav>
+            <nav id="infectious-sub-menu" class="nav-menu sub-menu mt-4">
+                <ul>
+                    <li><a href="#" id="back-to-main-menu" class="block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full">&lt;- Back</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="infectiousContent" data-sub-target="theorySum1Content">Theory SUM1</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="infectiousContent" data-sub-target="labSum1Content">Lab SUM1</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="infectiousContent" data-sub-target="theorySum2Content">Theory SUM2</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 hover:bg-blue-100 hover:text-blue-600 rounded-r-full" data-target="infectiousContent" data-sub-target="labSum2Content">Lab SUM2</a></li>
+                </ul>
+            </nav>
+        </div>
     </aside>
 
     <div id="overlay" class="fixed inset-0 bg-black bg-opacity-50 z-30 hidden transition-opacity duration-300 ease-in-out"></div>
@@ -110,6 +147,81 @@
                 <div id="antidoteContent" class="pharma-tab-content hidden"><header class="text-center mb-8"><h1 class="text-3xl sm:text-4xl font-bold text-gray-900">Antidote & Poisoning Quiz</h1><p class="mt-2 text-lg text-gray-600">Test your knowledge on toxicology.</p></header><div id="antidote-quiz-container" class="space-y-8"></div></div>
                 <div id="rduContent" class="pharma-tab-content hidden"><header class="text-center mb-8"><h1 class="text-3xl sm:text-4xl font-bold text-gray-900">Rational Drug Use (RDU) Quiz</h1><p class="mt-2 text-lg text-gray-600">Test your knowledge about RDU policies in Thailand.</p></header><div id="rdu-quiz-container" class="space-y-8"></div></div>
                 <div id="pvContent" class="pharma-tab-content hidden"><header class="text-center mb-8"><h1 class="text-3xl sm:text-4xl font-bold text-gray-900">Thai Pharmacovigilance Quiz</h1><p class="mt-2 text-lg text-gray-600">Test your knowledge about the national drug safety system in Thailand.</p></header><div id="pv-quiz-container" class="space-y-8"></div></div>
+            </div>
+
+            <div id="infectiousContent" class="main-content-pane hidden">
+                <div id="theorySum1Content" class="infectious-sub-pane">
+                    <h2 class="text-2xl font-bold mb-4">Theory SUM1</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L1:</b> Introduction to Medical Parasitology</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L2:</b> Medical Helminthes: Nematodes</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L3:</b> Medical Helminthes: Trematodes and Cestode</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L4:</b> Medical Protozoa I: Amoeba, Ciliate, Flagellate</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L5:</b> Medical Protozoa II: Sporozoa and Malaria</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L6:</b> Medical Entomology</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L7:</b> Antiparasitic drugs</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L8:</b> Introduction to virology</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L9:</b> Viral epidemiology and pathogenesis</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L10:</b> Viral exanthem</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L11:</b> Arbovirus</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L12:</b> Oncogenic virus</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L13:</b> HIV & viral STD</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L14:</b> Emerging virus</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L15:</b> Principle of laboratory investigation of viral infections</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L16:</b> Anti-viral drugs</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L17:</b> Clinical correlation of viral diseases</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L18:</b> Case discussion (Parasites and Viruses)</button>
+                    </div>
+                </div>
+                <div id="labSum1Content" class="infectious-sub-pane hidden">
+                    <h2 class="text-2xl font-bold mb-4">Lab SUM1</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>Lab 1:</b> Medical Helminthes (Stool examination practice)</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>Lab 2:</b> Medical protozoa and Malaria practice</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>Lab 3:</b> Demonstration of Medical Entomology</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>Lab 4:</b> Laboratory diagnosis of viral infection 1</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>Lab 5:</b> Laboratory diagnosis of viral infection 2</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>Lab 6:</b> Laboratory diagnosis of viral infection 3</button>
+                    </div>
+                </div>
+                <div id="theorySum2Content" class="infectious-sub-pane hidden">
+                    <h2 class="text-2xl font-bold mb-4">Theory SUM2</h2>
+                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L19:</b> Bacterial cell structure and genome</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L20:</b> Bacterial growth, metabolism, and physiology</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L21:</b> Human microbiome and mycobiome</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L22:</b> Bacterial pathogenesis</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L23:</b> Gram positive bacteria</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L24:</b> Gram negative bacteria</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L25:</b> Anaerobic bacteria</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L26:</b> Higher bacteria</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L27:</b> Spirochete, unclassified bacteria and zoonotic bacterial pathogens</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L28:</b> Microbial control, principle of sterilization and basic biosafety</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L29:</b> Antibacterial drugs</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L30:</b> Principle of drug resistance mechanism</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L31:</b> Fungal structure, taxonomy and classification of medically important Fungi</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L32:</b> Medically important yeasts</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L33:</b> Medically important mold</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L34:</b> Dimorphic fungi and Fungus-like organisms</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L35:</b> Antifungal drugs</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L36:</b> Overview of laboratory diagnosis in infectious diseases</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>L37:</b> Case discussion (Bacteria and Fungi)</button>
+                    </div>
+                </div>
+                <div id="labSum2Content" class="infectious-sub-pane hidden">
+                    <h2 class="text-2xl font-bold mb-4">Lab SUM2</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>Lab 7:</b> Principle of cultivation assay</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>Lab 8:</b> Bacterial staining and Biochemical test for bacterial identification</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>Lab 9:</b> Laboratory diagnosis in bacterial infection and antimicrobial susceptibility test</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>Lab 10:</b> Laboratory diagnosis in fungal infection</button>
+                        <button class="lecture-btn bg-white p-4 rounded-lg shadow hover:bg-gray-100 text-left"><b>Lab 11:</b> Personal Protective Equipment and Biosafety Practices</button>
+                    </div>
+                </div>
+                 <div id="infectiousPlaceholder" class="infectious-sub-pane hidden text-center p-10 bg-white rounded-lg shadow-md">
+                    <h2 class="text-2xl font-semibold text-gray-500">ยังไม่มี/อาจจะไม่ทำ</h2>
+                    <p class="text-gray-400 mt-2">(Not yet available / Might not be created)</p>
+                </div>
             </div>
 
             <div id="placeholderContent" class="main-content-pane hidden text-center p-10 bg-white rounded-lg shadow-md">
@@ -202,7 +314,7 @@
                 containerId: containerId
             };
             document.getElementById('progress-tracker').classList.remove('hidden');
-            document.getElementById('retry-buttons').classList.remove('hidden'); // Show buttons immediately
+            document.getElementById('retry-buttons').classList.remove('hidden');
             updateProgressBar();
         }
 
@@ -218,7 +330,7 @@
             document.getElementById('progress-bar-fill').style.width = `${percentage}%`;
 
             const retryIncorrectBtn = document.getElementById('retry-incorrect-btn');
-            if (quizState.incorrectIndices.length === 0) {
+            if (quizState.incorrectIndices.length === 0 && quizState.answered > 0) {
                 retryIncorrectBtn.disabled = true;
                 retryIncorrectBtn.classList.add('opacity-50', 'cursor-not-allowed');
             } else {
@@ -244,6 +356,12 @@
             const progressTracker = document.getElementById('progress-tracker');
             const retryBtn = document.getElementById('retry-btn');
             const retryIncorrectBtn = document.getElementById('retry-incorrect-btn');
+            const infectiousMenuBtn = document.getElementById('infectious-menu-btn');
+            const backToMainMenuBtn = document.getElementById('back-to-main-menu');
+            const mainMenu = document.getElementById('main-menu');
+            const infectiousSubMenu = document.getElementById('infectious-sub-menu');
+            const infectiousSubPanes = document.querySelectorAll('.infectious-sub-pane');
+            const lectureBtns = document.querySelectorAll('.lecture-btn');
 
             function openSidebar() { sidebar.classList.remove('-translate-x-full'); overlay.classList.remove('hidden'); }
             function closeSidebar() { sidebar.classList.add('-translate-x-full'); overlay.classList.add('hidden'); }
@@ -252,12 +370,29 @@
             overlay.addEventListener('click', closeSidebar);
             startBtn.addEventListener('click', openSidebar);
 
+            infectiousMenuBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                mainMenu.classList.add('hide-left');
+                infectiousSubMenu.classList.add('show');
+            });
+
+            backToMainMenuBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                mainMenu.classList.remove('hide-left');
+                infectiousSubMenu.classList.remove('show');
+            });
+            
             sidebarLinks.forEach(link => {
                 link.addEventListener('click', (event) => {
                     event.preventDefault();
                     const targetId = link.dataset.target;
+                    const subTargetId = link.dataset.subTarget;
+
                     contentPanes.forEach(pane => pane.classList.add('hidden'));
-                    document.getElementById(targetId)?.classList.remove('hidden');
+                    const targetPane = document.getElementById(targetId);
+                    if (targetPane) {
+                        targetPane.classList.remove('hidden');
+                    }
                     
                     if (targetId === 'pharmacologyContent') {
                         pharmaTabBtns.forEach(btn => btn.classList.remove('active'));
@@ -266,6 +401,10 @@
                         const firstTabContent = document.getElementById(pharmaTabBtns[0].dataset.target);
                         firstTabContent?.classList.remove('hidden');
                         startNewQuiz(paraQuizData, 'para-quiz-container');
+                    } else if (targetId === 'infectiousContent') {
+                        progressTracker.classList.add('hidden');
+                        infectiousSubPanes.forEach(pane => pane.classList.add('hidden'));
+                        document.getElementById(subTargetId)?.classList.remove('hidden');
                     } else {
                         progressTracker.classList.add('hidden');
                     }
@@ -275,11 +414,6 @@
 
             pharmaTabBtns.forEach(button => {
                 button.addEventListener('click', () => {
-                    pharmaTabBtns.forEach(btn => btn.classList.remove('active'));
-                    pharmaTabContents.forEach(content => content.classList.add('hidden'));
-                    button.classList.add('active');
-                    document.getElementById(button.dataset.target)?.classList.remove('hidden');
-                    
                     let currentQuizData;
                     let containerId;
                     switch(button.dataset.target) {
@@ -291,7 +425,18 @@
                         case 'pvContent': currentQuizData = pvQuizData; containerId = 'pv-quiz-container'; break;
                         default: currentQuizData = [];
                     }
+                    pharmaTabBtns.forEach(btn => btn.classList.remove('active'));
+                    button.classList.add('active');
+                    pharmaTabContents.forEach(content => content.classList.add('hidden'));
+                    document.getElementById(button.dataset.target)?.classList.remove('hidden');
                     startNewQuiz(currentQuizData, containerId);
+                });
+            });
+
+            lectureBtns.forEach(button => {
+                button.addEventListener('click', () => {
+                    infectiousSubPanes.forEach(pane => pane.classList.add('hidden'));
+                    document.getElementById('infectiousPlaceholder').classList.remove('hidden');
                 });
             });
 
@@ -303,12 +448,14 @@
                 quizState.answered -= quizState.incorrectIndices.length;
                 quizState.incorrect = 0;
                 
-                quizState.incorrectIndices.forEach(index => {
-                    const questionNumber = index + 1;
+                quizState.incorrectIndices.forEach(originalIndex => {
+                    const questionNumber = originalIndex + 1;
                     const containerId = quizState.containerId;
-                    const choicesContainer = document.getElementById(`${containerId}_choices${questionNumber}`);
-                    const reasoningDiv = document.getElementById(`${containerId}_reasoning${questionNumber}`);
-                    const card = choicesContainer.closest('.question-card');
+                    const card = document.querySelector(`#${containerId} > div:nth-child(${questionNumber})`);
+                    if (!card) return;
+
+                    const choicesContainer = card.querySelector('.choices');
+                    const reasoningDiv = card.querySelector('.reasoning');
                     const button = card.querySelector('.check-btn');
 
                     choicesContainer.querySelectorAll('input[type="radio"]').forEach(radio => {
@@ -335,7 +482,6 @@
             buildQuiz(pvQuizData, 'pv-quiz-container');
         });
 
-        // --- REUSABLE QUIZ FUNCTIONS ---
         function buildQuiz(quizData, containerId) {
             const quizContainer = document.getElementById(containerId);
             if (!quizContainer || !quizData || quizData.length === 0) {
@@ -346,13 +492,16 @@
             quizData.forEach((item, index) => {
                 const questionNumber = index + 1;
                 const choicesHTML = Object.entries(item.choices).map(([key, value]) => `
-                    <label for="${containerId}_q${questionNumber}_${key}" class="quiz-option block p-4 border-2 border-gray-300 rounded-lg cursor-pointer hover:bg-gray-200"><input type="radio" name="${containerId}_question${questionNumber}" id="${containerId}_q${questionNumber}_${key}" value="${key}" class="mr-3 text-blue-600 focus:ring-blue-500"><span class="font-medium">${key}.</span> ${value}</label>
+                    <label class="quiz-option block p-4 border-2 border-gray-300 rounded-lg cursor-pointer hover:bg-gray-200"><input type="radio" name="${containerId}_question${questionNumber}" value="${key}" class="mr-3 text-blue-600 focus:ring-blue-500"><span class="font-medium">${key}.</span> ${value}</label>
                 `).join('');
                 const questionElement = document.createElement('div');
                 questionElement.classList.add('question-card', 'bg-white', 'p-6', 'rounded-xl', 'shadow-md');
-                questionElement.innerHTML = `<h2 class="text-xl font-semibold mb-4"><span class="text-blue-600 font-bold">Question ${questionNumber}:</span> ${item.question}</h2><div class="choices space-y-3" id="${containerId}_choices${questionNumber}">${choicesHTML}</div><button class="check-btn mt-6 w-full sm:w-auto bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700" data-question-index="${index}" data-quiz-type="${containerId}">Check Answer</button><div class="reasoning hidden opacity-0 max-h-0 mt-6 p-4 border-l-4" id="${containerId}_reasoning${questionNumber}"><h3 class="font-bold text-lg mb-2" id="${containerId}_result-title${questionNumber}"></h3><div id="${containerId}_result-text${questionNumber}"></div></div>`;
+                questionElement.innerHTML = `<h2 class="text-xl font-semibold mb-4"><span class="text-blue-600 font-bold">Question ${questionNumber}:</span> ${item.question}</h2><div class="choices space-y-3">${choicesHTML}</div><button class="check-btn mt-6 w-full sm:w-auto bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700" data-question-index="${index}" data-quiz-type="${containerId}">Check Answer</button><div class="reasoning hidden opacity-0 max-h-0 mt-6 p-4 border-l-4"><h3 class="font-bold text-lg mb-2"></h3><div></div></div>`;
                 quizContainer.appendChild(questionElement);
-                questionElement.querySelector('.check-btn').addEventListener('click', checkAnswer);
+            });
+            // Attach event listeners after building
+            document.querySelectorAll(`#${containerId} .check-btn`).forEach(button => {
+                button.addEventListener('click', checkAnswer);
             });
         }
 
@@ -362,14 +511,16 @@
             const quizType = button.dataset.quizType;
             const questionIndex = parseInt(button.dataset.questionIndex, 10);
             
-            let quizData;
-            if (quizType === 'para-quiz-container') quizData = paraQuizData;
-            else if (quizType === 'gluco-quiz-container') quizData = glucoQuizData;
-            else if (quizType === 'chemo-quiz-container') quizData = chemoQuizData;
-            else if (quizType === 'antidote-quiz-container') quizData = antidoteQuizData;
-            else if (quizType === 'rdu-quiz-container') quizData = rduQuizData;
-            else if (quizType === 'pv-quiz-container') quizData = pvQuizData;
-            else return;
+            const quizDataMap = {
+                'para-quiz-container': paraQuizData,
+                'gluco-quiz-container': glucoQuizData,
+                'chemo-quiz-container': chemoQuizData,
+                'antidote-quiz-container': antidoteQuizData,
+                'rdu-quiz-container': rduQuizData,
+                'pv-quiz-container': pvQuizData
+            };
+            const quizData = quizDataMap[quizType];
+            if (!quizData) return;
 
             const questionData = quizData[questionIndex];
             const selectedOption = card.querySelector(`input[type="radio"]:checked`);
@@ -382,34 +533,39 @@
             const reasoningDiv = card.querySelector('.reasoning');
             const resultTitle = reasoningDiv.querySelector('h3');
             const resultText = reasoningDiv.querySelector('div');
-            const allRadios = card.querySelectorAll('input[type="radio"]');
-
+            
             button.disabled = true;
             button.classList.add('bg-gray-400', 'cursor-not-allowed');
-            allRadios.forEach(radio => radio.disabled = true);
+            card.querySelectorAll('input[type="radio"]').forEach(radio => radio.disabled = true);
 
             quizState.answered++;
             if (isCorrect) {
                 quizState.correct++;
             } else {
                 quizState.incorrect++;
-                quizState.incorrectIndices.push(questionIndex);
+                const originalIndex = quizState.currentQuizDataRef.findIndex(q => q.question === questionData.question);
+                if (originalIndex !== -1 && !quizState.incorrectIndices.includes(originalIndex)) {
+                    quizState.incorrectIndices.push(originalIndex);
+                }
             }
             updateProgressBar();
 
-            reasoningDiv.classList.remove('hidden', 'opacity-0', 'max-h-0', 'border-blue-500', 'bg-blue-100', 'border-red-500', 'bg-red-50');
-            resultTitle.classList.remove('text-blue-700', 'text-red-700');
+            reasoningDiv.classList.remove('hidden', 'opacity-0', 'max-h-0');
             reasoningDiv.classList.add('opacity-100', 'max-h-screen');
             
             if (isCorrect) {
                 resultTitle.textContent = '✅ Correct!';
+                resultTitle.classList.remove('text-red-700');
                 resultTitle.classList.add('text-blue-700');
+                reasoningDiv.classList.remove('border-red-500', 'bg-red-50');
                 reasoningDiv.classList.add('border-blue-500', 'bg-blue-100');
                 resultText.innerHTML = `<p>${questionData.reasoning.correct}</p>`;
                 selectedOption.parentElement.classList.add('bg-blue-100', 'border-blue-500');
             } else {
                 resultTitle.textContent = '❌ Incorrect';
+                resultTitle.classList.remove('text-blue-700');
                 resultTitle.classList.add('text-red-700');
+                reasoningDiv.classList.remove('border-blue-500', 'bg-blue-100');
                 reasoningDiv.classList.add('border-red-500', 'bg-red-50');
                 let incorrectReasonsHTML = '<ul>';
                 for (const key in questionData.reasoning.incorrect) {
