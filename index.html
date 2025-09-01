@@ -449,11 +449,29 @@
             quizData.forEach((item, index) => { 
                 const originalIndex = quizState.originalQuizDataRef ? quizState.originalQuizDataRef.findIndex(q => q.question === item.question) : index;
                 const questionNumber = index + 1; 
+
+                let imageHTML = '';
+                if (item.imageUrl) {
+                    imageHTML = `
+                        <div class="my-4">
+                            <img src="${item.imageUrl}" alt="Question Image" class="max-w-sm h-auto rounded-lg mx-auto shadow-md">
+                            ${item.imageSource ? `<p class="text-xs text-center text-gray-500 dark:text-gray-400 mt-2">Source: ${item.imageSource}</p>` : ''}
+                        </div>
+                    `;
+                }
+                
                 const choicesHTML = Object.entries(item.choices).map(([key, value]) => `<label class="quiz-option block p-4 border-2 border-gray-300 dark:border-gray-600 rounded-lg cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-700"><input type="radio" name="${containerId}_question${questionNumber}" value="${key}" class="mr-3 text-blue-600 focus:ring-blue-500 dark:focus:ring-offset-gray-800"><span class="font-medium">${key}.</span> ${value}</label>`).join(''); 
+                
                 const questionElement = document.createElement('div'); 
                 questionElement.classList.add('question-card', 'bg-white', 'dark:bg-gray-800', 'p-6', 'rounded-xl', 'shadow-md'); 
                 questionElement.dataset.originalIndex = originalIndex;
-                questionElement.innerHTML = `<h2 class="text-xl font-semibold mb-4"><span class="text-blue-600 dark:text-blue-400 font-bold">Question ${questionNumber}:</span> ${item.question}</h2><div class="choices space-y-3">${choicesHTML}</div><button class="check-btn mt-6 w-full sm:w-auto bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700 dark:hover:bg-blue-500" data-question-index="${index}" data-quiz-type="${containerId}">Check Answer</button><div class="reasoning hidden opacity-0 max-h-0 mt-6 p-4 border-l-4"><h3 class="font-bold text-lg mb-2"></h3><div></div></div>`; 
+                questionElement.innerHTML = `
+                    <h2 class="text-xl font-semibold mb-4"><span class="text-blue-600 dark:text-blue-400 font-bold">Question ${questionNumber}:</span> ${item.question}</h2>
+                    ${imageHTML}
+                    <div class="choices space-y-3">${choicesHTML}</div>
+                    <button class="check-btn mt-6 w-full sm:w-auto bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700 dark:hover:bg-blue-500" data-question-index="${index}" data-quiz-type="${containerId}">Check Answer</button>
+                    <div class="reasoning hidden opacity-0 max-h-0 mt-6 p-4 border-l-4"><h3 class="font-bold text-lg mb-2"></h3><div></div></div>
+                `; 
                 quizContainer.appendChild(questionElement); 
             }); 
             document.querySelectorAll(`#${containerId} .check-btn`).forEach(button => button.addEventListener('click', checkAnswer)); 
