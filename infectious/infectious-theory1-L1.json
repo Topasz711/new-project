@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A 45-year-old man, who frequently consumes raw beef dishes, passes a long, ribbon-like organism in his stool. The organism is composed of a scolex, neck, and numerous segments (proglottids). Based on this morphology, how would you classify this parasite?",
+        "choices": {
+            "A": "Phylum Nemathelminthes, Class Nematoda (Roundworm)",
+            "B": "Phylum Platyhelminthes, Class Trematoda (Fluke)",
+            "C": "Phylum Platyhelminthes, Class Cestoda (Tapeworm)",
+            "D": "Phylum Protozoa, Class Sporozoa",
+            "E": "Phylum Arthropoda, Class Insecta"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The description in the case perfectly matches the characteristics of a Cestode (tapeworm). The key features are a tape-like and segmented body composed of a scolex (head), neck, and a chain of segments called proglottids. The patient's history of consuming raw beef also points towards an infection like Taenia saginata, the beef tapeworm, which is a Cestode.",
+            "incorrect": {
+                "A": "Nematodes are described as having a long, cylindrical body that is unsegmented. This contradicts the 'ribbon-like' and 'segmented' appearance of the parasite found.",
+                "B": "Trematodes are characterized by their leaf-shaped and unsegmented bodies. This morphology is very different from the long, segmented worm described.",
+                "D": "Protozoa are single-celled microscopic organisms. The organism described is a large, macroscopic worm, which rules out any protozoan.",
+                "E": "This phylum includes insects and other arthropods like mosquitoes and lice. These are not internal, worm-like parasites that would be passed in the stool in this manner."
+            }
+        }
+    },
+    {
+        "question": "Protozoa are classified based on their 'locomotor organ.' Which of the following is NOT a classification of protozoa mentioned in the presentation?",
+        "choices": {
+            "A": "Flagellates",
+            "B": "Sporozoa",
+            "C": "Helminthes",
+            "D": "Amoeba",
+            "E": "Ciliates"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The presentation divides medically important parasites into three main groups: Helminthes, Protozoa, and Entomology. Helminthes are multicellular worms (like roundworms, tapeworms, and flukes). Protozoa are single-celled organisms. Therefore, Helminthes are a completely separate category and not a classification within the Protozoa group.",
+            "incorrect": {
+                "A": "Flagellates move using flagella.",
+                "B": "Sporozoa are generally non-motile in their adult forms.",
+                "D": "Amoeba move using pseudopods.",
+                "E": "Ciliates move using cilia."
+            }
+        }
+    },
+    {
+        "question": "A public health bulletin warns of an increase in mosquito-borne illnesses. In medical entomology, mosquitoes are considered medically important primarily because they act as:",
+        "choices": {
+            "A": "A source of food contamination leading to intestinal parasites.",
+            "B": "Agents that cause direct injury through their bite alone.",
+            "C": "Parasites that complete their entire life cycle within humans.",
+            "D": "Agents for disease transmission (vectors).",
+            "E": "Definitive hosts for all types of helminths."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "This is the most significant medical role of mosquitoes. The term 'mosquito-borne illness' itself implies that mosquitoes carry and transmit diseases. A key medical importance of insects is being 'Agents for diseases transmission'. Malaria is a parasitic disease for which mosquitoes are the carrier, or vector. Their ability to transmit deadly pathogens like Plasmodium (malaria) is what makes them a major global health concern.",
+            "incorrect": {
+                "A": "Mosquitoes are not typically associated with contaminating food to cause intestinal infections. This mode of transmission is more common for parasites spread via the fecal-oral route.",
+                "B": "While mosquito bites do cause direct injuries like itching and swelling, this is considered a minor issue compared to their role in spreading life-threatening diseases. The question asks for their primary importance, which is disease transmission.",
+                "C": "Mosquitoes are ectoparasites (feeding from the outside) and do not live inside a human host, let alone complete their entire life cycle there.",
+                "E": "While mosquitoes can serve as an intermediate host for some helminths (like filarial worms), they are not the definitive host for all types of helminths."
+            }
+        }
+    },
+    {
+        "question": "In a parasitic infection, the 'diagnostic stage' is crucial for confirming a diagnosis. What is the primary role of this stage?",
+        "choices": {
+            "A": "It is the form of the parasite that can be identified in a biological sample (e.g., stool, blood) to confirm an infection.",
+            "B": "It is the stage that determines the necessary prevention and control measures.",
+            "C": "It represents the stage where the parasite is transmitted to a new host.",
+            "D": "It is the stage that actively causes the most severe symptoms in the host.",
+            "E": "It is always the adult form of the worm."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "This is the precise definition and purpose of the diagnostic stage. In clinical practice, a diagnosis is confirmed by finding physical evidence of the parasite. The 'diagnostic stage' is whatever form of the parasite (egg, larva, cyst, etc.) can be detected in a patient's sample (like stool, blood, or tissue) using diagnostic methods like microscopy.",
+            "incorrect": {
+                "B": "Prevention and control strategies are based on understanding the entire life cycle , especially the infective stage and the mode of transmission, not just the diagnostic stage.",
+                "C": "This describes the 'infective stage', which is the stage that can cause a new infection in a host. The diagnostic and infective stages can be the same, but they are distinct concepts in the life cycle.",
+                "D": "The stage causing the disease (pathogenic stage) may be different from the diagnostic stage. For example, an adult worm might cause symptoms in the intestine, but the diagnostic stage found in a stool sample is the egg.",
+                "E": "The diagnostic stage is often the egg or larval form for helminths, or the cyst/trophozoite form for protozoa. It is rarely the adult worm itself that is found, except in specific cases."
+            }
+        }
+    }
+]

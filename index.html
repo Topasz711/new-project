@@ -91,6 +91,27 @@
         </header>
 
         <div class="container mx-auto p-4 sm:p-6 md:p-8 max-w-4xl">
+            
+            <div id="progress-tracker" class="mb-4 p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md hidden">
+                <div class="flex justify-between items-center text-sm text-gray-600 dark:text-gray-300 mb-2 flex-wrap">
+                    <span class="w-1/2 sm:w-auto sm:flex-1">ทำไปแล้ว: <b id="answered-count">0</b>/<b id="total-count">0</b> ข้อ</span>
+                    <span class="w-1/2 sm:w-auto sm:flex-1 text-center text-green-500 dark:text-green-400">✅ ถูก: <b id="correct-count">0</b></span>
+                    <span class="w-1/2 sm:w-auto sm:flex-1 text-center text-red-500 dark:text-red-400">❌ ผิด: <b id="incorrect-count">0</b></span>
+                    <span class="w-1/2 sm:w-auto sm:flex-1 text-right">เหลือ: <b id="remaining-count">0</b> ข้อ</span>
+                </div>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+                    <div id="progress-bar-fill" class="bg-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
+                </div>
+                <div id="retry-buttons" class="mt-4 text-center">
+                    <button id="retry-btn" class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors">
+                        เริ่ม Quiz ใหม่อีกครั้ง
+                    </button>
+                    <button id="retry-incorrect-btn" class="bg-orange-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-orange-600 ml-2 transition-colors">
+                        ทำข้อที่ผิดใหม่
+                    </button>
+                </div>
+            </div>
+
             <div id="homeContent" class="main-content-pane">
                 <div class="flex flex-col items-center justify-center text-center min-h-[70vh]">
                     <h1 class="text-5xl md:text-6xl font-bold text-gray-800 dark:text-gray-100">Topaz Quiz</h1>
@@ -106,26 +127,6 @@
             </div>
 
             <div id="pharmacologyContent" class="main-content-pane hidden">
-                <div id="progress-tracker" class="mb-4 p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md hidden">
-                    <div class="flex justify-between items-center text-sm text-gray-600 dark:text-gray-300 mb-2 flex-wrap">
-                        <span class="w-1/2 sm:w-auto sm:flex-1">ทำไปแล้ว: <b id="answered-count">0</b>/<b id="total-count">0</b> ข้อ</span>
-                        <span class="w-1/2 sm:w-auto sm:flex-1 text-center text-green-500 dark:text-green-400">✅ ถูก: <b id="correct-count">0</b></span>
-                        <span class="w-1/2 sm:w-auto sm:flex-1 text-center text-red-500 dark:text-red-400">❌ ผิด: <b id="incorrect-count">0</b></span>
-                        <span class="w-1/2 sm:w-auto sm:flex-1 text-right">เหลือ: <b id="remaining-count">0</b> ข้อ</span>
-                    </div>
-                    <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
-                        <div id="progress-bar-fill" class="bg-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
-                    </div>
-                    <div id="retry-buttons" class="mt-4 text-center">
-                        <button id="retry-btn" class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors">
-                            เริ่ม Quiz ใหม่อีกครั้ง
-                        </button>
-                        <button id="retry-incorrect-btn" class="bg-orange-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-orange-600 ml-2 transition-colors">
-                            ลองทำเฉพาะข้อที่ผิด
-                        </button>
-                    </div>
-                </div>
-
                 <div class="mb-8 border-b border-gray-300 dark:border-gray-700 overflow-x-auto">
                     <div class="flex -mb-px">
                         <button class="pharma-tab-btn flex-shrink-0 py-2 px-4 font-semibold border-b-2 transition-colors duration-300 border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 hover:border-gray-400 dark:hover:border-gray-500" data-target="paraContent">Parasympathomimetic Drugs</button>
@@ -149,70 +150,77 @@
                 <div id="theorySum1Content" class="infectious-sub-pane">
                     <h2 class="text-2xl font-bold mb-4">Theory SUM1</h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L1:</b> Introduction to Medical Parasitology</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L2:</b> Medical Helminthes: Nematodes</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L3:</b> Medical Helminthes: Trematodes and Cestode</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L4:</b> Medical Protozoa I: Amoeba, Ciliate, Flagellate</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L5:</b> Medical Protozoa II: Sporozoa and Malaria</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L6:</b> Medical Entomology</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L7:</b> Antiparasitic drugs</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L8:</b> Introduction to virology</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L9:</b> Viral epidemiology and pathogenesis</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L10:</b> Viral exanthem</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L11:</b> Arbovirus</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L12:</b> Oncogenic virus</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L13:</b> HIV & viral STD</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L14:</b> Emerging virus</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L15:</b> Principle of laboratory investigation of viral infections</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L16:</b> Anti-viral drugs</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L17:</b> Clinical correlation of viral diseases</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L18:</b> Case discussion (Parasites and Viruses)</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L1.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L1: Introduction to Medical Parasitology"><b>L1:</b> Introduction to Medical Parasitology</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L2.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L2: Medical Helminthes: Nematodes"><b>L2:</b> Medical Helminthes: Nematodes</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L3.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L3: Medical Helminthes: Trematodes and Cestode"><b>L3:</b> Medical Helminthes: Trematodes and Cestode</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L4.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L4: Medical Protozoa I: Amoeba, Ciliate, Flagellate"><b>L4:</b> Medical Protozoa I: Amoeba, Ciliate, Flagellate</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L5.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L5: Medical Protozoa II: Sporozoa and Malaria"><b>L5:</b> Medical Protozoa II: Sporozoa and Malaria</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L6.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L6: Medical Entomology"><b>L6:</b> Medical Entomology</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L7.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L7: Antiparasitic drugs"><b>L7:</b> Antiparasitic drugs</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L8.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L8: Introduction to virology"><b>L8:</b> Introduction to virology</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L9.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L9: Viral epidemiology and pathogenesis"><b>L9:</b> Viral epidemiology and pathogenesis</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L10.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L10: Viral exanthem"><b>L10:</b> Viral exanthem</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L11.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L11: Arbovirus"><b>L11:</b> Arbovirus</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L12.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L12: Oncogenic virus"><b>L12:</b> Oncogenic virus</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L13.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L13: HIV & viral STD"><b>L13:</b> HIV & viral STD</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L14.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L14: Emerging virus"><b>L14:</b> Emerging virus</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L15.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L15: Principle of laboratory investigation of viral infections"><b>L15:</b> Principle of laboratory investigation of viral infections</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L16.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L16: Anti-viral drugs"><b>L16:</b> Anti-viral drugs</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L17.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L17: Clinical correlation of viral diseases"><b>L17:</b> Clinical correlation of viral diseases</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory1-L18.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L18: Case discussion (Parasites and Viruses)"><b>L18:</b> Case discussion (Parasites and Viruses)</button>
                     </div>
                 </div>
                 <div id="labSum1Content" class="infectious-sub-pane hidden">
                     <h2 class="text-2xl font-bold mb-4">Lab SUM1</h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>Lab 1:</b> Medical Helminthes (Stool examination practice)</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>Lab 2:</b> Medical protozoa and Malaria practice</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>Lab 3:</b> Demonstration of Medical Entomology</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>Lab 4:</b> Laboratory diagnosis of viral infection 1</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>Lab 5:</b> Laboratory diagnosis of viral infection 2</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>Lab 6:</b> Laboratory diagnosis of viral infection 3</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-lab1-L1.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="Lab 1: Medical Helminthes (Stool examination practice)"><b>Lab 1:</b> Medical Helminthes (Stool examination practice)</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-lab1-L2.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="Lab 2: Medical protozoa and Malaria practice"><b>Lab 2:</b> Medical protozoa and Malaria practice</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-lab1-L3.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="Lab 3: Demonstration of Medical Entomology"><b>Lab 3:</b> Demonstration of Medical Entomology</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-lab1-L4.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="Lab 4: Laboratory diagnosis of viral infection 1"><b>Lab 4:</b> Laboratory diagnosis of viral infection 1</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-lab1-L5.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="Lab 5: Laboratory diagnosis of viral infection 2"><b>Lab 5:</b> Laboratory diagnosis of viral infection 2</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-lab1-L6.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="Lab 6: Laboratory diagnosis of viral infection 3"><b>Lab 6:</b> Laboratory diagnosis of viral infection 3</button>
                     </div>
                 </div>
                 <div id="theorySum2Content" class="infectious-sub-pane hidden">
                     <h2 class="text-2xl font-bold mb-4">Theory SUM2</h2>
                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L19:</b> Bacterial cell structure and genome</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L20:</b> Bacterial growth, metabolism, and physiology</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L21:</b> Human microbiome and mycobiome</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L22:</b> Bacterial pathogenesis</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L23:</b> Gram positive bacteria</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L24:</b> Gram negative bacteria</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L25:</b> Anaerobic bacteria</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L26:</b> Higher bacteria</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L27:</b> Spirochete, unclassified bacteria and zoonotic bacterial pathogens</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L28:</b> Microbial control, principle of sterilization and basic biosafety</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L29:</b> Antibacterial drugs</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L30:</b> Principle of drug resistance mechanism</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L31:</b> Fungal structure, taxonomy and classification of medically important Fungi</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L32:</b> Medically important yeasts</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L33:</b> Medically important mold</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L34:</b> Dimorphic fungi and Fungus-like organisms</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L35:</b> Antifungal drugs</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L36:</b> Overview of laboratory diagnosis in infectious diseases</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>L37:</b> Case discussion (Bacteria and Fungi)</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L19.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L19: Bacterial cell structure and genome"><b>L19:</b> Bacterial cell structure and genome</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L20.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L20: Bacterial growth, metabolism, and physiology"><b>L20:</b> Bacterial growth, metabolism, and physiology</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L21.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L21: Human microbiome and mycobiome"><b>L21:</b> Human microbiome and mycobiome</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L22.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L22: Bacterial pathogenesis"><b>L22:</b> Bacterial pathogenesis</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L23.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L23: Gram positive bacteria"><b>L23:</b> Gram positive bacteria</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L24.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L24: Gram negative bacteria"><b>L24:</b> Gram negative bacteria</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L25.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L25: Anaerobic bacteria"><b>L25:</b> Anaerobic bacteria</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L26.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L26: Higher bacteria"><b>L26:</b> Higher bacteria</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L27.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L27: Spirochete, unclassified bacteria and zoonotic bacterial pathogens"><b>L27:</b> Spirochete, unclassified bacteria and zoonotic bacterial pathogens</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L28.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L28: Microbial control, principle of sterilization and basic biosafety"><b>L28:</b> Microbial control, principle of sterilization and basic biosafety</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L29.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L29: Antibacterial drugs"><b>L29:</b> Antibacterial drugs</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L30.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L30: Principle of drug resistance mechanism"><b>L30:</b> Principle of drug resistance mechanism</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L31.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L31: Fungal structure, taxonomy and classification of medically important Fungi"><b>L31:</b> Fungal structure, taxonomy and classification of medically important Fungi</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L32.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L32: Medically important yeasts"><b>L32:</b> Medically important yeasts</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L33.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L33: Medically important mold"><b>L33:</b> Medically important mold</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L34.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L34: Dimorphic fungi and Fungus-like organisms"><b>L34:</b> Dimorphic fungi and Fungus-like organisms</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L35.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L35: Antifungal drugs"><b>L35:</b> Antifungal drugs</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L36.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L36: Overview of laboratory diagnosis in infectious diseases"><b>L36:</b> Overview of laboratory diagnosis in infectious diseases</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-theory2-L37.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L37: Case discussion (Bacteria and Fungi)"><b>L37:</b> Case discussion (Bacteria and Fungi)</button>
                     </div>
                 </div>
                 <div id="labSum2Content" class="infectious-sub-pane hidden">
                     <h2 class="text-2xl font-bold mb-4">Lab SUM2</h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>Lab 7:</b> Principle of cultivation assay</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>Lab 8:</b> Bacterial staining and Biochemical test for bacterial identification</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>Lab 9:</b> Laboratory diagnosis in bacterial infection and antimicrobial susceptibility test</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>Lab 10:</b> Laboratory diagnosis in fungal infection</button>
-                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left"><b>Lab 11:</b> Personal Protective Equipment and Biosafety Practices</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-lab2-L7.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="Lab 7: Principle of cultivation assay"><b>Lab 7:</b> Principle of cultivation assay</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-lab2-L8.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="Lab 8: Bacterial staining and Biochemical test for bacterial identification"><b>Lab 8:</b> Bacterial staining and Biochemical test for bacterial identification</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-lab2-L9.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="Lab 9: Laboratory diagnosis in bacterial infection and antimicrobial susceptibility test"><b>Lab 9:</b> Laboratory diagnosis in bacterial infection and antimicrobial susceptibility test</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-lab2-L10.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="Lab 10: Laboratory diagnosis in fungal infection"><b>Lab 10:</b> Laboratory diagnosis in fungal infection</button>
+                        <button class="lecture-btn" data-quiz-file="infectious/infectious-lab2-L11.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="Lab 11: Personal Protective Equipment and Biosafety Practices"><b>Lab 11:</b> Personal Protective Equipment and Biosafety Practices</button>
                     </div>
+                </div>
+                 <div id="infectiousQuizView" class="infectious-sub-pane hidden">
+                    <header class="text-center mb-8">
+                        <h1 id="infectious-quiz-title" class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-gray-50"></h1>
+                        <p class="mt-2 text-lg text-gray-600 dark:text-gray-400">Test your knowledge.</p>
+                    </header>
+                    <div id="infectiousQuizContainer" class="space-y-8"></div>
                 </div>
                  <div id="infectiousPlaceholder" class="infectious-sub-pane hidden text-center p-10 bg-white dark:bg-gray-800 rounded-lg shadow-md">
                     <h2 class="text-2xl font-semibold text-gray-500 dark:text-gray-400">ยังไม่มี/อาจจะไม่ทำ</h2>
@@ -231,10 +239,60 @@
         // --- SCRIPT 1: Main Application Logic ---
         let quizState = {};
         let paraQuizData = [], glucoQuizData = [], chemoQuizData = [], antidoteQuizData = [], rduQuizData = [], pvQuizData = [];
+        let infectiousQuizData = [];
 
-        function initializeQuizState(quizData, containerId) { if (!quizData || quizData.length === 0) { document.getElementById('progress-tracker').classList.add('hidden'); return; } quizState = { totalQuestions: quizData.length, answered: 0, correct: 0, incorrect: 0, incorrectIndices: [], currentQuizDataRef: quizData, containerId: containerId }; document.getElementById('progress-tracker').classList.remove('hidden'); document.getElementById('retry-buttons').classList.remove('hidden'); updateProgressBar(); }
-        function updateProgressBar() { const remaining = quizState.totalQuestions - quizState.answered; const percentage = quizState.totalQuestions > 0 ? (quizState.answered / quizState.totalQuestions) * 100 : 0; document.getElementById('answered-count').innerText = quizState.answered; document.getElementById('total-count').innerText = quizState.totalQuestions; document.getElementById('correct-count').innerText = quizState.correct; document.getElementById('incorrect-count').innerText = quizState.incorrect; document.getElementById('remaining-count').innerText = remaining; document.getElementById('progress-bar-fill').style.width = `${percentage}%`; const retryIncorrectBtn = document.getElementById('retry-incorrect-btn'); if (quizState.incorrectIndices.length === 0 && quizState.answered > 0) { retryIncorrectBtn.disabled = true; retryIncorrectBtn.classList.add('opacity-50', 'cursor-not-allowed'); } else { retryIncorrectBtn.disabled = false; retryIncorrectBtn.classList.remove('opacity-50', 'cursor-not-allowed'); } }
-        function startNewQuiz(quizData, containerId) { buildQuiz(quizData, containerId); initializeQuizState(quizData, containerId); }
+        function initializeQuizState(quizData, containerId, originalDataRef) { 
+            quizState = { 
+                totalQuestions: quizData.length, 
+                answered: 0, 
+                correct: 0, 
+                incorrect: 0, 
+                incorrectIndices: [], 
+                currentQuizDataRef: quizData,
+                originalQuizDataRef: originalDataRef || quizData,
+                containerId: containerId 
+            }; 
+            document.getElementById('progress-tracker').classList.remove('hidden'); 
+            document.getElementById('retry-buttons').classList.remove('hidden'); 
+            updateProgressBar(); 
+        }
+
+        function updateProgressBar() { 
+            if (!quizState.totalQuestions) return;
+            const remaining = quizState.totalQuestions - quizState.answered; 
+            const percentage = quizState.totalQuestions > 0 ? (quizState.answered / quizState.totalQuestions) * 100 : 0; 
+            document.getElementById('answered-count').innerText = quizState.answered; 
+            document.getElementById('total-count').innerText = quizState.totalQuestions; 
+            document.getElementById('correct-count').innerText = quizState.correct; 
+            document.getElementById('incorrect-count').innerText = quizState.incorrect; 
+            document.getElementById('remaining-count').innerText = remaining; 
+            document.getElementById('progress-bar-fill').style.width = `${percentage}%`; 
+            const retryIncorrectBtn = document.getElementById('retry-incorrect-btn'); 
+            
+            // --- UPDATED LOGIC ---
+            // The button should be enabled if there are any incorrect answers to retry.
+            if (quizState.incorrectIndices && quizState.incorrectIndices.length > 0) {
+                retryIncorrectBtn.disabled = false;
+                retryIncorrectBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+            } else {
+                retryIncorrectBtn.disabled = true;
+                retryIncorrectBtn.classList.add('opacity-50', 'cursor-not-allowed');
+            }
+        }
+        
+        function startNewQuiz(quizData, containerId, originalDataRef) { 
+            if (!quizData || quizData.length === 0) {
+                document.getElementById('progress-tracker').classList.add('hidden');
+                const targetPane = document.getElementById(containerId).closest('.main-content-pane');
+                if (targetPane && targetPane.id === 'infectiousContent') {
+                    document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
+                    document.getElementById('infectiousPlaceholder').classList.remove('hidden');
+                }
+                return; 
+            }
+            buildQuiz(quizData, containerId); 
+            initializeQuizState(quizData, containerId, originalDataRef); 
+        }
         
         document.addEventListener('DOMContentLoaded', async () => {
             const menuBtn = document.getElementById('menu-btn');
@@ -255,25 +313,17 @@
 
             try {
                 const quizFiles = [
-                    'pharmaco/para-quiz.json', 
-                    'pharmaco/gluco-quiz.json', 
-                    'pharmaco/chemo-quiz.json', 
-                    'pharmaco/antidote-quiz.json', 
-                    'pharmaco/rdu-quiz.json', 
-                    'pharmaco/pv-quiz.json'
+                    'pharmaco/para-quiz.json', 'pharmaco/gluco-quiz.json', 'pharmaco/chemo-quiz.json', 
+                    'pharmaco/antidote-quiz.json', 'pharmaco/rdu-quiz.json', 'pharmaco/pv-quiz.json'
                 ];
                 const responses = await Promise.all(quizFiles.map(file => fetch(file)));
-
                 for (const response of responses) {
                     if (!response.ok) throw new Error(`Failed to fetch ${response.url}`);
                 }
-
                 const data = await Promise.all(responses.map(r => r.json()));
                 [paraQuizData, glucoQuizData, chemoQuizData, antidoteQuizData, rduQuizData, pvQuizData] = data;
-                
             } catch (error) {
-                console.error("Error loading quiz data:", error);
-                // Optionally, display an error message to the user on the page
+                console.error("Error loading pharma quiz data:", error);
             }
             
             function openSidebar() { sidebar.classList.remove('-translate-x-full'); overlay.classList.remove('hidden'); }
@@ -291,6 +341,7 @@
                     event.preventDefault();
                     const targetId = link.dataset.target;
                     const subTargetId = link.dataset.subTarget;
+                    progressTracker.classList.add('hidden');
                     contentPanes.forEach(pane => pane.classList.add('hidden'));
                     document.getElementById(targetId)?.classList.remove('hidden');
                     
@@ -301,11 +352,8 @@
                         document.getElementById(pharmaTabBtns[0].dataset.target)?.classList.remove('hidden');
                         startNewQuiz(paraQuizData, 'para-quiz-container');
                     } else if (targetId === 'infectiousContent') {
-                        progressTracker.classList.add('hidden');
                         document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
                         document.getElementById(subTargetId)?.classList.remove('hidden');
-                    } else {
-                        progressTracker.classList.add('hidden');
                     }
                     closeSidebar();
                 });
@@ -332,30 +380,73 @@
             });
 
             document.querySelectorAll('.lecture-btn').forEach(button => {
-                button.addEventListener('click', () => {
+                button.classList.add('bg-white', 'dark:bg-gray-800', 'p-4', 'rounded-lg', 'shadow', 'hover:bg-gray-100', 'dark:hover:bg-gray-700', 'text-left');
+                button.addEventListener('click', async () => {
+                    const quizFile = button.dataset.quizFile;
+                    const quizContainerId = button.dataset.quizContainer;
+                    const quizTitle = button.dataset.quizTitle;
+
                     document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
-                    document.getElementById('infectiousPlaceholder').classList.remove('hidden');
+
+                    if (quizFile && quizContainerId) {
+                        try {
+                            const response = await fetch(quizFile);
+                            if (!response.ok) throw new Error(`File not found: ${quizFile}`);
+                            const fetchedData = await response.json();
+                            if (!fetchedData || fetchedData.length === 0) throw new Error(`Quiz file is empty: ${quizFile}`);
+                            
+                            infectiousQuizData = fetchedData;
+                            const quizView = document.getElementById('infectiousQuizView');
+                            const titleElement = document.getElementById('infectious-quiz-title');
+                            
+                            if(titleElement) titleElement.innerHTML = quizTitle || 'Infectious Disease Quiz';
+                            if(quizView) quizView.classList.remove('hidden');
+
+                            startNewQuiz(infectiousQuizData, quizContainerId);
+                        } catch (error) {
+                            console.error("Could not start infectious quiz:", error.message);
+                            document.getElementById('infectiousPlaceholder').classList.remove('hidden');
+                        }
+                    } else {
+                        document.getElementById('infectiousPlaceholder').classList.remove('hidden');
+                    }
                 });
             });
 
-            retryBtn.addEventListener('click', () => { startNewQuiz(quizState.currentQuizDataRef, quizState.containerId); });
+            retryBtn.addEventListener('click', () => { 
+                if (quizState.originalQuizDataRef) {
+                    startNewQuiz(quizState.originalQuizDataRef, quizState.containerId);
+                }
+            });
+
             retryIncorrectBtn.addEventListener('click', () => {
-                quizState.answered -= quizState.incorrectIndices.length;
-                quizState.incorrect = 0;
+                if (!quizState.incorrectIndices || quizState.incorrectIndices.length === 0) return;
+
+                const incorrectCount = quizState.incorrectIndices.length;
+                quizState.answered -= incorrectCount;
+                quizState.incorrect -= incorrectCount;
+
                 quizState.incorrectIndices.forEach(originalIndex => {
-                    const questionNumber = originalIndex + 1;
-                    const card = document.querySelector(`#${quizState.containerId} > div:nth-child(${questionNumber})`);
+                    const card = document.querySelector(`#${quizState.containerId} .question-card[data-original-index='${originalIndex}']`);
                     if (!card) return;
-                    card.querySelector('.choices').querySelectorAll('input[type="radio"]').forEach(radio => {
+
+                    card.dataset.answered = 'false';
+                    card.querySelectorAll('input[type="radio"]').forEach(radio => {
                         radio.disabled = false;
                         radio.checked = false;
-                        radio.parentElement.classList.remove('bg-blue-100', 'dark:bg-blue-900/50', 'border-blue-500', 'bg-red-100', 'dark:bg-red-900/50', 'border-red-500');
+                        const label = radio.parentElement;
+                        label.classList.remove('bg-red-100', 'dark:bg-red-900/50', 'border-red-500', 'bg-blue-100', 'dark:bg-blue-900/50', 'border-blue-500');
                     });
-                    card.querySelector('.reasoning').classList.add('hidden', 'opacity-0', 'max-h-0');
+                    
+                    const reasoningDiv = card.querySelector('.reasoning');
+                    reasoningDiv.classList.add('hidden', 'opacity-0', 'max-h-0');
+                    reasoningDiv.classList.remove('border-red-500', 'bg-red-50', 'dark:bg-red-900/20', 'dark:border-red-500', 'border-blue-500', 'bg-blue-100', 'dark:bg-blue-900/50', 'dark:border-blue-500');
+
                     const btn = card.querySelector('.check-btn');
                     btn.disabled = false;
                     btn.classList.remove('bg-gray-400', 'dark:bg-gray-600', 'cursor-not-allowed');
                 });
+
                 quizState.incorrectIndices = [];
                 updateProgressBar();
             });
@@ -366,61 +457,59 @@
             if (!quizContainer || !quizData) return; 
             quizContainer.innerHTML = ''; 
             quizData.forEach((item, index) => { 
+                const originalIndex = quizState.originalQuizDataRef ? quizState.originalQuizDataRef.findIndex(q => q.question === item.question) : index;
                 const questionNumber = index + 1; 
                 const choicesHTML = Object.entries(item.choices).map(([key, value]) => `<label class="quiz-option block p-4 border-2 border-gray-300 dark:border-gray-600 rounded-lg cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-700"><input type="radio" name="${containerId}_question${questionNumber}" value="${key}" class="mr-3 text-blue-600 focus:ring-blue-500 dark:focus:ring-offset-gray-800"><span class="font-medium">${key}.</span> ${value}</label>`).join(''); 
                 const questionElement = document.createElement('div'); 
                 questionElement.classList.add('question-card', 'bg-white', 'dark:bg-gray-800', 'p-6', 'rounded-xl', 'shadow-md'); 
+                questionElement.dataset.originalIndex = originalIndex;
                 questionElement.innerHTML = `<h2 class="text-xl font-semibold mb-4"><span class="text-blue-600 dark:text-blue-400 font-bold">Question ${questionNumber}:</span> ${item.question}</h2><div class="choices space-y-3">${choicesHTML}</div><button class="check-btn mt-6 w-full sm:w-auto bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700 dark:hover:bg-blue-500" data-question-index="${index}" data-quiz-type="${containerId}">Check Answer</button><div class="reasoning hidden opacity-0 max-h-0 mt-6 p-4 border-l-4"><h3 class="font-bold text-lg mb-2"></h3><div></div></div>`; 
                 quizContainer.appendChild(questionElement); 
             }); 
             document.querySelectorAll(`#${containerId} .check-btn`).forEach(button => button.addEventListener('click', checkAnswer)); 
         }
+
         function checkAnswer(event) { 
             const button = event.target; 
             const card = button.closest('.question-card'); 
+            if (card.dataset.answered === 'true') return;
+
             const quizType = button.dataset.quizType; 
             const questionIndex = parseInt(button.dataset.questionIndex, 10); 
+            const originalIndex = parseInt(card.dataset.originalIndex, 10);
             
-            const quizDataMap = {
-                'para-quiz-container': paraQuizData, 
-                'gluco-quiz-container': glucoQuizData, 
-                'chemo-quiz-container': chemoQuizData, 
-                'antidote-quiz-container': antidoteQuizData, 
-                'rdu-quiz-container': rduQuizData, 
-                'pv-quiz-container': pvQuizData 
-            }; 
-            const quizData = quizDataMap[quizType]; 
-
-            if (!quizData) return; 
-            const questionData = quizData[questionIndex]; 
+            const questionData = quizState.currentQuizDataRef[questionIndex]; 
             const selectedOption = card.querySelector(`input[type="radio"]:checked`); 
-            if (!selectedOption) return; 
+            if (!selectedOption) return;
+
             const userAnswer = selectedOption.value; 
             const isCorrect = userAnswer === questionData.correctAnswer; 
             const reasoningDiv = card.querySelector('.reasoning'); 
             const resultTitle = reasoningDiv.querySelector('h3'); 
             const resultText = reasoningDiv.querySelector('div'); 
+            
             button.disabled = true; 
             button.classList.add('bg-gray-400', 'dark:bg-gray-600', 'cursor-not-allowed'); 
             card.querySelectorAll('input[type="radio"]').forEach(radio => radio.disabled = true); 
-            quizState.answered++; 
+            
+            quizState.answered++;
             if (isCorrect) { 
                 quizState.correct++; 
             } else { 
                 quizState.incorrect++; 
-                const originalIndex = quizState.currentQuizDataRef.findIndex(q => q.question === questionData.question); 
                 if (originalIndex !== -1 && !quizState.incorrectIndices.includes(originalIndex)) { 
                     quizState.incorrectIndices.push(originalIndex); 
                 } 
-            } 
+            }
+            card.dataset.answered = 'true';
+
             updateProgressBar(); 
             reasoningDiv.classList.remove('hidden', 'opacity-0', 'max-h-0'); 
             reasoningDiv.classList.add('opacity-100', 'max-h-screen');
             
-            // Build incorrect reasons HTML regardless of the answer
             let incorrectReasonsHTML = '<ul>';
             for (const key in questionData.reasoning.incorrect) {
-                if (key !== questionData.correctAnswer) { // Ensure not to show the correct answer in the "incorrect" list
+                if (key !== questionData.correctAnswer) {
                     incorrectReasonsHTML += `<li class="mb-2"><strong>Why '${key}' is incorrect:</strong> ${questionData.reasoning.incorrect[key]}</li>`;
                 }
             }
@@ -463,7 +552,6 @@
             updateIcon();
         });
 
-        // Set the initial icon on page load (will always be moon since default is light)
         updateIcon();
     </script>
 
