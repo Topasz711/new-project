@@ -1,1 +1,162 @@
-[]
+[
+    {
+        "question": "A 55-year-old man from a rural community in Southeast Asia presents with a one-week history of migratory, subcutaneous, erythematous swellings on his abdomen and chest. He recalls eating a local delicacy of raw freshwater fish ('koi pla') about two weeks prior. A complete blood count reveals significant eosinophilia. What is the most probable causative agent?",
+        "choices": {
+            "A": "Gnathostoma spinigerum",
+            "B": "Strongyloides stercoralis",
+            "C": "Trichinella spiralis",
+            "D": "Wuchereria bancrofti",
+            "E": "Angiostrongylus cantonensis"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The clinical presentation is classic for gnathostomiasis. The key features are the combination of migratory subcutaneous swellings (cutaneous larva migrans), a history of eating raw freshwater fish (the primary mode of transmission), significant eosinophilia, and the endemic location in Southeast Asia.",
+            "incorrect": {
+                "B": "Strongyloidiasis is acquired when larvae in soil penetrate the skin. It does not cause large, migratory swellings and is not acquired from eating raw fish.",
+                "C": "Trichinosis is acquired by eating raw or undercooked meat (usually pork), not fish. Classic symptoms include muscle pain and periorbital edema.",
+                "D": "Lymphatic filariasis (elephantiasis) is transmitted by mosquito bites and affects the lymphatic system, causing chronic lymphedema, not acute migratory swellings.",
+                "E": "Angiostrongylus cantonensis (rat lungworm) is acquired from raw snails or slugs and primarily causes eosinophilic meningitis, not skin manifestations."
+            }
+        }
+    },
+    {
+        "question": "Which of the following statements best describes the key morphological difference between the microfilariae of Wuchereria bancrofti and Brugia malayi?",
+        "choices": {
+            "A": "The body nuclei of B. malayi are typically overlapping and uncountable, while those of W. bancrofti are discrete and countable.",
+            "B": "W. bancrofti has two terminal nuclei in its tail, while B. malayi has none.",
+            "C": "W. bancrofti has no nuclei in the tip of its tail, whereas B. malayi has two distinct terminal nuclei.",
+            "D": "W. bancrofti lacks a sheath, whereas B. malayi is sheathed.",
+            "E": "The cephalic space of W. bancrofti is longer than its width, while it is of equal length and width in B. malayi."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This is the most definitive feature. The tail of Wuchereria bancrofti is pointed and the column of nuclei does not extend to the very tip. In contrast, the tail of Brugia malayi contains two separate, distinct nuclei at the tip.",
+            "incorrect": {
+                "A": "While generally true that W. bancrofti nuclei are more discrete, it is not the key or most reliable difference compared to the tail nuclei morphology.",
+                "B": "This statement is the exact opposite of the correct fact; it incorrectly swaps the characteristics of the two species.",
+                "D": "This is incorrect. Both Wuchereria bancrofti and Brugia malayi are sheathed microfilariae.",
+                "E": "This statement reverses the actual description. The cephalic space of W. bancrofti has a length roughly equal to its width (1:1 ratio), while in B. malayi, it is typically twice as long as it is wide (2:1 ratio)."
+            }
+        }
+    },
+    {
+        "question": "A young child from a region with poor sanitation is brought to the clinic. The mother states the child passed a large, creamy-white, cylindrical worm, about 20 cm in length, in her stool. The child has also had a recent non-productive cough and mild abdominal discomfort. Which of the following is the infective stage for this parasite?",
+        "choices": {
+            "A": "Filariform larva",
+            "B": "Encysted larva in pork muscle",
+            "C": "Third-stage larva in fish muscle",
+            "D": "Embryonated egg",
+            "E": "Rhabditiform larva"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The presentation indicates an infection with Ascaris lumbricoides (giant roundworm). The non-productive cough suggests larval migration through the lungs (Loeffler's syndrome). Ascaris is a soil-transmitted helminth, and infection occurs when a person ingests food, water, or soil contaminated with infective embryonated eggs.",
+            "incorrect": {
+                "A": "Filariform larva is the skin-penetrating, infective stage for hookworms and Strongyloides stercoralis.",
+                "B": "Encysted larva in pork muscle is the infective stage for Trichinella spiralis and Taenia solium.",
+                "C": "Third-stage larva in fish muscle is the infective stage for parasites like Gnathostoma spinigerum.",
+                "E": "Rhabditiform larva is a non-infective larval stage of hookworms and Strongyloides that is passed in the stool."
+            }
+        }
+    },
+    {
+        "question": "A patient is diagnosed with a heavy Trichuris trichiura infection. Which of the following clinical signs is most characteristically associated with this condition?",
+        "choices": {
+            "A": "Malabsorption and cachexia",
+            "B": "Iron-deficiency anemia from blood-sucking",
+            "C": "Intestinal obstruction by a bolus of worms",
+            "D": "Loeffler's syndrome (pulmonary eosinophilia)",
+            "E": "Rectal prolapse"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "In heavy infections, the large number of Trichuris trichiura (whipworm) causes significant inflammation, irritation, and tenesmus. This chronic irritation and straining can weaken the muscles supporting the rectum, leading to rectal prolapse, a classic sign of severe trichuriasis.",
+            "incorrect": {
+                "A": "Severe malabsorption is more characteristic of parasites affecting the small intestine, like Giardia lamblia.",
+                "B": "Iron-deficiency anemia from blood-sucking is the hallmark sign of a heavy hookworm infection.",
+                "C": "Intestinal obstruction by a tangled mass of worms is a complication of heavy infection with the much larger Ascaris lumbricoides.",
+                "D": "Loeffler's syndrome is caused by the migration of parasite larvae (like Ascaris or Strongyloides) through the lungs; the Trichuris life cycle is confined to the GI tract."
+            }
+        }
+    },
+    {
+        "question": "A 35-year-old farmer who often works barefoot in his fields presents with fatigue, pallor, and shortness of breath on exertion. His lab work reveals a microcytic, hypochromic anemia. A stool sample contains eggs that are oval, thin-shelled, and in the 4-8 cell stage of development. What is the primary mechanism causing his anemia?",
+        "choices": {
+            "A": "Blockage of the common bile duct",
+            "B": "Autoimmune hemolysis triggered by the parasite",
+            "C": "Malabsorption of iron due to flattened villi",
+            "D": "Chronic intestinal blood loss",
+            "E": "Competition for vitamin B12 in the gut"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The presentation is classic for hookworm infection. The risk factor (working barefoot), symptoms (anemia), and egg morphology all point to this diagnosis. The primary cause of pathology is chronic blood loss, as adult worms attach to the small intestine and feed on blood, leading to iron-deficiency anemia.",
+            "incorrect": {
+                "A": "Biliary obstruction can be caused by liver flukes or a wandering Ascaris worm, not hookworms.",
+                "B": "The anemia is caused by direct blood loss, not autoimmune destruction of red blood cells.",
+                "C": "Significant malabsorption is not the primary pathogenic mechanism of hookworms.",
+                "E": "Competition for vitamin B12 causing megaloblastic anemia is characteristic of the fish tapeworm, Diphyllobothrium latum."
+            }
+        }
+    },
+    {
+        "question": "Which feature is unique to the life cycle of Strongyloides stercoralis compared to other intestinal nematodes like Ascaris lumbricoides or hookworms?",
+        "choices": {
+            "A": "Infection occurs via ingestion of embryonated eggs.",
+            "B": "Adult worms live in the large intestine.",
+            "C": "It has the capacity for autoinfection and a free-living life cycle.",
+            "D": "It requires an intermediate host to complete its life cycle.",
+            "E": "The diagnostic stage is the unembryonated egg passed in feces."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Strongyloides is unique because it can perpetuate infection for decades through autoinfection, where larvae mature to the infective stage within the host and re-infect them. It is also the only one of these nematodes that can complete a free-living reproductive cycle in the soil.",
+            "incorrect": {
+                "A": "This is the mode of infection for Ascaris and Trichuris.",
+                "B": "The adult female Strongyloides lives in the small intestine.",
+                "D": "These common nematodes have direct life cycles and do not require an intermediate host.",
+                "E": "The diagnostic stage for Strongyloides is typically the rhabditiform larva in stool, as eggs hatch within the intestine."
+            }
+        }
+    },
+    {
+        "question": "A patient from the Philippines presents with a several-month history of chronic, voluminous watery diarrhea, abdominal gurgling (borborygmi), and significant weight loss, leading to cachexia. His diet includes frequent consumption of raw small freshwater fish. Stool examination reveals peanut-shaped eggs with flattened bipolar plugs, as well as some larvae and adult worms. What is the most likely diagnosis?",
+        "choices": {
+            "A": "Capillariasis",
+            "B": "Trichuriasis",
+            "C": "Gnathostomiasis",
+            "D": "Ascariasis",
+            "E": "Strongyloidiasis"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The clinical picture is a textbook case of intestinal capillariasis (Capillaria philippinensis). Key features are the location (Philippines), severe malabsorption syndrome (chronic diarrhea, weight loss), history of eating raw freshwater fish, and the pathognomonic peanut-shaped eggs with flattened bipolar plugs found in the stool.",
+            "incorrect": {
+                "B": "Trichuriasis causes dysentery and has barrel-shaped eggs with prominent polar plugs.",
+                "C": "Gnathostomiasis causes migratory subcutaneous swellings, not chronic diarrhea.",
+                "D": "Ascariasis is from contaminated soil and does not cause severe malabsorption; its eggs are mammillated.",
+                "E": "The diagnostic stage for Strongyloidiasis is the larva, not eggs, and it typically does not cause such a severe malabsorption syndrome."
+            }
+        }
+    },
+    {
+        "question": "Which of the following modes of transmission is INCORRECTLY matched with the parasite?",
+        "choices": {
+            "A": "Trichinella spiralis - Ingestion of encysted larvae in undercooked meat.",
+            "B": "Necator americanus - Skin penetration by filariform larvae from contaminated soil.",
+            "C": "Enterobius vermicularis - Ingestion of third-stage larvae from undercooked fish.",
+            "D": "Wuchereria bancrofti - Bite of an infected mosquito vector.",
+            "E": "Ascaris lumbricoides - Ingestion of embryonated eggs from contaminated soil."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This statement is incorrect. The actual mode of transmission for Enterobius vermicularis (pinworm) is the ingestion of infective, embryonated eggs, typically via the fecal-oral route from contaminated hands or surfaces. It has no association with fish.",
+            "incorrect": {
+                "A": "This is the correct transmission method for trichinosis.",
+                "B": "This is the correct transmission method for hookworm.",
+                "D": "This is the correct transmission method for lymphatic filariasis.",
+                "E": "This is the correct transmission method for ascariasis."
+            }
+        }
+    }
+]

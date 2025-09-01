@@ -266,18 +266,7 @@
             document.getElementById('correct-count').innerText = quizState.correct; 
             document.getElementById('incorrect-count').innerText = quizState.incorrect; 
             document.getElementById('remaining-count').innerText = remaining; 
-            document.getElementById('progress-bar-fill').style.width = `${percentage}%`; 
-            const retryIncorrectBtn = document.getElementById('retry-incorrect-btn'); 
-            
-            // --- UPDATED LOGIC ---
-            // The button should be enabled if there are any incorrect answers to retry.
-            if (quizState.incorrectIndices && quizState.incorrectIndices.length > 0) {
-                retryIncorrectBtn.disabled = false;
-                retryIncorrectBtn.classList.remove('opacity-50', 'cursor-not-allowed');
-            } else {
-                retryIncorrectBtn.disabled = true;
-                retryIncorrectBtn.classList.add('opacity-50', 'cursor-not-allowed');
-            }
+            document.getElementById('progress-bar-fill').style.width = `${percentage}%`;
         }
         
         function startNewQuiz(quizData, containerId, originalDataRef) { 
@@ -422,32 +411,33 @@
             retryIncorrectBtn.addEventListener('click', () => {
                 if (!quizState.incorrectIndices || quizState.incorrectIndices.length === 0) return;
 
-                const incorrectCount = quizState.incorrectIndices.length;
-                quizState.answered -= incorrectCount;
-                quizState.incorrect -= incorrectCount;
+                const indicesToReset = [...quizState.incorrectIndices];
+                const resetCount = indicesToReset.length;
 
-                quizState.incorrectIndices.forEach(originalIndex => {
-                    const card = document.querySelector(`#${quizState.containerId} .question-card[data-original-index='${originalIndex}']`);
-                    if (!card) return;
-
-                    card.dataset.answered = 'false';
-                    card.querySelectorAll('input[type="radio"]').forEach(radio => {
-                        radio.disabled = false;
-                        radio.checked = false;
-                        const label = radio.parentElement;
-                        label.classList.remove('bg-red-100', 'dark:bg-red-900/50', 'border-red-500', 'bg-blue-100', 'dark:bg-blue-900/50', 'border-blue-500');
-                    });
-                    
-                    const reasoningDiv = card.querySelector('.reasoning');
-                    reasoningDiv.classList.add('hidden', 'opacity-0', 'max-h-0');
-                    reasoningDiv.classList.remove('border-red-500', 'bg-red-50', 'dark:bg-red-900/20', 'dark:border-red-500', 'border-blue-500', 'bg-blue-100', 'dark:bg-blue-900/50', 'dark:border-blue-500');
-
-                    const btn = card.querySelector('.check-btn');
-                    btn.disabled = false;
-                    btn.classList.remove('bg-gray-400', 'dark:bg-gray-600', 'cursor-not-allowed');
-                });
-
+                quizState.answered -= resetCount;
+                quizState.incorrect -= resetCount;
                 quizState.incorrectIndices = [];
+
+                indicesToReset.forEach(originalIndex => {
+                    const card = document.querySelector(`#${quizState.containerId} .question-card[data-original-index='${originalIndex}']`);
+                    if (card) {
+                        card.dataset.answered = 'false';
+                        card.querySelectorAll('input[type="radio"]').forEach(radio => {
+                            radio.disabled = false;
+                            radio.checked = false;
+                            radio.parentElement.classList.remove('bg-red-100', 'dark:bg-red-900/50', 'border-red-500', 'bg-blue-100', 'dark:bg-blue-900/50', 'border-blue-500');
+                        });
+                        
+                        const reasoningDiv = card.querySelector('.reasoning');
+                        reasoningDiv.classList.add('hidden', 'opacity-0', 'max-h-0');
+                        reasoningDiv.classList.remove('border-red-500', 'bg-red-50', 'dark:bg-red-900/20', 'dark:border-red-500', 'border-blue-500', 'bg-blue-100', 'dark:bg-blue-900/50', 'dark:border-blue-500');
+
+                        const btn = card.querySelector('.check-btn');
+                        btn.disabled = false;
+                        btn.classList.remove('bg-gray-400', 'dark:bg-gray-600', 'cursor-not-allowed');
+                    }
+                });
+                
                 updateProgressBar();
             });
         });
@@ -474,7 +464,6 @@
             const card = button.closest('.question-card'); 
             if (card.dataset.answered === 'true') return;
 
-            const quizType = button.dataset.quizType; 
             const questionIndex = parseInt(button.dataset.questionIndex, 10); 
             const originalIndex = parseInt(card.dataset.originalIndex, 10);
             
@@ -492,6 +481,7 @@
             button.classList.add('bg-gray-400', 'dark:bg-gray-600', 'cursor-not-allowed'); 
             card.querySelectorAll('input[type="radio"]').forEach(radio => radio.disabled = true); 
             
+            card.dataset.answered = 'true';
             quizState.answered++;
             if (isCorrect) { 
                 quizState.correct++; 
@@ -501,8 +491,7 @@
                     quizState.incorrectIndices.push(originalIndex); 
                 } 
             }
-            card.dataset.answered = 'true';
-
+            
             updateProgressBar(); 
             reasoningDiv.classList.remove('hidden', 'opacity-0', 'max-h-0'); 
             reasoningDiv.classList.add('opacity-100', 'max-h-screen');
