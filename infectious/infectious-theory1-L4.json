@@ -1,1 +1,122 @@
-[]
+[
+    {
+        "question": "Which of these protozoa is a ciliate, considered the largest protozoan parasite of humans, and is known to cause flask-shaped ulcers in the colon, similar to E. histolytica?",
+        "choices": {
+            "A": "Leishmania spp.",
+            "B": "Entamoeba coli",
+            "C": "Balantidium coli",
+            "D": "Acanthamoeba spp.",
+            "E": "Giardia intestinalis"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Balantidium coli meets all three criteria: 1. It is the only pathogenic ciliate that infects humans. 2. It is the largest protozoan parasite of humans. 3. It can invade the colon wall, causing flask-shaped ulcers.",
+            "incorrect": {
+                "A": "Leishmania is a flagellate that infects macrophages, causing cutaneous or visceral disease, not colon ulcers.",
+                "B": "Entamoeba coli is a non-pathogenic amoeba that lives as a commensal in the large intestine and does not cause ulcers.",
+                "D": "Acanthamoeba is a free-living amoeba that causes infections in the eye (keratitis) and brain (GAE), not in the colon.",
+                "E": "Giardia intestinalis is a flagellate that resides in the small intestine, causing malabsorption, and does not invade the colon."
+            }
+        }
+    },
+    {
+        "question": "What key feature distinguishes the nucleus of an Entamoeba histolytica trophozoite from that of an Entamoeba coli trophozoite during microscopic examination?",
+        "choices": {
+            "A": "E. histolytica has multiple nuclei, while E. coli has one.",
+            "B": "E. histolytica has a large, kidney-shaped nucleus.",
+            "C": "E. histolytica has a small, central karyosome and fine, evenly distributed peripheral chromatin.",
+            "D": "E. histolytica lacks a visible nucleus.",
+            "E": "E. histolytica has a large, eccentric karyosome and coarse, irregular peripheral chromatin."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The nucleus of the E. histolytica trophozoite has a classic 'bull's-eye' appearance due to its small, centrally located karyosome and fine, evenly distributed peripheral chromatin.",
+            "incorrect": {
+                "A": "In the trophozoite stage, both E. histolytica and E. coli have only a single nucleus.",
+                "B": "A large, kidney-shaped macronucleus is the defining feature of Balantidium coli, a ciliate.",
+                "D": "The nucleus is a prominent and essential structure for identifying E. histolytica.",
+                "E": "This description accurately fits the nucleus of the non-pathogenic Entamoeba coli, which has an off-center (eccentric) karyosome and clumped, irregular peripheral chromatin."
+            }
+        }
+    },
+    {
+        "question": "A 45-year-old male from a rural, tropical region presents with a high fever, significant weight loss, and abdominal distension. A physical exam reveals marked hepatosplenomegaly. A bone marrow aspirate is performed, and Giemsa staining reveals small, oval, non-motile bodies within macrophages. Which stage of the parasite's life cycle has been identified?",
+        "choices": {
+            "A": "Trophozoite",
+            "B": "Promastigote",
+            "C": "Amastigote",
+            "D": "Cyst",
+            "E": "Sporozoite"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The clinical presentation is classic for Visceral Leishmaniasis (Kala-azar). The description of 'small, oval, non-motile bodies within macrophages' in a bone marrow aspirate perfectly matches the amastigote stage of Leishmania, which is the diagnostic stage found in human tissues.",
+            "incorrect": {
+                "A": "'Trophozoite' refers to the motile, feeding stage of intestinal protozoa like Entamoeba or Giardia.",
+                "B": "The promastigote is the motile, flagellated stage of Leishmania that develops in the sandfly vector and is infective to humans.",
+                "D": "A cyst is a dormant, environmentally resistant stage of fecal-orally transmitted protozoa like Entamoeba and Giardia. Leishmania does not have a cyst stage.",
+                "E": "A sporozoite is the infective stage of Sporozoa, such as Plasmodium (malaria)."
+            }
+        }
+    },
+    {
+        "question": "Which of the following protozoa has a life cycle that does NOT include a cyst stage and is transmitted primarily through sexual contact?",
+        "choices": {
+            "A": "Giardia intestinalis",
+            "B": "Entamoeba histolytica",
+            "C": "Balantidium coli",
+            "D": "Trichomonas vaginalis",
+            "E": "Acanthamoeba spp."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "Trichomonas vaginalis is unique because it only has a trophozoite stage and lacks a resistant cyst stage. This fragility requires direct person-to-person transfer of bodily fluids, which occurs during sexual intercourse.",
+            "incorrect": {
+                "A": "Giardia intestinalis has both trophozoite and cyst stages and is transmitted via ingestion of cysts.",
+                "B": "Entamoeba histolytica has both trophozoite and cyst stages and is transmitted via ingestion of cysts.",
+                "C": "Balantidium coli has both trophozoite and cyst stages and is transmitted via ingestion of cysts.",
+                "E": "Acanthamoeba has both a trophozoite and a highly resistant cyst stage and is acquired from the environment."
+            }
+        }
+    },
+    {
+        "question": "Which of the following organisms is characterized by a trophozoite stage that has a 'falling-leaf' motility and a large ventral adhesive disc used for attachment?",
+        "choices": {
+            "A": "Entamoeba histolytica",
+            "B": "Giardia intestinalis",
+            "C": "Balantidium coli",
+            "D": "Leishmania spp.",
+            "E": "Entamoeba coli"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The trophozoite of Giardia intestinalis is uniquely identified by its distinctive 'falling-leaf' tumbling motility and the large ventral adhesive disc it uses to attach to the mucosa of the small intestine.",
+            "incorrect": {
+                "A": "Entamoeba histolytica moves using pseudopodia and has rapid, uni-directional movement.",
+                "C": "Balantidium coli is a ciliate that moves using the coordinated beating of cilia.",
+                "D": "The motile stage of Leishmania is the promastigote, which uses a single flagellum. The human stage (amastigote) is non-motile.",
+                "E": "Entamoeba coli is a non-pathogenic amoeba that moves sluggishly using pseudopodia."
+            }
+        }
+    },
+    {
+        "question": "A 30-year-old woman who regularly wears soft contact lenses presents with severe eye pain, redness, and blurred vision. She admits to occasionally rinsing her lenses and case with tap water. A corneal scraping reveals amoebic trophozoites and double-walled cysts. Which of the following is the most likely causative agent?",
+        "choices": {
+            "A": "Naegleria fowleri",
+            "B": "Trichomonas vaginalis",
+            "C": "Entamoeba histolytica",
+            "D": "Acanthamoeba spp.",
+            "E": "Balantidium coli"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "This is a classic presentation of Acanthamoeba keratitis (AK). The key risk factor is a contact lens wearer using tap water. The definitive diagnosis comes from finding both trophozoites and the hallmark 'double-walled cysts' of Acanthamoeba in a corneal scraping.",
+            "incorrect": {
+                "A": "Naegleria fowleri causes a rapidly fatal brain infection (primary amebic meningoencephalitis), not keratitis.",
+                "B": "Trichomonas vaginalis is a flagellate that causes a sexually transmitted infection and does not infect the eye.",
+                "C": "Entamoeba histolytica is an intestinal parasite and is not associated with contact lenses or eye infections.",
+                "E": "Balantidium coli is an intestinal ciliate and does not cause keratitis."
+            }
+        }
+    }
+]

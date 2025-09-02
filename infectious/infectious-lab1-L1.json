@@ -1,1 +1,217 @@
-[]
+[
+    {
+        "questionNumber": "1",
+        "headerImage": {
+            "url": "https://cdn.storymd.com/optimized/LA1rPgSQo5/original.jpg",
+            "source": "storymd.com",
+            "caption": "From the image above, answer questions 1B and 1C.",
+            "insertAfter": "1A"
+        },
+        "subQuestions": [
+            {
+                "id": "1A",
+                "type": "keywords",
+                "prompt": "State two key points of the parasite egg in the image below.",
+                "imageUrl": "https://www.cdc.gov/dpdx/ascariasis/images/3/Ascaris_egg_fert4_decort_400x.jpg",
+                "imageSource": "CDC/DPDx",
+                "fields": 2,
+                "answer": {
+                    "requiredKeywords": ["thick shell", "3 layers", "albuminus layer", "oval to round", "unembryonated"],
+                    "requiredCount": 2
+                },
+                "reasoning": "Answer: \n1. It has a thick shell with a bumpy, mammillated (corticated) outer layer. \n2. It is oval to round in shape and contains an unembryonated mass.\n\nReasoning: The image shows the characteristic features of a fertilized Ascaris lumbricoides egg, which include its round-to-oval shape and the thick, bumpy albuminous coating on its shell.\n\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีให้มันครอบคลุมคำตอบ"
+            },
+            {
+                "id": "1B",
+                "type": "short_answer",
+                "prompt": "Is the parasite in the bottom image in its infective stage? (Yes or No)",
+                "answer": ["Yes"],
+                "reasoning": "The bottom image shows the third-stage larva of Gnathostoma spinigerum, identified by its cephalic bulb with four rows of hooklets. This larval stage is the infective stage for humans."
+            },
+            {
+                "id": "1C",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of this parasite?",
+                "answer": ["Gnathostoma spinigerum"],
+                "reasoning": "The bottom image shows the third-stage larva of Gnathostoma spinigerum, identified by its cephalic bulb with four rows of hooklets. This larval stage is the infective stage for humans."
+            }
+        ]
+    },
+    {
+        "questionNumber": "2",
+        "subQuestions": [
+            {
+                "id": "2A",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of the parasite?",
+                "imageUrl": "https://www.cdc.gov/dpdx/intestinalcapillariasis/images/1/C_philippinensis_egg4.jpg",
+                "imageSource": "CDC/DPDx",
+                "answer": ["Capillaria philippinensis"],
+                "reasoning": "The egg is peanut-shaped with flattened bipolar plugs and a striated shell, which are distinctive features of Capillaria philippinensis eggs."
+            },
+            {
+                "id": "2B",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of the parasite?",
+                "imageUrl": "https://www.cdc.gov/dpdx/trichuriasis/images/1/Trichuris_trichiura_egg1.jpg",
+                "imageSource": "CDC/DPDx",
+                "answer": ["Trichuris trichiura"],
+                "reasoning": "The egg is barrel-shaped and has mucoid bipolar plugs at both ends, a key characteristic of Trichuris trichiura."
+            }
+        ]
+    },
+    {
+        "questionNumber": "3",
+        "headerImage": {
+            "url": "https://www.cdc.gov/dpdx/strongyloidiasis/images/1/S_stercoralis_rhabditoid_BAM1.jpg",
+            "source": "CDC/DPDx"
+        },
+        "subQuestions": [
+            {
+                "id": "3A",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of this parasite?",
+                "answer": ["Strongyloides stercoralis"],
+                "reasoning": "The image shows a rhabditiform larva, which is the diagnostic stage for Strongyloides stercoralis typically found in stool samples. It is characterized by its short buccal cavity, prominent genital primordium, and rhabditiform esophagus (esophageal bulb)."
+            },
+            {
+                "id": "3B",
+                "type": "short_answer",
+                "prompt": "What stage is shown in the image?",
+                "answer": ["Rhabditiform larva"],
+                "reasoning": "The presence of the esophageal bulb is the key feature that identifies this as a rhabditiform larva, which is a non-infective, feeding stage."
+            },
+            {
+                "id": "3C",
+                "type": "short_answer",
+                "prompt": "Is this an infective stage? (Yes or No)",
+                "answer": ["No"],
+                "reasoning": "The infective stage for Strongyloides stercoralis is the filariform larva. The rhabditiform larva shown is the diagnostic stage that develops into the infective filariform larva in the soil or during autoinfection."
+            }
+        ]
+    },
+    {
+        "questionNumber": "4",
+        "subQuestions": [
+            {
+                "id": "4A",
+                "type": "keywords",
+                "prompt": "State two key points of this parasite egg.",
+                "imageUrl": "https://www.cdc.gov/dpdx/enterobiasis/images/1/Evermicularis_egg_HBa.jpg",
+                "imageSource": "CDC/DPDx",
+                "fields": 2,
+                "answer": {
+                    "requiredKeywords": ["Plano-corvex", "D shape", "embryonated"],
+                    "requiredCount": 2
+                },
+                "reasoning": "Answer:\n1. Plano-convex or \"D\" shape\n2. It is an embryonated egg containing a larva.\n\nReasoning: The egg of Enterobius vermicularis is uniquely identified by its plano-convex (\"D\") shape and the presence of a fully developed larva inside.\n\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีให้มันครอบคลุมคำตอบ"
+            },
+            {
+                "id": "4B",
+                "type": "short_answer",
+                "prompt": "What is the most common diagnostic technique used to find this egg?",
+                "answer": ["Scotch-tape technique"],
+                "reasoning": "As the eggs are laid on the perianal skin, the Scotch-tape technique is the standard method for their collection and diagnosis."
+            }
+        ]
+    },
+    {
+        "questionNumber": "5",
+        "subQuestions": [
+            {
+                "id": "5A",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of this parasite?",
+                "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn0nwQSNG6O9-WvV8u7bUuuO1ywho53vlRBHIF6I5HXpoFrwBbeehWZGe4-nnnHOzifF0&usqp=CAU",
+                "imageSource": "Unknown",
+                "answer": ["Wuchereria bancrofti"],
+                "reasoning": "This is a sheathed microfilaria with graceful, sweeping curves and no nuclei present in the tail tip, which are key identifiers for Wuchereria bancrofti."
+            },
+            {
+                "id": "5B",
+                "type": "keywords",
+                "prompt": "State two key points of this parasite.",
+                "fields": 2,
+                "answer": {
+                    "requiredKeywords": ["body nuclei", "well-separated", "do not overlap", "no terminal nuclei"],
+                    "requiredCount": 2
+                },
+                "reasoning": "Answer:\n1. The body nuclei are well-separated and do not overlap.\n2. It has no terminal nuclei.\n\nReasoning: Two primary morphological features for identifying W. bancrofti microfilariae are well-separated body nuclei and the absence of nuclei in the tail.\n\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีให้มันครอบคลุมคำตอบ"
+            }
+        ]
+    },
+    {
+        "questionNumber": "6",
+        "subQuestions": [
+            {
+                "id": "6A",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of this parasite?",
+                "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2vge23KHrPXVf6f_9rSjJskxz9h6_y10gMw&s",
+                "imageSource": "Unknown",
+                "answer": ["Opisthorchis viverrini"],
+                "reasoning": "The egg has a distinct \"electric light bulb\" appearance, with an operculum, prominent shoulders, and a small posterior knob."
+            },
+            {
+                "id": "6B",
+                "type": "short_answer",
+                "prompt": "What is the second intermediate host of this parasite?",
+                "answer": ["Cyprinoid fish"],
+                "reasoning": "Humans become infected by eating raw or undercooked cyprinoid fish, which serve as the second intermediate host in the parasite's life cycle."
+            }
+        ]
+    },
+    {
+        "questionNumber": "7",
+        "subQuestions": [
+            {
+                "id": "7A",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of this parasite?",
+                "imageUrl": "https://www.cdc.gov/dpdx/paragonimiasis/images/1/P_westermani_egg_wtmt_BAM2.jpg",
+                "imageSource": "CDC/DPDx",
+                "answer": ["Paragonimus spp."],
+                "reasoning": "This is a large, operculated egg with an asymmetrical shape and a thickened shell at the posterior end, characteristic of the Paragonimus genus."
+            },
+            {
+                "id": "7B",
+                "type": "short_answer",
+                "prompt": "What stage is this?",
+                "answer": ["Unembryonated egg"],
+                "reasoning": "This is the unembryonated egg stage, which is the diagnostic stage found in a patient's sputum or feces."
+            },
+            {
+                "id": "7C",
+                "type": "short_answer",
+                "prompt": "What is the second intermediate host of this parasite?",
+                "answer": ["Freshwater crab", "mountain crab", "crayfish"],
+                "reasoning": "Infection occurs after ingesting the metacercariae stage within the second intermediate host, which is a crustacean like a crab or crayfish."
+            }
+        ]
+    },
+    {
+        "questionNumber": "8",
+        "subQuestions": [
+            {
+                "id": "8A",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of this parasite?",
+                "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwxim1E0GNQMTihI0N32W4PkuH4jzRq8qpjw&s",
+                "imageSource": "Unknown",
+                "answer": ["Taenia spp."],
+                "reasoning": "The egg is round with a thick, dark, radially striated embryophore, which is characteristic of Taenia species. The eggs of T. solium and T. saginata are morphologically indistinguishable."
+            },
+            {
+                "id": "8B",
+                "type": "keywords",
+                "prompt": "State two advantages of this technique for stool examination.",
+                "fields": 2,
+                "answer": {
+                    "requiredKeywords": ["simple", "easy", "fast", "cheap", "inexpensive", "minimal equipment"],
+                    "requiredCount": 2
+                },
+                "reasoning": "Answer:\n1. It is simple and fast to perform\n2. It is inexpensive due to minimal equipment and reagent needs.\n\nReasoning: The direct simple smear is a fundamental laboratory method valued for its speed, ease of use, and low cost, making it an efficient primary screening tool."
+            }
+        ]
+    }
+]
