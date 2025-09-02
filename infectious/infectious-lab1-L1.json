@@ -205,6 +205,8 @@
                 "id": "8B",
                 "type": "keywords",
                 "prompt": "State two advantages of this technique for stool examination.",
+                "imageUrl": "images/S__4071429.jpg",
+                "imageSource": "Provided Image",
                 "fields": 2,
                 "answer": {
                     "requiredKeywords": ["simple", "easy", "fast", "cheap", "inexpensive", "minimal equipment"],

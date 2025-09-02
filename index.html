@@ -288,7 +288,10 @@
         }
 
         function updateProgressBar() { 
-            if (!quizState.totalQuestions) return;
+            if (Object.keys(quizState).length === 0 || !quizState.totalQuestions) {
+                document.getElementById('progress-tracker').classList.add('hidden');
+                return;
+            }
             const remaining = quizState.totalQuestions - quizState.answered; 
             const percentage = quizState.totalQuestions > 0 ? (quizState.answered / quizState.totalQuestions) * 100 : 0; 
             document.getElementById('answered-count').innerText = quizState.answered; 
@@ -327,25 +330,19 @@
 
             // --- Business Logic Functions ---
             const startNewMcqQuiz = (quizData, containerId, originalDataRef) => {
-                if (!quizData || quizData.length === 0) {
-                    showPlaceholder(containerId);
-                    return;
-                }
+                if (!quizData || quizData.length === 0) { showPlaceholder(containerId); return; }
                 initializeQuizState(quizData, containerId, originalDataRef);
                 buildMcqQuiz(quizData, containerId); 
             };
 
             const startNewLabQuiz = (quizData, containerId) => {
-                if (!quizData || quizData.length === 0) {
-                    showPlaceholder(containerId);
-                    return;
-                }
+                if (!quizData || quizData.length === 0) { showPlaceholder(containerId); return; }
                 initializeLabQuizState(quizData, containerId);
                 buildLabQuiz(quizData, containerId);
             };
 
             const showPlaceholder = (containerId) => {
-                document.getElementById('progress-tracker').classList.add('hidden');
+                progressTracker.classList.add('hidden');
                 const targetPane = document.getElementById(containerId)?.closest('.main-content-pane');
                 if (targetPane && targetPane.id === 'infectiousContent') {
                     document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
@@ -360,14 +357,10 @@
                     'pharmaco/antidote-quiz.json', 'pharmaco/rdu-quiz.json', 'pharmaco/pv-quiz.json'
                 ];
                 const responses = await Promise.all(quizFiles.map(file => fetch(file)));
-                for (const response of responses) {
-                    if (!response.ok) throw new Error(`Failed to fetch ${response.url}`);
-                }
+                for (const response of responses) { if (!response.ok) throw new Error(`Failed to fetch ${response.url}`); }
                 const data = await Promise.all(responses.map(r => r.json()));
                 [paraQuizData, glucoQuizData, chemoQuizData, antidoteQuizData, rduQuizData, pvQuizData] = data;
-            } catch (error) {
-                console.error("Error loading pharma quiz data:", error);
-            }
+            } catch (error) { console.error("Error loading pharma quiz data:", error); }
             
             // --- Sidebar and Navigation ---
             function openSidebar() { sidebar.classList.remove('-translate-x-full'); overlay.classList.remove('hidden'); }
@@ -478,7 +471,7 @@
 
             retryIncorrectBtn.addEventListener('click', () => {
                 if(quizState.type === 'mcq') {
-                    if (!quizState.incorrectIndices || quizState.incorrectIndices.length === 0) return;
+                    if (!quizState.incorrectIndices?.length) return;
                     const indicesToReset = [...quizState.incorrectIndices];
                     quizState.answered -= indicesToReset.length;
                     quizState.incorrect -= indicesToReset.length;
@@ -501,7 +494,7 @@
                         }
                     });
                 } else if (quizState.type === 'lab') {
-                    if (!quizState.incorrectQuestionBlocks || quizState.incorrectQuestionBlocks.length === 0) return;
+                    if (!quizState.incorrectQuestionBlocks?.length) return;
                     const blocksToReset = [...new Set(quizState.incorrectQuestionBlocks)];
                     
                     blocksToReset.forEach(qNum => {
@@ -524,7 +517,7 @@
                             card.querySelectorAll('input[type="text"], textarea').forEach(input => {
                                 input.value = '';
                                 input.disabled = false;
-                                input.classList.remove('border-green-500', 'dark:border-green-500', 'border-red-500', 'dark:border-red-500');
+                                input.classList.remove('border-green-500', 'dark:border-green-400', 'border-red-500', 'dark:border-red-400');
                             });
                             card.querySelectorAll('.reasoning').forEach(r => r.classList.add('hidden', 'opacity-0', 'max-h-0'));
                             const btn = card.querySelector('.check-lab-btn');
@@ -633,7 +626,7 @@
                 const subQuestionHTMLs = [];
                 q.subQuestions.forEach(sq => {
                     let imageHTML = sq.imageUrl ? `<div class="my-2"><img src="${sq.imageUrl}" alt="Question Image" class="max-w-xs h-auto rounded-lg mx-auto shadow-md">${sq.imageSource ? `<p class="text-xs text-center text-gray-500 dark:text-gray-400 mt-2">Source: ${sq.imageSource}</p>` : ''}</div>` : '';
-                    let fieldsHTML = Array.from({ length: sq.fields || 1 }, () => `<input type="text" data-id="${sq.id}" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white">`).join('');
+                    let fieldsHTML = Array.from({ length: sq.fields || 1 }, () => `<input type="text" data-id="${sq.id}" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm bg-gray-200 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white">`).join('');
                     
                     subQuestionHTMLs.push(`
                         <div class="sub-question mt-4" data-id="${sq.id}">
@@ -678,9 +671,11 @@
                     let foundKeywords = new Set();
                     inputs.forEach(input => {
                         const userAnswer = input.value.trim().toLowerCase();
-                        sq.answer.requiredKeywords.forEach(kw => {
-                            if (userAnswer.includes(kw.toLowerCase())) foundKeywords.add(kw);
-                        });
+                        if (userAnswer) {
+                            sq.answer.requiredKeywords.forEach(kw => {
+                                if (userAnswer.includes(kw.toLowerCase())) foundKeywords.add(kw);
+                            });
+                        }
                     });
                     if (foundKeywords.size >= sq.answer.requiredCount) isCorrect = true;
                 }
@@ -690,7 +685,7 @@
                 quizState.answers[sq.id] = { status: isCorrect ? 'correct' : 'incorrect' };
 
                 inputs.forEach(input => {
-                    input.classList.remove('border-green-500', 'dark:border-green-500', 'border-red-500', 'dark:border-red-500');
+                    input.classList.remove('border-green-500', 'dark:border-green-400', 'border-red-500', 'dark:border-red-400');
                     input.classList.add(isCorrect ? 'border-green-500' : 'border-red-500', isCorrect ? 'dark:border-green-400' : 'dark:border-red-400');
                     input.disabled = true;
                 });
