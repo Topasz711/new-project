@@ -1,1 +1,122 @@
-[]
+[
+    {
+        "question": "In the complex life cycle of Plasmodium species, humans are the intermediate host. Which organism serves as the definitive host, where the sexual reproduction (sporogony) phase of the parasite's life cycle occurs?",
+        "choices": {
+            "A": "Male Anopheles mosquito",
+            "B": "Female Anopheles mosquito",
+            "C": "Humans",
+            "D": "Non-human primates",
+            "E": "Birds"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The definitive host is the organism where the parasite's sexual reproduction occurs. For Plasmodium species, the sexual reproduction phase (sporogonic cycle) takes place inside the female Anopheles mosquito after she ingests gametocytes from an infected human's blood.",
+            "incorrect": {
+                "A": "Male mosquitoes are not involved in the transmission of malaria because they feed on plant nectars, not blood.",
+                "C": "Humans are the intermediate host for the malaria parasite. This is where asexual reproduction (exo-erythrocytic and erythrocytic schizogony) takes place.",
+                "D": "While some species of malaria, like P. knowlesi, can infect primates, the primates serve as intermediate hosts. The definitive host remains the mosquito vector.",
+                "E": "Birds are hosts for different species of avian malaria, which have their own life cycles and are not part of the life cycle for human malaria parasites."
+            }
+        }
+    },
+    {
+        "question": "Relapses in malaria infections, which can occur weeks or months after the initial illness has resolved, are a characteristic feature of Plasmodium vivax and Plasmodium ovale. This phenomenon is due to the presence of a dormant parasite stage in the liver. What is this stage called?",
+        "choices": {
+            "A": "Sporozoite",
+            "B": "Merozoite",
+            "C": "Hepatic Schizont",
+            "D": "Gametocyte",
+            "E": "Hypnozoite"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The hypnozoite is a dormant stage of the parasite that can remain in liver cells for weeks, months, or even years. Its name comes from the Greek hypnos, meaning 'sleep.' When these hypnozoites reactivate, they cause a new wave of infection, leading to a relapse. This feature is unique to Plasmodium vivax and Plasmodium ovale.",
+            "incorrect": {
+                "A": "The sporozoite is the active, motile stage injected by the mosquito that travels to the liver; it is not the dormant stage itself.",
+                "B": "Merozoites are released from ruptured schizonts and are responsible for invading red blood cells to continue the cycle, not for dormancy.",
+                "C": "A hepatic schizont is the stage of active asexual replication within a liver cell, the opposite of a dormant stage.",
+                "D": "Gametocytes are the sexual stages that circulate in the bloodstream to be picked up by mosquitoes; they do not cause relapses in the human host."
+            }
+        }
+    },
+    {
+        "question": "A 35-year-old veterinarian gives birth to a newborn diagnosed with hydrocephalus. A brain MRI reveals intracranial calcifications, and an eye exam shows retinochoroiditis. The mother recalls having mild, flu-like symptoms with swollen lymph nodes in her neck during the first trimester. What is the most likely causative organism and the infective stage responsible for the congenital infection?",
+        "choices": {
+            "A": "Plasmodium falciparum; Sporozoite",
+            "B": "Taenia solium; Cysticercus",
+            "C": "Acanthamoeba spp.; Trophozoite",
+            "D": "Toxoplasma gondii; Bradyzoite from raw meat",
+            "E": "Toxoplasma gondii; Tachyzoite"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The newborn's symptoms—hydrocephalus, intracranial calcifications, and retinochoroiditis—are the 'Classical Triads' of congenital toxoplasmosis. The tachyzoite is the rapidly multiplying stage found in body fluids during an acute infection, which allows it to cross the placenta and infect the fetus.",
+            "incorrect": {
+                "A": "Plasmodium falciparum causes malaria; its congenital form does not present with this triad, and the sporozoite does not cross the placenta.",
+                "B": "Taenia solium causes neurocysticercosis, which does not match the full congenital triad described.",
+                "C": "Acanthamoeba spp. is a free-living amoeba and is not a cause of this congenital syndrome.",
+                "D": "While the mother could acquire the infection by ingesting bradyzoites, the bradyzoite is the slow, encysted stage. It transforms into tachyzoites in the mother, and it is the tachyzoites that cross the placenta."
+            }
+        }
+    },
+    {
+        "question": "A 30-year-old man, recently returned from a trip to Tak Province, develops a high fever with chills that occurs every 48 hours. A thin blood smear reveals enlarged red blood cells, some containing amoeboid-shaped trophozoites, and the presence of Schüffner's dots. Which Plasmodium species is the most likely cause of his infection?",
+        "choices": {
+            "A": "Plasmodium falciparum",
+            "B": "Plasmodium malariae",
+            "C": "Plasmodium vivax",
+            "D": "Plasmodium ovale",
+            "E": "Plasmodium knowlesi"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The combination of a 48-hour fever cycle, enlarged infected RBCs, 'amoeboid form' trophozoites, and Schüffner's dots is the classic and diagnostic presentation for P. vivax.",
+            "incorrect": {
+                "A": "P. falciparum causes a more irregular fever, infects normal-sized RBCs, and features Maurer's clefts, not Schüffner's dots.",
+                "B": "P. malariae has a 72-hour fever cycle and 'band form' trophozoites.",
+                "D": "P. ovale shares the 48-hour cycle and Schüffner's dots, but its infected RBCs are characteristically oval-shaped and the trophozoites are more compact.",
+                "E": "P. knowlesi has a 24-hour (quotidian) fever cycle."
+            }
+        }
+    },
+    {
+        "question": "A group of international travelers returns from Southeast Asia where they consumed fresh salads and unpeeled fruits. Within a week, several develop explosive, watery diarrhea. Stool analysis reveals spherical oocysts that are variably acid-fast and measure approximately 10 µm in diameter. What is the most probable diagnosis?",
+        "choices": {
+            "A": "Cryptosporidiosis",
+            "B": "Microsporidiosis",
+            "C": "Cyclosporiasis",
+            "D": "Balantidiasis",
+            "E": "Cystoisosporidiosis"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The case is classic for Cyclosporiasis. Key features are the link to contaminated fresh produce, watery diarrhea, and spherical oocysts measuring 8-12 µm that are variably acid-fast.",
+            "incorrect": {
+                "A": "Cryptosporidium oocysts are much smaller, measuring only 4-6 µm.",
+                "B": "Microsporidia spores are extremely small (1-2 µm) and require a special Gram-chromotrope stain.",
+                "D": "Balantidium coli is a large ciliate, not a sporozoan diagnosed with acid-fast stain.",
+                "E": "Cystoisospora belli oocysts are much larger (20-33 µm) and are distinctly ellipsoidal (oval), not spherical."
+            }
+        }
+    },
+    {
+        "question": "A pathologist is trying to confirm a diagnosis of microsporidiosis from an intestinal biopsy of a patient with AIDS. Due to the extremely small size of the spores, a special staining technique is required for them to be visualized. Which of the following is the most appropriate stain for identifying Microsporidia spores?",
+        "choices": {
+            "A": "Giemsa Stain",
+            "B": "Gram Stain",
+            "C": "India Ink Stain",
+            "D": "Modified Acid-Fast Stain",
+            "E": "Gram-chromotrope Stain"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "Gram-chromotrope stain is the specialized and preferred method for identifying the extremely small (1-2 µm) spores of Microsporidia. It stains the spore wall pinkish-red and often reveals a characteristic diagonal 'belt-like' stripe.",
+            "incorrect": {
+                "A": "Giemsa stain is typically used for blood parasites like Plasmodium and is not the preferred method for Microsporidia.",
+                "B": "While spores can appear Gram-positive, the standard Gram stain doesn't reliably show the internal features needed for diagnosis.",
+                "C": "India ink is a negative stain used to visualize capsules, such as on Cryptococcus yeast.",
+                "D": "Modified acid-fast stain is used for Cryptosporidium, Cyclospora, and Cystoisospora, not Microsporidia."
+            }
+        }
+    }
+]
