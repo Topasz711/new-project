@@ -1,1 +1,202 @@
-[]
+[
+    {
+        "questionNumber": "1",
+        "headerImage": {
+            "url": "https://parasitologyworld.com/wp-content/uploads/2020/01/image1.jpg",
+            "source": "parasitologyworld.com"
+        },
+        "subQuestions": [
+            {
+                "id": "1A",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of this parasite?",
+                "answer": ["Entamoeba coli"],
+                "reasoning": "The image shows a spherical cyst containing more than four nuclei (up to 8). This feature is a key characteristic of Entamoeba coli, differentiating it from Entamoeba histolytica, which has a maximum of four nuclei."
+            },
+            {
+                "id": "1B",
+                "type": "short_answer",
+                "prompt": "Is this an infective stage? (Yes or No)",
+                "answer": ["Yes"],
+                "reasoning": "The mature cyst stage, containing 8 nuclei, is the infective stage of E. coli. Ingestion of this mature cyst leads to infection."
+            }
+        ]
+    },
+    {
+        "questionNumber": "2",
+        "headerImage": {
+            "url": "https://w1.med.cmu.ac.th/parasite/wp-content/uploads/2019/11/p063.jpg",
+            "source": "w1.med.cmu.ac.th/parasite"
+        },
+        "subQuestions": [
+            {
+                "id": "2A",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of this parasite?",
+                "answer": ["Cryptosporidium spp."],
+                "reasoning": "This image from a modified acid-fast stain shows small (4-6 µm), spherical oocysts that have stained a distinct bright red color. This specific morphology and staining reaction are characteristic of Cryptosporidium spp."
+            },
+            {
+                "id": "2B",
+                "type": "keywords",
+                "prompt": "What are the specific keypoints of this parasite?",
+                "fields": 2,
+                "answer": {
+                    "requiredKeywords": ["spherical", "round", "4-6", "4-6 µm", "4-6 micrometer", "modified acid-fast"],
+                    "requiredCount": 2
+                },
+                "reasoning": "Answer:\n1. The oocyst is very small and spherical, measuring 4-6 µm in diameter.\n2. Using a modified acid-fast stain, the oocyst appears bright red against a blue or green background.\n\nExplanation: These two features—its small size and uniform bright red staining—are the most important characteristics for its microscopic identification.\n\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ"
+            }
+        ]
+    },
+    {
+        "questionNumber": "3",
+        "headerImage": {
+            "url": "https://www.cdc.gov/dpdx/giardiasis/images/1/Giardia_cyst_wtmt6.jpg",
+            "source": "CDC/DPDx"
+        },
+        "subQuestions": [
+            {
+                "id": "3A",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of this parasite?",
+                "answer": ["Giardia intestinalis", "Giardia lamblia"],
+                "reasoning": "The image shows the cyst stage of Giardia intestinalis. Its key features are an oval shape, a well-defined cyst wall, 2-4 nuclei, and visible internal fibers known as axonemes and median bodies."
+            },
+            {
+                "id": "3B",
+                "type": "short_answer",
+                "prompt": "What is the infective stage of this parasite?",
+                "answer": ["Mature cyst"],
+                "reasoning": "The infective stage for giardiasis is the mature cyst, which contains 4 nuclei. Infection occurs upon ingestion of this stage."
+            }
+        ]
+    },
+    {
+        "questionNumber": "4",
+        "headerImage": {
+            "url": "https://www.researchgate.net/profile/Brian-Ford-12/publication/242736273/figure/fig2/AS:298514421698570@1448182792696/One-of-the-best-public-domain-light-micrographs-of-Giardia-published-by-the-National.png",
+            "source": "researchgate.net"
+        },
+        "subQuestions": [
+            {
+                "id": "4A",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of this parasite?",
+                "answer": ["Giardia intestinalis", "Giardia lamblia"],
+                "reasoning": "This image shows the trophozoite stage of Giardia intestinalis. It is identified by its pear-like shape, two nuclei that resemble a face, and multiple flagella used for its characteristic 'falling leaf' motility."
+            },
+            {
+                "id": "4B",
+                "type": "short_answer",
+                "prompt": "What is the mode of transmission?",
+                "answer": ["Ingestion of mature cysts from contaminated food or water", "Ingestion of mature cysts"],
+                "reasoning": "Transmission occurs through the ingestion of cysts from sources contaminated with feces, such as water (water-borne), food (food-borne), or through person-to-person contact."
+            }
+        ]
+    },
+    {
+        "questionNumber": "5",
+        "headerImage": {
+            "url": "https://www.pathologyoutlines.com/imgau/parasitologymalariapfalciparumpritt05.jpg",
+            "source": "pathologyoutlines.com"
+        },
+        "subQuestions": [
+            {
+                "id": "5A",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of this parasite?",
+                "answer": ["Plasmodium falciparum"],
+                "reasoning": "The thin blood film shows several features characteristic of P. falciparum. These include the presence of multiple ring-stage trophozoites in a single red blood cell (multiple infection), rings located on the periphery of the cell (Accolé form), and sometimes double chromatin dots. The infected red blood cells are of normal size."
+            },
+            {
+                "id": "5B",
+                "type": "keywords",
+                "prompt": "What are the specific keypoints of this parasite?",
+                "fields": 2,
+                "answer": {
+                    "requiredKeywords": ["multiple infection", "double chromatin", "Accole", "Maurer's clefts", "Normal size RBC"],
+                    "requiredCount": 2
+                },
+                "reasoning": "Answer:\n1. The presence of multiple ring-stage trophozoites within a single red blood cell.\n2. Ring forms are often found on the periphery of the red blood cell, known as appliqué or accole' forms.\n\nExplanation: These morphological details, especially when seen together, are highly indicative of a P. falciparum infection.\n\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ"
+            }
+        ]
+    },
+    {
+        "questionNumber": "6",
+        "headerImage": {
+            "url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs13071-015-1026-8/MediaObjects/13071_2015_1026_Fig1_HTML.gif",
+            "source": "springernature.com"
+        },
+        "subQuestions": [
+            {
+                "id": "6A",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of this parasite?",
+                "answer": ["Cyclospora cayetanensis"],
+                "reasoning": "The parasite is identified as a Cyclospora cayetanensis oocyst based on its key morphological features. The image shows a spherical oocyst that is approximately 8-10 µm in diameter. This size is consistent with C. cayetanensis (8-12 µm)."
+            },
+            {
+                "id": "6B",
+                "type": "short_answer",
+                "prompt": "Is this an infective stage?",
+                "answer": ["No"],
+                "reasoning": "The oocyst found in a fresh stool sample is the diagnostic stage but it is not infective. The oocysts of Cyclospora cayetanensis are passed unsporulated and require 7-15 days in the environment to mature and become infective."
+            }
+        ]
+    },
+    {
+        "questionNumber": "7",
+        "headerImage": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Plasmodium_vivax_01.png",
+            "source": "wikimedia.org"
+        },
+        "subQuestions": [
+            {
+                "id": "7A",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of this parasite?",
+                "answer": ["Plasmodium vivax"],
+                "reasoning": "The blood film shows an infected red blood cell (RBC) that is clearly enlarged. The RBC contains fine pink stippling known as Schüffner's dots, and the parasite itself has an irregular, 'amoeboid' cytoplasm. These are all classic features of P. vivax."
+            },
+            {
+                "id": "7B",
+                "type": "keywords",
+                "prompt": "What are the specific keypoints of this parasite?",
+                "fields": 2,
+                "answer": {
+                    "requiredKeywords": ["Enlarged", "Amoeboid", "Schüffner's dots"],
+                    "requiredCount": 2
+                },
+                "reasoning": "Answer:\n1. The infected red blood cell is noticeably enlarged compared to uninfected cells.\n2. The parasite's cytoplasm is irregular and amoeboid in shape, and the RBC contains fine, pink stippling (Schüffner's dots).\n\nExplanation: The combination of an enlarged host cell with Schüffner's dots and an amoeboid trophozoite is the definitive way to identify P. vivax microscopically.\n\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ"
+            }
+        ]
+    },
+    {
+        "questionNumber": "8",
+        "headerImage": {
+            "url": "https://w1.med.cmu.ac.th/parasite/wp-content/uploads/2019/11/p005.jpg",
+            "source": "w1.med.cmu.ac.th/parasite"
+        },
+        "subQuestions": [
+            {
+                "id": "8A",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of this parasite?",
+                "answer": ["Entamoeba histolytica"],
+                "reasoning": "The image displays a trophozoite that contains ingested red blood cells (RBCs) within its cytoplasm. This is the pathognomonic (definitive diagnostic) feature for the pathogenic species Entamoeba histolytica."
+            },
+            {
+                "id": "8B",
+                "type": "keywords",
+                "prompt": "What are the specific keypoints of this parasite?",
+                "fields": 2,
+                "answer": {
+                    "requiredKeywords": ["centric karyosome", "ingested RBC", "finger-liked"],
+                    "requiredCount": 2
+                },
+                "reasoning": "Answer:\n1. The presence of ingested red blood cells within the parasite's cytoplasm.\n2. The nucleus contains a small, centrally located karyosome (centric karyosome).\n\nExplanation: The presence of ingested RBCs is the most crucial feature to distinguish it from the non-pathogenic E. coli. The nuclear structure with a central karyosome and fine, regular peripheral chromatin is another key identifier.\n\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ"
+            }
+        ]
+    }
+]
