@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "Which of the following patterns correctly matches the antiparasitic drug with its key pharmacokinetic characteristic and a major contraindication or precaution mentioned in the lecture slides?",
+        "choices": {
+            "A": "Drug: Pyrimethamine; PK: Well absorbed from the gut; Precaution: Can cause crystalluria, requiring vigorous hydration.",
+            "B": "Drug: Praziquantel; PK: Metabolized by CYP3A4 inducers, decreasing its effect; Precaution: Known to cause Mazzotti-like reactions.",
+            "C": "Drug: Chloroquine; PK: Has a very short half-life (T 1/2) of 45 minutes; Precaution: Can cause hemolytic anemia in G6PD deficient patients.",
+            "D": "Drug: Ivermectin; PK: Excreted primarily in the urine; Precaution: Should not be used in patients with meningitis.",
+            "E": "Drug: Albendazole; PK: Absorption improved with a high-fat meal; Precaution: Prolonged use can cause reversible leukopenia and alopecia."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The absorption of albendazole is improved if taken with a high-fat meal. Reversible leukopenia and alopecia are also listed as adverse effects of its prolonged use. This choice perfectly matches the information provided.",
+            "incorrect": {
+                "A": "The precaution of crystalluria is associated with Sulfadiazine, not Pyrimethamine. The major precaution for Pyrimethamine is bone marrow suppression.",
+                "B": "The Mazzotti-like reaction is a characteristic adverse effect of Ivermectin, not Praziquantel.",
+                "C": "Chloroquine has a very long half-life of 20-60 days. Hemolytic anemia in G6PD deficiency is a precaution for Primaquine, not Chloroquine.",
+                "D": "Ivermectin is excreted in the feces, not the urine."
+            }
+        }
+    },
+    {
+        "question": "A 34-year-old male from a rural community presents to the emergency department with a first-time seizure. He has no fever or history of head trauma. An MRI of the brain reveals multiple cystic lesions with surrounding edema. The patient is diagnosed with neurocysticercosis. Which statement accurately reflects the principles of pharmacological management for this patient, according to the lecture?",
+        "choices": {
+            "A": "Praziquantel is preferred over Albendazole due to better penetration into the central nervous system and fewer side effects.",
+            "B": "The primary treatment is with antiepileptic drugs alone, as antiparasitic agents can worsen neurological symptoms by inducing a meningitis-like reaction.",
+            "C": "Albendazole is the primary agent, and co-administration of corticosteroids is crucial to manage the inflammatory response triggered by dying cysticerci.",
+            "D": "Treatment should be initiated immediately with high-dose Ivermectin to paralyze the oncospheres before they can cause further damage.",
+            "E": "A combination of Albendazole and Praziquantel is always required to prevent the development of drug resistance in Taenia solium."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The presentation is classic for neurocysticercosis. Albendazole is a primary treatment, and corticosteroids are crucial to manage the inflammatory response and seizures caused by dying parasites.",
+            "incorrect": {
+                "A": "Co-administration of corticosteroids (often needed in neurocysticercosis) can decrease the effectiveness of Praziquantel by inducing its metabolism.",
+                "B": "While antiepileptic drugs are essential, antiparasitic therapy is necessary to treat the underlying cause. The inflammatory reaction is managed with corticosteroids, not by avoiding treatment.",
+                "D": "Ivermectin is used for nematode infections (like strongyloidiasis), not for the cestode (Taenia solium) that causes cysticercosis.",
+                "E": "Combination therapy with both drugs is not stated as being a requirement."
+            }
+        }
+    },
+    {
+        "question": "A 28-year-old traveler returns from Southeast Asia with cyclical fevers, chills, and sweats. A blood smear confirms an uncomplicated P. falciparum infection. According to the treatment guidelines in the document, which of the following is an appropriate oral regimen?",
+        "choices": {
+            "A": "Pyrimethamine + Sulfadiazine",
+            "B": "Intravenous Artesunate alone",
+            "C": "Chloroquine + Primaquine",
+            "D": "Ivermectin + Albendazole",
+            "E": "Artesunate + Mefloquine"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "Artesunate + Mefloquine is explicitly listed as a treatment regimen for uncomplicated malaria caused by P. falciparum.",
+            "incorrect": {
+                "A": "This combination is for treating toxoplasmosis.",
+                "B": "Intravenous (IV) Artesunate is the treatment for severe or complicated malaria, not uncomplicated cases.",
+                "C": "This combination is used for infections by P. vivax and P. ovale to eradicate dormant liver forms (hypnozoites).",
+                "D": "These are antihelminthic drugs and have no role in treating malaria."
+            }
+        }
+    },
+    {
+        "question": "A patient with AIDS is diagnosed with toxoplasmosis encephalitis and is started on a regimen of Pyrimethamine and Sulfadiazine. Which of the following statements best describes the synergistic mechanism of action of this drug combination?",
+        "choices": {
+            "A": "Sulfadiazine generates toxic free radicals within the parasite, and Pyrimethamine enhances this effect by depleting the parasite's antioxidant reserves.",
+            "B": "Both drugs compete with p-Aminobenzoic acid (PABA) to inhibit the enzyme dihydropteroate synthase, leading to a potent blockage of folic acid production.",
+            "C": "Both drugs are potent inhibitors of the enzyme dihydrofolate reductase (DHFR), causing a rapid depletion of tetrahydrofolic acid.",
+            "D": "Pyrimethamine inhibits DNA gyrase while Sulfadiazine disrupts the parasite's cell membrane, leading to cell death through two independent mechanisms.",
+            "E": "The two drugs sequentially block the folate synthesis pathway; Sulfadiazine inhibits dihydropteroate synthase, and Pyrimethamine inhibits dihydrofolate reductase."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "This accurately describes the sequential blockade of the folate synthesis pathway. Sulfadiazine inhibits dihydropteroate synthase (DHPS), and Pyrimethamine inhibits a later step, dihydrofolate reductase (DHFR). Blocking two different steps in the same essential pathway creates a synergistic effect.",
+            "incorrect": {
+                "A": "Free radical generation is associated with drugs like Artesunate, not this combination.",
+                "B": "Only Sulfadiazine competes with PABA to inhibit DHPS. Pyrimethamine works on a different enzyme (DHFR).",
+                "C": "Only Pyrimethamine inhibits DHFR.",
+                "D": "These mechanisms describe other classes of antimicrobials and are unrelated to this drug combination."
+            }
+        }
+    }
+]

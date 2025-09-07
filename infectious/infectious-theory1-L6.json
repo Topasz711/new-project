@@ -1,121 +1,123 @@
 [
     {
-        "question": "A 25-year-old immunocompetent male presents with an intensely itchy rash characterized by serpentine burrows, papules, and vesicles, particularly in the interdigital spaces of his hands, wrists, and elbows. He reports that the itching is worse at night. The condition is most likely Scabiasis. How is this condition primarily transmitted, and what is its causative agent?",
+        "question": "An elderly patient from a rural nursing home with a large, untreated leg ulcer is brought to the emergency department. The ulcer is foul-smelling, and upon examination, numerous worm-like organisms are seen moving within the necrotic tissue. Which of the following terms best describes this condition?",
         "choices": {
-            "A": "Transmission is via respiratory droplets; the agent is a virus.",
-            "B": "Transmission is via contaminated food or water; the agent is a bacterium.",
-            "C": "Transmission is via the bite of an infected insect vector; the agent is a protozoan.",
-            "D": "Transmission is via inhalation of allergens; the agent is the house dust mite Dermatophagoides pteronyssinus.",
-            "E": "Transmission is via direct, prolonged skin-to-skin contact; the agent is the burrowing mite Sarcoptes scabiei."
+            "A": "Scabies",
+            "B": "Dermatitis",
+            "C": "Pediculosis",
+            "D": "Filariasis",
+            "E": "Myiasis"
         },
         "correctAnswer": "E",
         "reasoning": {
-            "correct": "The clinical presentation of intense itching that worsens at night, along with serpentine burrows in skin folds, is classic for scabies. This disease is caused by the mite Sarcoptes scabiei, which burrows into the skin. The primary mode of transmission is through direct, prolonged skin-to-skin contact.",
+            "correct": "Myiasis is the specific medical term for the infestation of live vertebrate tissue by fly larvae (maggots). The clinical picture of 'worm-like organisms' moving in a necrotic wound is the classic presentation of wound myiasis.",
             "incorrect": {
-                "A": "Scabies is a parasitic skin infestation, not a viral illness transmitted through respiratory droplets.",
-                "B": "Scabies is not a bacterial infection and is not transmitted through the fecal-oral route.",
-                "C": "In scabies, the mite itself is the cause of the disease (infestation), not a vector transmitting a separate protozoan pathogen.",
-                "D": "The house dust mite, Dermatophagoides pteronyssinus, causes respiratory allergies, not scabies."
+                "A": "This is an infestation by the microscopic mite Sarcoptes scabiei, which burrows into the skin and is not visible as moving worms.",
+                "B": "This is a general term for skin inflammation. 'Myiasis' is the more precise diagnosis for the infestation itself.",
+                "C": "This is an infestation of lice, which live on hair or in clothing, not inside wounds.",
+                "D": "This is a disease caused by internal roundworms transmitted by vectors like mosquitoes, not involving larvae in an open skin ulcer."
             }
         }
     },
     {
-        "question": "An elderly patient in a nursing home, who is immunocompromised due to long-term corticosteroid use, develops thick, crusted lesions on their hands and feet, with minimal itching. A skin scraping reveals a massive number of mites and eggs. Based on the presentation and patient history, what is the most likely diagnosis and causative agent?",
+        "question": "A college student camping in a forest accidentally crushes an insect on their arm. The next day, the area develops a large, painful blister. The insect was noted to be black and yellow. Based on the presentation, what is the most likely toxin responsible for the lesion?",
         "choices": {
-            "A": "Pediculosis corporis caused by Pediculus humanus corporis.",
-            "B": "Classical Scabiasis caused by Sarcoptes scabiei.",
-            "C": "Dermatitis caused by Demodex spp.",
-            "D": "Scrub typhus transmitted by a Chigger mite.",
-            "E": "Norwegian (Crusted) Scabiasis caused by Sarcoptes scabiei."
+            "A": "Histamine",
+            "B": "Formic acid",
+            "C": "Apitoxin",
+            "D": "Pederin",
+            "E": "Cantharidin"
         },
         "correctAnswer": "E",
         "reasoning": {
-            "correct": "Norwegian (Crusted) Scabiasis is a severe form of scabies that occurs in immunocompromised individuals. Due to the poor immune response, the mites (Sarcoptes scabiei) reproduce unchecked, leading to a massive infestation and thick, hyperkeratotic crusts on the skin. A critical clue is that itching may be minimal or absent.",
+            "correct": "Cantharidin is a potent blistering agent produced by blister beetles (Family Meloidae). Many species, such as Mylabris spp., are black and yellow. Contact with the beetle's body fluids upon crushing it causes the characteristic formation of large skin blisters.",
             "incorrect": {
-                "A": "Pediculosis corporis is an infestation of body lice and does not cause thick, crusted lesions.",
-                "B": "Classical Scabiasis occurs in immunocompetent people and is defined by intense itching and a relatively low number of mites.",
-                "C": "Demodex are follicle mites that cause localized skin inflammation like folliculitis or rosacea, not widespread, crusted hyperkeratosis.",
-                "D": "Scrub typhus is a systemic bacterial infection transmitted by chigger mites, presenting with fever and an eschar, not crusted skin filled with mites."
+                "A": "This is a chemical released by the body during an allergic reaction, not the primary toxin from the insect itself.",
+                "B": "A component of ant venom, which causes a sharp, burning sensation but not large blisters.",
+                "C": "This is the main toxin in bee venom, which is injected via a sting.",
+                "D": "This toxin is from rove beetles (Paederus spp.) and typically causes linear or 'kissing' lesions, not a single large blister."
             }
         }
     },
     {
-        "question": "A college student studying late at night near an open window feels a small insect on their arm and instinctively crushes it. The next day, they develop a painful, red, linear lesion with blistering, consistent with a 'kissing lesion' on the inner elbow. Which arthropod and associated medical condition is the most likely cause?",
+        "question": "A farmer is stung on the arm while harvesting honey. He experiences immediate, intense pain. Upon inspection, a small, barbed structure attached to a venom sac is found embedded in his skin. Which arthropod is the most likely culprit?",
         "choices": {
-            "A": "A centipede bite, causing localized pain and swelling from poison claws.",
-            "B": "A Rove beetle (Paederus spp.) crushed on the skin, causing Paederus dermatitis.",
-            "C": "A bee sting, resulting in an allergic reaction with a single puncture site.",
-            "D": "A cockroach, acting as a mechanical transmitter for a bacterial skin infection.",
-            "E": "A bed bug bite, leading to a cluster of pruritic papules."
+            "A": "Fire Ant",
+            "B": "Yellow Jacket",
+            "C": "Hornet",
+            "D": "Wasp",
+            "E": "Bee"
         },
-        "correctAnswer": "B",
+        "correctAnswer": "E",
         "reasoning": {
-            "correct": "This is a classic presentation of Paederus dermatitis. Rove beetles, attracted to light, do not bite or sting. When crushed on the skin, they release a potent toxin called pederin, which causes a linear chemical burn with blistering. A 'kissing lesion' occurs when the toxin is transferred to an adjacent skin surface.",
+            "correct": "The key identifying feature is the barbed stinger left in the skin. Honeybees (Family Apidae) are unique among these choices for having a barbed stinger that lodges in the victim's skin, tearing away from the bee along with the venom sac.",
             "incorrect": {
-                "A": "A centipede bite results in a puncture wound, not a linear lesion from crushing.",
-                "C": "A bee sting causes a swollen welt at a single puncture site.",
-                "D": "A bacterial infection from a cockroach would not appear so rapidly and would not have the characteristic linear, blistering appearance.",
-                "E": "Bed bug bites result in itchy, raised bumps (pruritic papules), not blistering chemical burns."
+                "A": "Fire ants bite and sting, but their stinger is smooth and is not left behind.",
+                "B": "Yellow Jackets have smooth, unbarbed stingers and can sting repeatedly.",
+                "C": "Hornets have smooth, unbarbed stingers and can sting repeatedly.",
+                "D": "Wasps have smooth, unbarbed stingers and can sting repeatedly."
             }
         }
     },
     {
-        "question": "The Rove beetle (genus Paederus) is medically important because of the toxin it contains. How is envenomation by this arthropod classified?",
+        "question": "An image shows a small, wingless, laterally-compressed insect with powerful hind legs modified for jumping. This morphology is characteristic of which medically important arthropod?",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2ZImDgg0IZ2ZNLrOG1rOsrv18NpSMvvvHWg&s",
+        "imageSource": "Unknown",
         "choices": {
-            "A": "Biological transmission of a pathogen.",
-            "B": "Active envenomation via a stinging apparatus.",
-            "C": "Passive envenomation through incidental contact.",
-            "D": "Mechanical transmission of bacteria.",
-            "E": "Active envenomation via venomous claws."
-        },
-        "correctAnswer": "C",
-        "reasoning": {
-            "correct": "Passive envenomation is the transfer of venom without the deliberate action of the creature. This perfectly describes the Rove beetle, which does not bite or sting. Envenomation occurs when the beetle is accidentally crushed, releasing the pederin toxin from its body fluid.",
-            "incorrect": {
-                "A": "Biological transmission involves a pathogen developing inside the vector. The Rove beetle's effect is a direct chemical burn from a toxin.",
-                "B": "Active envenomation via a stinger is characteristic of bees and wasps.",
-                "D": "Mechanical transmission is the simple transport of pathogens, whereas the Rove beetle causes direct toxic injury.",
-                "E": "Active envenomation via venomous claws is the mechanism used by centipedes."
-            }
-        }
-    },
-    {
-        "question": "During a survey of potential mosquito breeding sites, a public health inspector finds clusters of dark, elongated eggs laid together to form a raft floating on the surface of a ditch containing stagnant, polluted water. This morphology is characteristic of which mosquito genus, and what is its primary medical importance in this context?",
-        "choices": {
-            "A": "Genus Anopheles, which lays single, boat-shaped eggs with floats and is the primary vector for Malaria.",
-            "B": "Genus Aedes, which lays single, oval-shaped eggs on damp surfaces above the waterline and is the vector for Dengue fever.",
-            "C": "Genus Culex, which lays its eggs in rafts on the water surface and is the primary vector for Japanese B Encephalitis.",
-            "D": "Genus Mansonia, which lays eggs in star-shaped clusters attached to aquatic plants and is a vector for Brugian filariasis.",
-            "E": "Genus Phlebotomus (Sand fly), which is the vector for Leishmaniasis."
+            "A": "Mite",
+            "B": "Bed bug",
+            "C": "Flea",
+            "D": "Louse",
+            "E": "Tick"
         },
         "correctAnswer": "C",
         "reasoning": {
-            "correct": "The description perfectly matches the Culex genus. Culex mosquitoes lay their eggs in rafts that float on the water's surface and are known for breeding in stagnant, polluted water. In this context, their primary medical importance is as the vector for Japanese B Encephalitis.",
+            "correct": "The description perfectly matches the characteristics of a flea (Order Siphonaptera). They are wingless, have powerful hind legs for jumping, and are laterally compressed (flattened from side to side).",
             "incorrect": {
-                "A": "Anopheles mosquitoes lay single, boat-shaped eggs with floats; they do not form rafts.",
-                "B": "Aedes mosquitoes also lay their eggs singly, not in rafts, typically on damp surfaces in clean water.",
-                "D": "Mansonia mosquitoes lay eggs in star-shaped clusters attached to the underside of aquatic plants.",
-                "E": "Phlebotomus is the genus for sand flies, which are not mosquitoes and are vectors for Leishmaniasis."
+                "A": "Mites are arachnids, typically flattened dorso-ventrally (top to bottom).",
+                "B": "Bed bugs are insects but are dorso-ventrally flattened.",
+                "D": "Lice are wingless insects but are also dorso-ventrally flattened.",
+                "E": "Ticks are arachnids, typically flattened dorso-ventrally."
             }
         }
     },
     {
-        "question": "Public health officials are investigating an outbreak of a febrile illness with neurological symptoms in a rural community. The area has extensive rice cultivation and numerous pig farms. The water in the rice paddies and ditches is stagnant and rich in organic matter. Based on this ecological information, which mosquito is the most likely vector for the disease, and what disease is it likely transmitting?",
+        "question": "A veterinarian is examining a dog that has been walking through tall grass and woodlands. The dog is lethargic and anemic. A blood smear reveals intraerythrocytic parasites. The owner also found a small, engorged arthropod attached to the dog's ear. This arthropod has a visible capitulum (mouthparts) from the dorsal view and a hard scutum covering its back. This parasite is most likely transmitted by:",
         "choices": {
-            "A": "Anopheles spp., transmitting Malaria.",
-            "B": "Aedes spp., transmitting Dengue fever.",
-            "C": "Culex spp., transmitting Japanese B encephalitis.",
-            "D": "Mansonia spp., transmitting Brugian filariasis.",
-            "E": "Oriental rat flea (Xenopsylla cheopis), transmitting Murine typhus."
+            "A": "Hard tick",
+            "B": "Louse",
+            "C": "Flea",
+            "D": "Soft tick",
+            "E": "Mite"
         },
-        "correctAnswer": "C",
+        "correctAnswer": "A",
         "reasoning": {
-            "correct": "This scenario aligns perfectly with the transmission of Japanese B encephalitis (JBE) by Culex mosquitoes. The breeding habitat (stagnant, organic-rich water like rice paddies) and the presence of pigs (the primary amplifying hosts for the JBE virus) are critical clues. The disease presentation (febrile illness with neurological symptoms) is also classic for severe JBE.",
+            "correct": "The defining features described—a capitulum visible from the dorsal side and a hard dorsal shield (scutum)—are characteristic of a hard tick (Family Ixodidae). Hard ticks are well-known vectors for blood parasites like Babesia spp., which infect red blood cells.",
             "incorrect": {
-                "A": "Malaria does not typically present as an outbreak with primarily neurological symptoms.",
-                "B": "Aedes mosquitoes prefer clean water in containers, and Dengue fever is characterized by severe body aches, not primarily neurological symptoms.",
-                "D": "Mansonia transmit Brugian filariasis, a chronic lymphatic disease, not an acute febrile illness.",
-                "E": "This involves a flea as the vector and rodents as the host, which does not match the ecological clues."
+                "B": "Lice are insects and do not have a capitulum or scutum.",
+                "C": "Fleas are insects and do not have a capitulum or scutum.",
+                "D": "In soft ticks (Family Argasidae), the capitulum is located on the underside and is not visible from the dorsal view, and they lack a scutum.",
+                "E": "Mites are arachnids but lack the large, hardened scutum found on hard ticks."
+            }
+        }
+    },
+    {
+        "question": "A patient complains of persistent acne-like bumps, redness, and itchy skin, particularly around the nose and eyelashes. A skin scraping is performed and examined under a microscope, revealing multiple microscopic, cigar-shaped organisms with four pairs of stubby legs located near the anterior end. What is the most likely identification of this organism?",
+        "choices": {
+            "A": "Sarcoptes scabiei",
+            "B": "Trombiculidae larva",
+            "C": "Pulex irritans",
+            "D": "Ixodes tick larva",
+            "E": "Demodex spp."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The cigar-shaped (cylindrical) body with four pairs of small, stubby legs is the classic microscopic appearance of the follicle mite, Demodex spp.. These mites live in or near hair follicles, and overgrowth can be associated with skin conditions like folliculitis and rosacea.",
+            "incorrect": {
+                "A": "The scabies mite (Sarcoptes scabiei) has a rounded, sac-like body, not an elongated one.",
+                "B": "The chigger mite larva (Trombiculidae) is more rounded and has only three pairs of legs.",
+                "C": "Pulex irritans is the human flea, a macroscopic insect.",
+                "D": "An Ixodes tick larva is macroscopic and has a very different body shape."
             }
         }
     }

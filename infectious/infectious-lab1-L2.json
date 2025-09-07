@@ -157,7 +157,7 @@
                 "type": "short_answer",
                 "prompt": "What is the scientific name of this parasite?",
                 "answer": ["Plasmodium vivax"],
-                "reasoning": "The blood film shows an infected red blood cell (RBC) that is clearly enlarged. The RBC contains fine pink stippling known as Schüffner's dots, and the parasite itself has an irregular, 'amoeboid' cytoplasm. These are all classic features of P. vivax."
+                "reasoning": "The blood film shows an infected red blood cell (RBC) that is clearly enlarged compared to the surrounding uninfected cells. The RBC contains fine pink stippling known as Schüffner's dots, and the parasite itself has an irregular, 'amoeboid' cytoplasm. These are all classic features of P. vivax."
             },
             {
                 "id": "7B",
@@ -196,6 +196,36 @@
                     "requiredCount": 2
                 },
                 "reasoning": "Answer:\n1. The presence of ingested red blood cells within the parasite's cytoplasm.\n2. The nucleus contains a small, centrally located karyosome (centric karyosome).\n\nExplanation: The presence of ingested RBCs is the most crucial feature to distinguish it from the non-pathogenic E. coli. The nuclear structure with a central karyosome and fine, regular peripheral chromatin is another key identifier.\n\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ"
+            }
+        ]
+    },
+    {
+        "questionNumber": "9",
+        "headerImage": {
+            "url": "https://www.cdc.gov/dpdx/hymenolepiasis/images/2/H_nana_egg_wtmt2.jpg",
+            "source": "CDC/DPDx"
+        },
+        "subQuestions": [
+            {
+                "id": "9A",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of this parasite?",
+                "answer": ["Hymenolepis nana"],
+                "reasoning": "The scientific name of this parasite is Hymenolepis nana. This can be identified by the presence of 4-8 polar filaments between the outer and inner membranes of the egg, a key characteristic of this species."
+            },
+            {
+                "id": "9B",
+                "type": "short_answer",
+                "prompt": "What is the stage of this parasite?",
+                "answer": ["Embryonated egg"],
+                "reasoning": "This is the embryonated egg stage. Inside the shell, you can see the hexacanth embryo, also known as an oncosphere."
+            },
+            {
+                "id": "9C",
+                "type": "short_answer",
+                "prompt": "Is this an infective stage?",
+                "answer": ["Yes"],
+                "reasoning": "Yes, this is an infective stage. Humans can become infected by ingesting these embryonated eggs, often through contaminated food or water, or through person-to-person transmission."
             }
         ]
     }

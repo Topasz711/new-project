@@ -1,1 +1,184 @@
-[]
+[
+    {
+        "questionNumber": "1",
+        "headerImage": {
+            "url": "https://i.guim.co.uk/img/media/72ca8cbe96b0e10cfee0fa2d6e5f5db48ebdf4e0/1123_328_2935_2911/master/2935.jpg?width=700&quality=85&auto=format&fit=max&s=64eb2e24b028f28754c70e748ab5e70c",
+            "source": "theguardian.com"
+        },
+        "subQuestions": [
+            {
+                "id": "1A",
+                "type": "short_answer",
+                "prompt": "What is this species?",
+                "answer": ["Aedes spp."],
+                "reasoning": "The mosquito is identifiable by the characteristic black and white markings (snow-white scales) on its body and legs."
+            },
+            {
+                "id": "1B",
+                "type": "short_answer",
+                "prompt": "What is the medical importance?",
+                "answer": ["Vector of Dengue virus", "Vector of Chikungunya", "Vector of Zika virus", "Vector of Lymphatic filariasis", "Vector of Wuchereria bancrofti"],
+                "reasoning": "This mosquito acts as a biological transmitter for several viral and parasitic diseases of medical importance.\n\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ"
+            },
+            {
+                "id": "1C",
+                "type": "keywords",
+                "prompt": "What is the breeding place of this species?",
+                "imageUrl": "https://www.amdro.com/-/media/Project/OneWeb/Amdro/Images/pest-id/aedes-mosquitoes/Mosquito-eggs.jpg?h=1000&iar=0&w=1000&hash=262EFB7E79156BDAD0DE3AC44C2C5D5D",
+                "imageSource": "amdro.com",
+                "answer": {
+                    "requiredKeywords": ["Clean", "Standing", "Still", "Closed", "Containers"],
+                    "requiredCount": 1
+                },
+                "reasoning": "Answer: Clean, standing water in natural or artificial containers near human dwellings, such as water jars, vases, tires, and bamboo stumps.\n\nReason: Aedes spp. lay their eggs individually on the sides of containers with still, clean water.\n\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ"
+            },
+            {
+                "id": "1D",
+                "type": "keywords",
+                "prompt": "What is the breeding place of this species?",
+                "imageUrl": "https://www.ioc.fiocruz.br/sites/default/files/2009_03_04_dengue_aedes_culex_5.jpg",
+                "imageSource": "ioc.fiocruz.br",
+                "answer": {
+                    "requiredKeywords": ["Stagnant", "polluted", "dirty", "low oxygen"],
+                    "requiredCount": 1
+                },
+                "reasoning": "Answer: Stagnant and often polluted water with low oxygen, such as in ditches, rice fields, and drains.\n\nReason: Culex spp. lay their eggs together to form a raft-like structure that floats on the surface of nutrient-rich water.\n\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ"
+            }
+        ]
+    },
+    {
+        "questionNumber": "2",
+        "headerImage": {
+            "url": "https://www.lstmed.ac.uk/sites/default/files/styles/mc-580-16x9-node/public/content/pages/images/female-anopheles-freeborni-is-taking-a-blood-meal.jpg?itok=oeeMOzJr",
+            "source": "lstmed.ac.uk"
+        },
+        "subQuestions": [
+            {
+                "id": "2A",
+                "type": "short_answer",
+                "prompt": "What is this species?",
+                "answer": ["Anopheles spp."],
+                "reasoning": "The most definitive characteristic shown in the image is its resting and feeding posture. The mosquito holds its body in a straight line (a single axis) at approximately a 45-degree angle to the surface of the skin. This is a classic identifying feature of the Anopheles genus."
+            },
+            {
+                "id": "2B",
+                "type": "short_answer",
+                "prompt": "What is the medical importance?",
+                "answer": ["Vector of Malaria", "Vector of Plasmodium spp.", "Vector of lymphatic filariasis", "Vector of Wuchereria bancrofti"],
+                "reasoning": "Anopheles mosquitoes are the principal biological vectors for human malaria worldwide (transmitting Plasmodium parasites) and are also responsible for transmitting the filarial worm Wuchereria bancrofti.\n\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ"
+            },
+            {
+                "id": "2C",
+                "type": "keywords",
+                "prompt": "What is the breeding place of this species?",
+                "imageUrl": "https://figures.academia-assets.com/42001344/figure_004.jpg",
+                "imageSource": "academia-assets.com",
+                "answer": {
+                    "requiredKeywords": ["clean", "unpolluted", "slow-moving", "standing", "still", "natural"],
+                    "requiredCount": 1
+                },
+                "reasoning": "Answer: The breeding places are typically clean, unpolluted, and slow-moving or standing water bodies. These can include a wide variety of natural habitats such as streams, rock pools, animal footprints, seepage water, rice paddies, and even brackish water.\n\nReason: The eggs shown are boat-shaped and equipped with lateral floats, which is a key characteristic of Anopheles eggs. Females of this genus lay their eggs singly on the surface of the water in these types of preferred aquatic environments.\n\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ"
+            }
+        ]
+    },
+    {
+        "questionNumber": "3",
+        "headerImage": {
+            "url": "https://thelifeofyourtime.wordpress.com/wp-content/uploads/2012/11/paederus.jpg",
+            "source": "wordpress.com"
+        },
+        "subQuestions": [
+            {
+                "id": "3A",
+                "type": "short_answer",
+                "prompt": "What is the common name of this species?",
+                "answer": ["Rove beetle"],
+                "reasoning": "This insect is identified as a Rove beetle, specifically from the genus Paederus, based on its distinct coloration and morphology. It has a black head, an orange thorax, iridescent blue elytra (wing covers), and an abdomen that is orange at the base and black at the tip."
+            },
+            {
+                "id": "3B",
+                "type": "short_answer",
+                "prompt": "What is the medical importance?",
+                "answer": ["Causes Paederus dermatitis"],
+                "reasoning": "The medical importance of the Rove beetle is not as a vector, but as a direct cause of injury. Its hemolymph (blood) contains pederin, a potent vesicant toxin. When a person crushes or brushes the beetle against their skin, the toxin is released, causing a severe chemical irritation known as Paederus dermatitis."
+            }
+        ]
+    },
+    {
+        "questionNumber": "4",
+        "note": "ข้อนี้ไม่ต้องทำก็ได้ เก็งไว้เผื่อออก",
+        "headerImage": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bed_bug%2C_Cimex_lectularius.jpg",
+            "source": "wikimedia.org"
+        },
+        "subQuestions": [
+            {
+                "id": "4A",
+                "type": "short_answer",
+                "prompt": "What is the common name of this species?",
+                "answer": ["Bedbug"],
+                "reasoning": "The insect's appearance in the photograph—small, oval, brownish, and wingless—is characteristic of a common bed bug (Cimex lectularius).\n\n(พูดง่าย ๆ คือ มันอยู่ใน lecture ของยุง หน้า 4 แต่ไม่ได้ขยายความเพิ่ม แต่มีในห้อง demonstration)"
+            },
+            {
+                "id": "4B",
+                "type": "short_answer",
+                "prompt": "What is the medical importance?",
+                "answer": ["Cutaneous reactions", "allergic reactions", "dermatitis", "secondary bacterial infections"],
+                "reasoning": "The primary medical importance relates to the cutaneous and allergic reactions from their bites, the risk of secondary bacterial infections from scratching, and significant psychological distress. They are not considered competent vectors for disease transmission to humans.\n\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ แถมข้อนี้ไม่รู้จะถามอะไรได้บ้าง เก็งไว้มั่ว ๆ"
+            }
+        ]
+    },
+    {
+        "questionNumber": "5",
+        "headerImage": {
+            "url": "https://ohioline.osu.edu/sites/ohioline/files/imce/Agriculture_and_Natural_Resources/ANR-0182-Figure1.jpg",
+            "source": "ohioline.osu.edu"
+        },
+        "subQuestions": [
+            {
+                "id": "5A",
+                "type": "short_answer",
+                "prompt": "What is the common name of this species?",
+                "answer": ["Chigger mite", "Trombiculid mite"],
+                "reasoning": "This arthropod is identified as the Chigger mite, belonging to the family Trombiculidae. The term 'Chigger' specifically refers to the larval stage, which is the only parasitic stage of this mite and has only three pairs of legs."
+            },
+            {
+                "id": "5B",
+                "type": "short_answer",
+                "prompt": "What is the medical importance?",
+                "answer": ["Vector of Orientia tsutsugamushi", "Vector of Scrub Typhus"],
+                "reasoning": "The larval stage acts as a biological vector for the bacterium Orientia tsutsugamushi. The larva transmits the pathogen to humans during feeding, causing the febrile illness known as Scrub Typhus."
+            }
+        ]
+    },
+    {
+        "questionNumber": "6",
+        "headerImage": {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaNYlJ7V-GIqE_sVLaHmPHejGyFwlj8sn_zQ&s",
+            "source": "Unknown"
+        },
+        "subQuestions": [
+            {
+                "id": "6A",
+                "type": "short_answer",
+                "prompt": "What is the common name of this species?",
+                "answer": ["Sandfly"],
+                "reasoning": "This insect is identified as a Sandfly based on its distinct morphology. It is a small, light brown insect with a body and wings that are noticeably hairy and holds its wings in a V-shape when at rest."
+            },
+            {
+                "id": "6B",
+                "type": "short_answer",
+                "prompt": "What is the scientific name of this species?",
+                "answer": ["Phlebotomus spp."],
+                "reasoning": "The medically important Sandflies belong to the genus Phlebotomus."
+            },
+            {
+                "id": "6C",
+                "type": "short_answer",
+                "prompt": "What is the medical importance?",
+                "answer": ["Vector of Leishmania spp.", "Vector of Leishmaniasis"],
+                "reasoning": "The Sandfly is the biological vector for the protozoan parasite Leishmania spp.. Only the female sandfly takes blood meals, and during this process, it can transmit the parasite to humans, causing the group of diseases known as Leishmaniasis."
+            }
+        ]
+    }
+]
