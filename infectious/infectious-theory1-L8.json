@@ -1,1 +1,162 @@
-[]
+[
+    {
+        "question": "A 6-year-old child presents with a fever and painful swelling of the parotid glands, diagnosed as mumps (caused by Mumps virus). The concerned parent asks if the leftover amoxicillin from a previous ear infection could help. The doctor explains that it will not be effective. Which of the following is the most accurate reason for this?",
+        "choices": {
+            "A": "The Mumps virus is an RNA virus, and amoxicillin is only effective against DNA-based pathogens.",
+            "B": "Antibiotics like amoxicillin target bacterial cell wall synthesis, a process and structure that viruses do not possess.",
+            "C": "Mumps virus has a thick capsid that prevents the antibiotic from entering.",
+            "D": "Viral infections must be treated with broad-spectrum antiviral agents, and amoxicillin is too specific.",
+            "E": "The child's immune system has already produced antibodies, which would neutralize the antibiotic."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "This is the fundamental reason antibiotics are ineffective against viruses. Amoxicillin is a penicillin-class antibiotic that works by inhibiting the formation of peptidoglycan cell walls in bacteria. Since viruses are not cells and completely lack cell walls, the antibiotic has no target to act upon.",
+            "incorrect": {
+                "A": "Antibiotics do not differentiate between DNA and RNA; their targets are cellular structures or enzymes, not the type of nucleic acid.",
+                "C": "While the viral capsid is a protective shell, the primary reason for ineffectiveness is the lack of a specific target, not a physical barrier to the drug.",
+                "D": "This statement is flawed. Amoxicillin is an antibacterial, not a narrow-spectrum antiviral.",
+                "E": "Antibodies produced by the immune system target pathogens (like the Mumps virus), not medications like antibiotics."
+            }
+        }
+    },
+    {
+        "question": "The term 'nucleocapsid' refers to the combination of the viral nucleic acid and its protective protein capsid. For an enveloped virus like Influenza, what is the relationship between the envelope and the nucleocapsid?",
+        "choices": {
+            "A": "The nucleocapsid is derived from the host cell membrane, while the envelope is synthesized by viral proteins.",
+            "B": "The nucleocapsid is composed of lipids, and the envelope is composed of proteins called capsomeres.",
+            "C": "The envelope is the outermost layer, a lipid membrane acquired from the host, which surrounds the internal nucleocapsid.",
+            "D": "The envelope and the nucleocapsid are two terms for the same structure in enveloped viruses.",
+            "E": "The envelope is located inside the nucleocapsid and contains the viral genome."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This accurately describes the structure of an enveloped virus. The core of the virus is the nucleocapsid (nucleic acid + protein capsid). This entire structure is then wrapped in an envelope, which is a lipid bilayer membrane that the virus acquires from the host cell as it exits.",
+            "incorrect": {
+                "A": "The origins are reversed. The envelope is derived from the host membrane, while the nucleocapsid components are synthesized based on the viral genome.",
+                "B": "The compositions are reversed. The nucleocapsid's capsid is made of protein units (capsomeres), and the envelope is primarily a lipid membrane.",
+                "D": "They are distinct structures with different compositions and functions.",
+                "E": "The spatial arrangement is wrong. The envelope is the outermost layer, surrounding the nucleocapsid."
+            }
+        }
+    },
+    {
+        "question": "Which of these pairs correctly matches a virus type with its environmental stability?",
+        "choices": {
+            "A": "Enveloped Virus : Stable against detergents, heat, and acid.",
+            "B": "Complex Virus : Stability depends only on whether its genome is DNA or RNA.",
+            "C": "Enveloped Virus : Labile and spreads easily on fomites and through the fecal-oral route.",
+            "D": "Naked Virus : Stable and can spread easily via fomites and the fecal-oral route.",
+            "E": "Naked Virus : Labile and easily disrupted by drying and detergents."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "Naked (non-enveloped) viruses lack a fragile lipid envelope. Their tough protein capsid makes them environmentally stable and resistant to temperature, acid, detergents, and drying. This stability allows them to survive on surfaces (fomites) and pass through the gastrointestinal tract, facilitating fecal-oral transmission.",
+            "incorrect": {
+                "A": "Enveloped viruses are labile (fragile) and are easily disrupted by detergents, heat, and acid because these agents damage their essential lipid envelope.",
+                "B": "Stability is primarily determined by the presence or absence of an envelope, not the type of nucleic acid.",
+                "C": "While enveloped viruses are labile, this fragility means they do not spread easily on fomites or survive the fecal-oral route. They are typically spread through droplets and secretions.",
+                "E": "Naked viruses are stable, not labile."
+            }
+        }
+    },
+    {
+        "question": "A virology exam asks students to group viruses based on their genome type. A student's list for 'dsDNA Viruses' includes: Herpesviridae, Adenoviridae, Poxviridae, and Parvoviridae. What is the error in this list?",
+        "choices": {
+            "A": "All listed families are correct as they all contain DNA viruses.",
+            "B": "Herpesviridae is a retrovirus and should be excluded.",
+            "C": "Poxviridae is an RNA virus family and should be excluded.",
+            "D": "Parvoviridae is the exception among DNA viruses as it has a ssDNA genome.",
+            "E": "Adenoviridae is a single-stranded DNA virus and should be excluded."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The question specifies a list of 'dsDNA Viruses' (double-stranded DNA). While all the families listed are DNA viruses, Parvoviridae is the exception as it has a single-stranded DNA (ssDNA) genome.",
+            "incorrect": {
+                "A": "The list is incorrect because the grouping is specifically for dsDNA viruses, and Parvoviridae does not fit.",
+                "B": "Herpesviridae is a classic dsDNA virus family, not a retrovirus.",
+                "C": "Poxviridae is a family of large, complex dsDNA viruses.",
+                "E": "Adenoviridae is a family of dsDNA viruses."
+            }
+        }
+    },
+    {
+        "question": "A newly discovered virus is found to have a dsDNA genome. However, its replication cycle is unusual. After entering the cell nucleus, its DNA is transcribed into an RNA pre-genome. This RNA is then packaged into new capsids along with a specific viral polymerase. Inside the new capsid, this polymerase uses the RNA template to synthesize the final dsDNA genome. This 'RNA intermediate' strategy is characteristic of which Baltimore Class and virus family?",
+        "choices": {
+            "A": "Class VII; Hepadnaviridae",
+            "B": "Class II; Parvoviridae",
+            "C": "Class III; Reoviridae",
+            "D": "Class VI; Retroviridae",
+            "E": "Class I; Herpesviridae"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The described replication cycle—starting with a DNA genome, creating an RNA intermediate, and then using reverse transcriptase to produce the final DNA genome—is the unique hallmark of Baltimore Class VII. The Hepadnaviridae family (which includes Hepatitis B virus) is the primary example of this class.",
+            "incorrect": {
+                "B": "Class II (Parvoviridae) has a ssDNA genome that is converted to dsDNA.",
+                "C": "Class III (Reoviridae) has a dsRNA genome.",
+                "D": "Class VI (Retroviridae) starts with an RNA genome and converts it to DNA. The process described is the reverse.",
+                "E": "Class I (Herpesviridae) have a dsDNA genome that is replicated directly into new dsDNA genomes without an RNA intermediate step."
+            }
+        }
+    },
+    {
+        "question": "You are studying a virus with a single-stranded RNA genome. Upon infection, it cannot use the host ribosome to immediately translate its genome into protein. Instead, it must first use a viral enzyme packaged within the virion to create a complementary, positive-sense RNA strand. This new strand then serves as the mRNA. This replication strategy is characteristic of which virus family?",
+        "choices": {
+            "A": "Retroviridae",
+            "B": "Picornaviridae",
+            "C": "Coronaviridae",
+            "D": "Orthomyxoviridae",
+            "E": "Hepadnaviridae"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "This describes the replication of a negative-sense single-stranded RNA ((-)ssRNA) virus. The (-)ssRNA genome cannot be read by ribosomes and must first be transcribed into a 'positive' sense mRNA by the viral RNA-dependent RNA polymerase (RdRp), which is packaged inside the virion. Orthomyxoviridae (e.g., Influenza virus) is a (-)ssRNA virus family.",
+            "incorrect": {
+                "A": "Retroviridae are (+)ssRNA viruses that use reverse transcriptase to make a DNA copy.",
+                "B": "Picornaviridae are (+)ssRNA viruses whose genomes act directly as mRNA.",
+                "C": "Coronaviridae are (+)ssRNA viruses whose genomes act directly as mRNA.",
+                "E": "Hepadnaviridae is a dsDNA virus family."
+            }
+        }
+    },
+    {
+        "question": "A novel influenza pandemic emerges. Genetic sequencing reveals that its 8 RNA segments are a mosaic derived from human, avian, and swine influenza viruses. This 'mixing and matching' of entire gene segments most likely occurred due to which genetic phenomenon in a co-infected host, such as a pig?",
+        "choices": {
+            "A": "Attenuating mutation",
+            "B": "Antigenic drift",
+            "C": "Complementation",
+            "D": "Reassortment (Antigenic shift)",
+            "E": "Phenotypic mixing"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The creation of a new hybrid virus from a 'mosaic' of entire gene segments from different parent strains is the definition of Reassortment. This major genetic change results in an Antigenic shift, creating a novel virus to which the population has little immunity, often causing a pandemic.",
+            "incorrect": {
+                "A": "An attenuating mutation is a mutation that reduces virulence.",
+                "B": "Antigenic drift refers to the gradual accumulation of minor point mutations, causing small changes.",
+                "C": "Complementation is a functional interaction where one virus provides a protein for another; it does not involve the exchange of genetic material.",
+                "E": "Phenotypic mixing is when the genome of one virus is packaged in the capsid of another. The change is temporary and not heritable."
+            }
+        }
+    },
+    {
+        "question": "The composition of the human gut virome changes dramatically from birth. Based on the typical developmental trajectory, which of the following correctly identifies the pioneer viral colonizers of the neonatal gut?",
+        "choices": {
+            "A": "Eukaryotic DNA viruses from the mother, such as Herpesviruses.",
+            "B": "Plant viruses derived from the infant's first solid foods.",
+            "C": "A diverse and stable community of both phages and eukaryotic viruses.",
+            "D": "The gut is typically free of viruses until about two years of age.",
+            "E": "Bacteriophages that colonize the gut alongside the pioneer bacteria."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The neonatal gut is initially free of viruses. The first stage of colonization is characterized by the appearance of bacteriophages (mainly Caudovirales), which mirrors the colonization by their bacterial hosts. Phages are the first and most dominant viral members of the early-life gut microbiome.",
+            "incorrect": {
+                "A": "Eukaryotic DNA viruses like Herpesviridae increase in abundance later in childhood, not as initial colonizers.",
+                "B": "Plant viruses are introduced later through diet.",
+                "C": "Diversity and stability are characteristics of the adult gut virome; the neonatal virome is dynamic and has low diversity.",
+                "D": "This is incorrect. Colonization begins within the first week of life."
+            }
+        }
+    }
+]

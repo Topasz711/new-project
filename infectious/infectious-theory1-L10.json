@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A 10-year-old patient with a known history of hereditary spherocytosis presents with severe fatigue, pallor, and shortness of breath. A complete blood count reveals a hemoglobin of 5 g/dL and a reticulocyte count of 0.1%. His younger sister recently recovered from an illness characterized by a bright red facial rash. What is the most likely pathophysiological mechanism for this patient's acute condition?",
+        "choices": {
+            "A": "Parvovirus B19 has infected erythroid precursor cells in the bone marrow, causing a transient aplastic crisis.",
+            "B": "Rubella virus has formed immune complexes that are deposited in the bone marrow, inhibiting red blood cell formation.",
+            "C": "EBV has infected the patient's B-cells, leading to a massive cytotoxic T-cell response and splenic sequestration.",
+            "D": "HSV-1 has established latency in the sacral ganglia, leading to systemic inflammation and bone marrow suppression.",
+            "E": "Measles virus has caused the formation of syncytia in the bone marrow, disrupting hematopoiesis."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The sister's 'slapped cheek' rash is classic for Parvovirus B19. This virus infects erythroid precursors in the bone marrow, temporarily halting red blood cell production. In a patient with chronic hemolytic anemia like hereditary spherocytosis, this leads to a sudden, severe drop in hemoglobin and reticulocytes, known as a transient aplastic crisis.",
+            "incorrect": {
+                "B": "Rubella virus does not target erythroid precursors and is not associated with aplastic crisis.",
+                "C": "EBV targets B-lymphocytes, causing Infectious Mononucleosis, not aplastic crises by this mechanism.",
+                "D": "HSV-1 establishes latency in nerve ganglia and causes localized vesicular lesions; it does not cause aplastic crises.",
+                "E": "Measles virus infects respiratory and lymphoid tissues but is not known to cause aplastic crises."
+            }
+        }
+    },
+    {
+        "question": "A patient presents with a vesicular rash. A Tzanck smear is performed on a scraping from the base of a vesicle, which reveals multinucleated giant cells. This finding strongly suggests an infection with a virus from which family?",
+        "choices": {
+            "A": "Herpesviridae",
+            "B": "Picornaviridae",
+            "C": "Poxviridae",
+            "D": "Parvoviridae",
+            "E": "Paramyxoviridae"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The Tzanck smear is a rapid diagnostic test for vesicular lesions. The key finding of multinucleated giant cells is the classic cytopathic effect produced by viruses in the Herpesviridae family (like HSV and VZV), which cause infected cells to fuse together.",
+            "incorrect": {
+                "B": "Picornaviridae (e.g., Coxsackieviruses) cause vesicular rashes but do not produce multinucleated giant cells on a Tzanck smear.",
+                "C": "Poxviridae (e.g., Smallpox) cause pustular rashes and have a different cytopathology.",
+                "D": "Parvovirus B19 causes a maculopapular rash, not a vesicular one.",
+                "E": "Paramyxoviridae (e.g., Measles virus) causes a maculopapular rash."
+            }
+        }
+    },
+    {
+        "question": "A 17-year-old presents with a severe sore throat, fever, fatigue, and posterior cervical lymphadenopathy. A physical exam reveals pharyngeal exudates and mild splenomegaly. A CBC shows lymphocytosis with numerous large, atypical lymphocytes. The patient reports being treated with amoxicillin for a suspected strep throat a few days ago, after which he developed a diffuse, pruritic maculopapular rash. Which pathogen is the most likely cause?",
+        "choices": {
+            "A": "Coxsackie A virus",
+            "B": "Cytomegalovirus (CMV)",
+            "C": "Measles Virus",
+            "D": "Streptococcus pyogenes",
+            "E": "Epstein-Barr Virus (EBV)"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "This is a textbook presentation of Infectious Mononucleosis caused by EBV (fever, pharyngitis, lymphadenopathy, atypical lymphocytes). The definitive clue is the development of a diffuse maculopapular rash after taking amoxicillin, which is highly characteristic of an active EBV infection.",
+            "incorrect": {
+                "A": "Coxsackie A virus can cause herpangina but does not cause splenomegaly, atypical lymphocytosis, or the amoxicillin-associated rash.",
+                "B": "CMV can cause a mononucleosis-like syndrome, but the rash following amoxicillin is far more specific for EBV.",
+                "C": "Measles Virus presents with cough, coryza, conjunctivitis (the 3 Cs), and Koplik spots.",
+                "D": "Streptococcus pyogenes is a bacterium and would not cause atypical lymphocytes or this specific type of drug-induced rash."
+            }
+        }
+    },
+    {
+        "question": "A patient displays a maculopapular rash that began on the face, Koplik spots, and a fever of 40°C. A different patient has a pinkish rash that also started on the face, accompanied by prominent posterior auricular lymphadenopathy. Which option correctly identifies the viruses responsible for the first and second patients, respectively?",
+        "choices": {
+            "A": "1st: Measles virus, 2nd: Rubella virus",
+            "B": "1st: Measles virus, 2nd: Epstein-Barr virus",
+            "C": "1st: Rubella virus, 2nd: Measles virus",
+            "D": "1st: Parvovirus B19, 2nd: HHV-6",
+            "E": "1st: Varicella-Zoster virus, 2nd: Rubella virus"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "Patient 1: The combination of high fever, maculopapular rash starting on the face, and Koplik spots is pathognomonic for Measles (Rubeola). Patient 2: The presentation of a milder, pinkish rash starting on the face with prominent posterior auricular lymphadenopathy is a classic sign of Rubella (German Measles).",
+            "incorrect": {
+                "B": "EBV is not associated with Koplik spots.",
+                "C": "This option reverses the correct diagnoses.",
+                "D": "Parvovirus B19 causes a 'slapped cheek' rash. HHV-6 (Roseola) features a rash that appears after a fever resolves and starts on the trunk.",
+                "E": "VZV causes a vesicular rash (chickenpox), not a maculopapular rash."
+            }
+        }
+    }
+]

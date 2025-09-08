@@ -1,1 +1,122 @@
-[]
+[
+    {
+        "question": "Which of the following statements best illustrates the difference between pathogenicity and virulence?",
+        "choices": {
+            "A": "A virus with high pathogenicity must also have high virulence.",
+            "B": "Measles virus has low pathogenicity because although it is highly contagious, it has low virulence.",
+            "C": "Pathogenicity describes the mortality rate of a virus, while virulence describes its infectivity.",
+            "D": "Hepatitis A virus has high virulence because it can cause severe liver inflammation in some individuals.",
+            "E": "Rabies virus has high pathogenicity and high virulence, as it almost always causes severe, fatal disease."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "Pathogenicity is the ability of an agent to cause disease. Rabies has high pathogenicity as infection almost always leads to disease. Virulence is the degree of harm. Rabies has high virulence because the disease is extremely severe and nearly 100% fatal.",
+            "incorrect": {
+                "A": "A virus can have high pathogenicity but low virulence (e.g., Measles virus, which readily causes illness but the illness is usually mild).",
+                "B": "Measles virus has high pathogenicity (it readily causes illness) but low virulence (the illness is usually mild).",
+                "C": "The definitions are reversed. Virulence is associated with severity/mortality, while pathogenicity is the ability to cause disease at all.",
+                "D": "Hepatitis A virus is considered to have low virulence, as many cases are mild or asymptomatic."
+            }
+        }
+    },
+    {
+        "question": "A pathologist examines a lung tissue sample from an immunocompromised patient with pneumonia. Under the microscope, many cells are significantly enlarged and contain a large, dense, basophilic intranuclear inclusion body surrounded by a clear halo. This distinctive 'Owl's eye' appearance is a classic cytopathic effect of which virus?",
+        "choices": {
+            "A": "Herpes Simplex Virus (HSV)",
+            "B": "Influenza virus",
+            "C": "Poxvirus",
+            "D": "Cytomegalovirus (CMV)",
+            "E": "Rabies virus"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The description of enlarged cells with a large, basophilic intranuclear inclusion body creating an 'Owl's eye' appearance is the hallmark cytopathic effect (CPE) used to identify Cytomegalovirus (CMV) infection in tissue samples.",
+            "incorrect": {
+                "A": "Herpes Simplex Virus (HSV) is associated with Cowdry type A intranuclear inclusions, which do not typically have the classic 'Owl's eye' morphology.",
+                "B": "Influenza virus does not produce such characteristic, large inclusion bodies.",
+                "C": "Poxviruses replicate in the cytoplasm and thus produce intracytoplasmic, not intranuclear, inclusion bodies.",
+                "E": "Rabies virus produces Negri bodies, which are eosinophilic and located in the cytoplasm of neurons."
+            }
+        }
+    },
+    {
+        "question": "A 68-year-old male develops a painful, blistering rash in a single dermatome on his torso. His medical history reveals he had chickenpox as a child. The current illness is caused by the reactivation of the virus that has remained dormant in his dorsal root ganglia for decades. This clinical course is a classic example of which pattern of viral infection?",
+        "choices": {
+            "A": "Acute infection",
+            "B": "Abortive infection",
+            "C": "Chronic infection",
+            "D": "Latent infection",
+            "E": "Slow infection"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "This is the definition of a latent infection: a primary infection (chickenpox), a long asymptomatic period where the virus persists in a non-replicating state (dormancy in nerve ganglia), and subsequent reactivation causing a different clinical disease (shingles/zoster).",
+            "incorrect": {
+                "A": "An acute infection is one where the virus is completely cleared by the immune system after the initial illness.",
+                "B": "An abortive infection is an unsuccessful infection where the virus fails to produce progeny.",
+                "C": "A chronic infection is characterized by the continuous production and shedding of the virus, not a period of dormancy.",
+                "E": "A slow infection has an extremely long initial incubation period before any symptoms appear, which is different from this pattern."
+            }
+        }
+    },
+    {
+        "question": "Patient A presents with rhinitis after exposure to Rhinovirus, with symptoms confined to the upper respiratory tract. Patient B presents with fever and rash after exposure to Measles virus, which disseminates systemically. The difference in clinical presentation is best explained by:",
+        "choices": {
+            "A": "Rhinovirus causing an acute infection, while Measles virus causes a latent infection.",
+            "B": "Rhinovirus entering via the respiratory tract, while Measles virus enters through the skin.",
+            "C": "The host's immune response being stronger to Rhinovirus than to Measles virus.",
+            "D": "Rhinovirus causing a localized infection, while Measles virus causes a systemic infection.",
+            "E": "Rhinovirus having a higher virulence than Measles virus."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "A localized infection (Rhinovirus) is where the virus replicates and causes disease only at the initial site of entry. A systemic infection (Measles) involves initial replication followed by spread (dissemination) to other parts of the body, typically via the bloodstream (viremia).",
+            "incorrect": {
+                "A": "Both viruses typically cause acute infections.",
+                "B": "Both viruses typically enter the body through the respiratory tract.",
+                "C": "The difference is due to the inherent properties of the viruses themselves, not a presumed difference in the host's immune response.",
+                "E": "Measles virus, which causes systemic disease, is considered more virulent than Rhinovirus, which causes the common cold."
+            }
+        }
+    },
+    {
+        "question": "A researcher infects a monolayer of cells with a Paramyxovirus. After 24 hours, they observe the formation of very large cells containing multiple nuclei. This specific cytopathic effect, which allows the virus to spread from cell to cell without exposure to the extracellular environment, is known as:",
+        "choices": {
+            "A": "Cytoskeletal disruption",
+            "B": "Transformation",
+            "C": "Syncytia formation",
+            "D": "Apoptosis",
+            "E": "Plaque formation"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Syncytia formation precisely describes the virus-induced fusion of an infected cell with its neighbors, resulting in a single, large cell membrane containing multiple nuclei (a giant multinucleated cell). Paramyxoviruses are a classic example of viruses that cause this CPE.",
+            "incorrect": {
+                "A": "While viruses can disrupt the cytoskeleton, this term does not specifically describe the formation of multinucleated cells.",
+                "B": "Transformation is a genetic alteration of the host cell, often leading to cancer, not cell fusion.",
+                "D": "Apoptosis is programmed cell death, which involves cell shrinkage and fragmentation, the opposite of fusion.",
+                "E": "A plaque is a zone of dead or lysed cells in a cell culture, which is a result of cell death, not cell fusion."
+            }
+        }
+    },
+    {
+        "question": "A 45-year-old patient with a 20-year history of chronic Hepatitis B Virus (HBV) infection undergoes a liver biopsy. The pathology report notes significant inflammation and fibrosis. Laboratory tests show that while HBV DNA is detectable, the virus itself is not considered highly cytopathic (it does not directly lyse the liver cells). What is the primary driver of the ongoing liver damage in this patient?",
+        "choices": {
+            "A": "Antibody-dependent enhancement (ADE) of HBV infection.",
+            "B": "Direct cell lysis caused by the budding of new HBV virions.",
+            "C": "Inhibition of interferon signaling, leading to unchecked viral replication and cell death.",
+            "D": "Transformation of hepatocytes into cancerous cells by the virus.",
+            "E": "The host's Cytotoxic T Lymphocyte (CTL) response killing infected hepatocytes."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "This is a classic example of immunopathology. In chronic HBV infection, the virus itself does not directly kill the liver cells. The ongoing liver damage, inflammation, and fibrosis are primarily caused by the host's own Cytotoxic T Lymphocytes (CTLs) constantly identifying and destroying HBV-infected hepatocytes.",
+            "incorrect": {
+                "A": "ADE is a mechanism associated with enhanced viral uptake in other infections like Dengue virus, not the cause of liver damage in chronic hepatitis.",
+                "B": "The question states that the virus is not highly cytopathic, meaning direct lysis is not the main mechanism of injury.",
+                "C": "While HBV evades the immune system, the actual destruction of the cells is carried out by the adaptive immune response (CTLs).",
+                "D": "Transformation into cancer is a serious long-term risk of chronic HBV, but it is a consequence of the chronic inflammation, not the cause of it."
+            }
+        }
+    }
+]
