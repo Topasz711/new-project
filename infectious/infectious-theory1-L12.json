@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A 48-year-old organ transplant recipient, maintained on long-term immunosuppressive therapy, develops several painless, purplish-brown nodules on his lower extremities and hard palate. A biopsy of a skin lesion reveals spindle-shaped endothelial cells, extensive neovascularization, and red blood cell extravasation. Immunohistochemical staining is positive for a latency-associated nuclear antigen (LANA). Which of the following is the primary mechanism driving this patient's malignancy?",
+        "choices": {
+            "A": "Degradation of p53 and binding of pRb by viral proteins E6 and E7, respectively.",
+            "B": "Chronic inflammation and cytokine-mediated damage leading to hepatocellular regeneration.",
+            "C": "Expression of a viral transactivator protein (Tax) that promotes T-cell proliferation.",
+            "D": "Inactivation of p53 and pRb tumor suppressor proteins by a viral nuclear protein.",
+            "E": "Integration of viral DNA into the host genome, activating adjacent proto-oncogenes."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The presentation is classic for Kaposi's sarcoma. Staining is positive for LANA, the key oncoprotein for Human herpesvirus 8 (HHV-8). The primary oncogenic mechanism of LANA is the inactivation of both p53 and pRb tumor suppressor genes, leading to loss of tumor suppression.",
+            "incorrect": {
+                "A": "E6 and E7 oncoproteins are characteristic of Human papillomavirus (HPV), not HHV-8.",
+                "B": "This describes the indirect oncogenic mechanism of Hepatitis B (HBV) and Hepatitis C (HCV), which lead to hepatocellular carcinoma.",
+                "C": "This describes the action of the Tax protein from Human T-cell lymphotropic virus type 1 (HTLV-1), which causes Adult T-cell Leukemia/Lymphoma.",
+                "E": "This describes a direct oncogenic mechanism primarily associated with HBV, not the primary mechanism for HHV-8."
+            }
+        }
+    },
+    {
+        "question": "Which of the following virus-to-feature associations is correctly matched?",
+        "choices": {
+            "A": "Human papillomavirus (HPV) : dsDNA genome : Oncoprotein LANA.",
+            "B": "Human T-cell lymphotropic virus type 1 (HTLV-1) : ssRNA genome : Oncoproteins Tax and HBZ.",
+            "C": "Epstein-Barr virus (EBV) : ssRNA genome : Associated primarily with hepatocellular carcinoma.",
+            "D": "Hepatitis B Virus (HBV) : ssRNA genome : Primary mechanism is inactivation of p53 by E6.",
+            "E": "Hepatitis C Virus (HCV) : dsDNA genome : Indirect oncogenesis via HBx protein."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Human T-cell lymphotropic virus type 1 (HTLV-1) is a retrovirus with a single-stranded RNA (ssRNA) genome. Its primary oncoproteins responsible for T-cell transformation are Tax and HBZ. This association is entirely correct.",
+            "incorrect": {
+                "A": "While HPV has a dsDNA genome, its oncoprotein is E6/E7. LANA is the oncoprotein for HHV-8.",
+                "C": "EBV has a dsDNA genome (not ssRNA) and is associated with lymphomas and nasopharyngeal carcinoma, not hepatocellular carcinoma.",
+                "D": "HBV has a dsDNA genome (not ssRNA), and the E6 protein is from HPV.",
+                "E": "HCV has an ssRNA genome (not dsDNA), and the HBx protein is from HBV."
+            }
+        }
+    },
+    {
+        "question": "A 12-year-old boy from equatorial Africa is diagnosed with a rapidly growing tumor in his jaw. A biopsy reveals a diffuse infiltrate of monoclonal B lymphocytes. Cytogenetic analysis of the tumor cells shows a characteristic chromosomal translocation, t(8;14), which places the c-myc proto-oncogene under the control of an immunoglobulin heavy-chain gene promoter. This type of malignancy is strongly associated with which of the following viruses?",
+        "choices": {
+            "A": "Human herpesvirus 8 (HHV-8)",
+            "B": "Epstein-Barr virus (EBV)",
+            "C": "Hepatitis C virus (HCV)",
+            "D": "Human T-cell lymphotropic virus type 1 (HTLV-1)",
+            "E": "Human papillomavirus (HPV)"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The presentation (young boy, African, jaw tumor) is the classic description of endemic Burkitt's lymphoma. The tumor is of B-lymphocyte origin, the target cell for Epstein-Barr Virus (EBV). The t(8;14) chromosomal translocation involving the c-myc gene is the molecular hallmark of Burkitt's lymphoma and is strongly associated with EBV.",
+            "incorrect": {
+                "A": "HHV-8 causes Kaposi's sarcoma, not Burkitt's lymphoma.",
+                "C": "HCV is associated with hepatocellular carcinoma.",
+                "D": "HTLV-1 causes Adult T-cell Leukemia/Lymphoma, a malignancy of T-cells, not B-cells.",
+                "E": "HPV causes epithelial cancers like cervical cancer."
+            }
+        }
+    },
+    {
+        "question": "The oncoproteins from different viruses have evolved diverse strategies to immortalize host cells. A common theme is the disruption of the cell cycle and apoptosis. Which of the following viral oncoproteins is functionally distinct from the others in its primary mechanism of action?",
+        "choices": {
+            "A": "HTLV-1 Tax",
+            "B": "HPV E7",
+            "C": "HHV-8 LANA",
+            "D": "HPV E6",
+            "E": "EBV LMP-1"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "EBV LMP-1 is functionally distinct. It does not primarily target tumor suppressors like p53 or pRb. Instead, it acts as a mimic of a host cell surface receptor (CD40), providing constant 'go' signals to the B-cell and activating proliferation and survival pathways. It's more akin to jamming the cell's accelerator.",
+            "incorrect": {
+                "A": "HTLV-1 Tax interferes with the p53 pathway and affects cell cycle progression.",
+                "B": "HPV E7 targets pRb for inactivation.",
+                "C": "HHV-8 LANA targets both p53 and pRb for inactivation.",
+                "D": "HPV E6 targets p53 for degradation."
+            }
+        }
+    }
+]

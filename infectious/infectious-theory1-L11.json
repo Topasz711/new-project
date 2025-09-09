@@ -1,1 +1,122 @@
-[]
+[
+    {
+        "question": "A 30-year-old male presents with a 3-day history of high fever, severe polyarthralgia affecting his wrists and ankles, a maculopapular rash, and headache. His laboratory results show a normal platelet count and hematocrit. He recently returned from a trip to a region in Southeast Asia where there was a known outbreak of mosquito-borne illness. Which of the following is the most likely causative agent?",
+        "choices": {
+            "A": "West Nile virus",
+            "B": "Chikungunya virus",
+            "C": "Yellow fever virus",
+            "D": "Zika virus",
+            "E": "Dengue virus"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The clinical picture of high fever, a rash, and especially the severe polyarthralgia (debilitating joint pain) is the classic presentation for Chikungunya virus. A key diagnostic clue is the normal platelet count, as Chikungunya does not typically cause the significant thrombocytopenia or hemoconcentration seen in severe Dengue.",
+            "incorrect": {
+                "A": "Severe cases of WNV typically manifest as neuroinvasive disease (encephalitis, meningitis), not with prominent joint pain.",
+                "C": "This virus is characterized by jaundice and hemorrhagic fever, which are not present in this case.",
+                "D": "While Zika can cause fever and rash, the symptoms are generally milder, and severe joint pain is not its most defining feature. Prominent conjunctivitis is more common with Zika.",
+                "E": "Dengue is strongly associated with thrombocytopenia (low platelet count) and leukopenia, which contradicts the patient's normal lab results."
+            }
+        }
+    },
+    {
+        "question": "A patient returning from a trip to a tropical region in South America presents with a biphasic illness. After an initial fever, the patient enters a toxic phase characterized by jaundice, hemorrhage (including hematemesis described as 'black vomit'), and signs of severe liver damage. This specific clinical presentation is the hallmark of which arboviral infection?",
+        "choices": {
+            "A": "Dengue virus",
+            "B": "West Nile virus",
+            "C": "Yellow fever virus",
+            "D": "Zika virus",
+            "E": "Chikungunya virus"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The term 'Yellow fever' itself refers to the jaundice that characterizes the disease. The pathogenesis involves viral replication in hepatocytes, leading to liver damage, jaundice, and reduced production of clotting factors. This results in the classic severe symptoms of hemorrhage and 'black vomit'.",
+            "incorrect": {
+                "A": "Severe Dengue (DHF/DSS) causes hemorrhage but is primarily a disease of vascular permeability. Jaundice is not a primary feature.",
+                "B": "Severe WNV infection causes encephalitis or meningitis, not a hemorrhagic fever with liver failure.",
+                "D": "Zika is typically a mild, self-limiting illness and is not associated with this severe presentation.",
+                "E": "The primary manifestation of Chikungunya is severe polyarthralgia."
+            }
+        }
+    },
+    {
+        "question": "Which of the following viruses is an outlier in this group based on its primary transmission cycle involving birds as amplifying hosts and humans as dead-end hosts?",
+        "choices": {
+            "A": "Japanese encephalitis virus",
+            "B": "Chikungunya virus",
+            "C": "Zika virus",
+            "D": "Yellow fever virus",
+            "E": "Dengue virus"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "Japanese encephalitis (JE) virus is maintained in nature in an enzootic cycle between mosquitoes (Culex), birds, and pigs. Birds and pigs are amplifying hosts. Humans get infected incidentally and are considered dead-end hosts because the level of viremia is too low to infect mosquitoes.",
+            "incorrect": {
+                "B": "Dengue, Chikungunya, Zika, and Yellow Fever can all be maintained in a human-mosquito-human transmission cycle, particularly in urban settings. Humans are not dead-end hosts for these viruses.",
+                "C": "Dengue, Chikungunya, Zika, and Yellow Fever can all be maintained in a human-mosquito-human transmission cycle, particularly in urban settings. Humans are not dead-end hosts for these viruses.",
+                "D": "Dengue, Chikungunya, Zika, and Yellow Fever can all be maintained in a human-mosquito-human transmission cycle, particularly in urban settings. Humans are not dead-end hosts for these viruses.",
+                "E": "Dengue, Chikungunya, Zika, and Yellow Fever can all be maintained in a human-mosquito-human transmission cycle, particularly in urban settings. Humans are not dead-end hosts for these viruses."
+            }
+        }
+    },
+    {
+        "question": "A patient presents with a fever, maculopapular rash, and prominent conjunctivitis. Which arboviral infection is most strongly associated with this particular combination of symptoms, especially conjunctivitis?",
+        "choices": {
+            "A": "Japanese encephalitis",
+            "B": "Yellow fever",
+            "C": "Zika fever",
+            "D": "Dengue fever",
+            "E": "Chikungunya fever"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "While fever and rash are common in many arboviral infections, prominent conjunctivitis (red eyes) is a particularly characteristic sign of Zika virus infection.",
+            "incorrect": {
+                "A": "This causes neurological disease and is not defined by a rash and conjunctivitis syndrome.",
+                "B": "The defining signs are jaundice and hemorrhage.",
+                "D": "Retro-orbital pain is more characteristic than conjunctivitis.",
+                "E": "Severe joint pain is the hallmark symptom, and conjunctivitis is much less common than in Zika."
+            }
+        }
+    },
+    {
+        "question": "A patient presents on Day 2 of a high fever with myalgia and headache. Dengue is suspected. According to the diagnostic timeline graphs in the document, which two tests would be most likely to yield a positive result at this early stage of infection?",
+        "choices": {
+            "A": "NS1 antigen and PCR (viral genome detection)",
+            "B": "Tourniquet test and IgM antibody test",
+            "C": "IgG antibody test and PCR",
+            "D": "IgM and IgG antibody tests",
+            "E": "Viral isolation and IgG antibody test"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "During the first few days of fever (the viremic phase), the amount of virus in the blood is high, making PCR (detecting viral RNA) very sensitive. Simultaneously, the NS1 antigen is secreted at high levels and is also detectable early in the infection.",
+            "incorrect": {
+                "B": "IgM antibodies take several days to become detectable, typically rising around day 5-6.",
+                "C": "IgG antibodies take several days to become detectable.",
+                "D": "Both IgM and IgG are unsuitable for diagnosis in the first 2-3 days.",
+                "E": "IgG is not an early marker of infection."
+            }
+        }
+    },
+    {
+        "question": "A pregnant woman is infected with an arbovirus that leads to the fetus developing microcephaly and other neurological abnormalities. This constellation of birth defects is known as 'Congenital Zika Syndrome'. What is the primary mechanism of transmission to the fetus?",
+        "choices": {
+            "A": "Transmission via breastfeeding.",
+            "B": "Sexual transmission from the father to the fetus.",
+            "C": "Transplacental transmission during pregnancy.",
+            "D": "Transmission from a mosquito bite to the fetus in utero.",
+            "E": "Intrapartum transmission during childbirth."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Congenital Zika Syndrome is caused by the Zika virus infecting the mother and then crossing the placenta to infect the developing fetus. The virus has a tropism for nerve cells and can be detected in the amniotic fluid and placenta, confirming this vertical, in-utero transmission route.",
+            "incorrect": {
+                "A": "While the virus can be found in breast milk, this is not the mechanism that causes severe neurodevelopmental damage during fetal development.",
+                "B": "Sexual transmission can infect the mother, who then transmits it to the fetus, but it is not a direct father-to-fetus route.",
+                "D": "A mosquito cannot bite a fetus inside the womb.",
+                "E": "Intrapartum transmission (during birth) would not cause the developmental abnormalities like microcephaly that occur during gestation."
+            }
+        }
+    }
+]
