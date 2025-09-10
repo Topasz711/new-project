@@ -1,1 +1,162 @@
-[]
+[
+    {
+        "question": "A 45-year-old male is diagnosed with a co-infection of HIV and chronic Hepatitis B. His blood work shows a high viral load for both viruses. Based on the information in the provided document, which of the following antiretroviral agents would be particularly beneficial as it is effective against both HIV and HBV?",
+        "choices": {
+            "A": "Efavirenz",
+            "B": "Atazanavir",
+            "C": "Tenofovir",
+            "D": "Maraviroc",
+            "E": "Zidovudine (AZT)"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Tenofovir (TDF) is a Nucleotide Reverse Transcriptase Inhibitor (NtRTI) that is effective against both HIV and HBV. It works by inhibiting both HIV reverse transcriptase and HBV DNA polymerase.",
+            "incorrect": {
+                "A": "This is a Non-Nucleoside Reverse Transcriptase Inhibitor (NNRTI) effective against HIV but has no indicated activity against HBV.",
+                "B": "This is a Protease Inhibitor (PI) used for HIV and is not used for HBV treatment.",
+                "D": "This is an entry inhibitor that blocks the CCR5 co-receptor, a mechanism specific to HIV entry, and has no effect on HBV.",
+                "E": "This is a Nucleoside Reverse Transcriptase Inhibitor (NRTI) for HIV but is not a recommended agent for treating HBV."
+            }
+        }
+    },
+    {
+        "question": "A physician is reviewing a patient's new multi-drug regimen for HIV. The list includes Lopinavir, Ritonavir, Tenofovir, and Emtricitabine. Based on the common naming conventions for antiretroviral drugs, Lopinavir and Ritonavir belong to which class?",
+        "choices": {
+            "A": "Nucleoside Reverse Transcriptase Inhibitors (NRTIs)",
+            "B": "Protease Inhibitors (PIs)",
+            "C": "Non-Nucleoside Reverse Transcriptase Inhibitors (NNRTIs)",
+            "D": "Integrase Inhibitors (INSTIs)",
+            "E": "Entry Inhibitors"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The suffix -navir is characteristic of Protease Inhibitors. Both Lopinavir (LPV) and Ritonavir (RTV) belong to this class.",
+            "incorrect": {
+                "A": "This class often uses the suffix -vudine (e.g., Lamivudine, Stavudine).",
+                "C": "This class often has -vir- in the middle of the name (e.g., Efavirenz, Nevirapine).",
+                "D": "This class uses the suffix -tegravir (e.g., Raltegravir, Elvitegravir).",
+                "E": "This class includes drugs like Enfuvirtide and Maraviroc, which do not follow a consistent naming suffix."
+            }
+        }
+    },
+    {
+        "question": "A patient with influenza A is prescribed Amantadine. The drug is known to target the M2 protein of the influenza virus. What is the direct consequence of inhibiting the M2 protein?",
+        "choices": {
+            "A": "It prevents the release of newly formed virions from the host cell.",
+            "B": "It blocks the synthesis of viral RNA from the DNA template.",
+            "C": "It inhibits the cleavage of viral polyproteins into functional proteins.",
+            "D": "It prevents the acidification of the endosome, which blocks viral uncoating.",
+            "E": "It blocks the attachment of the virus to sialic acid receptors on the host cell."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "Amantadine works by binding to the M2 protein, which acts as an ion channel. This inhibits the acidification process within the endosome, which is a necessary step for the virus to uncoat and release its RNA into the host cytosol.",
+            "incorrect": {
+                "A": "This is the mechanism of neuraminidase inhibitors like Oseltamivir and Zanamivir.",
+                "B": "Ribavirin is an example of a drug that inhibits RNA replication.",
+                "C": "This mechanism is characteristic of protease inhibitors used for HIV and HCV.",
+                "E": "Viral attachment to sialic acid is mediated by Hemagglutinin (HA), not the M2 protein."
+            }
+        }
+    },
+    {
+        "question": "Acyclovir is a highly effective treatment for Herpes Simplex Virus (HSV) infections and has minimal toxicity to uninfected host cells. What is the first crucial step that leads to the drug's selective activation within infected cells?",
+        "choices": {
+            "A": "Phosphorylation by host cell mitochondrial DNA polymerase.",
+            "B": "Conversion to a triphosphate form by host cell kinases.",
+            "C": "Monophosphorylation by viral thymidine kinase (TK).",
+            "D": "Direct inhibition of the viral DNA polymerase without activation.",
+            "E": "Binding to the gp120 protein on the viral envelope."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The selectivity of Acyclovir depends on its initial phosphorylation by a virus-specific enzyme, viral thymidine kinase (TK). This first step is much more efficient with the viral enzyme than with host enzymes, thus concentrating the active drug only in infected cells.",
+            "incorrect": {
+                "A": "Host mitochondrial DNA polymerase is not involved in the activation of Acyclovir.",
+                "B": "Host cell kinases perform the second and third phosphorylation steps after the initial selective step by viral TK.",
+                "D": "Acyclovir is a prodrug and must be converted to its triphosphate form to be active.",
+                "E": "gp120 is a protein on the HIV envelope, unrelated to Acyclovir's mechanism."
+            }
+        }
+    },
+    {
+        "question": "An infectious disease specialist prescribes a medication called Oseltamivir for a patient with confirmed influenza. Based on the drug's naming pattern, what is its primary mechanism of action?",
+        "choices": {
+            "A": "It inhibits the M2 ion channel, preventing viral uncoating.",
+            "B": "It acts as a chain terminator for viral RNA synthesis.",
+            "C": "It inhibits neuraminidase, preventing the release of new virions.",
+            "D": "It inhibits the HIV protease enzyme.",
+            "E": "It blocks the CCR5 receptor to prevent viral entry."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The suffix -amivir is characteristic of Neuraminidase Inhibitors. Oseltamivir functions by inhibiting the viral neuraminidase enzyme, which prevents the release of new virus particles from the infected cell.",
+            "incorrect": {
+                "A": "This is the mechanism for drugs with the -mantadine suffix, like Amantadine.",
+                "B": "This is a mechanism for nucleoside analogs like NRTIs or Acyclovir.",
+                "D": "This is for drugs with the -navir suffix (Protease Inhibitors).",
+                "E": "This is the mechanism of Maraviroc for HIV."
+            }
+        }
+    },
+    {
+        "question": "A patient with HIV is started on a regimen containing a drug with the name Raltegravir. This drug belongs to a class of antiretrovirals that targets a key step in the retroviral replication cycle. Which viral enzyme is specifically inhibited by this drug?",
+        "choices": {
+            "A": "Reverse Transcriptase",
+            "B": "Protease",
+            "C": "DNA Polymerase",
+            "D": "Integrase",
+            "E": "Neuraminidase"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "Raltegravir belongs to the class of Integrase inhibitors. Its mechanism is to inhibit the HIV integrase enzyme, which is responsible for incorporating the viral cDNA into the host cell's genome. The suffix -tegravir is characteristic of this class.",
+            "incorrect": {
+                "A": "This is the target of NRTIs and NNRTIs.",
+                "B": "This is the target of PIs (suffix -navir).",
+                "C": "This is the target of anti-herpetic drugs like Acyclovir and anti-HBV drugs.",
+                "E": "This is an enzyme on the influenza virus."
+            }
+        }
+    },
+    {
+        "question": "A 28-year-old pregnant woman is diagnosed with HIV during a routine prenatal screening. To reduce the risk of perinatal transmission, a specific antiretroviral drug is often a key component of the treatment regimen. Based on the document, which drug has a well-established role in preventing mother-to-child HIV infection?",
+        "choices": {
+            "A": "Efavirenz",
+            "B": "Zidovudine (ZDV/AZT)",
+            "C": "Tenofovir",
+            "D": "Ribavirin",
+            "E": "Maraviroc"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Zidovudine is explicitly noted for its clinical use in preventing prenatal HIV infection. It was the first drug approved for HIV treatment and is a cornerstone of regimens aimed at preventing vertical transmission.",
+            "incorrect": {
+                "A": "Efavirenz use in early pregnancy (<8 weeks) can cause neural tube defects.",
+                "C": "While used in modern ART, Zidovudine is the classic agent specifically highlighted for preventing perinatal transmission.",
+                "D": "This drug is used for HCV and RSV and is noted to have teratogenic effects, making it contraindicated in pregnancy.",
+                "E": "This is not a first-line agent for this indication."
+            }
+        }
+    },
+    {
+        "question": "The fundamental mechanism of Nucleoside Reverse Transcriptase Inhibitors (NRTIs) like Zidovudine and Lamivudine relies on their structural similarity to natural components of DNA. After being phosphorylated by cellular enzymes, how do they ultimately inhibit HIV replication?",
+        "choices": {
+            "A": "They bind non-competitively to a hydrophobic pocket on the reverse transcriptase enzyme, changing its shape.",
+            "B": "They are incorporated into the growing viral DNA strand and act as chain terminators.",
+            "C": "They prevent the viral RNA from uncoating within the host cell's cytoplasm.",
+            "D": "They inhibit the HIV integrase enzyme, preventing the viral DNA from being inserted into the host genome.",
+            "E": "They block the final maturation step by inhibiting the protease enzyme."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "After phosphorylation, NRTIs are incorporated into the growing viral DNA by reverse transcriptase. They act as competitive inhibitors and, once incorporated, they lack the 3'-hydroxyl group necessary for the next nucleotide to be added, thus terminating DNA chain elongation.",
+            "incorrect": {
+                "A": "This is the mechanism of NNRTIs, which are noncompetitive inhibitors of reverse transcriptase.",
+                "C": "This is the mechanism of anti-influenza drugs like Amantadine.",
+                "D": "This is the mechanism of integrase inhibitors (INSTIs) like Raltegravir.",
+                "E": "This is the mechanism of protease inhibitors (PIs)."
+            }
+        }
+    }
+]

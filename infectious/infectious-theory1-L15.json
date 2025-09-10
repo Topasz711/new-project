@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A 28-year-old male presents with vesicular lesions on his genitals. A clinician performs a scraping of the lesion base for microscopic examination. The report notes the presence of multinucleated giant cells. Which of the following laboratory findings does this microscopic observation represent?",
+        "choices": {
+            "A": "Koilocytes",
+            "B": "Tzanck cells",
+            "C": "Negri bodies",
+            "D": "Councilman bodies",
+            "E": "Owl's eye inclusions"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The finding of multinucleated giant cells in a scraping from a vesicular lesion is the classic description of a Tzanck cell. This is a hallmark of infections caused by viruses in the Herpesviridae family, such as Herpes Simplex Virus (HSV) and Varicella-Zoster Virus (VZV).",
+            "incorrect": {
+                "A": "These are characteristic of Human Papillomavirus (HPV) infection, not herpesviruses.",
+                "C": "These are eosinophilic, cytoplasmic inclusion bodies found in neurons of individuals infected with Rabies virus.",
+                "D": "These are apoptotic (dying) hepatocytes, typically seen in the liver during viral hepatitis or yellow fever.",
+                "E": "These are large, basophilic intranuclear inclusion bodies pathognomonic for Cytomegalovirus (CMV) infection."
+            }
+        }
+    },
+    {
+        "question": "An infant born to a known HIV-positive mother is tested at 2 months of age to determine their infection status. An ELISA test for anti-HIV antibodies comes back positive. What is the most appropriate next step and interpretation?",
+        "choices": {
+            "A": "Repeat the ELISA test in 6 months to see if the antibody titer increases.",
+            "B": "Confirm the diagnosis of HIV infection; the positive ELISA is definitive.",
+            "C": "Perform a Western blot to confirm the ELISA result.",
+            "D": "Start antiretroviral therapy immediately based on the positive ELISA, as early treatment is crucial.",
+            "E": "Perform a viral genome detection test, such as HIV RNA PCR."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The positive ELISA is likely due to passive transfer of maternal IgG antibodies, which can persist for up to 18 months, making antibody tests unreliable in early infancy. A direct method that detects the virus itself, such as HIV RNA or DNA PCR, is required to confirm an active infection.",
+            "incorrect": {
+                "A": "Repeating the ELISA is inappropriate as it would still detect maternal antibodies.",
+                "B": "Confirming the diagnosis based on ELISA alone is incorrect due to maternal antibodies.",
+                "C": "A Western blot also detects antibodies and would yield the same misleading positive result.",
+                "D": "Initiating lifelong therapy requires a definitive diagnosis via a molecular method, not a potentially false-positive antibody test."
+            }
+        }
+    },
+    {
+        "question": "A virologist inoculates a monolayer of host cells with a patient sample containing an unknown virus. After 48 hours, they observe that the cells in the monolayer have fused together, forming large, multinucleated cells called syncytia. This observation is an example of what phenomenon?",
+        "choices": {
+            "A": "Neutralization",
+            "B": "Hemadsorption",
+            "C": "Plaque formation",
+            "D": "Cytopathic effect (CPE)",
+            "E": "Viral transformation"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "Cytopathic effects (CPEs) are the visible morphological changes in a host cell culture caused by viral infection. The formation of syncytia (cell fusion into giant multinucleated cells) is a specific type of CPE.",
+            "incorrect": {
+                "A": "This is a serological test where antibodies prevent a virus from causing CPE; it is the opposite of observing CPE.",
+                "B": "This is a phenomenon where red blood cells adhere to virus-infected host cells, which is distinct from syncytia formation.",
+                "C": "A plaque is a clear zone of cell lysis or death in a cell monolayer, not cell fusion.",
+                "E": "This refers to changes induced by a virus that lead to immortalization and uncontrolled cell growth, often associated with oncogenic viruses."
+            }
+        }
+    },
+    {
+        "question": "In the laboratory diagnosis of viral infections, Polymerase Chain Reaction (PCR) is highly valued for its sensitivity and specificity. However, a significant concern with this technique is the risk of false-positive results. What is the most common cause of false-positive PCR results in a clinical virology lab?",
+        "choices": {
+            "A": "Insufficient amount of starting nucleic acid in the sample.",
+            "B": "The presence of inhibitors in the clinical specimen.",
+            "C": "The use of an incorrect annealing temperature.",
+            "D": "Poor primer design that targets a conserved region of the host genome.",
+            "E": "Cross-contamination with amplicon from previous PCR reactions."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "PCR's extreme amplification power is its greatest liability. Amplicons (the products of a previous PCR) are highly concentrated. Even a minuscule aerosolized droplet from a previous positive sample can contaminate a new reaction, be amplified, and lead to a false-positive result.",
+            "incorrect": {
+                "A": "An insufficient amount of starting nucleic acid is a common cause of a false-negative result.",
+                "B": "The presence of PCR inhibitors (e.g., heme from blood) is a common cause of a false-negative result.",
+                "C": "An incorrect annealing temperature typically leads to poor amplification (a false-negative) or non-specific amplification, not a clean false-positive.",
+                "D": "Primers for clinical diagnostic assays undergo rigorous validation to ensure they are highly specific to the viral target and do not bind to the human genome."
+            }
+        }
+    }
+]

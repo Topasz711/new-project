@@ -1,1 +1,137 @@
-[]
+[
+    {
+        "questionNumber": "1",
+        "type": "matching_case_study",
+        "headerImage": {
+            "url": "images/quizlablol.png",
+            "source": "Provided Image",
+            "caption": "Instructions: Choose the appropriate image (A-F) to answer the questions for the following case studies. (1A to 1F)"
+        },
+        "subQuestions": [
+            {
+                "id": "1A",
+                "case": "A 7-year-old boy presents with small, painless, umbilicated (dimpled center) dome-shaped papules on his trunk and arms that have been present for 2 months. A skin biopsy was performed.",
+                "parts": [
+                    { "id": "1A.1", "type": "short_answer", "prompt": "Which image shows the characteristic cellular finding in the tissue sample?", "answer": ["E"] },
+                    { "id": "1A.2", "type": "keywords", "prompt": "Describe the cellular morphology observed.", "answer": { "requiredKeywords": ["Molluscum", "Henderson-Patterson", "inclusion bodies"], "requiredCount": 1 }, "reasoning": "Answer: Molluscum bodies (also known as Henderson-Patterson bodies), which are large, eosinophilic cytoplasmic inclusion bodies.\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ" },
+                    { "id": "1A.3", "type": "short_answer", "prompt": "What is the most likely viral cause of this condition?", "answer": ["Molluscum contagiosum virus", "MCV"] }
+                ],
+                "reasoning": "The clinical presentation of painless, dome-shaped, umbilicated papules is classic for Molluscum contagiosum. Histological examination reveals the pathognomonic Molluscum bodies within the cytoplasm of infected epithelial cells."
+            },
+            {
+                "id": "1B",
+                "case": "A 50-year-old man is admitted with headache, seizures, difficulty swallowing, and severe hydrophobia (fear of water). His history is significant for a stray dog bite 3 weeks prior. The patient passed away 5 days later, and a sample of his brain tissue was sent for examination.",
+                "parts": [
+                    { "id": "1B.1", "type": "short_answer", "prompt": "Which image shows the characteristic cellular finding from the brain tissue?", "answer": ["D"] },
+                    { "id": "1B.2", "type": "keywords", "prompt": "Describe the cellular morphology observed.", "answer": { "requiredKeywords": ["Negri bodies", "inclusion bodies"], "requiredCount": 1 }, "reasoning": "Answer: Negri bodies, which are well-defined eosinophilic cytoplasmic inclusion bodies found within the cytoplasm of infected nerve cells.\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ" },
+                    { "id": "1B.3", "type": "short_answer", "prompt": "What is the most likely viral cause of this condition?", "answer": ["Rabies virus"] }
+                ],
+                "reasoning": "The patient's acute neurological symptoms, especially hydrophobia, following a dog bite are pathognomonic for rabies. The definitive post-mortem diagnosis is made by identifying Negri bodies in the brain tissue."
+            },
+            {
+                "id": "1C",
+                "case": "A 45-year-old woman undergoes a routine annual check-up. Her Pap smear reveals abnormal squamous epithelial cells. A cervical biopsy is subsequently performed for further histological examination.",
+                "parts": [
+                    { "id": "1C.1", "type": "short_answer", "prompt": "Which image shows the characteristic cellular finding in the tissue sample?", "answer": ["C"] },
+                    { "id": "1C.2", "type": "keywords", "prompt": "Describe the cellular morphology observed.", "answer": { "requiredKeywords": ["Koilocytes"], "requiredCount": 1 }, "reasoning": "Answer: Koilocytes. These are squamous epithelial cells characterized by an acentric, hyperchromatic (darkly stained), and irregular nucleus that is displaced by a large perinuclear vacuole or halo.\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ" },
+                    { "id": "1C.3", "type": "short_answer", "prompt": "What is the most likely viral cause of this condition?", "answer": ["HPV", "Human Papillomavirus"] }
+                ],
+                "reasoning": "Abnormal Pap smears are most commonly associated with HPV infection. The presence of koilocytes, or 'koilocytosis,' is considered a pathognomonic sign of HPV infection."
+            },
+            {
+                "id": "1D",
+                "case": "A 25-year-old man presents with a painful, unilateral vesicular rash that follows a dermatomal pattern on the right side of his torso. A Tzanck smear is prepared from cells scraped from the base of a vesicle.",
+                "parts": [
+                    { "id": "1D.1", "type": "short_answer", "prompt": "Which image from the Tzanck smear shows the characteristic cellular finding?", "answer": ["B"] },
+                    { "id": "1D.2", "type": "keywords", "prompt": "Describe the cellular morphology observed.", "answer": { "requiredKeywords": ["Multinucleated giant cells", "Tzanck cells"], "requiredCount": 1 }, "reasoning": "Answer: Multinucleated giant cells (also called Tzanck cells). These are large cells containing multiple nuclei, formed by the fusion of virus-infected epithelial cells.\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ" },
+                    { "id": "1D.3", "type": "short_answer", "prompt": "What is the most likely viral cause of this condition?", "answer": ["VZV", "Varicella-Zoster Virus"] }
+                ],
+                "reasoning": "A painful, unilateral vesicular rash along a dermatome is the classic presentation for herpes zoster (shingles), caused by the reactivation of VZV. The Tzanck smear is a rapid diagnostic method which reveals these characteristic multinucleated giant cells."
+            },
+            {
+                "id": "1E",
+                "case": "An immunocompromised patient develops a high fever, cough, and severe respiratory distress. A chest X-ray confirms pneumonia. A transbronchial biopsy of the alveolar tissue is performed for diagnosis.",
+                "parts": [
+                    { "id": "1E.1", "type": "short_answer", "prompt": "Which image shows the characteristic cellular finding in the tissue sample?", "answer": ["A"] },
+                    { "id": "1E.2", "type": "keywords", "prompt": "Describe the cellular morphology observed.", "answer": { "requiredKeywords": ["Syncytial giant cells", "multinucleated giant cells"], "requiredCount": 1 }, "reasoning": "Answer: Syncytial giant cells or multinucleated giant cells found within the lung tissue. This cytopathic effect results from the fusion of infected alveolar cells.\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ" },
+                    { "id": "1E.3", "type": "short_answer", "prompt": "What is the most likely viral cause of this condition?", "answer": ["Influenza virus", "Measles virus"] }
+                ],
+                "reasoning": "Severe viral pneumonia in an immunocompromised host can lead to extensive lung damage. Viruses like Measles can induce cell fusion (syncytia), leading to the formation of multinucleated giant cells in the lung tissue, a condition known as giant cell pneumonia."
+            },
+            {
+                "id": "1F",
+                "case": "A 70-year-old man with a history of chronic kidney disease, who is a recent kidney transplant recipient, is hospitalized for mucoid, bloody diarrhea. A colonoscopy reveals multiple large ulcers throughout his colon, and a biopsy is taken from the intestinal tissue.",
+                "parts": [
+                    { "id": "1F.1", "type": "short_answer", "prompt": "Which image shows the characteristic cellular finding in the tissue sample?", "answer": ["F"] },
+                    { "id": "1F.2", "type": "keywords", "prompt": "Describe the cellular morphology observed.", "answer": { "requiredKeywords": ["Owl's eye", "inclusion body"], "requiredCount": 1 }, "reasoning": "Answer: Enlarged cells containing a large, dense, basophilic intranuclear inclusion body that is surrounded by a clear halo. This creates a distinctive 'Owl's eye' appearance.\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ" },
+                    { "id": "1F.3", "type": "short_answer", "prompt": "What is the most likely viral cause of this condition?", "answer": ["Cytomegalovirus", "CMV"] }
+                ],
+                "reasoning": "CMV is a major cause of opportunistic infections in immunocompromised patients, such as organ transplant recipients. The histological hallmark of CMV infection is the 'owl's eye' inclusion body, which is diagnostic."
+            }
+        ]
+    },
+    {
+        "questionNumber": "2",
+        "headerImage": {
+            "url": "images/quizlabinfect1.jpg",
+            "source": "Provided Image"
+        },
+        "subQuestions": [
+            {
+                "id": "2A",
+                "type": "short_answer",
+                "prompt": "Which image (A, B, or C) represents a Hemagglutination assay?",
+                "answer": ["C"],
+                "reasoning": "Image C illustrates the principle of a Hemagglutination Assay (HA), showing virus particles binding to and clumping multiple red blood cells together into a lattice."
+            },
+            {
+                "id": "2B",
+                "type": "keywords",
+                "prompt": "Which part of the virus causes Hemagglutination?",
+                "answer": { "requiredKeywords": ["Hemagglutinin"], "requiredCount": 1 },
+                "reasoning": "Answer: Hemagglutinin (HA) protein.\nReasoning: This specific surface protein on viruses like influenza is named for its ability to bind to red blood cells and cause them to agglutinate.\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ"
+            }
+        ]
+    },
+    {
+        "questionNumber": "3",
+        "headerImage": {
+            "url": "images/quizlabinfect2.jpg",
+            "source": "Provided Image",
+            "caption": "Based on the results in the plate diagram, answer the following questions:"
+        },
+        "subQuestions": [
+            { "id": "3A", "type": "multi_short_answer", "prompt": "Patient 1:", "fields": ["What is the highest dilution?", "What is the Titer?"], "answer": ["1:20", "20"], "reasoning": "Positive 'shield' results are seen up to the 1:20 dilution. The well at 1:40 is negative. Therefore, the titer is 20." },
+            { "id": "3B", "type": "multi_short_answer", "prompt": "Patient 2:", "fields": ["What is the highest dilution?", "What is the Titer?"], "answer": ["1:160", "160"], "reasoning": "Positive 'shield' results are seen up to the 1:160 dilution. The well at 1:320 is negative. Therefore, the titer is 160." },
+            { "id": "3C", "type": "multi_short_answer", "prompt": "Patient 3:", "fields": ["What is the highest dilution?", "What is the Titer?"], "answer": ["Negative", "Negative"], "reasoning": "All wells, including the undiluted sample, show a negative 'button' result, indicating no detectable virus." },
+            { "id": "3D", "type": "short_answer", "prompt": "Which patient has the highest concentration of Influenza virus antigen?", "answer": ["2", "Patient 2"], "reasoning": "Patient 2 has the highest titer (160), indicating the highest initial viral concentration." },
+            { "id": "3E", "type": "short_answer", "prompt": "Which patient(s) is/are infected with Influenza virus?", "answer": ["1 and 2", "Patient 1 and Patient 2"], "reasoning": "Both Patient 1 and Patient 2 had positive HA test results (a detectable titer), so they are both considered infected." },
+            { "id": "3F", "type": "keywords", "prompt": "Which part of the virus causes the red blood cells to clump (Hemagglutination)?", "answer": { "requiredKeywords": ["Hemagglutinin", "HA"], "requiredCount": 1 }, "reasoning": "The clumping of red blood cells is caused by a specific surface protein on the influenza virus called Hemagglutinin (HA)." }
+        ]
+    },
+    {
+        "questionNumber": "4",
+        "headerImage": {
+            "url": "images/quizlabinfect3.jpg",
+            "source": "Provided Image",
+            "caption": "*The volume of the virus inoculum used in each well is 100 µL."
+        },
+        "subQuestions": [
+            {
+                "id": "4A",
+                "type": "multi_short_answer",
+                "prompt": "Count the plaques in each well from the diagram.",
+                "fields": ["PFU/well of 1:100", "PFU/well of 1:1,000", "PFU/well of 1:10,000", "PFU/well of 1:100,000", "PFU/well of 1:1,000,000", "PFU/well of Negative Control"],
+                "answer": ["Uncountable", "25", "4", "0", "0", "0"],
+                "acceptAny": [0]
+            },
+            {
+                "id": "4B",
+                "type": "short_answer",
+                "prompt": "Virus Titer = ? (PFU/mL)",
+                "answer": ["325000", "3.25*10^5", "3.25x10^5"]
+            }
+        ],
+        "reasoning": "The 10⁻³ well (25 plaques) and 10⁻⁴ well (4 or 5 plaques) are countable. Using the formula: Titer(PFU/mL) = [Average PFU / Volume (mL)] x Dilution Factor. A more robust calculation uses a weighted average: [ ( (25×10³) + (4×10⁴) ) / 2 ] × [ 1,000 / 100 µL ] = 3.25×10⁵ PFU/mL"
+    }
+]

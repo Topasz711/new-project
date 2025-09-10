@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A 45-year-old male with a known history of HIV infection, who has been non-compliant with his antiretroviral therapy, presents to the clinic. His latest lab work reveals a CD4+ T-cell count of 75 cells/mm³. He complains of progressive vision loss and 'floaters' in his right eye. Fundoscopic examination reveals yellowish-white retinal lesions. Based on this clinical scenario and his CD4 count, what is the most likely opportunistic infection?",
+        "choices": {
+            "A": "Toxoplasmosis of the brain",
+            "B": "Disseminated Cytomegalovirus (CMV)",
+            "C": "Pneumocystis jirovecii pneumonia (PCP)",
+            "D": "Oropharyngeal candidiasis (Thrush)",
+            "E": "Disseminated Mycobacterium avium complex (MAC)"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "This is a classic example of CMV retinitis, an AIDS-defining illness. The patient's very low CD4+ count (<100 cells/mm³) and symptoms of progressive vision loss with retinal lesions are pathognomonic for CMV retinitis.",
+            "incorrect": {
+                "A": "Toxoplasmosis characteristically affects the brain, causing neurological symptoms, not primary retinitis.",
+                "C": "PCP primarily affects the lungs, causing respiratory symptoms, and the highest risk is at a CD4+ count below 200 cells/mm³.",
+                "D": "Thrush is common at higher CD4+ counts (200-500 cells/mm³) and affects the mouth and throat.",
+                "E": "MAC infection typically presents with systemic symptoms like high fevers, night sweats, and weight loss at very low CD4+ counts (<50 cells/mm³)."
+            }
+        }
+    },
+    {
+        "question": "A 10-year-old child presents with multiple small, discrete, skin-colored papules on his trunk and arms. Upon closer inspection, the lesions are smooth, pearly, and have a characteristic central dimple or umbilication. The condition is generally benign and self-limiting. Which of the following viruses is the causative agent?",
+        "choices": {
+            "A": "Varicella-Zoster Virus (VZV)",
+            "B": "Human Papillomavirus (HPV)",
+            "C": "Molluscum Contagiosum Virus (MCV)",
+            "D": "Cytomegalovirus (CMV)",
+            "E": "Herpes Simplex Virus (HSV)"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The description of 'smooth, pearly' papules with an 'umbilicated center' is the classic, textbook presentation of Molluscum contagiosum, which is caused by the Molluscum Contagiosum Virus (MCV), a type of Poxvirus.",
+            "incorrect": {
+                "A": "VZV causes chickenpox, which presents as vesicles ('dewdrop on a rose petal'), not umbilicated papules.",
+                "B": "HPV causes warts (verrucae), which are typically rough and hyperkeratotic, not smooth or umbilicated.",
+                "D": "CMV infection in an immunocompetent child is usually asymptomatic and does not cause these types of skin lesions.",
+                "E": "HSV causes clusters of painful vesicles that evolve into ulcers, which is clinically distinct from molluscum."
+            }
+        }
+    },
+    {
+        "question": "During the laboratory diagnosis of HIV, the detection of the p24 antigen is particularly important. Based on your understanding of the viral structure and the course of infection, what is the main clinical significance of testing for the p24 antigen?",
+        "choices": {
+            "A": "It allows for the detection of HIV infection before antibodies are produced.",
+            "B": "It is the primary antigen used to confirm long-term immunity and viral clearance.",
+            "C": "It helps in differentiating between HIV-1 and HIV-2 infections.",
+            "D": "Its presence is the sole requirement for diagnosing AIDS.",
+            "E": "It is the most accurate measure for monitoring the effectiveness of antiretroviral therapy."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The p24 antigen is a core viral protein that becomes detectable in the blood approximately 10-20 days after infection, before the body has mounted a detectable antibody response (seroconversion). This allows for earlier diagnosis during the 'window period' than antibody-only tests.",
+            "incorrect": {
+                "B": "There is no immunity to or clearance of HIV. Antibodies against p24 are markers of infection, not protection.",
+                "C": "Specific immunoassays or nucleic acid tests are required to reliably differentiate between HIV-1 and HIV-2.",
+                "D": "A diagnosis of AIDS is based on immunological criteria (CD4+ count < 200) or the presence of an AIDS-defining clinical condition, not p24 antigen.",
+                "E": "The most accurate method for monitoring treatment effectiveness is measuring the plasma HIV RNA level (viral load)."
+            }
+        }
+    },
+    {
+        "question": "A 25-year-old sexually active male presents with a cluster of painful, small vesicles on his penis. He notes that this is the first time he has had such a lesion. The vesicles rupture, forming shallow ulcers. He has a mild fever and inguinal lymphadenopathy. Which of the following is the most appropriate next step for diagnosis?",
+        "choices": {
+            "A": "Order an HPV DNA test from the lesion.",
+            "B": "Perform a Pap smear.",
+            "C": "Biopsy the lesion to look for 'owl's eye' inclusion bodies.",
+            "D": "Scrape the lesion and look for umbilicated centers.",
+            "E": "Perform a Tzanck smear or a PCR from the lesion."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The patient's symptoms are a classic presentation of a primary genital herpes simplex virus (HSV) infection. Recommended laboratory diagnostic methods include PCR (most sensitive and specific) and the Tzanck smear (rapid but less sensitive), which can show multinucleated giant cells characteristic of herpesviruses.",
+            "incorrect": {
+                "A": "An HPV DNA test is used to detect Human Papillomavirus, which causes genital warts, not painful vesicular ulcers.",
+                "B": "A Pap smear is a screening test for cervical cancer in women and is irrelevant for a penile lesion in a male.",
+                "C": "The 'owl's eye' inclusion body is the pathognomonic finding for Cytomegalovirus (CMV), not HSV.",
+                "D": "Umbilicated centers are a clinical feature used to identify Molluscum contagiosum papules, not vesicles or ulcers."
+            }
+        }
+    }
+]

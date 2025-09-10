@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A public health report describes two distinct influenza situations. Situation A involves the emergence of a novel H5N1 virus in a human population, created by the reassortment of avian and human viral genes in a pig. Situation B describes the typical annual flu season, where the predominant H3N2 strain has minor mutations that slightly reduce the effectiveness of last year's vaccine. Which statement best describes these events?",
+        "choices": {
+            "A": "Both situations describe antigenic shift, but on different scales.",
+            "B": "Situation A is antigenic shift, and Situation B is antigenic drift.",
+            "C": "Situation A is antigenic drift, and Situation B is antigenic shift.",
+            "D": "Situation A is a zoonotic event, while Situation B is a re-emerging disease.",
+            "E": "Both situations describe antigenic drift, as they both involve genetic mutations."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Antigenic shift (Situation A) is a major, abrupt genetic change from the reassortment of entire gene segments, creating a novel virus subtype. Antigenic drift (Situation B) is the slow, gradual accumulation of minor point mutations during viral replication, leading to slight alterations.",
+            "incorrect": {
+                "A": "The mechanisms are fundamentally different (radical reassortment vs. small point mutations), not the same process at different scales.",
+                "C": "This option reverses the definitions.",
+                "D": "While Situation A is a zoonotic event, Situation B (seasonal flu) is an example of an endemic virus evolving, not a re-emerging disease.",
+                "E": "This oversimplifies the concept. 'Antigenic shift' specifically refers to the large-scale reassortment of genome segments, which is distinct from the point mutations of antigenic drift."
+            }
+        }
+    },
+    {
+        "question": "Which of the following is a key characteristic that distinguishes a 're-emerging' infectious disease from an 'emerging' infectious disease?",
+        "choices": {
+            "A": "Re-emerging diseases are those that have developed resistance to all available treatments.",
+            "B": "Re-emerging diseases are newly identified pathogens that have never been seen in human populations before.",
+            "C": "Re-emerging diseases were known and had previously declined, but are now increasing in incidence or range.",
+            "D": "Re-emerging diseases only occur in new geographical regions where they have never been present.",
+            "E": "Re-emerging diseases are exclusively caused by bacteria, while emerging diseases are caused by viruses."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This is the precise definition of a re-emerging infectious disease (REID). It describes a pathogen that was previously a significant health problem, was brought under control, and is now making a comeback (e.g., measles in areas with low vaccination).",
+            "incorrect": {
+                "A": "While drug resistance can be a factor causing a disease to re-emerge, it is not the definition of re-emergence itself.",
+                "B": "This is the definition of an emerging infectious disease (EID), which involves newly identified pathogens.",
+                "D": "A known pathogen appearing in a new geographical region is a type of emerging disease problem, not a re-emerging one.",
+                "E": "Both emerging and re-emerging diseases can be caused by any type of pathogen (viruses, bacteria, fungi, etc.)."
+            }
+        }
+    },
+    {
+        "question": "Ebola virus and Nipah virus are both zoonotic RNA viruses that cause severe disease with high fatality rates. However, they belong to different viral families and present with distinct primary clinical syndromes. Which of the following correctly pairs the virus with its family and hallmark clinical feature?",
+        "choices": {
+            "A": "Ebola virus: Orthomyxoviridae; primary feature is severe pneumonia.",
+            "B": "Nipah virus: Coronaviridae; primary feature is respiratory distress.",
+            "C": "Ebola virus: Paramyxoviridae; primary feature is encephalitis.",
+            "D": "Nipah virus: Filoviridae; primary feature is hemorrhagic fever.",
+            "E": "Ebola virus: Filoviridae; primary feature is hemorrhagic fever."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "Ebola virus is a member of the Filoviridae family, named for its long, thread-like shape. Its primary clinical manifestation is a severe viral hemorrhagic fever with high fatality rates.",
+            "incorrect": {
+                "A": "Orthomyxoviridae is the family for influenza viruses, and Ebola's primary feature is hemorrhagic fever.",
+                "B": "Nipah virus belongs to the Paramyxoviridae family, and its hallmark severe feature is encephalitis.",
+                "C": "This incorrectly assigns Nipah virus's family and primary symptom to the Ebola virus.",
+                "D": "This incorrectly assigns Ebola virus's family and primary symptom to the Nipah virus."
+            }
+        }
+    },
+    {
+        "question": "A 62-year-old man presents to the emergency department with a 5-day history of high fever, cough, and progressive shortness of breath, requiring mechanical ventilation. His medical history is significant for diabetes. He recently returned from a trip to Saudi Arabia, where he visited a relative's farm and had direct contact with camels. Which of the following emerging viruses is the most likely cause of his severe pneumonia?",
+        "choices": {
+            "A": "Avian Influenza (H7N9)",
+            "B": "Ebola virus",
+            "C": "SARS-CoV",
+            "D": "MERS-CoV",
+            "E": "Nipah virus"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The clinical vignette provides classic epidemiological clues pointing to Middle East Respiratory Syndrome (MERS): geography (Saudi Arabia), animal exposure (direct contact with dromedary camels), and clinical picture (severe pneumonia in a patient with diabetes).",
+            "incorrect": {
+                "A": "Avian Influenza is linked to contact with infected poultry, and outbreaks have been centered in East Asia.",
+                "B": "Ebola's primary geography is Central and West Africa, and it causes hemorrhagic fever, not pneumonia as the main illness.",
+                "C": "The original SARS-CoV outbreak (2002-2003) was linked to civet cats in China and has not been circulating since 2004.",
+                "E": "Nipah virus is found in Southeast/South Asia, transmitted by fruit bats or pigs, and is characterized primarily by severe encephalitis."
+            }
+        }
+    }
+]
