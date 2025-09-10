@@ -123,15 +123,16 @@
                 "prompt": "Count the plaques in each well from the diagram.",
                 "fields": ["PFU/well of 1:100", "PFU/well of 1:1,000", "PFU/well of 1:10,000", "PFU/well of 1:100,000", "PFU/well of 1:1,000,000", "PFU/well of Negative Control"],
                 "answer": ["Uncountable", "25", "4", "0", "0", "0"],
-                "acceptAny": [0]
+                "acceptAny": [0],
+                "reasoning": "Correct counts are: Uncountable (10⁻²), 25 (10⁻³), 4 (10⁻⁴), 0 (10⁻⁵), 0 (10⁻⁶), 0 (Neg.). The 10⁻² dilution is confluent (too numerous to count)."
             },
             {
                 "id": "4B",
                 "type": "short_answer",
                 "prompt": "Virus Titer = ? (PFU/mL)",
-                "answer": ["325000", "3.25*10^5", "3.25x10^5"]
+                "answer": ["325000", "3.25*10^5", "3.25x10^5"],
+                "reasoning": "The 10⁻³ well (25 plaques) and 10⁻⁴ well (4 plaques) are countable. Using the formula: Titer(PFU/mL) = [Average PFU / Volume (mL)] x Dilution Factor. A more robust calculation uses a weighted average: [ ( (25 × 10³) + (4 × 10⁴) ) / 2 ] × [ 1,000 / 100 µL ] = 3.25×10⁵ PFU/mL"
             }
-        ],
-        "reasoning": "The 10⁻³ well (25 plaques) and 10⁻⁴ well (4 or 5 plaques) are countable. Using the formula: Titer(PFU/mL) = [Average PFU / Volume (mL)] x Dilution Factor. A more robust calculation uses a weighted average: [ ( (25×10³) + (4×10⁴) ) / 2 ] × [ 1,000 / 100 µL ] = 3.25×10⁵ PFU/mL"
+        ]
     }
 ]
