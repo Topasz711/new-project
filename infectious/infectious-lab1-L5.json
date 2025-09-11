@@ -1,1 +1,254 @@
-[]
+[
+    {
+        "questionNumber": "1",
+        "note": "<b>Diagnosis of Viral Infections Using Molecular Techniques</b><br>Fill in the appropriate molecular test for the diagnosis of the following viral infections. (PCR vs RT-PCR)",
+        "subQuestions": [
+            {
+                "id": "1A",
+                "type": "short_answer",
+                "prompt": "Influenza caused by Influenza virus",
+                "answer": ["RT-PCR"],
+                "reasoning": "The virus has an RNA genome."
+            },
+            {
+                "id": "1B",
+                "type": "short_answer",
+                "prompt": "Measles caused by Measles virus",
+                "answer": ["RT-PCR"],
+                "reasoning": "The virus has an RNA genome."
+            },
+            {
+                "id": "1C",
+                "type": "short_answer",
+                "prompt": "Rubella (German Measles) caused by Rubella virus",
+                "answer": ["RT-PCR"],
+                "reasoning": "The virus has an RNA genome."
+            },
+            {
+                "id": "1D",
+                "type": "short_answer",
+                "prompt": "Mumps caused by Mumps virus",
+                "answer": ["RT-PCR"],
+                "reasoning": "The virus has an RNA genome."
+            },
+            {
+                "id": "1E",
+                "type": "short_answer",
+                "prompt": "Rabies caused by Rabies virus",
+                "answer": ["RT-PCR"],
+                "reasoning": "The virus has an RNA genome."
+            },
+            {
+                "id": "1F",
+                "type": "short_answer",
+                "prompt": "COVID-19 caused by SARS-CoV-2",
+                "answer": ["RT-PCR"],
+                "reasoning": "The virus has an RNA genome."
+            },
+            {
+                "id": "1G",
+                "type": "short_answer",
+                "prompt": "SARS caused by SARS-CoV",
+                "answer": ["RT-PCR"],
+                "reasoning": "The virus has an RNA genome."
+            },
+            {
+                "id": "1H",
+                "type": "short_answer",
+                "prompt": "MERS caused by MERS-CoV",
+                "answer": ["RT-PCR"],
+                "reasoning": "The virus has an RNA genome."
+            },
+            {
+                "id": "1I",
+                "type": "short_answer",
+                "prompt": "Dengue Fever caused by Dengue virus",
+                "answer": ["RT-PCR"],
+                "reasoning": "The virus has an RNA genome."
+            },
+            {
+                "id": "1J",
+                "type": "short_answer",
+                "prompt": "Zika Fever caused by Zika virus",
+                "answer": ["RT-PCR"],
+                "reasoning": "The virus has an RNA genome."
+            },
+            {
+                "id": "1K",
+                "type": "short_answer",
+                "prompt": "Japanese Encephalitis caused by Japanese encephalitis virus",
+                "answer": ["RT-PCR"],
+                "reasoning": "The virus has an RNA genome."
+            },
+            {
+                "id": "1L",
+                "type": "short_answer",
+                "prompt": "Chikungunya Fever caused by Chikungunya virus",
+                "answer": ["RT-PCR"],
+                "reasoning": "The virus has an RNA genome."
+            },
+            {
+                "id": "1M",
+                "type": "short_answer",
+                "prompt": "Herpes caused by Herpes simplex virus (HSV)",
+                "answer": ["PCR"],
+                "reasoning": "The virus has a DNA genome."
+            },
+            {
+                "id": "1N",
+                "type": "short_answer",
+                "prompt": "Chickenpox / Shingles caused by Varicella-zoster virus (VZV)",
+                "answer": ["PCR"],
+                "reasoning": "The virus has a DNA genome."
+            },
+            {
+                "id": "1O",
+                "type": "short_answer",
+                "prompt": "Cytomegalovirus Infection caused by Cytomegalovirus (CMV)",
+                "answer": ["PCR"],
+                "reasoning": "The virus has a DNA genome."
+            },
+            {
+                "id": "1P",
+                "type": "short_answer",
+                "prompt": "Cervical Cancer / Warts caused by Human papillomavirus (HPV)",
+                "answer": ["PCR"],
+                "reasoning": "The virus has a DNA genome."
+            },
+            {
+                "id": "1Q",
+                "type": "short_answer",
+                "prompt": "Hepatitis B caused by Hepatitis B virus (HBV)",
+                "answer": ["PCR"],
+                "reasoning": "The virus has a DNA genome."
+            },
+            {
+                "id": "1R",
+                "type": "short_answer",
+                "prompt": "Hepatitis C caused by Hepatitis C virus (HCV)",
+                "answer": ["RT-PCR"],
+                "reasoning": "The virus has an RNA genome."
+            },
+            {
+                "id": "1S",
+                "type": "short_answer",
+                "prompt": "AIDS caused by HIV",
+                "answer": ["RT-PCR"],
+                "reasoning": "The virus has an RNA genome."
+            },
+            {
+                "id": "1T",
+                "type": "short_answer",
+                "prompt": "Hand, Foot, & Mouth Disease caused by Enterovirus",
+                "answer": ["RT-PCR"],
+                "reasoning": "The virus has an RNA genome."
+            },
+            {
+                "id": "1U",
+                "type": "short_answer",
+                "prompt": "Erythema Infectiosum caused by Parvovirus B19",
+                "answer": ["PCR"],
+                "reasoning": "The virus has a DNA genome."
+            },
+            {
+                "id": "1V",
+                "type": "short_answer",
+                "prompt": "Monkeypox caused by Monkeypox virus",
+                "answer": ["PCR"],
+                "reasoning": "The virus has a DNA genome."
+            }
+        ]
+    },
+    {
+        "questionNumber": "2",
+        "headerImage": {
+            "url": "images/quizlabinfect4.jpg",
+            "source": "Provided Image",
+            "caption": "Interpret the PCR results for the detection of Herpes Simplex Virus (HSV) DNA from 5 patient samples, analyzed by agarose gel electrophoresis. (The expected product size is 250 bp)."
+        },
+        "subQuestions": [
+            {
+                "id": "2A_1",
+                "type": "short_answer",
+                "prompt": "Sample 1",
+                "answer": ["Positive"],
+                "reasoning": "A DNA band is present at the same position as the positive control (250 bp)."
+            },
+            {
+                "id": "2A_2",
+                "type": "short_answer",
+                "prompt": "Sample 2",
+                "answer": ["Negative"],
+                "reasoning": "No DNA band is present."
+            },
+            {
+                "id": "2A_3",
+                "type": "short_answer",
+                "prompt": "Sample 3",
+                "answer": ["Positive"],
+                "reasoning": "A DNA band is present at the same position as the positive control (250 bp)."
+            },
+            {
+                "id": "2A_4",
+                "type": "short_answer",
+                "prompt": "Sample 4",
+                "answer": ["Negative"],
+                "reasoning": "No DNA band is present."
+            },
+            {
+                "id": "2A_5",
+                "type": "short_answer",
+                "prompt": "Sample 5",
+                "answer": ["Positive"],
+                "reasoning": "A DNA band is present at the same position as the positive control (250 bp)."
+            },
+            {
+                "id": "2B",
+                "type": "multi_short_answer",
+                "prompt": "Interpret the Real-time RT-PCR results for the quantification of SARS-CoV-2 genetic material from 5 patient samples (Ct cut-off = 30).",
+                "imageUrl": "images/quizlabinfect5.jpg",
+                "imageSource": "Provided Image",
+                "fields": ["Positive control Ct value", "Negative control Ct value", "Sample 1 Ct value", "Sample 1 Interpretation", "Sample 2 Ct value", "Sample 2 Interpretation", "Highest viral load sample"],
+                "answer": ["10", ">30", "5", "Positive", "15", "Positive", "1"],
+                "reasoning": "A low Ct value indicates a high initial viral load. Since Sample 1 has the lowest Ct value (5), it has the highest viral load."
+            }
+        ]
+    },
+    {
+        "questionNumber": "3",
+        "headerImage": {
+            "url": "images/quizlabinfect6.jpg",
+            "source": "Provided Image",
+            "caption": "Case Study: Monitoring HCV Treatment Efficacy. A 35-year-old female patient with chronic HCV was treated with DAAs for 12 weeks. Her viral load was measured before and 6 months after treatment."
+        },
+        "subQuestions": [
+            {
+                "id": "3A",
+                "type": "multi_short_answer",
+                "prompt": "Ct and HCV viral load BEFORE treatment",
+                "fields": ["Ct", "HCV viral load (IU/mL)"],
+                "answer": ["25.26", "4912000|4.912x10^6"],
+                "reasoning": "The values are read directly from the 'Before' row in the provided table."
+            },
+            {
+                "id": "3B",
+                "type": "multi_short_answer",
+                "prompt": "Ct and HCV viral load AFTER treatment",
+                "fields": ["Ct", "HCV viral load (IU/mL)"],
+                "answer": [">40", "<15"],
+                "reasoning": "After treatment, the Cq is undetectable ('-'), meaning the viral load is below the limit of detection (<15 IU/mL)."
+            },
+            {
+                "id": "3C",
+                "type": "keywords",
+                "prompt": "Discuss the test results (treatment efficacy):",
+                "fields": 1,
+                "answer": {
+                    "requiredKeywords": ["successful", "effective", "good response", "cured", "หาย", "สำเร็จ", "ได้ผลดี"],
+                    "requiredCount": 1
+                },
+                "reasoning": "Answer: The results indicate that the treatment with Direct Acting Antivirals (DAAs) was highly successful. Before treatment, the patient had a high and quantifiable viral load. After therapy, the test could no longer detect the virus. This demonstrates an excellent virologic response to the treatment, which is the primary goal for achieving a cure from Hepatitis C.\n\nTopaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ"
+            }
+        ]
+    }
+]

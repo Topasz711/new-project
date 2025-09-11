@@ -515,7 +515,7 @@
                                 input.disabled = false;
                                 input.classList.remove('border-green-500', 'dark:border-green-400', 'border-red-500', 'dark:border-red-400');
                             });
-                            card.querySelectorAll('.reasoning').forEach(r => r.classList.add('hidden', 'opacity-0', 'max-h-0'));
+                            card.querySelectorAll('.reasoning, .reasoning-main').forEach(r => r.classList.add('hidden', 'opacity-0', 'max-h-0'));
                             const btn = card.querySelector('.check-lab-btn');
                             if(btn) {
                                 btn.disabled = false;
@@ -699,7 +699,15 @@
                         let foundKeywords = new Set();
                         inputs.forEach(input => {
                             const userAnswer = input.value.trim().toLowerCase();
-                            if (userAnswer) { part.answer.requiredKeywords.forEach(kw => { if (userAnswer.includes(kw.toLowerCase())) foundKeywords.add(kw); }); }
+                            if (userAnswer) { 
+                                const keywords = part.answer.requiredKeywords || [];
+                                keywords.forEach(kw => { 
+                                    const kwParts = kw.toLowerCase().split('|'); // Handle OR conditions
+                                    if (kwParts.some(part => userAnswer.includes(part))) {
+                                        foundKeywords.add(kw);
+                                    }
+                                }); 
+                            }
                         });
                         if (foundKeywords.size >= part.answer.requiredCount) isCorrect = true;
                     }
