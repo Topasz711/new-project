@@ -1,1 +1,134 @@
-[]
+[
+    {
+        "questionNumber": "1",
+        "note": "<b>Case Study:</b> A 22-year-old university student presents to the health clinic with a 2-day history of a sore throat, low-grade fever, myalgia, and a runny nose. The patient reports being in close contact with their roommate, who tested positive for COVID-19 three days ago. On examination, the patient's temperature is 38.1°C, and their pharynx is erythematous. The physician decides to collect a specimen to confirm the diagnosis.",
+        "subQuestions": [
+            {
+                "id": "1A",
+                "type": "keywords",
+                "prompt": "What are the appropriate types of specimens for this diagnosis?",
+                "fields": 1,
+                "answer": {
+                    "requiredKeywords": ["swab", "nasopharyngeal", "saliva", "oral"],
+                    "requiredCount": 1
+                },
+                "reasoning": "<b>Answer:</b> Throat swab, nasal swab, nasopharyngeal swab/aspirate, saliva, oral swab<br><b>Rationale:</b> For respiratory viral infections like COVID-19, the virus primarily replicates in the upper respiratory tract. Therefore, the most suitable specimens are those collected from the nasopharynx and oropharynx (throat and nasal passages), as these sites will have the highest viral load during the acute phase of infection.<br><i>Topaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ</i>"
+            },
+            {
+                "id": "1B",
+                "type": "short_answer",
+                "prompt": "A COVID-19 rapid antigen test (RAT) is performed on the collected sample. If the result is negative, which line(s) should appear on the test strip: C or T or both?",
+                "answer": ["C"],
+                "reasoning": "<b>Rationale:</b> The control line (C) serves as an internal quality control to confirm the test is working correctly; it must appear for any result to be valid. The test line (T) only appears if it detects the viral antigen. In a negative result, no viral antigen is detected, so the T line will not appear, leaving only the C line visible."
+            },
+            {
+                "id": "1C",
+                "type": "keywords",
+                "prompt": "Assume the rapid test was positive. To contribute to viral surveillance and genomic sequencing efforts, the physician collects another sample. What is the specific transport medium required for this purpose, and what is the appropriate temperature for transporting the specimen to the laboratory?",
+                 "fields": 1,
+                "answer": {
+                    "requiredKeywords": ["Viral Transport Medium|VTM", "4"],
+                    "requiredCount": 2
+                },
+                "reasoning": "<b>Answer:</b> The specimen should be placed in Viral Transport Medium (VTM) and transported to the lab at 4°C. It should not be frozen.<br><b>Rationale:</b> For viral genomic sequencing, it is crucial to preserve the integrity of the virus. Viral Transport Medium (VTM) is specifically designed to maintain viral viability. Transporting the sample at 4°C (refrigerated) slows down viral degradation without the damaging effects of freezing.<br><i>Topaz's Note: ถ้าตอบใกล้เคียงก็ tick ว่าตัวเองถูกได้เลยนะ ไม่รู้จะ code ยังไงดีในมันครอบคลุมคำตอบ</i>"
+            }
+        ]
+    },
+    {
+        "questionNumber": "2",
+        "headerImage": {
+            "url": "images/quizlabinfect7.jpg",
+            "source": "Provided Image",
+            "caption": "Case Study: An 18-year-old tourist visiting Bangkok develops a sudden high fever, severe headache, and retro-orbital pain. On day 6 of the fever, he visits the hospital. A rapid diagnostic test is ordered."
+        },
+        "note": "Based on the clinical presentation, fill in the table below and provide a clinical interpretation of the likely results.",
+        "subQuestions": [
+            {
+                "id": "2A",
+                "type": "short_answer",
+                "prompt": "NS1 antigen",
+                "answer": ["Positive"]
+            },
+            {
+                "id": "2B",
+                "type": "short_answer",
+                "prompt": "IgM antibody",
+                "answer": ["Negative|Weak Positive"]
+            },
+            {
+                "id": "2C",
+                "type": "short_answer",
+                "prompt": "IgG antibody",
+                "answer": ["Positive"]
+            },
+            {
+                "id": "2D",
+                "type": "keywords",
+                "prompt": "Interpretation",
+                "fields": 1,
+                "answer": {
+                    "requiredKeywords": ["secondary"],
+                    "requiredCount": 1
+                },
+                 "reasoning": "<b>Rationale:</b><br><b>NS1 Antigen (Positive):</b> The NS1 antigen is a viral protein present during the acute phase of both primary and secondary dengue infections.<br><b>IgM Antibody (Negative/Weak Positive):</b> During a secondary infection, the IgM antibody response is often suppressed and develops more slowly.<br><b>IgG Antibody (Positive):</b> The key marker for a secondary infection is the rapid and strong rise of IgG antibodies from a past infection. A strong positive IgG result early in the illness is the hallmark of a secondary dengue infection."
+            }
+        ]
+    },
+    {
+        "questionNumber": "3",
+        "headerImage": {
+            "url": "images/quizlabinfect8.jpg",
+            "source": "Provided Image"
+        },
+        "note": "<b>Scenario:</b> A volunteer's serum is tested for IgG antibodies against SARS-CoV-2 spike protein using ELISA before and after vaccination. Based on the optical density (OD) values, determine the results.",
+        "subQuestions": [
+            {
+                "id": "3A",
+                "type": "short_answer",
+                "prompt": "What is the result for the Pre-vaccination sample?",
+                "answer": ["Negative"]
+            },
+            {
+                "id": "3B",
+                "type": "short_answer",
+                "prompt": "What is the result for the Post-vaccination sample?",
+                "answer": ["Positive"],
+                "reasoning": "<b>Rationale:</b> The determination is based on comparing the average Optical Density (OD) value to the cut-off value of 0.4.<br><b>Pre-vaccination:</b> Average OD is 0.260, which is < 0.4, so the result is Negative.<br><b>Post-vaccination:</b> Average OD is 2.328, which is > 0.4, indicating a strong positive result."
+            }
+        ]
+    },
+    {
+        "questionNumber": "4",
+        "headerImage": {
+            "url": "images/quizlabinfect9.jpg",
+            "source": "Provided Image"
+        },
+        "note": "<b>Scenario:</b> A serum sample was tested using a Plaque Reduction Neutralization Test (PRNT) to measure neutralizing antibodies. Based on the results, what is the PRNT₅₀ titer?",
+        "subQuestions": [
+            {
+                "id": "4A",
+                "type": "short_answer",
+                "prompt": "What is the PRNT₅₀ titer of the serum sample?",
+                "answer": ["1:200", "200"],
+                "reasoning": "<b>Rationale:</b> The PRNT₅₀ titer is the highest serum dilution that inhibits at least 50% of the viral plaques. The 1:200 dilution shows a plaque reduction of 56%, which is the highest dilution that is still above the 50% threshold."
+            }
+        ]
+    },
+    {
+        "questionNumber": "5",
+        "headerImage": {
+            "url": "images/quizlabinfect10.jpg",
+            "source": "Provided Image"
+        },
+        "note": "<b>Scenario:</b> A serum sample was analyzed using a Hemagglutination Inhibition (HI) assay to determine the antibody titer against an influenza virus. Based on the results, what is the HI antibody titer?",
+        "subQuestions": [
+            {
+                "id": "5A",
+                "type": "short_answer",
+                "prompt": "What is the HI antibody titer of the serum sample?",
+                "answer": ["80", "1:80"],
+                "reasoning": "<b>Rationale:</b> The HI titer is defined as the highest dilution of serum that completely inhibits hemagglutination (forming a red 'button' at the bottom). Inhibition is seen up to the 1:80 dilution, while agglutination (a diffuse 'shield') begins at 1:160. Therefore, the titer is 80 (or 1:80)."
+            }
+        ]
+    }
+]

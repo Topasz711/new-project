@@ -1,1 +1,102 @@
-[]
+[
+    {
+        "question": "A scientist isolates a new virus from a patient with an unexplained febrile illness. The virus is found to be a large, enveloped virus with a complex structure and a dsDNA genome. Which of the following viral families is the most likely classification for this new virus?",
+        "choices": {
+            "A": "Coronaviridae",
+            "B": "Herpesviridae",
+            "C": "Poxviridae",
+            "D": "Parvoviridae",
+            "E": "Picornaviridae"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The combination of a large, enveloped virion with a dsDNA genome and a complex capsid structure is a unique classification. Based on the Lwoff's classification scheme outlined in the provided lecture notes, only the Poxviridae family fits this description, as it is the only DNA virus family that replicates in the cytoplasm and has a complex structure. This family includes viruses like Smallpox virus and Monkeypox virus.",
+            "incorrect": {
+                "A": "Coronaviridae are enveloped but have a single-stranded RNA (ssRNA) genome.",
+                "B": "Herpesviridae are enveloped with a dsDNA genome, but they have an icosahedral capsid structure, not a complex one.",
+                "D": "Parvoviridae have a single-stranded DNA (ssDNA) genome and a naked capsid.",
+                "E": "Picornaviridae are naked viruses with an ssRNA genome."
+            }
+        }
+    },
+    {
+        "question": "A 25-year-old woman presents with high fever, retro-orbital pain, and severe myalgia after returning from Thailand. She develops a maculopapular rash and positive tourniquet test. Laboratory shows leukopenia and thrombocytopenia. Which taxonomic family does the causative pathogen belong to?",
+        "choices": {
+            "A": "Flaviviridae",
+            "B": "Togaviridae",
+            "C": "Paramyxoviridae",
+            "D": "Orthomyxoviridae",
+            "E": "Bunyaviridae"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The clinical presentation of this patient is classic for Dengue fever, which is an arthropod-borne illness prevalent in Thailand. Key symptoms and signs include high fever, retro-orbital pain, severe myalgia ('break-bone fever'), a maculopapular rash, and a positive tourniquet test. Laboratory findings of leukopenia and thrombocytopenia are also characteristic of Dengue fever. The causative agent, Dengue virus, belongs to the family Flaviviridae.",
+            "incorrect": {
+                "B": "The family Togaviridae includes viruses like Chikungunya virus and Rubella virus. While Chikungunya can cause fever and severe myalgia, a positive tourniquet test is more specific to Dengue virus.",
+                "C": "This family includes Measles virus. While Measles can cause fever and a maculopapular rash, it is typically associated with cough, coryza, and Koplik's spots.",
+                "D": "This family includes Influenza viruses. Influenza causes fever, myalgia, and respiratory symptoms, but not the specific signs like retro-orbital pain and positive tourniquet test seen in this case.",
+                "E": "This family includes viruses like Hantavirus. Hantavirus can cause fever and myalgia, but the overall clinical picture does not match the specific combination of symptoms for Dengue fever."
+            }
+        }
+    },
+    {
+        "question": "A 30-year-old immunocompromised man with advanced HIV presents with oral hairy leukoplakia and generalized lymphadenopathy. Serology is positive for EBV DNA by PCR. Which malignant complication is most strongly associated with this virus?",
+        "choices": {
+            "A": "Burkitt’s lymphoma",
+            "B": "Kaposi’s sarcoma",
+            "C": "Adult T-cell leukemia",
+            "D": "Hepatocellular carcinoma",
+            "E": "Cervical carcinoma"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "Epstein-Barr virus (EBV) is a member of the Herpesviridae family and is a well-known oncogenic virus, especially in immunocompromised individuals. The presence of EBV DNA by PCR in an HIV-positive patient is strongly associated with the development of Burkitt’s lymphoma. Other EBV-associated malignancies in immunocompromised hosts include nasopharyngeal carcinoma and Hodgkin's lymphoma.",
+            "incorrect": {
+                "B": "This malignancy is caused by Human Herpesvirus 8 (HHV-8), also known as Kaposi's sarcoma-associated herpesvirus (KSHV), which is commonly found in HIV patients, but is not directly caused by EBV.",
+                "C": "This is caused by Human T-cell lymphotropic virus type 1 (HTLV-1).",
+                "D": "This cancer is most commonly associated with chronic infections by Hepatitis B virus (HBV) or Hepatitis C virus (HCV).",
+                "E": "This malignancy is primarily caused by high-risk types of Human Papillomavirus (HPV)."
+            }
+        }
+    },
+    {
+        "question": "A 5-year-old boy develops high fever, cough, conjunctivitis, and Koplik’s spots. Three days later, a generalized maculopapular rash appears. Laboratory shows multinucleated giant cells in nasopharyngeal secretions. What is the main target cell for this causative pathogen?",
+        "choices": {
+            "A": "CD4+ T lymphocyte",
+            "B": "CD8+ T lymphocyte",
+            "C": "Respiratory epithelial cell",
+            "D": "Erythroid progenitor cell",
+            "E": "Hepatocyte"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The patient's symptoms (fever, cough, conjunctivitis, and Koplik's spots) followed by a generalized maculopapular rash are classic for Measles. Measles virus belongs to the family Paramyxoviridae. The initial site of infection and replication is in the respiratory epithelial cells, which then spreads to lymphoid tissues and eventually throughout the body. The presence of multinucleated giant cells (syncytia) in nasopharyngeal secretions is a characteristic cytopathic effect of Measles virus.",
+            "incorrect": {
+                "A": "While these cells are involved in the immune response to Measles, they are the primary target cells for other viruses like HIV.",
+                "B": "While these cells are involved in the immune response to Measles, they are the primary target cells for other viruses like HIV.",
+                "D": "This is the primary target cell for Parvovirus B19, the causative agent of Fifth disease.",
+                "E": "This is the primary target cell for viruses that cause hepatitis, such as Hepatitis A, B, and C viruses."
+            }
+        }
+    },
+    {
+        "question": "A 65-year-old woman presents with vesicular eruptions in a dermatomal distribution on her right thorax, associated with severe pain. She had chickenpox during childhood. PCR is positive for VZV DNA. Which of the following is the main site of latency of this virus?",
+        "choices": {
+            "A": "Dorsal root ganglia",
+            "B": "Hepatocytes",
+            "C": "Endothelial cells",
+            "D": "Respiratory epithelial cells",
+            "E": "Macrophages"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The clinical presentation of a painful, vesicular rash in a dermatomal distribution on the thorax is characteristic of Herpes Zoster (Shingles). This condition is caused by the reactivation of latent Varicella-Zoster Virus (VZV), which is the same virus that causes chickenpox. After the initial chickenpox infection, VZV establishes a lifelong latent infection in the dorsal root ganglia (sensory neurons). Reactivation typically occurs later in life, often due to a decline in cell-mediated immunity (as may happen with age or chemotherapy).",
+            "incorrect": {
+                "B": "These are the primary sites of latency for certain viruses like Hepatitis B, but not VZV.",
+                "C": "While VZV can infect endothelial cells, they are not the main site of viral latency.",
+                "D": "This is the primary site of initial infection for many respiratory viruses, but not the site of latency for VZV.",
+                "E": "These cells are important in the immune response and can be infected by many viruses, but they are not the main site of latency for VZV."
+            }
+        }
+    }
+]
