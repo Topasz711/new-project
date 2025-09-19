@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A microbiologist observes a bacterium under a microscope and notes that it retains the crystal violet stain after the decolorization step. The bacterium is rod-shaped and appears in chains. Which of the following structures is most likely responsible for this staining result?",
+        "choices": {
+            "A": "A capsule made of polysaccharides surrounding the cell.",
+            "B": "A thick layer of peptidoglycan with teichoic acids.",
+            "C": "The presence of lipopolysaccharide (LPS) in the cell envelope.",
+            "D": "The presence of mycolic acid in the cell wall.",
+            "E": "A thin layer of peptidoglycan and an outer membrane."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The question describes a Gram-positive bacterium. This is indicated by its ability to retain the crystal violet stain (appearing purple). The key structural feature of Gram-positive bacteria that allows them to do this is their thick, multilayered peptidoglycan cell wall, which also contains teichoic and lipoteichoic acids. This thick wall traps the crystal violet-iodine complex.",
+            "incorrect": {
+                "A": "A capsule is an outer layer that helps protect the bacterium from phagocytosis but does not determine the outcome of the Gram stain.",
+                "C": "A thin layer of peptidoglycan, an outer membrane, and the presence of Lipopolysaccharide (LPS) are all characteristic features of Gram-negative bacteria.",
+                "D": "Mycolic acid is a waxy substance found in the cell walls of acid-fast bacteria, such as Mycobacterium. This layer resists Gram staining.",
+                "E": "A thin layer of peptidoglycan and an outer membrane are characteristic features of Gram-negative bacteria."
+            }
+        }
+    },
+    {
+        "question": "A sputum sample from a patient with a chronic cough is stained using the Gram stain method. The microbiologist sees faint, poorly stained, beaded bacilli against the pink background, sometimes referred to as 'ghost cells'. An acid-fast stain is then performed and reveals bright red bacilli. Which of the following best explains these findings?",
+        "choices": {
+            "A": "The bacteria lack a cell wall, like Mycoplasma.",
+            "B": "The bacteria have a high concentration of mycolic acid in their cell wall.",
+            "C": "The bacteria are Gram-negative and have a thin peptidoglycan layer.",
+            "D": "The bacteria are Gram-positive but lost their cell wall, becoming L-forms.",
+            "E": "The bacteria are endospore-forming, and the spores are resisting the stain."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The description matches that of an acid-fast bacterium, such as Mycobacterium tuberculosis. These bacteria have a cell wall rich in a waxy lipid called mycolic acid. This waxy layer prevents the dyes used in the Gram stain from effectively penetrating the cell wall, resulting in poor or faint staining ('ghost cells'). The acid-fast stain uses heat to drive carbolfuchsin into the waxy wall, which then resists decolorization.",
+            "incorrect": {
+                "A": "Bacteria like Mycoplasma that lack a cell wall would not retain a shape like a bacillus and would not be visible with these staining methods.",
+                "C": "Gram-negative bacteria would stain distinctly pink or red with the Gram stain; they would not appear as faint 'ghost cells'.",
+                "D": "L-forms are bacteria that have lost their cell walls and would not have a stable bacillus shape.",
+                "E": "Endospores appear as clear, non-staining areas within a stained Gram-positive cell. The entire cell would not appear as a faint 'ghost'."
+            }
+        }
+    },
+    {
+        "question": "A strain of E. coli has acquired a plasmid. What is a likely new capability for this bacterium?",
+        "choices": {
+            "A": "The ability to perform photosynthesis.",
+            "B": "A change from Gram-negative to Gram-positive.",
+            "C": "Increased motility through the development of more flagella.",
+            "D": "Resistance to an antibiotic like penicillin.",
+            "E": "The ability to form endospores."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "Plasmids are small, circular, extrachromosomal pieces of DNA that often carry genes that provide an advantage to the bacterium, such as antimicrobial resistance genes. A common example is a plasmid carrying the gene for β-lactamase, an enzyme that inactivates penicillin, thus conferring resistance.",
+            "incorrect": {
+                "A": "Complex processes like photosynthesis are encoded by a large number of genes located on the main bacterial chromosome, not on a plasmid.",
+                "B": "A bacterium's Gram stain reaction is determined by the fundamental architecture of its cell wall and cannot be altered by acquiring a plasmid.",
+                "C": "While some plasmids might influence motility, the most common and medically significant traits transferred via plasmids are antibiotic resistance and virulence factors.",
+                "E": "Endospore formation is a complex process encoded by genes on the main bacterial chromosome."
+            }
+        }
+    },
+    {
+        "question": "The 70S ribosome is a crucial target for many antibiotics because it is structurally different from the 80S ribosome found in eukaryotic cells. A drug that specifically binds to the 30S subunit would likely interfere with which process?",
+        "choices": {
+            "A": "DNA replication.",
+            "B": "Formation of peptide bonds.",
+            "C": "Accurate reading of mRNA.",
+            "D": "Cell wall synthesis.",
+            "E": "Transport of nutrients across the cell membrane."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The bacterial 70S ribosome is composed of a 50S and a 30S subunit. The 30S subunit's primary role is to bind to the messenger RNA (mRNA) and ensure the correct transfer RNA (tRNA) aligns with the mRNA codon. Antibiotics like aminoglycosides and tetracyclines target the 30S subunit, causing a misreading of the mRNA sequence or blocking tRNA binding, thus inhibiting protein synthesis.",
+            "incorrect": {
+                "A": "Ribosomes are exclusively involved in protein synthesis, not DNA replication.",
+                "B": "The formation of peptide bonds between amino acids is the function of the larger 50S subunit.",
+                "D": "Ribosomes are not directly involved in cell wall synthesis.",
+                "E": "While the proteins required for nutrient transport are made by ribosomes, the antibiotic directly inhibits protein synthesis itself."
+            }
+        }
+    }
+]

@@ -1,1 +1,122 @@
-[]
+[
+    {
+        "question": "A clinical analysis of a healthy 25-year-old female's genital tract microbiota is performed. Which of the following patterns would be most indicative of a healthy, eubiotic state?",
+        "choices": {
+            "A": "High abundance and low diversity, dominated by Lactobacillus species.",
+            "B": "The presence of Gardnerella vaginalis and Candida albicans as the codominant species.",
+            "C": "High abundance and high diversity, including various species of Firmicutes and Actinobacteria.",
+            "D": "Low abundance and high diversity, with a significant presence of Proteobacteria and Bacteroidetes.",
+            "E": "An equal ratio of aerobic to anaerobic bacteria, with no single dominant genus."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "This pattern is the hallmark of a healthy lower genital tract (LGT). A Lactobacillus-dominated state leads to high abundance but low diversity. These bacteria produce lactic acid, which maintains a low vaginal pH and inhibits the growth of pathogens.",
+            "incorrect": {
+                "B": "The overgrowth of Gardnerella vaginalis and Candida albicans is a sign of dysbiosis, leading to conditions like bacterial vaginosis or vaginal candidiasis.",
+                "C": "A healthy vaginal microbiome is characterized by its low diversity and the clear dominance of a single genus, Lactobacillus.",
+                "D": "Low abundance and high diversity are characteristic patterns of the upper genital tract (UGT), not the healthy LGT.",
+                "E": "A healthy vaginal microbiome is characterized by its low diversity and the clear dominance of a single genus, Lactobacillus."
+            }
+        }
+    },
+    {
+        "question": "Which of the following microorganisms is considered a key example of 'resident microbiota' on the skin, typically re-establishing itself if disturbed?",
+        "choices": {
+            "A": "Candida albicans",
+            "B": "Escherichia coli",
+            "C": "Heamophilus influenzae",
+            "D": "Staphylococcus aureus",
+            "E": "Staphylococcus epidermidis"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "Staphylococcus epidermidis is a prime example of resident microbiota. It is a dominant member of the skin flora, making up as much as 90% of the aerobic bacteria present.",
+            "incorrect": {
+                "A": "Candida albicans is a fungus that can be found on the skin, but S. epidermidis is the specific bacterium highlighted as the key example of resident flora.",
+                "B": "Escherichia coli is a hallmark of the gastrointestinal tract and is not considered normal resident microbiota of the skin.",
+                "C": "Heamophilus influenzae is listed as an example of transient microbiota, which lives on the body only temporarily.",
+                "D": "Staphylococcus aureus is listed as an example of transient microbiota, which lives on the body only temporarily."
+            }
+        }
+    },
+    {
+        "question": "A patient on long-term antibiotic therapy develops severe diarrhea. An endoscopy reveals yellowish plaques forming a 'pseudomembrane' in the colon. This pattern is strongly indicative of an overgrowth of which pathobiont?",
+        "choices": {
+            "A": "Salmonella enterica",
+            "B": "Helicobacter pylori",
+            "C": "Staphylococcus aureus",
+            "D": "Clostridioides difficile",
+            "E": "Vancomycin-resistant Enterococcus (VRE)"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The overgrowth of Clostridioides difficile is linked to antibiotic therapy. C. difficile produces toxins that cause severe epithelial damage, leading to the formation of pseudomembranous colitis, which matches the endoscopic findings described.",
+            "incorrect": {
+                "A": "Salmonella enterica is an exogenous pathogen that causes gastroenteritis through infection, not typically by overgrowing after antibiotic therapy.",
+                "B": "Helicobacter pylori is associated with stomach ulcers and would not be the cause of colitis in the large intestine.",
+                "C": "Staphylococcus aureus is a versatile pathogen but is not the typical cause of antibiotic-associated pseudomembranous colitis.",
+                "E": "While VRE is an opportunistic pathogen, it does not cause the characteristic pseudomembranous colitis associated with C. difficile."
+            }
+        }
+    },
+    {
+        "question": "What is the key distinction between probiotics and prebiotics?",
+        "choices": {
+            "A": "Probiotics are used to treat Clostridioides difficile infections, while prebiotics are used to prevent ventilator-associated pneumonia.",
+            "B": "Probiotics, such as Bifidobacterium, create bacteriocins, whereas prebiotics create short-chain fatty acids.",
+            "C": "Probiotics compete for adhesion sites, while prebiotics are involved in immune stimulation.",
+            "D": "Probiotics are live microorganisms, while prebiotics are non-digestible food ingredients that stimulate the growth of beneficial bacteria.",
+            "E": "Probiotics are found in fermented foods like yogurt, while prebiotics are only available as dietary supplements."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "This choice accurately reflects the fundamental definitions. Probiotics are defined as 'Live bacteria' with beneficial effects. Prebiotics are defined as 'Non-digestible food' (like fiber) that serves as food for beneficial bacteria, stimulating their growth.",
+            "incorrect": {
+                "A": "This confuses definitions with specific, and not exclusive, applications.",
+                "B": "This is an inaccurate oversimplification. The action of probiotics fermenting prebiotics produces postbiotics, such as short-chain fatty acids.",
+                "C": "These are descriptions of functions or effects of a healthy microbiome, not the core definition of what probiotics and prebiotics are.",
+                "E": "This is incorrect because prebiotics are abundant in many natural foods like garlic, onions, and oats, not just supplements."
+            }
+        }
+    },
+    {
+        "question": "Which of the following lists contains a microorganism that does NOT fit the typical pattern of microbiota found in a healthy oral cavity?",
+        "choices": {
+            "A": "Actinomyces, Rothia, Kocuria",
+            "B": "Fusobacterium, Prevotella, Porphyromonas",
+            "C": "Helicobacter pylori, Bifidobacterium, Enterococcus faecalis",
+            "D": "Candida, Cladosporium, Aspergillus",
+            "E": "Streptococcus salivarius, Streptococcus viridans, Neisseria species"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The microorganisms in this list are primarily associated with other body parts. Helicobacter pylori is famously found in the stomach. Bifidobacterium and Enterococcus faecalis are hallmark residents of the lower gastrointestinal tract.",
+            "incorrect": {
+                "A": "These bacteria are all common components of dental plaque.",
+                "B": "These bacteria are all inhabitants of the gingival crevice.",
+                "D": "These fungi are all part of the normal oral mycobiota.",
+                "E": "These bacteria are all common microbiota of the oropharyngeal region."
+            }
+        }
+    },
+    {
+        "question": "The influence of gut microbiota on brain health, often called the Gut-Brain Axis, involves several patterns of molecular signaling. Which of the following correctly identifies a key advantage provided by the microbiota in this relationship?",
+        "choices": {
+            "A": "The synthesis of Vitamin K by E. coli is the primary mechanism for preventing psychiatric disorders like depression and anxiety.",
+            "B": "The microbiota convert dietary tryptophan into precursors for serotonin, a key neuroactive molecule that influences mood and gut function.",
+            "C": "Gut bacteria directly synthesize stress hormones like cortisol and send them to the brain through the vagus nerve.",
+            "D": "Short-chain fatty acids (SCFAs) produced in the gut travel directly to the brain to serve as the primary energy source for neurons.",
+            "E": "Pathogenic bacteria like Salmonella are beneficial to the Gut-Brain Axis by stimulating a strong immune response that enhances cognitive function."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "This is a documented advantage of the gut microbiota. Tryptophan is a precursor for the neuroactive signaling molecule serotonin, which influences mood and gut function.",
+            "incorrect": {
+                "A": "While Vitamin K synthesis is an advantage of the microbiota, its primary roles are in blood clotting and bone metabolism, not directly preventing psychiatric disorders.",
+                "C": "Cortisol is a hormone produced by the human adrenal gland, not by bacteria.",
+                "D": "The primary role of SCFAs is to provide energy for intestinal epithelial cells, not to fuel the brain.",
+                "E": "Pathogenic bacteria like Salmonella cause disease and are harmful; they do not provide a benefit to the host."
+            }
+        }
+    }
+]

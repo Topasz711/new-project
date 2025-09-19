@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A microbiologist inoculates a bacterium into a thioglycolate broth, a medium that creates an oxygen gradient. After incubation, growth is observed to be densest at the top of the tube and absent at the bottom. This bacterium also possesses both Superoxide Dismutase (SOD) and Catalase. How would you classify this organism?",
+        "choices": {
+            "A": "Facultative anaerobe",
+            "B": "Aerotolerant anaerobe",
+            "C": "Obligate aerobe",
+            "D": "Microaerophile",
+            "E": "Obligate anaerobe"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The growth pattern shows that the organism thrives only where the oxygen concentration is highest (at the top). Obligate aerobes require oxygen for cellular respiration and possess enzymes like SOD and Catalase to neutralize toxic byproducts of oxygen metabolism.",
+            "incorrect": {
+                "A": "A facultative anaerobe would grow throughout the tube but would be densest at the top. The question states growth is absent at the bottom.",
+                "B": "An aerotolerant anaerobe would grow evenly throughout the tube.",
+                "D": "A microaerophile requires a lower oxygen concentration and would grow in a thin band just below the surface, not at the very top.",
+                "E": "An obligate anaerobe is killed by oxygen and would only grow at the very bottom of the tube."
+            }
+        }
+    },
+    {
+        "question": "A patient presents with gas gangrene, a condition characterized by tissue death and the production of gas bubbles. The causative agent is Clostridium perfringens, an obligate anaerobe. Which metabolic pathway is primarily responsible for the production of CO₂ and H₂ gas, leading to the characteristic symptoms of this disease?",
+        "choices": {
+            "A": "Krebs Cycle",
+            "B": "Fermentation",
+            "C": "Aerobic respiration",
+            "D": "Anaerobic respiration",
+            "E": "Electron Transport Chain"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "As an obligate anaerobe, Clostridium perfringens relies on fermentation. This anaerobic process breaks down pyruvate to produce a small amount of ATP and various end products, including acids and gases like CO₂ and hydrogen, which cause the characteristic tissue swelling.",
+            "incorrect": {
+                "A": "The Krebs Cycle is part of cellular respiration, not fermentation.",
+                "C": "Aerobic respiration requires oxygen, which is toxic to obligate anaerobes.",
+                "D": "Anaerobic respiration uses inorganic molecules as the final electron acceptor, which is different from the pathway used by Clostridium for this type of catabolism.",
+                "E": "The Electron Transport Chain is the final stage of aerobic and anaerobic respiration, not fermentation."
+            }
+        }
+    },
+    {
+        "question": "A hospital is dealing with an outbreak of multi-drug resistant Escherichia coli. A sensitive strain of E. coli from a newly admitted patient is later found to have acquired resistance to three different antibiotics simultaneously. Laboratory analysis confirms that this resistance was transferred from a resistant strain via a mechanism involving direct cell-to-cell contact. This transfer did not involve bacteriophages or the uptake of free-floating DNA. What is the most likely genetic element and transfer mechanism responsible?",
+        "choices": {
+            "A": "A chromosomal mutation acquired via transformation.",
+            "B": "A small DNA fragment acquired from the environment via a competent cell.",
+            "C": "An R plasmid acquired via conjugation.",
+            "D": "An essential gene from the bacterial chromosome acquired via binary fission.",
+            "E": "A toxin gene acquired via specialized transduction."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The scenario describes transfer requiring direct cell-to-cell contact, the hallmark of conjugation. Acquiring resistance to multiple drugs at once suggests the transfer of an R plasmid (Resistance factor), which can carry genes for resistance to several antibiotics.",
+            "incorrect": {
+                "A": "Transformation involves the uptake of naked, free-floating DNA from the environment.",
+                "B": "Transformation involves the uptake of naked, free-floating DNA from the environment.",
+                "D": "Binary fission is cell division (vertical gene transfer), not horizontal gene transfer between two existing cells.",
+                "E": "Transduction is the transfer of bacterial DNA via a bacteriophage, which was ruled out."
+            }
+        }
+    },
+    {
+        "question": "A researcher is studying a bacterial species. They plot the growth curve and observe four distinct phases. Which pattern correctly matches the phase with the primary cellular activities occurring?",
+        "choices": {
+            "A": "Phase (b) Logarithmic: Nutrient depletion and accumulation of waste products leading to a balanced cell count.",
+            "B": "Phase (d) Death: Total number of viable cells decreases as the death rate exceeds the division rate.",
+            "C": "Phase (a) Lag: Rapid binary fission and consumption of nutrients.",
+            "D": "Phase (a) Lag: Exponential cell death due to toxic conditions.",
+            "E": "Phase (c) Stationary: No cell division and intense synthesis of macromolecules in preparation for growth."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "This statement accurately describes the death phase. During this final phase, harsh conditions (nutrient depletion, toxic waste) cause the number of cells dying to exceed the number of new cells being formed.",
+            "incorrect": {
+                "A": "This description matches the stationary phase. The logarithmic (log) phase is characterized by rapid, exponential cell growth.",
+                "C": "This description matches the logarithmic phase. The lag phase is a period of adjustment and synthesis, not rapid division.",
+                "D": "This description matches the death phase. The lag phase is a period of metabolic preparation for growth.",
+                "E": "This description matches the lag phase. In the stationary phase, cell division is balanced by an equal rate of cell death."
+            }
+        }
+    }
+]

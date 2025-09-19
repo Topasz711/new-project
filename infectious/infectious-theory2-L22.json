@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A 45-year-old patient presents with severe, watery diarrhea, which is described as 'rice-water stool.' The patient recently consumed shellfish from a coastal area. Laboratory analysis reveals a gram-negative, comma-shaped bacterium. Which of the following best describes the molecular mechanism of the toxin responsible for these symptoms?",
+        "choices": {
+            "A": "Inhibition of protein synthesis by inactivating elongation factor-2.",
+            "B": "Cleavage of SNARE proteins, blocking the release of acetylcholine at the neuromuscular junction.",
+            "C": "Hyperactivation of adenylate cyclase, leading to increased cAMP levels and massive fluid secretion.",
+            "D": "Directly forming pores in the host cell membrane, leading to cell lysis.",
+            "E": "Acting as a superantigen, causing a massive, non-specific T-cell activation and cytokine storm."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The clinical presentation of 'rice-water stool' is the classic sign of cholera, caused by Vibrio cholerae. The cholera toxin hyperactivates adenylate cyclase, leading to a massive increase in intracellular cAMP levels. This causes the hypersecretion of electrolytes and water into the intestinal lumen, resulting in severe, watery diarrhea.",
+            "incorrect": {
+                "A": "This is the mechanism of Diphtheria toxin.",
+                "B": "This is the mechanism of neurotoxins from Clostridium species (Botulinum and Tetanus toxin).",
+                "D": "This is the mechanism of membrane-disrupting cytotoxins, such as streptolysin.",
+                "E": "This is the mechanism of superantigens like Toxic Shock Syndrome Toxin-1 (TSST-1)."
+            }
+        }
+    },
+    {
+        "question": "A patient is diagnosed with an infection caused by a strain of Streptococcus pyogenes that is particularly effective at evading the host immune system. This strain is found to express high levels of M protein on its surface. Which of the following is a primary antiphagocytic mechanism of the M protein?",
+        "choices": {
+            "A": "It mimics host hyaluronic acid, making the bacterium appear as 'self'.",
+            "B": "It binds to the Fc portion of antibodies, orienting them incorrectly for phagocyte recognition.",
+            "C": "It acts as a coagulase, forming a fibrin clot around the bacteria to hide them from phagocytes.",
+            "D": "It prevents the fusion of the phagosome with the lysosome after being engulfed.",
+            "E": "It binds to host complement regulator proteins, inhibiting the opsonization cascade."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The M protein of Streptococcus pyogenes is a key virulence factor. One of its primary mechanisms is to bind to host complement regulator proteins (like C4BP), which inhibits the activation of the complement pathway. This prevents the deposition of C3b (an opsonin) on the bacterium, thereby blocking opsonization and phagocytosis.",
+            "incorrect": {
+                "A": "This is the function of the hyaluronic acid capsule of S. pyogenes, not the M protein.",
+                "B": "This is the characteristic mechanism of Protein A on Staphylococcus aureus.",
+                "C": "Coagulase is an enzyme produced by Staphylococcus aureus.",
+                "D": "This is an intracellular survival strategy used by pathogens like Salmonella after being engulfed."
+            }
+        }
+    },
+    {
+        "question": "An 8-year-old boy presents with flaccid paralysis, blurred vision, and difficulty swallowing after consuming home-canned vegetables. In contrast, a farmer presents with spastic paralysis and lockjaw after a deep puncture wound. Which pattern correctly matches the toxin with its mechanism?",
+        "choices": {
+            "A": "Boy: Tetanus toxin blocks inhibitory neurotransmitters; Farmer: Botulinum toxin blocks acetylcholine release.",
+            "B": "Boy: Diphtheria toxin inhibits protein synthesis; Farmer: Cholera toxin causes hyperactivation of adenylate cyclase.",
+            "C": "Boy: Botulinum toxin blocks release of acetylcholine; Farmer: Tetanus toxin blocks release of inhibitory neurotransmitters.",
+            "D": "Boy: Endotoxin (LPS) causes septic shock; Farmer: A membrane-disrupting cytotoxin causes tissue necrosis.",
+            "E": "Both cases are caused by neurotoxins that act by irreversibly activating adenylate cyclase in neurons."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The boy's case is classic botulism; Botulinum toxin blocks the release of the excitatory neurotransmitter acetylcholine, causing flaccid paralysis. The farmer's case is classic tetanus; Tetanus toxin blocks the release of inhibitory neurotransmitters (glycine and GABA), leading to unopposed muscle contraction and spastic paralysis.",
+            "incorrect": {
+                "A": "This option reverses the two mechanisms.",
+                "B": "These are mechanisms for Diphtheria and Cholera, which cause different symptoms.",
+                "D": "These are mechanisms for different pathogenic processes (septic shock and tissue necrosis).",
+                "E": "This describes an incorrect mechanism of action for these neurotoxins."
+            }
+        }
+    },
+    {
+        "question": "A patient presents with gastroenteritis after consuming contaminated poultry. The causative agent is an intracellular, gram-negative bacterium that uses a Type 3 Secretion System (T3SS) to inject effector proteins, causing membrane ruffling for entry into cells. Once inside macrophages, it prevents the fusion of its vacuole with the lysosome. Which pathogen best fits this description?",
+        "choices": {
+            "A": "Staphylococcus aureus",
+            "B": "Listeria monocytogenes",
+            "C": "Mycobacterium tuberculosis",
+            "D": "Shigella dysenteriae",
+            "E": "Salmonella enterica"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "Salmonella perfectly matches this pathogenic profile. It uses a T3SS ('Trigger mechanism') for invasion, causing membrane ruffling. A key intracellular survival strategy is to reside within a phagosome and prevent its fusion with the lysosome. It is also a classic cause of gastroenteritis from contaminated poultry.",
+            "incorrect": {
+                "A": "Staphylococcus aureus is gram-positive and typically causes food poisoning via pre-formed enterotoxins.",
+                "B": "Listeria monocytogenes uses a 'Zipper' mechanism for invasion and escapes from the phagosome to replicate in the cytoplasm.",
+                "C": "Mycobacterium tuberculosis prevents phagolysosome fusion but does not cause acute gastroenteritis from poultry and doesn't use a T3SS for entry.",
+                "D": "Shigella dysenteriae uses a T3SS but escapes the phagosome to move within the cytoplasm."
+            }
+        }
+    }
+]

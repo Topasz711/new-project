@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A patient presents with a severe skin infection that has rapidly progressed over the past 24 hours. The area is swollen, discolored, and upon palpation, a crackling sensation (crepitus) is felt. A Gram stain from the wound exudate reveals large, 'boxcar-shaped' Gram-positive bacilli with very few spores. The organism is cultured anaerobically and shows a characteristic double zone of beta-hemolysis on blood agar. Which organism is responsible?",
+        "choices": {
+            "A": "Streptococcus pyogenes",
+            "B": "Erysipelothrix rhusiopathiae",
+            "C": "Clostridium perfringens",
+            "D": "Bacillus anthracis",
+            "E": "Clostridium tetani"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The clinical presentation of a rapidly progressing infection with swelling and crepitus (gas in the tissue) is the hallmark of gas gangrene. The laboratory findings perfectly match C. perfringens: it is a large, Gram-positive bacillus that is cultured anaerobically and famously produces a double zone of hemolysis on blood agar due to its alpha toxin.",
+            "incorrect": {
+                "A": "Streptococcus pyogenes is a Gram-positive coccus, not a bacillus. While it can cause severe necrotizing fasciitis, it does not typically produce gas.",
+                "B": "Erysipelothrix rhusiopathiae causes a more localized and less aggressive skin infection called erysipeloid and does not produce gas. It is also catalase-negative.",
+                "D": "Bacillus anthracis, in its cutaneous form, typically causes a painless black eschar, not gas gangrene. It is an aerobe and is non-hemolytic on blood agar.",
+                "E": "Clostridium tetani's primary pathology is toxin-mediated tetanus (spastic paralysis); it does not cause a destructive, gas-producing tissue infection."
+            }
+        }
+    },
+    {
+        "question": "A microbiologist is analyzing an unknown Gram-positive bacterium. The organism is a bacillus that forms spores. It is catalase-positive, non-motile, and shows non-hemolytic colonies on blood agar described as having a 'whipped egg white' appearance. What is the most probable identification?",
+        "choices": {
+            "A": "Bacillus cereus",
+            "B": "Corynebacterium diphtheriae",
+            "C": "Bacillus anthracis",
+            "D": "Listeria monocytogenes",
+            "E": "Clostridium tetani"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This is a classic pattern recognition question. The combination of being a spore-forming, catalase-positive bacillus that is uniquely non-motile and produces non-hemolytic colonies is the definitive laboratory profile for Bacillus anthracis. The colony morphology described is also characteristic.",
+            "incorrect": {
+                "A": "Bacillus cereus is distinguished from B. anthracis by being motile and typically showing strong beta-hemolysis on blood agar.",
+                "B": "Corynebacterium diphtheriae is non-spore-forming and has a distinct club-shaped morphology.",
+                "D": "Listeria monocytogenes is non-spore-forming and exhibits characteristic tumbling motility at 25°C.",
+                "E": "Clostridium tetani is a catalase-negative anaerobe."
+            }
+        }
+    },
+    {
+        "question": "A lab identifies a Gram-positive coccus that grows in chains. It is catalase-negative and demonstrates beta-hemolysis on blood agar. A bacitracin susceptibility test is performed, and the organism shows a zone of inhibition around the disk. What is the most likely organism?",
+        "choices": {
+            "A": "Streptococcus pneumoniae",
+            "B": "Enterococcus faecalis",
+            "C": "Streptococcus agalactiae (GBS)",
+            "D": "Staphylococcus aureus",
+            "E": "Streptococcus pyogenes (GAS)"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "This is the classic identification algorithm for S. pyogenes. It is a catalase-negative coccus in chains that shows beta-hemolysis (complete clearing) on blood agar. The key differentiator from other beta-hemolytic streptococci is its sensitivity to bacitracin.",
+            "incorrect": {
+                "A": "Streptococcus pneumoniae shows alpha-hemolysis (green, partial hemolysis) and is sensitive to optochin, not bacitracin.",
+                "B": "Enterococcus faecalis is typically gamma-hemolytic (non-hemolytic).",
+                "C": "Streptococcus agalactiae (GBS) is also a beta-hemolytic streptococcus, but it is characteristically resistant to bacitracin. It would also be CAMP test positive.",
+                "D": "Staphylococcus aureus is catalase-positive and grows in grape-like clusters, not chains."
+            }
+        }
+    },
+    {
+        "question": "A pregnant woman in her third trimester is screened for genital tract colonization of a certain bacterium to prevent neonatal infection. The organism sought is a Gram-positive coccus that is beta-hemolytic, catalase-negative, and bacitracin-resistant. Which test would give a definitive positive result for the most likely pathogen?",
+        "choices": {
+            "A": "CAMP test",
+            "B": "Elek's test",
+            "C": "Bile Esculin test",
+            "D": "Optochin susceptibility test",
+            "E": "Coagulase test"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The description points directly to Streptococcus agalactiae (Group B Strep, GBS), a major cause of neonatal meningitis and sepsis, for which pregnant women are screened. GBS is beta-hemolytic, catalase-negative, and bacitracin-resistant. The definitive test that identifies GBS is the CAMP test, where it produces an arrowhead-shaped zone of enhanced hemolysis when streaked near Staphylococcus aureus.",
+            "incorrect": {
+                "B": "Elek's test is a precipitation test to detect toxin production by Corynebacterium diphtheriae.",
+                "C": "Bile Esculin test is used to identify Enterococcus species and S. bovis (Group D streptococci).",
+                "D": "Optochin susceptibility test is used to differentiate Streptococcus pneumoniae (sensitive) from other alpha-hemolytic streptococci (resistant).",
+                "E": "Coagulase test is used to differentiate Staphylococcus aureus (positive) from coagulase-negative staphylococci."
+            }
+        }
+    }
+]
