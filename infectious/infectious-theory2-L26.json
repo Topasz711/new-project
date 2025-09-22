@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A patient presents with a chronic, non-healing skin lesion on his hand that developed weeks after cleaning his home aquarium. A culture grown at 30°C is initially non-pigmented, but after exposure to light, the colonies turn bright yellow. The organism is acid-fast positive. Based on the Runyon classification, what is the most likely causative agent?",
+        "choices": {
+            "A": "Mycobacterium scrofulaceum",
+            "B": "Nocardia brasiliensis",
+            "C": "Mycobacterium marinum",
+            "D": "Mycobacterium avium complex (MAC)",
+            "E": "Mycobacterium abscessus"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The clinical history of a skin lesion after contact with an aquarium points to 'fish tank' granuloma. The causative agent, M. marinum, is a slow-growing mycobacterium classified as a photochromogen. This means it produces pigment only after exposure to light, which perfectly matches the lab's observation.",
+            "incorrect": {
+                "A": "Mycobacterium scrofulaceum is a scotochromogen, meaning it produces pigment even when grown in the dark.",
+                "B": "Nocardia brasiliensis is a partially acid-fast bacterium but is not classified under the Runyon system for mycobacteria.",
+                "D": "Mycobacterium avium complex (MAC) is a nonchromogen, meaning its colonies remain unpigmented regardless of light exposure.",
+                "E": "Mycobacterium abscessus is a rapid grower (matures in < 7 days) and does not exhibit photochromogenicity."
+            }
+        }
+    },
+    {
+        "question": "An immunocompromised patient develops a severe pulmonary infection with cavitating lesions. A Gram stain of a lavage specimen shows delicate, branching, Gram-positive filaments with a beaded appearance. A modified acid-fast stain is positive. The organism grows aerobically on BCYE agar. Which organism best fits this pattern?",
+        "choices": {
+            "A": "Nocardia asteroides",
+            "B": "Mycobacterium leprae",
+            "C": "Rhodococcus equi",
+            "D": "Actinomyces israelii",
+            "E": "Mycobacterium tuberculosis"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "This organism matches all the provided characteristics. Nocardia is an aerobe known to cause pulmonary infections in immunocompromised individuals. It appears as Gram-positive, beaded, branching filaments and, crucially, is positive on a modified acid-fast stain.",
+            "incorrect": {
+                "B": "Mycobacterium leprae cannot be cultured on artificial laboratory media.",
+                "C": "Rhodococcus equi, while also partially acid-fast, typically appears as coccobacilli, not long branching filaments.",
+                "D": "Actinomyces israelii is a strict anaerobe and is not acid-fast.",
+                "E": "Mycobacterium tuberculosis is strongly acid-fast (not just 'modified') and typically appears as rods, not branching filaments."
+            }
+        }
+    },
+    {
+        "question": "A 40-year-old man presents with a hard, non-tender swelling on his jaw that has slowly progressed for months. It has begun to form multiple draining sinus tracts, discharging a purulent fluid containing tiny, yellowish 'sulfur granules.' What is the most likely diagnosis?",
+        "choices": {
+            "A": "Leprosy",
+            "B": "Nocardiosis",
+            "C": "Rhodococcosis",
+            "D": "Tuberculosis",
+            "E": "Actinomycosis"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "This presentation is the hallmark of cervicofacial actinomycosis. The key diagnostic features are the slow-growing abscess, the formation of draining sinus tracts, and the presence of macroscopic 'sulfur granules' in the pus, which are colonies of the bacteria (Actinomyces israelii).",
+            "incorrect": {
+                "A": "Leprosy affects the skin and peripheral nerves, causing sensory loss, not deep abscesses with granules.",
+                "B": "While cutaneous nocardiosis can cause abscesses, the presence of sulfur granules is the most characteristic finding for actinomycosis.",
+                "C": "Rhodococcosis typically causes pneumonia in immunocompromised patients.",
+                "D": "Tuberculosis can cause lymph node swelling in the neck (scrofula) but does not produce sulfur granules."
+            }
+        }
+    },
+    {
+        "question": "A patient from Southeast Asia presents with large, well-demarcated, hypopigmented skin patches. A neurological exam reveals a loss of sensation to touch and temperature within these patches. An acid-fast stain of a skin biopsy shows bacilli located within the Schwann cells of peripheral nerves. What is the most likely diagnosis?",
+        "choices": {
+            "A": "Disseminated MAC infection",
+            "B": "Pulmonary Tuberculosis",
+            "C": "Cutaneous Nocardiosis",
+            "D": "Leprosy",
+            "E": "Actinomycosis"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "This is a classic clinical description of leprosy, caused by Mycobacterium leprae. The defining characteristics are the skin lesions accompanied by a loss of sensation (anesthesia) and the pathogen's unique tendency to invade and reside within cells of the peripheral nerves (Schwann cells).",
+            "incorrect": {
+                "A": "Disseminated MAC infection does not typically cause nerve damage leading to anesthesia.",
+                "B": "Pulmonary Tuberculosis is primarily a lung disease.",
+                "C": "Cutaneous Nocardiosis causes skin abscesses or mycetoma but does not characteristically invade nerves to cause sensory loss.",
+                "E": "Actinomycosis causes deep, suppurative abscesses and is not acid-fast."
+            }
+        }
+    }
+]

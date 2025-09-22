@@ -1,1 +1,122 @@
-[]
+[
+    {
+        "question": "A 65-year-old patient with a history of COPD is admitted to the ICU with severe pneumonia. A sputum culture grows a Gram-negative, oxidase-positive bacillus that produces a distinct green pigment and a grape-like odor. The organism is motile and grows at 42°C. What is the most likely causative agent?",
+        "choices": {
+            "A": "Klebsiella pneumoniae",
+            "B": "Acinetobacter baumannii",
+            "C": "Pseudomonas aeruginosa",
+            "D": "Escherichia coli",
+            "E": "Stenotrophomonas maltophilia"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This option fits all the key identifiers. Pseudomonas aeruginosa is a Gram-negative bacillus that is oxidase-positive, motile, grows at 42°C, and produces a greenish-blue pigment. It is also a well-known cause of nosocomial (hospital-acquired) infections, including pneumonia.",
+            "incorrect": {
+                "A": "Klebsiella pneumoniae is an oxidase-negative organism.",
+                "B": "Acinetobacter baumannii is oxidase-negative and non-motile.",
+                "D": "Escherichia coli is an oxidase-negative organism.",
+                "E": "Stenotrophomonas maltophilia is an oxidase-negative organism."
+            }
+        }
+    },
+    {
+        "question": "A Gram stain from a urethral swab from a male patient with purulent discharge reveals numerous neutrophils containing intracellular, kidney bean-shaped Gram-negative diplococci. What is the most probable identification?",
+        "choices": {
+            "A": "Acinetobacter baumannii",
+            "B": "Haemophilus ducreyi",
+            "C": "Neisseria gonorrhoeae",
+            "D": "Moraxella catarrhalis",
+            "E": "Neisseria meningitidis"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The description of intracellular, Gram-negative diplococci found in neutrophils from a urethral swab is the classic microscopic finding for Neisseria gonorrhoeae, the agent of gonorrhea. The 'kidney bean' shape is also a characteristic feature of Neisseria species.",
+            "incorrect": {
+                "A": "Acinetobacter baumannii appears as a Gram-negative coccobacillus, not a diplococcus.",
+                "B": "Haemophilus ducreyi is a coccobacillus known for its 'school of fish' arrangement, not intracellular diplococci.",
+                "D": "Moraxella catarrhalis, while a Gram-negative diplococcus, is primarily a respiratory pathogen and not a typical cause of urethritis.",
+                "E": "Neisseria meningitidis is morphologically identical but is found in the nasopharynx and causes meningitis, not a localized genital infection."
+            }
+        }
+    },
+    {
+        "question": "Which of the following correctly distinguishes Campylobacter jejuni from Helicobacter pylori?",
+        "choices": {
+            "A": "C. jejuni is oxidase-negative and urease-positive.",
+            "B": "C. jejuni is urease-positive and grows at 37°C.",
+            "C": "C. jejuni grows at 42°C and is hippurate hydrolysis-positive.",
+            "D": "H. pylori grows at 42°C and is catalase-negative.",
+            "E": "H. pylori is hippurate hydrolysis-positive and grows at 42°C."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Growth at 42°C and a positive hippurate hydrolysis test are the key biochemical features used to identify C. jejuni and differentiate it from H. pylori.",
+            "incorrect": {
+                "A": "Both organisms are oxidase-positive, and H. pylori is the one that is strongly urease-positive.",
+                "B": "C. jejuni is urease-negative.",
+                "D": "H. pylori does not grow at 42°C and is catalase-positive.",
+                "E": "H. pylori is negative for both the hippurate test and growth at 42°C."
+            }
+        }
+    },
+    {
+        "question": "A stool sample is plated on Thiosulfate-Citrate-Bile Salts-Sucrose (TCBS) agar. After incubation, the plate shows large, yellow colonies. A subsequent oxidase test is positive. Which organism is most consistent with these findings?",
+        "choices": {
+            "A": "Escherichia coli",
+            "B": "Salmonella Typhi",
+            "C": "Shigella flexneri",
+            "D": "Vibrio parahaemolyticus",
+            "E": "Vibrio cholerae"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "TCBS agar is selective for Vibrio species. Vibrio cholerae is a sucrose fermenter, which causes it to produce acid and turn the pH indicator in the agar yellow. It is also oxidase-positive.",
+            "incorrect": {
+                "A": "E. coli growth is typically inhibited on TCBS agar and it is oxidase-negative.",
+                "B": "Salmonella growth is typically inhibited on TCBS agar and it is oxidase-negative.",
+                "C": "Shigella growth is typically inhibited on TCBS agar and it is oxidase-negative.",
+                "D": "Vibrio parahaemolyticus is a non-sucrose fermenter, so it produces green (or blue-green) colonies on TCBS agar."
+            }
+        }
+    },
+    {
+        "question": "A patient's UTI culture reveals a Gram-negative bacillus that is a non-lactose fermenter. It shows 'swarming' motility on blood agar and is strongly urease-positive, a combination associated with struvite kidney stones. Which organism is the most likely cause?",
+        "choices": {
+            "A": "Pseudomonas aeruginosa",
+            "B": "Klebsiella pneumoniae",
+            "C": "Enterobacter spp.",
+            "D": "Proteus mirabilis",
+            "E": "Escherichia coli"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "Proteus species, particularly P. mirabilis, are classic for all the features described: they exhibit the swarming phenomenon, are strongly urease-positive, and are a well-known cause of UTIs associated with struvite stone formation. It is also a non-lactose fermenter.",
+            "incorrect": {
+                "A": "Pseudomonas aeruginosa is motile but does not swarm and is urease-negative.",
+                "B": "Klebsiella pneumoniae is a lactose fermenter and is non-motile.",
+                "C": "Enterobacter spp. is a lactose fermenter and does not swarm.",
+                "E": "Escherichia coli is a lactose fermenter, does not swarm, and is urease-negative."
+            }
+        }
+    },
+    {
+        "question": "A 2-year-old child presents with a soft, painful ulcer on the genitals and tender inguinal lymphadenopathy. A Gram-stain from the ulcer reveals small, Gram-negative coccobacilli arranged in parallel chains, described as a 'school of fish' or 'railroad track' pattern. What is the most probable diagnosis?",
+        "choices": {
+            "A": "Chancroid",
+            "B": "Pertussis",
+            "C": "Gonorrhea",
+            "D": "Meningitis",
+            "E": "Syphilis"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The clinical diagnosis is Chancroid, which is caused by the bacterium Haemophilus ducreyi. The presentation of a painful genital ulcer (soft chancre) and the unique 'school of fish' microscopic appearance are the defining features of this infection.",
+            "incorrect": {
+                "B": "Pertussis is whooping cough, a respiratory infection.",
+                "C": "Gonorrhea is caused by N. gonorrhoeae (Gram-negative diplococci) and typically causes discharge rather than ulcers.",
+                "D": "Meningitis is an infection of the membranes covering the brain and spinal cord.",
+                "E": "The primary ulcer (chancre) of syphilis is classically painless, not painful."
+            }
+        }
+    }
+]

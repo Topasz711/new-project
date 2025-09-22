@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A 45-year-old farmer presents with a deep, contaminated wound on his leg. The wound is necrotic with a foul-smelling discharge, and a crackling sensation (crepitus) is noted. A Gram stain shows large, boxcar-shaped Gram-positive rods. What is the most likely causative agent and its primary virulence factor responsible for the tissue destruction?",
+        "choices": {
+            "A": "Clostridium tetani; Tetanospasmin",
+            "B": "Bacteroides fragilis; Polysaccharide capsule",
+            "C": "Clostridium perfringens; Alpha-toxin",
+            "D": "Clostridioides difficile; Toxins A and B",
+            "E": "Propionibacterium spp.; Not toxin-mediated"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The clinical picture of a traumatic wound with tissue necrosis and crepitus (gas in the tissues) is the hallmark of gas gangrene. Clostridium perfringens is the classic causative agent. Its most important virulence factor is the α-toxin, a phospholipase that hydrolyzes components of host cell membranes, leading to widespread tissue destruction.",
+            "incorrect": {
+                "A": "Clostridium tetani causes tetanus (spastic paralysis) due to its neurotoxin; it does not cause myonecrosis or gas gangrene.",
+                "B": "Bacteroides fragilis is a Gram-negative rod that primarily causes intra-abdominal abscesses.",
+                "D": "Clostridioides difficile causes antibiotic-associated diarrhea and colitis; it is not a cause of traumatic wound infections.",
+                "E": "Propionibacterium spp. is a non-spore-forming anaerobe of the skin microbiota and is not a cause of aggressive gas gangrene."
+            }
+        }
+    },
+    {
+        "question": "A 4-month-old infant is hospitalized with constipation, lethargy, poor feeding, and notable muscle weakness ('floppy baby syndrome'). The parents recently added honey to the infant's formula. This presentation is most consistent with a neurotoxin that acts by which mechanism?",
+        "choices": {
+            "A": "Preventing the release of acetylcholine at the neuromuscular junction.",
+            "B": "Triggering fluid secretion in the colon by disrupting tight junctions.",
+            "C": "Forming pores in host cell membranes within the gastrointestinal tract.",
+            "D": "Directly lysing muscle cell membranes via a phospholipase.",
+            "E": "Enhancing muscular contraction by blocking inhibitory neurons."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The clinical presentation is classic for infant botulism, strongly associated with ingesting honey containing Clostridium botulinum spores. The botulinum toxin acts at the neuromuscular junction to block the release of acetylcholine, which prevents muscle contraction and results in the characteristic flaccid paralysis ('floppy baby syndrome').",
+            "incorrect": {
+                "B": "This is the mechanism of Clostridioides difficile toxins, which cause diarrhea.",
+                "C": "This describes the action of some enterotoxins, which cause diarrhea, not systemic paralysis.",
+                "D": "This is the mechanism of Clostridium perfringens α-toxin, which causes gas gangrene.",
+                "E": "This is the mechanism of tetanus toxin, which causes spastic (rigid) paralysis, the opposite of the infant's symptoms."
+            }
+        }
+    },
+    {
+        "question": "A patient recovering from abdominal surgery develops a large abscess. A culture grows a Gram-negative bacillus that is highly resistant to penicillin and many cephalosporins but is susceptible to metronidazole. Based on this profile, which virulence mechanism is most likely?",
+        "choices": {
+            "A": "Production of a β-lactamase enzyme.",
+            "B": "Formation of spores that are impervious to antibiotics.",
+            "C": "Alteration of the drug's target site in the cell wall.",
+            "D": "Production of a potent neurotoxin that neutralizes the antibiotics.",
+            "E": "A thick polysaccharide capsule that prevents antibiotic entry."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The scenario describes a typical infection by Bacteroides fragilis, the leading cause of intra-abdominal abscesses. A key feature of B. fragilis is its resistance to many β-lactam antibiotics (like penicillin and cephalosporins) due to its production of a β-lactamase enzyme. The file also notes its susceptibility to metronidazole.",
+            "incorrect": {
+                "B": "Bacteroides fragilis is a Gram-negative bacillus and does not form spores.",
+                "C": "While a valid resistance mechanism, the specific resistance profile of B. fragilis mentioned in the text is attributed to β-lactamase production.",
+                "D": "Neurotoxins act on the nervous system; they do not inactivate antibiotics. B. fragilis is not known for this mechanism.",
+                "E": "The capsule is a crucial virulence factor for abscess formation by helping the bacterium evade phagocytosis, but the primary mechanism for resistance to this class of antibiotics is enzymatic degradation."
+            }
+        }
+    },
+    {
+        "question": "Most anaerobic infections are 'endogenous,' caused by an organism from the person's own microbiota. The infection occurs when a mucosal barrier is disrupted. Based on this principle, which scenario represents an EXOGENOUS anaerobic infection?",
+        "choices": {
+            "A": "An aspiration pneumonia involving Peptostreptococcus spp. from the oral cavity.",
+            "B": "A pelvic abscess in a female patient caused by Prevotella from the urogenital tract.",
+            "C": "A post-surgical intra-abdominal abscess caused by Bacteroides fragilis from the colon.",
+            "D": "A brain abscess following a dental extraction, caused by Fusobacterium.",
+            "E": "A case of tetanus in a gardener who sustained a deep puncture wound from a rusty tool."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "An exogenous infection originates from an external source. The spores of Clostridium tetani are found in the environment and soil. Infection occurs when these spores are introduced into a wound from this outside source. This is distinct from an endogenous infection, which comes from the patient's own body.",
+            "incorrect": {
+                "A": "This is a classic example of an endogenous infection, as Peptostreptococcus is part of the normal oral flora.",
+                "B": "This is a classic example of an endogenous infection, as Prevotella is part of the normal urogenital flora.",
+                "C": "This is a classic example of an endogenous infection, as Bacteroides fragilis is part of the normal colon flora.",
+                "D": "This is a classic example of an endogenous infection, as Fusobacterium is part of the normal oral flora."
+            }
+        }
+    }
+]
