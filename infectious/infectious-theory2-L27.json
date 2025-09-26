@@ -1,1 +1,122 @@
-[]
+[
+    {
+        "question": "A patient presents with a painless chancre on the genitals. Several weeks later, they develop a maculopapular rash on the palms and soles. If untreated, this can progress to affect the cardiovascular and nervous systems. Which organism is responsible?",
+        "choices": {
+            "A": "Leptospira interrogans",
+            "B": "Borrelia hermsii",
+            "C": "Borrelia burgdorferi",
+            "D": "Treponema pertenue",
+            "E": "Treponema pallidum"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "This is the causative agent of syphilis. The disease progression perfectly matches the case: a primary stage with a painless genital ulcer (chancre), followed by a secondary stage with a maculopapular rash that classically appears on the palms and soles, and an untreated tertiary stage that can lead to severe cardiovascular and neurological problems.",
+            "incorrect": {
+                "A": "This organism causes leptospirosis, an acute febrile illness, not the distinct stages of a chancre followed by a rash on the palms and soles.",
+                "B": "This spirochete causes tick-borne relapsing fever, characterized by recurring episodes of high fever, not the specific clinical progression described.",
+                "C": "This organism causes Lyme disease, which typically begins with an erythema migrans ('bull's-eye') rash, not a painless chancre.",
+                "D": "This organism causes yaws, a non-venereal disease that primarily affects the skin, bones, and joints and does not begin with a genital chancre."
+            }
+        }
+    },
+    {
+        "question": "A 65-year-old smoker with COPD is hospitalized with pneumonia, high fever, a dry cough, headache, and confusion. Lab tests show hyponatremia. He attended a convention at a large hotel with decorative fountains two weeks prior. A special culture on buffered charcoal yeast extract (BCYE) agar is ordered. Which organism is suspected?",
+        "choices": {
+            "A": "Mycoplasma pneumoniae",
+            "B": "Legionella pneumophila",
+            "C": "Streptococcus pneumoniae",
+            "D": "Chlamydia pneumoniae",
+            "E": "Haemophilus influenzae"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "This organism causes Legionnaires' disease. The epidemiology fits perfectly (transmitted via aerosols from water sources). The clinical picture of severe pneumonia with headache and confusion in an at-risk patient is classic. The requirement for a special culture medium like BCYE agar is also characteristic.",
+            "incorrect": {
+                "A": "This causes atypical pneumonia but is not associated with contaminated environmental water sources and does not require BCYE agar.",
+                "C": "This is a common cause of typical pneumonia and would be readily grown on standard blood agar.",
+                "D": "This organism causes atypical pneumonia but is transmitted from person to person, not from contaminated water systems.",
+                "E": "Although a common cause of pneumonia in patients with COPD, it is not associated with hotel fountains and does not require BCYE agar."
+            }
+        }
+    },
+    {
+        "question": "A 15-year-old student presents with a persistent, non-productive cough, low-grade fever, and malaise for two weeks. A chest X-ray reveals patchy infiltrates, appearing more severe than the clinical symptoms suggest. A Gram stain of the sputum shows mononuclear cells but no visible bacteria. This presentation suggests 'walking pneumonia' caused by which organism?",
+        "choices": {
+            "A": "Chlamydia pneumoniae",
+            "B": "Legionella pneumophila",
+            "C": "Ureaplasma urealyticum",
+            "D": "Mycoplasma pneumoniae",
+            "E": "Streptococcus pneumoniae"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "This organism is a classic cause of atypical ('walking') pneumonia, especially in the 5-15 year old age range. A key diagnostic feature is that it lacks a cell wall, meaning it will not be visible on a Gram stain, which matches the lab findings. The insidious onset of symptoms also fits the description.",
+            "incorrect": {
+                "A": "This is another cause of 'walking' pneumonia, but Mycoplasma pneumoniae is an especially common cause in the 5-15 year old age group.",
+                "B": "This typically causes a more severe pneumonia (Legionnaires' disease), not the milder 'walking pneumonia' common in teenagers.",
+                "C": "This organism is primarily associated with infections of the genitourinary tract, not respiratory infections.",
+                "E": "This is a leading cause of typical pneumonia and, as a Gram-positive coccus, it would be easily seen on a Gram stain."
+            }
+        }
+    },
+    {
+        "question": "An elderly woman with diabetes develops a rapidly progressing, painful, erythematous swelling on her hand within 12 hours of being bitten by her cat. A wound culture grows a Gram-negative coccobacillus that is penicillin-sensitive. Which organism is the most likely pathogen?",
+        "choices": {
+            "A": "Pasteurella multocida",
+            "B": "Yersinia pestis",
+            "C": "Bartonella henselae",
+            "D": "Capnocytophaga canimorsus",
+            "E": "Francisella tularensis"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "This Gram-negative coccobacillus is the most common pathogen found in wound infections from cat and dog bites. Infections are known for their extremely rapid onset (typically within 24 hours) and progression to cellulitis, which perfectly describes the case. It is also characteristically sensitive to penicillin.",
+            "incorrect": {
+                "B": "This causes plague and is transmitted by fleas from rodents, not directly from cat bites.",
+                "C": "This agent causes cat-scratch disease, which has a much slower onset (1-3 weeks) and presents differently.",
+                "D": "While found in animal mouths, it is more often associated with sepsis in immunocompromised individuals, rather than localized cellulitis.",
+                "E": "This causes tularemia and is more commonly associated with rabbits or tick bites, not cat bites."
+            }
+        }
+    },
+    {
+        "question": "A park ranger in the southwestern United States develops sudden high fever, chills, and a painfully swollen lymph node ('bubo') in his groin. He reports finding several dead prairie dogs near his station recently. Flea bites are common. Which Gram-negative coccobacillus is the most probable cause?",
+        "choices": {
+            "A": "Yersinia pestis",
+            "B": "Francisella tularensis",
+            "C": "Pasteurella multocida",
+            "D": "Bartonella henselae",
+            "E": "Brucella melitensis"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "This is the causative agent of plague. The epidemiology is a perfect match: rodents (like prairie dogs) are the reservoir, and it is transmitted by fleas. The development of a painful, swollen lymph node, known as a bubo, is the hallmark of bubonic plague.",
+            "incorrect": {
+                "B": "This causes tularemia. While it can cause swollen lymph nodes, the classic presentation of a large, extremely painful bubo linked to a die-off of prairie dogs is more specific to plague.",
+                "C": "This is associated with direct animal bites leading to localized cellulitis, not a systemic illness with a bubo from flea transmission.",
+                "D": "This is associated with cat scratches and causes a more subacute lymphadenopathy, not an acute, severe bubo.",
+                "E": "This causes brucellosis, characterized by an undulating fever, typically acquired from livestock. It does not cause buboes."
+            }
+        }
+    },
+    {
+        "question": "A 10-year-old child is brought to the clinic with a low-grade fever and a tender, swollen lymph node in the axilla. The mother reports the child was scratched by their new kitten about two weeks ago, and a small papule had formed at the scratch site. Which organism is the most likely causative agent?",
+        "choices": {
+            "A": "Bartonella henselae",
+            "B": "Chlamydia trachomatis",
+            "C": "Rickettsia rickettsii",
+            "D": "Coxiella burnetii",
+            "E": "Orientia tsutsugamushi"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "This is the classic agent of Cat Scratch Disease (CSD). The history of a cat scratch followed by the development of a papule at the inoculation site and tender regional lymphadenopathy 1-3 weeks later is the textbook presentation.",
+            "incorrect": {
+                "B": "This organism causes sexually transmitted infections and trachoma and has no association with animal scratches.",
+                "C": "This causes Rocky Mountain Spotted Fever, a tick-borne illness that presents with high fever and a rash.",
+                "D": "This causes Q fever, typically an atypical pneumonia acquired from inhaling aerosols from infected livestock.",
+                "E": "This causes scrub typhus and is transmitted by mites (chiggers), not associated with cats."
+            }
+        }
+    }
+]

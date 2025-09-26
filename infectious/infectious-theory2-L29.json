@@ -1,1 +1,122 @@
-[]
+[
+    {
+        "question": "A patient with a history of severe penicillin allergy (anaphylaxis) is diagnosed with a serious infection caused by Pseudomonas aeruginosa. Which of the following beta-lactams could be considered a relatively safe option in this specific scenario due to its unique structural properties?",
+        "choices": {
+            "A": "Imipenem-cilastatin",
+            "B": "Aztreonam",
+            "C": "Meropenem",
+            "D": "Piperacillin-tazobactam",
+            "E": "Ceftazidime"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "As a monobactam, Aztreonam has a unique structure that lacks the fused bicyclic ring common to other beta-lactams. This results in a very low to negligible risk of allergic cross-reactivity in patients with a penicillin allergy, making it a safe choice.",
+            "incorrect": {
+                "A": "This is a carbapenem. Carbapenems have a risk of cross-reactivity with penicillins and should be used with caution in patients with a history of anaphylaxis.",
+                "C": "Like imipenem, meropenem is a carbapenem and carries a risk of cross-reactivity, making it a potentially unsafe choice for a patient with a history of penicillin-induced anaphylaxis.",
+                "D": "Piperacillin is an extended-spectrum penicillin. This drug is in the same class as the one the patient is allergic to and is therefore contraindicated.",
+                "E": "While modern cephalosporins have a lower risk of cross-reactivity, a small risk still exists. Given the history of severe anaphylaxis, Aztreonam is the safer and more appropriate choice."
+            }
+        }
+    },
+    {
+        "question": "A patient on a 14-day course of gentamicin for a complicated infection begins to complain of a persistent ringing in their ears and feeling unsteady on their feet. Which of the following statements best describes the pattern of this adverse drug reaction?",
+        "choices": {
+            "A": "This is a rare, idiosyncratic reaction unrelated to the drug's mechanism",
+            "B": "This represents dose-related ototoxicity, which can affect both auditory and vestibular function and may be irreversible",
+            "C": "This is a temporary side effect that will resolve upon discontinuation of the drug",
+            "D": "The symptoms are likely due to nephrotoxicity causing electrolyte imbalances",
+            "E": "The reaction is an expected part of the 'post-antibiotic effect' and indicates drug efficacy"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Aminoglycosides are known to accumulate in the inner ear, causing damage to both the cochlea (leading to hearing loss and tinnitus, or ringing) and the vestibular system (leading to dizziness and imbalance). This damage is often irreversible.",
+            "incorrect": {
+                "A": "This is a well-documented, dose-dependent toxicity of the aminoglycoside class, not a rare or unpredictable reaction.",
+                "C": "A key danger of aminoglycoside-induced ototoxicity is that it is frequently permanent, even after the medication has been stopped.",
+                "D": "While nephrotoxicity is also a major risk with aminoglycosides, the specific symptoms of ringing ears and unsteadiness point directly to ototoxicity (inner ear damage).",
+                "E": "The post-antibiotic effect (PAE) is a measure of efficacy against bacteria and is unrelated to host side effects."
+            }
+        }
+    },
+    {
+        "question": "A 22-year-old college student is prescribed a course of doxycycline for a skin infection. Which of the following pieces of advice is most critical for the pharmacist to provide to mitigate a well-known adverse effect of this specific tetracycline?",
+        "choices": {
+            "A": "Avoid consuming alcohol due to the risk of a disulfiram-like reaction",
+            "B": "Monitor for signs of tendon pain and report them immediately",
+            "C": "Be sure to use sunscreen and wear protective clothing when outdoors",
+            "D": "Take the medication with a full glass of milk to prevent stomach upset",
+            "E": "Have a baseline EKG performed due to the risk of QT prolongation"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Doxycycline is well-known for causing photosensitivity, which can lead to severe sunburn on exposed skin, even after short periods of sun exposure. This is a crucial counseling point for patients.",
+            "incorrect": {
+                "A": "This reaction is classically associated with metronidazole, not doxycycline.",
+                "B": "Tendinitis and tendon rupture are serious adverse effects associated with the fluoroquinolone class of antibiotics.",
+                "D": "Taking tetracyclines with dairy products, antacids, or iron supplements can significantly decrease the drug's absorption and effectiveness.",
+                "E": "This precaution is important for macrolides (like azithromycin) and fluoroquinolones, but it is not a typical concern for doxycycline."
+            }
+        }
+    },
+    {
+        "question": "Which of the following adverse effect patterns is specifically highlighted by multiple FDA Black Box Warnings for fluoroquinolones like ciprofloxacin and levofloxacin?",
+        "choices": {
+            "A": "QT interval prolongation and significant CYP3A4 drug interactions",
+            "B": "Thrombocytopenia and the risk of serotonin syndrome with concomitant SSRI use",
+            "C": "Disabling and potentially permanent side effects involving tendons, muscles, joints, nerves, and the CNS",
+            "D": "Nephrotoxicity and ototoxicity, especially when used with loop diuretics",
+            "E": "Infusion-related reactions ('Red Man Syndrome') and a high risk of C. difficile infection"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The FDA has issued several black box warnings for fluoroquinolones, emphasizing the risk of a constellation of serious and potentially irreversible adverse events, including tendon rupture, peripheral neuropathy, and CNS effects like confusion or seizures.",
+            "incorrect": {
+                "A": "This profile is more characteristic of macrolides like erythromycin and clarithromycin.",
+                "B": "These are the key safety warnings associated with linezolid.",
+                "D": "This is the classic toxicity profile of the aminoglycoside class of antibiotics.",
+                "E": "'Red Man Syndrome' is a reaction specifically associated with rapid infusions of vancomycin."
+            }
+        }
+    },
+    {
+        "question": "A patient being treated for a VRE (Vancomycin-Resistant Enterococcus) infection with linezolid has a past medical history of major depressive disorder, for which they take an SSRI daily. This drug combination puts the patient at a significant risk for what condition?",
+        "choices": {
+            "A": "Acute kidney injury",
+            "B": "QT Prolongation",
+            "C": "Serotonin Syndrome",
+            "D": "Hyperkalemia",
+            "E": "Myelosuppression"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Linezolid is a weak, reversible inhibitor of monoamine oxidase (MAO). Co-administration with serotonergic agents like SSRIs can prevent the breakdown of serotonin, leading to dangerously high levels and causing serotonin syndrome, a potentially life-threatening condition.",
+            "incorrect": {
+                "A": "This is not a primary risk of the linezolid-SSRI interaction.",
+                "B": "While other antibiotic classes pose this risk, it is not the main concern for this specific drug combination.",
+                "D": "This is a notable side effect of trimethoprim-sulfamethoxazole, but it is not associated with this interaction.",
+                "E": "While linezolid itself can cause myelosuppression, this is a direct toxicity of the drug, not the result of its interaction with an SSRI."
+            }
+        }
+    },
+    {
+        "question": "A 50-year-old patient develops a severe intra-abdominal infection following a perforated diverticulitis. Empiric therapy is initiated with ceftriaxone. The clinical pharmacist intervenes, recommending the addition of another agent. Which drug should be added and why?",
+        "choices": {
+            "A": "Add azithromycin for atypical coverage",
+            "B": "Add gentamicin for synergy against gram-negatives",
+            "C": "Add vancomycin to cover for MRSA",
+            "D": "Add metronidazole to provide coverage for anaerobic bacteria",
+            "E": "Add nitrofurantoin to sterilize the urinary tract"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The colon has a high concentration of anaerobic bacteria, such as Bacteroides fragilis. A perforation releases these bacteria into the abdomen. Ceftriaxone has poor anaerobic activity, so adding metronidazole, which specifically targets anaerobes, is essential for effective treatment.",
+            "incorrect": {
+                "A": "Atypical pathogens are associated with respiratory infections, not intra-abdominal infections from the gut.",
+                "B": "While this might broaden gram-negative coverage, it fails to address the most significant gap, which is coverage for anaerobic bacteria.",
+                "C": "In a community-acquired intra-abdominal infection, MRSA is not typically a primary concern.",
+                "E": "Nitrofurantoin is only used for uncomplicated lower urinary tract infections and has no role in treating a serious systemic infection like peritonitis."
+            }
+        }
+    }
+]

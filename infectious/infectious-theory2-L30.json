@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A Kirby-Bauer test on a wound isolate shows a zone of inhibition for piperacillin (PIP) of 8 mm and for imipenem (IPM) of 27 mm. Given CLSI criteria (PIP S ≥21, R ≤17; IPM S ≥23, R ≤19), how should these be interpreted?",
+        "choices": {
+            "A": "Both PIP and IPM are Intermediate (I)",
+            "B": "PIP is Resistant (R), IPM is Susceptible (S)",
+            "C": "The results cannot be interpreted without MIC values.",
+            "D": "PIP is Susceptible (S), IPM is Resistant (R)",
+            "E": "Both PIP and IPM are Susceptible (S)"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "This requires direct application of the provided CLSI criteria. For Piperacillin (PIP), the 8 mm zone is ≤17 mm, interpreted as Resistant (R). For Imipenem (IPM), the 27 mm zone is ≥23 mm, interpreted as Susceptible (S). Therefore, the isolate is resistant to piperacillin and susceptible to imipenem.",
+            "incorrect": {
+                "A": "Neither of the measured zone diameters falls into the intermediate range.",
+                "C": "The Kirby-Bauer method is designed to be interpreted directly from zone diameters using breakpoint tables; an MIC is not required.",
+                "D": "This reverses the correct interpretations for both antibiotics.",
+                "E": "The 8 mm zone for PIP clearly falls into the resistant category."
+            }
+        }
+    },
+    {
+        "question": "A hospital in a resource-limited setting needs a routine, cost-effective, simple, and qualitative (S/I/R) antimicrobial susceptibility testing protocol. Which AST method best fits this hospital's needs?",
+        "choices": {
+            "A": "Automated Susceptibility Testing Systems",
+            "B": "Disk Diffusion Method (Kirby-Bauer Testing)",
+            "C": "Agar Dilution Method",
+            "D": "Agar Gradient Diffusion (E-test)",
+            "E": "Broth Microdilution"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The Disk Diffusion method is the most common routine susceptibility method. It is qualitative (S/I/R), relatively inexpensive, and technically straightforward, making it ideal for resource-limited settings.",
+            "incorrect": {
+                "A": "Automated systems are complex and have high initial and maintenance costs.",
+                "C": "The Agar Dilution method is labor-intensive and typically used in research or reference labs.",
+                "D": "The E-test provides a quantitative MIC value but is significantly more expensive per antibiotic tested.",
+                "E": "Broth Microdilution, while standard for quantitative MICs, is more technically demanding and costly than disk diffusion."
+            }
+        }
+    },
+    {
+        "question": "A D-test on a Staphylococcus aureus isolate (Erythromycin-R, Clindamycin-S) shows a flattening of the clindamycin inhibition zone adjacent to the erythromycin disk, forming a 'D' shape. What is the correct interpretation?",
+        "choices": {
+            "A": "D-test positive; report clindamycin as Resistant due to inducible resistance.",
+            "B": "The test is invalid; both disks should show resistance.",
+            "C": "D-test negative; report clindamycin as Susceptible.",
+            "D": "Efflux pump mechanism (msrA); report clindamycin as Susceptible.",
+            "E": "Constitutive resistance (erm); report clindamycin as Resistant."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "This is a classic positive D-test. The 'D' shape indicates the presence of an erm gene, which confers inducible resistance to clindamycin in the presence of an inducer like erythromycin. Despite appearing susceptible in vitro, there is a high risk of in vivo treatment failure, so clindamycin must be reported as Resistant.",
+            "incorrect": {
+                "B": "This is the expected, valid pattern for a positive D-test.",
+                "C": "A negative test would show a perfectly circular zone of inhibition around the clindamycin disk.",
+                "D": "Resistance mediated by an msrA efflux pump results in a negative D-test (a circular zone).",
+                "E": "Constitutive resistance would show the isolate as resistant to both erythromycin and clindamycin from the start (no zone around clindamycin)."
+            }
+        }
+    },
+    {
+        "question": "A review article states that VRE resistance is mediated by the vanA gene, which synthesizes peptidoglycan precursors ending in D-Ala-D-Lactate instead of the usual D-Ala-D-Ala. This substitution dramatically reduces vancomycin's binding affinity. What is the primary mechanism of resistance described?",
+        "choices": {
+            "A": "Target modification of the cell wall precursor",
+            "B": "Reduced uptake due to porin channel mutation",
+            "C": "An efflux pump that removes vancomycin from the cell",
+            "D": "Overproduction of the D-Ala-D-Ala target to sequester the antibiotic",
+            "E": "Enzymatic degradation of vancomycin"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The text explicitly details a change in the drug's target site. The normal target for vancomycin is the D-Ala-D-Ala terminus. VRE synthesizes precursors with a different terminus (D-Ala-D-Lactate). This is a classic example of target modification, altering the structure that the antibiotic normally binds to.",
+            "incorrect": {
+                "B": "The text makes no mention of porin channels.",
+                "C": "There is no description of a pump or any mechanism actively removing vancomycin from the cell.",
+                "D": "The mechanism described is a replacement or substitution of the target, not an overproduction of the original target.",
+                "E": "The text describes a change in the cell wall synthesis pathway, not the production of an enzyme that destroys the vancomycin molecule itself."
+            }
+        }
+    }
+]

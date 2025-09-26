@@ -1,1 +1,122 @@
-[]
+[
+    {
+        "question": "Which of the following associations is INCORRECTLY depicted or represents a mismatch between the agent's risk group and the required BSL?",
+        "choices": {
+            "A": "Ebola virus - BSL-4",
+            "B": "Mycobacterium tuberculosis - BSL-3",
+            "C": "Staphylococcus aureus - BSL-3",
+            "D": "Baker's yeast (Saccharomyces cerevisiae) - BSL-1",
+            "E": "Measles virus - BSL-2"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This is incorrect. Staphylococcus aureus is a Risk Group 2 pathogen. It can cause human disease, but effective treatment is available, and community risk is low. Therefore, it is handled under Biosafety Level 2 (BSL-2) conditions. BSL-3 is for Risk Group 3 agents like M. tuberculosis that pose a high individual risk of aerosol transmission.",
+            "incorrect": {
+                "A": "This is correct. Ebola virus is a Risk Group 4 agent requiring the maximum containment of BSL-4.",
+                "B": "This is correct. M. tuberculosis is a Risk Group 3 agent transmitted via inhalation that requires BSL-3.",
+                "D": "This is correct. Saccharomyces cerevisiae is a Risk Group 1 agent not known to cause disease in healthy humans, requiring only BSL-1.",
+                "E": "This is correct. Measles virus is a common pathogen (Risk Group 2) for which preventive measures exist, appropriately handled at BSL-2."
+            }
+        }
+    },
+    {
+        "question": "Based on the hierarchy of resistance to disinfectants, which option correctly ranks the following from MOST resistant to LEAST resistant? (I. M. tuberculosis, II. Bacterial spores, III. Lipid viruses, IV. Fungi)",
+        "choices": {
+            "A": "II, IV, III, I",
+            "B": "I, II, III, IV",
+            "C": "II, I, IV, III",
+            "D": "III, IV, I, II",
+            "E": "IV, III, I, II"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This option correctly follows the established hierarchy: 1. Bacterial spores (II) are the most resistant. 2. Mycobacteria (I) are next due to their waxy cell wall. 3. Fungi (IV) have moderate resistance. 4. Lipid (enveloped) viruses (III) are the least resistant because the lipid envelope is easily disrupted.",
+            "incorrect": {
+                "A": "Incorrectly ranks fungi (IV) as more resistant than mycobacteria (I).",
+                "B": "Incorrectly ranks mycobacteria (I) as more resistant than bacterial spores (II).",
+                "D": "This order is nearly reversed, incorrectly listing the most susceptible agent as the most resistant.",
+                "E": "This order is also incorrect and does not follow the scientific hierarchy of resistance."
+            }
+        }
+    },
+    {
+        "question": "During a hospital outbreak, several patients developed aspiration pneumonia, and bedpans were heavily contaminated with anaerobic Gram-positive bacilli. To ensure safe reuse of these bedpans, which method of decontamination is most appropriate?",
+        "choices": {
+            "A": "Boiling for 45 minutes at 100°C",
+            "B": "Autoclaving at 121°C for 15 minutes",
+            "C": "Soaking in 0.05% benzalkonium chloride for 1 hour",
+            "D": "Baking in a hot air oven at 210°C for 1 hour",
+            "E": "Rinsing with 70% ethanol for 5 minutes"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The description suggests a spore-forming organism like Clostridioides difficile. Bacterial spores are extremely resistant. Autoclaving uses pressurized steam to achieve 121°C, a sterilization method capable of destroying all microorganisms, including spores, making it the most reliable method.",
+            "incorrect": {
+                "A": "Boiling is disinfection, not sterilization, and does not reliably destroy all bacterial spores.",
+                "C": "Benzalkonium chloride is a low-level disinfectant ineffective against bacterial spores.",
+                "D": "While dry heat is a sterilization method, 210°C is unnecessarily high and could damage the item; autoclaving is more standard.",
+                "E": "Ethanol is an intermediate-level disinfectant and is not effective against bacterial spores."
+            }
+        }
+    },
+    {
+        "question": "The Spaulding Classification system categorizes medical devices based on their risk of infection. Based on this system, which of the following device-classification-disinfection level combinations is INCORRECT?",
+        "choices": {
+            "A": "Device: Surgical forceps; Classification: Critical; Level: Sterilization",
+            "B": "Device: Blood pressure cuff; Classification: Non-critical; Level: Low-level disinfection",
+            "C": "Device: Urinary catheters; Classification: Critical; Level: Sterilization",
+            "D": "Device: Anesthesia breathing circuits; Classification: Semi-critical; Level: High-level disinfection",
+            "E": "Device: Flexible fiberoptic endoscope; Classification: Critical; Level: Sterilization"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "This combination is incorrect. Flexible endoscopes contact mucous membranes, making them Semi-critical items, not Critical. Semi-critical items require, at a minimum, high-level disinfection. The classification as 'Critical' is inaccurate.",
+            "incorrect": {
+                "A": "This is correct. Surgical forceps enter sterile tissue, are classified as Critical, and require sterilization.",
+                "B": "This is correct. A blood pressure cuff contacts only intact skin, is classified as Non-critical, and requires low-level disinfection.",
+                "C": "This is correct. Urinary catheters enter the sterile urinary system, are classified as Critical, and must be sterile.",
+                "D": "This is correct. Anesthesia circuits contact mucous membranes, are classified as Semi-critical, and require high-level disinfection."
+            }
+        }
+    },
+    {
+        "question": "Which of the following agents is most appropriately classified as Risk Group 3?",
+        "choices": {
+            "A": "Escherichia coli K-12 used in teaching laboratories",
+            "B": "Candida albicans isolated from oral swabs",
+            "C": "Mycobacterium tuberculosis from sputum specimens",
+            "D": "Lactobacillus acidophilus in probiotic capsules",
+            "E": "Adeno-associated virus vectors for gene delivery"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Mycobacterium tuberculosis is a pathogen that causes a serious or lethal human disease (tuberculosis), is transmissible by aerosol, and for which effective treatments are available. These characteristics place it squarely in Risk Group 3, requiring BSL-3 containment.",
+            "incorrect": {
+                "A": "Escherichia coli K-12 is a non-pathogenic laboratory strain and is a classic example of a Risk Group 1 agent.",
+                "B": "Candida albicans can cause human disease, but it is rarely serious in healthy individuals, and effective treatments are available. It is a Risk Group 2 agent.",
+                "D": "Lactobacillus acidophilus is a beneficial bacterium and is not associated with disease. It is a Risk Group 1 agent.",
+                "E": "Adeno-associated virus vectors are not associated with disease in humans and are considered Risk Group 1 agents."
+            }
+        }
+    },
+    {
+        "question": "Which PPE set is required before cleaning a major biological spill involving human blood samples in a diagnostic lab?",
+        "choices": {
+            "A": "Lab coat only",
+            "B": "Gloves and face shield only",
+            "C": "N95 mask, goggles, gloves, gown, and shoe covers",
+            "D": "Safety glasses and apron only",
+            "E": "Positive-pressure suit with external air supply"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "A major blood spill poses risks of contact, splashes, and aerosols. This comprehensive PPE set is required: N95 mask (respiratory protection), goggles (eye protection), gloves (hand protection), a fluid-resistant gown (body/clothing protection), and shoe covers (prevent spreading contamination).",
+            "incorrect": {
+                "A": "This is grossly insufficient, offering no protection for the face, eyes, or respiratory system.",
+                "B": "This is inadequate, leaving clothing and the respiratory system unprotected.",
+                "D": "This is insufficient. Safety glasses don't provide a seal like goggles, an apron offers less coverage than a gown, and there's no hand or respiratory protection.",
+                "E": "This is excessive. A positive-pressure suit is for BSL-4 work with highly dangerous pathogens, not a BSL-2 level spill."
+            }
+        }
+    }
+]
