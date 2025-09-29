@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "The cell membranes of fungi are a primary target for several antifungal agents because they contain a unique sterol not found in human cells. What is this key sterol?",
+        "choices": {
+            "A": "Cholesterol",
+            "B": "Ergosterol",
+            "C": "Lanosterol",
+            "D": "Stigmasterol",
+            "E": "Zymosterol"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Ergosterol is the principal sterol in the fungal cell membrane. Its unique presence in fungi makes it an excellent target for antifungal drugs like amphotericin B and the azole group, which inhibit its synthesis or function.",
+            "incorrect": {
+                "A": "Cholesterol is the primary sterol found in human cell membranes, not fungal membranes.",
+                "C": "Lanosterol is a precursor molecule in the synthesis pathway of both ergosterol and cholesterol; it is not the final, unique sterol.",
+                "D": "This is a type of phytosterol, a sterol found in plants, not fungi.",
+                "E": "Zymosterol is another intermediate in the ergosterol biosynthesis pathway but is not the final functional component of the fungal cell membrane."
+            }
+        }
+    },
+    {
+        "question": "The term 'Hyaline mold' refers to a specific characteristic of the fungal hyphae. What does this term describe?",
+        "choices": {
+            "A": "The presence of regular cross-walls or septa",
+            "B": "The absence of cross-walls, resulting in coenocytic hyphae",
+            "C": "The hyphae are darkly pigmented due to melanin",
+            "D": "The hyphae are non-pigmented or lightly colored",
+            "E": "The hyphae are specialized for nutrient absorption"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "Fungal hyphae are classified by their color into two groups: hyaline (lightly colored) and dematiaceous (darkly colored). Examples of hyaline molds include Aspergillus and Dermatophytes.",
+            "incorrect": {
+                "A": "This describes septate hyphae, which is a classification based on internal structure, not color.",
+                "B": "This describes aseptate or non-septate hyphae.",
+                "C": "This describes dematiaceous mold, also known as black mold.",
+                "E": "This describes the function of vegetative hyphae, not a visual characteristic like color."
+            }
+        }
+    },
+    {
+        "question": "A patient presents with thickened, discolored toenails. A KOH prep of a nail clipping reveals long, branching filaments that break up into individual cells. This method of asexual reproduction, involving the fragmentation of septate hyphae, produces which type of conidia?",
+        "choices": {
+            "A": "Blastoconidia",
+            "B": "Arthroconidia",
+            "C": "Chlamydoconidia",
+            "D": "Microconidia",
+            "E": "Sporangiospores"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Arthroconidia are asexual conidia formed by the simple fragmentation of pre-existing hyphae into individual cells. This is a characteristic feature of dermatophytes, the fungi that cause onychomycosis (nail infections).",
+            "incorrect": {
+                "A": "Blastoconidia are asexual spores produced by budding from a mother cell, characteristic of yeasts like Candida.",
+                "C": "These are thick-walled resting spores that form from hyphal cells to survive harsh conditions, not by fragmentation of the entire hypha.",
+                "D": "While dermatophytes produce microconidia, these are small spores borne off the sides of hyphae, not formed by fragmentation of the hypha itself.",
+                "E": "These are asexual spores produced inside a sac-like sporangium, typical of Zygomycetes like Rhizopus."
+            }
+        }
+    },
+    {
+        "question": "A patient on broad-spectrum antibiotics develops thick, white plaques on her tongue. A wet mount shows oval cells and elongated filaments with constrictions at their septations. This organism is a yeast capable of forming pseudohyphae. Which pathogen matches this description?",
+        "choices": {
+            "A": "Aspergillus spp.",
+            "B": "Cryptococcus neoformans",
+            "C": "Rhizopus spp.",
+            "D": "Candida albicans",
+            "E": "Histoplasma capsulatum"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "This clinical presentation is classic for oral thrush (candidiasis). Candida is a yeast characterized by its ability to form budding yeast cells (blastoconidia) and pseudohyphae, which are chains of elongated yeast cells with constrictions at the septa.",
+            "incorrect": {
+                "A": "Aspergillus is a mold that forms true septate hyphae; it does not exist as a yeast or form pseudohyphae in tissue.",
+                "B": "This is an encapsulated yeast that reproduces by budding and does not typically form pseudohyphae.",
+                "C": "Rhizopus is a mold characterized by broad, non-septate hyphae and does not have a yeast form.",
+                "E": "This is a dimorphic fungus that appears as small, intracellular yeasts within macrophages in host tissue; it does not form pseudohyphae."
+            }
+        }
+    }
+]

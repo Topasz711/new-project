@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A 45-year-old male being treated for extensive onychomycosis with an oral antifungal reports severe facial flushing, headache, and nausea after drinking wine. Which antifungal drug is the most likely cause of this reaction?",
+        "choices": {
+            "A": "Terbinafine",
+            "B": "Itraconazole",
+            "C": "Fluconazole",
+            "D": "Amphotericin B",
+            "E": "Griseofulvin"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The patient is experiencing a disulfiram-like reaction, which occurs when alcohol is consumed with certain medications. Griseofulvin is known to cause this specific adverse effect.",
+            "incorrect": {
+                "A": "Terbinafine's main adverse effects include hepatic toxicity and GI upset; it is not associated with a disulfiram-like reaction.",
+                "B": "Azoles like Itraconazole are associated with GI upset and hepatotoxicity, but not a disulfiram-like reaction.",
+                "C": "Azoles like Fluconazole are associated with GI upset and hepatotoxicity, but not a disulfiram-like reaction.",
+                "D": "Amphotericin B is an IV drug for severe systemic infections, not oral for onychomycosis. Its main toxicities are infusion-related reactions and nephrotoxicity."
+            }
+        }
+    },
+    {
+        "question": "A patient is prescribed oral ketoconazole. Co-administration of which drug would most likely lead to reduced absorption and decreased efficacy of the antifungal agent?",
+        "choices": {
+            "A": "Acetaminophen for fever",
+            "B": "A high-fat meal",
+            "C": "A proton-pump inhibitor like omeprazole",
+            "D": "A carbonated cola beverage",
+            "E": "An antihistamine like diphenhydramine"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The absorption of certain azoles, including ketoconazole, requires an acidic gastric environment. Proton-pump inhibitors, which reduce stomach acid, will decrease the absorption of these drugs.",
+            "incorrect": {
+                "A": "Acetaminophen is not known to affect the absorption of azole antifungals.",
+                "B": "A high-fat meal is noted to increase the absorption of Griseofulvin, not decrease the absorption of ketoconazole.",
+                "D": "Acidic beverages, such as carbonated drinks, are stated to enhance the oral absorption of azoles.",
+                "E": "Antihistamines do not interfere with the absorption of ketoconazole."
+            }
+        }
+    },
+    {
+        "question": "An ICU patient with a central line develops candidemia due to Candida glabrata (often azole-resistant). The patient has pre-existing renal insufficiency. Which IV agent targeting the fungal cell wall would be appropriate?",
+        "choices": {
+            "A": "Fluconazole",
+            "B": "Voriconazole",
+            "C": "Amphotericin B deoxycholate",
+            "D": "Flucytosine monotherapy",
+            "E": "Caspofungin"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "Caspofungin is an echinocandin that works by inhibiting β-glucan synthase, a key component of the fungal cell wall. This class is effective against azole-resistant Candida species and has a favorable safety profile, making it a good choice for patients with renal insufficiency.",
+            "incorrect": {
+                "A": "Fluconazole is an azole and may be ineffective against a resistant C. glabrata strain. It targets the cell membrane, not the cell wall.",
+                "B": "Voriconazole is an azole and may be ineffective. It also targets the cell membrane.",
+                "C": "Amphotericin B deoxycholate is highly associated with renal toxicity and would be a poor choice for a patient with pre-existing renal insufficiency.",
+                "D": "Flucytosine is never used as a monotherapy due to the rapid development of resistance and does not target the cell wall."
+            }
+        }
+    },
+    {
+        "question": "A 40-year-old patient is diagnosed with onychomycosis affecting several toenails with no other health issues. Which of the following is considered a first-line oral treatment for this condition?",
+        "choices": {
+            "A": "Griseofulvin",
+            "B": "Amphotericin B",
+            "C": "Fluconazole",
+            "D": "Ketoconazole",
+            "E": "Terbinafine"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "Allylamine drugs are the '1st line treatment of dermatophytosis, especially onychomycosis'. Terbinafine is the primary example of an allylamine drug.",
+            "incorrect": {
+                "A": "Griseofulvin is listed as a '2nd line treatment of dermatophytosis', making it an alternative but not the initial drug of choice.",
+                "B": "Amphotericin B is a potent IV drug used for life-threatening systemic fungal infections, not onychomycosis.",
+                "C": "While some azoles have activity, they are not identified as the first-line therapy for onychomycosis.",
+                "D": "While some azoles have activity, they are not identified as the first-line therapy. Systemic ketoconazole is particularly avoided due to its side effect profile."
+            }
+        }
+    }
+]

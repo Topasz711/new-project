@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A lab incubates a yeast isolate in horse serum at 37°C for two hours. Microscopic examination reveals long, non-septate filamentous extensions directly from the yeast cells without constriction at the point of origin. What is the most likely identification?",
+        "choices": {
+            "A": "Cryptococcus neoformans",
+            "B": "Malassezia furfur",
+            "C": "Candida albicans",
+            "D": "Trichosporon asahii",
+            "E": "Rhodotorula mucilaginosa"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The procedure described is the Germ Tube Test. The formation of a germ tube—a filamentous extension from the yeast cell that lacks constriction at its base—when incubated in serum at 37°C is a rapid, presumptive identification method for Candida albicans.",
+            "incorrect": {
+                "A": "Cryptococcus neoformans is identified by its prominent polysaccharide capsule (visualized with India ink) and does not form germ tubes.",
+                "B": "Malassezia furfur is identified by its characteristic 'spaghetti and meatballs' appearance on skin scrapings and does not form germ tubes.",
+                "D": "Trichosporon asahii is characterized by its pleomorphic morphology (true hyphae, pseudohyphae, blastoconidia, arthroconidia) but does not produce germ tubes.",
+                "E": "Rhodotorula mucilaginosa is notable for producing distinctive pink-to-red colonies and does not form germ tubes."
+            }
+        }
+    },
+    {
+        "question": "A 22-year-old female presents with multiple, well-demarcated, slightly scaly, hypopigmented macules across her shoulders and back. A KOH prep of skin scrapings reveals clusters of spherical yeast-like cells and short, curved hyphal filaments. What is the most likely diagnosis?",
+        "choices": {
+            "A": "Tinea corporis",
+            "B": "Pityriasis versicolor",
+            "C": "Cutaneous candidiasis",
+            "D": "Vitiligo",
+            "E": "Pityriasis alba"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The combination of clinical (hypo- or hyperpigmented macules) and microscopic ('spaghetti and meatballs' appearance) findings is classic for pityriasis (tinea) versicolor, caused by Malassezia furfur.",
+            "incorrect": {
+                "A": "Tinea corporis ('ringworm') would show only septate hyphae on microscopy, not the mixed yeast-and-hyphae pattern.",
+                "C": "Cutaneous candidiasis typically occurs in skin folds and presents as erythematous patches with satellite pustules.",
+                "D": "Vitiligo is an autoimmune condition causing complete depigmentation; a KOH prep would be negative.",
+                "E": "Pityriasis alba is a mild form of eczema and is not a fungal infection."
+            }
+        }
+    },
+    {
+        "question": "A young adult presents with soft, easily detachable, whitish-to-light-brown nodules attached to the hair shafts of their scalp and beard. This superficial fungal infection is most commonly known as:",
+        "choices": {
+            "A": "Pityriasis versicolor",
+            "B": "Seborrheic dermatitis",
+            "C": "Tinea capitis",
+            "D": "Black piedra",
+            "E": "White piedra"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The clinical description perfectly matches white piedra, a superficial mycosis of the hair shaft caused by Trichosporon species, characterized by soft, white, or light-colored nodules loosely attached to the hair.",
+            "incorrect": {
+                "A": "Pityriasis versicolor is a fungal infection of the skin, not the hair shaft.",
+                "B": "Seborrheic dermatitis causes flaking and scaling (dandruff) but does not form discrete nodules along the hair shaft.",
+                "C": "Tinea capitis is a dermatophytic infection that invades the hair follicle and shaft, leading to hair breakage and loss.",
+                "D": "Black piedra is a different hair infection characterized by hard, black, firmly attached nodules on the hair shaft."
+            }
+        }
+    },
+    {
+        "question": "The primary mode of transmission for Cryptococcus neoformans infection in humans is directly linked to its major environmental reservoir. Which of the following best describes this connection?",
+        "choices": {
+            "A": "Direct skin contact with infected animals, leading to cutaneous lesions.",
+            "B": "Colonization of the gastrointestinal tract as a normal flora component.",
+            "C": "Ingestion of contaminated water sources where the organism grows saprophytically.",
+            "D": "Traumatic inoculation of the organism from decaying wood or trees.",
+            "E": "Inhalation of aerosolized, desiccated yeast cells from avian feces."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "Cryptococcus neoformans is famously associated with environments enriched by bird droppings, particularly from pigeons. The infection is acquired when dried yeast cells from this material become airborne and are inhaled into the lungs.",
+            "incorrect": {
+                "A": "While animals can be infected, this is not the primary route of human transmission; the primary route is respiratory.",
+                "B": "C. neoformans is an environmental saprophyte, not a component of normal human flora.",
+                "C": "The primary route of entry into the body is respiratory, not gastrointestinal.",
+                "D": "This environmental niche is more strongly associated with Cryptococcus gattii, a different species."
+            }
+        }
+    }
+]

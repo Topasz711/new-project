@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "In the wet mount examination of a vaginal discharge sample, the presence of squamous epithelial cells heavily coated with bacteria, which obscures the cell borders, is referred to as what hallmark finding?",
+        "choices": {
+            "A": "Pseudohyphae formations",
+            "B": "Ghost cells",
+            "C": "Clue cells",
+            "D": "Motile trophozoites",
+            "E": "Encapsulated yeasts"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Clue cells are the diagnostic hallmark of bacterial vaginosis. The question describes the exact microscopic appearance of a clue cell: a squamous epithelial cell so heavily covered with bacteria (primarily Gardnerella vaginalis) that the edges of the cell become indistinct or stippled.",
+            "incorrect": {
+                "A": "These, along with budding yeasts, are the characteristic microscopic findings for vulvovaginal candidiasis caused by Candida albicans.",
+                "B": "These are remnant outlines of cells that have died and are not a specific finding for any particular type of vaginitis.",
+                "D": "The presence of actively motile, flagellated trophozoites is the key diagnostic feature of trichomoniasis, caused by Trichomonas vaginalis.",
+                "E": "This describes Cryptococcus neoformans, which is typically identified in cerebrospinal fluid (CSF) using an India ink stain."
+            }
+        }
+    },
+    {
+        "question": "A laboratory utilizes MALDI-TOF MS for bacterial identification. How does this technology fundamentally differ from classical biochemical identification methods?",
+        "choices": {
+            "A": "MALDI-TOF relies on antigen-antibody reactions for identification.",
+            "B": "MALDI-TOF identifies bacteria based on their cell wall lipid composition.",
+            "C": "MALDI-TOF generates a unique protein fingerprint for an organism.",
+            "D": "MALDI-TOF identifies bacteria by analyzing their unique DNA sequences.",
+            "E": "MALDI-TOF measures the metabolic activity of the organism over time."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "MALDI-TOF MS works by analyzing the mass-to-charge ratio of an organism's most abundant proteins (especially ribosomal proteins). This process creates a characteristic mass spectrum that serves as a unique 'peptide mass fingerprint,' which is then compared to a database for identification.",
+            "incorrect": {
+                "A": "This is the principle of serological methods, such as agglutination tests and ELISAs.",
+                "B": "While important for taxonomy, this is not the primary target analyzed by MALDI-TOF for routine identification.",
+                "D": "This is the basis of molecular methods, such as Polymerase Chain Reaction (PCR).",
+                "E": "This describes the principle of classical biochemical tests, which identify organisms based on their ability to utilize different substrates or produce specific enzymes."
+            }
+        }
+    },
+    {
+        "question": "A 10-year-old boy develops periorbital edema and hematuria two weeks after a severe sore throat. His physician suspects post-streptococcal glomerulonephritis. Which laboratory test would be most helpful in supporting this diagnosis?",
+        "choices": {
+            "A": "A rapid antigen detection test for Streptococcal pharyngitis.",
+            "B": "Measurement of serum C-reactive protein (CRP) levels.",
+            "C": "A throat swab culture for Streptococcus pyogenes.",
+            "D": "A urine culture to rule out a urinary tract infection.",
+            "E": "An Anti-DNase B antibody titer to detect a prior infection."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "Post-streptococcal glomerulonephritis is an immune-mediated complication that occurs after the initial infection has resolved. An Anti-DNase B titer is a serological test that measures the patient's antibody response. A high or rising titer confirms a recent infection, even if the bacteria are no longer present.",
+            "incorrect": {
+                "A": "This test is used to diagnose an active, current throat infection. It would likely be negative two weeks later.",
+                "B": "CRP is a non-specific marker of inflammation and does not specifically point to a preceding streptococcal infection.",
+                "C": "This test is used to diagnose an active infection and would likely be negative two weeks later.",
+                "D": "This test is used to diagnose a urinary tract infection; the patient's symptoms are classic for glomerulonephritis."
+            }
+        }
+    },
+    {
+        "question": "An ICU patient with a central line develops a fever. A Gram stain of a positive blood culture reveals large, ovoid, purple-staining cells. To definitively identify the organism and guide antifungal therapy, what is the most critical subsequent step?",
+        "choices": {
+            "A": "Request a serum procalcitonin level",
+            "B": "Perform an India ink stain on the blood",
+            "C": "Repeat the Gram stain to confirm morphology",
+            "D": "Subculture the blood to agar for identification",
+            "E": "Start broad-spectrum antibacterial agents"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The Gram stain finding indicates fungemia (yeast). While presumptive, it cannot determine the species. Subculturing the positive blood culture onto solid agar is essential for growing pure colonies, which are required for definitive species identification (e.g., MALDI-TOF) and antimicrobial susceptibility testing.",
+            "incorrect": {
+                "A": "Procalcitonin is a biomarker for sepsis but will not identify the causative organism.",
+                "B": "This is a specialized stain used on CSF to detect the capsule of Cryptococcus and is not performed on blood.",
+                "C": "This would only confirm the initial finding but provides no new information for species identification or treatment.",
+                "E": "The Gram stain clearly shows a fungus (yeast), not bacteria. Starting antibacterial agents would be ineffective."
+            }
+        }
+    }
+]

@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "Which of the following dermatophyte genera is characterized by the exclusive presence of smooth-walled, club-shaped macroconidia and the complete absence of microconidia?",
+        "choices": {
+            "A": "Epidermophyton",
+            "B": "Microsporum",
+            "C": "Nannizzia",
+            "D": "Paraphyton",
+            "E": "Trichophyton"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The genus Epidermophyton is uniquely identified by producing only smooth-walled, club-shaped macroconidia, often in clusters, and completely lacking microconidia. This absence is a key differentiating feature.",
+            "incorrect": {
+                "B": "This genus is known for its large, spindle-shaped, and often rough-walled macroconidia, but it also produces microconidia.",
+                "C": "This is a teleomorph (sexual state) name for some species previously under Microsporum; these species produce both macroconidia and microconidia.",
+                "D": "This is a newer classification related to Trichophyton and is not defined by the absence of microconidia.",
+                "E": "This genus typically produces both macroconidia (often rare, thin-walled, and pencil-shaped) and numerous microconidia."
+            }
+        }
+    },
+    {
+        "question": "The presence of muriform cells, often described as 'copper pennies' or sclerotic bodies, in a tissue sample is a pathognomonic finding for which fungal infection?",
+        "choices": {
+            "A": "Black piedra",
+            "B": "Chromoblastomycosis",
+            "C": "Eumycotic mycetoma",
+            "D": "Phaeohyphomycosis",
+            "E": "Tinea nigra"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Chromoblastomycosis is a chronic subcutaneous mycosis whose definitive diagnosis relies on the histopathological identification of muriform cells in tissue. These unique structures are pigmented, thick-walled, round cells that divide by internal septation and are also referred to as Medlar bodies or 'copper pennies'.",
+            "incorrect": {
+                "A": "This is a superficial infection of the hair shaft characterized by hard, black nodules composed of pigmented hyphae.",
+                "C": "This condition is defined by the presence of organized fungal colonies called grains (or granules) that are discharged through draining sinuses.",
+                "D": "This is a group of infections where the tissue form is typically yeast-like cells or dark septate hyphae, but not muriform cells.",
+                "E": "This is a superficial infection where microscopic examination shows pigmented yeast cells and hyphae in skin scrapings, not organized muriform bodies."
+            }
+        }
+    },
+    {
+        "question": "A patient presents with asymptomatic, non-scaly, dark brown to black macules on the palms of their hands. What is the most likely causative agent for this condition?",
+        "choices": {
+            "A": "Exophiala dermatitidis",
+            "B": "Hortaea werneckii",
+            "C": "Malassezia furfur",
+            "D": "Piedraia hortae",
+            "E": "Trichophyton rubrum"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The clinical presentation describes tinea nigra, a superficial fungal infection. The causative agent is Hortaea werneckii, a dematiaceous fungus that colonizes the stratum corneum, resulting in 'brown to black, non-scaling macules on the palmar aspect of the hands' without inflammation.",
+            "incorrect": {
+                "A": "This dematiaceous fungus is an agent of phaeohyphomycosis, which usually manifests as deeper subcutaneous cysts or nodules.",
+                "C": "This yeast causes pityriasis versicolor, characterized by hypo- or hyperpigmented macules, usually on the trunk, not the palms.",
+                "D": "This fungus is the agent of black piedra, an infection that forms hard, black nodules on the hair shaft, not the skin.",
+                "E": "This dermatophyte causes infections like tinea corporis or tinea manuum, which typically present as inflammatory and scaly lesions."
+            }
+        }
+    },
+    {
+        "question": "A 34-year-old patient with poorly controlled type 1 diabetes is admitted with fever, headache, and a rapidly developing black necrotic eschar on the hard palate. A direct microscopic examination of a tissue sample reveals broad, ribbon-like, pauciseptate hyphae with wide-angle branching. Which organism is the most probable cause?",
+        "choices": {
+            "A": "Aspergillus fumigatus",
+            "B": "Conidiobolus coronatus",
+            "C": "Fusarium solani",
+            "D": "Rhizopus arrhizus",
+            "E": "Scedosporium apiospermum"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The clinical scenario is a classic presentation of rhino-orbital-cerebral mucormycosis, often seen in patients with diabetic ketoacidosis. The microscopic findings of broad, non-septate (pauciseptate), ribbon-like hyphae with right-angle branching are pathognomonic for fungi in the order Mucorales. Rhizopus arrhizus is the most frequently isolated species.",
+            "incorrect": {
+                "A": "This fungus has slender, septate hyphae that characteristically branch at acute (45-degree) angles.",
+                "B": "While this fungus has broad, pauciseptate hyphae, it causes a chronic, subcutaneous, granulomatous infection, not an acute angioinvasive disease.",
+                "C": "This is a hyaline mold with septate hyphae and different morphology.",
+                "E": "This is another hyaline mold with septate hyphae and is not associated with the described microscopic findings."
+            }
+        }
+    }
+]

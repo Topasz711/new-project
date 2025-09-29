@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "Which of the following describes the characteristic tissue-phase morphology of Coccidioides immitis?",
+        "choices": {
+            "A": "Large yeast cells with multiple buds in a 'mariner's wheel' formation",
+            "B": "Small, oval yeast cells found multiplying within macrophages",
+            "C": "Thick-walled yeast cells that reproduce by a single broad-based bud",
+            "D": "Large, thick-walled spherules containing numerous endospores",
+            "E": "Elongated, cigar-shaped yeast forms often seen in tissue sections"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "This is the classic description of the parasitic, in-vivo form of Coccidioides species. The inhaled arthroconidia transform into large spherules in the lungs. These spherules mature and rupture, releasing endospores that can develop into new spherules, propagating the infection.",
+            "incorrect": {
+                "A": "The 'mariner's wheel' appearance is the pathognomonic feature of Paracoccidioides brasiliensis.",
+                "B": "Small, oval yeast cells, particularly when found intracellularly within macrophages, are characteristic of Histoplasma capsulatum.",
+                "C": "A large, thick-walled yeast with a single, distinctly broad-based bud is the hallmark of Blastomyces dermatitidis.",
+                "E": "'Cigar-shaped' yeast bodies are classically associated with the tissue phase of Sporothrix schenckii."
+            }
+        }
+    },
+    {
+        "question": "A key microscopic difference between the yeast forms of Histoplasma capsulatum and Talaromyces marneffei is that T. marneffei:",
+        "choices": {
+            "A": "is significantly larger in size",
+            "B": "forms a large polysaccharide capsule",
+            "C": "replicates via binary fission",
+            "D": "produces multiple broad-based buds",
+            "E": "is exclusively found extracellularly"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This is a crucial differentiating feature. While both are small yeasts often found within macrophages, Talaromyces marneffei divides by splitting into two equal cells, a process called binary fission, and is described as a 'fission yeast'. In contrast, Histoplasma capsulatum reproduces by budding.",
+            "incorrect": {
+                "A": "Both organisms have similarly sized yeast forms, making size an unreliable differentiator.",
+                "B": "A large polysaccharide capsule is the defining virulence factor of Cryptococcus species.",
+                "D": "Broad-based budding is characteristic of Blastomyces, and multiple buds are characteristic of Paracoccidioides.",
+                "E": "Both T. marneffei and H. capsulatum are facultative intracellular pathogens, meaning they can be found both inside and outside of cells."
+            }
+        }
+    },
+    {
+        "question": "The primary infectious form of Pythium insidiosum, which is motile and chemotactically attracted to human and animal tissue, is the:",
+        "choices": {
+            "A": "microconidium",
+            "B": "budding yeast",
+            "C": "biflagellate zoospore",
+            "D": "arthroconidium",
+            "E": "endospore"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Pythium insidiosum is an oomycete, or 'water mold.' Its life cycle in aquatic environments involves the production of motile, biflagellate (having two flagella) zoospores. These zoospores are the infectious particles that can enter a host through breaks in the skin.",
+            "incorrect": {
+                "A": "Microconidia are small, asexual spores produced by true fungi like Histoplasma and Blastomyces.",
+                "B": "Pythium does not have a yeast phase; it grows as hyphae in tissues. Budding yeast is the tissue form of many true dimorphic fungi.",
+                "D": "Arthroconidia are the infectious, environmentally-resistant spores of Coccidioides species.",
+                "E": "Endospores are found within the spherules of Coccidioides in the host tissue."
+            }
+        }
+    },
+    {
+        "question": "A 55-year-old man from the Mississippi River Valley presents with a chronic cough, fever, and several verrucous (wart-like) skin lesions. A biopsy of a skin lesion reveals large, thick-walled yeast cells with broad-based budding. This is most consistent with which diagnosis?",
+        "choices": {
+            "A": "Histoplasmosis",
+            "B": "Coccidioidomycosis",
+            "C": "Sporotrichosis",
+            "D": "Paracoccidioidomycosis",
+            "E": "Blastomycosis"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "This case presents a classic triad for blastomycosis: 1. Epidemiology: The patient is from the Mississippi River Valley, an endemic area. 2. Clinical Presentation: He has both pulmonary symptoms and disseminated disease with characteristic verrucous skin lesions. 3. Microscopy: The finding of large, thick-walled yeast with broad-based budding is the definitive microscopic feature of Blastomyces.",
+            "incorrect": {
+                "A": "While the geography for Histoplasmosis overlaps, its yeast form is much smaller, oval, and typically intracellular.",
+                "B": "Coccidioidomycosis is endemic to arid regions of the Southwestern US, and its tissue form is a spherule with endospores.",
+                "C": "Sporotrichosis usually presents as lymphocutaneous nodules and has a different microscopic appearance.",
+                "D": "Paracoccidioidomycosis is endemic to Latin America and is identified by its 'mariner's wheel' multiple budding yeast form."
+            }
+        }
+    }
+]
