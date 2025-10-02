@@ -38,6 +38,14 @@
         .nav-menu.sub-menu { transform: translateX(100%); }
         .nav-menu.show { transform: translateX(0); }
         .nav-menu.hide-left { transform: translateX(-100%); }
+        #snakeGameCanvas {
+    background-color: #1a202c; 
+    border: 1px solid #4a5568; 
+}
+.dark #snakeGameCanvas {
+    background-color: black;
+    border: 1px solid #718096;
+}
     </style>
 </head>
 <body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
@@ -50,6 +58,7 @@
             <nav id="main-menu" class="nav-menu main-menu mt-4">
                 <ul>
                     <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="homeContent">Home</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="gameContent">Mini-Game</a></li>
                     <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="pharmacologyContent">Pharmacology</a></li>
                     <li><a href="#" id="infectious-menu-btn" class="flex justify-between items-center w-full py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full"><span>Infectious</span><span>&gt;</span></a></li>
                     <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="placeholderContent">Epidemiology</a></li>
@@ -240,9 +249,115 @@
                 <p class="text-gray-400 dark:text-gray-500 mt-2">(Not yet available / Might not be created)</p>
             </div>
         </div>
+        <div id="gameContent" class="main-content-pane hidden flex flex-col items-center justify-center p-4">
+    
+    <div class="text-xl mb-4 flex gap-x-8">
+        <p>SCORE: <span id="gameScore" class="font-bold">0</span></p>
+        <p>HIGH SCORE: <span id="gameHighscore" class="font-bold">0</span></p>
+    </div>
+
+    <canvas width="400" height="400" id="snakeGameCanvas"></canvas>
+    
+    <button id="gamePauseBtn" class="mt-4 px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700">PAUSE</button>
+
+</div>
     </div>
 
     <script>
+
+const snakeGameLogic = {
+    canvas: null, context: null, grid: 16, count: 0,
+    isPaused: false, score: 0, highscore: 0,
+    snake: { x: 160, y: 160, dx: 16, dy: 0, cells: [], maxCells: 4 },
+    apple: { x: 320, y: 320 },
+    animationFrameId: null,
+
+    init() {
+        this.canvas = document.getElementById('snakeGameCanvas');
+        if (!this.canvas) return; // ถ้าหา canvas ไม่เจอ ให้หยุด
+        this.context = this.canvas.getContext('2d');
+        this.highscore = localStorage.getItem('snakeHighscore') || 0;
+        document.getElementById('gameHighscore').textContent = this.highscore;
+        document.getElementById('gamePauseBtn').addEventListener('click', () => this.togglePause());
+        document.addEventListener('keydown', (e) => this.handleKeydown(e));
+        this.resetGame();
+        this.startLoop();
+    },
+
+    startLoop() {
+        if (this.animationFrameId) cancelAnimationFrame(this.animationFrameId);
+        const loop = () => {
+            if (!this.isPaused) this.update();
+            this.animationFrameId = requestAnimationFrame(loop);
+        };
+        loop();
+    },
+
+    stopLoop() {
+        if (this.animationFrameId) cancelAnimationFrame(this.animationFrameId);
+        this.animationFrameId = null;
+        document.removeEventListener('keydown', (e) => this.handleKeydown(e));
+    },
+
+    togglePause() {
+        this.isPaused = !this.isPaused;
+        document.getElementById('gamePauseBtn').textContent = this.isPaused ? 'RESUME' : 'PAUSE';
+    },
+
+    resetGame() {
+        if (this.score > this.highscore) {
+            this.highscore = this.score;
+            localStorage.setItem('snakeHighscore', this.highscore);
+            document.getElementById('gameHighscore').textContent = this.highscore;
+        }
+        this.snake = { x: 160, y: 160, dx: this.grid, dy: 0, cells: [], maxCells: 4 };
+        this.score = 0;
+        document.getElementById('gameScore').textContent = this.score;
+        this.apple.x = Math.floor(Math.random() * 25) * this.grid;
+        this.apple.y = Math.floor(Math.random() * 25) * this.grid;
+    },
+
+    update() {
+        if (++this.count < 4) return;
+        this.count = 0;
+        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        this.snake.x += this.snake.dx;
+        this.snake.y += this.snake.dy;
+
+        if (this.snake.x < 0 || this.snake.x >= this.canvas.width || this.snake.y < 0 || this.snake.y >= this.canvas.height) {
+            return this.resetGame();
+        }
+
+        this.snake.cells.unshift({ x: this.snake.x, y: this.snake.y });
+        if (this.snake.cells.length > this.snake.maxCells) this.snake.cells.pop();
+
+        this.context.fillStyle = 'red';
+        this.context.fillRect(this.apple.x, this.apple.y, this.grid - 1, this.grid - 1);
+        this.context.fillStyle = 'lime'; // เปลี่ยนเป็นสีเขียวสด
+        this.snake.cells.forEach((cell, index) => {
+            this.context.fillRect(cell.x, cell.y, this.grid - 1, this.grid - 1);
+            if (cell.x === this.apple.x && cell.y === this.apple.y) {
+                this.snake.maxCells++;
+                this.score++;
+                document.getElementById('gameScore').textContent = this.score;
+                this.apple.x = Math.floor(Math.random() * 25) * this.grid;
+                this.apple.y = Math.floor(Math.random() * 25) * this.grid;
+            }
+            for (let i = index + 1; i < this.snake.cells.length; i++) {
+                if (cell.x === this.snake.cells[i].x && cell.y === this.snake.cells[i].y) {
+                    return this.resetGame();
+                }
+            }
+        });
+    },
+
+    handleKeydown(e) {
+        if (e.which === 37 && this.snake.dx === 0) { this.snake.dx = -this.grid; this.snake.dy = 0; }
+        else if (e.which === 38 && this.snake.dy === 0) { this.snake.dy = -this.grid; this.snake.dx = 0; }
+        else if (e.which === 39 && this.snake.dx === 0) { this.snake.dx = this.grid; this.snake.dy = 0; }
+        else if (e.which === 40 && this.snake.dy === 0) { this.snake.dy = this.grid; this.snake.dx = 0; }
+    }
+};
         // --- SCRIPT 1: Main Application Logic ---
         let quizState = {};
         let paraQuizData = [], glucoQuizData = [], chemoQuizData = [], antidoteQuizData = [], rduQuizData = [], pvQuizData = [];
@@ -368,27 +483,42 @@
             backToMainMenuBtn.addEventListener('click', (e) => { e.preventDefault(); mainMenu.classList.remove('hide-left'); infectiousSubMenu.classList.remove('show'); });
             
             sidebarLinks.forEach(link => {
-                link.addEventListener('click', (event) => {
-                    event.preventDefault();
-                    const targetId = link.dataset.target;
-                    const subTargetId = link.dataset.subTarget;
-                    progressTracker.classList.add('hidden');
-                    contentPanes.forEach(pane => pane.classList.add('hidden'));
-                    document.getElementById(targetId)?.classList.remove('hidden');
-                    
-                    if (targetId === 'pharmacologyContent') {
-                        document.querySelectorAll('.pharma-tab-btn').forEach(btn => btn.classList.remove('active'));
-                        document.querySelectorAll('.pharma-tab-content').forEach(content => content.classList.add('hidden'));
-                        document.querySelectorAll('.pharma-tab-btn')[0].classList.add('active');
-                        document.getElementById(document.querySelectorAll('.pharma-tab-btn')[0].dataset.target)?.classList.remove('hidden');
-                        startNewMcqQuiz(paraQuizData, 'para-quiz-container');
-                    } else if (targetId === 'infectiousContent') {
-                        document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
-                        document.getElementById(subTargetId)?.classList.remove('hidden');
-                    }
-                    closeSidebar();
-                });
-            });
+    link.addEventListener('click', (event) => {
+        event.preventDefault();
+
+        // 1. สั่งให้เกมหยุดทำงานทุกครั้งที่คลิกเมนู (ป้องกันเกมทำงานเบื้องหลัง)
+        snakeGameLogic.stopLoop();
+
+        // 2. ซ่อนเนื้อหาเก่าทั้งหมด
+        const targetId = link.dataset.target;
+        const subTargetId = link.dataset.subTarget;
+        progressTracker.classList.add('hidden');
+        contentPanes.forEach(pane => pane.classList.add('hidden'));
+
+        // 3. แสดงเนื้อหาใหม่ที่เลือก
+        document.getElementById(targetId)?.classList.remove('hidden');
+
+        // 4. ตรวจสอบว่าต้องทำอะไรเป็นพิเศษในหน้านั้นๆ
+        if (targetId === 'gameContent') {
+            // ถ้าเป็นหน้าเกม ให้เริ่มเกม
+            snakeGameLogic.init();
+        } else if (targetId === 'pharmacologyContent') {
+            // ถ้าเป็นหน้า Pharmacology ให้ตั้งค่าแท็บแรก
+            document.querySelectorAll('.pharma-tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.pharma-tab-content').forEach(content => content.classList.add('hidden'));
+            document.querySelectorAll('.pharma-tab-btn')[0].classList.add('active');
+            document.getElementById(document.querySelectorAll('.pharma-tab-btn')[0].dataset.target)?.classList.remove('hidden');
+            startNewMcqQuiz(paraQuizData, 'para-quiz-container');
+        } else if (targetId === 'infectiousContent') {
+            // ถ้าเป็นหน้า Infectious ให้แสดงแท็บย่อย
+            document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
+            document.getElementById(subTargetId)?.classList.remove('hidden');
+        }
+
+        // 5. ปิด Sidebar
+        closeSidebar();
+    });
+});
 
             // --- Event Listeners for Quiz Buttons ---
             pharmaTabBtns.forEach(button => {
