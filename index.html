@@ -49,12 +49,22 @@
             height: 400px;
             max-width: 90vw;
             max-height: 90vw;
-            background-color: #a7d3a1;
-            border: 5px solid #4a7543;
+            background-color: #4A6572;
+            border: 5px solid #1B263B;
             margin: auto;
         }
-        .snake { background-color: #4a7543; border-radius: 20%; }
-        .food { background-color: #e74c3c; border-radius: 50%; }
+        .snake { background-color: #40E0D0; border-radius: 20%; }
+        .food { background-color: #E67E22; border-radius: 50%; }
+        .dead-snake { 
+    color: rgb(0, 0, 0); 
+    font-size: 1.2rem; 
+    line-height: 1; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-weight: bold;
+}
+
     </style>
 </head>
 <body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
@@ -67,10 +77,10 @@
             <nav id="main-menu" class="nav-menu main-menu mt-4">
                 <ul>
                     <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="homeContent">Home</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="miniGameContent">Mini-Game</a></li>
                     <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="pharmacologyContent">Pharmacology</a></li>
                     <li><a href="#" id="infectious-menu-btn" class="flex justify-between items-center w-full py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full"><span>Infectious</span><span>&gt;</span></a></li>
                     <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="epidemiologyContent">Epidemiology</a></li>
-                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="miniGameContent">Mini-Game</a></li>
                     <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="placeholderContent">Skin</a></li>
                     <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="placeholderContent">Musculoskeletal</a></li>
                     <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="placeholderContent">CNS</a></li>
@@ -456,6 +466,8 @@
                     } else if (targetId === 'epidemiologyContent') {
                          document.getElementById('epidemiologyListView').classList.remove('hidden');
                          document.getElementById('epidemiologyQuizView').classList.add('hidden');
+                    } else if (targetId === 'miniGameContent') {
+                        initGame();
                     }
                     closeSidebar();
                 });
@@ -846,7 +858,7 @@
         });
         updateIcon();
 
-        // --- Snake Game Logic ---
+        // --- Snake Game Logic (Original Version + Fixes) ---
         const board = document.getElementById('game-board');
         const scoreDisplay = document.getElementById('score');
         const highScoreDisplay = document.getElementById('high-score');
@@ -865,7 +877,7 @@
             isPaused = false;
             updateDisplay();
             if (gameInterval) clearInterval(gameInterval);
-            gameInterval = setInterval(move, 200);
+            gameInterval = setInterval(move, 125); 
             board.focus();
         }
 
@@ -886,22 +898,36 @@
             return newFood;
         }
 
-        function draw() {
-            board.innerHTML = '';
-            snake.forEach(segment => {
-                const snakeElement = document.createElement('div');
-                snakeElement.style.gridRowStart = segment.y;
-                snakeElement.style.gridColumnStart = segment.x;
-                snakeElement.classList.add('snake');
-                board.appendChild(snakeElement);
-            });
+        function draw(isGameOver = false) {
+    board.innerHTML = '';
 
-            const foodElement = document.createElement('div');
-            foodElement.style.gridRowStart = food.y;
-            foodElement.style.gridColumnStart = food.x;
-            foodElement.classList.add('food');
-            board.appendChild(foodElement);
+    snake.slice(1).forEach(segment => {
+        const snakeElement = document.createElement('div');
+        snakeElement.style.gridRowStart = segment.y;
+        snakeElement.style.gridColumnStart = segment.x;
+        snakeElement.classList.add('snake');
+        board.appendChild(snakeElement);
+    });
+
+    const head = snake[0];
+    if (head) {
+        const headElement = document.createElement('div');
+        headElement.style.gridRowStart = head.y;
+        headElement.style.gridColumnStart = head.x;
+        headElement.classList.add('snake');
+        if (isGameOver) {
+            headElement.innerHTML = '❌';
+            headElement.classList.add('dead-snake');
         }
+        board.appendChild(headElement);
+    }
+
+    const foodElement = document.createElement('div');
+    foodElement.style.gridRowStart = food.y;
+    foodElement.style.gridColumnStart = food.x;
+    foodElement.classList.add('food');
+    board.appendChild(foodElement);
+}
 
         function move() {
             if (isPaused) return;
@@ -925,8 +951,7 @@
                     localStorage.setItem('snakeHighScore', highScore);
                 }
                 clearInterval(gameInterval);
-                alert(`Game Over! Score: ${score}`);
-                initGame();
+                draw(true);
                 return;
             }
             updateDisplay();
@@ -942,6 +967,9 @@
         }
 
         board.addEventListener('keydown', e => {
+            if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
+                e.preventDefault(); // Prevents page scrolling
+            }
             const newDirection = e.key.replace('Arrow', '').toLowerCase();
             const opposite = { up: 'down', down: 'up', left: 'right', right: 'left' };
             if (['up', 'down', 'left', 'right'].includes(newDirection) && newDirection !== opposite[direction]) {
@@ -982,10 +1010,6 @@
             if(!isPaused) board.focus();
         });
         restartGameBtn.addEventListener('click', initGame);
-
-        document.querySelector('.sidebar-link[data-target="miniGameContent"]').addEventListener('click', () => {
-             setTimeout(initGame, 300); // Initialize game after pane transition
-        });
 
     </script>
 </body>
