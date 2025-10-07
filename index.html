@@ -38,14 +38,23 @@
         .nav-menu.sub-menu { transform: translateX(100%); }
         .nav-menu.show { transform: translateX(0); }
         .nav-menu.hide-left { transform: translateX(-100%); }
-        #snakeGameCanvas {
-    background-color: #1a202c; 
-    border: 1px solid #4a5568; 
-}
-.dark #snakeGameCanvas {
-    background-color: black;
-    border: 1px solid #718096;
-}
+
+        /* Snake Game Styles */
+        #game-board {
+            touch-action: none;
+            display: grid;
+            grid-template-rows: repeat(20, 1fr);
+            grid-template-columns: repeat(20, 1fr);
+            width: 400px;
+            height: 400px;
+            max-width: 90vw;
+            max-height: 90vw;
+            background-color: #a7d3a1;
+            border: 5px solid #4a7543;
+            margin: auto;
+        }
+        .snake { background-color: #4a7543; border-radius: 20%; }
+        .food { background-color: #e74c3c; border-radius: 50%; }
     </style>
 </head>
 <body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
@@ -58,10 +67,10 @@
             <nav id="main-menu" class="nav-menu main-menu mt-4">
                 <ul>
                     <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="homeContent">Home</a></li>
-                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="gameContent">Mini-Game</a></li>
                     <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="pharmacologyContent">Pharmacology</a></li>
                     <li><a href="#" id="infectious-menu-btn" class="flex justify-between items-center w-full py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full"><span>Infectious</span><span>&gt;</span></a></li>
-                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="placeholderContent">Epidemiology</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="epidemiologyContent">Epidemiology</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="miniGameContent">Mini-Game</a></li>
                     <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="placeholderContent">Skin</a></li>
                     <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="placeholderContent">Musculoskeletal</a></li>
                     <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="placeholderContent">CNS</a></li>
@@ -244,184 +253,57 @@
                 </div>
             </div>
 
+            <div id="epidemiologyContent" class="main-content-pane hidden">
+                <div id="epidemiologyListView">
+                    <h2 class="text-2xl font-bold mb-4">Epidemiology Lectures</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <button class="lecture-btn" data-quiz-type="mcq" data-quiz-file="epidemiology/epi-L1.json" data-quiz-container="epidemiologyQuizContainer" data-quiz-title="L1: Natural History"><b>L1:</b> Natural History</button>
+                        <button class="lecture-btn" data-quiz-type="mcq" data-quiz-file="epidemiology/epi-L2.json" data-quiz-container="epidemiologyQuizContainer" data-quiz-title="L2: Research problem formulation"><b>L2:</b> Research problem formulation</button>
+                        <button class="lecture-btn" data-quiz-type="mcq" data-quiz-file="epidemiology/epi-L3.json" data-quiz-container="epidemiologyQuizContainer" data-quiz-title="L3: Literature review, Internet searching"><b>L3:</b> Literature review, Internet searching</button>
+                        <button class="lecture-btn" data-quiz-type="mcq" data-quiz-file="epidemiology/epi-L4.json" data-quiz-container="epidemiologyQuizContainer" data-quiz-title="L4: Overview study design"><b>L4:</b> Overview study design</button>
+                        <button class="lecture-btn" data-quiz-type="mcq" data-quiz-file="epidemiology/epi-L5.json" data-quiz-container="epidemiologyQuizContainer" data-quiz-title="L5: Sample size calculation"><b>L5:</b> Sample size calculation</button>
+                        <button class="lecture-btn" data-quiz-type="mcq" data-quiz-file="epidemiology/epi-L6.json" data-quiz-container="epidemiologyQuizContainer" data-quiz-title="L6: Outcome assessment 1"><b>L6:</b> Outcome assessment 1</button>
+                        <button class="lecture-btn" data-quiz-type="mcq" data-quiz-file="epidemiology/epi-L7.json" data-quiz-container="epidemiologyQuizContainer" data-quiz-title="L7: Outcome assessment 2"><b>L7:</b> Outcome assessment 2</button>
+                        <button class="lecture-btn" data-quiz-type="mcq" data-quiz-file="epidemiology/epi-L8.json" data-quiz-container="epidemiologyQuizContainer" data-quiz-title="L8: Measurement in epidemiology"><b>L8:</b> Measurement in epidemiology</button>
+                    </div>
+                </div>
+                <div id="epidemiologyQuizView" class="hidden">
+                    <header class="text-center mb-8">
+                        <h1 id="epidemiology-quiz-title" class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-gray-50"></h1>
+                        <p class="mt-2 text-lg text-gray-600 dark:text-gray-400">Test your knowledge.</p>
+                    </header>
+                    <div id="epidemiologyQuizContainer" class="space-y-8"></div>
+                </div>
+            </div>
+            
+            <div id="miniGameContent" class="main-content-pane hidden">
+                <h2 class="text-2xl font-bold mb-4 text-center">Snake Game</h2>
+                <div class="text-center mb-4">
+                    <span class="text-lg">Score: <b id="score">0</b></span>
+                    <span class="text-lg ml-4">High Score: <b id="high-score">0</b></span>
+                </div>
+                <div id="game-board" tabindex="0" class="focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md"></div>
+                <div class="text-center mt-4">
+                    <button id="pause-resume-btn" class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors">Pause</button>
+                    <button id="restart-game-btn" class="bg-green-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-600 ml-2 transition-colors">Restart</button>
+                </div>
+                <div class="text-center mt-2 text-sm text-gray-500 dark:text-gray-400">
+                    Use Arrow Keys or Swipe to move.
+                </div>
+            </div>
+
             <div id="placeholderContent" class="main-content-pane hidden text-center p-10 bg-white dark:bg-gray-800 rounded-lg shadow-md">
                 <h2 class="text-2xl font-semibold text-gray-500 dark:text-gray-400">ยังไม่มี/อาจจะไม่ทำ</h2>
                 <p class="text-gray-400 dark:text-gray-500 mt-2">(Not yet available / Might not be created)</p>
             </div>
         </div>
-        <div id="gameContent" class="main-content-pane hidden flex flex-col items-center justify-center p-4">
-    
-    <div class="text-xl mb-4 flex gap-x-8">
-        <p>SCORE: <span id="gameScore" class="font-bold">0</span></p>
-        <p>HIGH SCORE: <span id="gameHighscore" class="font-bold">0</span></p>
-    </div>
-
-    <canvas width="400" height="400" id="snakeGameCanvas"></canvas>
-    
-    <button id="gamePauseBtn" class="mt-4 px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700">PAUSE</button>
-
-</div>
     </div>
 
     <script>
-
-const snakeGameLogic = {
-    canvas: null, context: null, grid: 16, count: 0,
-    isPaused: false, score: 0, highscore: 0,
-    snake: { x: 160, y: 160, dx: 16, dy: 0, cells: [], maxCells: 4 },
-    apple: { x: 320, y: 320 },
-    animationFrameId: null,
-    // -- เพิ่มตัวแปรสำหรับเก็บตำแหน่งการสัมผัส --
-    touchStartX: 0,
-    touchStartY: 0,
-
-    init() {
-        this.canvas = document.getElementById('snakeGameCanvas');
-        if (!this.canvas) return;
-        this.context = this.canvas.getContext('2d');
-        this.highscore = localStorage.getItem('snakeHighscore') || 0;
-        document.getElementById('gameHighscore').textContent = this.highscore;
-        
-        // -- ผูก Event Listener ต่างๆ --
-        document.getElementById('gamePauseBtn').addEventListener('click', () => this.togglePause());
-        document.addEventListener('keydown', (e) => this.handleKeydown(e));
-        // -- เพิ่ม Event Listener สำหรับการสัมผัสหน้าจอ --
-        this.canvas.addEventListener('touchstart', (e) => this.handleTouchStart(e), false);
-        this.canvas.addEventListener('touchmove', (e) => e.preventDefault(), false); // ป้องกันหน้าจอเลื่อน
-        this.canvas.addEventListener('touchend', (e) => this.handleTouchEnd(e), false);
-
-        this.resetGame();
-        this.startLoop();
-    },
-
-    startLoop() {
-        if (this.animationFrameId) cancelAnimationFrame(this.animationFrameId);
-        const loop = () => {
-            if (!this.isPaused) this.update();
-            this.animationFrameId = requestAnimationFrame(loop);
-        };
-        loop();
-    },
-
-    stopLoop() {
-        if (this.animationFrameId) cancelAnimationFrame(this.animationFrameId);
-        this.animationFrameId = null;
-        // -- ยกเลิก Listener (แก้ไขเล็กน้อยเพื่อความปลอดภัย) --
-        document.removeEventListener('keydown', (e) => this.handleKeydown(e));
-        if (this.canvas) {
-            this.canvas.removeEventListener('touchstart', (e) => this.handleTouchStart(e), false);
-            this.canvas.removeEventListener('touchend', (e) => this.handleTouchEnd(e), false);
-        }
-    },
-
-    togglePause() {
-        this.isPaused = !this.isPaused;
-        document.getElementById('gamePauseBtn').textContent = this.isPaused ? 'RESUME' : 'PAUSE';
-    },
-
-    resetGame() {
-        // ... ฟังก์ชันนี้เหมือนเดิมทุกประการ ...
-        if (this.score > this.highscore) {
-            this.highscore = this.score;
-            localStorage.setItem('snakeHighscore', this.highscore);
-            document.getElementById('gameHighscore').textContent = this.highscore;
-        }
-        this.snake = { x: 160, y: 160, dx: this.grid, dy: 0, cells: [], maxCells: 4 };
-        this.score = 0;
-        document.getElementById('gameScore').textContent = this.score;
-        this.apple.x = Math.floor(Math.random() * 25) * this.grid;
-        this.apple.y = Math.floor(Math.random() * 25) * this.grid;
-    },
-
-    update() {
-        // ... ฟังก์ชันนี้เหมือนเดิมทุกประการ ...
-        if (++this.count < 4) return;
-        this.count = 0;
-        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
-        this.snake.x += this.snake.dx;
-        this.snake.y += this.snake.dy;
-
-        if (this.snake.x < 0 || this.snake.x >= this.canvas.width || this.snake.y < 0 || this.snake.y >= this.canvas.height) {
-            return this.resetGame();
-        }
-
-        this.snake.cells.unshift({ x: this.snake.x, y: this.snake.y });
-        if (this.snake.cells.length > this.snake.maxCells) this.snake.cells.pop();
-
-        this.context.fillStyle = 'red';
-        this.context.fillRect(this.apple.x, this.apple.y, this.grid - 1, this.grid - 1);
-        this.context.fillStyle = 'lime';
-        this.snake.cells.forEach((cell, index) => {
-            this.context.fillRect(cell.x, cell.y, this.grid - 1, this.grid - 1);
-            if (cell.x === this.apple.x && cell.y === this.apple.y) {
-                this.snake.maxCells++;
-                this.score++;
-                document.getElementById('gameScore').textContent = this.score;
-                this.apple.x = Math.floor(Math.random() * 25) * this.grid;
-                this.apple.y = Math.floor(Math.random() * 25) * this.grid;
-            }
-            for (let i = index + 1; i < this.snake.cells.length; i++) {
-                if (cell.x === this.snake.cells[i].x && cell.y === this.snake.cells[i].y) {
-                    return this.resetGame();
-                }
-            }
-        });
-    },
-
-    handleKeydown(e) {
-        // ... ฟังก์ชันนี้เหมือนเดิมทุกประการ ...
-        if (e.which === 37 && this.snake.dx === 0) { this.snake.dx = -this.grid; this.snake.dy = 0; }
-        else if (e.which === 38 && this.snake.dy === 0) { this.snake.dy = -this.grid; this.snake.dx = 0; }
-        else if (e.which === 39 && this.snake.dx === 0) { this.snake.dx = this.grid; this.snake.dy = 0; }
-        else if (e.which === 40 && this.snake.dy === 0) { this.snake.dy = this.grid; this.snake.dx = 0; }
-    },
-
-    // -- เพิ่มฟังก์ชันสำหรับจัดการการสัมผัสเข้ามาใหม่ --
-    handleTouchStart(e) {
-        const firstTouch = e.touches[0];
-        this.touchStartX = firstTouch.clientX;
-        this.touchStartY = firstTouch.clientY;
-    },
-
-    handleTouchEnd(e) {
-        if (!this.touchStartX || !this.touchStartY) {
-            return;
-        }
-        const touchEndX = e.changedTouches[0].clientX;
-        const touchEndY = e.changedTouches[0].clientY;
-
-        const diffX = touchEndX - this.touchStartX;
-        const diffY = touchEndY - this.touchStartY;
-
-        // เช็คว่าปัดในแนวนอนหรือแนวตั้งมากกว่ากัน
-        if (Math.abs(diffX) > Math.abs(diffY)) {
-            // ปัดแนวนอน
-            if (diffX > 0 && this.snake.dx === 0) { // ปัดขวา
-                this.snake.dx = this.grid;
-                this.snake.dy = 0;
-            } else if (diffX < 0 && this.snake.dx === 0) { // ปัดซ้าย
-                this.snake.dx = -this.grid;
-                this.snake.dy = 0;
-            }
-        } else {
-            // ปัดแนวตั้ง
-            if (diffY > 0 && this.snake.dy === 0) { // ปัดลง
-                this.snake.dy = this.grid;
-                this.snake.dx = 0;
-            } else if (diffY < 0 && this.snake.dy === 0) { // ปัดขึ้น
-                this.snake.dy = -this.grid;
-                this.snake.dx = 0;
-            }
-        }
-        // รีเซ็ตค่าเริ่มต้น
-        this.touchStartX = 0;
-        this.touchStartY = 0;
-    }
-};
         // --- SCRIPT 1: Main Application Logic ---
         let quizState = {};
         let paraQuizData = [], glucoQuizData = [], chemoQuizData = [], antidoteQuizData = [], rduQuizData = [], pvQuizData = [];
-        let infectiousQuizData = [], labQuizData = [];
+        let infectiousQuizData = [], labQuizData = [], epidemiologyQuizData = [];
 
         function initializeQuizState(quizData, containerId, originalDataRef) { 
             quizState = { 
@@ -516,12 +398,19 @@ const snakeGameLogic = {
             const showPlaceholder = (containerId) => {
                 progressTracker.classList.add('hidden');
                 const targetPane = document.getElementById(containerId)?.closest('.main-content-pane');
-                if (targetPane && targetPane.id === 'infectiousContent') {
-                    document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
-                    document.getElementById('infectiousPlaceholder').classList.remove('hidden');
+                if (targetPane) {
+                    if (targetPane.id === 'infectiousContent') {
+                        document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
+                        document.getElementById('infectiousPlaceholder').classList.remove('hidden');
+                    } else if (targetPane.id === 'epidemiologyContent') {
+                        document.getElementById('epidemiologyListView').classList.add('hidden');
+                        document.getElementById('epidemiologyQuizView').classList.add('hidden');
+                        // You can add a placeholder specific to epidemiology if needed
+                        document.getElementById('placeholderContent').classList.remove('hidden');
+                    }
                 }
             };
-
+            
             // --- Pre-load Pharmacology quizzes ---
             try {
                 const quizFiles = [ 'pharmaco/para-quiz.json', 'pharmaco/gluco-quiz.json', 'pharmaco/chemo-quiz.json', 'pharmaco/antidote-quiz.json', 'pharmaco/rdu-quiz.json', 'pharmaco/pv-quiz.json' ];
@@ -543,42 +432,34 @@ const snakeGameLogic = {
             backToMainMenuBtn.addEventListener('click', (e) => { e.preventDefault(); mainMenu.classList.remove('hide-left'); infectiousSubMenu.classList.remove('show'); });
             
             sidebarLinks.forEach(link => {
-    link.addEventListener('click', (event) => {
-        event.preventDefault();
-
-        // 1. สั่งให้เกมหยุดทำงานทุกครั้งที่คลิกเมนู (ป้องกันเกมทำงานเบื้องหลัง)
-        snakeGameLogic.stopLoop();
-
-        // 2. ซ่อนเนื้อหาเก่าทั้งหมด
-        const targetId = link.dataset.target;
-        const subTargetId = link.dataset.subTarget;
-        progressTracker.classList.add('hidden');
-        contentPanes.forEach(pane => pane.classList.add('hidden'));
-
-        // 3. แสดงเนื้อหาใหม่ที่เลือก
-        document.getElementById(targetId)?.classList.remove('hidden');
-
-        // 4. ตรวจสอบว่าต้องทำอะไรเป็นพิเศษในหน้านั้นๆ
-        if (targetId === 'gameContent') {
-            // ถ้าเป็นหน้าเกม ให้เริ่มเกม
-            snakeGameLogic.init();
-        } else if (targetId === 'pharmacologyContent') {
-            // ถ้าเป็นหน้า Pharmacology ให้ตั้งค่าแท็บแรก
-            document.querySelectorAll('.pharma-tab-btn').forEach(btn => btn.classList.remove('active'));
-            document.querySelectorAll('.pharma-tab-content').forEach(content => content.classList.add('hidden'));
-            document.querySelectorAll('.pharma-tab-btn')[0].classList.add('active');
-            document.getElementById(document.querySelectorAll('.pharma-tab-btn')[0].dataset.target)?.classList.remove('hidden');
-            startNewMcqQuiz(paraQuizData, 'para-quiz-container');
-        } else if (targetId === 'infectiousContent') {
-            // ถ้าเป็นหน้า Infectious ให้แสดงแท็บย่อย
-            document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
-            document.getElementById(subTargetId)?.classList.remove('hidden');
-        }
-
-        // 5. ปิด Sidebar
-        closeSidebar();
-    });
-});
+                link.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    const targetId = link.dataset.target;
+                    const subTargetId = link.dataset.subTarget;
+                    progressTracker.classList.add('hidden');
+                    contentPanes.forEach(pane => pane.classList.add('hidden'));
+                    document.getElementById(targetId)?.classList.remove('hidden');
+                    
+                    if (targetId === 'pharmacologyContent') {
+                        document.querySelectorAll('.pharma-tab-btn').forEach(btn => btn.classList.remove('active'));
+                        document.querySelectorAll('.pharma-tab-content').forEach(content => content.classList.add('hidden'));
+                        document.querySelectorAll('.pharma-tab-btn')[0].classList.add('active');
+                        document.getElementById(document.querySelectorAll('.pharma-tab-btn')[0].dataset.target)?.classList.remove('hidden');
+                        startNewMcqQuiz(paraQuizData, 'para-quiz-container');
+                    } else if (targetId === 'infectiousContent') {
+                        document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
+                         if (subTargetId) {
+                            document.getElementById(subTargetId).classList.remove('hidden');
+                        } else {
+                            document.getElementById('theorySum1Content').classList.remove('hidden');
+                        }
+                    } else if (targetId === 'epidemiologyContent') {
+                         document.getElementById('epidemiologyListView').classList.remove('hidden');
+                         document.getElementById('epidemiologyQuizView').classList.add('hidden');
+                    }
+                    closeSidebar();
+                });
+            });
 
             // --- Event Listeners for Quiz Buttons ---
             pharmaTabBtns.forEach(button => {
@@ -609,36 +490,38 @@ const snakeGameLogic = {
                     const quizTitle = button.dataset.quizTitle;
                     const quizType = button.dataset.quizType || 'mcq';
 
-                    document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
+                    const parentPane = button.closest('.main-content-pane');
 
-                    if (quizFile && quizContainerId) {
-                        try {
-                            const response = await fetch(quizFile);
-                            if (!response.ok) throw new Error(`File not found: ${quizFile}`);
-                            const fetchedData = await response.json();
-                            if (!fetchedData || fetchedData.length === 0) throw new Error(`Quiz file is empty: ${quizFile}`);
-                            
-                            if(quizType === 'lab') {
+                    try {
+                        const response = await fetch(quizFile);
+                        if (!response.ok) throw new Error(`File not found: ${quizFile}`);
+                        const fetchedData = await response.json();
+                        if (!fetchedData || fetchedData.length === 0) throw new Error(`Quiz file is empty: ${quizFile}`);
+                        
+                        if(parentPane.id === 'infectiousContent') {
+                            document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
+                             if(quizType === 'lab') {
                                 labQuizData = fetchedData;
-                                const quizView = document.getElementById('infectiousLabQuizView');
-                                const titleElement = document.getElementById('infectious-lab-quiz-title');
-                                if(titleElement) titleElement.innerHTML = quizTitle || 'Infectious Disease Lab';
-                                if(quizView) quizView.classList.remove('hidden');
+                                document.getElementById('infectious-lab-quiz-title').innerHTML = quizTitle || 'Infectious Disease Lab';
+                                document.getElementById('infectiousLabQuizView').classList.remove('hidden');
                                 startNewLabQuiz(labQuizData, quizContainerId);
                             } else {
                                 infectiousQuizData = fetchedData;
-                                const quizView = document.getElementById('infectiousQuizView');
-                                const titleElement = document.getElementById('infectious-quiz-title');
-                                if(titleElement) titleElement.innerHTML = quizTitle || 'Infectious Disease Quiz';
-                                if(quizView) quizView.classList.remove('hidden');
+                                document.getElementById('infectious-quiz-title').innerHTML = quizTitle || 'Infectious Disease Quiz';
+                                document.getElementById('infectiousQuizView').classList.remove('hidden');
                                 startNewMcqQuiz(infectiousQuizData, quizContainerId);
                             }
-                        } catch (error) {
-                            console.error("Could not start infectious quiz:", error.message);
-                            showPlaceholder(quizContainerId);
+                        } else if (parentPane.id === 'epidemiologyContent') {
+                            document.getElementById('epidemiologyListView').classList.add('hidden');
+                            epidemiologyQuizData = fetchedData;
+                            document.getElementById('epidemiology-quiz-title').innerHTML = quizTitle || 'Epidemiology Quiz';
+                            document.getElementById('epidemiologyQuizView').classList.remove('hidden');
+                            startNewMcqQuiz(epidemiologyQuizData, quizContainerId);
                         }
-                    } else {
-                       showPlaceholder(quizContainerId);
+
+                    } catch (error) {
+                        console.error("Could not start quiz:", error.message);
+                        showPlaceholder(quizContainerId);
                     }
                 });
             });
@@ -917,7 +800,8 @@ const snakeGameLogic = {
                         if(part.type === 'keywords' || (part.type === 'multi_short_answer' && !part.reasoning)) {
                              reasoningHTML = part.reasoning || questionData.reasoning || '';
                         } else {
-                            const correctAnswerText = Array.isArray(part.answer) ? part.answer.join(' / ') : part.answer;
+                            const answerArray = Array.isArray(part.answer) ? part.answer : [part.answer];
+                            const correctAnswerText = answerArray.map(ans => ans.split('|')[0]).join(' / '); // Show first option for OR answers
                             reasoningHTML = `<p class="font-bold mb-2">Correct Answer: <span class="text-green-600 dark:text-green-400">${correctAnswerText}</span></p><p>${part.reasoning || ''}</p>`;
                         }
                         reasoningDiv.innerHTML = reasoningHTML;
@@ -961,7 +845,148 @@ const snakeGameLogic = {
             document.documentElement.classList.toggle('dark'); updateIcon();
         });
         updateIcon();
-    </script>
 
+        // --- Snake Game Logic ---
+        const board = document.getElementById('game-board');
+        const scoreDisplay = document.getElementById('score');
+        const highScoreDisplay = document.getElementById('high-score');
+        const pauseResumeBtn = document.getElementById('pause-resume-btn');
+        const restartGameBtn = document.getElementById('restart-game-btn');
+
+        const gridSize = 20;
+        let snake, food, direction, gameInterval, score, highScore, isPaused, touchStartX, touchStartY;
+
+        function initGame() {
+            snake = [{ x: 10, y: 10 }];
+            food = generateFood();
+            direction = 'right';
+            score = 0;
+            highScore = localStorage.getItem('snakeHighScore') || 0;
+            isPaused = false;
+            updateDisplay();
+            if (gameInterval) clearInterval(gameInterval);
+            gameInterval = setInterval(move, 200);
+            board.focus();
+        }
+
+        function updateDisplay() {
+            scoreDisplay.textContent = score;
+            highScoreDisplay.textContent = highScore;
+            pauseResumeBtn.textContent = isPaused ? 'Resume' : 'Pause';
+        }
+
+        function generateFood() {
+            let newFood;
+            do {
+                newFood = {
+                    x: Math.floor(Math.random() * gridSize) + 1,
+                    y: Math.floor(Math.random() * gridSize) + 1,
+                };
+            } while (snake.some(segment => segment.x === newFood.x && segment.y === newFood.y));
+            return newFood;
+        }
+
+        function draw() {
+            board.innerHTML = '';
+            snake.forEach(segment => {
+                const snakeElement = document.createElement('div');
+                snakeElement.style.gridRowStart = segment.y;
+                snakeElement.style.gridColumnStart = segment.x;
+                snakeElement.classList.add('snake');
+                board.appendChild(snakeElement);
+            });
+
+            const foodElement = document.createElement('div');
+            foodElement.style.gridRowStart = food.y;
+            foodElement.style.gridColumnStart = food.x;
+            foodElement.classList.add('food');
+            board.appendChild(foodElement);
+        }
+
+        function move() {
+            if (isPaused) return;
+            const head = { ...snake[0] };
+            switch (direction) {
+                case 'up': head.y--; break;
+                case 'down': head.y++; break;
+                case 'left': head.x--; break;
+                case 'right': head.x++; break;
+            }
+            snake.unshift(head);
+            if (head.x === food.x && head.y === food.y) {
+                score++;
+                food = generateFood();
+            } else {
+                snake.pop();
+            }
+            if (checkCollision()) {
+                if (score > highScore) {
+                    highScore = score;
+                    localStorage.setItem('snakeHighScore', highScore);
+                }
+                clearInterval(gameInterval);
+                alert(`Game Over! Score: ${score}`);
+                initGame();
+                return;
+            }
+            updateDisplay();
+            draw();
+        }
+        
+        function checkCollision() {
+            const head = snake[0];
+            return (
+                head.x < 1 || head.x > gridSize || head.y < 1 || head.y > gridSize ||
+                snake.slice(1).some(segment => segment.x === head.x && segment.y === head.y)
+            );
+        }
+
+        board.addEventListener('keydown', e => {
+            const newDirection = e.key.replace('Arrow', '').toLowerCase();
+            const opposite = { up: 'down', down: 'up', left: 'right', right: 'left' };
+            if (['up', 'down', 'left', 'right'].includes(newDirection) && newDirection !== opposite[direction]) {
+                direction = newDirection;
+            }
+        });
+
+        board.addEventListener('touchstart', e => {
+            touchStartX = e.touches[0].clientX;
+            touchStartY = e.touches[0].clientY;
+        });
+
+        board.addEventListener('touchmove', e => {
+            if (!touchStartX || !touchStartY) return;
+            const touchEndX = e.touches[0].clientX;
+            const touchEndY = e.touches[0].clientY;
+            const dx = touchEndX - touchStartX;
+            const dy = touchEndY - touchStartY;
+            const opposite = { up: 'down', down: 'up', left: 'right', right: 'left' };
+            let newDirection;
+
+            if (Math.abs(dx) > Math.abs(dy)) { // Horizontal swipe
+                newDirection = dx > 0 ? 'right' : 'left';
+            } else { // Vertical swipe
+                newDirection = dy > 0 ? 'down' : 'up';
+            }
+            if (newDirection !== opposite[direction]) {
+                direction = newDirection;
+            }
+            touchStartX = null;
+            touchStartY = null;
+        });
+
+
+        pauseResumeBtn.addEventListener('click', () => {
+            isPaused = !isPaused;
+            updateDisplay();
+            if(!isPaused) board.focus();
+        });
+        restartGameBtn.addEventListener('click', initGame);
+
+        document.querySelector('.sidebar-link[data-target="miniGameContent"]').addEventListener('click', () => {
+             setTimeout(initGame, 300); // Initialize game after pane transition
+        });
+
+    </script>
 </body>
 </html>

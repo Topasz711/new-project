@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Recommending that close contacts of a child with meningococcal meningitis receive Rifampin best describes which term?",
+        "choices": {
+            "A": "Distribution",
+            "B": "Determinants",
+            "C": "Application",
+            "D": "Distribution and Determinants",
+            "E": "Distribution, Determinants and Application"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This action is a direct intervention aimed at preventing and controlling a health problem. The definition of epidemiology includes 'the application of this study to the prevention and control of health problems'. Recommending a preventive antibiotic is applying knowledge to stop the spread of disease.",
+            "incorrect": {
+                "A": "'Distribution' refers to describing the pattern of a disease by person, place, and time (who, where, and when). This action is an intervention, not a description.",
+                "B": "'Determinants' are the causes and risk factors (the 'why' and 'how'). Giving medicine is not investigating the cause of the outbreak.",
+                "D": "The primary activity is solely 'Application,' not describing distribution or investigating determinants.",
+                "E": "The primary activity is solely 'Application,' not describing distribution or investigating determinants."
+            }
+        }
+    },
+    {
+        "question": "Marking on a map the residences of all children born with birth defects within 2 miles of a hazardous waste site best describes which term?",
+        "choices": {
+            "A": "Distribution",
+            "B": "Determinants",
+            "C": "Application",
+            "D": "Distribution and Determinants",
+            "E": "Distribution, Determinants and Application"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "This activity is a classic example of describing the pattern of a health event by place. Creating a 'spot map' is a fundamental method to visualize the geographic distribution of cases.",
+            "incorrect": {
+                "B": "While the map might later be used to hypothesize about a determinant (the waste site), the act of simply mapping the cases is a descriptive step (distribution).",
+                "C": "No action is being taken to prevent or control the birth defects; it is an act of observation and description.",
+                "D": "The activity is purely focused on describing the geographic pattern, which is 'Distribution.'",
+                "E": "The activity is purely focused on describing the geographic pattern, which is 'Distribution.'"
+            }
+        }
+    },
+    {
+        "question": "Comparing the frequency of brain cancer among anatomists with the frequency in the general population best describes which term?",
+        "choices": {
+            "A": "Distribution",
+            "B": "Determinants",
+            "C": "Application",
+            "D": "Distribution and Determinants",
+            "E": "Distribution, Determinants and Application"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The core of this activity is the comparison between two groups to identify a potential cause or risk factor. By comparing anatomists to the general population, the epidemiologist is investigating whether an occupational exposure is a determinant of brain cancer.",
+            "incorrect": {
+                "A": "While 'frequency' is part of distribution, the primary goal here is not just to describe but to compare it between groups to find a cause, which is an analytic activity (determinants).",
+                "C": "This is an analytical activity to find a cause, not an intervention to prevent or control the disease.",
+                "D": "The main thrust of the action is to identify a cause or risk factor (Determinants).",
+                "E": "The main thrust of the action is to identify a cause or risk factor (Determinants)."
+            }
+        }
+    },
+    {
+        "question": "For the tobacco epidemic model, which of the following correctly identifies the agent, host, vector, and environment?",
+        "choices": {
+            "A": "Agent (Tobacco companies), Hosts (Cultural, social...), Vectors (Smokers), Environments (Tobacco products)",
+            "B": "Agent (Tobacco products), Hosts (Smokers), Vectors (Cultural, social...), Environment (Tobacco companies)",
+            "C": "Agent (Tobacco products), Hosts (Smokers), Vectors (Tobacco companies), Environments (Cultural, social, legal, economic)",
+            "D": "Agent (Tobacco companies), Hosts (Smokers), Vectors (Tobacco products), Environment (Cultural, social, legal, economic)",
+            "E": "Agent (Tobacco companies + Tobacco products), Hosts (Smokers + Tobacco companies)..."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This correctly identifies each component: Agent (the harmful substance: tobacco products), Host (the affected organism: smokers), Vector (the transmitter: tobacco companies), and Environment (the broader context: cultural, social, legal factors).",
+            "incorrect": {
+                "A": "Incorrectly identifies the smoker as the vector and the environment as the product.",
+                "B": "Incorrectly identifies cultural/social factors as the vector.",
+                "D": "Incorrectly identifies the tobacco company as the agent instead of the vector.",
+                "E": "Incorrectly assigns the components."
+            }
+        }
+    },
+    {
+        "question": "Endemic means that a disease:",
+        "choices": {
+            "A": "Exhibits a seasonal pattern.",
+            "B": "Is prevalent among animals.",
+            "C": "Is habitually present in human population.",
+            "D": "Occurs clearly in excess of normal expectancy.",
+            "E": "Affects a large number of countries simultaneously."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The definition of endemic is a disease or condition that is constantly or habitually present among a population at all times.",
+            "incorrect": {
+                "A": "A seasonal pattern describes the timing of a disease, which can apply to both endemic and epidemic diseases.",
+                "B": "A disease habitually present in an animal population is called enzootic.",
+                "D": "This is the definition of an Epidemic or Outbreak.",
+                "E": "This is the definition of a Pandemic."
+            }
+        }
+    }
+]
