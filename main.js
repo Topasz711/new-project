@@ -1,6 +1,35 @@
+/**
+ * @file Main application logic for the Topaz Quiz platform.
+ * Handles quiz state management, UI interactions, dynamic content loading,
+ * and the snake mini-game.
+ * @author Topasz711
+ */
+
 // --- SCRIPT 1: Main Application Logic ---
+
+/**
+ * Global state object for the current quiz.
+ * @type {object}
+ * @property {string} type - The type of quiz ('mcq' or 'lab').
+ * @property {number} totalQuestions - The total number of questions.
+ * @property {number} answered - The number of questions answered.
+ * @property {number} correct - The number of correct answers.
+ * @property {number} incorrect - The number of incorrect answers.
+ * @property {number[]} incorrectIndices - An array of indices for incorrectly answered MCQ questions.
+ * @property {Array<object>} currentQuizDataRef - A reference to the data for the currently active quiz.
+ * @property {Array<object>} originalQuizDataRef - A reference to the original, unmodified quiz data.
+ * @property {string} containerId - The ID of the HTML element that contains the quiz.
+ * @property {object} answers - A map of answers for lab quizzes.
+ * @property {string[]} incorrectQuestionBlocks - An array of question numbers for incorrectly answered lab question blocks.
+ */
 let quizState = {};
 
+/**
+ * Initializes or resets the state for a Multiple Choice Question (MCQ) quiz.
+ * @param {Array<object>} quizData - The array of question objects for the quiz.
+ * @param {string} containerId - The ID of the HTML element where the quiz will be rendered.
+ * @param {Array<object>} [originalDataRef] - Optional reference to the original quiz data, used for retrying quizzes.
+ */
 function initializeQuizState(quizData, containerId, originalDataRef) {
     quizState = {
         type: 'mcq', totalQuestions: quizData.length, answered: 0, correct: 0, incorrect: 0,
@@ -11,6 +40,11 @@ function initializeQuizState(quizData, containerId, originalDataRef) {
     updateProgressBar();
 }
 
+/**
+ * Initializes or resets the state for a Lab-style quiz.
+ * @param {Array<object>} quizData - The array of question objects for the lab quiz.
+ * @param {string} containerId - The ID of the HTML element where the quiz will be rendered.
+ */
 function initializeLabQuizState(quizData, containerId) {
     const totalSubQuestions = quizData.reduce((acc, q) => {
         if (q.type === 'matching_case_study') {
@@ -41,6 +75,9 @@ function initializeLabQuizState(quizData, containerId) {
     updateProgressBar();
 }
 
+/**
+ * Updates the progress bar and statistics display based on the current quizState.
+ */
 function updateProgressBar() {
     if (Object.keys(quizState).length === 0 || !quizState.totalQuestions) {
         document.getElementById('progress-tracker').classList.add('hidden');
@@ -62,6 +99,9 @@ function updateProgressBar() {
     retryIncorrectBtn.classList.toggle('cursor-not-allowed', !hasIncorrect);
 }
 
+/**
+ * Sets up all event listeners and initial page logic once the DOM is fully loaded.
+ */
 document.addEventListener('DOMContentLoaded', () => {
     const menuBtn = document.getElementById('menu-btn');
     const sidebar = document.getElementById('sidebar');
@@ -77,19 +117,33 @@ document.addEventListener('DOMContentLoaded', () => {
     const mainMenu = document.getElementById('main-menu');
     const infectiousSubMenu = document.getElementById('infectious-sub-menu');
 
-    // --- Business Logic Functions ---
+    /**
+     * Starts a new MCQ quiz.
+     * @param {Array<object>} quizData - The quiz data.
+     * @param {string} containerId - The ID of the container element.
+     * @param {Array<object>} [originalDataRef] - Optional reference to the original quiz data.
+     */
     const startNewMcqQuiz = (quizData, containerId, originalDataRef) => {
         if (!quizData || quizData.length === 0) { showPlaceholder(containerId); return; }
         initializeQuizState(quizData, containerId, originalDataRef);
         buildMcqQuiz(quizData, containerId);
     };
 
+    /**
+     * Starts a new lab quiz.
+     * @param {Array<object>} quizData - The quiz data.
+     * @param {string} containerId - The ID of the container element.
+     */
     const startNewLabQuiz = (quizData, containerId) => {
         if (!quizData || quizData.length === 0) { showPlaceholder(containerId); return; }
         initializeLabQuizState(quizData, containerId);
         buildLabQuiz(quizData, containerId);
     };
 
+    /**
+     * Shows a placeholder message when quiz data is unavailable.
+     * @param {string} containerId - The ID of the container where the placeholder should be shown.
+     */
     const showPlaceholder = (containerId) => {
         progressTracker.classList.add('hidden');
         const targetPane = document.getElementById(containerId)?.closest('.main-content-pane');
@@ -102,22 +156,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.getElementById('epidemiologyQuizView').classList.add('hidden');
                 document.getElementById('placeholderContent').classList.remove('hidden');
             } else if (targetPane.id === 'pharmacologyContent') {
-                document.getElementById('pharmaQuizContainer').innerHTML = `<div class="text-center p-10 bg-white dark:bg-gray-800 rounded-lg shadow-md"><h2 class="text-2xl font-semibold text-gray-500 dark:text-gray-400">ยังไม่มี/อาจจะไม่ทำ</h2><p class="text-gray-400 dark:text-gray-500 mt-2">(Not yet available / Might not be created)</p></div>`;
+                document.getElementById('pharmaQuizContainer').innerHTML = `<div class="text-center p-10 bg-white dark:bg-gray-800 rounded-lg shadow-md"><h2 class="text-2xl font-semibold text-gray-500 dark:text-gray-400">Not Available</h2><p class="text-gray-400 dark:text-gray-500 mt-2">(Content not yet available)</p></div>`;
             }
         }
     };
 
-    // --- Sidebar and Navigation ---
+    /** Opens the sidebar menu. */
     function openSidebar() { sidebar.classList.remove('-translate-x-full'); overlay.classList.remove('hidden'); }
+    /** Closes the sidebar menu. */
     function closeSidebar() { sidebar.classList.add('-translate-x-full'); overlay.classList.add('hidden'); }
 
     menuBtn.addEventListener('click', openSidebar);
     overlay.addEventListener('click', closeSidebar);
     startBtn.addEventListener('click', openSidebar);
 
+    // Handles showing the 'Infectious' sub-menu
     infectiousMenuBtn.addEventListener('click', (e) => { e.preventDefault(); mainMenu.classList.add('hide-left'); infectiousSubMenu.classList.add('show'); });
+    // Handles returning to the main menu from a sub-menu
     backToMainMenuBtn.addEventListener('click', (e) => { e.preventDefault(); mainMenu.classList.remove('hide-left'); infectiousSubMenu.classList.remove('show'); });
 
+    // Handles clicks on all sidebar links to show the correct content pane
     sidebarLinks.forEach(link => {
         link.addEventListener('click', (event) => {
             event.preventDefault();
@@ -128,14 +186,9 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById(targetId)?.classList.remove('hidden');
 
             if (targetId === 'pharmacologyContent') {
-                // When pharmacology is selected, automatically click the first tab to load its content.
-                // This is now safe because it only happens on user interaction, not on page load.
                 const firstPharmaTab = document.querySelector('.pharma-tab-btn');
                 if (firstPharmaTab) firstPharmaTab.click();
             } else if (targetId === 'infectiousContent') {
-                // When infectious is selected, show the correct sub-pane.
-                // If a specific sub-pane is targeted (from the sub-menu), show it.
-                // Otherwise, default to showing the first one, 'theorySum1Content'.
                 document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
                 document.getElementById(subTargetId || 'theorySum1Content').classList.remove('hidden');
             } else if (targetId === 'epidemiologyContent') {
@@ -148,14 +201,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // --- Event Delegation for all Quiz Buttons ---
-    // Attach one listener to the main content area to handle all lecture button clicks.
-    // This is much more performant than attaching dozens of individual listeners on page load.
+    // Uses event delegation to handle clicks on any '.lecture-btn' to start a quiz.
     document.getElementById('main-content').addEventListener('click', async (event) => {
         const button = event.target.closest('.lecture-btn');
-        if (!button) return; // Exit if the click was not on a lecture button
+        if (!button) return;
 
-        // Add styling to non-pharma buttons if they don't have it yet
         if (!button.classList.contains('pharma-tab-btn') && !button.classList.contains('bg-white')) {
             button.classList.add('bg-white', 'dark:bg-gray-800', 'p-4', 'rounded-lg', 'shadow', 'hover:bg-gray-100', 'dark:hover:bg-gray-700', 'text-left');
         }
@@ -165,7 +215,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const quizTitle = button.dataset.quizTitle;
         const quizSubtitle = button.dataset.quizSubtitle;
         const quizType = button.dataset.quizType || 'mcq';
-
         const parentPane = button.closest('.main-content-pane');
 
         if (button.classList.contains('pharma-tab-btn')) {
@@ -207,6 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Handles the "Retry Quiz" button, starting the original quiz over.
     retryBtn.addEventListener('click', () => {
         if (quizState.originalQuizDataRef) {
             if (quizState.type === 'lab') {
@@ -217,6 +267,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Handles the "Retry Incorrect" button, resetting only the incorrectly answered questions.
     retryIncorrectBtn.addEventListener('click', () => {
         if (quizState.type === 'mcq') {
             if (!quizState.incorrectIndices?.length) return;
@@ -283,7 +334,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// --- MCQ Quiz Functions ---
+/**
+ * Builds and renders the HTML for an MCQ quiz.
+ * @param {Array<object>} quizData - The data for the quiz questions.
+ * @param {string} containerId - The ID of the element to render the quiz in.
+ */
 function buildMcqQuiz(quizData, containerId) {
     const quizContainer = document.getElementById(containerId);
     quizContainer.innerHTML = '';
@@ -300,6 +355,10 @@ function buildMcqQuiz(quizData, containerId) {
     quizContainer.querySelectorAll('.check-btn').forEach(button => button.addEventListener('click', checkMcqAnswer));
 }
 
+/**
+ * Checks the selected answer for an MCQ question, updates the state, and provides feedback.
+ * @param {Event} event - The click event from the "Check Answer" button.
+ */
 function checkMcqAnswer(event) {
     const button = event.target;
     const card = button.closest('.question-card');
@@ -354,7 +413,11 @@ function checkMcqAnswer(event) {
     }
 }
 
-// --- Lab Quiz Functions ---
+/**
+ * Builds and renders the HTML for a lab-style quiz.
+ * @param {Array<object>} quizData - The data for the quiz questions.
+ * @param {string} containerId - The ID of the element to render the quiz in.
+ */
 function buildLabQuiz(quizData, containerId) {
     const quizContainer = document.getElementById(containerId);
     quizContainer.innerHTML = '';
@@ -423,6 +486,10 @@ function buildLabQuiz(quizData, containerId) {
     quizContainer.querySelectorAll('.check-lab-btn').forEach(btn => btn.addEventListener('click', checkLabAnswer));
 }
 
+/**
+ * Checks the answers for a lab quiz question block, updates state, and provides feedback.
+ * @param {Event} event - The click event from the "Check" button.
+ */
 function checkLabAnswer(event) {
     const button = event.target;
     const qNum = button.dataset.questionNumber;
@@ -515,6 +582,9 @@ function checkLabAnswer(event) {
 const themeToggleBtn = document.getElementById('theme-toggle');
 const darkIcon = document.getElementById('theme-toggle-dark-icon');
 const lightIcon = document.getElementById('theme-toggle-light-icon');
+/**
+ * Updates the theme toggle icon based on the current theme (dark/light).
+ */
 function updateIcon() {
     if (document.documentElement.classList.contains('dark')) {
         darkIcon.classList.add('hidden'); lightIcon.classList.remove('hidden');
@@ -522,12 +592,17 @@ function updateIcon() {
         darkIcon.classList.remove('hidden'); lightIcon.classList.add('hidden');
     }
 }
+// Handles clicks on the theme toggle button.
 themeToggleBtn.addEventListener('click', () => {
     document.documentElement.classList.toggle('dark'); updateIcon();
 });
 updateIcon();
 
 // --- Snake Game Logic ---
+/**
+ * @namespace game
+ * @description Encapsulates all logic and state for the Snake mini-game.
+ */
 const game = {
     // DOM Elements
     board: document.getElementById('game-board'),
@@ -548,7 +623,10 @@ const game = {
     touchStartX: 0,
     touchStartY: 0,
 
-    // --- Core Methods ---
+    /**
+     * Initializes the game. Resets state, sets up listeners, and starts the game loop.
+     * @memberof game
+     */
     init() {
         if (!this.board) return;
         this.resetState();
@@ -557,6 +635,10 @@ const game = {
         this.board.focus();
     },
 
+    /**
+     * Resets the game state to its initial values.
+     * @memberof game
+     */
     resetState() {
         this.gameState = {
             snake: [{ x: 10, y: 10 }],
@@ -573,6 +655,10 @@ const game = {
         this.updateDisplay();
     },
 
+    /**
+     * Starts the main game loop using requestAnimationFrame.
+     * @memberof game
+     */
     startGameLoop() {
         if (this.gameLoopId) cancelAnimationFrame(this.gameLoopId);
         const gameLoop = (currentTime) => {
@@ -589,6 +675,10 @@ const game = {
         this.gameLoopId = requestAnimationFrame(gameLoop);
     },
 
+    /**
+     * Updates the game state for a single frame (moves snake, checks for collisions/food).
+     * @memberof game
+     */
     update() {
         this.processInput();
         const head = { ...this.gameState.snake[0] };
@@ -615,8 +705,11 @@ const game = {
         this.updateDisplay();
     },
 
+    /**
+     * Renders the current game state to the DOM.
+     * @memberof game
+     */
     draw() {
-        // Move existing DOM elements instead of recreating them
         this.gameState.snake.forEach((segment, index) => {
             const segmentElement = document.getElementById(`snake-${index}`);
             if (segmentElement) {
@@ -631,6 +724,10 @@ const game = {
         }
     },
 
+    /**
+     * Handles the game over state.
+     * @memberof game
+     */
     gameOver() {
         this.gameState.isGameOver = true;
         if (this.gameState.score > this.gameState.highScore) {
@@ -645,7 +742,10 @@ const game = {
         }
     },
 
-    // --- Helper Methods ---
+    /**
+     * Creates the initial snake and food DOM elements.
+     * @memberof game
+     */
     createGameElements() {
         this.gameState.snake.forEach((_, index) => this.createSnakeElement(index));
         const foodElement = document.createElement('div');
@@ -654,6 +754,12 @@ const game = {
         this.board.appendChild(foodElement);
     },
 
+    /**
+     * Creates a single snake segment DOM element.
+     * @param {number} index - The index of the snake segment.
+     * @returns {HTMLElement} The created snake segment element.
+     * @memberof game
+     */
     createSnakeElement(index) {
         const snakeElement = document.createElement('div');
         snakeElement.id = `snake-${index}`;
@@ -662,16 +768,23 @@ const game = {
         return snakeElement;
     },
 
+    /**
+     * Adds a new segment to the snake's body in the DOM.
+     * @memberof game
+     */
     addSnakeSegment() {
         const newIndex = this.gameState.snake.length - 1;
         const newElement = this.createSnakeElement(newIndex);
-        // Position the new segment immediately to prevent flicker by setting its
-        // initial position to the tail's logical position.
         const lastSegment = this.gameState.snake[newIndex];
         newElement.style.gridRowStart = lastSegment.y;
         newElement.style.gridColumnStart = lastSegment.x;
     },
 
+    /**
+     * Generates a new food item at a random position on the board.
+     * @returns {{x: number, y: number}} The coordinates of the new food.
+     * @memberof game
+     */
     generateFood() {
         let newFood;
         do {
@@ -683,6 +796,11 @@ const game = {
         return newFood;
     },
 
+    /**
+     * Checks if the snake has collided with the wall or itself.
+     * @returns {boolean} True if a collision occurred, false otherwise.
+     * @memberof game
+     */
     checkCollision() {
         const head = this.gameState.snake[0];
         return (
@@ -691,15 +809,21 @@ const game = {
         );
     },
 
+    /**
+     * Updates the score and high score display.
+     * @memberof game
+     */
     updateDisplay() {
         if (this.scoreDisplay) this.scoreDisplay.textContent = this.gameState.score;
         if (this.highScoreDisplay) this.highScoreDisplay.textContent = this.gameState.highScore;
         if (this.pauseResumeBtn) this.pauseResumeBtn.textContent = this.gameState.isPaused ? 'Resume' : 'Pause';
     },
 
-    // --- Input Handling ---
+    /**
+     * Sets up event listeners for game controls (keyboard and touch).
+     * @memberof game
+     */
     setupInputListeners() {
-        // Clear old listeners to prevent duplicates on restart
         this.board.replaceWith(this.board.cloneNode(true));
         this.board = document.getElementById('game-board');
         this.pauseResumeBtn.replaceWith(this.pauseResumeBtn.cloneNode(true));
@@ -714,19 +838,26 @@ const game = {
         this.restartGameBtn.addEventListener('click', () => this.init());
     },
 
+    /**
+     * Processes the input queue to change the snake's direction.
+     * @memberof game
+     */
     processInput() {
         const opposite = { up: 'down', down: 'up', left: 'right', right: 'left' };
 
-        // Process only one input per frame to prevent "impossible" turns
         if (this.inputQueue.length > 0) {
             const nextDirection = this.inputQueue.shift();
-            // Only update direction if it's not an immediate reversal
             if (nextDirection !== opposite[this.gameState.direction]) {
                 this.gameState.direction = nextDirection;
             }
         }
     },
 
+    /**
+     * Handles keydown events for snake movement.
+     * @param {KeyboardEvent} e - The keyboard event.
+     * @memberof game
+     */
      handleKeyDown(e) {
         if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
             e.preventDefault();
@@ -735,17 +866,27 @@ const game = {
         }
     },
 
+    /**
+     * Handles the start of a touch event for swipe controls.
+     * @param {TouchEvent} e - The touch event.
+     * @memberof game
+     */
      handleTouchStart(e) {
         this.touchStartX = e.touches[0].clientX;
         this.touchStartY = e.touches[0].clientY;
     },
 
+    /**
+     * Handles the move of a touch event to detect swipes.
+     * @param {TouchEvent} e - The touch event.
+     * @memberof game
+     */
      handleTouchMove(e) {
         if (!this.touchStartX || !this.touchStartY) return;
         const dx = e.touches[0].clientX - this.touchStartX;
         const dy = e.touches[0].clientY - this.touchStartY;
 
-         if (Math.abs(dx) > 10 || Math.abs(dy) > 10) { // Threshold to detect a swipe
+         if (Math.abs(dx) > 10 || Math.abs(dy) > 10) {
             let newDirection;
             if (Math.abs(dx) > Math.abs(dy)) {
                 newDirection = dx > 0 ? 'right' : 'left';
@@ -753,23 +894,30 @@ const game = {
                 newDirection = dy > 0 ? 'down' : 'up';
             }
             this.inputQueue.push(newDirection);
-            this.touchStartX = 0; // Reset to prevent multiple inputs from one swipe
+            this.touchStartX = 0;
             this.touchStartY = 0;
         }
      },
 
+     /**
+      * Toggles the paused state of the game.
+      * @memberof game
+      */
      togglePause() {
         this.gameState.isPaused = !this.gameState.isPaused;
         this.updateDisplay();
         if (!this.gameState.isPaused) {
             this.board.focus();
-            this.lastUpdateTime = performance.now(); // Reset timer to prevent jump
+            this.lastUpdateTime = performance.now();
             this.startGameLoop();
         }
      }
 };
 
-// Overwrite the original initGame function to use the new game object
+/**
+ * Initializes the snake game. This function serves as the public-facing entry point
+ * to start the game, delegating to the `game.init()` method.
+ */
 function initGame() {
     game.init();
 }
