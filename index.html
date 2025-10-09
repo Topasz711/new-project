@@ -11,61 +11,7 @@
         }
     </script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        html {
-            transition: background-color 0.2s, color 0.2s;
-        }
-        body {
-            font-family: 'Sarabun', 'Inter', sans-serif;
-        }
-        .reasoning {
-            transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out;
-        }
-        .pharma-tab-btn.active {
-            border-color: #2563eb; /* blue-600 */
-            background-color: #2563eb;
-            color: white;
-        }
-        .dark .pharma-tab-btn.active {
-            border-color: #3b82f6; /* blue-500 */
-            background-color: #3b82f6;
-            color: white;
-        }
-        .pharma-tab-btn { white-space: nowrap; }
-        #sidebar-nav-container { position: relative; width: 100%; height: calc(100% - 65px); overflow-x: hidden; }
-        .nav-menu { position: absolute; top: 0; left: 0; width: 100%; height: 100%; transition: transform 0.3s ease-in-out; }
-        .nav-menu.main-menu { transform: translateX(0); }
-        .nav-menu.sub-menu { transform: translateX(100%); }
-        .nav-menu.show { transform: translateX(0); }
-        .nav-menu.hide-left { transform: translateX(-100%); }
-
-        /* Snake Game Styles */
-        #game-board {
-            touch-action: none;
-            display: grid;
-            grid-template-rows: repeat(20, 1fr);
-            grid-template-columns: repeat(20, 1fr);
-            width: 400px;
-            height: 400px;
-            max-width: 90vw;
-            max-height: 90vw;
-            background-color: #4A6572;
-            border: 5px solid #1B263B;
-            margin: auto;
-        }
-        .snake { background-color: #40E0D0; border-radius: 20%; }
-        .food { background-color: #E67E22; border-radius: 50%; }
-        .dead-snake { 
-    color: rgb(0, 0, 0); 
-    font-size: 1.2rem; 
-    line-height: 1; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
-    font-weight: bold;
-}
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
 
@@ -119,6 +65,10 @@
         </header>
 
         <div class="container mx-auto p-4 sm:p-6 md:p-8 max-w-4xl">
+            <div id="loading-indicator" class="main-content-pane hidden text-center p-10 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold text-blue-600 dark:text-blue-400 animate-pulse">กำลังโหลดข้อสอบ...</h2>
+                <p class="text-gray-500 dark:text-gray-400 mt-2">กรุณารอสักครู่</p>
+            </div>
             
             <div id="progress-tracker" class="mb-4 p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md hidden">
                 <div class="flex justify-between items-center text-sm text-gray-600 dark:text-gray-300 mb-2 flex-wrap">
@@ -311,5 +261,6 @@
     </div>
 
     <script src="main.js" defer></script>
+    <script src="snake.js" defer></script>
 </body>
 </html>
