@@ -664,7 +664,12 @@ const game = {
 
     addSnakeSegment() {
         const newIndex = this.gameState.snake.length - 1;
-        this.createSnakeElement(newIndex);
+        const newElement = this.createSnakeElement(newIndex);
+        // Position the new segment immediately to prevent flicker by setting its
+        // initial position to the tail's logical position.
+        const lastSegment = this.gameState.snake[newIndex];
+        newElement.style.gridRowStart = lastSegment.y;
+        newElement.style.gridColumnStart = lastSegment.x;
     },
 
     generateFood() {
