@@ -155,11 +155,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const button = event.target.closest('.lecture-btn');
         if (!button) return; // Exit if the click was not on a lecture button
 
-        // Add styling to non-pharma buttons if they don't have it yet
-        if (!button.classList.contains('pharma-tab-btn') && !button.classList.contains('bg-white')) {
-            button.classList.add('bg-white', 'dark:bg-gray-800', 'p-4', 'rounded-lg', 'shadow', 'hover:bg-gray-100', 'dark:hover:bg-gray-700', 'text-left');
-        }
-
         const quizFile = button.dataset.quizFile;
         const quizContainerId = button.dataset.quizContainer;
         const quizTitle = button.dataset.quizTitle;
