@@ -4,17 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Topaz Quiz</title>
-    <!-- Tailwind CSS from CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        // Basic Tailwind configuration for dark mode
         tailwind.config = {
             darkMode: 'class',
         }
     </script>
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Custom Styles -->
     <style>
         html {
             transition: background-color 0.2s, color 0.2s;
@@ -36,7 +32,6 @@
             color: white;
         }
         .pharma-tab-btn { white-space: nowrap; }
-        /* Styles for the sidebar navigation menus */
         #sidebar-nav-container { position: relative; width: 100%; height: calc(100% - 65px); overflow-x: hidden; }
         .nav-menu { position: absolute; top: 0; left: 0; width: 100%; height: 100%; transition: transform 0.3s ease-in-out; }
         .nav-menu.main-menu { transform: translateX(0); }
@@ -61,211 +56,260 @@
         .snake { background-color: #40E0D0; border-radius: 20%; }
         .food { background-color: #E67E22; border-radius: 50%; }
         .dead-snake { 
-            color: rgb(0, 0, 0);
-            font-size: 1.2rem;
-            line-height: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-        }
+    color: rgb(0, 0, 0); 
+    font-size: 1.2rem; 
+    line-height: 1; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-weight: bold;
+}
+
     </style>
 </head>
 <body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
 
-    <!-- Sidebar: Navigation menu for topics. Initially hidden off-screen. -->
     <aside id="sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen bg-white dark:bg-gray-800 shadow-xl transform -translate-x-full transition-transform duration-300 ease-in-out">
         <div class="p-4 border-b border-gray-200 dark:border-gray-700">
             <h2 class="text-xl font-bold text-gray-800 dark:text-gray-100">Topics</h2>
         </div>
-        <!-- Container for sliding navigation menus -->
         <div id="sidebar-nav-container">
-            <!-- Main navigation menu -->
             <nav id="main-menu" class="nav-menu main-menu mt-4">
                 <ul>
-                    <li><a href="#" class="sidebar-link block py-2 px-4" data-target="homeContent">Home</a></li>
-                    <li><a href="#" class="sidebar-link block py-2 px-4" data-target="miniGameContent">Mini-Game</a></li>
-                    <li><a href="#" class="sidebar-link block py-2 px-4" data-target="pharmacologyContent">Pharmacology</a></li>
-                    <li><a href="#" id="infectious-menu-btn" class="flex justify-between items-center w-full py-2 px-4"><span>Infectious</span><span>&gt;</span></a></li>
-                    <li><a href="#" class="sidebar-link block py-2 px-4" data-target="epidemiologyContent">Epidemiology</a></li>
-                    <!-- Placeholder links for future content -->
-                    <li><a href="#" class="sidebar-link block py-2 px-4" data-target="placeholderContent">Skin</a></li>
-                    <li><a href="#" class="sidebar-link block py-2 px-4" data-target="placeholderContent">Musculoskeletal</a></li>
-                    <li><a href="#" class="sidebar-link block py-2 px-4" data-target="placeholderContent">CNS</a></li>
-                    <li><a href="#" class="sidebar-link block py-2 px-4" data-target="placeholderContent">Urban Health</a></li>
-                    <li><a href="#" class="sidebar-link block py-2 px-4" data-target="placeholderContent">Cardiovascular</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="homeContent">Home</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="miniGameContent">Mini-Game</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="pharmacologyContent">Pharmacology</a></li>
+                    <li><a href="#" id="infectious-menu-btn" class="flex justify-between items-center w-full py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full"><span>Infectious</span><span>&gt;</span></a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="epidemiologyContent">Epidemiology</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="placeholderContent">Skin</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="placeholderContent">Musculoskeletal</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="placeholderContent">CNS</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="placeholderContent">Urban Health</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="placeholderContent">Cardiovascular</a></li>
                 </ul>
             </nav>
-            <!-- Sub-menu for the "Infectious" category -->
             <nav id="infectious-sub-menu" class="nav-menu sub-menu mt-4">
                 <ul>
-                    <li><a href="#" id="back-to-main-menu" class="block py-2 px-4">&lt;- Back</a></li>
-                    <li><a href="#" class="sidebar-link block py-2 px-4" data-target="infectiousContent" data-sub-target="theorySum1Content">Theory SUM1</a></li>
-                    <li><a href="#" class="sidebar-link block py-2 px-4" data-target="infectiousContent" data-sub-target="labSum1Content">Lab SUM1</a></li>
-                    <li><a href="#" class="sidebar-link block py-2 px-4" data-target="infectiousContent" data-sub-target="theorySum2Content">Theory SUM2</a></li>
-                    <li><a href="#" class="sidebar-link block py-2 px-4" data-target="infectiousContent" data-sub-target="labSum2Content">Lab SUM2</a></li>
+                    <li><a href="#" id="back-to-main-menu" class="block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full">&lt;- Back</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="infectiousContent" data-sub-target="theorySum1Content">Theory SUM1</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="infectiousContent" data-sub-target="labSum1Content">Lab SUM1</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="infectiousContent" data-sub-target="theorySum2Content">Theory SUM2</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="infectiousContent" data-sub-target="labSum2Content">Lab SUM2</a></li>
                 </ul>
             </nav>
         </div>
     </aside>
 
-    <!-- Overlay: Shown behind the sidebar when it's open -->
     <div id="overlay" class="fixed inset-0 bg-black bg-opacity-50 z-30 hidden transition-opacity duration-300 ease-in-out"></div>
 
-    <!-- Main Content Area -->
     <div id="main-content" class="transition-all duration-300 ease-in-out">
-        <!-- Header: Contains menu button, title, and theme toggle -->
         <header class="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-20 border-b border-gray-200 dark:border-gray-700">
             <div class="container mx-auto px-4 py-3 flex items-center justify-between">
                 <div class="flex items-center">
-                    <button id="menu-btn" class="p-2 rounded-md text-gray-600 dark:text-gray-300">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    <button id="menu-btn" class="p-2 rounded-md text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
                     </button>
                     <h1 class="text-xl font-bold ml-4 text-gray-900 dark:text-gray-100">Topaz Quiz</h1>
                 </div>
-                <button id="theme-toggle" class="p-2 rounded-md text-gray-600 dark:text-gray-300">
+                <button id="theme-toggle" class="p-2 rounded-md text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
                     <svg id="theme-toggle-dark-icon" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" /></svg>
                     <svg id="theme-toggle-light-icon" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" /></svg>
                 </button>
             </div>
         </header>
 
-        <!-- Container for all dynamic content panes -->
         <div class="container mx-auto p-4 sm:p-6 md:p-8 max-w-4xl">
             
-            <!-- Progress Tracker: Displayed during a quiz -->
             <div id="progress-tracker" class="mb-4 p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md hidden">
                 <div class="flex justify-between items-center text-sm text-gray-600 dark:text-gray-300 mb-2 flex-wrap">
-                    <span>Answered: <b id="answered-count">0</b>/<b id="total-count">0</b></span>
-                    <span class="text-green-500">✅ Correct: <b id="correct-count">0</b></span>
-                    <span class="text-red-500">❌ Incorrect: <b id="incorrect-count">0</b></span>
-                    <span>Remaining: <b id="remaining-count">0</b></span>
+                    <span class="w-1/2 sm:w-auto sm:flex-1">ทำไปแล้ว: <b id="answered-count">0</b>/<b id="total-count">0</b> ข้อ</span>
+                    <span class="w-1/2 sm:w-auto sm:flex-1 text-center text-green-500 dark:text-green-400">✅ ถูก: <b id="correct-count">0</b></span>
+                    <span class="w-1/2 sm:w-auto sm:flex-1 text-center text-red-500 dark:text-red-400">❌ ผิด: <b id="incorrect-count">0</b></span>
+                    <span class="w-1/2 sm:w-auto sm:flex-1 text-right">เหลือ: <b id="remaining-count">0</b> ข้อ</span>
                 </div>
                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
                     <div id="progress-bar-fill" class="bg-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
                 </div>
                 <div id="retry-buttons" class="mt-4 text-center">
-                    <button id="retry-btn" class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg">Retry Quiz</button>
-                    <button id="retry-incorrect-btn" class="bg-orange-500 text-white font-semibold py-2 px-4 rounded-lg ml-2">Retry Incorrect</button>
+                    <button id="retry-btn" class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors">
+                        เริ่ม Quiz ใหม่อีกครั้ง
+                    </button>
+                    <button id="retry-incorrect-btn" class="bg-orange-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-orange-600 ml-2 transition-colors">
+                        ทำข้อที่ผิดใหม่
+                    </button>
                 </div>
             </div>
 
-            <!-- Home Content Pane -->
             <div id="homeContent" class="main-content-pane">
                 <div class="flex flex-col items-center justify-center text-center min-h-[70vh]">
-                    <h1 class="text-5xl md:text-6xl font-bold">Topaz Quiz</h1>
-                    <p class="text-xl mt-4 mb-8">Let's get started</p>
-                    <button id="start-btn" class="bg-blue-600 text-white font-bold py-3 px-8 rounded-lg">Let's get started</button>
+                    <h1 class="text-5xl md:text-6xl font-bold text-gray-800 dark:text-gray-100">Topaz Quiz</h1>
+                    <p class="text-xl text-gray-600 dark:text-gray-400 mt-4 mb-8">Let's get started</p>
+                    <button id="start-btn" class="bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition-transform transform hover:scale-105">
+                        Let's get started
+                    </button>
                 </div>
-                <div class="fixed bottom-4 right-4 text-xs text-gray-400">
+                <div class="fixed bottom-4 right-4 text-xs text-gray-400 dark:text-gray-500">
                     <p>Made by Topasz711</p>
-                    <p>Follow me on <a href="https://github.com/Topasz711" target="_blank" class="text-blue-400 hover:underline">GitHub</a></p>
+                    <p>Follow me on <a href="https://github.com/Topasz711" target="_blank" class="text-blue-400 hover:underline">https://github.com/Topasz711</a></p>
                 </div>
             </div>
 
-            <!-- Pharmacology Content Pane -->
             <div id="pharmacologyContent" class="main-content-pane hidden">
-                <!-- Tabs for different pharmacology quizzes -->
                 <div class="mb-8 border-b border-gray-300 dark:border-gray-700 overflow-x-auto">
                     <div class="flex -mb-px">
-                        <button class="pharma-tab-btn lecture-btn flex-shrink-0 py-2 px-4" data-quiz-file="pharmaco/para-quiz.json" data-quiz-container="pharmaQuizContainer" data-quiz-title="Parasympathomimetic & Parasympatholytic Drugs Quiz" data-quiz-subtitle="Test your knowledge on cholinergic pharmacology.">Parasympathomimetic Drugs</button>
-                        <button class="pharma-tab-btn lecture-btn flex-shrink-0 py-2 px-4" data-quiz-file="pharmaco/gluco-quiz.json" data-quiz-container="pharmaQuizContainer" data-quiz-title="Glucocorticoids Quiz" data-quiz-subtitle="Test your knowledge on glucocorticoid pharmacology.">Glucocorticoids</button>
-                        <!-- Add other pharma tabs here -->
+                        <button class="pharma-tab-btn lecture-btn flex-shrink-0 py-2 px-4 font-semibold border-b-2 transition-colors duration-300 border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 hover:border-gray-400 dark:hover:border-gray-500" data-quiz-file="pharmaco/para-quiz.json" data-quiz-container="pharmaQuizContainer" data-quiz-title="Parasympathomimetic & Parasympatholytic Drugs Quiz" data-quiz-subtitle="Test your knowledge on cholinergic pharmacology.">Parasympathomimetic Drugs</button>
+                        <button class="pharma-tab-btn lecture-btn flex-shrink-0 py-2 px-4 font-semibold border-b-2 border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 hover:border-gray-400 dark:hover:border-gray-500 transition-colors duration-300" data-quiz-file="pharmaco/gluco-quiz.json" data-quiz-container="pharmaQuizContainer" data-quiz-title="Glucocorticoids Quiz" data-quiz-subtitle="Test your knowledge on glucocorticoid pharmacology.">Glucocorticoids</button>
+                        <button class="pharma-tab-btn lecture-btn flex-shrink-0 py-2 px-4 font-semibold border-b-2 border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 hover:border-gray-400 dark:hover:border-gray-500 transition-colors duration-300" data-quiz-file="pharmaco/chemo-quiz.json" data-quiz-container="pharmaQuizContainer" data-quiz-title="Chemotherapy Quiz" data-quiz-subtitle="Test your knowledge on cancer chemotherapy agents.">Chemotherapy</button>
+                        <button class="pharma-tab-btn lecture-btn flex-shrink-0 py-2 px-4 font-semibold border-b-2 border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 hover:border-gray-400 dark:hover:border-gray-500 transition-colors duration-300" data-quiz-file="pharmaco/antidote-quiz.json" data-quiz-container="pharmaQuizContainer" data-quiz-title="Antidote & Poisoning Quiz" data-quiz-subtitle="Test your knowledge on toxicology.">Antidote & Poisoning</button>
+                        <button class="pharma-tab-btn lecture-btn flex-shrink-0 py-2 px-4 font-semibold border-b-2 border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 hover:border-gray-400 dark:hover:border-gray-500 transition-colors duration-300" data-quiz-file="pharmaco/rdu-quiz.json" data-quiz-container="pharmaQuizContainer" data-quiz-title="Rational Drug Use (RDU) Quiz" data-quiz-subtitle="Test your knowledge about RDU policies in Thailand.">RDU</button>
+                        <button class="pharma-tab-btn lecture-btn flex-shrink-0 py-2 px-4 font-semibold border-b-2 border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 hover:border-gray-400 dark:hover:border-gray-500 transition-colors duration-300" data-quiz-file="pharmaco/pv-quiz.json" data-quiz-container="pharmaQuizContainer" data-quiz-title="Thai Pharmacovigilance Quiz" data-quiz-subtitle="Test your knowledge about the national drug safety system in Thailand.">Pharmacovigilance</button>
                     </div>
                 </div>
-                <!-- View for the pharmacology quiz -->
+                
                 <div id="pharmaQuizView">
                     <header class="text-center mb-8">
-                        <h1 id="pharma-quiz-title" class="text-3xl sm:text-4xl font-bold"></h1>
-                        <p id="pharma-quiz-subtitle" class="mt-2 text-lg"></p>
+                        <h1 id="pharma-quiz-title" class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-gray-50"></h1>
+                        <p id="pharma-quiz-subtitle" class="mt-2 text-lg text-gray-600 dark:text-gray-400"></p>
                     </header>
                     <div id="pharmaQuizContainer" class="space-y-8"></div>
                 </div>
             </div>
 
-            <!-- Infectious Disease Content Pane -->
             <div id="infectiousContent" class="main-content-pane hidden">
-                <!-- Sub-pane for Theory SUM1 lectures -->
                 <div id="theorySum1Content" class="infectious-sub-pane">
                     <h2 class="text-2xl font-bold mb-4">Theory SUM1</h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <button class="lecture-btn" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L1.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L1: Introduction to Medical Parasitology"><b>L1:</b> Introduction to Medical Parasitology</button>
-                        <!-- Add other infectious theory buttons here -->
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L1.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L1: Introduction to Medical Parasitology"><b>L1:</b> Introduction to Medical Parasitology</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L2.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L2: Medical Helminthes: Nematodes"><b>L2:</b> Medical Helminthes: Nematodes</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L3.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L3: Medical Helminthes: Trematodes and Cestode"><b>L3:</b> Medical Helminthes: Trematodes and Cestode</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L4.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L4: Medical Protozoa I: Amoeba, Ciliate, Flagellate"><b>L4:</b> Medical Protozoa I: Amoeba, Ciliate, Flagellate</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L5.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L5: Medical Protozoa II: Sporozoa and Malaria"><b>L5:</b> Medical Protozoa II: Sporozoa and Malaria</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L6.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L6: Medical Entomology"><b>L6:</b> Medical Entomology</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L7.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L7: Antiparasitic drugs"><b>L7:</b> Antiparasitic drugs</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L8.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L8: Introduction to virology"><b>L8:</b> Introduction to virology</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L9.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L9: Viral epidemiology and pathogenesis"><b>L9:</b> Viral epidemiology and pathogenesis</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L10.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L10: Viral exanthem"><b>L10:</b> Viral exanthem</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L11.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L11: Arbovirus"><b>L11:</b> Arbovirus</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L12.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L12: Oncogenic virus"><b>L12:</b> Oncogenic virus</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L13.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L13: HIV & viral STD"><b>L13:</b> HIV & viral STD</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L14.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L14: Emerging virus"><b>L14:</b> Emerging virus</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L15.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L15: Principle of laboratory investigation of viral infections"><b>L15:</b> Principle of laboratory investigation of viral infections</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L16.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L16: Anti-viral drugs"><b>L16:</b> Anti-viral drugs</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L17.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L17: Clinical correlation of viral diseases"><b>L17:</b> Clinical correlation of viral diseases</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory1-L18.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L18: Case discussion (Parasites and Viruses)"><b>L18:</b> Case discussion (Parasites and Viruses)</button>
                     </div>
                 </div>
-                <!-- Sub-pane for Lab SUM1 lectures -->
                 <div id="labSum1Content" class="infectious-sub-pane hidden">
                     <h2 class="text-2xl font-bold mb-4">Lab SUM1</h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <button class="lecture-btn" data-quiz-type="lab" data-quiz-file="infectious/infectious-lab1-L1.json" data-quiz-container="infectiousLabQuizContainer" data-quiz-title="Lab 1: Medical Helminthes"><b>Lab 1:</b> Medical Helminthes</button>
-                        <!-- Add other infectious lab buttons here -->
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="lab" data-quiz-file="infectious/infectious-lab1-L1.json" data-quiz-container="infectiousLabQuizContainer" data-quiz-title="Lab 1: Medical Helminthes (Stool examination practice)"><b>Lab 1:</b> Medical Helminthes (Stool examination practice)</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="lab" data-quiz-file="infectious/infectious-lab1-L2.json" data-quiz-container="infectiousLabQuizContainer" data-quiz-title="Lab 2: Medical protozoa and Malaria practice"><b>Lab 2:</b> Medical protozoa and Malaria practice</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="lab" data-quiz-file="infectious/infectious-lab1-L3.json" data-quiz-container="infectiousLabQuizContainer" data-quiz-title="Lab 3: Demonstration of Medical Entomology"><b>Lab 3:</b> Demonstration of Medical Entomology</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="lab" data-quiz-file="infectious/infectious-lab1-L4.json" data-quiz-container="infectiousLabQuizContainer" data-quiz-title="Lab 4: Laboratory diagnosis of viral infection 1"><b>Lab 4:</b> Laboratory diagnosis of viral infection 1</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="lab" data-quiz-file="infectious/infectious-lab1-L5.json" data-quiz-container="infectiousLabQuizContainer" data-quiz-title="Lab 5: Laboratory diagnosis of viral infection 2"><b>Lab 5:</b> Laboratory diagnosis of viral infection 2</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="lab" data-quiz-file="infectious/infectious-lab1-L6.json" data-quiz-container="infectiousLabQuizContainer" data-quiz-title="Lab 6: Laboratory diagnosis of viral infection 3"><b>Lab 6:</b> Laboratory diagnosis of viral infection 3</button>
                     </div>
                 </div>
-                <!-- Views for the infectious disease quizzes -->
+                <div id="theorySum2Content" class="infectious-sub-pane hidden">
+                    <h2 class="text-2xl font-bold mb-4">Theory SUM2</h2>
+                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L19.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L19: Bacterial cell structure and genome"><b>L19:</b> Bacterial cell structure and genome</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L20.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L20: Bacterial growth, metabolism, and physiology"><b>L20:</b> Bacterial growth, metabolism, and physiology</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L21.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L21: Human microbiome and mycobiome"><b>L21:</b> Human microbiome and mycobiome</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L22.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L22: Bacterial pathogenesis"><b>L22:</b> Bacterial pathogenesis</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L23.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L23: Gram positive bacteria"><b>L23:</b> Gram positive bacteria</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L24.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L24: Gram negative bacteria"><b>L24:</b> Gram negative bacteria</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L25.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L25: Anaerobic bacteria"><b>L25:</b> Anaerobic bacteria</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L26.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L26: Higher bacteria"><b>L26:</b> Higher bacteria</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L27.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L27: Spirochete, unclassified bacteria and zoonotic bacterial pathogens"><b>L27:</b> Spirochete, unclassified bacteria and zoonotic bacterial pathogens</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L28.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L28: Microbial control, principle of sterilization and basic biosafety"><b>L28:</b> Microbial control, principle of sterilization and basic biosafety</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L29.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L29: Antibacterial drugs"><b>L29:</b> Antibacterial drugs</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L30.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L30: Principle of drug resistance mechanism"><b>L30:</b> Principle of drug resistance mechanism</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L31.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L31: Fungal structure, taxonomy and classification of medically important Fungi"><b>L31:</b> Fungal structure, taxonomy and classification of medically important Fungi</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L32.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L32: Medically important yeasts"><b>L32:</b> Medically important yeasts</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L33.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L33: Medically important mold"><b>L33:</b> Medically important mold</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L34.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L34: Dimorphic fungi and Fungus-like organisms"><b>L34:</b> Dimorphic fungi and Fungus-like organisms</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L35.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L35: Antifungal drugs"><b>L35:</b> Antifungal drugs</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L36.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L36: Overview of laboratory diagnosis in infectious diseases"><b>L36:</b> Overview of laboratory diagnosis in infectious diseases</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="infectious/infectious-theory2-L37.json" data-quiz-container="infectiousQuizContainer" data-quiz-title="L37: Case discussion (Bacteria and Fungi)"><b>L37:</b> Case discussion (Bacteria and Fungi)</button>
+                    </div>
+                </div>
+                <div id="labSum2Content" class="infectious-sub-pane hidden">
+                    <h2 class="text-2xl font-bold mb-4">Lab SUM2</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="lab" data-quiz-file="infectious/infectious-lab2-L7.json" data-quiz-container="infectiousLabQuizContainer" data-quiz-title="Lab 7: Principle of cultivation assay"><b>Lab 7:</b> Principle of cultivation assay</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="lab" data-quiz-file="infectious/infectious-lab2-L8.json" data-quiz-container="infectiousLabQuizContainer" data-quiz-title="Lab 8: Bacterial staining and Biochemical test for bacterial identification"><b>Lab 8:</b> Bacterial staining and Biochemical test for bacterial identification</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="lab" data-quiz-file="infectious/infectious-lab2-L9.json" data-quiz-container="infectiousLabQuizContainer" data-quiz-title="Lab 9: Laboratory diagnosis in bacterial infection and antimicrobial susceptibility test"><b>Lab 9:</b> Laboratory diagnosis in bacterial infection and antimicrobial susceptibility test</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="lab" data-quiz-file="infectious/infectious-lab2-L10.json" data-quiz-container="infectiousLabQuizContainer" data-quiz-title="Lab 10: Laboratory diagnosis in fungal infection"><b>Lab 10:</b> Laboratory diagnosis in fungal infection</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="lab" data-quiz-file="infectious/infectious-lab2-L11.json" data-quiz-container="infectiousLabQuizContainer" data-quiz-title="Lab 11: Personal Protective Equipment and Biosafety Practices"><b>Lab 11:</b> Personal Protective Equipment and Biosafety Practices</button>
+                    </div>
+                </div>
                 <div id="infectiousQuizView" class="infectious-sub-pane hidden">
                     <header class="text-center mb-8">
-                        <h1 id="infectious-quiz-title" class="text-3xl sm:text-4xl font-bold"></h1>
-                        <p class="mt-2 text-lg">Test your knowledge.</p>
+                        <h1 id="infectious-quiz-title" class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-gray-50"></h1>
+                        <p class="mt-2 text-lg text-gray-600 dark:text-gray-400">Test your knowledge.</p>
                     </header>
                     <div id="infectiousQuizContainer" class="space-y-8"></div>
                 </div>
                 <div id="infectiousLabQuizView" class="infectious-sub-pane hidden">
                     <header class="text-center mb-8">
-                        <h1 id="infectious-lab-quiz-title" class="text-3xl sm:text-4xl font-bold"></h1>
-                        <p class="mt-2 text-lg">Answer the following questions.</p>
+                        <h1 id="infectious-lab-quiz-title" class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-gray-50"></h1>
+                        <p class="mt-2 text-lg text-gray-600 dark:text-gray-400">Answer the following questions.</p>
                     </header>
                     <div id="infectiousLabQuizContainer" class="space-y-8"></div>
                 </div>
-                <!-- Placeholder for unavailable infectious content -->
-                <div id="infectiousPlaceholder" class="infectious-sub-pane hidden text-center p-10">
-                    <h2 class="text-2xl font-semibold">Content Not Available</h2>
+                <div id="infectiousPlaceholder" class="infectious-sub-pane hidden text-center p-10 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-semibold text-gray-500 dark:text-gray-400">ยังไม่มี/อาจจะไม่ทำ</h2>
+                    <p class="text-gray-400 dark:text-gray-500 mt-2">(Not yet available / Might not be created)</p>
                 </div>
             </div>
 
-            <!-- Epidemiology Content Pane -->
             <div id="epidemiologyContent" class="main-content-pane hidden">
                 <div id="epidemiologyListView">
                     <h2 class="text-2xl font-bold mb-4">Epidemiology Lectures</h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                         <button class="lecture-btn" data-quiz-type="mcq" data-quiz-file="epidemiology/epi-L1.json" data-quiz-container="epidemiologyQuizContainer" data-quiz-title="L1: Natural History"><b>L1:</b> Natural History</button>
-                         <!-- Add other epidemiology lecture buttons here -->
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="epidemiology/epi-L1.json" data-quiz-container="epidemiologyQuizContainer" data-quiz-title="L1: Natural History"><b>L1:</b> Natural History</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="epidemiology/epi-L2.json" data-quiz-container="epidemiologyQuizContainer" data-quiz-title="L2: Research problem formulation"><b>L2:</b> Research problem formulation</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="epidemiology/epi-L3.json" data-quiz-container="epidemiologyQuizContainer" data-quiz-title="L3: Literature review, Internet searching"><b>L3:</b> Literature review, Internet searching</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="epidemiology/epi-L4.json" data-quiz-container="epidemiologyQuizContainer" data-quiz-title="L4: Overview study design"><b>L4:</b> Overview study design</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="epidemiology/epi-L5.json" data-quiz-container="epidemiologyQuizContainer" data-quiz-title="L5: Sample size calculation"><b>L5:</b> Sample size calculation</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="epidemiology/epi-L6.json" data-quiz-container="epidemiologyQuizContainer" data-quiz-title="L6: Outcome assessment 1"><b>L6:</b> Outcome assessment 1</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="epidemiology/epi-L7.json" data-quiz-container="epidemiologyQuizContainer" data-quiz-title="L7: Outcome assessment 2"><b>L7:</b> Outcome assessment 2</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="epidemiology/epi-L8.json" data-quiz-container="epidemiologyQuizContainer" data-quiz-title="L8: Measurement in epidemiology"><b>L8:</b> Measurement in epidemiology</button>
                     </div>
                 </div>
                 <div id="epidemiologyQuizView" class="hidden">
                     <header class="text-center mb-8">
-                        <h1 id="epidemiology-quiz-title" class="text-3xl sm:text-4xl font-bold"></h1>
-                        <p class="mt-2 text-lg">Test your knowledge.</p>
+                        <h1 id="epidemiology-quiz-title" class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-gray-50"></h1>
+                        <p class="mt-2 text-lg text-gray-600 dark:text-gray-400">Test your knowledge.</p>
                     </header>
                     <div id="epidemiologyQuizContainer" class="space-y-8"></div>
                 </div>
             </div>
             
-            <!-- Mini-Game Content Pane -->
             <div id="miniGameContent" class="main-content-pane hidden">
                 <h2 class="text-2xl font-bold mb-4 text-center">Snake Game</h2>
                 <div class="text-center mb-4">
                     <span class="text-lg">Score: <b id="score">0</b></span>
                     <span class="text-lg ml-4">High Score: <b id="high-score">0</b></span>
                 </div>
-                <div id="game-board" tabindex="0"></div>
+                <div id="game-board" tabindex="0" class="focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md"></div>
                 <div class="text-center mt-4">
-                    <button id="pause-resume-btn" class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg">Pause</button>
-                    <button id="restart-game-btn" class="bg-green-500 text-white font-semibold py-2 px-4 rounded-lg ml-2">Restart</button>
+                    <button id="pause-resume-btn" class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors">Pause</button>
+                    <button id="restart-game-btn" class="bg-green-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-600 ml-2 transition-colors">Restart</button>
                 </div>
-                <div class="text-center mt-2 text-sm text-gray-500">
+                <div class="text-center mt-2 text-sm text-gray-500 dark:text-gray-400">
                     Use Arrow Keys or Swipe to move.
                 </div>
             </div>
 
-            <!-- Placeholder for uncreated content -->
-            <div id="placeholderContent" class="main-content-pane hidden text-center p-10">
-                <h2 class="text-2xl font-semibold">Content Not Available</h2>
-                <p class="mt-2">(Not yet available / Might not be created)</p>
+            <div id="placeholderContent" class="main-content-pane hidden text-center p-10 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold text-gray-500 dark:text-gray-400">ยังไม่มี/อาจจะไม่ทำ</h2>
+                <p class="text-gray-400 dark:text-gray-500 mt-2">(Not yet available / Might not be created)</p>
             </div>
         </div>
     </div>
 
-    <!-- Main JavaScript file -->
     <script src="main.js" defer></script>
 </body>
 </html>
