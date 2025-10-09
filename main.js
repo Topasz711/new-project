@@ -213,9 +213,9 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error("Could not start quiz:", error.message);
             loadingIndicator.classList.add('hidden');
             showPlaceholder(quizContainerId);
-            const homeContent = document.getElementById('homeContent');
-    if (homeContent) {
-        homeContent.classList.remove('hidden');
+            const placeholderPane = document.getElementById('placeholderContent');
+        if (placeholderPane) {
+            placeholderPane.classList.remove('hidden');
     }
         }
     });
