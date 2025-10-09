@@ -1,1 +1,102 @@
-[]
+[
+    {
+        "question": "A research question asks: 'In women of reproductive age, is long-term use of combined oral contraceptives associated with an increased risk of developing endometrial cancer?' According to the lecture, which framework is most appropriate for this type of question?",
+        "choices": {
+            "A": "PIRD",
+            "B": "PICO",
+            "C": "PEO",
+            "D": "CoCoPop",
+            "E": "PFO"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This question investigates the relationship between a potential risk factor (an exposure) and a health outcome. The PEO (Population, Exposure, Outcome) framework is designed for Etiologic and risk studies. P: Women of reproductive age, E: Long-term use of combined oral contraceptives, O: Development of endometrial cancer.",
+            "incorrect": {
+                "A": "PIRD is for Diagnostic test accuracy studies.",
+                "B": "PICO is for Interventional studies that evaluate the effectiveness of a treatment.",
+                "D": "CoCoPop is for Incidence/Prevalence studies that measure the frequency of a disease.",
+                "E": "PFO is for Prognostic studies that predict the future course of a disease."
+            }
+        }
+    },
+    {
+        "question": "A proposed study requires recruiting 1,000 patients with a rare disorder that has only 50 known cases worldwide and needs a multi-million dollar budget the institution cannot provide. This research question most significantly fails which of the FINER criteria?",
+        "choices": {
+            "A": "Feasible",
+            "B": "Novel",
+            "C": "Relevant",
+            "D": "Ethical",
+            "E": "Interesting"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The FINER criteria define 'Feasible' as being achievable within the available time, resources, and patient population. This scenario presents critical feasibility issues: an inadequate number of subjects and insufficient financial resources.",
+            "incorrect": {
+                "B": "The research idea could be extremely novel, relevant, and interesting, but these attributes do not make the study possible to conduct.",
+                "C": "The research idea could be extremely novel, relevant, and interesting, but these attributes do not make the study possible to conduct.",
+                "D": "The problems described are practical and logistical, not related to ethical violations.",
+                "E": "The research idea could be extremely novel, relevant, and interesting, but these attributes do not make the study possible to conduct."
+            }
+        }
+    },
+    {
+        "question": "A study aims to answer: 'In women with a pelvic mass, is transvaginal ultrasound with Doppler flow accurate in detecting ovarian malignancy, compared to histopathology?' Within the PIRD framework, what does 'histopathology' represent?",
+        "choices": {
+            "A": "The Index Test (I)",
+            "B": "The Population (P)",
+            "C": "The Reference Test (R)",
+            "D": "The Diagnosis of Interest (D)",
+            "E": "The Outcome (O)"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The PIRD framework is for Diagnostic test accuracy studies. The 'R' stands for Reference Test, which is the 'gold standard' used for comparison. In cancer diagnosis, histopathology (the microscopic examination of tissue) is the definitive gold standard.",
+            "incorrect": {
+                "A": "The Index Test ('I') is the new or investigated test, which is the 'transvaginal ultrasound with Doppler flow' in this case.",
+                "B": "The Population ('P') is the group of patients being studied, which is 'women with a pelvic mass'.",
+                "D": "The Diagnosis of Interest ('D') is the target condition, which is 'ovarian malignancy'.",
+                "E": "'Outcome' is a component of other frameworks like PICO and PEO. The PIRD framework uses 'Diagnosis of Interest'."
+            }
+        }
+    },
+    {
+        "question": "A researcher wants to investigate: 'Among patients diagnosed with early-stage cervical cancer, does lymphovascular space invasion (LVSI) predict recurrence within 3 years after radical surgery?' Which framework is the most suitable?",
+        "choices": {
+            "A": "PFO",
+            "B": "CoCoPop",
+            "C": "PEO",
+            "D": "PICO",
+            "E": "PIRD"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "This question is about prognosis—it asks whether a specific factor can predict the future course of a disease. The PFO (Population, Prognostic Factor, Outcome) framework is used for Prognostic studies. P: Patients with early-stage cervical cancer, F: LVSI, O: Cancer recurrence within 3 years.",
+            "incorrect": {
+                "B": "CoCoPop is for measuring the frequency (prevalence/incidence) of a condition.",
+                "C": "PEO is for identifying causes or risk factors, not for predicting a disease's course after diagnosis.",
+                "D": "PICO is for evaluating the effectiveness of an intervention.",
+                "E": "PIRD is for assessing the accuracy of a diagnostic test."
+            }
+        }
+    },
+    {
+        "question": "The CoCoPop framework is specifically designed to structure research questions for which type of study?",
+        "choices": {
+            "A": "Prognostic studies",
+            "B": "Economic and cost-effectiveness studies",
+            "C": "Etiologic and risk studies",
+            "D": "Incidence and Prevalence studies",
+            "E": "Interventional studies"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "As stated in the lecture, 'in prevalence or incidence surveys, the model used in these studies is CoCoPop, which includes Condition, Context, and Population'. The framework is designed to answer 'how common is it?' questions.",
+            "incorrect": {
+                "A": "These studies use the PFO framework.",
+                "B": "These studies often use a variation of PICO, such as PICOC.",
+                "C": "These studies use the PEO framework.",
+                "E": "These studies use the PICO framework."
+            }
+        }
+    }
+]

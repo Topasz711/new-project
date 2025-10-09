@@ -1,1 +1,102 @@
-[]
+[
+    {
+        "question": "Which of the following statements is correct regarding the process of conducting a meta-analysis?",
+        "choices": {
+            "A": "Using a single data source is sufficient.",
+            "B": "It is not necessary to assess the quality of the included studies.",
+            "C": "Use at least 2 data sources, such as Scopus and PubMed.",
+            "D": "Statistical methods should not be used, as it is only a narrative summary.",
+            "E": "Clear selection criteria are not needed."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "A fundamental principle of a systematic and comprehensive literature search is to use multiple databases to minimize selection bias and ensure the search is as complete as possible. The lecture notes state one 'should search for reference information from more than one data source'.",
+            "incorrect": {
+                "A": "Relying on a single database can lead to missing important studies, violating the systematic nature of the review.",
+                "B": "Assessing the quality (or risk of bias) of each individual study is a critical step in any systematic review or meta-analysis.",
+                "D": "A meta-analysis is, by definition, a statistical analysis that combines results from multiple studies. A narrative summary without statistics is a traditional literature review.",
+                "E": "A systematic review is defined by its rigorous methodology, which requires clear, pre-specified inclusion and exclusion criteria."
+            }
+        }
+    },
+    {
+        "question": "The search engine that is the source for meta-analysis includes the following except...",
+        "choices": {
+            "A": "Scopus",
+            "B": "EMBASE",
+            "C": "Medline",
+            "D": "Cochrane",
+            "E": "Google"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "A standard Google search is a general web search engine and is not suitable for a rigorous academic literature review required for a meta-analysis. While Google Scholar is an academic tool, the option simply says 'Google.'",
+            "incorrect": {
+                "A": "Scopus is a major international abstract and citation database for peer-reviewed literature and a primary source for systematic reviews.",
+                "B": "EMBASE is another large, widely-used biomedical and pharmacological database suitable for comprehensive searches.",
+                "C": "Medline is the primary bibliographic database of the U.S. National Library of Medicine (NLM) and is the main component of PubMed.",
+                "D": "The Cochrane Library is a collection of databases famous for its high-quality systematic reviews and is a critical resource."
+            }
+        }
+    },
+    {
+        "question": "Based on the examples provided for reference styles, which of the following correctly formats a citation for a book with a single author?",
+        "choices": {
+            "A": "Cochran, W.G. (1963). Sampling techniques. New York: John Wiley and Sons.",
+            "B": "Sampling techniques. Cochran, W.G. John Wiley and Sons: New York (1963).",
+            "C": "Cochran, W.G. \"Sampling techniques\". John Wiley and Sons, 1963.",
+            "D": "(1963). Cochran, W.G. Sampling techniques. New York: John Wiley and Sons.",
+            "E": "John Wiley and Sons, New York. (1963). Sampling techniques by W.G. Cochran."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "This option correctly follows the standard structure for a book citation, consistent with common academic styles like APA: Author, (Year), Title, and Publication Information (City: Publisher).",
+            "incorrect": {
+                "B": "This is incorrect because it begins with the title instead of the author's name.",
+                "C": "This is incorrect because it uses quotation marks for the book title, which are typically used for article or chapter titles.",
+                "D": "This is incorrect because it begins with the year of publication.",
+                "E": "This is incorrect because it begins with the publisher's information instead of the author's name."
+            }
+        }
+    },
+    {
+        "question": "A researcher creates a diagram that visually represents the expected relationships between variables in their study, such as exposure, outcome, and potential confounders. What is this diagram called?",
+        "choices": {
+            "A": "Research Question",
+            "B": "Literature Review",
+            "C": "Research Objective",
+            "D": "Conceptual Framework",
+            "E": "Research Title"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "A Conceptual Framework is the correct term for a visual or written representation of the expected relationships among study variables. It serves as a 'map' of the research, showing how different concepts are connected.",
+            "incorrect": {
+                "A": "This is the inquiry the study aims to answer, not a diagram of variables.",
+                "B": "This is the process of searching for and synthesizing existing research, not a diagram.",
+                "C": "This is a specific, measurable goal of the study, not a diagram of relationships.",
+                "E": "This is the name of the study, not a diagram."
+            }
+        }
+    },
+    {
+        "question": "For a journal article with eight authors, what is the correct way to list the authors in the reference list according to the international standard shown in the lecture?",
+        "choices": {
+            "A": "List only the first author's name.",
+            "B": "List all eight authors' names, separated by commas.",
+            "C": "List the first author's name followed by \"and colleagues\".",
+            "D": "List the first six authors' names, followed by \"et al.\"",
+            "E": "List the first three authors' names, followed by \"et al.\""
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "This follows the specific rule provided in the lecture slides: 'In the case of more than 6 authors, list only the first 6 names... followed by the words et al.'. 'Et al.' is the scholarly abbreviation for 'and others.'",
+            "incorrect": {
+                "A": "This is incorrect as it omits too much information.",
+                "B": "This is incorrect because the rule specifically states to shorten the list if there are more than six authors.",
+                "C": "This is incorrect because 'and colleagues' is not the standard Latin abbreviation used in academic citations.",
+                "E": "This is incorrect because the rule specified in the lecture sets the cutoff at six authors, not three."
+            }
+        }
+    }
+]
