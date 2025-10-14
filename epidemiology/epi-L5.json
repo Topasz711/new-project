@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "question": "Which study design is best described as a 'snapshot' of a population, where both exposure and outcome are measured at the same point in time?",
+    "choices": {
+      "A": "Cohort study",
+      "B": "Case-control study",
+      "C": "Randomized controlled trial",
+      "D": "Cross-sectional study",
+      "E": "Case series"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The lecture explicitly defines this design as measuring the cause (exposure) and effect (disease) at the same point in time and refers to it as a 'Snapshot study'. This design captures the prevalence of a disease and its associated factors at a single moment.",
+      "incorrect": {
+        "A": "A cohort study is longitudinal; it starts with exposed and non-exposed groups and follows them forward in time to see who develops the disease.",
+        "B": "A case-control study is retrospective; it starts with people who have the disease (cases) and those who don't (controls) and looks backward in time to determine past exposures.",
+        "C": "This is an experimental study where an intervention is assigned, not an observational snapshot.",
+        "E": "A case series is a descriptive study that details the experience of a small group of patients with the same disease, but it lacks a comparison group."
+      }
+    }
+  },
+  {
+    "question": "Researchers identify 500 patients with a rare type of cancer and 500 people without the cancer. They then ask everyone about their past exposure to a specific chemical to find a possible association. What type of study is this?",
+    "choices": {
+      "A": "Cross-sectional study",
+      "B": "Cohort study",
+      "C": "Case-control study",
+      "D": "Randomized controlled trial",
+      "E": "Case report"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The key feature of this design is that the researcher begins by selecting participants based on their disease status: those with the disease ('cases') and those without ('controls'). They then look backward in time to compare the frequency of past exposure between the two groups. This perfectly matches the scenario.",
+      "incorrect": {
+        "A": "A cross-sectional study would sample a population first and then measure both disease and exposure status at the same time, without pre-selecting groups based on the disease.",
+        "B": "A cohort study would start by identifying people based on their exposure to the chemical (exposed vs. non-exposed) and then follow them over time to see who develops cancer.",
+        "D": "This is an observational study. It would be unethical to randomly assign people to be exposed to a potentially harmful chemical.",
+        "E": "A case report describes a single patient, whereas this study involves 1,000 participants and a comparison group."
+      }
+    }
+  },
+  {
+    "question": "Which of the following statements about epidemiological study designs is FALSE?",
+    "choices": {
+      "A": "A prospective Cohort study is designed to follow groups forward in time to directly measure the incidence of a disease.",
+      "B": "A Case-Control study is an efficient design for investigating potential risk factors for rare diseases.",
+      "C": "A Cross-sectional study is often called a 'prevalence study' because it measures exposure and disease at a single point in time.",
+      "D": "A Randomized Controlled Trial (RCT) is generally inexpensive, quick to conduct, and ethically appropriate for studying the effects of potentially harmful exposures.",
+      "E": "A Case Series is limited in its ability to draw conclusions about causality because it lacks a control or comparison group."
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "This statement is FALSE because RCTs are the most expensive and time-consuming design. Furthermore, it is highly unethical to randomly assign a potentially harmful exposure to participants. Such questions must be investigated using observational studies.",
+      "incorrect": {
+        "A": "This is a TRUE statement. Cohort studies follow a disease-free population forward, allowing for the direct calculation of incidence (new cases).",
+        "B": "This is a TRUE statement. Case-control studies are ideal for rare diseases because they start by identifying the few individuals who already have the disease.",
+        "C": "This is a TRUE statement. Cross-sectional studies provide a 'snapshot' that is perfect for determining the prevalence of a condition at one point in time.",
+        "E": "This is a TRUE statement. A Case Series is descriptive and lacks a comparison group, which is essential for making causal inferences."
+      }
+    }
+  },
+  {
+    "question": "A researcher wants to investigate the potential risk factors for a newly discovered, extremely rare disease that takes decades to develop. Which study design would be the most efficient and practical to start with?",
+    "choices": {
+      "A": "Randomized controlled trial",
+      "B": "Prospective cohort study",
+      "C": "Cross-sectional study",
+      "D": "Case-control study",
+      "E": "Case series"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The lecture explicitly states that a key advantage of this design is its suitability for studying rare diseases or diseases with a long latency period. Since the disease is rare, starting with the few known cases is far more efficient than following a large cohort for decades.",
+      "incorrect": {
+        "A": "This is incorrect. You cannot ethically assign risk factors, and this design is inefficient for rare or long-latency outcomes.",
+        "B": "This would be highly impractical and expensive, as it would require following a massive group for decades just to observe a few cases.",
+        "C": "A 'snapshot' of the population would likely miss the very few people who have this rare disease, making it inefficient.",
+        "E": "While a case series could describe the patients, it lacks a control group and cannot be used to investigate risk factors."
+      }
+    }
+  },
+  {
+    "question": "Which of the following statements about a Cohort study is FALSE?",
+    "choices": {
+      "A": "It can establish a temporal relationship between exposure and outcome.",
+      "B": "It can be used to calculate the incidence of a disease.",
+      "C": "It is generally less expensive and quicker to conduct than a case-control study.",
+      "D": "It typically starts by identifying exposed and non-exposed individuals who are free of the disease.",
+      "E": "It is generally not efficient for studying rare diseases."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "This is the FALSE statement. A major disadvantage of cohort studies, especially prospective ones, is that they are very time-consuming and expensive. Case-control studies are typically much faster and cheaper in comparison.",
+      "incorrect": {
+        "A": "This statement is TRUE. By following participants over time, cohort studies can clearly establish that the exposure occurred before the outcome.",
+        "B": "This statement is TRUE. Since the population is initially disease-free, you can directly count new cases as they arise, which is the definition of incidence.",
+        "D": "This statement is TRUE. This is the fundamental design of a cohort study: starting with a population free of the outcome and grouping them by exposure status.",
+        "E": "This statement is TRUE. To study a rare disease with a cohort design, an impractically large sample size would be needed to observe enough cases."
+      }
+    }
+  }
+]

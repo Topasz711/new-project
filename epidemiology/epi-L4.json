@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "question": "Excessive exclusion criteria may result in which of the following?",
+    "choices": {
+      "A": "Decreased external validity",
+      "B": "Increased internal validity",
+      "C": "Problems with recruitment",
+      "D": "Increased costs",
+      "E": "All of the above"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Having too many or overly strict exclusion criteria creates several significant practical and methodological problems. By creating a highly homogeneous sample (excluding confounders), internal validity is increased. However, this narrow sample is no longer representative of the wider population, decreasing external validity (generalizability). Practically, it becomes much harder and more costly to find and screen enough eligible participants, leading to recruitment problems and increased study expenses.",
+      "incorrect": {
+        "A": "This is a correct component, but not the only one. Excessive exclusion criteria limit generalizability.",
+        "B": "This is a correct component, but not the only one. A homogeneous sample reduces confounding variables, increasing internal validity.",
+        "C": "This is a correct component, but not the only one. It becomes harder to find eligible individuals for the study.",
+        "D": "This is a correct component, but not the only one. Screening more people to find a few eligible ones increases time and resource costs."
+      }
+    }
+  },
+  {
+    "question": "A study aims to investigate the average quality of life score (a continuous variable) among medical students at Navamindradhiraj University. Which formula would be most appropriate for calculating the sample size?",
+    "choices": {
+      "A": "Correlation",
+      "B": "Single mean",
+      "C": "Single proportion",
+      "D": "Two independent proportions",
+      "E": "Two dependent means"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The formula for a single mean is the correct choice because the study's objective is to estimate an average value ('average quality of life score') for a continuous variable within a single, defined population ('medical students at Navamindradhiraj University').",
+      "incorrect": {
+        "A": "Correlation formula is used to assess the relationship strength between two continuous variables (e.g., 'hours of sleep' and 'quality of life score'), not to estimate an average.",
+        "C": "Single proportion formula is used for categorical or binary outcomes to find a percentage (e.g., the percentage of students with burnout), not a continuous score.",
+        "D": "Two independent proportions is used to compare a binary outcome between two separate groups (e.g., comparing hypertension prevalence in farmers vs. office workers).",
+        "E": "Two dependent means is used to compare the average of the same group at two different times (e.g., before and after an intervention) or in matched pairs."
+      }
+    }
+  },
+  {
+    "question": "What is a major negative consequence of using a sample size that is too small for a study?",
+    "choices": {
+      "A": "It increases the risk of a Type I error (false positive).",
+      "B": "It leads to low statistical power and reduces the generalizability of the findings.",
+      "C": "It makes the study more likely to find a statistically significant result by chance.",
+      "D": "It significantly increases the overall cost and duration of the study.",
+      "E": "It is the most significant form of selection bias."
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "This is correct because it identifies the two main failings of an undersized study. Low statistical power means the study lacks the ability to detect a real effect if one truly exists, leading to a false negative (Type II error). Additionally, a small sample is less likely to be representative of the population, which limits the generalizability of the results.",
+      "incorrect": {
+        "A": "This is incorrect. A small sample size increases the risk of a Type II error (false negative), because it makes it harder to detect a true effect.",
+        "C": "This is incorrect. A smaller sample size makes it less likely, not more likely, to achieve statistical significance. A larger sample provides more stable evidence.",
+        "D": "This is incorrect. A small sample size is generally cheaper and faster to conduct, although the results are less reliable.",
+        "E": "This is incorrect. Selection bias refers to a systematic error in how participants are chosen, not the final number of participants."
+      }
+    }
+  },
+  {
+    "question": "When calculating the sample size for a single proportion for an infinite population, if the researcher decides to increase the desired precision (i.e., make 'd' smaller), what effect will this have on the required sample size 'n'?",
+    "choices": {
+      "A": "The effect depends on the value of the prevalence 'p'.",
+      "B": "The sample size will become infinite.",
+      "C": "The required sample size will decrease.",
+      "D": "The required sample size will increase.",
+      "E": "The required sample size will stay the same."
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "This is correct due to the formula n = (Z² * p * (1-p)) / d². The precision 'd' (margin of error) is in the denominator and is squared. Making 'd' smaller (increasing precision) makes the denominator d² much smaller, which causes the overall result 'n' to become larger. Intuitively, to get a more precise estimate, you need more data.",
+      "incorrect": {
+        "A": "While 'p' affects the final number, the relationship is constant: a smaller 'd' always leads to a larger 'n'.",
+        "B": "This would only happen if 'd' were zero, implying zero error, which is not practical in research.",
+        "C": "This is the opposite effect. A larger 'd' (less precision) would decrease the sample size.",
+        "E": "'d' is a critical component of the formula; changing it directly impacts the required sample size."
+      }
+    }
+  },
+  {
+    "question": "Which sampling method is most commonly preferred for a cross-sectional study when the goal is to obtain a sample that is representative of a large, defined population?",
+    "choices": {
+      "A": "Convenience sampling",
+      "B": "Snowball sampling",
+      "C": "Simple random sampling",
+      "D": "Purposive sampling",
+      "E": "Consecutive sampling"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Simple random sampling is a probability sampling method where every individual in the population has an equal chance of being selected. This is the gold standard for achieving a representative sample, which is essential for a cross-sectional study aiming to accurately estimate population characteristics.",
+      "incorrect": {
+        "A": "Convenience sampling is a non-probability method prone to bias as it selects participants who are easiest to access, not necessarily representative.",
+        "B": "Snowball sampling is a non-probability method for hard-to-reach populations where participants refer others, which is not suitable for general population studies.",
+        "D": "Purposive sampling is a non-probability method where the researcher uses their judgment to select specific individuals, making it subjective and not representative.",
+        "E": "Consecutive sampling, while better than convenience sampling, is still a non-probability method that includes all eligible subjects over a time period, which may not represent the entire population."
+      }
+    }
+  }
+]
