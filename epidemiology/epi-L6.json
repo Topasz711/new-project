@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "question": "A research team wants to study the effect of a new lifestyle intervention on reducing the risk of stroke. A full study tracking stroke events would take 10 years and be very expensive. To get a faster, more affordable result, which of the following would be the most appropriate type of outcome to measure?",
+    "choices": {
+      "A": "A patient-centered outcome, such as survival.",
+      "B": "A composite outcome, including stroke, myocardial infarction, and death.",
+      "C": "A humanistic outcome, such as quality of life.",
+      "D": "A surrogate outcome, such as blood pressure or LDL cholesterol levels.",
+      "E": "An economic outcome, such as the total cost of care."
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "A surrogate outcome is an intermediate marker that can substitute for a long-term, definitive clinical outcome. Measuring changes in blood pressure or LDL cholesterol is faster and cheaper than waiting for stroke events, as these markers are on the causal pathway and are expected to predict the final clinical outcome.",
+      "incorrect": {
+        "A": "Survival is a definitive, patient-centered outcome, but it is a long-term measure and does not solve the problem of needing a faster result.",
+        "B": "A composite outcome still combines long-term clinical endpoints (stroke, MI, death) that require extensive follow-up.",
+        "C": "A humanistic outcome like quality of life is important but does not serve as a direct biological substitute for the clinical event of a stroke.",
+        "E": "An economic outcome measures costs, not the clinical effectiveness of the intervention in a shorter timeframe."
+      }
+    }
+  },
+  {
+    "question": "A clinical trial for a new cancer drug combines several important endpoints—non-fatal heart attack, non-fatal stroke, and cardiovascular death—into a single primary outcome. What type of outcome is this?",
+    "choices": {
+      "A": "A surrogate outcome",
+      "B": "A patient-centered outcome",
+      "C": "A composite outcome",
+      "D": "A humanistic outcome",
+      "E": "An economic outcome"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "This is the precise definition of a composite outcome: combining multiple individual endpoints into a single measure. The example MACE (Major Adverse Cardiovascular Events) is a classic example of this.",
+      "incorrect": {
+        "A": "Heart attacks, strokes, and deaths are true clinical outcomes, not intermediate or surrogate markers.",
+        "B": "While these events are patient-centered, the specific term for combining them into one variable is 'composite outcome.'",
+        "D": "These are clinical events, not humanistic outcomes like functional status or quality of life.",
+        "E": "These are health outcomes, not measures of cost."
+      }
+    }
+  },
+  {
+    "question": "Which of the following statements about the properties of a 'Ratio' is correct according to the lecture?",
+    "choices": {
+      "A": "The numerator must always be a subset of the denominator.",
+      "B": "A ratio always has a value between 0 and 1.",
+      "C": "A ratio is always unitless (e.g., male-to-female ratio).",
+      "D": "A ratio can be unitless or can have units (e.g., number of patients per hospital bed).",
+      "E": "A ratio must always include a time component in its calculation."
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The lecture explicitly states that a ratio can have units (e.g., population density as persons/sq. meter) or be unitless (e.g., male-to-female ratio where the 'person' unit cancels out).",
+      "incorrect": {
+        "A": "This is the definition of a proportion, where the numerator is part of the total denominator (a / (a+b)). A ratio compares two separate quantities (a / b).",
+        "B": "This is a property of a proportion. A ratio can be greater than 1 (e.g., a male-to-female ratio of 1.2:1).",
+        "C": "As explained for the correct option, ratios can have units.",
+        "E": "The inclusion of a time component is a defining characteristic of a rate, not a ratio."
+      }
+    }
+  },
+  {
+    "question": "Which of the following best describes a chronic 'disease' state rather than an acute 'event'?",
+    "choices": {
+      "A": "Myocardial Infarction (Heart Attack)",
+      "B": "Stroke",
+      "C": "Hospitalization for pneumonia",
+      "D": "Asthma",
+      "E": "A fall resulting in a hip fracture"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Asthma is correct because it represents a disease—a chronic, ongoing health condition that a person lives with over time.",
+      "incorrect": {
+        "A": "This is an event. A heart attack is a discrete occurrence that happens at a specific point in time.",
+        "B": "This is an event. A stroke is a discrete occurrence.",
+        "C": "This is an event. A hospitalization is a discrete occurrence.",
+        "E": "This is an event. A fall is a discrete occurrence."
+      }
+    }
+  },
+  {
+    "question": "An article abstract states: 'Vaccination before 1 year of age was associated with increased odds of developmental delays (OR=2.18, 95% CI 1.47-3.24) and asthma (OR=4.49, 95% CI 2.04-9.88).' Based on these results, how would you classify the statistical significance of the findings?",
+    "choices": {
+      "A": "Both developmental delays and asthma are statistically significant findings.",
+      "B": "Neither developmental delays nor asthma are statistically significant findings.",
+      "C": "Only developmental delays are statistically significant.",
+      "D": "Only asthma is statistically significant.",
+      "E": "The significance cannot be determined without the p-values."
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "For an Odds Ratio (OR), the null hypothesis is that the value is 1.0 (no association). A result is statistically significant if the 95% Confidence Interval (CI) does not include 1.0. Both CIs ([1.47 - 3.24] and [2.04 - 9.88]) are entirely above 1, so both findings are statistically significant.",
+      "incorrect": {
+        "B": "This is incorrect because both confidence intervals exclude the null value of 1.0.",
+        "C": "This is incorrect because the CI for asthma also excludes 1.0.",
+        "D": "This is incorrect because the CI for developmental delays also excludes 1.0.",
+        "E": "This is incorrect. The 95% CI is sufficient to determine statistical significance. If it does not cross 1.0, the p-value will be < 0.05."
+      }
+    }
+  }
+]
