@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "question": "A study investigating factors associated with depression among medical students reports that 'Sufficient income' has an adjusted odds ratio (AOR) of 0.46 with a 95% CI of [0.24, 0.88] and a p-value of 0.018. What is the correct interpretation of this finding?",
+    "choices": {
+      "A": "The result is not statistically significant because the odds ratio is less than 1.",
+      "B": "Having sufficient income is a statistically significant protective factor against depression.",
+      "C": "The study proves that having a low income causes depression.",
+      "D": "The result is statistically insignificant because the confidence interval is too wide.",
+      "E": "The odds of depression are 46% higher for students with sufficient income."
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "This is correct because it accurately interprets all three components: direction (OR < 1 is protective), magnitude, and significance (p < 0.05 and the 95% CI [0.24, 0.88] does not include the null value of 1.0).",
+      "incorrect": {
+        "A": "Significance is determined by the p-value and CI, not whether the OR is above or below 1.",
+        "C": "Observational studies show association, not causation. Also, the result indicates that sufficient income is protective, not that low income is causal.",
+        "D": "The result is statistically significant. The width of a CI relates to precision, not significance itself.",
+        "E": "An OR of 0.46 means the odds are about 54% lower (1 - 0.46), not 46% higher. An OR of 1.46 would represent 46% higher odds."
+      }
+    }
+  },
+  {
+    "question": "A study on the progression of Chronic Kidney Disease (CKD) tracks the time from initial diagnosis until the patient requires dialysis or a kidney transplant. How would this 'time-to-event' outcome data be classified?",
+    "choices": {
+      "A": "Dichotomous data",
+      "B": "Ordinal data",
+      "C": "Continuous data",
+      "D": "Time-to-event data",
+      "E": "Nominal data"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "This type of measurement, which captures the duration until a specific event occurs, is explicitly defined as Time-to-event data. It is the most precise classification used for survival analysis.",
+      "incorrect": {
+        "A": "Dichotomous data has only two categories (e.g., yes/no). This outcome measures a duration.",
+        "B": "Ordinal data involves ranked categories (e.g., mild, moderate, severe), not a measure of time.",
+        "C": "While time is continuous, 'Time-to-event' is the more specific and appropriate term in epidemiology as it also accounts for censored data.",
+        "E": "Nominal data consists of unordered categories (e.g., blood types), not a quantitative measure of time."
+      }
+    }
+  },
+  {
+    "question": "In a study assessing cognitive function in dementia patients, a caregiver is asked to rate the patient's ability to perform daily activities on a standardized scale. Based on its source, how would this outcome be classified?",
+    "choices": {
+      "A": "Patient-Reported Outcome (PRO)",
+      "B": "Clinician-Reported Outcome (ClinRO)",
+      "C": "Observer-Reported Outcome (ObsRO)",
+      "D": "Performance Outcome (PerfO)",
+      "E": "Surrogate Outcome"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "An Observer-Reported Outcome (ObsRO) is an assessment made by a person other than the patient or a clinician—typically a caregiver or family member who observes the patient in their daily life.",
+      "incorrect": {
+        "A": "This is incorrect because the patient is not reporting their own status.",
+        "B": "This is incorrect because the caregiver is not a trained clinician making a professional judgment.",
+        "D": "This is incorrect because this is a rating of behavior, not a direct measurement of the patient completing a standardized task.",
+        "E": "This is incorrect because this classification is about the source of the data, not its function as a substitute for a clinical endpoint."
+      }
+    }
+  },
+  {
+    "question": "A study compares the effectiveness of a new weight-loss drug to a placebo. The result for the primary outcome, mean difference in weight loss, is 5 kg with a 95% CI of [-1 kg to 11 kg]. What is the correct statistical interpretation of this finding?",
+    "choices": {
+      "A": "The new drug is significantly more effective than the placebo because the point estimate is 5 kg.",
+      "B": "The new drug is significantly less effective than the placebo because the interval includes negative values.",
+      "C": "The result is statistically insignificant because the 95% Confidence Interval includes the value of 0.",
+      "D": "The result is statistically significant because the 95% Confidence Interval does not include the value 1.",
+      "E": "The study is invalid because the confidence interval is too wide."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "When comparing means, the null hypothesis is that the difference is 0. Since the 95% CI is [-1 to 11], it crosses and includes 0. Therefore, we fail to reject the null hypothesis, and the result is not statistically significant.",
+      "incorrect": {
+        "A": "The point estimate (5 kg) alone is not enough; statistical significance is determined by whether the CI includes the null value.",
+        "B": "Because the interval also includes positive values, you cannot conclude the drug is less effective. The result is inconclusive.",
+        "D": "The null value of 1.0 is used for ratios (like OR or RR), not for differences between means.",
+        "E": "A wide CI indicates low precision but does not make the study invalid; it just means the result is not statistically significant."
+      }
+    }
+  },
+  {
+    "question": "In a trial for a new inhaler for patients with Chronic Obstructive Pulmonary Disease (COPD), instead of waiting years to measure mortality rates, researchers choose to measure a value that indicates lung function. Which of the following is most likely the Surrogate Outcome the researchers chose?",
+    "choices": {
+      "A": "The number of hospitalizations due to exacerbations",
+      "B": "The patient's quality of life score",
+      "C": "The number of deaths during the study",
+      "D": "The change in Forced Expiratory Volume in 1 second (FEV1)",
+      "E": "The total cost of treatment per person"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "FEV1 is a physiological measurement of lung function. It is used as a surrogate outcome because it is on the causal pathway to the true clinical outcome (death or disability) and can be measured much more quickly.",
+      "incorrect": {
+        "A": "Hospitalizations are considered 'target outcomes' or major clinical events, not surrogates.",
+        "B": "Quality of life is classified as a humanistic outcome.",
+        "C": "Deaths are the ultimate 'target outcome,' not a surrogate for it.",
+        "E": "Cost is an economic outcome, not a clinical one."
+      }
+    }
+  }
+]

@@ -1,1 +1,103 @@
-[]
+[
+  {
+    "question": "The Kaplan-Meier curve below compares the survival of patients treated with Drug A versus Drug B. The log-rank p-value is 0.035. Which of the following statements is correct?",
+    "imageUrl": "images/epi1.png",
+    "choices": {
+      "A": "At 60 months, the survival probability for patients on Drug A is approximately 80%.",
+      "B": "There is no statistically significant difference in survival between the two groups.",
+      "C": "Throughout the study period, patients on Drug A consistently have a better survival probability than patients on Drug B.",
+      "D": "The median survival time cannot be determined for either group from this graph.",
+      "E": "Hazard Ratio is the only valid measure for this graph."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "By visually inspecting the graph, the blue line (Drug A) is consistently above the red line (Drug B), which means that at any given point in time, the proportion of patients surviving is higher in Group A. The p-value of 0.035 (< 0.05) confirms that this observed difference is statistically significant.",
+      "incorrect": {
+        "A": "At 60 months, the survival probability for Group A (blue line) is approximately 0.4, or 40%.",
+        "B": "The p-value is 0.035 (< 0.05), which indicates a statistically significant difference.",
+        "D": "Median survival (survival probability = 0.5) can be determined. For Group B, it's ~48 months. For Group A, it's ~50 months.",
+        "E": "While a Hazard Ratio (HR) is common, the log-rank test (p-value) and median survival time are also valid measures from the curve."
+      }
+    }
+  },
+  {
+    "question": "A study follows a population of 1,500 people for 6 months. During this period, 75 new cases of diabetes are diagnosed. What does this measurement represent?",
+    "choices": {
+      "A": "Point prevalence",
+      "B": "Incidence rate",
+      "C": "Specific mortality rate",
+      "D": "Relative risk",
+      "E": "Cumulative incidence"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Cumulative Incidence (or Incidence Proportion) is the proportion of an at-risk population that develops a new disease over a specified period. The calculation (75 new cases / 1,500 people at risk) over 6 months perfectly matches this definition.",
+      "incorrect": {
+        "A": "Point prevalence measures all existing cases (new and old) at a single point in time, not new cases over a period.",
+        "B": "Incidence rate (or Incidence Density) would require person-time data (e.g., person-years) in the denominator.",
+        "C": "Specific mortality rate measures death, not the occurrence of a new disease.",
+        "D": "Relative risk compares incidence in two different groups; this question only describes one group."
+      }
+    }
+  },
+  {
+    "question": "In a case-control study comparing vaccinated and unvaccinated individuals for malaria infection, the calculated Odds Ratio (OR) is 0.25. What is the correct interpretation of this finding?",
+    "choices": {
+      "A": "The odds of malaria infection are 75% higher in the vaccinated group.",
+      "B": "The vaccine has no association with malaria infection.",
+      "C": "Vaccination is a protective factor; the odds of malaria infection are 75% lower in the vaccinated group compared to the unvaccinated group.",
+      "D": "The risk of malaria is 4 times higher in the unvaccinated group.",
+      "E": "The study is invalid because the Odds Ratio is less than 1."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "An OR less than 1.0 indicates a protective factor. The percentage reduction in odds is calculated as (1 - OR) * 100%. In this case, (1 - 0.25) * 100% = 75% lower odds.",
+      "incorrect": {
+        "A": "An OR of 0.25 means a reduction in odds. An increase of 75% would be an OR of 1.75.",
+        "B": "An OR of 1.0 would indicate no association. Since the OR is 0.25, there is a clear association.",
+        "D": "This interprets the OR as a Relative Risk (RR) and calculates the inverse (1 / 0.25 = 4). OR is a measure of odds, not directly of risk.",
+        "E": "An OR less than 1.0 is a valid result indicating a protective association; it does not invalidate the study."
+      }
+    }
+  },
+  {
+    "question": "A cohort study of 2,000 healthcare workers found that the risk of Influenza infection was higher in the unvaccinated group (10%) than the vaccinated group (4%). The adjusted risk ratio (aRR) was 2.5. What does this imply?",
+    "choices": {
+      "A": "Vaccinated individuals are 2.5 times more likely to get infected.",
+      "B": "This is a Hazard Ratio, not a Risk Ratio.",
+      "C": "The association between vaccination and influenza is not significant.",
+      "D": "The vaccine is not effective.",
+      "E": "Unvaccinated individuals are 2.5 times more likely to get infected than vaccinated individuals."
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "A Risk Ratio (RR) compares the risk in two groups. The RR was calculated as (Risk in unvaccinated) / (Risk in vaccinated) = 10% / 4% = 2.5. Therefore, the interpretation is that the unvaccinated group has 2.5 times the risk compared to the vaccinated group.",
+      "incorrect": {
+        "A": "This is the inverse interpretation. The risk is higher in the unvaccinated group.",
+        "B": "The prompt explicitly states it's an adjusted Risk Ratio (aRR).",
+        "C": "An RR of 2.5 is a strong association. While a CI is needed for certainty, this is the least likely interpretation.",
+        "D": "The data shows the risk is much lower in the vaccinated group (4% vs. 10%), suggesting the vaccine is effective."
+      }
+    }
+  },
+  {
+    "question": "Smokers and non-smokers were followed over ten years to document their respective incidence of lung cancer. Of the 200 smokers, 125 developed lung cancer. Of the 200 non-smokers, 25 developed lung cancer. What is the percentage of population attributable risk?",
+    "choices": {
+      "A": "66%",
+      "B": "87%",
+      "C": "72%",
+      "D": "37%",
+      "E": "1%"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "This is calculating the Population Attributable Fraction (PAF). First, find the incidence in the unexposed (25/200 = 12.5%) and the total population (150 total cases / 400 total people = 37.5%). The formula is [(Incidence_total) - (Incidence_unexposed)] / (Incidence_total). So, [(37.5% - 12.5%) / 37.5%] * 100% = 66.7%.",
+      "incorrect": {
+        "B": "Incorrect calculation.",
+        "C": "Incorrect calculation.",
+        "D": "This is the incidence in the total population (37.5%), not the PAF.",
+        "E": "Incorrect calculation."
+      }
+    }
+  }
+]
