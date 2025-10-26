@@ -33,7 +33,7 @@ function initializeQuizState(quizData, containerId, originalDataRef, quizFile) {
             originalQuizDataRef: originalDataRef || quizData,
         };
         // Re-apply the state to the UI after it's built
-        setTimeout(() => restoreMcqQuiz(containerId), 0);
+        setTimeout(() => restoreQuiz(containerId), 0);
     } else {
         quizState = {
             type: 'mcq', totalQuestions: quizData.length, answered: 0, correct: 0, incorrect: 0,
@@ -55,7 +55,7 @@ function initializeLabQuizState(quizData, containerId, quizFile) {
             ...savedState,
             originalQuizDataRef: quizData,
         };
-         setTimeout(() => restoreLabQuiz(containerId), 0);
+         setTimeout(() => restoreQuiz(containerId), 0);
     } else {
         const totalSubQuestions = quizData.reduce((acc, q) => {
             if (q.type === 'matching_case_study') {
@@ -130,9 +130,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const infectiousSubMenu = document.getElementById('infectious-sub-menu');
     const loadingIndicator = document.getElementById('loading-indicator');
 
+    // --- Theme Persistence ---
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark');
+    }
+    updateThemeIcons(); // Use the new name
+
+
     // --- Load last visited page ---
     const lastPageId = loadLastPage();
-    if (lastPageId) {
+    if (lastPageId && lastPageId !== 'homeContent') { // Avoid reloading the home page which can cause issues
         const link = document.querySelector(`.sidebar-link[data-target="${lastPageId}"]`);
         if (link) {
             link.click();
@@ -162,15 +171,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
                 document.getElementById('infectiousPlaceholder').classList.remove('hidden');
             } else if (targetPane.id === 'epidemiologyContent') {
-                document.getElementById('epidemiologyListView').classList.add('hidden');
-                document.getElementById('epidemiologyQuizView').classList.add('hidden');
-                document.getElementById('placeholderContent').classList.remove('hidden');
+                const container = document.getElementById('epidemiologyQuizContainer');
+                if (container) container.innerHTML = `<div class="text-center p-10 bg-white dark:bg-gray-800 rounded-lg shadow-md"><h2 class="text-2xl font-semibold text-gray-500 dark:text-gray-400">ยังไม่มี/อาจจะไม่ทำ</h2><p class="text-gray-400 dark:text-gray-500 mt-2">(Not yet available / Might not be created)</p></div>`;
+                document.getElementById('epidemiologyListView').classList.add('hidden'); // Hide list view
+                document.getElementById('epidemiologyQuizView').classList.remove('hidden'); // Show quiz view to show placeholder
             } else if (targetPane.id === 'pharmacologyContent') {
                 document.getElementById('pharmaQuizContainer').innerHTML = `<div class="text-center p-10 bg-white dark:bg-gray-800 rounded-lg shadow-md"><h2 class="text-2xl font-semibold text-gray-500 dark:text-gray-400">ยังไม่มี/อาจจะไม่ทำ</h2><p class="text-gray-400 dark:text-gray-500 mt-2">(Not yet available / Might not be created)</p></div>`;
             } else if (targetPane.id === 'skinContent') {
-                document.getElementById('skinListView').classList.add('hidden');
-                document.getElementById('skinQuizView').classList.add('hidden');
-                document.getElementById('placeholderContent').classList.remove('hidden');
+                const container = document.getElementById('skinQuizContainer');
+                if (container) container.innerHTML = `<div class="text-center p-10 bg-white dark:bg-gray-800 rounded-lg shadow-md"><h2 class="text-2xl font-semibold text-gray-500 dark:text-gray-400">ยังไม่มี/อาจจะไม่ทำ</h2><p class="text-gray-400 dark:text-gray-500 mt-2">(Not yet available / Might not be created)</p></div>`;
+                document.getElementById('skinListView').classList.add('hidden'); // Hide list view
+                document.getElementById('skinQuizView').classList.remove('hidden'); // Show quiz view to show placeholder
             }
         }
     };
@@ -287,11 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (error) {
             console.error("Could not start quiz:", error.message);
             loadingIndicator.classList.add('hidden');
-            showPlaceholder(quizContainerId);
-            const placeholderPane = document.getElementById('placeholderContent');
-        if (placeholderPane) {
-            placeholderPane.classList.remove('hidden');
-    }
+            showPlaceholder(quizContainerId || parentPane.id);
         }
     });
 
@@ -392,9 +399,7 @@ function buildMcqQuiz(quizData, containerId) {
 
     quizContainer.appendChild(fragment);
     quizContainer.querySelectorAll('.check-btn').forEach(button => button.addEventListener('click', checkMcqAnswer));
-    if (quizState.userAnswers) {
-        restoreMcqQuiz(containerId);
-    }
+    restoreQuiz(containerId);
 }
 
 function checkMcqAnswer(event) {
@@ -450,24 +455,6 @@ function checkMcqAnswer(event) {
         selectedOption.parentElement.classList.add('bg-red-100', 'dark:bg-red-900/50', 'border-red-500');
         card.querySelector(`input[value="${questionData.correctAnswer}"]`).parentElement.classList.add('bg-blue-100', 'dark:bg-blue-900/50', 'border-blue-500');
     }
-}
-
-function restoreMcqQuiz(containerId) {
-    const quizContainer = document.getElementById(containerId);
-    if (!quizContainer || !quizState.userAnswers) return;
-
-    Object.entries(quizState.userAnswers).forEach(([originalIndex, userAnswer]) => {
-        const card = quizContainer.querySelector(`.question-card[data-original-index='${originalIndex}']`);
-        if (card) {
-            const questionData = quizState.originalQuizDataRef[originalIndex];
-            const selectedOption = card.querySelector(`input[value='${userAnswer}']`);
-            if (selectedOption) {
-                selectedOption.checked = true;
-                const button = card.querySelector('.check-btn');
-                checkMcqAnswer({ target: button }); // Simulate a click to show results
-            }
-        }
-    });
 }
 
 
@@ -538,9 +525,7 @@ function buildLabQuiz(quizData, containerId) {
     });
     quizContainer.appendChild(fragment);
     quizContainer.querySelectorAll('.check-lab-btn').forEach(btn => btn.addEventListener('click', checkLabAnswer));
-    if (quizState.answers) {
-        restoreLabQuiz(containerId);
-    }
+    restoreQuiz(containerId);
 }
 
 
@@ -635,41 +620,94 @@ function checkLabAnswer(event) {
     updateProgressBar();
 }
 
-function restoreLabQuiz(containerId) {
+function showMcqResult(card, questionData, userAnswer, isCorrect) {
+    const button = card.querySelector('.check-btn');
+    const selectedOption = card.querySelector(`input[value='${userAnswer}']`);
+
+    if (selectedOption) {
+        selectedOption.checked = true;
+    }
+
+    card.dataset.answered = 'true';
+    button.disabled = true;
+    button.classList.add('bg-gray-400', 'dark:bg-gray-600', 'cursor-not-allowed');
+    card.querySelectorAll('input[type="radio"]').forEach(radio => radio.disabled = true);
+
+    const reasoningDiv = card.querySelector('.reasoning');
+    const resultTitle = reasoningDiv.querySelector('h3');
+    const resultText = reasoningDiv.querySelector('div');
+    let incorrectReasonsHTML = '<ul>';
+    for (const key in questionData.reasoning.incorrect) {
+        if (key !== questionData.correctAnswer) incorrectReasonsHTML += `<li class="mb-2"><strong>Why '${key}' is incorrect:</strong> ${questionData.reasoning.incorrect[key]}</li>`;
+    }
+    incorrectReasonsHTML += '</ul>';
+
+    if (isCorrect) {
+        resultTitle.textContent = '✅ Correct!';
+        resultTitle.className = 'font-bold text-lg mb-2 text-blue-700 dark:text-blue-400';
+        reasoningDiv.className = 'reasoning opacity-100 max-h-screen mt-6 p-4 border-l-4 border-blue-500 bg-blue-100 dark:bg-blue-900/50 dark:border-blue-500';
+        resultText.innerHTML = `<p class="mb-3">${questionData.reasoning.correct}</p><h4 class="font-semibold mt-4 mb-2">Why other choices are incorrect:</h4>${incorrectReasonsHTML}`;
+        if (selectedOption) selectedOption.parentElement.classList.add('bg-blue-100', 'dark:bg-blue-900/50', 'border-blue-500');
+    } else {
+        resultTitle.textContent = '❌ Incorrect';
+        resultTitle.className = 'font-bold text-lg mb-2 text-red-700 dark:text-red-400';
+        reasoningDiv.className = 'reasoning opacity-100 max-h-screen mt-6 p-4 border-l-4 border-red-500 bg-red-50 dark:bg-red-900/20 dark:border-red-500';
+        resultText.innerHTML = `<p class="mb-3"><strong>The correct answer is ${questionData.correctAnswer}.</strong> ${questionData.reasoning.correct}</p><h4 class="font-semibold mt-4 mb-2">Why other choices are incorrect:</h4>${incorrectReasonsHTML}`;
+        if (selectedOption) selectedOption.parentElement.classList.add('bg-red-100', 'dark:bg-red-900/50', 'border-red-500');
+        card.querySelector(`input[value="${questionData.correctAnswer}"]`).parentElement.classList.add('bg-blue-100', 'dark:bg-blue-900/50', 'border-blue-500');
+    }
+}
+
+function restoreQuiz(containerId) {
     const quizContainer = document.getElementById(containerId);
-    if (!quizContainer || !quizState.answers) return;
+    if (!quizContainer) return;
 
-    // A map to track which question blocks have been checked
-    const checkedBlocks = new Set();
-
-    Object.entries(quizState.answers).forEach(([partId, answerData]) => {
-        if (answerData.status !== 'unchecked') {
-            const inputs = quizContainer.querySelectorAll(`input[data-id='${partId}']`);
-            if (inputs.length > 0) {
-                const card = inputs[0].closest('.lab-question-card');
-                const qNum = card.dataset.questionNumber;
-
-                // Set the user's answer in the input fields
-                if (answerData.userAnswer) {
-                    inputs.forEach((input, i) => {
-                        input.value = answerData.userAnswer[i] || '';
-                    });
+    if (quizState.type === 'mcq' && quizState.userAnswers) {
+        Object.entries(quizState.userAnswers).forEach(([originalIndex, userAnswer]) => {
+            const card = quizContainer.querySelector(`.question-card[data-original-index='${originalIndex}']`);
+            if (card) {
+                const questionData = quizState.originalQuizDataRef[originalIndex];
+                if (questionData) {
+                    const isCorrect = userAnswer === questionData.correctAnswer;
+                    showMcqResult(card, questionData, userAnswer, isCorrect);
                 }
-                
-                // Mark the block to be checked
-                checkedBlocks.add(qNum);
             }
-        }
-    });
-    
-    // Trigger the check for each unique block that has answered questions
-    checkedBlocks.forEach(qNum => {
-        const card = quizContainer.querySelector(`.lab-question-card[data-question-number='${qNum}']`);
-        if(card) {
-            const button = card.querySelector('.check-lab-btn');
-            checkLabAnswer({target: button});
-        }
-    });
+        });
+    } else if (quizState.type === 'lab' && quizState.answers) {
+        // For lab quizzes, we still need to re-run the check logic to display results,
+        // but we must prevent it from altering the score counts.
+        const checkedBlocks = new Set();
+        Object.entries(quizState.answers).forEach(([partId, answerData]) => {
+            if (answerData.status !== 'unchecked') {
+                const inputs = quizContainer.querySelectorAll(`input[data-id='${partId}']`);
+                if (inputs.length > 0) {
+                    const card = inputs[0].closest('.lab-question-card');
+                    const qNum = card.dataset.questionNumber;
+                    if (answerData.userAnswer) {
+                        inputs.forEach((input, i) => { input.value = answerData.userAnswer[i] || ''; });
+                    }
+                    checkedBlocks.add(qNum);
+                }
+            }
+        });
+
+        // Temporarily disable score updates
+        const originalUpdateProgressBar = updateProgressBar;
+        updateProgressBar = () => {};
+
+        checkedBlocks.forEach(qNum => {
+            const card = quizContainer.querySelector(`.lab-question-card[data-question-number='${qNum}']`);
+            if (card) {
+                const button = card.querySelector('.check-lab-btn');
+                // We have to call the original check function here, but scores are protected.
+                checkLabAnswer({ target: button });
+            }
+        });
+
+        // Restore the original function
+        updateProgressBar = originalUpdateProgressBar;
+    }
+    updateProgressBar(); // Final update after restoration
 }
 
 
@@ -677,7 +715,7 @@ function restoreLabQuiz(containerId) {
 const themeToggleBtn = document.getElementById('theme-toggle');
 const darkIcon = document.getElementById('theme-toggle-dark-icon');
 const lightIcon = document.getElementById('theme-toggle-light-icon');
-function updateIcon() {
+function updateThemeIcons() {
     if (document.documentElement.classList.contains('dark')) {
         darkIcon.classList.add('hidden'); lightIcon.classList.remove('hidden');
     } else {
@@ -685,6 +723,7 @@ function updateIcon() {
     }
 }
 themeToggleBtn.addEventListener('click', () => {
-    document.documentElement.classList.toggle('dark'); updateIcon();
+    document.documentElement.classList.toggle('dark');
+    localStorage.setItem('color-theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+    updateThemeIcons();
 });
-updateIcon();
