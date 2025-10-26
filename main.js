@@ -6,6 +6,36 @@
 let quizState = {};
 
 /**
+ * Saves the last visited page ID to local storage.
+ * @param {string} pageId - The ID of the page to save.
+ */
+function saveLastPage(pageId) {
+    localStorage.setItem('topazQuizLastPage', pageId);
+}
+
+/**
+ * Loads the last visited page ID from local storage.
+ * @returns {string|null} The last visited page ID, or null if not found.
+ */
+function loadLastPage() {
+    return localStorage.getItem('topazQuizLastPage');
+}
+
+/**
+ * Saves the current quiz state to local storage for a specific quiz file.
+ * Redundant data (like the full question set) is removed before saving.
+ * @param {string} quizFile - The path to the quiz data file, used as a key.
+ * @param {object} state - The quiz state object to save.
+ */
+function saveQuizState(quizFile, state) {
+    // Avoid storing large, redundant data
+    const stateToSave = { ...state };
+    delete stateToSave.currentQuizDataRef;
+    delete stateToSave.originalQuizDataRef;
+    localStorage.setItem(`topazQuizState_${quizFile}`, JSON.stringify(stateToSave));
+}
+
+/**
  * Initializes the state for a Multiple Choice Question (MCQ) quiz.
  * @param {Array<object>} quizData - The array of quiz questions.
  * @param {string} containerId - The ID of the container element for the quiz.
