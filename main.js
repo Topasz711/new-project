@@ -1,45 +1,93 @@
 // main.js
 let quizState = {};
 
-function initializeQuizState(quizData, containerId, originalDataRef) {
-    quizState = {
-        type: 'mcq', totalQuestions: quizData.length, answered: 0, correct: 0, incorrect: 0,
-        incorrectIndices: [], currentQuizDataRef: quizData, originalQuizDataRef: originalDataRef || quizData, containerId: containerId
-    };
+// --- Local Storage Functions ---
+function saveLastPage(pageId) {
+    localStorage.setItem('topazQuizLastPage', pageId);
+}
+
+function loadLastPage() {
+    return localStorage.getItem('topazQuizLastPage');
+}
+
+function saveQuizState(quizFile, state) {
+    // Avoid storing large, redundant data
+    const stateToSave = { ...state };
+    delete stateToSave.currentQuizDataRef;
+    delete stateToSave.originalQuizDataRef;
+    localStorage.setItem(`topazQuizState_${quizFile}`, JSON.stringify(stateToSave));
+}
+
+function loadQuizState(quizFile) {
+    const savedState = localStorage.getItem(`topazQuizState_${quizFile}`);
+    return savedState ? JSON.parse(savedState) : null;
+}
+
+
+function initializeQuizState(quizData, containerId, originalDataRef, quizFile) {
+    const savedState = loadQuizState(quizFile);
+    if (savedState) {
+        quizState = {
+            ...savedState,
+            currentQuizDataRef: quizData,
+            originalQuizDataRef: originalDataRef || quizData,
+        };
+        // Re-apply the state to the UI after it's built
+        setTimeout(() => restoreMcqQuiz(containerId), 0);
+    } else {
+        quizState = {
+            type: 'mcq', totalQuestions: quizData.length, answered: 0, correct: 0, incorrect: 0,
+            incorrectIndices: [], currentQuizDataRef: quizData, originalQuizDataRef: originalDataRef || quizData,
+            containerId: containerId, userAnswers: {}
+        };
+    }
+    quizState.quizFile = quizFile; // Keep track of the current quiz file
     document.getElementById('progress-tracker').classList.remove('hidden');
     document.getElementById('retry-buttons').classList.remove('hidden');
     updateProgressBar();
 }
 
-function initializeLabQuizState(quizData, containerId) {
-    const totalSubQuestions = quizData.reduce((acc, q) => {
-        if (q.type === 'matching_case_study') {
-            return acc + q.subQuestions.reduce((subAcc, sq) => subAcc + sq.parts.length, 0);
-        }
-        return acc + (q.subQuestions?.length || 0);
-    }, 0);
+function initializeLabQuizState(quizData, containerId, quizFile) {
+    const savedState = loadQuizState(quizFile);
 
-    quizState = {
-        type: 'lab', totalQuestions: totalSubQuestions, answered: 0, correct: 0, incorrect: 0,
-        incorrectQuestionBlocks: [], originalQuizDataRef: quizData, containerId: containerId, answers: {}
-    };
+    if (savedState) {
+        quizState = {
+            ...savedState,
+            originalQuizDataRef: quizData,
+        };
+         setTimeout(() => restoreLabQuiz(containerId), 0);
+    } else {
+        const totalSubQuestions = quizData.reduce((acc, q) => {
+            if (q.type === 'matching_case_study') {
+                return acc + q.subQuestions.reduce((subAcc, sq) => subAcc + sq.parts.length, 0);
+            }
+            return acc + (q.subQuestions?.length || 0);
+        }, 0);
 
-    quizData.forEach(q => {
-        const subQuestions = q.subQuestions || [];
-        if (q.type === 'matching_case_study') {
-            subQuestions.forEach(sq => sq.parts.forEach(part => {
-                quizState.answers[part.id] = { status: 'unchecked' };
-            }));
-        } else {
-            subQuestions.forEach(sq => {
-                quizState.answers[sq.id] = { status: 'unchecked' };
-            });
-        }
-    });
+        quizState = {
+            type: 'lab', totalQuestions: totalSubQuestions, answered: 0, correct: 0, incorrect: 0,
+            incorrectQuestionBlocks: [], originalQuizDataRef: quizData, containerId: containerId, answers: {}
+        };
+
+        quizData.forEach(q => {
+            const subQuestions = q.subQuestions || [];
+            if (q.type === 'matching_case_study') {
+                subQuestions.forEach(sq => sq.parts.forEach(part => {
+                    quizState.answers[part.id] = { status: 'unchecked' };
+                }));
+            } else {
+                subQuestions.forEach(sq => {
+                    quizState.answers[sq.id] = { status: 'unchecked' };
+                });
+            }
+        });
+    }
+    quizState.quizFile = quizFile; // Keep track of the current quiz file
     document.getElementById('progress-tracker').classList.remove('hidden');
     document.getElementById('retry-buttons').classList.remove('hidden');
     updateProgressBar();
 }
+
 
 function updateProgressBar() {
     if (Object.keys(quizState).length === 0 || !quizState.totalQuestions) {
@@ -60,6 +108,10 @@ function updateProgressBar() {
     retryIncorrectBtn.disabled = !hasIncorrect;
     retryIncorrectBtn.classList.toggle('opacity-50', !hasIncorrect);
     retryIncorrectBtn.classList.toggle('cursor-not-allowed', !hasIncorrect);
+
+    if (quizState.quizFile) {
+        saveQuizState(quizState.quizFile, quizState);
+    }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -78,16 +130,26 @@ document.addEventListener('DOMContentLoaded', () => {
     const infectiousSubMenu = document.getElementById('infectious-sub-menu');
     const loadingIndicator = document.getElementById('loading-indicator');
 
+    // --- Load last visited page ---
+    const lastPageId = loadLastPage();
+    if (lastPageId) {
+        const link = document.querySelector(`.sidebar-link[data-target="${lastPageId}"]`);
+        if (link) {
+            link.click();
+        }
+    }
+
+
     // --- Business Logic Functions ---
-    const startNewMcqQuiz = (quizData, containerId, originalDataRef) => {
+    const startNewMcqQuiz = (quizData, containerId, quizFile, originalDataRef) => {
         if (!quizData || quizData.length === 0) { showPlaceholder(containerId); return; }
-        initializeQuizState(quizData, containerId, originalDataRef);
+        initializeQuizState(quizData, containerId, originalDataRef, quizFile);
         buildMcqQuiz(quizData, containerId);
     };
 
-    const startNewLabQuiz = (quizData, containerId) => {
+    const startNewLabQuiz = (quizData, containerId, quizFile) => {
         if (!quizData || quizData.length === 0) { showPlaceholder(containerId); return; }
-        initializeLabQuizState(quizData, containerId);
+        initializeLabQuizState(quizData, containerId, quizFile);
         buildLabQuiz(quizData, containerId);
     };
 
@@ -157,6 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (targetId === 'miniGameContent' && typeof initGame === 'function') {
                 initGame();
             }
+            saveLastPage(targetId); // Save the last visited page
             closeSidebar();
         });
     });
@@ -197,28 +260,28 @@ document.addEventListener('DOMContentLoaded', () => {
             if (parentPane.id === 'pharmacologyContent') {
                 document.getElementById('pharma-quiz-title').innerHTML = quizTitle || 'Pharmacology Quiz';
                 document.getElementById('pharma-quiz-subtitle').innerHTML = quizSubtitle || 'Test your knowledge.';
-                startNewMcqQuiz(fetchedData, quizContainerId);
+                startNewMcqQuiz(fetchedData, quizContainerId, quizFile);
             } else if (parentPane.id === 'infectiousContent') {
                 document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
                 if (quizType === 'lab') {
                     document.getElementById('infectious-lab-quiz-title').innerHTML = quizTitle || 'Infectious Disease Lab';
                     document.getElementById('infectiousLabQuizView').classList.remove('hidden');
-                    startNewLabQuiz(fetchedData, quizContainerId);
+                    startNewLabQuiz(fetchedData, quizContainerId, quizFile);
                 } else {
                     document.getElementById('infectious-quiz-title').innerHTML = quizTitle || 'Infectious Disease Quiz';
                     document.getElementById('infectiousQuizView').classList.remove('hidden');
-                    startNewMcqQuiz(fetchedData, quizContainerId);
+                    startNewMcqQuiz(fetchedData, quizContainerId, quizFile);
                 }
             } else if (parentPane.id === 'epidemiologyContent') {
                 document.getElementById('epidemiologyListView').classList.add('hidden');
                 document.getElementById('epidemiology-quiz-title').innerHTML = quizTitle || 'Epidemiology Quiz';
                 document.getElementById('epidemiologyQuizView').classList.remove('hidden');
-                startNewMcqQuiz(fetchedData, quizContainerId);
+                startNewMcqQuiz(fetchedData, quizContainerId, quizFile);
             } else if (parentPane.id === 'skinContent') {
                 document.getElementById('skinListView').classList.add('hidden');
                 document.getElementById('skin-quiz-title').innerHTML = quizTitle || 'Skin Quiz';
                 document.getElementById('skinQuizView').classList.remove('hidden');
-                startNewMcqQuiz(fetchedData, quizContainerId);
+                startNewMcqQuiz(fetchedData, quizContainerId, quizFile);
             }
 
         } catch (error) {
@@ -234,10 +297,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     retryBtn.addEventListener('click', () => {
         if (quizState.originalQuizDataRef) {
+            // Clear the saved state for this quiz before restarting
+            localStorage.removeItem(`topazQuizState_${quizState.quizFile}`);
             if (quizState.type === 'lab') {
-                startNewLabQuiz(quizState.originalQuizDataRef, quizState.containerId);
+                startNewLabQuiz(quizState.originalQuizDataRef, quizState.containerId, quizState.quizFile);
             } else {
-                startNewMcqQuiz(quizState.originalQuizDataRef, quizState.containerId);
+                startNewMcqQuiz(quizState.originalQuizDataRef, quizState.containerId, quizState.quizFile);
             }
         }
     });
@@ -250,6 +315,7 @@ document.addEventListener('DOMContentLoaded', () => {
             quizState.incorrect -= indicesToReset.length;
             quizState.incorrectIndices = [];
             indicesToReset.forEach(originalIndex => {
+                delete quizState.userAnswers[originalIndex];
                 const card = document.querySelector(`#${quizState.containerId} .question-card[data-original-index='${originalIndex}']`);
                 if (card) {
                     card.dataset.answered = 'false';
@@ -284,7 +350,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             if (quizState.answers[sq.id].status === 'incorrect') quizState.incorrect--;
                             if (quizState.answers[sq.id].status === 'correct') quizState.correct--;
                         }
-                        quizState.answers[sq.id].status = 'unchecked';
+                        quizState.answers[sq.id] = { status: 'unchecked' };
                     });
 
                     quizState.answered -= resetCount;
@@ -326,6 +392,9 @@ function buildMcqQuiz(quizData, containerId) {
 
     quizContainer.appendChild(fragment);
     quizContainer.querySelectorAll('.check-btn').forEach(button => button.addEventListener('click', checkMcqAnswer));
+    if (quizState.userAnswers) {
+        restoreMcqQuiz(containerId);
+    }
 }
 
 function checkMcqAnswer(event) {
@@ -342,6 +411,7 @@ function checkMcqAnswer(event) {
     card.dataset.answered = 'true';
     quizState.answered++;
     const userAnswer = selectedOption.value;
+    quizState.userAnswers[originalIndex] = userAnswer;
     const isCorrect = userAnswer === questionData.correctAnswer;
 
     if (isCorrect) { quizState.correct++; }
@@ -381,6 +451,25 @@ function checkMcqAnswer(event) {
         card.querySelector(`input[value="${questionData.correctAnswer}"]`).parentElement.classList.add('bg-blue-100', 'dark:bg-blue-900/50', 'border-blue-500');
     }
 }
+
+function restoreMcqQuiz(containerId) {
+    const quizContainer = document.getElementById(containerId);
+    if (!quizContainer || !quizState.userAnswers) return;
+
+    Object.entries(quizState.userAnswers).forEach(([originalIndex, userAnswer]) => {
+        const card = quizContainer.querySelector(`.question-card[data-original-index='${originalIndex}']`);
+        if (card) {
+            const questionData = quizState.originalQuizDataRef[originalIndex];
+            const selectedOption = card.querySelector(`input[value='${userAnswer}']`);
+            if (selectedOption) {
+                selectedOption.checked = true;
+                const button = card.querySelector('.check-btn');
+                checkMcqAnswer({ target: button }); // Simulate a click to show results
+            }
+        }
+    });
+}
+
 
 // --- Lab Quiz Functions ---
 function buildLabQuiz(quizData, containerId) {
@@ -449,6 +538,9 @@ function buildLabQuiz(quizData, containerId) {
     });
     quizContainer.appendChild(fragment);
     quizContainer.querySelectorAll('.check-lab-btn').forEach(btn => btn.addEventListener('click', checkLabAnswer));
+    if (quizState.answers) {
+        restoreLabQuiz(containerId);
+    }
 }
 
 
@@ -497,7 +589,10 @@ function checkLabAnswer(event) {
 
             quizState.answered++;
             if (isCorrect) quizState.correct++; else quizState.incorrect++;
-            quizState.answers[part.id] = { status: isCorrect ? 'correct' : 'incorrect' };
+            quizState.answers[part.id] = { 
+                status: isCorrect ? 'correct' : 'incorrect',
+                userAnswer: Array.from(inputs).map(i => i.value)
+            };
 
             inputs.forEach(input => {
                 input.classList.remove('border-green-500', 'dark:border-green-400', 'border-red-500', 'dark:border-red-400');
@@ -539,6 +634,44 @@ function checkLabAnswer(event) {
     card.dataset.answered = 'true';
     updateProgressBar();
 }
+
+function restoreLabQuiz(containerId) {
+    const quizContainer = document.getElementById(containerId);
+    if (!quizContainer || !quizState.answers) return;
+
+    // A map to track which question blocks have been checked
+    const checkedBlocks = new Set();
+
+    Object.entries(quizState.answers).forEach(([partId, answerData]) => {
+        if (answerData.status !== 'unchecked') {
+            const inputs = quizContainer.querySelectorAll(`input[data-id='${partId}']`);
+            if (inputs.length > 0) {
+                const card = inputs[0].closest('.lab-question-card');
+                const qNum = card.dataset.questionNumber;
+
+                // Set the user's answer in the input fields
+                if (answerData.userAnswer) {
+                    inputs.forEach((input, i) => {
+                        input.value = answerData.userAnswer[i] || '';
+                    });
+                }
+                
+                // Mark the block to be checked
+                checkedBlocks.add(qNum);
+            }
+        }
+    });
+    
+    // Trigger the check for each unique block that has answered questions
+    checkedBlocks.forEach(qNum => {
+        const card = quizContainer.querySelector(`.lab-question-card[data-question-number='${qNum}']`);
+        if(card) {
+            const button = card.querySelector('.check-lab-btn');
+            checkLabAnswer({target: button});
+        }
+    });
+}
+
 
 // --- Global Theme Toggle ---
 const themeToggleBtn = document.getElementById('theme-toggle');
