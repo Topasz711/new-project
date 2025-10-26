@@ -42,9 +42,6 @@ function initializeQuizState(quizData, containerId, originalDataRef, quizFile) {
         };
     }
     quizState.quizFile = quizFile; // Keep track of the current quiz file
-    document.getElementById('progress-tracker').classList.remove('hidden');
-    document.getElementById('retry-buttons').classList.remove('hidden');
-    updateProgressBar();
 }
 
 function initializeLabQuizState(quizData, containerId, quizFile) {
@@ -154,6 +151,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!quizData || quizData.length === 0) { showPlaceholder(containerId); return; }
         initializeQuizState(quizData, containerId, originalDataRef, quizFile);
         buildMcqQuiz(quizData, containerId);
+        document.getElementById('progress-tracker').classList.remove('hidden');
+        document.getElementById('retry-buttons').classList.remove('hidden');
+        updateProgressBar();
     };
 
     const startNewLabQuiz = (quizData, containerId, quizFile) => {
@@ -179,7 +179,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.getElementById('pharmaQuizContainer').innerHTML = `<div class="text-center p-10 bg-white dark:bg-gray-800 rounded-lg shadow-md"><h2 class="text-2xl font-semibold text-gray-500 dark:text-gray-400">ยังไม่มี/อาจจะไม่ทำ</h2><p class="text-gray-400 dark:text-gray-500 mt-2">(Not yet available / Might not be created)</p></div>`;
             } else if (targetPane.id === 'skinContent') {
                 const container = document.getElementById('skinQuizContainer');
-                if (container) container.innerHTML = `<div class="text-center p-10 bg-white dark:bg-gray-800 rounded-lg shadow-md"><h2 class="text-2xl font-semibold text-gray-500 dark:text-gray-400">ยังไม่มี/อาจจะไม่ทำ</h2><p class="text-gray-400 dark:text-gray-500 mt-2">(Not yet available / Might not be created)</p></div>`;
+                if (container) {
+                    container.innerHTML = `<div class="text-center p-10 bg-white dark:bg-gray-800 rounded-lg shadow-md"><h2 class="text-2xl font-semibold text-gray-500 dark:text-gray-400">ยังไม่มี/อาจจะไม่ทำ</h2><p class="text-gray-400 dark:text-gray-500 mt-2">(Not yet available / Might not be created)</p></div>`;
+                }
+                // Also clear the header text when showing a placeholder
+                document.getElementById('skin-quiz-title').textContent = '';
+                document.getElementById('skin-quiz-subtitle').textContent = '';
                 document.getElementById('skinListView').classList.add('hidden'); // Hide list view
                 document.getElementById('skinQuizView').classList.remove('hidden'); // Show quiz view to show placeholder
             }
