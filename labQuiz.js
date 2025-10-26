@@ -15,7 +15,8 @@ function initializeLabQuizState(quizData, containerId, quizFile) {
             ...savedState,
             originalQuizDataRef: quizData,
         };
-         setTimeout(() => restoreQuiz(containerId), 0);
+         // *** แนะนำให้ Comment out บรรทัดนี้ เนื่องจาก buildLabQuiz เรียก restoreQuiz อยู่แล้ว ***
+         // setTimeout(() => restoreQuiz(containerId), 0); 
     } else {
         const totalSubQuestions = quizData.reduce((acc, q) => {
             if (q.type === 'matching_case_study') {
@@ -225,7 +226,8 @@ function checkLabAnswer(event) {
 
 
             // --- Scoring (FIX 3: Only update scores if not restoring AND not previously checked) ---
-            if (!blockIsAnswered && quizState.answers[part.id]?.status === 'unchecked') {
+            // *** การแก้ไข: เพิ่ม && !isRestoring เพื่อป้องกันการนับซ้ำเมื่อโหลดหน้าใหม่ ***
+            if (!blockIsAnswered && quizState.answers[part.id]?.status === 'unchecked' && !isRestoring) {
                 quizState.answered++;
                 if (isCorrect) quizState.correct++; else quizState.incorrect++;
                 quizState.answers[part.id] = { 
