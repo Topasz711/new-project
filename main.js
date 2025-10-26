@@ -1,6 +1,16 @@
 // main.js
+/**
+ * @type {object}
+ * @description Holds the state of the current quiz.
+ */
 let quizState = {};
 
+/**
+ * Initializes the state for a Multiple Choice Question (MCQ) quiz.
+ * @param {Array<object>} quizData - The array of quiz questions.
+ * @param {string} containerId - The ID of the container element for the quiz.
+ * @param {Array<object>} [originalDataRef] - A reference to the original, unmodified quiz data for retries.
+ */
 function initializeQuizState(quizData, containerId, originalDataRef) {
     quizState = {
         type: 'mcq', totalQuestions: quizData.length, answered: 0, correct: 0, incorrect: 0,
@@ -11,6 +21,11 @@ function initializeQuizState(quizData, containerId, originalDataRef) {
     updateProgressBar();
 }
 
+/**
+ * Initializes the state for a Lab-style quiz, which may have complex sub-questions.
+ * @param {Array<object>} quizData - The array of lab quiz questions.
+ * @param {string} containerId - The ID of the container element for the quiz.
+ */
 function initializeLabQuizState(quizData, containerId) {
     const totalSubQuestions = quizData.reduce((acc, q) => {
         if (q.type === 'matching_case_study') {
@@ -41,6 +56,9 @@ function initializeLabQuizState(quizData, containerId) {
     updateProgressBar();
 }
 
+/**
+ * Updates the progress bar and score display based on the current quiz state.
+ */
 function updateProgressBar() {
     if (Object.keys(quizState).length === 0 || !quizState.totalQuestions) {
         document.getElementById('progress-tracker').classList.add('hidden');
@@ -79,18 +97,33 @@ document.addEventListener('DOMContentLoaded', () => {
     const loadingIndicator = document.getElementById('loading-indicator');
 
     // --- Business Logic Functions ---
+    /**
+     * Starts a new MCQ quiz.
+     * @param {Array<object>} quizData - The quiz data.
+     * @param {string} containerId - The ID of the quiz container.
+     * @param {Array<object>} [originalDataRef] - Optional reference to the original quiz data.
+     */
     const startNewMcqQuiz = (quizData, containerId, originalDataRef) => {
         if (!quizData || quizData.length === 0) { showPlaceholder(containerId); return; }
         initializeQuizState(quizData, containerId, originalDataRef);
         buildMcqQuiz(quizData, containerId);
     };
 
+    /**
+     * Starts a new Lab quiz.
+     * @param {Array<object>} quizData - The quiz data.
+     * @param {string} containerId - The ID of the quiz container.
+     */
     const startNewLabQuiz = (quizData, containerId) => {
         if (!quizData || quizData.length === 0) { showPlaceholder(containerId); return; }
         initializeLabQuizState(quizData, containerId);
         buildLabQuiz(quizData, containerId);
     };
 
+    /**
+     * Shows a placeholder message when a quiz is not available.
+     * @param {string} containerId - The ID of the quiz container.
+     */
     const showPlaceholder = (containerId) => {
         progressTracker.classList.add('hidden');
         const targetPane = document.getElementById(containerId)?.closest('.main-content-pane');
@@ -110,7 +143,13 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // --- Sidebar and Navigation ---
+    /**
+     * Opens the sidebar navigation menu.
+     */
     function openSidebar() { sidebar.classList.remove('-translate-x-full'); overlay.classList.remove('hidden'); }
+    /**
+     * Closes the sidebar navigation menu.
+     */
     function closeSidebar() { sidebar.classList.add('-translate-x-full'); overlay.classList.add('hidden'); }
 
     menuBtn.addEventListener('click', openSidebar);
@@ -297,6 +336,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // --- MCQ Quiz Functions ---
+/**
+ * Builds the HTML for an MCQ quiz and injects it into the container.
+ * @param {Array<object>} quizData - The array of quiz questions.
+ * @param {string} containerId - The ID of the element to contain the quiz.
+ */
 function buildMcqQuiz(quizData, containerId) {
     const quizContainer = document.getElementById(containerId);
     quizContainer.innerHTML = '';
@@ -316,6 +360,10 @@ function buildMcqQuiz(quizData, containerId) {
     quizContainer.querySelectorAll('.check-btn').forEach(button => button.addEventListener('click', checkMcqAnswer));
 }
 
+/**
+ * Checks the selected answer for an MCQ question, updates state, and provides feedback.
+ * @param {Event} event - The click event from the "Check Answer" button.
+ */
 function checkMcqAnswer(event) {
     const button = event.target;
     const card = button.closest('.question-card');
@@ -371,6 +419,11 @@ function checkMcqAnswer(event) {
 }
 
 // --- Lab Quiz Functions ---
+/**
+ * Builds the HTML for a lab-style quiz and injects it into the container.
+ * @param {Array<object>} quizData - The array of lab quiz questions.
+ * @param {string} containerId - The ID of the element to contain the quiz.
+ */
 function buildLabQuiz(quizData, containerId) {
     const quizContainer = document.getElementById(containerId);
     quizContainer.innerHTML = '';
@@ -440,6 +493,10 @@ function buildLabQuiz(quizData, containerId) {
 }
 
 
+/**
+ * Checks the answers for a lab question block, updates state, and provides feedback.
+ * @param {Event} event - The click event from the "Check" button.
+ */
 function checkLabAnswer(event) {
     const button = event.target;
     const qNum = button.dataset.questionNumber;
@@ -532,6 +589,10 @@ function checkLabAnswer(event) {
 const themeToggleBtn = document.getElementById('theme-toggle');
 const darkIcon = document.getElementById('theme-toggle-dark-icon');
 const lightIcon = document.getElementById('theme-toggle-light-icon');
+
+/**
+ * Updates the theme toggle icon based on the current theme (dark/light).
+ */
 function updateIcon() {
     if (document.documentElement.classList.contains('dark')) {
         darkIcon.classList.add('hidden'); lightIcon.classList.remove('hidden');

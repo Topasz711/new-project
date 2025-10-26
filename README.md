@@ -30,7 +30,9 @@ The repository is organized as follows:
 ├── infectious/       # Contains JSON files for Infectious Disease quizzes
 ├── pharmaco/         # Contains JSON files for Pharmacology quizzes
 ├── index.html        # The main entry point for the application
-├── main.js           # Core application logic, including quiz functions and the snake game
+├── main.js           # Core application logic for quiz functions
+├── snake.js          # Contains all logic for the Snake mini-game
+├── style.css         # Main stylesheet for the application
 └── README.md         # This file
 ```
 

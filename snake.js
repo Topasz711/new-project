@@ -1,5 +1,12 @@
 // snake.js (เวอร์ชันแก้ไขสมบูรณ์)
+/**
+ * @file Contains all the logic for the Snake mini-game.
+ */
 document.addEventListener('DOMContentLoaded', () => {
+    /**
+     * @namespace game
+     * @description The main object containing all properties and methods for the snake game.
+     */
     const game = {
         // DOM Elements
         board: document.getElementById('game-board'),
@@ -23,6 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
         // Bound event handler to be able to remove it later
         boundKeyDownHandler: null,
     
+        /**
+         * Initializes the game, resets the state, and starts the game loop.
+         */
         init() {
             if (!this.board) return;
             this.resetState();
@@ -31,6 +41,9 @@ document.addEventListener('DOMContentLoaded', () => {
             this.board.focus();
         },
     
+        /**
+         * Resets the game state to its initial values.
+         */
         resetState() {
             this.gameState = {
                 snake: [{ x: 10, y: 10 }],
@@ -47,6 +60,9 @@ document.addEventListener('DOMContentLoaded', () => {
             this.updateDisplay();
         },
     
+        /**
+         * Starts the main game loop using requestAnimationFrame.
+         */
         startGameLoop() {
             if (this.gameLoopId) cancelAnimationFrame(this.gameLoopId);
             const gameLoop = (currentTime) => {
@@ -62,6 +78,9 @@ document.addEventListener('DOMContentLoaded', () => {
             this.gameLoopId = requestAnimationFrame(gameLoop);
         },
     
+        /**
+         * Updates the game state on each tick, moving the snake and checking for collisions or food.
+         */
         update() {
             this.processInput();
             const head = { ...this.gameState.snake[0] };
@@ -88,6 +107,9 @@ document.addEventListener('DOMContentLoaded', () => {
             this.updateDisplay();
         },
     
+        /**
+         * Renders the current game state (snake and food) on the board.
+         */
         draw() {
             this.gameState.snake.forEach((segment, index) => {
                 const segmentElement = document.getElementById(`snake-${index}`);
@@ -103,6 +125,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         },
     
+        /**
+         * Handles the game over state, updating high scores and stopping the game.
+         */
         gameOver() {
             this.gameState.isGameOver = true;
             if (this.gameState.score > this.gameState.highScore) {
@@ -121,6 +146,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         },
     
+        /**
+         * Creates the initial DOM elements for the snake and food.
+         */
         createGameElements() {
             this.gameState.snake.forEach((_, index) => this.createSnakeElement(index));
             const foodElement = document.createElement('div');
@@ -129,6 +157,10 @@ document.addEventListener('DOMContentLoaded', () => {
             this.board.appendChild(foodElement);
         },
     
+        /**
+         * Creates a DOM element for a single snake segment.
+         * @param {number} index - The index of the snake segment.
+         */
         createSnakeElement(index) {
             const snakeElement = document.createElement('div');
             snakeElement.id = `snake-${index}`;
@@ -136,12 +168,19 @@ document.addEventListener('DOMContentLoaded', () => {
             this.board.appendChild(snakeElement);
         },
     
+        /**
+         * Adds a new segment to the snake's body in the DOM.
+         */
         addSnakeSegment() {
             // *** FIX: Use the correct index for the new segment ***
             const newIndex = this.gameState.snake.length - 1;
             this.createSnakeElement(newIndex);
         },
     
+        /**
+         * Generates a new food item at a random position on the board.
+         * @returns {{x: number, y: number}} The coordinates of the new food.
+         */
         generateFood() {
             let newFood;
             do {
@@ -153,6 +192,10 @@ document.addEventListener('DOMContentLoaded', () => {
             return newFood;
         },
     
+        /**
+         * Checks for collisions with the wall or the snake's own body.
+         * @returns {boolean} True if a collision is detected, false otherwise.
+         */
         checkCollision() {
             const head = this.gameState.snake[0];
             return (
@@ -161,12 +204,18 @@ document.addEventListener('DOMContentLoaded', () => {
             );
         },
     
+        /**
+         * Updates the score, high score, and pause button text in the UI.
+         */
         updateDisplay() {
             if (this.scoreDisplay) this.scoreDisplay.textContent = this.gameState.score;
             if (this.highScoreDisplay) this.highScoreDisplay.textContent = this.gameState.highScore;
             if (this.pauseResumeBtn) this.pauseResumeBtn.textContent = this.gameState.isPaused ? 'Resume' : 'Pause';
         },
     
+        /**
+         * Sets up event listeners for keyboard and touch input.
+         */
         setupInputListeners() {
             // *** FIX: Ensure keydown listener is only attached once ***
             if (this.boundKeyDownHandler) {
@@ -182,6 +231,9 @@ document.addEventListener('DOMContentLoaded', () => {
             this.restartGameBtn.onclick = () => this.init();
         },
     
+        /**
+         * Processes the next queued direction input.
+         */
         processInput() {
             const opposite = { up: 'down', down: 'up', left: 'right', right: 'left' };
             if (this.nextDirection && this.nextDirection !== opposite[this.gameState.direction]) {
@@ -190,6 +242,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         },
     
+        /**
+         * Handles the keydown event for controlling the snake.
+         * @param {KeyboardEvent} e - The keyboard event object.
+         */
         handleKeyDown(e) {
             if (this.gameState.isGameOver) return;
             if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
@@ -198,6 +254,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         },
     
+        /**
+         * Handles the touchstart event for swipe controls.
+         * @param {TouchEvent} e - The touch event object.
+         */
         handleTouchStart(e) {
             if (this.gameState.isGameOver) return;
             e.preventDefault();
@@ -205,6 +265,10 @@ document.addEventListener('DOMContentLoaded', () => {
             this.touchStartY = e.touches[0].clientY;
         },
     
+        /**
+         * Handles the touchmove event to detect swipe direction.
+         * @param {TouchEvent} e - The touch event object.
+         */
         handleTouchMove(e) {
             if (this.gameState.isGameOver || !this.touchStartX || !this.touchStartY) return;
             e.preventDefault();
@@ -217,6 +281,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         },
     
+        /**
+         * Toggles the paused state of the game.
+         */
         togglePause() {
             if (this.gameState.isGameOver) return;
             this.gameState.isPaused = !this.gameState.isPaused;
@@ -228,5 +295,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
     
+    /**
+     * Exposes the game's init function to the global window object.
+     */
     window.initGame = () => game.init();
 });
