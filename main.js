@@ -105,6 +105,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.getElementById('placeholderContent').classList.remove('hidden');
             } else if (targetPane.id === 'pharmacologyContent') {
                 document.getElementById('pharmaQuizContainer').innerHTML = `<div class="text-center p-10 bg-white dark:bg-gray-800 rounded-lg shadow-md"><h2 class="text-2xl font-semibold text-gray-500 dark:text-gray-400">ยังไม่มี/อาจจะไม่ทำ</h2><p class="text-gray-400 dark:text-gray-500 mt-2">(Not yet available / Might not be created)</p></div>`;
+            } else if (targetPane.id === 'skinContent') {
+                document.getElementById('skinListView').classList.add('hidden');
+                document.getElementById('skinQuizView').classList.add('hidden');
+                document.getElementById('placeholderContent').classList.remove('hidden');
             }
         }
     };
@@ -147,6 +151,9 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (targetId === 'epidemiologyContent') {
                 document.getElementById('epidemiologyListView').classList.remove('hidden');
                 document.getElementById('epidemiologyQuizView').classList.add('hidden');
+            } else if (targetId === 'skinContent') {
+                document.getElementById('skinListView').classList.remove('hidden');
+                document.getElementById('skinQuizView').classList.add('hidden');
             } else if (targetId === 'miniGameContent' && typeof initGame === 'function') {
                 initGame();
             }
@@ -206,6 +213,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.getElementById('epidemiologyListView').classList.add('hidden');
                 document.getElementById('epidemiology-quiz-title').innerHTML = quizTitle || 'Epidemiology Quiz';
                 document.getElementById('epidemiologyQuizView').classList.remove('hidden');
+                startNewMcqQuiz(fetchedData, quizContainerId);
+            } else if (parentPane.id === 'skinContent') {
+                document.getElementById('skinListView').classList.add('hidden');
+                document.getElementById('skin-quiz-title').innerHTML = quizTitle || 'Skin Quiz';
+                document.getElementById('skinQuizView').classList.remove('hidden');
                 startNewMcqQuiz(fetchedData, quizContainerId);
             }
 
