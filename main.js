@@ -191,10 +191,12 @@ document.addEventListener('DOMContentLoaded', () => {
         initializeQuizState(quizData, containerId, originalDataRef, quizFile);
         buildMcqQuiz(quizData, containerId);
         
+        // --- START FIX for Progress Bar not showing on subsequent manual tab clicks ---
         const tracker = document.getElementById('progress-tracker');
         const retryButtons = document.getElementById('retry-buttons');
-        if (tracker) tracker.classList.remove('hidden');
+        if (tracker) tracker.classList.remove('hidden'); // *** เพิ่มการแสดงผลตรงนี้ ***
         if (retryButtons) retryButtons.classList.remove('hidden');
+        // --- END FIX ---
         
         updateProgressBar();
     };
@@ -289,7 +291,7 @@ document.addEventListener('DOMContentLoaded', () => {
             event.preventDefault();
             const targetId = link.dataset.target;
             const subTargetId = link.dataset.subTarget;
-            if (progressTracker) progressTracker.classList.add('hidden');
+            if (progressTracker) progressTracker.classList.add('hidden'); // *** ส่วนนี้คือส่วนที่ซ่อน Progress Bar เมื่อเปลี่ยนหน้าหลัก ***
             contentPanes.forEach(pane => pane.classList.add('hidden'));
             
             const targetPane = document.getElementById(targetId);
@@ -301,6 +303,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 const firstPharmaTab = document.querySelector('.pharma-tab-btn');
                 if (firstPharmaTab && !firstPharmaTab.classList.contains('active')) {
                      firstPharmaTab.click();
+                } else if (firstPharmaTab && firstPharmaTab.classList.contains('active')) {
+                     // *** FIX: เมื่อกลับมาหน้า Pharmacology แล้ว Tab เดิม Active อยู่ ให้สั่งแสดง Progress Bar ซ้ำ ***
+                     const tracker = document.getElementById('progress-tracker');
+                     if (tracker && quizState.quizFile) {
+                        tracker.classList.remove('hidden'); 
+                        updateProgressBar();
+                     }
                 }
             } else if (targetId === 'infectiousContent') {
                 document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
