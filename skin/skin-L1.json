@@ -1,1 +1,162 @@
-[]
+[
+    {
+        "question": "Which of the following statements correctly differentiates the basis of skin color between individuals with darkly pigmented skin and those with lightly pigmented skin?",
+        "choices": {
+            "A": "Individuals with dark skin have a significantly higher number of melanocytes per square millimeter in the stratum basale.",
+            "B": "Individuals with dark skin have larger melanosomes, and the melanin degrades more slowly as it is transferred to keratinocytes.",
+            "C": "Individuals with light skin primarily produce eumelanin, while individuals with dark skin primarily produce pheomelanin.",
+            "D": "Individuals with light skin have their melanocytes located in the stratum spinosum, whereas in dark skin they are in the stratum basale.",
+            "E": "The epidermal melanin unit in dark skin consists of one melanocyte per 10 keratinocytes, while in light skin it is one per 36 keratinocytes."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "This statement accurately captures the primary reasons for variation in skin pigmentation. The key differences are not in the number of melanin-producing cells but in their activity and the packaging of the pigment. 1.Larger Melanosomes: The provided lecture material explicitly states that individuals with dark skin have larger melanosomes compared to those with white skin, who have smaller melanosomes. 2.Slower Degradation: Although not explicitly stated in text, the diagram comparing darkly and lightly pigmented skin on page 13 visually demonstrates this concept. In darkly pigmented skin, melanosomes are shown to be larger and distributed throughout the epidermis. In lightly pigmented skin, the smaller melanosomes are clustered and break down more rapidly in the lower layers of the epidermis. This slower degradation in dark skin allows the melanin to persist and provide color to more layers of the skin.",
+            "incorrect": {
+                "A": "This is a common misconception. The lecture material clarifies that the number of melanocytes is the same in both dark and white skin. The difference lies in the amount and type of melanin produced, not the number of cells producing it.",
+                "C": "This statement has the facts reversed. Eumelanin is the brown-to-black pigment that is more abundant in dark skin. Pheomelanin is the yellow-to-red pigment, which is found in higher proportions in individuals with lighter skin and red hair.",
+                "D": "Melanocytes are consistently located in the stratum basale (the deepest layer of the epidermis) regardless of skin pigmentation. Their position does not change between different skin colors.",
+                "E": "The lecture defines the epidermal melanin unit as one melanocyte serving approximately 36 surrounding keratinocytes. Crucially, the accompanying table indicates that this unit is the same for both dark and white skin."
+            }
+        }
+    },
+    {
+        "question": "Which of the following structures have a role to transfer nutrients from the dermis to the epidermis?",
+        "choices": {
+            "A": "Myenteric plexus",
+            "B": "Subcutaneous plexus",
+            "C": "Submucous plexus",
+            "D": "Subpapillary plexus",
+            "E": "Cutaneous plexus"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "Why D is correct: The epidermis is avascular (lacks its own blood supply) and relies on diffusion from the underlying dermis for oxygen and nutrients. The subpapillary plexus (also called the superficial vascular plexus) is a network of blood vessels located at the junction of the papillary and reticular layers of the dermis. Crucially, this plexus gives rise to capillary loops that extend up into the dermal papillae , bringing the blood supply in close proximity to the epidermis to facilitate this nutrient transfer.",
+            "incorrect": {
+                "A": "Myenteric plexus & C. Submucous plexus: These are nerve plexuses that are part of the enteric nervous system, controlling motility and secretion in the gastrointestinal tract. They are not found in the skin.",
+                "C": "Myenteric plexus & C. Submucous plexus: These are nerve plexuses that are part of the enteric nervous system, controlling motility and secretion in the gastrointestinal tract. They are not found in the skin.",
+                "B": "Subcutaneous plexus & E. Cutaneous plexus: These are names for the deep vascular plexus, which is located deeper, near the boundary between the reticular dermis and the hypodermis. While it supplies the deeper structures of the dermis and skin appendages, it is the subpapillary plexus that directly serves the epidermis.",
+                "E": "Subcutaneous plexus & E. Cutaneous plexus: These are names for the deep vascular plexus, which is located deeper, near the boundary between the reticular dermis and the hypodermis. While it supplies the deeper structures of the dermis and skin appendages, it is the subpapillary plexus that directly serves the epidermis."
+            }
+        }
+    },
+    {
+        "question": "A patient has a genetic defect leading to non-functional profilaggrin. This defect would most directly impair the formation of which granules and subsequently disrupt the keratin aggregation process in which epidermal layer?",
+        "choices": {
+            "A": "Lamellar bodies in the Stratum Spinosum",
+            "B": "Keratohyalin granules in the Stratum Granulosum",
+            "C": "Neurosecretory granules in the Stratum Basale",
+            "D": "Melanosomes in the Stratum Basale",
+            "E": "Odland bodies in the Stratum Lucidum"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Why B is correct: The lecture explicitly states that keratohyalin granules, which are characteristic of the Stratum Granulosum, contain the protein profilaggrin. It further explains that profilaggrin is a precursor to filaggrin, a protein essential for the aggregation of keratin filaments to form mature keratin. Therefore, a defect in profilaggrin would directly impair the formation of these granules and the subsequent keratinization process in the Stratum Granulosum.",
+            "incorrect": {
+                "A": "Lamellar bodies in the Stratum Spinosum: Lamellar bodies (also called Odland bodies) contain lipids that contribute to the skin's water barrier; they are not associated with profilaggrin.",
+                "C": "Neurosecretory granules in the Stratum Basale: These are found in Merkel cells and contain neurotransmitters for sensory function. They have no role in keratinization.",
+                "D": "Melanosomes in the Stratum Basale: These granules, produced by melanocytes, contain melanin for UV protection  and are unrelated to profilaggrin.",
+                "E": "Odland bodies in the Stratum Lucidum: Odland bodies are another name for lamellar bodies. Furthermore, the Stratum Lucidum is composed of dead cells that have already lost their organelles, so granule formation does not occur here."
+            }
+        }
+    },
+    {
+        "question": "A patient presents with impaired sensation of deep pressure and high-frequency vibration on their palms and soles. This sensory deficit points to a dysfunction of which specific receptor, and in which layer would you primarily expect to find this structure?",
+        "choices": {
+            "A": "Meissner's corpuscle in the papillary dermis",
+            "B": "Merkel's disc in the stratum basale",
+            "C": "Pacinian corpuscle in the hypodermis",
+            "D": "Free nerve endings in the epidermis",
+            "E": "Ruffini's ending in the reticular dermis"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Why C is correct: Pacinian corpuscles are specialized sensory receptors that detect deep pressure and vibration. They are large, ovoid structures typically located deep within the skin, in the hypodermis or the deep dermis. The patient's symptoms of impaired deep pressure and vibration sensation align perfectly with the function and location of Pacinian corpuscles.",
+            "incorrect": {
+                "A": "Meissner's corpuscle: Detects light touch and is found more superficially in the dermal papillae.",
+                "B": "Merkel's disc: A receptor for fine touch (tactile sensitivity) located in the Stratum Basale of the epidermis.",
+                "D": "Free nerve endings: Primarily sense pain and temperature and are found throughout the epidermis and dermis.",
+                "E": "Ruffini's ending: Senses stretch and is located in the dermis and hypodermis."
+            }
+        }
+    },
+    {
+        "question": "Keratohyalin granules of the skin are characteristically present in which of the following layers?",
+        "choices": {
+            "A": "Stratum corneum",
+            "B": "Stratum lucidum",
+            "C": "Stratum spinosum",
+            "D": "Stratum basale",
+            "E": "Stratum granulosum"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "Why E is correct: The name of the layer itself, Stratum Granulosum (granular layer), indicates the presence of prominent granules. The lecture slides specifically state that the keratinocytes in this layer \"contain keratohyalin granules (basophilic staining)\". This is the defining histological feature of this particular epidermal layer.",
+            "incorrect": {
+                "A": "Stratum corneum & B. Stratum lucidum: These layers consist of dead keratinocytes (corneocytes) that have lost their nucleus and organelles, including granules.",
+                "B": "Stratum corneum & B. Stratum lucidum: These layers consist of dead keratinocytes (corneocytes) that have lost their nucleus and organelles, including granules.",
+                "C": "Stratum spinosum: The cells in this layer are known as \"prickle cells\" and are characterized by prominent desmosomes and the synthesis of lamellar bodies, not keratohyalin granules.",
+                "D": "Stratum basale: This is the deepest, mitotically active layer where new keratinocytes are formed. It does not contain keratohyalin granules."
+            }
+        }
+    },
+    {
+        "question": "A 12-year-old boy complains of mild pain in his hand. Biopsy of the skin at his hand reveals large, phagocytic cells with pale cytoplasm. By electron microscopy, these large cells are discovered to have cleaved nuclei. These characteristics are an ultrastructure of which of the following cells.",
+        "choices": {
+            "A": "Fibroblast",
+            "B": "Keratinocyte",
+            "C": "Langerhans cell",
+            "D": "Merkel cell",
+            "E": "Melanocyte"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Why C is correct: The description perfectly matches the characteristics of a **Langerhans cell**. These cells are described in the lecture as acting like **macrophages (making them phagocytic)** , arising from bone marrow, and having a **grooved or cleaved nucleus with clear cytoplasm**. They are the antigen-presenting cells of the skin, initiating immune responses.",
+            "incorrect": {
+                "A": "Fibroblast: A connective tissue cell responsible for producing fibers; it does not have a cleaved nucleus and is not primarily phagocytic.",
+                "B": "Keratinocyte: The main cell of the epidermis, responsible for producing keratin. It does not have a cleaved nucleus.",
+                "D": "Merkel cell: A sensory cell with a lobed nucleus and neurosecretory granules, not a cleaved nucleus, and it is not phagocytic.",
+                "E": "Melanocyte: Produces melanin and has a round or elongated nucleus, not a cleaved one."
+            }
+        }
+    },
+    {
+        "question": "A 38-year-old woman complains of stiffness and tense skin over her face, leading to radial furrows around her mouth. A skin biopsy reveals excessive deposition of thick, coarse collagen fibers. This pathology is primarily located in which specific layer of the skin, which is normally responsible for its tensile strength?",
+        "choices": {
+            "A": "Papillary layer of the dermis",
+            "B": "Stratum spinosum of the epidermis",
+            "C": "Hypodermis",
+            "D": "Reticular layer of the dermis",
+            "E": "Basement membrane zone"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "Why D is correct: The **reticular layer** is the deeper and thicker layer of the dermis (making up 80% of it). It is composed of **dense irregular connective tissue**, which is rich in **thick, coarse collagen fibers (type I)**. The dermis as a whole is responsible for providing the skin with its tensile strength and elasticity, with the reticular layer being the primary contributor due to its composition. Pathologies involving excessive collagen deposition, like scleroderma, primarily affect this layer.",
+            "incorrect": {
+                "A": "Papillary layer of the dermis: This is the superficial layer of the dermis, composed of loose connective tissue with much finer collagen fibers (type III).",
+                "B": "Stratum spinosum of the epidermis: This is a cellular layer of the epidermis composed of keratinocytes; it does not contain collagen fibers.",
+                "C": "Hypodermis: This layer is primarily composed of adipose (fat) tissue, not dense collagen.",
+                "E": "Basement membrane zone: This is a very thin, acellular layer that separates the epidermis from the dermis."
+            }
+        }
+    },
+    {
+        "question": "In the process of keratinization, a cell starting in the stratum basale undergoes differentiation as it moves towards the surface. Which of the following represents the correct sequence of key events as a single keratinocyte matures?",
+        "choices": {
+            "A": "Mitosis -> Synthesis of tonofibrils and lamellar bodies -> Formation of keratohyalin granules -> Loss of nucleus and organelles -> Desquamation",
+            "B": "Synthesis of keratohyalin granules -> Mitosis -> Loss of nucleus and organelles -> Formation of tonofibrils and lamellar bodies -> Desquamation",
+            "C": "Loss of nucleus and organelles -> Mitosis -> Synthesis of melanin -> Formation of tonofibrils -> Desquamation",
+            "D": "Mitosis -> Formation of keratohyalin granules -> Synthesis tonofibrils and of lamellar bodies -> Apoptosis -> Desquamation",
+            "E": "Synthesis of lamellar bodies -> Formation of keratohyalin granules -> Mitosis -> Loss of nucleus and organelles -> Desquamation"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "Why A is correct: This sequence accurately follows the life cycle of a keratinocyte as it moves from the deepest layer to the surface. 1.Mitosis: Cell division occurs in the Stratum Basale. 2.Synthesis of tonofibrils and lamellar bodies: As cells are pushed into the Stratum Spinosum, they synthesize bundles of keratin filaments (tonofibrils) and lipid-filled lamellar bodies. 3.Formation of keratohyalin granules: In the Stratum Granulosum, the cells produce keratohyalin granules, which are crucial for keratin aggregation. 4.Loss of nucleus and organelles: As cells enter the Stratum Lucidum and Stratum Corneum, they undergo a form of apoptosis, losing their nucleus and organelles to become dead, flattened corneocytes filled with keratin. 5.Desquamation: The dead cells are eventually shed from the surface of the Stratum Corneum.",
+            "incorrect": {
+                "B": "The other options list these key developmental events in the wrong order. Mitosis must occur first in the basal layer, and the loss of the nucleus is one of the final steps before desquamation. The synthesis of specific granules (lamellar then keratohyalin) also follows a set sequence as the cell ascends.",
+                "C": "The other options list these key developmental events in the wrong order. Mitosis must occur first in the basal layer, and the loss of the nucleus is one of the final steps before desquamation. The synthesis of specific granules (lamellar then keratohyalin) also follows a set sequence as the cell ascends.",
+                "D": "The other options list these key developmental events in the wrong order. Mitosis must occur first in the basal layer, and the loss of the nucleus is one of the final steps before desquamation. The synthesis of specific granules (lamellar then keratohyalin) also follows a set sequence as the cell ascends.",
+                "E": "The other options list these key developmental events in the wrong order. Mitosis must occur first in the basal layer, and the loss of the nucleus is one of the final steps before desquamation. The synthesis of specific granules (lamellar then keratohyalin) also follows a set sequence as the cell ascends."
+            }
+        }
+    }
+]

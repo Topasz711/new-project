@@ -1,1 +1,162 @@
-[]
+[
+    {
+        "question": "Cell in which of the following region of hair follicles is responsible for hair growth?",
+        "choices": {
+            "A": "Hair matrix",
+            "B": "Hair follicle",
+            "C": "Follicular bulge",
+            "D": "External root sheath",
+            "E": "Internal root sheath"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The **hair matrix** is explicitly identified as the site of hair growth. The lecture slides label the hair matrix as the \"growth zone\" in diagrams on pages 9 and 18. Page 16 further clarifies that the matrix is the \"Zone of dividing cells\" where \"mitotic activity occurs,\" leading to the formation of the hair shaft.",
+            "incorrect": {
+                "B": "The \"hair follicle\" is the term for the entire organ that produces hair. It is too general; the question asks for the specific region responsible for growth.",
+                "C": "The follicular bulge contains epidermal stem cells that are crucial for the hair cycle and for skin wound repair. However, these cells must migrate down to the hair bulb to contribute to the hair matrix; the bulge itself is not the site of active hair shaft proliferation.",
+                "D": "The external and internal root sheaths are concentric layers that surround and protect the growing hair shaft. They provide structure but are not the primary site of cell division that results in hair elongation.",
+                "E": "The external and internal root sheaths are concentric layers that surround and protect the growing hair shaft. They provide structure but are not the primary site of cell division that results in hair elongation."
+            }
+        }
+    },
+    {
+        "question": "Which component of hair should a policeman test for DNA to find a criminal?",
+        "choices": {
+            "A": "Hair shaft",
+            "B": "Hair medulla",
+            "C": "Hair bulb",
+            "D": "Hair cuticle",
+            "E": "External root sheath"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Nuclear DNA, used for identification, is found in living, nucleated cells. The **hair bulb** contains the hair matrix, which consists of mitotically active epithelial cells that are alive and contain nuclei. Therefore, a hair that has been pulled out and includes the hair bulb (root) is the only reliable source of nuclear DNA.",
+            "incorrect": {
+                "A": "The hair shaft, and its components like the medulla and cuticle, are composed of dead, heavily keratinized cells. During the process of keratinization, these cells lose their nuclei and organelles, meaning they do not contain nuclear DNA.",
+                "B": "The hair shaft, and its components like the medulla and cuticle, are composed of dead, heavily keratinized cells. During the process of keratinization, these cells lose their nuclei and organelles, meaning they do not contain nuclear DNA.",
+                "D": "The hair shaft, and its components like the medulla and cuticle, are composed of dead, heavily keratinized cells. During the process of keratinization, these cells lose their nuclei and organelles, meaning they do not contain nuclear DNA.",
+                "E": "While the external root sheath is composed of living cells, the hair bulb is the most concentrated source of the actively dividing cells that form the hair. For forensic purposes, the bulb attached to a shed or pulled hair is the target for DNA extraction."
+            }
+        }
+    },
+    {
+        "question": "Which of the following is correct concerning the medulla?",
+        "choices": {
+            "A": "The outermost layer of the hair, a single layer of cells",
+            "B": "The largest layer, several layers of flattened cells",
+            "C": "It is located at the center, has 2-3 layers, and contains soft keratin.",
+            "D": "A layer of single keratinised cells that overlap each other",
+            "E": "The bulk of the hair, composed of highly keratinized cells"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This statement accurately combines three facts from the lecture. The **medulla** is described as the \"central core\" of the hair. It consists of \"2 - 3 rows of lightly stained, polyhedral cells\". Finally, its cells \"contain soft keratin\".",
+            "incorrect": {
+                "A": "This statement describes the cuticle, which is the \"outermost layer of the hair\" composed of a single layer of overlapping, highly keratinized cells.",
+                "B": "This statement describes the cortex. The cortex is identified as the \"bulk of the hair\" and the \"largest layer\", composed of multiple layers of highly keratinized cells.",
+                "D": "This statement describes the cuticle, which is the \"outermost layer of the hair\" composed of a single layer of overlapping, highly keratinized cells.",
+                "E": "This statement describes the cortex. The cortex is identified as the \"bulk of the hair\" and the \"largest layer\", composed of multiple layers of highly keratinized cells."
+            }
+        }
+    },
+    {
+        "question": "Which of the following represents a fundamental structural and functional difference between an eccrine sweat gland and a sebaceous gland?",
+        "choices": {
+            "A": "Only eccrine glands are associated with myoepithelial cells for contraction.",
+            "B": "Only sebaceous glands are derived from the stratum basale of the epidermis.",
+            "C": "Eccrine glands secrete via exocytosis, while sebaceous glands secrete via entire cell disintegration.",
+            "D": "Eccrine glands are controlled by adrenergic sympathetic fibers, while sebaceous glands are controlled by cholinergic fibers.",
+            "E": "The duct of the eccrine gland is simple cuboidal, while the duct of the sebaceous gland is stratified squamous."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This addresses the fundamental mode of secretion for each gland. **Eccrine glands** use **merocrine secretion** (exocytosis). In contrast, **sebaceous glands** use **holocrine secretion**, where the entire cell disintegrates to become part of the oily sebum product.",
+            "incorrect": {
+                "A": "Both eccrine and apocrine sweat glands have myoepithelial cells that aid in secretion. Sebaceous glands do not. Therefore, the statement is not a unique feature of eccrine glands when compared to all skin appendages.",
+                "B": "All epidermal appendages, including both eccrine and sebaceous glands, are derived from the downgrowth of the epidermis, originating from the stratum basale.",
+                "D": "The innervation is described incorrectly. Eccrine glands are controlled by **cholinergic sympathetic fibers**, while sebaceous glands are primarily under hormonal control (androgens), not direct neural control.",
+                "E": "The description of the eccrine duct is wrong. The duct of an eccrine gland is lined by **stratified cuboidal epithelium**, not simple cuboidal epithelium."
+            }
+        }
+    },
+    {
+        "question": "Based on the mechanism of hair growth and pigmentation described, which of the following scenarios would most logically lead to the condition of a fully formed hair shaft that is structurally intact but completely lacks pigment (white hair)?",
+        "choices": {
+            "A": "A failure of stem cells to migrate from the follicular bulge to the hair bulb.",
+            "B": "A complete absence of melanocytes within the hair matrix zone.",
+            "C": "A defect in the transport of melanosomes from melanocytes to cortex keratinocytes.",
+            "D": "An accelerated rate of mitosis in the hair matrix cells.",
+            "E": "A mutation causing the production of soft keratin instead of hard keratin in the cortex."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Hair color is produced by **melanocytes** located in the hair matrix, which transfer **melanin pigment** to the keratinocytes that form the hair shaft. If the hair is structurally intact, the keratin-producing cells are functioning. A complete lack of pigment would therefore be most directly caused by the **absence of the pigment-producing cells themselves**.",
+            "incorrect": {
+                "A": "A failure of stem cell migration from the bulge would disrupt the formation of the hair matrix, leading to a failure of hair growth altogether, not a normally formed but unpigmented hair.",
+                "C": "A defect in melanosome transport is the mechanism for Griscelli syndrome, which causes \"silvery hair,\" not completely white hair, because melanin is produced but not properly distributed.",
+                "D": "An accelerated rate of mitosis would affect the growth rate of the hair, not its color.",
+                "E": "A mutation affecting the type of keratin produced would alter the hair's physical texture and strength (e.g., straight vs. curly), not its pigmentation."
+            }
+        }
+    },
+    {
+        "question": "A patient suffers a severe, full-thickness burn that completely destroys the epidermis and dermis down to the subcutaneous fat, obliterating all adnexal structures like hair follicles and glands. During the healing process, epithelial cells are observed to migrate from the wound edges, but the central, denuded area fails to form new epithelial islands. What basic histological principle from the lecture explains this clinical observation?",
+        "choices": {
+            "A": "The loss of sebaceous glands prevents proper lubrication for cell migration.",
+            "B": "The destruction of the dermal papilla removes the blood supply needed for epithelial growth.",
+            "C": "The elimination of the hair follicle, specifically the follicular bulge, removes the primary source of epidermal stem cells for wound repair.",
+            "D": "The absence of eccrine glands leads to a pH imbalance on the wound surface, inhibiting cell growth.",
+            "E": "The destruction of the glassy membrane prevents the epidermis from adhering to the new wound bed."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The lecture clearly states that skin appendages, particularly hair follicles, serve as a **reservoir of new epithelial stem cells for skin wound repair**. Page 12 specifies that during injury, epidermal stem cells migrate from the **follicular bulge** to the skin surface to participate in resurfacing the wound. In a full-thickness burn that destroys all hair follicles, this internal source of stem cells is lost, preventing the formation of \"epithelial islands\" in the center.",
+            "incorrect": {
+                "A": "The loss of sebaceous glands affects lubrication but does not explain the failure of central re-epithelialization.",
+                "B": "While blood supply is critical, the primary principle for re-epithelialization from within a large wound area is the presence of the stem cell reservoir in the hair follicles.",
+                "D": "The absence of eccrine glands affects temperature regulation and sweating but is not the main reason for the failure to form epithelial islands.",
+                "E": "The glassy membrane is part of the basement membrane, and its destruction affects dermal-epidermal junction integrity, but the lack of epithelial islands is primarily due to the loss of the stem cell reservoir in the follicles."
+            }
+        }
+    },
+    {
+        "question": "A patient with chronic immunosuppression develops a severe fungal infection of the nail (onychomycosis). The infection appears to have initiated at the fingertip and progressed proximally under the nail. This clinical presentation suggests the failure of which specific mechanical barrier?",
+        "choices": {
+            "A": "The eponychium's ability to form the superficial layer of the nail plate.",
+            "B": "The nail matrix's function in producing new, healthy corneocytes.",
+            "C": "The lunula's role as a thickened protective layer over the matrix.",
+            "D": "The hyponychium's function as an impermeable seal between the nail plate and the distal nail bed.",
+            "E": "The nail bed's adhesion to the nail plate via the stratum spinosum."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The **hyponychium** is the structure at the fingertip that seals the space between the nail plate and the nail bed. Its functionคือการเป็น **impermeable seal** เพื่อป้องกันการติดเชื้อ The slide immediately follows this by stating that if this barrier is \"Disrupted, fungal invasion produces onychomycosis\". The infection starting at the fingertip points directly to a failure of this distal seal.",
+            "incorrect": {
+                "A": "The eponychium (cuticle) is the proximal barrier. A failure here would likely lead to an infection at the base of the nail (paronychia).",
+                "B": "A failure of the nail matrix would cause abnormal nail growth, but it wouldn't necessarily allow fungal entry from the distal tip.",
+                "C": "The lunula is the visible portion of the underlying nail matrix and is not a distinct barrier structure.",
+                "E": "While adhesion is important, the specific structure that acts as the impermeable seal at the fingertip is the hyponychium."
+            }
+        }
+    },
+    {
+        "question": "A 19-year-old male complains of persistent, unpleasant body odor localized to his axillae, which worsens significantly during academic exams. A skin biopsy from the area reveals coiled tubular glands characterized by a remarkably large lumen and secretory cells with eosinophilic cytoplasm. The secretion itself is milky and becomes odorous only after being on the skin surface. Which gland is primarily responsible for this patient's condition?",
+        "choices": {
+            "A": "Eccrine gland",
+            "B": "Sebaceous gland",
+            "C": "Apocrine gland",
+            "D": "Gland of Moll",
+            "E": "Ceruminous gland"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The patient's presentation perfectly matches the description of **apocrine sweat glands**. **Location**: They are found in the axilla. **Stimulus**: They respond to emotional stress (\"academic exams\"). **Secretion**: They produce a milky, viscous secretion that is initially odorless but acquires an odor after bacterial modification on the skin. **Histology**: They are coiled tubular glands with a larger lumen and eosinophilic cytoplasm.",
+            "incorrect": {
+                "A": "Eccrine glands are involved in thermoregulation (response to heat), produce watery/salty sweat, have a smaller lumen, and their secretion is odorless.",
+                "B": "Sebaceous glands produce oily sebum, use holocrine secretion, and are associated with acne, not stress-induced body odor.",
+                "D": "Glands of Moll (eyelids) and Ceruminous glands (ear canal) are modified apocrine glands, but their location does not match the patient's symptoms in the axillae.",
+                "E": "Glands of Moll (eyelids) and Ceruminous glands (ear canal) are modified apocrine glands, but their location does not match the patient's symptoms in the axillae."
+            }
+        }
+    }
+]
