@@ -1,1 +1,162 @@
-[]
+[
+    {
+        "question": "A baby has a poor development of ectodermal and mesodermal interaction. What is the disease?",
+        "choices": {
+            "A": "Cystic hygromas",
+            "B": "Nevus flemmeus",
+            "C": "Cystic hemangioma",
+            "D": "Lamellar ichthyosis",
+            "E": "Ectrodactyly-Ectodermal dysplasia-Clefting (EEC) syndrome"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The presentation explicitly categorizes **Ectrodactyly-Ectodermal dysplasia-Clefting (EEC) syndrome** as a \"Disorder of ectodermal/mesodermal interaction\". This syndrome involves malformations of the extremities (ectrodactyly), abnormalities in ectodermal structures (like skin, hair, and teeth), and cleft lip/palate, reflecting a fundamental issue in how these two primary germ layers coordinate during development.",
+            "incorrect": {
+                "A": "Cystic hygromas, Nevus flammeus (port-wine stain), and Cystic hemangioma are all classified as angiomas, which are benign tumors or malformations of vascular (blood or lymph) tissues. While they involve mesoderm-derived vessels, they are not primarily defined as disorders of ectodermal-mesodermal interaction.",
+                "B": "Cystic hygromas, Nevus flammeus (port-wine stain), and Cystic hemangioma are all classified as angiomas, which are benign tumors or malformations of vascular (blood or lymph) tissues. While they involve mesoderm-derived vessels, they are not primarily defined as disorders of ectodermal-mesodermal interaction.",
+                "C": "Cystic hygromas, Nevus flammeus (port-wine stain), and Cystic hemangioma are all classified as angiomas, which are benign tumors or malformations of vascular (blood or lymph) tissues. While they involve mesoderm-derived vessels, they are not primarily defined as disorders of ectodermal-mesodermal interaction.",
+                "D": "Lamellar ichthyosis is a disorder of excessive keratinization, resulting in dry, scaly skin. This is primarily a defect in the development of the ectoderm-derived epidermis, not an interaction disorder with the mesoderm."
+            }
+        }
+    },
+    {
+        "question": "Which of the following events occurs during third month of skin development?",
+        "choices": {
+            "A": "Mesenchyme differentiates to the vessels in dermis",
+            "B": "Mesenchyme differentiates to the vessels in epidermis",
+            "C": "Surface ectoderm differentiates to the single layer of epidermis",
+            "D": "Neural crest cells differentiate to melanoblast in dermis",
+            "E": "Surface ectoderm differentiates to basal layer and periderm layer"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The timeline for the development of the dermis on page 9 clearly states that during Month 3, **\"Neural crest cells -> Melanoblast in dermis\"**. These melanoblasts are the precursor cells for melanocytes, which produce skin pigment.",
+            "incorrect": {
+                "A": "The development of capillary-like vessels from mesenchyme begins around the 5th week, not the third month.",
+                "B": "The epidermis is an avascular layer, meaning it does not contain blood vessels. Vessels are found in the underlying dermis.",
+                "C": "The epidermis exists as a single layer of cuboidal cells during the first month of development.",
+                "E": "The surface ectoderm differentiates into two layers (an upper periderm and a lower basal layer) during the second month."
+            }
+        }
+    },
+    {
+        "question": "A neonate is born prematurely with very hard, thick, plate-like scales of skin covering their body, causing severe ectropion (eversion of the eyelids) and eclabium (eversion of the lips). The condition is autosomal recessive and results from excessive and abnormal keratinization. Based on the provided clinical correlations, what is the most likely diagnosis?",
+        "choices": {
+            "A": "Collodion baby",
+            "B": "Lamellar ichthyosis",
+            "C": "Congenital ectodermal dysplasia",
+            "D": "Harlequin ichthyosis",
+            "E": "Nevus flammeus"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The clinical description perfectly matches **Harlequin ichthyosis** (also referred to as Harlequin baby). The presentation notes this is an autosomal recessive condition where infants are born prematurely with \"very hard, thick skin covering most of their bodies\". This excessive keratinization leads to the characteristic armor-like plates and associated facial deformities.",
+            "incorrect": {
+                "A": "A collodion baby is born encased in a \"tight shiny membrane that resembles plastic wrap,\" which is a different presentation from the thick, plate-like scales of Harlequin ichthyosis.",
+                "B": "Lamellar ichthyosis is a less severe form characterized by \"dry skin and scaly appearance\" but not the profound, plate-like hardening seen in the Harlequin type.",
+                "C": "Congenital ectodermal dysplasia involves abnormal development of ectodermal structures, but its key features are different, such as having few sweat glands and sharp teeth.",
+                "E": "Nevus flammeus is a vascular malformation (a port-wine stain) and is unrelated to keratinization disorders."
+            }
+        }
+    },
+    {
+        "question": "According to the principles of dermatome mapping and embryonic development of the skin, which of the following statements correctly pairs a body region with the embryological origin of its dermis?",
+        "choices": {
+            "A": "The dermis of the face and neck is derived from the paraxial mesoderm.",
+            "B": "The dermis of the limbs and ventral body wall is derived from the somatic layer of the lateral mesoderm.",
+            "C": "The dermis of the back is derived from neural crest cells.",
+            "D": "The dermis of the entire body is uniformly derived from the dermatome of the somites.",
+            "E": "The dermis of the scalp is derived from the intermediate mesoderm."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Page 8 of the presentation explicitly states that the dermis of the **limbs and body wall** originates from the **somatic layer of the lateral mesoderm**.",
+            "incorrect": {
+                "A": "The dermis of the face and neck is derived from neural crest cells, not the paraxial mesoderm.",
+                "C": "The dermis of the back is derived from the paraxial mesoderm (dermatome), not neural crest cells.",
+                "D": "The dermis has multiple origins depending on the body region; it is not uniformly derived from the dermatome.",
+                "E": "The dermis of the scalp (part of the head) originates from neural crest cells. The intermediate mesoderm develops into the urogenital system."
+            }
+        }
+    },
+    {
+        "question": "The vernix caseosa provides a critical protective barrier for the fetus. It is a complex substance composed of several elements that accumulate on the fetal skin. Which of the following is NOT a primary component of the vernix caseosa?",
+        "choices": {
+            "A": "Sebum secreted from developing sebaceous glands",
+            "B": "Desquamated cells from the periderm layer",
+            "C": "Fine, downy lanugo hairs",
+            "D": "Secretions from apocrine sweat glands",
+            "E": "Amniotic cells"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The presentation lists the components of vernix caseosa as periderm cells, sebum, lanugo hair, and amniotic cells. **Apocrine sweat glands** develop from the upper hair bulge, typically become functional around puberty, and are **not active during fetal life**. Therefore, their secretions do not contribute to the vernix caseosa.",
+            "incorrect": {
+                "A": "Sebum, periderm cells, lanugo hair, and amniotic cells are all explicitly mentioned as components of the vernix caseosa on page 6.",
+                "B": "Sebum, periderm cells, lanugo hair, and amniotic cells are all explicitly mentioned as components of the vernix caseosa on page 6.",
+                "C": "Sebum, periderm cells, lanugo hair, and amniotic cells are all explicitly mentioned as components of the vernix caseosa on page 6.",
+                "E": "Sebum, periderm cells, lanugo hair, and amniotic cells are all explicitly mentioned as components of the vernix caseosa on page 6."
+            }
+        }
+    },
+    {
+        "question": "A newborn is diagnosed with a severe form of Albinism. This condition is characterized by a lack of pigment in the skin, hair, and eyes. This single clinical syndrome, affecting multiple ectodermal appendages, is caused by a defect in a cell population that originates from which specific embryonic structure?",
+        "choices": {
+            "A": "Surface Ectoderm",
+            "B": "Paraxial Mesoderm",
+            "C": "Somatic Lateral Mesoderm",
+            "D": "Neural Crest",
+            "E": "Endoderm"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "Albinism is a genetic disorder resulting from the inability to produce melanin pigment. The cells responsible for producing melanin are **melanocytes**. Page 7 clearly illustrates that melanocytes are derived from **Neural Crest** cells, which migrate from the neuroectoderm into the developing epidermis and hair follicles. A systemic lack of pigment points to a defect in this specific cell lineage.",
+            "incorrect": {
+                "A": "The surface ectoderm forms the epidermis and hair follicles, but the pigment-producing cells migrate into these structures.",
+                "B": "The paraxial mesoderm gives rise to the dermis of the back and various other structures.",
+                "C": "The somatic lateral mesoderm gives rise to the dermis of the limbs and ventral body wall.",
+                "E": "The endoderm forms the lining of the gut and associated organs and is not involved in skin development."
+            }
+        }
+    },
+    {
+        "question": "The arrector pili muscle, responsible for causing \"goosebumps,\" is a smooth muscle that attaches to the base of a hair follicle. This muscle is derived from which of the following embryological tissues?",
+        "choices": {
+            "A": "Surface ectoderm",
+            "B": "Neural crest cells",
+            "C": "Surrounding mesenchyme (mesoderm)",
+            "D": "Endoderm",
+            "E": "Stratum basale of the epidermis"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The presentation on hair development (page 15) lists the arrector pili muscle under the heading \"Mesoderm\". The large diagram on that page also shows the muscle developing from the **surrounding dermal mesenchyme** (which is mesoderm-derived) and attaching to the ectoderm-derived hair follicle.",
+            "incorrect": {
+                "A": "The surface ectoderm, specifically the stratum basale, gives rise to the hair follicle itself (an epithelial structure), but not the associated smooth muscle.",
+                "B": "Neural crest cells contribute to the dermis of the face and neck and form melanocytes, but not the arrector pili muscles in the body.",
+                "D": "The endoderm forms the lining of the gut and associated organs and is not involved in skin development.",
+                "E": "The surface ectoderm, specifically the stratum basale, gives rise to the hair follicle itself (an epithelial structure), but not the associated smooth muscle."
+            }
+        }
+    },
+    {
+        "question": "A neonate is born at 30 weeks of gestation and is admitted to the NICU. Upon physical examination, the nurse notes that the infant's fingernails are well-formed but are still proximal to the fingertips. The parents express concern that the nails are underdeveloped. Based on the normal timeline of fetal development, what is the most accurate assessment of this finding?",
+        "choices": {
+            "A": "Congenital anonychia, requiring genetic consultation.",
+            "B": "A normal and expected finding for an infant at 30 weeks' gestation.",
+            "C": "Evidence of ectodermal dysplasia affecting the nail matrix.",
+            "D": "Nail-patella syndrome, warranting an orthopedic evaluation.",
+            "E": "Deformed nail development secondary to amniotic fluid exposure."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "According to the developmental timeline for nails on page 21, **\"Fingernails reach fingertips at 32nd wks.\"** Since this infant was born at 30 weeks' gestation, it is completely **normal and expected** that the fingernails have not yet grown to the end of the fingertips. This is a normal finding for this gestational age, not a sign of pathology.",
+            "incorrect": {
+                "A": "Anonychia is the complete absence of nails, which is not what is described.",
+                "C": "This suggests a pathological condition. There is no reason to suspect a disorder like ectodermal dysplasia when the physical finding is consistent with the established normal developmental timeline for a 30-week premature infant.",
+                "D": "This suggests a pathological condition. There is no reason to suspect a disorder like Nail-patella syndrome when the physical finding is consistent with the established normal developmental timeline for a 30-week premature infant.",
+                "E": "This suggests a pathological condition. There is no reason to suspect a disorder when the physical finding is consistent with the established normal developmental timeline for a 30-week premature infant."
+            }
+        }
+    }
+]
