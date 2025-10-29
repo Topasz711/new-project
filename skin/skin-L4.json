@@ -1,1 +1,162 @@
-[]
+[
+    {
+        "question": "A healthy, full-term newborn develops blotchy erythematous macules with central pustules on the trunk and face 36 hours after birth. The infant is afebrile and feeding well. A Wright stain of a pustule's content is examined. What is the characteristic finding that would confirm the most likely diagnosis?",
+        "choices": {
+            "A": "Numerous neutrophils",
+            "B": "Multinucleated giant cells",
+            "C": "Hyphae and spores",
+            "D": "Numerous eosinophils",
+            "E": "Gram-positive cocci in clusters"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The clinical presentation of a healthy newborn developing blotchy erythema with central pustules 24-48 hours after birth is classic for Erythema Toxicum Neonatorum (ETN). The provided lecture explicitly states that a key diagnostic finding is that a \"Wright stain from pustule reveals numerous eosinophils\". This finding is highly characteristic and helps differentiate this benign, self-limited condition from infectious pustular rashes.",
+            "incorrect": {
+                "A": "The presence of numerous neutrophils would suggest a bacterial infection, such as staphylococcal pustulosis. While this is an important differential diagnosis in a newborn with pustules, it is not the characteristic finding for the benign rash described as ETN.",
+                "B": "This finding is seen on a Tzanck smear and is characteristic of a herpes simplex virus (HSV) infection. Neonatal HSV is a serious condition that presents differently and would not be the most likely diagnosis for this common, benign rash.",
+                "C": "This finding on a potassium hydroxide (KOH) preparation would indicate a fungal infection, such as cutaneous candidiasis. Candidal rashes typically present as erythematous patches with satellite papules and pustules, often in the diaper area.",
+                "E": "This finding on a Gram stain would be highly suggestive of a Staphylococcus infection. As with option A, this points towards a bacterial cause, not the inflammatory but non-infectious process of ETN."
+            }
+        }
+    },
+    {
+        "question": "A mother brings in her 5-year-old child due to a persistent, well-demarcated red patch on his left cheek. She states it has been present since birth and has grown in proportion to the child's growth. It has not faded. Which of the following is the most likely diagnosis?",
+        "choices": {
+            "A": "Nevus simplex",
+            "B": "Port-wine stain",
+            "C": "Infantile hemangioma",
+            "D": "Mongolian spot",
+            "E": "Sebaceous gland hyperplasia"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The key features in the clinical history—being present at birth, growing proportionately with the child, and showing no signs of fading—perfectly match the description of a Port-wine stain (PWS), which is a type of capillary malformation. The lecture notes specify that a PWS is \"present at birth and grow proportion to child growth\" and has \"No spontaneous resolution\".",
+            "incorrect": {
+                "A": "Also known as a salmon patch or \"stork bite,\" this is a common vascular lesion in newborns. However, unlike a PWS, it is expected to \"fade within 1-2 years\", which is inconsistent with a persistent lesion in a 5-year-old.",
+                "C": "This is the most common benign tumor in children, but its natural history is different. It is often \"inapparent at birth\" and undergoes a period of \"Rapid growing during the first few months\" followed by a slow involution (shrinking) phase. This does not match the steady, proportional growth described.",
+                "D": "This is a form of congenital dermal melanocytosis and presents as an \"ill-defined, blue-to-gray patch\", not a red patch.",
+                "E": "This is a benign condition of newborns caused by maternal androgens, presenting as yellowish-white papules on the nose. It would have faded spontaneously by 4 to 6 months of age  and does not fit the description or age of the patient."
+            }
+        }
+    },
+    {
+        "question": "A 2-month-old infant is diagnosed with a large, segmental hemangioma involving the lower half of the face and neck (\"beard area\"). This specific location places the infant at a significant risk for what associated complication?",
+        "choices": {
+            "A": "Obstructive airway (subglottic) hemangioma",
+            "B": "Posterior fossa brain malformations",
+            "C": "Underlying spinal dysraphism",
+            "D": "Diffuse liver hemangiomas",
+            "E": "Functional vision impairment"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The \"High-Risk Infantile Hemangiomas (IHs)\" diagram on page 54 of the lecture is a critical reference. It explicitly identifies that a **\"Beard-area IH\"** carries a specific **\"risk of obstructive airway (subglottic) hemangioma\"**. This is a clinically significant association because an airway hemangioma can be life-threatening and requires prompt evaluation and management.",
+            "incorrect": {
+                "B": "These abnormalities are a core component of PHACES syndrome, which is associated with large, segmental facial hemangiomas. While possible, the most direct and specific risk highlighted for the \"beard\" distribution itself is airway compromise.",
+                "C": "This risk is associated with IHs in a different location: \"Segmental lumbosacral IH and/or perineal IH,\" which is a feature of LUMBAR syndrome.",
+                "D": "The risk for liver hemangiomas is primarily suspected when an infant presents with five or more cutaneous IHs (\"≥5 cutaneous IHs\"). It is not specifically linked to the beard distribution.",
+                "E": "This is the primary risk associated with a \"Periocular IH > 1cm\" (a hemangioma located around the eye)."
+            }
+        }
+    },
+    {
+        "question": "A 25-year-old male presents with a sudden eruption of uniform, itchy bumps on his upper back and shoulders that has worsened after recent sweaty workouts. On examination, you see monomorphic follicular papules and pustules. A skin scraping is performed for microscopic evaluation. Which of the following combinations of clinical symptoms and microscopic findings is most consistent with Malassezia folliculitis?",
+        "choices": {
+            "A": "Asymptomatic rash; microscopy shows yeast and short hyphal forms.",
+            "B": "Pruritic rash; microscopy shows yeast forms only.",
+            "C": "Pruritic rash; microscopy shows yeast and short hyphal forms.",
+            "D": "Asymptomatic rash; microscopy shows yeast forms only.",
+            "E": "Painful rash; microscopy shows numerous neutrophils."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "This option correctly combines the two key diagnostic features of Malassezia (Pityrosporum) folliculitis as described in the lecture. **Clinical Symptom**: The lecture explicitly states that the condition presents as \"Pruritic monomorphic follicular papules and pustules\". The intense itch is a hallmark symptom. **Microscopic Finding**: The lecture specifies that for Malassezia folliculitis, **\"Only yeast forms are observed\"**. This distinguishes it from Pityriasis versicolor.",
+            "incorrect": {
+                "A": "Both parts of this statement are incorrect for Malassezia folliculitis. This description is characteristic of Pityriasis versicolor, which is \"Generally asymptomatic\" and shows \"Yeast and short hyphal forms\" (spaghetti-and-meatballs) on microscopy.",
+                "C": "While the clinical symptom \"Pruritic rash\" is correct for Malassezia folliculitis, the microscopic finding of \"yeast and short hyphal forms\" is the characteristic feature of Pityriasis versicolor.",
+                "D": "While the microscopic finding of \"yeast forms only\" is correct for Malassezia folliculitis, the clinical description \"Asymptomatic rash\" is incorrect. The characteristic symptom is pruritus (itching) , whereas Pityriasis versicolor is typically asymptomatic.",
+                "E": "This description is suggestive of a bacterial folliculitis (e.g., caused by Staphylococcus aureus). Pain is more typical than itch in bacterial infections, and the microscopic finding would be neutrophils, the primary cells involved in fighting bacterial infections, not yeast forms."
+            }
+        }
+    },
+    {
+        "question": "All of the following are considered normal physiologic skin changes that can occur during pregnancy EXCEPT:",
+        "choices": {
+            "A": "The appearance of a dark vertical line on the abdomen (linea nigra)",
+            "B": "The development of stretch marks on the abdomen and hips (striae distensae)",
+            "C": "An intensely pruritic blistering eruption that increases the risk of premature delivery",
+            "D": "Blotchy hyperpigmentation on the face (melasma)",
+            "E": "An increase in the number of small, soft growths on the neck and axillae (acrochordons)"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This describes **Pemphigoid gestationis**, which is a specific, **pathological dermatosis of pregnancy**, not a normal physiologic change. It is explicitly listed as a condition \"with foetal risk\" , including an \"increased risk of prematurity\".",
+            "incorrect": {
+                "A": "The appearance of a dark vertical line on the abdomen (linea nigra) is a normal physiologic pigmentary change of pregnancy.",
+                "B": "The development of stretch marks on the abdomen and hips (striae distensae), also known as striae gravidarum, are considered a normal physiologic structural change during pregnancy.",
+                "D": "Blotchy hyperpigmentation on the face (melasma), often called the \"mask of pregnancy,\" is a common physiologic pigmentary change that can occur in up to 70% of pregnancies.",
+                "E": "An increase in the number of small, soft growths on the neck and axillae (acrochordons) or skin tags, is a common physiologic structural change seen in pregnancy."
+            }
+        }
+    },
+    {
+        "question": "A 32-year-old woman in her third trimester presents with severe, generalized itching (pruritus) that is worse at night and is most intense on her palms and soles. Examination reveals no primary rash, only linear excoriations from scratching. Her lab results show elevated total serum bile acids. This condition is associated with an increased risk for which of the following outcomes?",
+        "choices": {
+            "A": "No maternal or fetal risks",
+            "B": "Placental insufficiency leading to stillbirth",
+            "C": "Development of vesicles and target lesions postpartum",
+            "D": "Maternal development of Parkinson's disease",
+            "E": "Periumbilical sparing of the rash"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The clinical scenario describes **Intrahepatic Cholestasis of Pregnancy (ICP)**, characterized by \"Pruritus without primary skin lesions\" and \"Elevated total serum bile acid levels\". This condition is explicitly listed as a dermatosis \"with foetal risk\". The lecture specifies that ICP carries an **\"Increased risk of prematurity, intrapartum foetal distress, [and] stillbirths\"**. While not explicitly using the term \"placental insufficiency\" for ICP, this is the underlying mechanism for the adverse fetal outcomes listed. **Pustular Psoriasis of Pregnancy** is also directly linked to an \"Increased risk of placental insufficiency\". Both conditions fall under the high-risk category leading to similar severe outcomes.",
+            "incorrect": {
+                "A": "This is incorrect. ICP carries significant fetal risks. Conditions with no fetal risk include Polymorphic eruption of pregnancy and Atopic eruption of pregnancy.",
+                "C": "This description is more aligned with the \"polymorphous features\" seen in Polymorphic Eruption of Pregnancy, which has no fetal risk.",
+                "D": "Parkinson's disease is mentioned as a condition where Seborrhoeic Dermatitis is a common finding, but it is not an outcome of a pregnancy-related dermatosis.",
+                "E": "Periumbilical sparing of the rash is a classic feature of Polymorphic Eruption of Pregnancy, not ICP (which has no primary rash)."
+            }
+        }
+    },
+    {
+        "question": "Senile purpura is common in the elderly and results from minor trauma. What is the underlying pathophysiologic mechanism that leads to the increased fragility of microvasculature?",
+        "choices": {
+            "A": "A reduction in sebaceous and sweat gland activity, leading to thinner skin.",
+            "B": "Autoantibodies targeting the basement membrane, causing separation of the dermal-epidermal junction.",
+            "C": "Sun-induced damage to the connective tissue of the dermis, providing inadequate vascular support.",
+            "D": "An age-related decline in Langerhans cells, impairing the local immune response.",
+            "E": "A reduction in the activity of follicular melanocytes, decreasing UV protection."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This is the correct mechanism. The lecture directly explains that senile purpura is a result of **\"Age-related skin thinning in Sun-induced damage of connective tissue of dermis\"**. This long-term damage weakens the structural support system (collagen and elastin) that surrounds the small blood vessels in the skin. As a result, there is **\"inadequate support and increase in fragility of microvasculature\"**. Consequently, even minor trauma can cause these poorly supported vessels to rupture, leading to the characteristic ecchymoses (bruises).",
+            "incorrect": {
+                "A": "While a reduction in sebaceous and eccrine gland function does occur with age and contributes to dry skin (xerosis cutis), it is not the primary mechanism for the vascular fragility seen in senile purpura.",
+                "B": "This is the specific pathophysiology of Bullous Pemphigoid, an autoimmune blistering disorder also common in the elderly, which is a completely different process from the traumatic bruising of senile purpura.",
+                "D": "A decrease in the number and function of Langerhans cells is a feature of age-related immunosenescence, which leads to a \"Decreased antigen presentation capability\". This change increases the risk and severity of skin infections but does not cause vascular fragility.",
+                "E": "A reduction in melanocyte activity is primarily associated with the graying of hair and a general decrease in the skin's ability to produce protective melanin. While reduced UV protection contributes to the sun damage described in the correct answer (C), it is the consequence of that sun damage on the connective tissue, not the reduction of melanocyte activity itself, that directly causes vascular fragility."
+            }
+        }
+    },
+    {
+        "question": "A 78-year-old male comes in for his annual skin examination. The physician notes three distinct types of lesions: (1) multiple, well-defined brown macules on the dorsum of both hands; (2) several waxy, \"stuck-on\" papules on his trunk; and (3) multiple, small, bright red papules on his chest. Which of the following statements about these lesions is most accurate?",
+        "choices": {
+            "A": "The waxy papules on his trunk are benign proliferations of keratinocytes and are not associated with UV exposure.",
+            "B": "The brown spots on his hands are caused by a benign proliferation of blood vessels.",
+            "C": "The small red papules on his chest are considered pre-malignant and require a biopsy.",
+            "D": "All three types of lesions are a direct result of long-term, cumulative sun exposure.",
+            "E": "These lesions are a form of senile purpura, caused by the rupture of fragile microvasculature after minor trauma."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "This statement is correct. The **\"waxy\"** or **\"stuck-on\" papules on the trunk** are classic descriptions of **Seborrheic Keratoses**. The lecture material confirms that their pathogenesis involves impaired expansion of epidermal keratinocytes and melanocytes. Crucially, the lecture explicitly states that this condition is **\"Not UV associated\"**.",
+            "incorrect": {
+                "B": "The **brown spots on his hands** are Solar Lentigines (or \"liver spots\"). Their development is due to increased melanin production and abnormal proliferation of keratinocytes, **not blood vessels** (which would describe Senile Angiomas).",
+                "C": "The **small red papules** are **Senile Angiomas** (or Cherry Angiomas). These are **benign vascular lesions** that are not pre-malignant and do not typically require a biopsy unless bleeding persistently.",
+                "D": "This is incorrect. While Solar Lentigines are \"UV associated\", the lecture clearly states that **Seborrheic Keratoses are \"Not UV associated\"**. Since not all of the described lesions are caused by sun exposure, this statement is false.",
+                "E": "This is incorrect. Senile purpura presents as ecchymoses (bruises), not the distinct papules and macules described in the patient."
+            }
+        }
+    }
+]

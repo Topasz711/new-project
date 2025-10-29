@@ -1,1 +1,164 @@
-[]
+[
+    {
+        "question": "A photograph of a patient's hand shows deep-seated vesicles concentrated on the lateral aspects of the fingers. The patient reports increased itching during periods of high stress and frequent use of hand sanitizer. These findings are most consistent with:",
+        "imageUrl": "images/skin1.jpg",
+        "imageSource": "alamy",
+        "choices": {
+            "A": "Chronic hand eczema",
+            "B": "Scabies",
+            "C": "Dyshidrosis",
+            "D": "Candidiasis",
+            "E": "Herpes simplex infection"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The clinical description perfectly matches the features of **Dyshidrosis** as presented in the lecture. The key signs are \"Deep seated vesicles\" located on the \"Lateral of fingers\". The patient's history of stress and use of irritants (hand sanitizer) are common triggers for this condition.",
+            "incorrect": {
+                "A": "While Chronic hand eczema can be itchy and involve vesicles, the lecture specifies that it typically affects \"Both palmar and dorsal sites\", rather than being concentrated on the lateral aspects of the fingers.",
+                "B": "The pathognomonic sign of scabies is a \"Burrow\", not deep-seated vesicles. Lesions are typically papules or nodules found in finger webs, not primarily the lateral sides.",
+                "D": "Candidal infections typically occur in moist, intertriginous areas (skin folds) and present with erythematous patches and \"Satellite papules\", not vesicles on the fingers.",
+                "E": "HSV infections are characterized by a \"Group of vesicles at lip corners/ around the lip\" or on the genitalia, not on the lateral fingers."
+            }
+        }
+    },
+    {
+        "question": "Which of the following is a pigmentary disorder directly associated with strong sun exposure in urban environments like Bangkok?",
+        "choices": {
+            "A": "Vitiligo vulgaris",
+            "B": "Atopic dermatitis",
+            "C": "Melasma",
+            "D": "Psoriasis",
+            "E": "Xerosis cutis"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The lecture slide titled **\"Strong sun in BKK\"** explicitly lists **\"Pigmentary disorders: Melasma, freckle\"** as conditions related to sun exposure. This directly answers the question.",
+            "incorrect": {
+                "A": "The lecture categorizes Vitiligo as an \"Autoimmune disorder\" that is triggered by stress, not directly caused by sun exposure.",
+                "B": "This is described as a genetic condition with trigger factors like stress and allergens, and typically affects flexural areas. It is not a primary pigmentary disorder from sun exposure.",
+                "D": "This is an inflammatory disease linked to stress and metabolic syndrome, not a sun-induced pigmentary disorder.",
+                "E": "This is dry skin, linked to environmental factors like air conditioning, not sun exposure."
+            }
+        }
+    },
+    {
+        "question": "A 19-year-old female, after trying numerous \"whitening\" serums from online shops, presents with erythematous patches and severe itching on her legs where she applied the products. The rash developed 2 weeks after starting the newest product. Which of the following is the most likely diagnosis?",
+        "choices": {
+            "A": "Xerosis cutis",
+            "B": "Steroid-induced acneiform eruption",
+            "C": "Allergic contact dermatitis",
+            "D": "Psoriasis",
+            "E": "Atopic dermatitis"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The patient's history aligns perfectly with the description of **Allergic Contact Dermatitis** in the slides. The cause is a new product applied to the skin (\"Application site\" ), the rash is \"Itchy\" , and the \"Onset of Hx about 2-3 weeks\"  matches the delayed hypersensitivity reaction. The behavior of buying various online cosmetics is highlighted as a risk.",
+            "incorrect": {
+                "A": "This is dry skin and would not typically present as severely itchy, erythematous patches after applying a new product.",
+                "B": "This condition presents as \"Multiple monomorphic non-comedogenic erythematous pustulopapular\" lesions, not itchy patches. The vignette does not describe acne-like bumps.",
+                "D": "This is a chronic inflammatory disease characterized by plaques with silvery scales, not an acute reaction to a topical product.",
+                "E": "While itchy, this is a chronic condition with a genetic predisposition, typically affecting flexural areas, not a new-onset rash localized to the application site of a serum."
+            }
+        }
+    },
+    {
+        "question": "From a basic science perspective, the clinical manifestation of vitiligo involves an autoimmune attack on melanocytes.  This process is fundamentally linked to what broader urban-related trigger mentioned in the lecture?",
+        "choices": {
+            "A": "High-energy, high-fat diets",
+            "B": "Parasitic infections from crowded places",
+            "C": "Mental and physical stress",
+            "D": "Bacterial infections from contaminated water",
+            "E": "Impurities in online cosmetic products"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The lecture identifies **Vitiligo** as an \"Autoimmune disorder\". On a separate slide listing **\"Stress related dermatologic conditions,\" Vitiligo is explicitly included**. This directly links the autoimmune process of Vitiligo to the urban-related trigger of **stress**.",
+            "incorrect": {
+                "A": "The lecture links these diets to conditions like psoriasis, acne, and xanthomas, not Vitiligo.",
+                "B": "This is linked to conditions like scabies.",
+                "D": "This is linked to conditions like cellulitis.",
+                "E": "These are linked to allergic contact dermatitis and steroid-induced acne."
+            }
+        }
+    },
+    {
+        "question": "A 55-year-old woman presents with dry, itchy, and finely scaling skin on her shins, which she describes as a \"crazy-paving\" pattern. She mentions taking very long, hot showers daily and living in a heavily air-conditioned apartment. Which of the following is the most likely diagnosis?",
+        "choices": {
+            "A": "Atopic dermatitis",
+            "B": "Ichthyosis vulgaris",
+            "C": "Xerosis cutis",
+            "D": "Stasis dermatitis",
+            "E": "Allergic contact dermatitis"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "**Xerosis cutis** is the medical term for abnormally dry skin. The lecture links it directly to living in an **air-conditioned environment**. The patient's history of long hot showers and living in AC both contribute to stripping moisture from the skin. The \"crazy-paving\" pattern is a classic description for severe xerosis (asteatotic eczema).",
+            "incorrect": {
+                "A": "While it can flare with dryness, its typical distribution in adults is in the flexural areas (e.g., behind the knees).",
+                "B": "This is a genetic skin condition characterized by large, polygonal \"fish-like\" scales, which is more severe than the fine scaling described.",
+                "D": "This is related to poor venous circulation in the legs and is often associated with edema and hyperpigmentation, which are not mentioned in the vignette.",
+                "E": "This is an immune reaction to a specific allergen and would present as an inflammatory rash, not generalized dry, cracking skin from environmental factors."
+            }
+        }
+    },
+    {
+        "question": "The development of steroid-induced acneiform eruptions from impurity-laden cosmetics is distinguished from true acne vulgaris primarily by which pathophysiological feature?",
+        "choices": {
+            "A": "Formation of comedones due to follicular hyperkeratinization",
+            "B": "A bacterial infection primarily involving Staphylococcus and Streptococcus species",
+            "C": "The presence of monomorphic lesions without comedones, indicating a hypersensitivity or irritant follicular response",
+            "D": "An autoimmune-mediated destruction of melanocytes triggered by chemical stress",
+            "E": "A type I hypersensitivity reaction leading to wheal and flare formation"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The lecture slide on this topic clearly describes the eruption as **\"Multiple monomorphic\"** (lesions are all in the same stage) and, crucially, **\"non-comedogenic\"**. The absence of comedones (blackheads and whiteheads) is the key feature that distinguishes it from acne vulgaris.",
+            "incorrect": {
+                "A": "This is a hallmark feature of acne vulgaris, the very condition it needs to be distinguished from.",
+                "B": "This describes conditions like cellulitis or impetigo, not the mechanism of steroid acne.",
+                "D": "This describes the pathophysiology of vitiligo.",
+                "E": "This mechanism leads to urticaria (hives), not an acneiform eruption."
+            }
+        }
+    },
+    {
+        "question": "A 60-year-old man who has been a fisherman his entire life presents with a pearly nodule with a central ulceration on his nose. This lesion has grown slowly over several years. Which of the following sun-related dermatologic cancers is the most likely diagnosis?",
+        "choices": {
+            "A": "Malignant melanoma (MM)",
+            "B": "Basal cell carcinoma (BCC)",
+            "C": "Squamous cell carcinoma (SCC)",
+            "D": "Solar urticaria",
+            "E": "Photo-aging"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The patient's history of lifelong sun exposure (fisherman) is a major risk factor for skin cancer. The clinical description of a **\"pearly nodule with a central ulceration\"** is the classic presentation of nodular **Basal Cell Carcinoma (BCC)**. The lecture includes BCC as a dermatologic cancer related to sun exposure.",
+            "incorrect": {
+                "A": "This typically presents as a pigmented, asymmetric lesion with irregular borders, not a pearly nodule.",
+                "C": "This often presents as a firm, scaly, or crusted plaque or nodule that may ulcerate, but the **\"pearly\"** appearance is specific to BCC.",
+                "D": "This is an acute hive reaction to sun exposure, not a slowly growing cancerous lesion.",
+                "E": "This refers to the wrinkling and textural changes of the skin from chronic sun exposure, not a distinct cancerous growth."
+            }
+        }
+    },
+    {
+        "question": "A 24-year-old resident physician presents with ill-defined faint pinkish patches accompanied by greasy, bran-like scales around his nasolabial folds and eyebrows. He reports that the rash tends to worsen during busy periods at the hospital. Which of the following is the most likely trigger for his skin condition?",
+        "choices": {
+            "A": "He frequently uses alcohol-based hand sanitizers.",
+            "B": "He has been working 80-hour weeks at the hospital.",
+            "C": "He often eats high-carbohydrate desserts from the cafeteria.",
+            "D": "He spends most of his shift in air-conditioned rooms.",
+            "E": "He uses a new unbranded facial cleanser he bought online."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The description of the rash—**\"ill defined faint pinkish patches\"** with **\"Greasy\" \"Bran-like scales\"** in the nasolabial folds—is a classic presentation of **Seborrheic dermatitis**. The lecture explicitly lists Seborrheic dermatitis as one of the **\"Stress related dermatologic conditions\"**. Working 80-hour weeks as a resident physician is a significant source of both mental and physical **stress**, making it the most likely trigger for a flare-up.",
+            "incorrect": {
+                "A": "This would more likely cause irritant contact dermatitis or chronic hand eczema on the hands, not seborrheic dermatitis on the face.",
+                "C": "The lecture links high-carb diets to Eruptive xanthoma  and potentially acne, not seborrheic dermatitis.",
+                "D": "This is a primary cause of Xerosis cutis (dry skin).",
+                "E": "This could cause allergic or irritant contact dermatitis, which would typically present as a more uniformly erythematous and itchy rash, not one with greasy, bran-like scales."
+            }
+        }
+    }
+]
