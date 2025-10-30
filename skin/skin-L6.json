@@ -1,1 +1,162 @@
-[]
+[
+    {
+        "question": "In the pathophysiology of chronic itch, particularly in conditions like atopic dermatitis, a disruption in the balance of neurotrophic factors contributes to abnormal nerve fiber extension into the epidermis. Which of the following correctly describes this imbalance?",
+        "choices": {
+            "A": "Increased levels of Semaphorin 3A (Sema3A) and decreased levels of Nerve Growth Factor (NGF)",
+            "B": "Decreased levels of both Semaphorin 3A (Sema3A) and Nerve Growth Factor (NGF)",
+            "C": "Increased levels of both Semaphorin 3A (Sema3A) and Nerve Growth Factor (NGF)",
+            "D": "Decreased levels of Semaphorin 3A (Sema3A) and increased levels of Nerve Growth Factor (NGF)",
+            "E": "A shift from Nerve Growth Factor (NGF) to Brain-Derived Neurotrophic Factor (BDNF) signaling"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The lecture material describes an imbalance between nerve elongation and nerve repulsion factors in chronic itch. Specifically, in atopic dermatitis (AD) skin, **Nerve Growth Factor (NGF)**, which promotes nerve elongation, is **increased**, while **Semaphorin 3A (Sema3A)**, which causes nerve repulsion, is **decreased**. This imbalance leads to hyperinnervation of the epidermis, contributing to the chronic itch sensation.",
+            "incorrect": {
+                "A": "Incorrect combination of changes in Sema3A and NGF levels.",
+                "B": "Incorrect combination of changes in Sema3A and NGF levels.",
+                "C": "Incorrect combination of changes in Sema3A and NGF levels.",
+                "E": "The key imbalance discussed in the provided slides is between NGF and Sema3A, not a shift to BDNF."
+            }
+        }
+    },
+    {
+        "question": "While preparing dinner, a chef accidentally touches a hot pan. He immediately pulls his hand away, feeling a sharp, localized pain. A few moments later, this is followed by a persistent, dull, burning sensation. This \"second pain\" is primarily transmitted by which type of nerve fibers?",
+        "choices": {
+            "A": "A-beta (Aβ) fibers",
+            "B": "A-delta (Aδ) fibers",
+            "C": "C fibers",
+            "D": "Merkel cells",
+            "E": "Pacinian corpuscles"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "Cutaneous pain is perceived in two waves. The **\"second pain\"** is characterized as a dull, aching, poorly localized sensation that persists for a longer time. This slow component of pain is conducted by small, **unmyelinated C fibers**.",
+            "incorrect": {
+                "A": "A-beta (Aβ) fibers are large, myelinated fibers that primarily transmit non-painful touch and pressure sensations.",
+                "B": "A-delta (Aδ) fibers transmit the **\"first pain,\"** which is a brief, sharp, prickling sensation that is easily localized.",
+                "D": "Merkel cells and Pacinian corpuscles are specialized mechanoreceptors for touch and vibration, not nociceptors for pain.",
+                "E": "Merkel cells and Pacinian corpuscles are specialized mechanoreceptors for touch and vibration, not nociceptors for pain."
+            }
+        }
+    },
+    {
+        "question": "A 62-year-old male with end-stage liver disease due to cholestasis develops severe, generalized pruritus. His skin is jaundiced but shows no primary lesions other than secondary excoriations from scratching. This itch is caused by the systemic accumulation of pruritogens like bile acids. This is best classified as:",
+        "choices": {
+            "A": "Neuropathic itch",
+            "B": "Psychogenic itch",
+            "C": "Pruritoceptive itch",
+            "D": "Atopic itch",
+            "E": "Neurogenic itch"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "This patient's itch is caused by a **systemic disease** (liver disease leading to cholestasis and accumulation of bile acids). The pruritogens are circulating in the blood and acting on the central nervous system. This fits the definition of **neurogenic itch**: generated in the CNS in response to pruritogens but without primary neural or skin pathology.",
+            "incorrect": {
+                "A": "Neuropathic itch is incorrect because there is no evidence of damage to the afferent nerve pathway.",
+                "B": "Psychogenic itch is incorrect as the cause is a clear metabolic and systemic pathology, not a psychiatric condition.",
+                "C": "Pruritoceptive itch is incorrect because the origin of the itch is not in the skin itself; there are no primary skin lesions.",
+                "D": "Atopic itch is a subtype of pruritoceptive itch associated with atopic dermatitis and is not the correct classification here."
+            }
+        }
+    },
+    {
+        "question": "Following a crush injury to the leg, damaged cells release numerous chemical mediators that activate nociceptors. According to the provided material, which of the following substances is considered the most powerful in causing pain associated with tissue damage?",
+        "choices": {
+            "A": "Prostaglandins",
+            "B": "Histamine",
+            "C": "Substance P",
+            "D": "Potassium ions",
+            "E": "Bradykinin"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The lecture notes, in the section on chemical mediators of pain, state that **bradykinin** is formed from enzymes released by dying cells and \"is **most powerful** in causing tissue damage pain\".",
+            "incorrect": {
+                "A": "Prostaglandins are important mediators but primarily act to sensitize nociceptors to other stimuli, rather than being the most powerful direct activator.",
+                "B": "Histamine is released from mast cells and contributes to pain and swelling but is not described as the most powerful mediator of tissue damage pain.",
+                "C": "Substance P is a neurotransmitter released from nociceptive nerve terminals that promotes swelling and pain signaling, but bradykinin is specified as the most potent chemical for this type of pain.",
+                "D": "Potassium ions are released from damaged cells and can depolarize nerve endings, but they are not considered the most powerful specific chemical mediator."
+            }
+        }
+    },
+    {
+        "question": "A patient with a bacterial infection develops a fever of 39.5°C. A physician administers an NSAID, such as ibuprofen, which successfully reduces the patient's temperature. The antipyretic effect of this drug is achieved by:",
+        "choices": {
+            "A": "Lowering the hypothalamic temperature set point by inhibiting cyclooxygenase (COX) and reducing prostaglandin synthesis.",
+            "B": "Directly blocking endogenous pyrogen release from macrophages.",
+            "C": "Promoting cutaneous vasodilation and sweating regardless of the hypothalamic set point.",
+            "D": "Acting as an antagonist at pyrogen receptors within the preoptic area of the hypothalamus.",
+            "E": "Increasing the rate of heat loss through non-shivering thermogenesis inhibition."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The pathophysiology of fever involves endogenous pyrogens stimulating prostaglandin production, which raises the hypothalamic temperature set point. NSAIDs work by **inhibiting the cyclooxygenase (COX) enzyme**, which is critical for **prostaglandin synthesis**. By reducing prostaglandin levels, NSAIDs lower the hypothalamic set point back towards normal, allowing the body to initiate heat loss mechanisms.",
+            "incorrect": {
+                "B": "NSAIDs do not prevent macrophages from releasing pyrogens; they act downstream in the pathway.",
+                "C": "The heat loss mechanisms (vasodilation, sweating) are a *result* of the set point being lowered, not the primary action of the drug.",
+                "D": "NSAIDs target the COX enzyme, not pyrogen receptors.",
+                "E": "This describes an unrelated mechanism."
+            }
+        }
+    },
+    {
+        "question": "When a noxious stimulus activates a first-order afferent pain fiber, the fiber synapses in the dorsal horn of the spinal cord. What are the primary excitatory neurotransmitters released by this fiber to activate second-order ascending pain pathways?",
+        "choices": {
+            "A": "GABA and Glycine",
+            "B": "Serotonin and Norepinephrine",
+            "C": "Substance P and Glutamate",
+            "D": "Dynorphin and Enkephalin",
+            "E": "Acetylcholine and Dopamine"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The pain pathway diagram on page 19 clearly shows that when the afferent pain fiber is activated by a noxious stimulus, it releases **Substance P and Glutamate** at its synapse in the dorsal horn. These are the primary excitatory neurotransmitters that activate the second-order projection neurons.",
+            "incorrect": {
+                "A": "GABA and Glycine are primarily inhibitory neurotransmitters involved in pain suppression pathways.",
+                "B": "Serotonin and Norepinephrine are key neurotransmitters in the descending pain modulation pathways originating from the brainstem.",
+                "D": "Dynorphin and Enkephalin are primarily inhibitory neurotransmitters involved in pain suppression pathways.",
+                "E": "Acetylcholine and Dopamine are not the primary neurotransmitters in this specific synapse of the pain pathway."
+            }
+        }
+    },
+    {
+        "question": "The human body has several thermoregulatory effector mechanisms. Which of the following responses is uniquely controlled by sympathetic cholinergic neurons?",
+        "choices": {
+            "A": "Cutaneous vasoconstriction",
+            "B": "Shivering of skeletal muscles",
+            "C": "Sweating from eccrine glands",
+            "D": "Piloerection",
+            "E": "Non-shivering thermogenesis"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The innervation of eccrine sweat glands is a classic exception to the sympathetic nervous system's general rule (adrenergic). The sympathetic sudomotor neurons that innervate **eccrine sweat glands are cholinergic**, meaning they release acetylcholine (ACh) to stimulate **sweating**.",
+            "incorrect": {
+                "A": "Cutaneous vasoconstriction is mediated by sympathetic **adrenergic** neurons releasing norepinephrine (NE).",
+                "B": "Shivering is controlled by **somatic motor neurons**, not the autonomic nervous system.",
+                "D": "Piloerection is controlled by sympathetic **adrenergic** neurons.",
+                "E": "Non-shivering thermogenesis is stimulated by catecholamines (epinephrine/norepinephrine), which is an **adrenergic** response."
+            }
+        }
+    },
+    {
+        "question": "A marathon runner collapses near the finish line on a very hot and humid day. On examination, he is unconscious with a core body temperature of 41°C. His skin is flushed, hot, and notably dry. Which of the following conditions is the most likely diagnosis?",
+        "choices": {
+            "A": "Heat exhaustion",
+            "B": "Heat stroke",
+            "C": "Malignant hyperthermia",
+            "D": "Mild hypothermia",
+            "E": "Exertional rhabdomyolysis"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "**Heat stroke** is defined by a core body temperature typically exceeding **40.5°C** accompanied by impaired thermoregulatory mechanisms. The patient's temperature of **41°C** and, crucially, his **dry skin** (indicating impaired or failed sweating) are the classic signs of heat stroke.",
+            "incorrect": {
+                "A": "Heat exhaustion is characterized by a lower core temperature (e.g., >39°C) and **continued heavy sweating (moist, clammy skin)**. The patient's dry skin rules this out.",
+                "C": "Malignant hyperthermia is a rare genetic disorder of skeletal muscle, typically triggered by anesthetic agents, not environmental heat and exercise.",
+                "D": "Mild hypothermia is a low body temperature 32-35°C, which is the opposite of this patient's condition.",
+                "E": "Exertional rhabdomyolysis (muscle breakdown) can be a consequence of heat stroke and extreme exertion, but the primary diagnosis describing the state of thermoregulatory failure is heat stroke."
+            }
+        }
+    }
+]
