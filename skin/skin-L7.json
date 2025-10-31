@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "Which of the following statements regarding Staphylococcus aureus is INCORRECT?",
+        "choices": {
+            "A": "It is considered part of the transient flora found on the superficial layer of the skin.",
+            "B": "It is a frequent cause of impetigo, which can be characterized by honey-colored crusts.",
+            "C": "In the laboratory, it is identified as a Gram-positive coccus that is both catalase-positive and coagulase-positive.",
+            "D": "The Exfoliative toxin (ET) it produces is directly responsible for the formation of the thick, yellow crusts seen in non-bullous impetigo.",
+            "E": "Systemic complications from its toxins can include Staphylococcal Scalded Skin Syndrome (SSSS) and Toxic Shock Syndrome (TSS)."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The statement is **INCORRECT**. The Exfoliative toxin (ET), or Epidermolytic toxin, functions by cleaving the skin adhesion molecule desmoglein 1, which causes the formation of **blisters or bullae** (not the crusts directly). The characteristic \"honey-colored crusts\" of non-bullous impetigo are formed from the yellow discharge that is released when these bullae rupture. Thus, the toxin indirectly leads to the crusts by causing the blisters, but it does not directly form the crusts themselves.",
+            "incorrect": {
+                "A": "This statement is correct. Staphylococcus aureus is classified as part of the transient flora that can be found on the superficial layer of the skin.",
+                "B": "This statement is correct. S. aureus is a primary etiologic agent of impetigo, and a key clinical feature of non-bullous impetigo is the formation of thick, \"yellow crusted lesion/honey-colored crusts\".",
+                "C": "This statement is correct. The laboratory identification criteria for S. aureus include its appearance as Gram-positive cocci in clusters, a positive catalase test, and a positive coagulase test.",
+                "E": "This statement is correct. Staphylococcal Scalded Skin Syndrome (SSSS) and Toxic Shock Syndrome (TSS) are potential systemic complications arising from S. aureus infections."
+            }
+        }
+    },
+    {
+        "question": "A patient develops an itchy rash with multiple small, red bumps centered on hair follicles after relaxing in a poorly maintained hot tub. Which of the following pathogens is the most likely cause of this condition?",
+        "choices": {
+            "A": "Streptococcus pyogenes",
+            "B": "Staphylococcus aureus",
+            "C": "Pseudomonas aeruginosa",
+            "D": "Vibrio vulnificus",
+            "E": "Cutibacterium acnes"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The clinical scenario describes folliculitis acquired after using a **hot tub**, which is known as **\"hot tub folliculitis\"**. The lecture explicitly identifies **Pseudomonas aeruginosa** as the causative agent for this condition, as this bacterium thrives in water environments like spa pools and hot tubs.",
+            "incorrect": {
+                "A": "Streptococcus pyogenes is a common cause of impetigo, erysipelas, and cellulitis, but it is not listed as a specific cause of hot tub folliculitis.",
+                "B": "Staphylococcus aureus is a very common cause of folliculitis in general, but the specific history of hot tub exposure makes P. aeruginosa the most likely and specific pathogen.",
+                "D": "Vibrio vulnificus is associated with wound infections from sea water exposure or ingestion of raw seafood, not hot tubs.",
+                "E": "Cutibacterium acnes is implicated in Acne vulgaris, a chronic inflammatory condition, not the acute infectious folliculitis described."
+            }
+        }
+    },
+    {
+        "question": "A 55-year-old butcher presents with a well-defined, purplish-red lesion on his hand that is associated with itching and burning. He reports no fever. Which of the following is the most likely diagnosis?",
+        "choices": {
+            "A": "Erysipelas",
+            "B": "Cellulitis",
+            "C": "Gas gangrene",
+            "D": "Erysipeloid",
+            "E": "Staphylococcal Scalded Skin Syndrome"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The patient's presentation aligns perfectly with the description of **Erysipeloid**. This is an **occupational disease** commonly affecting **butchers and fishmongers**. The clinical manifestation is a **purplish-red lesion** accompanied by **itching and burning**, which is typically localized and **lacks systemic symptoms like fever**, matching the patient's report.",
+            "incorrect": {
+                "A": "Erysipelas typically presents as a sharply marginated, **bright red plaque** and is almost always accompanied by **fever** and regional lymphadenopathy, contrasting with this patient's presentation.",
+                "B": "Cellulitis is a deeper infection, and systemic symptoms are common. The specific clinical features in the vignette are more characteristic of Erysipeloid.",
+                "C": "Gas gangrene is a severe infection characterized by extensive tissue destruction (necrosis) and gas production, which does not match the patient's localized, non-necrotic lesion.",
+                "E": "Staphylococcal Scalded Skin Syndrome (SSSS) is a toxin-mediated systemic illness that causes widespread superficial skin sloughing, primarily affecting infants and young children."
+            }
+        }
+    },
+    {
+        "question": "All of the following are described as types or features of primary cutaneous nocardiosis EXCEPT:",
+        "choices": {
+            "A": "A superficial skin infection with abscesses or cellulitis.",
+            "B": "A lymphocutaneous infection with sporotrichoid spread.",
+            "C": "The formation of extensive, deep, granulomatous lesions known as Actinomycetoma.",
+            "D": "An infection resulting from environmental exposure through a contaminated wound.",
+            "E": "A rapidly progressive infection characterized by hemorrhagic bullae and septicemia."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "This statement is the **EXCEPTION**. A rapidly progressive infection with **hemorrhagic bullae and septicemia** is the classic presentation of **Vibrio vulnificus infection**, which is associated with puncture wounds sustained in salt water. This clinical picture is not a feature of nocardiosis.",
+            "incorrect": {
+                "A": "This is a correct statement. Superficial skin infection with abscesses or cellulitis is one type of primary cutaneous nocardiosis.",
+                "B": "This is a correct statement. Lymphocutaneous infection with sporotrichoid spread is one type of primary cutaneous nocardiosis.",
+                "C": "This is a correct statement. The formation of Actinomycetoma is one type of deep granulomatous lesion caused by nocardiosis.",
+                "D": "This is a correct statement. Cutaneous nocardiosis is acquired through environmental exposure via a contaminated wound."
+            }
+        }
+    }
+]

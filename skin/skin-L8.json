@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A veterinarian presents with an ulcerated lesion on his hand and a series of subcutaneous nodules extending up his arm. He reports being scratched by a cat with a skin lesion two months ago. A biopsy of a nodule reveals cigar-shaped budding yeast cells. This finding is characteristic of which of the following dimorphic fungi?",
+        "choices": {
+            "A": "Sporothrix schenckii",
+            "B": "Nocardia brasiliensis",
+            "C": "Cryptococcus neoformans",
+            "D": "Mycobacterium marinum",
+            "E": "Exophiala jeanselmei"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The clinical presentation (ulcerated lesion and subcutaneous nodules extending along lymphatics) is classic for **lymphocutaneous sporotrichosis** (Rose-gardener's disease), often acquired from cats. The key diagnostic finding mentioned is the presence of **\"cigar-shaped yeast\"** in the tissue biopsy, which is a characteristic feature of the yeast form of **Sporothrix schenckii**.",
+            "incorrect": {
+                "B": "Nocardia brasiliensis is a filamentous bacterium, not a dimorphic fungus, and is a cause of actinomycotic mycetoma.",
+                "C": "Cryptococcus neoformans is a yeast that typically has a prominent capsule and does not appear cigar-shaped. It is associated with bird droppings.",
+                "D": "Mycobacterium marinum is a bacterium, not a fungus. While it can cause a similar \"sporotrichoid\" pattern, the microscopic finding would be acid-fast bacilli, not cigar-shaped yeast.",
+                "E": "Exophiala jeanselmei is a dematiaceous (black) fungus that causes phaeohyphomycosis or eumycetoma. Its form in tissue consists of dark-walled, septate hyphae, not yeast cells."
+            }
+        }
+    },
+    {
+        "question": "A 10-year-old child is brought to the clinic for a scalp condition. The examination reveals a severe, inflammatory lesion that is boggy, swollen, and has multiple pustules discharging pus. This clinical presentation is best described as which form of tinea capitis?",
+        "choices": {
+            "A": "Non-inflammatory type",
+            "B": "Kerion",
+            "C": "Favus",
+            "D": "Black dot pattern",
+            "E": "Ectothrix"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "A **kerion** is a highly inflammatory form of tinea capitis. The lecture slide specifically describes its presentation as a **\"boggy swelling with pustulation\"** from which **\"pus discharges from multiple orifices\"**. This description perfectly matches the clinical findings in the question.",
+            "incorrect": {
+                "A": "The non-inflammatory type of tinea capitis appears as \"partially bald areas with scaling\" and lacks the severe inflammation, bogginess, and pustules seen in this case.",
+                "C": "Favus is characterized by the presence of \"foul-smelling yellowish cup shaped crusts\" called scutula, which is a very different presentation.",
+                "D": "\"Black dot pattern\" is a clinical sign caused by hairs breaking off at the scalp surface, not a type of inflammatory response.",
+                "E": "Ectothrix is a term used to describe the microscopic location of fungal arthroconidia on the outside of the hair shaft. It is a pathological finding, not a clinical description of the scalp lesion itself."
+            }
+        }
+    },
+    {
+        "question": "An immunocompromised patient develops several painless, umbilicated papules on their face and trunk that strongly resemble molluscum contagiosum. The patient has a known history of exposure to bird droppings. This skin manifestation is most likely a result of hematogenous dissemination from which organism?",
+        "choices": {
+            "A": "Candida albicans",
+            "B": "Malassezia furfur",
+            "C": "Cryptococcus neoformans",
+            "D": "Trichophyton rubrum",
+            "E": "Aspergillus fumigatus"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The lecture material on cutaneous cryptococcosis explicitly states that the skin lesions can appear as a **\"molluscum contagiosum like lesion\"**. It also clearly links **Cryptococcus neoformans** with **\"Bird dropping\"** exposure and infection in an **\"immunocompromised host\"**. The skin lesions result from **\"hematogenous dissemination\"**.",
+            "incorrect": {
+                "A": "Candida albicans causes cutaneous candidiasis, which typically presents as erythematous patches with satellite lesions, not characteristically molluscum-like lesions.",
+                "B": "Malassezia furfur causes tinea versicolor, a superficial infection resulting in hypopigmented or hyperpigmented macules on the trunk.",
+                "D": "Trichophyton rubrum is a dermatophyte that causes ringworm (tinea), which presents as annular, scaling, and itchy lesions.",
+                "E": "Aspergillus species primarily cause respiratory disease, and while cutaneous aspergillosis occurs, it typically presents as necrotic ulcers, not umbilicated papules."
+            }
+        }
+    },
+    {
+        "question": "A 40-year-old male agricultural worker presents with a chronic, indurated swelling on his foot with multiple draining sinus tracts. The discharge contains visible white to yellow granules. Microscopic examination of these granules reveals filamentous, branching organisms. Based on the triad of signs, a diagnosis of mycetoma is made. If the causative agent is identified as a true fungus like Pseudallescheria boydii, what is the correct classification of this condition?",
+        "choices": {
+            "A": "Eumycotic mycetoma",
+            "B": "Actinomycotic mycetoma",
+            "C": "Chromoblastomycosis",
+            "D": "Phaeohyphomycosis",
+            "E": "Botryomycosis"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The clinical presentation (indurated swelling, draining sinus tracts, and granules) matches the triad of signs for **mycetoma**. The lecture specifies that mycetoma caused by **true fungi** (like Pseudallescheria boydii) is called **Eumycotic mycetoma**.",
+            "incorrect": {
+                "B": "Actinomycotic mycetoma is clinically similar but is caused by filamentous **bacteria** (Actinomycetes), not by true fungi.",
+                "C": "Chromoblastomycosis presents with \"crusted, verrucose, cauliflower-like lesions\" and is characterized by sclerotic bodies in tissue, not granules draining from sinuses.",
+                "D": "Phaeohyphomycosis is an infection caused by dematiaceous fungi where the tissue form is mycelial (hyphae) rather than organized granules.",
+                "E": "Botryomycosis is a rare, chronic **bacterial** infection (often caused by Staphylococcus aureus) that can clinically mimic mycetoma, but it is not a fungal infection."
+            }
+        }
+    }
+]
