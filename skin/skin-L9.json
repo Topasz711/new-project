@@ -1,1 +1,162 @@
-[]
+[
+    {
+        "question": "A 56-year-old man with membranous nephropathy, currently on high-dose prednisolone, develops acute fever and altered consciousness. Dermatological exam reveals multiple non-blanchable, \"thumbprint-like\" purpuric macules concentrated around the umbilicus, with some widespread petechiae. Which of the following is the most likely diagnosis?",
+        "choices": {
+            "A": "Larva currens in chronic strongyloidiasis",
+            "B": "Cutaneous gnathostomiasis",
+            "C": "Hyperinfection of strongyloidiasis",
+            "D": "Disseminated strongyloidiasis",
+            "E": "Cutaneous larva migrans"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "This vignette perfectly matches Case 21 from the lecture. The key features are an **immunocompromised host** (on high-dose prednisolone) and the pathognomonic skin sign of **\"thumbprint-like\" periumbilical purpura**, which is caused by larvae migrating through the dermal blood vessels and indicates the most severe, **disseminated form** of the disease.",
+            "incorrect": {
+                "A": "Larva currens in chronic infection occurs in immunocompetent hosts and presents as intermittent, localized urticarial streaks, not purpuric macules.",
+                "B": "Cutaneous gnathostomiasis presents as an intermittent, migratory swelling (panniculitis), not purpuric macules.",
+                "C": "Hyperinfection is characterized by widespread, continuous larva currens (urticarial tracks). The specific finding of periumbilical purpura points to the more severe disseminated form, where larvae are invading deep tissues and organs via the bloodstream.",
+                "E": "Cutaneous larva migrans (CLM), caused by animal hookworms, presents as a \"creeping eruption\" (a serpiginous track) that moves very slowly (cm/day). It does not cause purpura."
+            }
+        }
+    },
+    {
+        "question": "A 15-year-old girl presents with a 3-week history of migratory edema. The episode began with a swelling at her right shoulder, which resolved. She now presents with a painless, non-reducible subcutaneous swelling behind her right ear that appears to be migrating toward her face. The lesion is round and erythematous. This presentation is most characteristic of:",
+        "choices": {
+            "A": "Hyperinfection of strongyloidiasis",
+            "B": "Creeping eruption",
+            "C": "Cutaneous gnathostomiasis",
+            "D": "Larva currens",
+            "E": "Disseminated strongyloidiasis"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The patient's presentation, specifically the **intermittent migratory swelling** (appearing, resolving, and reappearing in a new location, like from the shoulder to the ear/face), is the **classical presentation** and more specific sign of **Cutaneous gnathostomiasis**.",
+            "incorrect": {
+                "A": "This presents as widespread, continuous, linear urticarial tracks (larva currens), not localized, intermittent swelling.",
+                "B": "\"Creeping eruption\" describes a linear, serpiginous track in the epidermis, not the slowly developing round, migratory swelling described.",
+                "D": "Larva currens is a rapidly moving (5-15 cm/hour) linear track, not a slowly developing round swelling.",
+                "E": "This presents with periumbilical purpura and systemic illness, not migratory edema."
+            }
+        }
+    },
+    {
+        "question": "Which of the following parasitic skin infections is caused by the migration of larval-stage parasites, progresses at a rate of 5-15 cm per hour, and is strongly associated with autoinfection?",
+        "choices": {
+            "A": "Cutaneous larva migrans",
+            "B": "Larva currens",
+            "C": "Cutaneous gnathostomiasis",
+            "D": "Pediculosis capitis",
+            "E": "Scabiasis"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "This is the definition of **Larva currens**. It is caused by the migration of *Strongyloides stercoralis* filariform larvae, progresses rapidly at **5-15 cm per hour**, and is the key cutaneous sign of **autoinfection**.",
+            "incorrect": {
+                "A": "Cutaneous larva migrans (CLM) progresses much slower (centimeters per day).",
+                "C": "Cutaneous gnathostomiasis presents as an intermittent swelling, not a rapidly moving linear track.",
+                "D": "This is an infestation by an adult-stage parasite (a louse), not a migrating larva.",
+                "E": "This is an infestation by an adult-stage parasite (a mite), not a migrating larva."
+            }
+        }
+    },
+    {
+        "question": "A patient with chronic, asymptomatic strongyloidiasis (immunocompetent) is given high-dose corticosteroids. This change in host physiology (basic science) primarily leads to hyperinfection (clinical) by:",
+        "choices": {
+            "A": "Preventing the L1 larvae from being expelled in the stool.",
+            "B": "Triggering third-stage larvae of Gnathostoma to emerge from tissue.",
+            "C": "Allowing L3 larvae to penetrate dermal blood vessels, causing purpura.",
+            "D": "Suppressing the immune response that normally controls L3 development and penetration, leading to massive autoinfection.",
+            "E": "Increasing the speed of larval migration from cm/day to cm/hour."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The introduction of steroids causes **immunosuppression (↓ Immunity)**, which **suppresses the immune response** that normally controls the autoinfection cycle. This leads to **MASSIVE autoinfection** and **WIDESPREAD penetration of skin** because the \"Body CANNOT control\" the L3 development and re-penetration.",
+            "incorrect": {
+                "A": "The issue is uncontrolled acceleration of the autoinfection cycle (L1 -> L3 in host), not a failure of expulsion.",
+                "B": "Gnathostoma is a completely different parasite and is not relevant here.",
+                "C": "This describes disseminated strongyloidiasis, which is a consequence of hyperinfection, not the primary cause of the hyperinfection state itself.",
+                "E": "The rapid speed (5-15 cm/hour) is characteristic of larva currens in general. The change in hyperinfection is in the number, location, and persistence of the tracks, not the speed of individual larvae."
+            }
+        }
+    },
+    {
+        "question": "A patient is diagnosed with Cutaneous Larva Migrans. A medical student asks why a stool examination is not the primary diagnostic test, unlike in human hookworm infections. What basic parasitological principle explains this clinical difference?",
+        "choices": {
+            "A": "CLM is a zoonotic transmission, while human hookworm infection is not.",
+            "B": "The diagnostic stage of CLM is the filariform larva in the skin, whereas the diagnostic stage of human hookworm is the unembryonated egg in feces.",
+            "C": "The infective stage for CLM is the egg, whereas the infective stage for human hookworm is the larva.",
+            "D": "CLM is caused by A. braziliense which has 2 pairs of teeth, while human hookworm (N. americanus) has cutting plates.",
+            "E": "The eggs of animal hookworms are not found in human feces because the larvae die in the skin and never mature to egg-laying adults in the intestine."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "A stool exam looks for **eggs**, which are produced by **adult worms in the intestine**. In **CLM**, the animal hookworm larvae are **trapped and die in the epidermis**. Because they never reach the intestine to become adults, **no eggs are produced**, and thus **\"Eggs are... not found in humans\"**.",
+            "incorrect": {
+                "A": "This is true, but it's not the full explanation. Some zoonotic hookworms *can* complete their life cycle in humans.",
+                "B": "This is factually correct, but option E provides the *reason* why the egg stage does not exist in CLM.",
+                "C": "The infective stage for both CLM and human hookworm is the filariform larva (L3).",
+                "D": "This describes the adult worm's morphology and is irrelevant because the adult worm never develops in CLM infection."
+            }
+        }
+    },
+    {
+        "question": "A 30-year-old tourist returns from a trip to Southeast Asia, where he frequently sat on the sand. He develops intensely pruritic, serpiginous, erythematous tracks on his buttocks. A CBC reveals significant peripheral eosinophilia. A subsequent stool examination is also positive for hookworm-like eggs. Given the entire clinical picture, which causative agent is the most likely diagnosis?",
+        "choices": {
+            "A": "Ancylostoma braziliense",
+            "B": "Necator americanus",
+            "C": "Ancylostoma ceylanicum",
+            "D": "Ancylostoma caninum",
+            "E": "Strongyloides stercoralis"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The presence of **serpiginous tracks (CLM-like)** and **eggs in the stool** is a critical combination. While typical CLM (A. *braziliense*/A. *caninum*) does not result in eggs in the stool, *Ancylostoma ceylanicum* is the one animal hookworm that **\"Can complete life cycle in humans\"** and is the most likely cause for this presentation.",
+            "incorrect": {
+                "A": "While A. *braziliense* causes the tracks (CLM), the larvae die in the skin and do not produce eggs in human feces.",
+                "B": "N. *americanus* (human hookworm) causes a patent infection with eggs in the stool, but its skin manifestation is \"Ground itch\" (a papular/vesicular rash), not the classic, long, migrating serpiginous tracks of CLM.",
+                "D": "While A. *caninum* causes the tracks (CLM), the larvae die in the skin and do not produce eggs in human feces.",
+                "E": "S. *stercoralis* causes larva currens (rapidly moving tracks), and the diagnostic stage in the stool is typically larvae, not eggs."
+            }
+        }
+    },
+    {
+        "question": "A 58-year-old homeless man presents with severe, chronic pruritus, primarily on his trunk and axillae. Physical exam reveals widespread excoriations, secondary bacterial infection, and significant skin thickening with a dark, hyperpigmented appearance. He reports not having changed clothes in several weeks. What is the most likely diagnosis for this specific skin finding?",
+        "choices": {
+            "A": "Crusted (Norwegian) scabies",
+            "B": "Vagabond's disease",
+            "C": "Pthiriasis pubis with secondary eczema",
+            "D": "Classical scabiasis with lichenification",
+            "E": "Pediculosis capitis with severe dermatitis"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The clinical history (homeless, poor hygiene, not changing clothes) is the classic risk factor for **Pediculosis corporis** (body louse). The skin finding of **\"excoriations, thickened and hyperpigmented skin\"** resulting from chronic body louse infestation is specifically termed **\"Vagabond's disease\"**.",
+            "incorrect": {
+                "A": "This presents with \"Thick yellow-brown... hyperkeratotic plaques\" and is associated with being an \"Immunocompromised host\", not just poor hygiene.",
+                "C": "Pthiriasis pubis infests the pubic or perianal area, not the trunk and axillae as described.",
+                "D": "While lichenification occurs in scabies, \"Vagabond's disease\" is the specific and more accurate term for the hyperpigmented, thickened skin resulting from chronic body louse infestation.",
+                "E": "Pediculus humanus capitis infests the \"human scalp\", not the trunk and axillae."
+            }
+        }
+    },
+    {
+        "question": "A 55-year-old man with a recent kidney transplant, maintained on long-term tacrolimus and prednisone, is referred from a rehabilitation center for a persistent rash. His palms, soles, and scalp are covered in thick, yellow-brown, hyperkeratotic plaques with significant fissuring. The staff reports he has some generalized pruritus, but it seems less severe than his skin's appearance would suggest. What is the most likely diagnosis?",
+        "choices": {
+            "A": "Psoriasis vulgaris",
+            "B": "Crusted (Norwegian) scabiasis",
+            "C": "Pediculosis corporis with Vagabond's disease",
+            "D": "Tinea manuum and pedis",
+            "E": "Eczema herpeticum"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "This is a classic vignette for **Crusted (Norwegian) scabiasis**. The two key components are: **Host**: The patient is a **severely immunocompromised host** (kidney transplant + tacrolimus + prednisone), which is the primary risk factor. **Lesion**: The skin finding is **\"Thick yellow-brown... hyperkeratotic plaques or crusts\"** on palms/soles/scalp. The **less severe itch than expected (itch-paucity)** is a well-known feature of this condition in immunocompromised hosts.",
+            "incorrect": {
+                "A": "While psoriasis can cause thick plaques, the context of a new, persistent rash of this type in a severely immunocompromised patient should make one highly suspicious of crusted scabies.",
+                "C": "This is caused by body lice and presents as hyperpigmented, thickened skin from chronic scratching, not thick, yellow-brown hyperkeratotic plaques.",
+                "D": "This is a fungal infection that typically presents with scaling or maceration, not the thick, crusted plaques described.",
+                "E": "This is a severe, disseminated herpes simplex infection in a patient with pre-existing eczema, presenting as \"punched-out\" erosions or vesicles, not hyperkeratotic plaques."
+            }
+        }
+    }
+]

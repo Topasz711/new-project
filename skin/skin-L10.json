@@ -1,1 +1,161 @@
-[]
+[
+    {
+        "question": "According to the lecture, what is identified as the most important source of the growth factors that drive the repair process, particularly cell proliferation?",
+        "choices": {
+            "A": "Fibroblasts",
+            "B": "Macrophages",
+            "C": "Platelets",
+            "D": "Endothelial cells",
+            "E": "Keratinocytes"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The lecture slides explicitly state that \"The most important source of the growth factors\" is **\"marcrophages\" (macrophages)**. It also reinforces this by calling macrophages **\"the central cellular players in the repair process\"**. Macrophages, particularly M2 macrophages, produce many key growth factors (like TGF-β and VEGF) that drive the proliferation of other cells.",
+            "incorrect": {
+                "A": "Fibroblasts are crucial for producing the extracellular matrix (ECM) and collagen, but they are not identified as the most important source for driving the overall repair process.",
+                "C": "Platelets are a major source of growth factors (like PDGF and TGF-β) immediately after injury (initial hemostasis), but their role is very early. Macrophages are the most important source for the sustained repair process.",
+                "D": "Endothelial cells proliferate to form new blood vessels (angiogenesis) but are not the primary, \"most important\" source driving repair.",
+                "E": "Keratinocytes are the epithelial cells of the skin. They proliferate to cover the wound but are not the main coordinating source of growth factors for the entire repair cascade."
+            }
+        }
+    },
+    {
+        "question": "A 45-year-old woman suffers a deep laceration from a kitchen knife, penetrating through the epidermis and deep into the dermis, damaging the connective tissue framework. Despite proper cleaning, the wound heals by forming a dense, fibrous patch. This outcome is best described as:",
+        "choices": {
+            "A": "Repair by regeneration",
+            "B": "Repair by scar formation",
+            "C": "Resolution by labile tissue proliferation",
+            "D": "Healing by stable tissue hyperplasia",
+            "E": "Restoration via tissue stem cells"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The scenario describes an injury with \"Damage to parenchymal cells... as well as to the **connective tissue framework**\". เมื่อโครงสร้างพื้นฐานเสียหาย เนื้อเยื่อจะ \"incapable of complete restitution\" และกระบวนการซ่อมแซมจะเกิดขึ้นผ่าน **\"Connective tissue deposition (scar formation)\"** ซึ่งทำให้เกิด **\"dense, fibrous patch\"** หรือแผลเป็นนั่นเอง.",
+            "incorrect": {
+                "A": "Regeneration can only occur after \"Mild, superficial injury\" where the underlying connective tissue framework is **not** damaged. This patient's injury was deep and damaged the framework.",
+                "C": "Labile tissue proliferation is partของ healing process แต่เนื่องจากโครงสร้างพื้นฐานเสียหาย การเพิ่มจำนวนนี้อย่างเดียวจึงไม่สามารถคืนโครงสร้างปกติได้.",
+                "D": "Stable tissues (like the liver or kidney) are not the primary tissue type in a skin laceration. The outcome was a fibrous patch (scar), not hyperplasia of existing tissue.",
+                "E": "Restoration via tissue stem cells is a mechanism of regeneration. ในกรณีนี้ การซ่อมแซมเสร็จสิ้นด้วยการสร้างแผลเป็น (scar formation)."
+            }
+        }
+    },
+    {
+        "question": "A superficial abrasion (e.g., \"skinned knee\") damages only the epidermis but does not penetrate the basement membrane. This injury typically heals completely, restoring normal tissue architecture without a scar. This perfect restoration is possible primarily because:",
+        "choices": {
+            "A": "The injury was too mild to trigger an inflammatory response.",
+            "B": "The epidermis is a labile tissue, and its tissue stem cells (e.g., basal keratinocytes, bulge stem cells) drive rapid proliferation to repopulate the area.",
+            "C": "The epidermis is a stable tissue that undergoes hypertrophy to fill the defect.",
+            "D": "Macrophages are not recruited to superficial injuries.",
+            "E": "The underlying connective tissue framework was destroyed, forcing regeneration."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The skin epithelium is classified as a **\"Labile tissue\"** (continuously dividing). Regeneration that restores a \"normal state\" is possible due to the **\"Presence of tissue stem cells\"** (basal keratinocytes and bulge stem cells) which drive rapid proliferation to perfectly replace the lost tissue.",
+            "incorrect": {
+                "A": "All injuries, even mild ones, trigger an inflammatory response (the first step of repair).",
+                "C": "The epidermis is a classic example of a **\"Labile tissue\"**, not a stable tissue.",
+                "D": "Macrophages are recruited to all injuries; they are \"central cellular players\" that clear debris and provide necessary growth factors.",
+                "E": "This is the opposite of the correct reason. The connective tissue framework was **preserved** (not destroyed), which is the key requirement for perfect regeneration."
+            }
+        }
+    },
+    {
+        "question": "During angiogenesis, the lecture states that vasodilation and increased permeability are induced by two key mediators. What are these two mediators?",
+        "choices": {
+            "A": "Metalloproteinases (MMPs) and Angiopoietin",
+            "B": "Nitric oxide (NO) and VEGF",
+            "C": "FGF-2 and PDGF",
+            "D": "TGF-β and KGF",
+            "E": "VEGF and Notch signals"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The lecture slide detailing the steps of angiogenesis explicitly lists the first step as: **\"Vasodilation: nitric oxide (NO)** and increased permeability, induced by **Vascular endothelial growth factor (VEGF)\"**.",
+            "incorrect": {
+                "A": "MMPs are involved in \"Disruption of basement membrane\". Angiopoietin is involved in \"Pericyte detachment\".",
+                "C": "FGF-2 and PDGF drive proliferation, but they are not the primary mediators specifically credited with the initial vasodilation and permeability step.",
+                "D": "TGF-β is primarily involved in ECM protein synthesis and fibrosis. KGF stimulates keratinocyte migration and proliferation.",
+                "E": "While VEGF is correct, Notch signals are involved in the \"Leading ('tip') cell\", not as the partner to VEGF for inducing vasodilation (Nitric Oxide is the partner)."
+            }
+        }
+    },
+    {
+        "question": "While both platelets and macrophages are crucial sources of cytokines, what is a critical distinction in their roles regarding the stimulation of the proliferative phase?",
+        "choices": {
+            "A": "Platelets release IL-8 for angiogenesis, while macrophages exclusively release EGF for re-epithelialization.",
+            "B": "Platelets provide the initial burst of PDGF and TGFB to initiate the process, while M2 macrophages provide a sustained release of these factors to drive long-term fibrosis.",
+            "C": "Macrophages are the only source of TNFa, which is essential for leukocyte chemoattraction.",
+            "D": "Platelets are responsible for extracellular matrix degradation via MMPs, while macrophages are responsible for its synthesis.",
+            "E": "Platelets are primarily responsible for phagocytosis, while macrophages are responsible for releasing blood-clotting proteins."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "This statement accurately captures the timing and sub-type specific roles. **Platelets** are activated during Hemostasis and provide the **initial burst** of PDGF and TGFB. **M2 macrophages** (the 'wound healing and fibrosis' phenotype) are dominant later and provide a **sustained release** of these factors (PDGF, TGFB1) to drive the long-term process of fibroblast proliferation and collagen deposition (fibrosis).",
+            "incorrect": {
+                "A": "Macrophages are a source of both IL-8 and EGF (not exclusively EGF).",
+                "C": "TNFa is produced by \"Macrophages, T lymphocytes, keratinocytes\", so macrophages are not the only source.",
+                "D": "This statement reverses the roles: M1 macrophages release MMPs (degradation), and platelets release clotting proteins (E)."
+            }
+        }
+    },
+    {
+        "question": "According to the slide on smoking, what are the two distinct mechanisms by which nicotine directly impairs wound healing?",
+        "choices": {
+            "A": "Decreasing inflammation and inhibiting epithelialization.",
+            "B": "Causing vasodilation and reducing platelet adhesiveness.",
+            "C": "Inducing tissue ischemia via vasoconstriction and increasing the risk of thrombotic microvascular occlusion.",
+            "D": "Damaging cellular DNA and slowing fibroblast proliferation.",
+            "E": "Impairing macrophage function and promoting the growth of biofilms."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The \"Smoking\" slide states that nicotine is a **vasoconstrictor** that reduces blood flow, causing **tissue ischemia**. It also states that nicotine **increases platelet adhesiveness**, raising the risk of **thrombotic microvascular occlusion**.",
+            "incorrect": {
+                "A": "These are mechanisms associated with **Steroids**.",
+                "B": "This is the opposite of the facts. Nicotine causes vasoconstriction and *increases* platelet adhesiveness.",
+                "D": "These are mechanisms associated with **Radiation**.",
+                "E": "\"Promoting the growth of biofilms\" is characteristic of **Infection** in chronic wounds."
+            }
+        }
+    },
+    {
+        "question": "According to the \"Schematic representation of Jackson's burn model\" diagram, which zone is located immediately surrounding the central-most Zone of coagulation?",
+        "choices": {
+            "A": "Zone of hyperaemia",
+            "B": "Zone of stasis",
+            "C": "Zone of coagulation",
+            "D": "Zone of necrosis",
+            "E": "Zone of inflammation"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The diagram on Page 44 of the lecture clearly illustrates three concentric zones of tissue injury in a burn. The central-most zone is the **Zone of coagulation**. The zone immediately surrounding it (the red ring) is the **Zone of stasis**.",
+            "incorrect": {
+                "A": "This is the outermost ring (blue), which surrounds the Zone of stasis.",
+                "C": "This is the central-most zone itself; the question asks for the zone surrounding it.",
+                "D": "\"Zone of necrosis\" is not the specific terminology used to label the distinct rings in this model diagram (Zone of coagulation is the central necrotic area).",
+                "E": "The \"Zone of hyperaemia\" represents the inflammatory response, but \"Zone of stasis\" is the specific term for the ring immediately adjacent to the central coagulation zone."
+            }
+        }
+    },
+    {
+        "question": "Based on the presentation materials, which of the following statements represents the most critical clinical distinction between a hypertrophic scar and a keloid scar?",
+        "choices": {
+            "A": "A hypertrophic scar shows elevated levels of TGFB, whereas a keloid scar shows elevated levels of TNFa.",
+            "B": "A keloid scar is characterized by scar tissue that proliferates beyond the boundaries of the original wound, whereas a hypertrophic scar remains confined within the original wound margins.",
+            "C": "A hypertrophic scar is often painful or pruritic, while a keloid scar is typically asymptomatic.",
+            "D": "A hypertrophic scar can be treated using IFNa, whereas a keloid scar does not respond to this treatment.",
+            "E": "A hypertrophic scar represents a failure of the proliferative phase, while a keloid scar is a failure of the remodeling phase."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "This is the classic definition. A **keloid scar** is defined by its characteristic growth where the scar tissue **proliferates beyond the boundaries of the original wound**. Conversely, a **hypertrophic scar** remains **confined within the original wound margins**.",
+            "incorrect": {
+                "A": "Elevated TGFB is associated with **both** hypertrophic and keloid scars.",
+                "C": "The lecture material does not provide any information about the symptoms (pain or pruritus) of either scar type.",
+                "D": "The lecture states that IFNa is **\"Used to treat hypertrophic/keloid scars,\"** indicating it can be used for both.",
+                "E": "Both are considered forms of **\"Excessive Wound Healing\"** which are disorders of the **Remodeling or Maturation phase**."
+            }
+        }
+    }
+]
