@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "In the most common clinical context, which specific bacterium is the etiological agent of bacteremia that leads to the distinctive skin lesions of Ecthyma Gangrenosum?",
+        "choices": {
+            "a": "Group A beta-haemolytic streptococci in non-bullous impetigo that failed to respond to adequate systemic antibiotic treatment",
+            "b": "Pseudomonas aeruginosa in a critically ill patient experiencing significant neutropenia or other forms of immunosuppression",
+            "c": "Streptococcus pyogenes which causes this vasculitic process in patients with underlying lymphedematous limbs or venous stasis",
+            "d": "Staphylococcus aureus in individuals who are documented nasal carriers after a minor localized skin trauma",
+            "e": "Corynebacterium minutissimum that is highly prevalent in patients with advanced age or poorly controlled diabetes mellitus"
+        },
+        "correctAnswer": "b",
+        "reasoning": {
+            "correct": "Ecthyma Gangrenosum is a life-threatening infectious vasculitis caused by septic emboli, most commonly associated with **P. aeruginosa bacteremia in a neutropenic patient**.",
+            "incorrect": {
+                "a": "Streptococcus pyogenes is the cause of Ecthyma (a deeper variant of non-bullous impetigo), not Ecthyma Gangrenosum.",
+                "c": "Streptococcus pyogenes is the cause of Ecthyma (a deeper variant of non-bullous impetigo), not Ecthyma Gangrenosum.",
+                "d": "S. aureus is the major cause of common skin infections like impetigo, folliculitis, furuncles, and carbuncles.",
+                "e": "Corynebacterium minutissimum causes Erythrasma, a superficial, non-life-threatening infection."
+            }
+        }
+    },
+    {
+        "question": "Regarding the molecular pathogenesis of Staphylococcus aureus skin diseases, what is the fundamental difference between the toxin causing localized Bullous Impetigo and the toxin causing systemic Toxic Shock Syndrome?",
+        "choices": {
+            "a": "Bullous Impetigo toxin causes deep, full-thickness epidermal necrosis that leads to an ulcer, while TSS toxin induces superficial intraepidermal blistering with little surrounding inflammation.",
+            "b": "Bullous Impetigo toxin is an epidermolytic protease cleaving Desmoglein 1, while TSS toxin is a superantigen that activates T-cells by non-specific crosslinking of MHC class II and the T-cell receptor.",
+            "c": "Bullous Impetigo toxin must be secreted into the bloodstream to cause its local effect, while TSS toxin is active only when released directly into the deep tissues during bacteremia.",
+            "d": "Bullous Impetigo toxin targets the dermal-epidermal basement membrane junction, while TSS toxin targets the stratum corneum keratinocytes in the upper epidermis.",
+            "e": "Bullous Impetigo toxin is a pyrogenic exotoxin acting as a superantigen, while TSS toxin is an epidermolytic protein that cleaves the host Desmoglein 3 molecule."
+        },
+        "correctAnswer": "b",
+        "reasoning": {
+            "correct": "The toxin for Bullous Impetigo is an Exfoliatin (ETA/ETB), which is an **epidermolytic toxin** that specifically **cleaves Desmoglein 1 (Dsg1)**. The toxin for Toxic Shock Syndrome is TSST-1, which is a **superantigen** that non-specifically crosslinks the **MHC class II molecule and the T-cell receptor**, leading to polyclonal T-cell activation.",
+            "incorrect": {
+                "a": "The cleavage in both Bullous Impetigo and SSSS is superficial, occurring within or just below the stratum granulosum.",
+                "c": "Exfoliatin can cause a systemic effect (SSSS) by dissemination, and the localized effect (Bullous Impetigo) does not require release into the bloodstream to act locally. TSST-1 causes TSS systemically, not just when released into deep tissues.",
+                "d": "The cleavage in both Bullous Impetigo and SSSS is superficial, occurring within or just below the stratum granulosum. The dermal-epidermal junction is targeted in Bullous Pemphigoid.",
+                "e": "The exfoliative toxin is epidermolytic, and the TSS toxin is a superantigen. Exfoliatin cleaves Dsg1, not Dsg3."
+            }
+        }
+    },
+    {
+        "question": "A 55-year-old obese male with newly diagnosed diabetes presents with a burning rash in his groin and under his abdominal pannus. Examination reveals bright red, erythematous plaques in the skin folds, notably featuring small, detached papules and pustules at the periphery of the main plaques. Which diagnosis is most consistent with this clinical cluster?",
+        "choices": {
+            "a": "Erysipelas, presenting as a sharply demarcated, bright red, oedematous plaque with associated systemic symptoms of fever and malaise",
+            "b": "Pityriasis Versicolor, generally presenting as oval-to-round, hypopigmented or hyperpigmented macules that tend to coalesce in seborrheic areas on the trunk",
+            "c": "Candidal intertrigo, characterized by markedly erythematous and often eroded patches with distinctive satellite papules and pustules at the margins",
+            "d": "Erythrasma, commonly seen as pink to red patches with fine scales and having a distinctive coral-red fluorescence under Wood's lamp examination",
+            "e": "Tinea cruris, typically presenting as an annular plaque with a raised, active, serpiginous, and scaly border that clears centrally"
+        },
+        "correctAnswer": "c",
+        "reasoning": {
+            "correct": "**Candidal intertrigo** is favored by predisposing factors like **obesity and diabetes mellitus**. It is characterized by markedly **erythematous plaques** located in **skin folds (intertriginous zones)**, and classically accompanied by **satellite papules and pustules at the periphery**.",
+            "incorrect": {
+                "a": "Erysipelas is a systemic illness with sharply demarcated borders, but it lacks the characteristic satellite lesions.",
+                "b": "Pityriasis Versicolor is typically characterized by macules with fine scales, not intense inflammation and satellite pustules.",
+                "d": "Erythrasma is often chronic and asymptomatic, presenting as pink to red patches with fine scales, and it lacks satellite lesions.",
+                "e": "Tinea cruris presents with an active, scaly, raised border and often central clearing, and it does not typically show the satellite papules/pustules."
+            }
+        }
+    },
+    {
+        "question": "A young adult presents with severe nocturnal pruritus and small, excoriated papules on the wrists and finger web spaces. A very fine, linear, curved, grayish tract is identified on the side of one finger. What is the single most definitive step to confirm the suspected diagnosis and guide immediate management?",
+        "choices": {
+            "a": "Initiate systemic antibiotic therapy empirically to cover for the most common bacterial causes of secondary infection (e.g., Staphylococcus aureus)",
+            "b": "Culture the base of the lesion on Sabouraud's dextrose agar to identify the causative microorganism species and drug-resistance patterns",
+            "c": "Perform a skin scraping of the linear lesion to visualize adult mites, eggs, or fecal pellets (scybala) using microscopy with mineral oil",
+            "d": "Prescribe a broad-spectrum oral antifungal agent to address possible deep follicular invasion by a zoophilic dermatophyte (Majocchi granuloma)",
+            "e": "Obtain a 4 mm punch biopsy of the excoriated lesion for histopathology to search for a lymphocytic perivascular infiltrate"
+        },
+        "correctAnswer": "c",
+        "reasoning": {
+            "correct": "The patient's clinical signs (nocturnal pruritus, involvement of finger web spaces, and the pathognomonic linear tract, or **burrow**) are classic for **Scabies**. The **most definitive diagnostic step** is performing a skin scraping with mineral oil from the burrow to visualize the **adult mites, eggs, and/or fecal pellets (scybala)** under microscopy.",
+            "incorrect": {
+                "a": "This addresses a bacterial cause, which is secondary to the primary parasitic infestation.",
+                "b": "This is an inappropriate diagnostic test for a parasitic mite infestation (it is used for fungi).",
+                "d": "This addresses an incorrect etiological agent (fungal).",
+                "e": "A punch biopsy is an overly invasive and unnecessary procedure when the definitive diagnosis can be made quickly and non-invasively at the bedside."
+            }
+        }
+    }
+]

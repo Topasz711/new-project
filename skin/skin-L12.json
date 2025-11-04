@@ -1,1 +1,162 @@
-[]
+[
+    {
+        "question": "A 19-year-old student presents with a 4-day history of high fever, severe sore throat, and fatigue. Physical exam reveals palatal petechiae, generalized cervical lymphadenopathy, and significant splenomegaly. A maculopapular rash developed 24 hours after they were prescribed amoxicillin, assuming a bacterial infection. Lab results show 63% lymphocytes, with many atypical forms. Which of the following is the most likely diagnosis?",
+        "choices": {
+            "A": "Measles (Rubeola)",
+            "B": "Rubella",
+            "C": "Dengue fever",
+            "D": "Infectious Mononucleosis",
+            "E": "Roseola infantum"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "This is the correct diagnosis. The combination of symptoms—tonsillitis (severe sore throat), a rash appearing after amoxicillin administration, generalized lymphadenopathy, and massive splenomegaly—is a classic presentation for **Infectious Mononucleosis**. The lab findings of **\"Atypical lymphocyte\"** and a high lymphocyte count (**63%**) strongly confirm this diagnosis. The sample question on page 25 also links fever, sore throat, palatal petechiae, and cervical lymphadenopathy to a diagnosis confirmed by a Monospot test.",
+            "incorrect": {
+                "A": "Measles is characterized by the 3 C's (cough, conjunctivitis), Koplik spots, and a confluent rash. This patient's key signs are splenomegaly and a rash specifically after amoxicillin, which are not typical for measles.",
+                "B": "Rubella is associated with suboccipital and posterior cervical lymphadenopathy but not typically with massive splenomegaly or a rash specifically triggered by amoxicillin.",
+                "C": "Dengue is associated with shock and thrombocytopenia, which are not the primary features described.",
+                "E": "Roseola (HHV 6 & 7) features a high fever that breaks, and then a rash appears. This patient is also 19, whereas Roseola is most common in infants."
+            }
+        }
+    },
+    {
+        "question": "A 7-year-old child is brought to the clinic with numerous 2-5 mm papules on his trunk and arms. The mother describes them as \"small, dome-shaped, and shiny,\" and notes that some appear to have a \"small central dimple.\" She also mentions that new lesions appear where the child scratches, and some older lesions have become red and swollen. What is the most likely causative agent?",
+        "choices": {
+            "A": "Human papillomavirus (HPV)",
+            "B": "Herpes simplex virus (HSV)",
+            "C": "Molluscum contagiosum virus (MCV)",
+            "D": "Varicella-zoster virus (VZV)",
+            "E": "Parvovirus B19"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The clinical description is a textbook match for **Molluscum contagiosum**. The lesions are described as **\"pearl-like umbilicated nodules\"** and the text specifies that they are **\"small, dome-shaped, and shiny\"** and **\"usually have a central dimple\"**. The fact that scratching spreads the lesions is also noted: **\"Scratching may cause the bumps to spread\"**. The causative agent is explicitly listed as MCV.",
+            "incorrect": {
+                "A": "HPV causes warts (Verruca vulgaris), which are typically exophytic, cauliflower-like masses, or flat/plantar lesions, not shiny, umbilicated papules.",
+                "B": "HSV causes painful vesicles (blisters) on an erythematous base (\"dewdrop on a rose petal\"), not firm, dimpled papules.",
+                "D": "VZV (chickenpox) causes a rash with various stages, but the characteristic lesion is a vesicle, not an umbilicated papule.",
+                "E": "Parvovirus B19 (Fifth disease) causes a \"slapped cheek\" rash followed by a reticular (lace-like) rash, not individual papules."
+            }
+        }
+    },
+    {
+        "question": "Which of the following viruses is characterized as an enveloped, icosahedral, double-stranded DNA virus that is transmitted via oral secretions and can cause a high fever followed by a transient macular rash?",
+        "choices": {
+            "A": "Paramyxovirus (Mumps)",
+            "B": "Parvovirus B19",
+            "C": "Togavirus (Rubella)",
+            "D": "Human herpesviruses 6 or 7",
+            "E": "Morbillivirus (Measles)"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "According to the comparison table on page 9, **Human herpesviruses 6 or 7** (the cause of Roseola) perfectly match this description. **Structure**: \"enveloped, icosahedral, double-stranded DNA\". **Transmission**: \"Oral secretions\". **Symptoms**: \"High fever, occasional late sudden rash\", clarified as a \"High fever that breaks with rash onset\".",
+            "incorrect": {
+                "A": "Paramyxovirus (Mumps) is an RNA virus (\"single-stranded (-) RNA\") with a helical, not icosahedral, capsid.",
+                "B": "Parvovirus B19 is a naked (not enveloped) and single-stranded DNA virus.",
+                "C": "Togavirus (Rubella) is an RNA virus (\"single-stranded (+) RNA\").",
+                "E": "Morbillivirus (Measles) is an RNA virus (\"single-stranded (-) RNA\") with a helical, not icosahedral, capsid."
+            }
+        }
+    },
+    {
+        "question": "Which two specific HPV types are the most common cause of Verruca vulgaris (common wart)?",
+        "choices": {
+            "A": "HPV-16 and 18",
+            "B": "HPV-6 and 11",
+            "C": "HPV-2 and 4",
+            "D": "HPV-1",
+            "E": "HPV-3 and 10"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The table \"Clinical Syndromes Associated with Papillomaviruses\" on page 16 clearly identifies the causative HPV types for different warts. For **\"Common wart\" (Verruca vulgaris)**, the \"Common\" column lists types **\"2, 4\"**.",
+            "incorrect": {
+                "A": "These are high-risk types associated with \"Cervical intraepithelial neoplasia, cancer\".",
+                "B": "These are the common causes of \"Anogenital Warts (Condyloma acuminatum)\" and \"Laryngeal papilloma\".",
+                "D": "This is the most common cause of \"Plantar wart\".",
+                "E": "These are the most common causes of \"Flat wart\"."
+            }
+        }
+    },
+    {
+        "question": "In high-risk HPV infections leading to malignant transformation, the viral DNA integrates into the host cell's DNA. This event specifically leads to the synthesis of E6 and E7 proteins. What is a key difference in this pathway compared to the replication pathway that produces a benign wart?",
+        "choices": {
+            "A": "The malignant pathway produces both E6/E7 proteins and new virions.",
+            "B": "The benign pathway involves latency in neurons, while the malignant pathway does not.",
+            "C": "The malignant pathway does not produce late proteins or assemble new virions, but E6/E7 drive uncontrolled cell growth.",
+            "D": "The benign pathway is caused by a Poxviridae family virus, while the malignant pathway is caused by a Parvovirus.",
+            "E": "The malignant pathway results in Cowdry type A inclusion bodies, while the benign pathway results in Koilocytes."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The diagrams on page 17 clearly contrast these two pathways. The **malignant pathway** is characterized by viral DNA integrating into host DNA, synthesizing E6/E7 proteins, but explicitly stating **\"No late protein synthesis\"** and **\"No virions produced\"**. The continued E6/E7 synthesis drives uncontrolled cell growth.",
+            "incorrect": {
+                "A": "The malignant pathway is defined by its failure to produce new virions.",
+                "B": "Latency in neurons is a characteristic of Herpes Simplex Virus (HSV), not HPV.",
+                "D": "Both pathways are caused by HPV, a Papillomavirus.",
+                "E": "Cowdry type A inclusion bodies are characteristic of HSV. The key difference is the lack of late protein/virion production in the malignant pathway."
+            }
+        }
+    },
+    {
+        "question": "Which disease is caused by a virus in the Togavirus family, is associated with congenital defects if it infects a fetus, and typically presents with a faint macular rash and posterior cervical lymphadenopathy?",
+        "choices": {
+            "A": "Rubeola (Measles)",
+            "B": "Roseola infantum",
+            "C": "Fifth disease",
+            "D": "Rubella",
+            "E": "Mumps"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "This is the correct answer. **Rubella** is the only disease that matches all three criteria based on the provided tables. **Family**: Caused by **\"Togavirus (Rubivirus)\"**. **Fetal Infection**: Strongly associated with congenital defects (**\"Yes-multiple defects\"**). **Symptoms**: Presents with a **\"Faint, macular\"** rash and posterior cervical lymphadenopathy.",
+            "incorrect": {
+                "A": "Rubeola (Measles) is a Paramyxovirus and is not associated with fetal defects.",
+                "B": "Roseola infantum is a Herpesvirus (HHV 6/7).",
+                "C": "Fifth disease is a Parvovirus. While it can cause fetal infection (hydrops, stillbirth), it is not a Togavirus.",
+                "E": "Mumps is a Paramyxovirus and is not associated with fetal defects."
+            }
+        }
+    },
+    {
+        "question": "Which of the following statements about viral pathogenesis is correct?",
+        "choices": {
+            "A": "Both HPV and Measles virus enter through small abrasions in the skin, but only Measles causes a generalized rash.",
+            "B": "Arboviruses enter via arthropod bites, replicate locally, and produce lesions only at the site of entry (e.g., a wart).",
+            "C": "Measles virus enters via the respiratory tract, undergoes hematogenous spreading, and results in a generalized rash.",
+            "D": "Poxviruses (like MCV) enter via the respiratory tract, spread to the skin, and cause localized, umbilicated lesions.",
+            "E": "HSV enters via the bloodstream and establishes latency in the basal layer of the skin."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This statement is correct according to the \"Overview of Viral Skin Infections\" on page 4. The text states: \"Some infections originate by another route (eg, **measles virus infections occur via the respiratory tract**), with **hematogenous spreading to the skin and rash formation**\". It also clarifies that **\"many of the generalized skin rashes\"** are due to **\"virus spreads to the skin via the bloodstream\"**.",
+            "incorrect": {
+                "A": "Measles virus enters via the respiratory tract, not skin abrasions.",
+                "B": "A wart is caused by HPV, which enters via skin abrasions, not Arbovirus.",
+                "D": "Poxviruses (like MCV) are listed as entering through **\"small abrasions of the skin\"** and **\"remain localized\"**, not entering via the respiratory tract.",
+                "E": "HSV enters through **\"small abrasions of the skin\"** and establishes latency in **neurons (ganglia)**, not the basal layer of the skin."
+            }
+        }
+    },
+    {
+        "question": "A key feature of Mpox is the predictable evolution of its lesions. Which sequence accurately represents the 4 stages of progression before scabbing and desquamation?",
+        "choices": {
+            "A": "Papular → Macular → Pustular → Vesicular",
+            "B": "Macular → Papular → Vesicular → Pustular",
+            "C": "Vesicular → Pustular → Macular → Papular",
+            "D": "Pustular → Vesicular → Papular → Macular",
+            "E": "Macular → Vesicular → Papular → Pustular"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Page 22, under the \"KEY POINTS\" for Mpox, explicitly outlines the sequence: **\"The evolution of lesions progresses through 4 stages—macular, papular, vesicular, to pustular—before scabbing over and desquamation\"**.",
+            "incorrect": {
+                "A": "The stages are listed in an improper sequence.",
+                "C": "The stages are listed in an improper sequence.",
+                "D": "The stages are listed in an improper sequence.",
+                "E": "The stages are listed in an improper sequence."
+            }
+        }
+    }
+]
