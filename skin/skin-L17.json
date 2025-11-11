@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A patient presents with an acute eruption of typical target lesions on the hands and elbows. There is mild erosion on the buccal mucosa, but the patient is afebrile and has no systemic symptoms. Which diagnosis is most consistent with this clinical picture?",
+        "choices": {
+            "a": "Erythema Multiforme minor",
+            "b": "Urticaria",
+            "c": "SJS/TEN overlap",
+            "d": "Stevens-Johnson syndrome",
+            "e": "Erythema Multiforme major"
+        },
+        "correctAnswer": "a",
+        "reasoning": {
+            "correct": "This diagnosis aligns perfectly with the criteria for **Erythema Multiforme minor**. Key features are: **Typical target lesions** on the **extremities** (hands and elbows), **mild mucosal involvement** (\"Absent or mild\" mucosal criteria), and **no systemic symptoms** (\"Absent\" systemic symptoms criteria).",
+            "incorrect": {
+                "a": "Urticaria consists of **transient wheals** (lesions that move or disappear within 24 hours). The patient has \"typical target lesions,\" which are **fixed** and morphologically different.",
+                "b": "This is a severe condition defined by 10-30% body surface area (BSA) detachment, severe mucosal involvement, and severe systemic symptoms. The patient's case is mild.",
+                "c": "SJS is characterized by **severe mucosal involvement** and usually **present systemic symptoms** (like fever). This patient's presentation (mild mucosa, no fever) points away from SJS and toward EM minor.",
+                "d": "Erythema Multiforme major features severe mucosal involvement and usually present **systemic symptoms** (e.g., fever, arthralgias). This patient's mild, non-systemic case is inconsistent with EM major."
+            }
+        }
+    },
+    {
+        "question": "Based on the comparison table, what is a key conceptual difference between the skin lesions of Erythema Multiforme major and Stevens-Johnson Syndrome (SJS)?",
+        "choices": {
+            "a": "EM major features typical target lesions, while SJS is characterized by dusky macules and atypical targets.",
+            "b": "EM major lesions are self-limited and fixed, while SJS lesions are migratory and transient.",
+            "c": "EM major is primarily caused by drugs, while SJS is primarily caused by infections.",
+            "d": "EM major always progresses to TEN, while SJS does not progress to TEN.",
+            "e": "EM major lesions are primarily on the trunk, while SJS lesions favor the extremities."
+        },
+        "correctAnswer": "a",
+        "reasoning": {
+            "correct": "This accurately reflects the **Type of skin lesions** column in the comparison table. **EM major** lesions are characterized by **Typical target lesions** (classic \"bull's eye\" targets). **SJS** lesions are characterized by **Dusky and/or dusky-red macules** and **Macular atypical targets** (flat, dark, detaching macules), which is a fundamental morphological distinction.",
+            "incorrect": {
+                "a": "This statement is inaccurate. Lesions in EM are fixed (lasting > 7 days). SJS lesions are also fixed. \"Transient\" describes urticaria.",
+                "b": "This statement reverses the primary causes. **EM major is primarily caused by infections** (Herpes simplex virus), while **SJS is primarily caused by drugs**.",
+                "c": "This statement is the opposite of the truth. EM major **\"Progression to TEN\" is \"No\"**. SJS \"Progression to TEN\" is \"Possible\" (as it exists on a spectrum with TEN).",
+                "d": "This statement reverses the typical distributions. EM major \"Distribution\" favors **Extremities, face (acral)**. SJS \"Distribution\" favors the **Trunk, face**."
+            }
+        }
+    },
+    {
+        "question": "Which statement best describes the primary pathogenic mechanism driving SJS/TEN?",
+        "choices": {
+            "A": "A Type I hypersensitivity reaction mediated by drug-specific IgE antibodies.",
+            "B": "A Type III hypersensitivity reaction with immune complex deposition in skin.",
+            "C": "A delayed-type (Type IV) hypersensitivity reaction mediated by cytotoxic T-cells.",
+            "D": "A Type II hypersensitivity reaction with autoantibodies against keratinocyte proteins.",
+            "E": "A Type V hypersensitivity reaction with antibodies stimulating Fas receptors."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The lecture slide explicitly identifies the pathogenesis as **\"A Delayed-Type Hypersensitivity (Type IV) reaction, specifically a cytotoxic T-cell-mediated immune response\"**. This involves **cytotoxic T-lymphocytes** recognizing the offending drug on keratinocytes, triggering widespread **keratinocyte apoptosis** (cell death).",
+            "incorrect": {
+                "A": "This describes an immediate allergic reaction (e.g., urticaria). SJS/TEN is a delayed, T-cell-mediated reaction.",
+                "B": "This mechanism is responsible for conditions like cutaneous vasculitis, not the direct, cell-to-cell killing of keratinocytes seen in SJS/TEN.",
+                "D": "This describes the mechanism for autoimmune bullous disorders like Pemphigus Vulgaris or Bullous Pemphigoid.",
+                "E": "The overall process is correctly classified as a **Type IV cell-mediated reaction**, even though the Fas-FasL pathway (a mechanism of apoptosis) is involved."
+            }
+        }
+    },
+    {
+        "question": "A 34-year-old patient presents with a 3-day history of high fever, malaise, and a sore throat. They were started on carbamazepine four weeks ago. Examination reveals painful hemorrhagic crusting of the lips, severe purulent conjunctivitis, and widespread dusky red macules, some with flaccid bullae, covering an estimated 15% of the body. Nikolsky sign is positive. What is the most likely diagnosis?",
+        "choices": {
+            "A": "DRESS Syndrome (Drug Reaction with Eosinophilia and Systemic Symptoms)",
+            "B": "Erythema Multiforme Major",
+            "C": "SJS/TEN overlap",
+            "D": "Staphylococcal Scalded Skin Syndrome (SSSS)",
+            "E": "Kawasaki Disease"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This diagnosis perfectly matches the criteria for **SJS/TEN overlap**. The estimated **15% BSA detachment** falls precisely into the **10% to 30% range**, which defines the overlap syndrome. Key features include a high-risk drug (Carbamazepine), severe mucosal involvement (lips and eyes), and characteristic skin lesions (dusky macules, flaccid bullae, positive Nikolsky sign).",
+            "incorrect": {
+                "A": "DRESS typically has a longer latency period (2-8 weeks), prominent facial edema, and internal organ involvement, but the rapid epidermal detachment and positive Nikolsky sign are the hallmarks of SJS/TEN.",
+                "B": "The classic skin lesions of EM are \"typical\" target lesions. The \"dusky red, ill-defined macules\" and \"flaccid bullae\" described are characteristic of SJS/TEN, not EM.",
+                "D": "SSSS characteristically **spares the mucous membranes**. This patient has severe oral and ocular involvement, ruling SSSS out.",
+                "E": "Kawasaki disease does not cause flaccid bullae, epidermal detachment, or a positive Nikolsky sign."
+            }
+        }
+    }
+]

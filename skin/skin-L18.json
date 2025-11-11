@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A patient presents with recurrent episodes of angioedema affecting their airway, but without any accompanying urticarial wheals. What underlying mechanism is specifically suggested for this presentation?",
+        "choices": {
+            "A": "A physical trigger like cold or pressure.",
+            "B": "A reaction to an upper respiratory tract infection.",
+            "C": "An autoimmune response targeting mast cells.",
+            "D": "Overproduction or impaired breakdown of bradykinin.",
+            "E": "An IgE-dependent mechanism from a food allergy."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The most critical clue is **\"angioedema... without any accompanying urticarial wheals\"**. The **bradykinin-mediated** pathway is explicitly characterized by angioedema where **\"Urticaria & itching are absent\"**. This occurs due to the overproduction (e.g., HAE) or impaired breakdown (e.g., ACE inhibitors) of bradykinin.",
+            "incorrect": {
+                "A": "Physical triggers like cold or pressure are causes of inducible urticaria. This is a **mast cell-mediated** process and would therefore present with **urticarial wheals**.",
+                "B": "Upper respiratory tract infections are a common cause of acute urticaria. This is a **histaminergic** reaction that presents with **wheals**.",
+                "C": "An autoimmune response targeting mast cells is a primary cause of chronic spontaneous urticaria (CSU). This mechanism leads to mast cell degranulation and histamine release, causing **prominent wheals**.",
+                "E": "An IgE-dependent food allergy is a classic Type 1 hypersensitivity reaction. It is immunologic, activates mast cells, releases histamine, and would present with **urticaria and pruritus**."
+            }
+        }
+    },
+    {
+        "question": "A patient with a known seafood allergy accidentally eats shrimp. Within 10 minutes, they develop widespread urticaria, severe swelling of the lips and tongue, and audible wheezing. They feel dizzy, and their respiratory rate is 30/min. What is the most appropriate immediate action?",
+        "choices": {
+            "A": "Expose skin and check temperature (Exposure).",
+            "B": "Check blood glucose and pupillary reflexes (Disability).",
+            "C": "Administer 0.5mg adrenaline IM immediately.",
+            "D": "Insert an intravenous line and infuse saline.",
+            "E": "Administer a short course of oral steroids."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This patient's presentation fulfills the clinical criteria for **anaphylaxis** (multi-system involvement: skin, respiratory, circulation). According to management guidelines for anaphylaxis, the most critical, first-line, and immediate intervention is **intramuscular epinephrine (adrenaline)**. Epinephrine treats all life-threatening symptoms (airway swelling, bronchospasm, and hypotension).",
+            "incorrect": {
+                "A": "This is a secondary survey step ('E' in ABCDE) and must not delay the life-saving 'A', 'B', and 'C' interventions.",
+                "B": "This step corresponds to 'D' (Disability). The primary concern is circulatory failure (hypotensive shock), which requires immediate epinephrine.",
+                "D": "Rapid fluid infusion is a crucial adjunctive therapy for hypotensive anaphylaxis, but it is not the first or most important immediate action. Epinephrine is the priority.",
+                "E": "Systemic corticosteroids are second-line (adjunctive) treatments with a slow onset of action and do not treat the acute, life-threatening symptoms."
+            }
+        }
+    },
+    {
+        "question": "Which clinical feature is a key differentiator, typically being absent in bradykinin-mediated angioedema but present in mast cell-mediated (histaminergic) angioedema?",
+        "choices": {
+            "A": "Urticaria (wheals) and pruritus (itching)",
+            "B": "Potential for laryngeal swelling",
+            "C": "Resolution time taking up to 72 hours",
+            "D": "Associated abdominal pain",
+            "E": "Swelling of the lips and tongue"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "This is the **fundamental difference** highlighted in the lectures. **Mast cell-mediated** reactions release histamine, which activates sensory nerves causing **pruritus (itching)** and superficial vascular leakage causing **urticaria (wheals)**. The **bradykinin-mediated** pathway does not involve histamine and is classically defined by the **absence of urticaria and pruritus**.",
+            "incorrect": {
+                "B": "Laryngeal swelling (airway compromise) can occur in **both** bradykinin-mediated and mast cell-mediated angioedema.",
+                "C": "Angioedema (swelling of the deep dermis) has a slow resolution phase (e.g., 2-3 days or up to 72 hours) regardless of the mediator. This feature distinguishes angioedema from urticarial wheals (which resolve in <24 hours).",
+                "D": "Associated abdominal pain is a classic and highly characteristic feature of **bradykinin-mediated angioedema** (HAE), not mast-cell reactions.",
+                "E": "Swelling of the lips and tongue is a common presentation of angioedema and can be seen in both pathways."
+            }
+        }
+    },
+    {
+        "question": "A 30-year-old male presents with recurrent, severe episodes of abdominal pain and nausea, often lasting 2-3 days. He also notes intermittent, non-pruritic swelling of his hands and face. He has no known allergies and takes no medications. Which diagnosis is most strongly suggested by this cluster of symptoms?",
+        "choices": {
+            "A": "Acute contact dermatitis",
+            "B": "Mast cell-mediated idiopathic angioedema",
+            "C": "Anaphylaxis secondary to a food allergy",
+            "D": "Cellulitis of the face and hands",
+            "E": "Hereditary Angioedema (HAE)"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "This is a classic clinical vignette for **Hereditary Angioedema (HAE)**, which is a **bradykinin-mediated** disease. The diagnosis is strongly suggested by the combination of: **Recurrent, non-pruritic swelling** (pointing away from mast-cell mediation), and **Recurrent, severe GI symptoms** (abdominal pain) caused by angioedema of the bowel wall, often referred to as the \"HAE triad\".",
+            "incorrect": {
+                "A": "Contact dermatitis is superficial skin inflammation (eczema) and would be intensely pruritic, and would not cause systemic GI symptoms.",
+                "B": "If this were mast cell-mediated, it would be **pruritic (itchy)** and/or associated with urticarial wheals. The patient's \"non-pruritic\" swelling points away from this process.",
+                "C": "Anaphylaxis is an acute, rapid-onset emergency, not a recurrent episode lasting 2-3 days. Furthermore, it would be associated with itching and urticaria.",
+                "D": "Cellulitis is an acute bacterial infection. It would present as a single, warm, erythematous, and tender area, likely with fever, not as recurrent, non-pruritic, migratory swelling with abdominal pain."
+            }
+        }
+    }
+]

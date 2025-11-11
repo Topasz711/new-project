@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "What is considered the most specific nail change associated with psoriasis?",
+        "choices": {
+            "a": "Subungual hyperkeratosis",
+            "b": "Oil spot (Salmon patch)",
+            "c": "Splinter hemorrhages",
+            "d": "Irregular, deep pitting",
+            "e": "Onycholysis"
+        },
+        "correctAnswer": "b",
+        "reasoning": {
+            "correct": "This is the correct answer. The **\"oil spot\"** or **\"salmon patch\"** refers to a translucent, yellowish-red discoloration seen in the nail bed. This sign represents psoriatic involvement of the nail bed itself and is considered the **most specific** nail change for psoriasis.",
+            "incorrect": {
+                "a": "This (a collection of scale and debris under the nail) is a non-specific finding. While common in psoriasis, it is also a hallmark of onychomycosis (fungal nail infection).",
+                "c": "These are small linear hemorrhages under the nail plate. They are not specific to psoriasis and are more classically associated with trauma or systemic diseases like infective endocarditis.",
+                "d": "Pitting of the nail plate is the **most common** nail change in psoriasis. However, it is not the most specific, as it can also be seen in other conditions like alopecia areata.",
+                "e": "This is the separation of the nail plate from the underlying nail bed. It is a very non-specific finding and can be caused by psoriasis, trauma, infection (especially Candida), or certain medications."
+            }
+        }
+    },
+    {
+        "question": "In infantile atopic dermatitis, what is the most common distribution pattern for eczematous lesions?",
+        "choices": {
+            "a": "Extensor surfaces of extremities and the face",
+            "b": "Perioral and periorbital regions exclusively",
+            "c": "Genital and axillary regions, sparing the face",
+            "d": "The trunk and scalp, sparing the extremities and face",
+            "e": "Flexural surfaces, such as antecubital and popliteal fossae"
+        },
+        "correctAnswer": "a",
+        "reasoning": {
+            "correct": "This is the classic presentation for **atopic dermatitis in infants and young children**. The rash typically involves the **face (especially the cheeks), scalp, and the extensor (outer) surfaces of the arms and legs**.",
+            "incorrect": {
+                "b": "While these areas can be involved, this is not the exclusive or most common pattern in infants. Perioral dermatitis (e.g., from licking) is noted as a variant in older children.",
+                "c": "This is incorrect. The groin and axillae (armpits) are typically **spared** in atopic dermatitis.",
+                "d": "This is incorrect as the face and extensor extremities are the primary sites of involvement in infants.",
+                "e": "This distribution pattern (involving the creases of the elbows and knees) is the classic presentation for **childhood and adolescent** atopic dermatitis, not the infantile form."
+            }
+        }
+    },
+    {
+        "question": "While both Atopic Dermatitis (AD) and Psoriasis are inflammatory, they are driven by different primary immune pathways. Which option best contrasts the dominant cytokine profile in AD versus Psoriasis?",
+        "choices": {
+            "a": "AD is Th1-dominant (IFN-γ); Psoriasis is Th2-dominant (IL-4, IL-13)",
+            "b": "Both diseases are Th17-dominant, differing only in their location",
+            "c": "AD is driven by autoantibodies; Psoriasis is driven by complement activation",
+            "d": "Both diseases are primarily driven by IgE-mediated mast cell degranulation",
+            "e": "AD is Th2-dominant (IL-4, IL-13); Psoriasis is Th17/Th1-dominant (IL-17, IL-22)"
+        },
+        "correctAnswer": "e",
+        "reasoning": {
+            "correct": "This option correctly contrasts the two conditions. **Atopic dermatitis (AD)** is a classic **Th2-driven disease**, characterized by cytokines like **IL-4 and IL-13**. **Psoriasis** is primarily a **Th17/Th1-driven disease**, with cytokines like **IL-17 and IL-22** playing a central role in causing epidermal hyperproliferation.",
+            "incorrect": {
+                "a": "This has the pathways reversed.",
+                "b": "This is incorrect. AD is Th2-dominant, not Th17.",
+                "c": "These are not the primary T-cell mediated pathways that define these common inflammatory skin diseases.",
+                "d": "High IgE levels are characteristic of AD, but IgE is not a primary driver of psoriasis."
+            }
+        }
+    },
+    {
+        "question": "A 55-year-old woman presents with progressive, itching hair loss on her scalp. Examination reveals perifollicular erythema, scaling, and several patches of shiny, atrophic skin with loss of follicular openings, most prominent at the frontal hairline. She also has a faint, lacy white pattern on her buccal mucosa. What is the most likely diagnosis?",
+        "choices": {
+            "a": "Discoid Lupus Erythematosus",
+            "b": "Lichen Planopilaris",
+            "c": "Androgenetic Alopecia",
+            "d": "Scalp Psoriasis",
+            "e": "Alopecia Areata"
+        },
+        "correctAnswer": "b",
+        "reasoning": {
+            "correct": "The patient's scalp findings (perifollicular erythema, scaling, and shiny, atrophic skin with **loss of follicular openings**) are all classic signs of **scarring alopecia**. **Lichen Planopilaris (LPP)** is a clinical variant of Lichen Planus that affects the hair follicle. The most definitive clue is the presence of a **\"faint, lacy white pattern on her buccal mucosa,\"** which is the classic oral manifestation of **Lichen Planus**.",
+            "incorrect": {
+                "a": "DLE also causes scarring alopecia. However, the presence of classic oral Lichen Planus (lacy white pattern) makes Lichen Planopilaris a much stronger diagnosis.",
+                "c": "This is common \"pattern baldness.\" It is a **non-scarring** alopecia caused by follicular miniaturization and would not present with shiny, atrophic skin or oral lesions.",
+                "d": "Psoriasis presents as well-demarcated, silvery plaques. It is a **non-scarring** alopecia (except in rare, very severe cases) and is not associated with lacy white oral lesions.",
+                "e": "This is an autoimmune **non-scarring** alopecia. It presents as smooth, circular patches of hair loss but does not cause the atrophy, scarring, or oral lesions described."
+            }
+        }
+    }
+]

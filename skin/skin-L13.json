@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A patient with chronic eczema repeatedly rubs their skin, causing it to become thickened with accentuated skin markings that resemble 'tree bark'. This secondary change is called:",
+        "choices": {
+            "A": "Atrophy",
+            "B": "Lichenification",
+            "C": "Excoriation",
+            "D": "Erosion",
+            "E": "Sclerosis"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "This is the correct term. The document defines **Lichenification** as a \"reactive thickening of the epidermis from repeated rubbing of the skin\". It explicitly states this process results in **\"Accentuated skin markings\"** and can **\"Resemble like 'tree bark'\"**.",
+            "incorrect": {
+                "A": "Atrophy is the opposite; it is a thinning of the skin, making it appear \"paper thin and wrinkled\".",
+                "C": "Excoriation is a surface change resulting from scratching, but it refers to the break in the skin, not the thickening.",
+                "D": "Erosion is a depressed lesion involving the \"loss of a portion or all of the viable epidermal... epithelium\". It is a loss of tissue, not a thickening.",
+                "E": "Sclerosis is a \"hardening or induration of the skin that results from dermal fibrosis\". While the skin is hard, \"lichenification\" is the specific term for the epidermal thickening and accentuated markings caused by rubbing."
+            }
+        }
+    },
+    {
+        "question": "The phenomenon characterized by vasospasm in distal extremities, leading to a triphasic color change (white-blue-red), and strongly associated with systemic sclerosis is called:",
+        "choices": {
+            "A": "'Shawl sign'",
+            "B": "Gottron sign",
+            "C": "Koebner phenomenon",
+            "D": "Auspitz sign",
+            "E": "Raynaud phenomenon"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "This is the correct term. The document states that **Raynaud phenomenon (RP)** and skin sclerosis are \"almost always present\" in Systemic Sclerosis (SSc). RP is defined by a discoloration (white–blue pallor) as the result of **vasospasm**.",
+            "incorrect": {
+                "A": "'Shawl sign' is a \"highly characteristic\" sign of **Dermatomyositis (DM)**, referring to erythema over the posterior neck, upper back, and shoulders.",
+                "B": "Gottron sign is a \"pathognomonic\" sign of **Dermatomyositis (DM)**, described as \"Confluent macular violaceous erythema\" over the MCP/IP joints.",
+                "C": "Koebner phenomenon refers to the appearance of new skin lesions on areas of trauma. It is associated with conditions like psoriasis, not SSc.",
+                "D": "Auspitz sign (pinpoint bleeding on removal of a scale) is characteristic of psoriasis but is not mentioned in the provided text."
+            }
+        }
+    },
+    {
+        "question": "A 30-year-old woman presents with multiple small, rough, dome-shaped papules on the dorsal hands and knees. They are purple and flat-topped. What is the most likely diagnosis pattern?",
+        "choices": {
+            "A": "Papulosquamous reaction pattern",
+            "B": "Vesiculobullous reaction pattern",
+            "C": "Purpuric reaction pattern",
+            "D": "Macular reaction pattern",
+            "E": "Subcutaneous reaction pattern"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The description of **\"purple\" (violaceous)** and **\"flat-topped papules\"** is the classic presentation of Lichen Planus. Lichen Planus is a primary example of the **Papulosquamous Reaction Pattern**.",
+            "incorrect": {
+                "B": "This pattern is characterized by fluid-filled lesions (vesicles or bullae). The patient has solid, raised lesions (papules), not blisters.",
+                "C": "This pattern is defined by purpura, which is non-blanching discoloration from extravasated red blood cells. The patient's lesions are solid, elevated papules.",
+                "D": "This pattern consists of flat, non-palpable lesions (macules or patches). The patient's lesions are raised.",
+                "E": "This pattern involves inflammation of the subcutaneous fat, which would present as deep nodules (panniculitis), not superficial papules."
+            }
+        }
+    },
+    {
+        "question": "A 35-year-old man presents with coin-shaped, erythematous, scaly plaques with oozing and crusting on the legs and arms, distributed symmetrically. What is the most likely diagnosis?",
+        "choices": {
+            "A": "Nummular eczema",
+            "B": "Psoriasis vulgaris",
+            "C": "Pityriasis rosea",
+            "D": "Seborrheic dermatitis",
+            "E": "Tinea corporis"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The key descriptive term is **\"coin-shaped,\"** which is the definition of **\"nummular\"**. The document explicitly lists **\"nummular eczema\"** as a classic example for this lesion shape. The features of **\"oozing and crusting\"** align with an Eczematous Reaction Pattern, further supporting this diagnosis.",
+            "incorrect": {
+                "B": "Psoriasis vulgaris can be nummular, but its characteristic scale is **\"silvery\"** and **\"brittle\"**. It is not typically described as \"oozing and crusting.\"",
+                "C": "Pityriasis rosea features a \"pityriasiform\" scale, which is **\"small and branny\"**, not large, crusted plaques.",
+                "D": "Seborrheic dermatitis involves \"seborrheic\" scales, described as **\"thick, waxy or greasy, yellow-to-brown\"**.",
+                "E": "Tinea corporis is classically \"annular\" (ring-shaped), with an **active, scaly edge that differs from the clearer center**, not a uniform \"coin-shaped\" plaque."
+            }
+        }
+    }
+]

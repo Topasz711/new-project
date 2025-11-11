@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "question": "A 55-year-old patient presents with multiple fragile, flaccid blisters on the trunk and severe, painful erosions in their mouth. Gentle shearing force on normal-appearing skin induces a new erosion. What is this clinical sign, and which condition is it most characteristic of?",
+        "choices": {
+            "A": "Auspitz sign, characteristic of Psoriasis",
+            "B": "Nikolsky sign, characteristic of Pemphigus Vulgaris",
+            "C": "Asboe-Hansen sign, characteristic of Bullous Pemphigoid",
+            "D": "\"Carpet tack\" sign, characteristic of Discoid Lupus",
+            "E": "Koebner phenomenon, characteristic of Psoriasis"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The clinical sign described is the **Nikolsky sign**, which is the ability to induce an erosion on normal-appearing skin with pressure or shear force. This sign indicates acantholysis (loss of cell-to-cell adhesion) in the epidermis. The clinical picture of **flaccid, fragile blisters and severe, painful oral mucous membrane erosions** is classic for **Pemphigus Vulgaris (PV)**.",
+            "incorrect": {
+                "A": "Auspitz sign (pinpoint bleeding upon removal of a scale) is associated with psoriasis, which is not described here. The patient has flaccid blisters and erosions, not the typical scaly plaques of psoriasis.",
+                "C": "The Asboe-Hansen sign (extension of a blister by pressing on it) is explicitly listed as negative in Bullous Pemphigoid. Bullous Pemphigoid also features **tense blisters**, not flaccid ones.",
+                "D": "The \"carpet tack\" sign refers to the keratotic plugs seen on the undersurface of adherent scales removed from a Discoid LE (DLE) lesion. This is a feature of a chronic, scarring plaque, not an acute blistering condition.",
+                "E": "The Koebner phenomenon is the development of new skin lesions (like psoriatic plaques) at sites of trauma. This is different from inducing an erosion by shearing already-present, normal-appearing skin."
+            }
+        }
+    },
+    {
+        "question": "A patient with systemic disease develops a bright red, edematous rash across the cheeks and nasal bridge, sparing the nasolabial folds after sun exposure. The rash is non-scarring. This presentation is best classified as:",
+        "choices": {
+            "A": "Generalized Acute Cutaneous LE (ACLE)",
+            "B": "Localized Discoid LE (DLE)",
+            "C": "Rosacea",
+            "D": "Annular Subacute Cutaneous LE (SCLE)",
+            "E": "Localized Acute Cutaneous LE (ACLE)"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "This is the classic description of the **\"malar rash\"** or **\"butterfly rash\"**. It is described in the lecture as a brightly red, slightly edematous, sharply demarcated rash that is **precipitated by UV light** and **heals without scarring**. This is the hallmark of **Localized Acute Cutaneous LE (ACLE)**.",
+            "incorrect": {
+                "A": "Generalized ACLE is a widespread, maculopapular (morbilliform) eruption, not a rash localized to the face.",
+                "B": "DLE (a form of Chronic Cutaneous LE) is characterized by erythematous plaques that lead to atrophy (**scarring**). The rash in the question is explicitly **non-scarring**.",
+                "C": "Rosacea is listed as a mimic of ACLE. However, the description of a bright red, edematous, non-scarring rash precipitated by UV light in a patient with systemic disease is the definition of the classic ACLE malar rash, not its mimic.",
+                "D": "SCLE lesions are typically annular (ring-shaped) or papulosquamous. Crucially, the **mid-face region is usually spared**. This patient's rash is on the mid-face."
+            }
+        }
+    },
+    {
+        "question": "In a patient with Systemic Sclerosis, the presence of Anti-centromere antibodies is most strongly associated with which clinical subtype?",
+        "choices": {
+            "A": "Limited cutaneous SSc (lcSSc)",
+            "B": "SSc-Polymyositis overlap",
+            "C": "SSc with renal crisis",
+            "D": "Diffuse cutaneous SSc (dcSSc)",
+            "E": "SSc with severe pulmonary fibrosis"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The lecture materials explicitly link **Limited cutaneous SSc (lcSSc)** with the presence of the **Anti-centromere antibody**. The table on page 77 further confirms this, linking \"Centromere\" antibodies to **\"Limited skin sclerosis\"**.",
+            "incorrect": {
+                "B": "The antibody associated with myositis-sclerosis overlap is Anti-PM-Scl.",
+                "C": "Hypertensive renal crisis is most strongly associated with Anti-RNA polymerase III (RNAP III) antibodies.",
+                "D": "Diffuse cutaneous SSc (dcSSc) is associated with Anti-topoisomerase-I (Scl-70) and Anti-RNA polymerase III antibodies.",
+                "E": "Severe pulmonary fibrosis (Interstitial Lung Disease) is most strongly associated with Anti-topoisomerase-I (Scl-70) antibodies."
+            }
+        }
+    },
+    {
+        "question": "An 80-year-old man presents with intensely itchy, red, hive-like plaques on his lower abdomen and flexural surfaces. These lesions have progressed to large, tense bullae. His oral mucosa is notably spared. What is the most likely diagnosis?",
+        "choices": {
+            "A": "Bullous Pemphigoid",
+            "B": "Pemphigus Vulgaris",
+            "C": "Pemphigus Foliaceus",
+            "D": "Systemic Sclerosis",
+            "E": "Dermatitis Herpetiformis"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "This is a textbook presentation of **Bullous Pemphigoid (BP)**. Key features that match perfectly include: **older adult** (patient is 80), **pruritic** (intensely itchy) **urticarial plaques** (hive-like), **large, tense bullae**, common location on the **lower abdomen and flexural surfaces**, and oral mucous membrane erosions occurring in a minority (i.e., **often spared**).",
+            "incorrect": {
+                "B": "PV is characterized by **flaccid, fragile blisters**, not tense ones. Furthermore, oral mucous membrane involvement is very common, whereas it is spared in this patient.",
+                "C": "PF presents as scaly, crusted erosions in a seborrheic distribution (face, scalp, upper trunk). It does not present as large, tense bullae.",
+                "D": "Systemic Sclerosis is a connective tissue disease causing skin hardening (sclerosis), not a primary blistering (bullous) disorder.",
+                "E": "Dermatitis Herpetiformis is typically characterized by small, intensely itchy vesicles (not large bullae) in groups, primarily on **extensor surfaces** (like elbows and knees), not flexural surfaces."
+            }
+        }
+    }
+]

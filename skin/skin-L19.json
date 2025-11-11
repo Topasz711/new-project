@@ -1,1 +1,162 @@
-[]
+[
+    {
+        "question": "Which of the following agents is classified as a superpotent (Class 1) topical corticosteroid according to the provided material?",
+        "choices": {
+            "A": "Clobetasol propionate 0.05%",
+            "B": "Betamethasone valerate 0.1%",
+            "C": "Triamcinolone acetonide 0.1%",
+            "D": "Hydrocortisone acetate 1%",
+            "E": "Desoximetasone 0.25%"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The document \"L19.1\" explicitly categorizes topical glucocorticoids by potency. In the table on page 12, **Clobetasol propionate 0.05%** is listed under **Class 1 (Ultra high / super-potent)**. This is reinforced on page 14, which lists it under \"Superpotent\".",
+            "incorrect": {
+                "B": "Betamethasone valerate 0.1% is listed as a Class 3 agent and as \"Moderate\" potency.",
+                "C": "Triamcinolone acetonide 0.1% is listed as a Class 4 agent and as \"Moderate\" potency.",
+                "D": "Hydrocortisone (acetate) 0.5-2.5% is listed as a Class 7 (Low potency) agent. Page 14 lists Hydrocortisone acetate 0.1% as \"Very mild\".",
+                "E": "Desoximetasone 0.25% is listed as a Class 2 (High potency) agent and as \"Potent\" on page 14, but not Class 1 (Superpotent)."
+            }
+        }
+    },
+    {
+        "question": "According to the presentation, the cutaneous side effects of topical glucocorticosteroids, such as atrophy, are mainly due to which therapeutic effect?",
+        "choices": {
+            "A": "Anti-proliferative effects",
+            "B": "Anti-inflammatory effects",
+            "C": "Vasoconstrictive effects",
+            "D": "Negative feedback effects",
+            "E": "Immunosuppressive effects"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The document \"L19.1,\" on page 21, directly addresses the cause of adverse cutaneous effects. It states they are \"mainly due to **anti-proliferative effects**\". This anti-proliferative action on epidermal and dermal cells leads to thinning (**atrophy**).",
+            "incorrect": {
+                "B": "Anti-inflammatory effects are a primary therapeutic action of corticosteroids but are not cited as the main cause of atrophy.",
+                "C": "Vasoconstrictive effects are a therapeutic action and are used as a proxy to measure the potency of a topical steroid, but this effect is not the primary mechanism of skin atrophy.",
+                "D": "Negative feedback refers to the systemic effect of exogenous steroids on the HPA axis, which is a systemic side effect, not the primary mechanism for local cutaneous atrophy.",
+                "E": "Immunosuppressive effects are another therapeutic action but are distinct from the anti-proliferative effect on keratinocytes and fibroblasts that results in skin thinning."
+            }
+        }
+    },
+    {
+        "question": "Which of the following body regions has the least penetration (lowest absorption) for topical corticosteroids?",
+        "choices": {
+            "A": "Scrotum",
+            "B": "Eyelids",
+            "C": "Chest and back",
+            "D": "Face",
+            "E": "Palmar and plantar skin"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The document \"L19.1,\" on page 17, provides a ranked list of regional differences in drug absorption. **Palmar and plantar skin** is ranked **#9** (nails are #10), indicating they have the **least penetration** due to their thick stratum corneum.",
+            "incorrect": {
+                "A": "The scrotum is ranked #2, indicating extremely high absorption.",
+                "B": "The eyelids are ranked #3, indicating very high absorption.",
+                "C": "The chest and back are ranked #5, indicating moderate absorption.",
+                "D": "The face is ranked #4, indicating high absorption."
+            }
+        }
+    },
+    {
+        "question": "A 30-year-old woman complains of new-onset monomorphous papulopustules on her chest and back, which appeared after she started using a strong steroid on those areas for eczema. She also notes increased hair growth. Which side effects is she experiencing?",
+        "choices": {
+            "A": "Irritant dermatitis and purpura",
+            "B": "Tachyphylaxis and striae",
+            "C": "Epidermal atrophy and hypopigmentation",
+            "D": "Periorificial dermatitis and telangiectasia",
+            "E": "Acneiform eruption and hypertrichosis"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The document \"L19.1,\" on page 26, describes **\"Acneiform eruption\"** as a **\"crop of monomorphous papulopustules on face, chest and back\"**, which matches the first symptom. The same page describes **\"Hypertrichosis\"** (**increased hair growth**) as a side effect, also confirmed on page 29.",
+            "incorrect": {
+                "A": "Purpura (bruising) is due to vascular fragility from atrophy, not papulopustules.",
+                "B": "Tachyphylaxis is a decrease in drug effectiveness. Striae are linear stretch marks, not papulopustules.",
+                "C": "Epidermal atrophy is skin thinning, and hypopigmentation is a loss of skin color, which does not match the patient's description.",
+                "D": "Periorificial dermatitis is a rash around the mouth and nose. Telangiectasia is the visible dilation of blood vessels, not pustules."
+            }
+        }
+    },
+    {
+        "question": "According to the provided text, which of the following conditions is an absolute contraindication for the use of methotrexate?",
+        "choices": {
+            "A": "Diabetes mellitus",
+            "B": "Renal dysfunction",
+            "C": "Active infection",
+            "D": "Pregnancy",
+            "E": "Excessive alcohol consumption"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The document \"L19.2,\" on page 22, provides a specific table of \"Risks and Precautions With Methotrexate Use\". Under the heading **\"Absolute contraindications,\"** it explicitly lists **\"Pregnancy (category X)\"**.",
+            "incorrect": {
+                "A": "Diabetes mellitus is listed under \"Relative contraindications\".",
+                "B": "Renal dysfunction is listed under \"Relative contraindications\".",
+                "C": "Active infection is listed under \"Relative contraindications\".",
+                "E": "Excessive alcohol consumption is listed under \"Relative contraindications\"."
+            }
+        }
+    },
+    {
+        "question": "A 65-year-old man with pemphigus vulgaris has been managed with high-dose oral prednisone for 18 months. Which cluster of findings would be most consistent with major side effects of his long-term therapy?",
+        "choices": {
+            "A": "Abdominal striae, xerophthalmia, and elevated liver function tests.",
+            "B": "Recent-onset hearing loss, peripheral neuropathy, and hypokalemia.",
+            "C": "Productive cough, hypoglycemia, and reduced night vision.",
+            "D": "New-onset posterior subcapsular cataracts, hyperglycemia, and signs of muscle atrophy.",
+            "E": "Leukopenia, hyperkalemia, and pancreatitis."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "This cluster aligns perfectly with the **\"MAJOR SIDE EFFECTS OF LONG-TERM SYSTEMIC GLUCOCORTICOID THERAPY\"** table in \"L19.2\" on page 6. The table lists **\"Cataracts\"** (Ophthalmologic), **\"Hyperglycemia\"** (Metabolic), and **\"Muscle atrophy\"** / **\"Myopathy\"** (Musculoskeletal).",
+            "incorrect": {
+                "A": "\"Xerophthalmia\" (dry eyes) is a classic acute side effect of systemic retinoids, not long-term steroids.",
+                "B": "Hearing loss is not listed as a major side effect. Peripheral neuropathy and hypokalemia are listed.",
+                "C": "Long-term glucocorticoid use causes **\"Hyperglycemia\"**, not hypoglycemia. \"Reduced night vision\" is a known side effect of systemic retinoids.",
+                "E": "Long-term glucocorticoid use typically causes **\"Leukocytosis\"** (high WBCs), not leukopenia, and **\"Hypokalemic alkalosis\"** (low potassium), not hyperkalemia."
+            }
+        }
+    },
+    {
+        "question": "A 50-year-old patient with severe psoriasis and type 2 diabetes is treated with a weekly oral agent. They present with fatigue, pallor, and oral ulcers. Labs reveal significant anemia and leukopenia. Which medication is most likely responsible, and what monitoring is critical?",
+        "choices": {
+            "A": "Methotrexate; monitoring a complete blood count (CBC) is critical.",
+            "B": "Dupilumab; monitoring for injection site reactions is critical.",
+            "C": "Acitretin; monitoring lipid levels and LFTs is critical.",
+            "D": "Hydroxyzine; monitoring for sedation is the primary concern.",
+            "E": "Ciclosporine; monitoring renal function and potassium levels is critical."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "**Methotrexate** is an oral agent used for psoriasis. The patient's symptoms (**fatigue, pallor, anemia, leukopenia, oral ulcers**) are classic signs of its common adverse effects, specifically **\"Myelosuppression (acute)\"** and **\"GI distress\" (mucositis/oral ulcers)**. The required **\"Laboratory Monitoring\"** for methotrexate explicitly includes **\"CBC, platelets\"**.",
+            "incorrect": {
+                "B": "Dupilumab is an injectable biologic agent, not an oral agent.",
+                "C": "Acitretin's primary side effects are mucocutaneous and metabolic (hyperlipidemia), not this severe myelosuppression profile.",
+                "D": "Hydroxyzine is a first-generation antihistamine and is not a primary therapy for severe psoriasis.",
+                "E": "Ciclosporine's hallmark \"Serious Adverse Effects\" are nephrotoxicity and hyperkalemia, not the severe bone marrow suppression described."
+            }
+        }
+    },
+    {
+        "question": "Ciclosporine exerts its immunosuppressive effect by first binding to cyclophilin. What is the immediate downstream consequence of this drug-immunophilin complex formation?",
+        "choices": {
+            "A": "It directly blocks the T-cell receptor from binding to the MHC complex.",
+            "B": "It inhibits calcineurin, preventing the dephosphorylation of NFAT.",
+            "C": "It enhances the activity of FKBP, leading to T-cell anergy.",
+            "D": "It directly binds to DNA, blocking the transcription of IL-2.",
+            "E": "It promotes the release of intracellular calcium stores."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The document \"L19.2,\" page 24, details this mechanism. Ciclosporine binds to cyclophilin. This \"drug-immunophilin complex binds to **calcineurin** and **blocks its ability to dephosphorylate NFAT**\". This action prevents NFAT from moving to the nucleus to transcribe cytokine genes like IL-2.",
+            "incorrect": {
+                "A": "Ciclosporine acts downstream of the initial T-cell receptor binding event.",
+                "C": "Ciclosporine binds to cyclophilin. Tacrolimus and pimecrolimus bind to FKBP.",
+                "D": "The complex prevents the transcription factor NFAT from being dephosphorylated and translocating to the nucleus to bind to DNA.",
+                "E": "The release of intracellular calcium is an upstream event that activates calcineurin."
+            }
+        }
+    }
+]

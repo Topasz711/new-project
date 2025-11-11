@@ -1,1 +1,162 @@
-[]
+[
+    {
+        "question": "A patient presents with acute eczema. What is the key histopathological feature characterized by intercellular edema in the epidermis, as mentioned in the lecture?",
+        "choices": {
+            "A": "Hyperkeratosis",
+            "B": "Spongiosis",
+            "C": "Parakeratosis",
+            "D": "Acanthosis",
+            "E": "Lichenification"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The lecture file explicitly defines the mechanism of acute eczema on Page 5. It shows that **\"Intercellular edema\"** (fluid between the skin cells) is histopathologically known as **\"spongiosis\"**. The diagram on Page 4 also points from \"Acute\" eczema to findings like \"Serum Ozzing\" and \"vesicle\", which are clinical results of this epidermal edema.",
+            "incorrect": {
+                "A": "Hyperkeratosis is a thickening of the stratum corneum (the outermost layer of skin). It is a feature of chronic eczema, not the acute edematous stage.",
+                "C": "Parakeratosis is the retention of nuclei in the stratum corneum, which is associated with scaling and inflammation, but \"spongiosis\" is the specific term for the intercellular edema itself.",
+                "D": "Acanthosis is a thickening of the entire epidermis (specifically the stratum spinosum). Like hyperkeratosis, it is a reactive change more typical of chronic eczema.",
+                "E": "Lichenification is a clinical term, not a primary histopathological one. It describes the thickened, leathery skin with accentuated skin lines that results from chronic scratching in chronic eczema."
+            }
+        }
+    },
+    {
+        "question": "A child with Atopic Dermatitis has accentuated lines or grooves below the margin of their lower eyelids. What is this associated clinical sign called?",
+        "choices": {
+            "A": "Allergic Shiners",
+            "B": "Keratosis Pilaris",
+            "C": "White Dermographism",
+            "D": "Dennie-Morgan folds",
+            "E": "Ichthyosis Vulgaris"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The lecture file provides a specific definition for this sign on Page 14. It states that **\"Dennie-Morgan folds... consist of accentuated lines or grooves below the margin of the lower eyelid\"**. This is listed as one of the \"Associated Features\" that are suggestive of Atopic Dermatitis (AD).",
+            "incorrect": {
+                "A": "Allergic Shiners refers to the \"darkening beneath the eyes\", not the skin folds or lines.",
+                "B": "Keratosis Pilaris refers to rough, follicular papules (often called \"chicken skin\"), usually on the extensor surfaces of the arms.",
+                "C": "White Dermographism is an 'Atypical vascular response' seen in AD where stroking the skin causes a white mark instead of a red one. It is not an eyelid feature.",
+                "E": "Ichthyosis Vulgaris is characterized by 'fish-scale' dry skin, most commonly seen on the shins."
+            }
+        }
+    },
+    {
+        "question": "A patient presents with several intensely pruritic, 'coin-shaped' plaques on the extensor surfaces of their arms and legs. What is the most likely diagnosis?",
+        "choices": {
+            "A": "Seborrheic Dermatitis",
+            "B": "Atopic Dermatitis",
+            "C": "Psoriasis",
+            "D": "Pityriasis Alba",
+            "E": "Nummular Eczema"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The description in the question is the classic definition of **Nummular Eczema**. The lecture file (Page 33) states that **'nummulus' means \"coin-like\"** and the condition is **\"Characterized by discoid or coin-shaped plaques\"**. It also notes that these plaques \"Occur on the extensor surfaces of the hands, arms, and legs\" and are **\"Usually associated pruritus\"** (itching).",
+            "incorrect": {
+                "A": "Seborrheic Dermatitis affects 'seborrheic areas' (oily areas) like the scalp, face, and upper trunk, not coin-shaped plaques on the limbs.",
+                "B": "While Nummular Eczema is \"More frequent in pt with AD\", the classic AD presentation involves flexural (in the folds) lesions, especially in adults. The \"coin-shaped\" description is the specific key for Nummular Eczema.",
+                "C": "Psoriasis forms plaques on extensor surfaces, but the specific key descriptor \"coin-shaped\" (nummular) points directly to this type of eczema.",
+                "D": "Pityriasis Alba presents as 'asymptomatic hypopigmented patch with fine scale', which is pale and not itchy, the opposite of the pruritic, red plaques described."
+            }
+        }
+    },
+    {
+        "question": "A patient has 'chalk-white' depigmented macules. The pathogenesis of Vitiligo is primarily described as:",
+        "choices": {
+            "A": "Blockage and inflammation of eccrine sweat ducts",
+            "B": "Direct damage to skin by an irritant substance",
+            "C": "A genetic mutation in the Filaggrin gene",
+            "D": "Autoimmune destruction of melanocytes",
+            "E": "Infection by Pityrosporum ovale"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The question's \"chalk-white\" macules are a classic clinical sign of Vitiligo. The lecture file explicitly states on Page 44 that the pathogenesis of **Vitiligo** is **\"Autoimmune Destruction of melanocytes\"**.",
+            "incorrect": {
+                "A": "Blockage and inflammation of eccrine sweat ducts is the pathogenesis of **Miliaria** (sweat rash).",
+                "B": "Direct damage to skin by an irritant substance is the cause of Irritant Contact Dermatitis.",
+                "C": "A genetic mutation in the Filaggrin gene is mentioned as a potential genetic factor in Dyshidrosis.",
+                "E": "Infection by Pityrosporum ovale (Malassezia) is associated with Seborrheic dermatitis and Pityriasis versicolor."
+            }
+        }
+    },
+    {
+        "question": "How does the lecture content distinguish a Keloid from a Hypertrophic Scar?",
+        "choices": {
+            "A": "A Keloid rarely recurs after excision.",
+            "B": "A Keloid will usually resolve on its own.",
+            "C": "A Keloid is common on the central face.",
+            "D": "A Keloid grows beyond the original scar line.",
+            "E": "A Keloid is common in all races."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The comparison table on Page 69 provides a clear distinction. Under the **\"Growth\"** characteristic, it states that a Hypertrophic Scar stays \"Within scar line,\" whereas a **Keloid grows \"Beyond scar line\"**. This is the key clinical difference.",
+            "incorrect": {
+                "A": "This is false. The table states that a Keloid **\"Usually yes\"** recurs with excision, while a Hypertrophic Scar \"Usually no\".",
+                "B": "This is false. Under \"Resolution,\" the table says **\"No\"** for Keloids and \"Usually\" for Hypertrophic Scars.",
+                "C": "This is false. The table notes **\"rare on central face\"** as a location for Keloids.",
+                "E": "This is false. The table specifies **\"Usually dark skin\"** for Keloids, while Hypertrophic Scars affect \"All\" races."
+            }
+        }
+    },
+    {
+        "question": "A patient in a hot climate has an intensely itchy rash of '2-4 mm red non follicular papules' on their trunk, also known as 'prickly heat'. Which type of Miliaria is this?",
+        "choices": {
+            "A": "Miliaria Profunda",
+            "B": "Miliaria Cruris",
+            "C": "Miliaria Pustulosa",
+            "D": "Miliaria Rubra",
+            "E": "Miliaria Crystallina"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The description in the question perfectly matches the lecture's definition of **Miliaria Rubra**. It is associated with **\"Heat /humidity\"**, presents as **\"2-4 mm red non follicular papules\"**, is **\"Very itchy\"**, and is explicitly labeled as **\"prickly heat\"** (Page 82).",
+            "incorrect": {
+                "A": "Miliaria Profunda is described as \"Asymptomatic deep papules\" that are \"Flesh colours\", not red and itchy.",
+                "B": "Miliaria Cruris is not mentioned in the lecture file.",
+                "C": "The lesions in the question are papules (bumps), not pustules (pus-filled).",
+                "E": "Miliaria Crystallina presents as \"1-2 mm superficial clear blisters\" and is characterized by \"No inflammation\", so it would not be red or itchy."
+            }
+        }
+    },
+    {
+        "question": "A 34-year-old woman, who is 7 months pregnant, presents with asymptomatic, symmetric, blotchy hyperpigmented patches on her cheeks and upper lip. The lesions have irregular borders and have become darker after a recent vacation. What is the most likely diagnosis?",
+        "choices": {
+            "A": "Pityriasis Versicolor",
+            "B": "Hard Corn",
+            "C": "Callus",
+            "D": "Melasma",
+            "E": "Pityriasis Alba"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "This is the classic presentation of **Melasma**. The key features are: **\"Symmetric hyperpigmented patches\"** with an **\"irregular boarder\"**, common location on the face, and two major triggers described in the vignette are present: **hormones** (it is called the **\"Mask of pregnancy\"**) and **sun exposure** (it is a **\"photoaging disorder\"** worsened by UV and visible light).",
+            "incorrect": {
+                "A": "Pityriasis Versicolor typically causes **hypopigmented (light)** patches, not dark patches on the face.",
+                "B": "Hard Corn and Callus are thick keratotic lesions on pressure points, not a pigmented patch on the face.",
+                "C": "Hard Corn and Callus are thick keratotic lesions on pressure points, not a pigmented patch on the face.",
+                "E": "Pityriasis Alba presents as **hypopigmented (light)** patches, which is the opposite of the dark patches described."
+            }
+        }
+    },
+    {
+        "question": "A 9-year-old child with a history of atopic dermatitis is brought in for evaluation. The mother notes several poorly defined, pale-white patches on the child's cheeks that have been present for several months. The lesions are asymptomatic but have a fine, 'powdery' scale upon light scratching. What is the most likely diagnosis?",
+        "choices": {
+            "A": "Pityriasis Alba",
+            "B": "Tinea Versicolor (Pityriasis Versicolor)",
+            "C": "Melasma",
+            "D": "Vitiligo",
+            "E": "Nummular Eczema"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The clinical picture is a perfect match for **Pityriasis Alba**. Key features from the lecture (Page 18) include: **\"Asymptomatic hypopigmented patch with fine scale\"**, **Location: face** (cheeks), and association with **Atopic Dermatitis** history. The lesions are described as **\"pale-white\"** (hypopigmented) and **\"poorly defined\"**.",
+            "incorrect": {
+                "B": "Tinea Versicolor is a differential diagnosis, but less likely on a child's face than P. alba. The \"powdery\" scale is more characteristic of P. alba.",
+                "C": "Melasma presents as **hyperpigmented (dark)** patches.",
+                "D": "Vitiligo lesions are **\"Chalk-white/ Ivory white\"** (completely white, not \"pale-white\"), **\"well-demarcated\"**, and typically lack the fine scale.",
+                "E": "Nummular Eczema presents as red, itchy 'coin-shaped plaques', not asymptomatic white patches."
+            }
+        }
+    }
+]
