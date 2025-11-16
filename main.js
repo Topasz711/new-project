@@ -186,10 +186,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // --- Business Logic Functions ---
-    const startNewMcqQuiz = (quizData, containerId, quizFile, originalDataRef) => {
-        if (!quizData || quizData.length === 0) { showPlaceholder(containerId); return; }
-        initializeQuizState(quizData, containerId, originalDataRef, quizFile);
-        buildMcqQuiz(quizData, containerId);
+    const startNewMcqQuiz = (quizData, containerId, quizFile, originalDataRef, navLinks) => {
+    if (!quizData || quizData.length === 0) { showPlaceholder(containerId); return; }
+    initializeQuizState(quizData, containerId, originalDataRef, quizFile);
+    buildMcqQuiz(quizData, containerId, navLinks);
         
         // --- START FIX for Progress Bar not showing on subsequent manual tab clicks ---
         const tracker = document.getElementById('progress-tracker');
@@ -203,12 +203,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // NOTE: startNewLabQuiz ต้องถูกประกาศใน Global Scope เพื่อให้ Event Listener ใน main.js เรียกได้
     // ดังนั้น เราต้องเช็คว่า initializeLabQuizState มีอยู่จริงก่อนเรียกใช้ 
-    const startNewLabQuiz = (quizData, containerId, quizFile) => {
-        // ตรวจสอบว่าฟังก์ชัน Lab Quiz ถูกโหลดมาหรือไม่ (อยู่ใน labQuiz.js)
-        if (typeof initializeLabQuizState === 'function') {
-            if (!quizData || quizData.length === 0) { showPlaceholder(containerId); return; }
-            initializeLabQuizState(quizData, containerId, quizFile);
-            buildLabQuiz(quizData, containerId);
+    const startNewLabQuiz = (quizData, containerId, quizFile, navLinks) => {
+    // ตรวจสอบว่าฟังก์ชัน Lab Quiz ถูกโหลดมาหรือไม่ (อยู่ใน labQuiz.js)
+    if (typeof initializeLabQuizState === 'function') {
+        if (!quizData || quizData.length === 0) { showPlaceholder(containerId); return; }
+        initializeLabQuizState(quizData, containerId, quizFile);
+        buildLabQuiz(quizData, containerId, navLinks);
         } else {
             console.error("Lab Quiz module not loaded.");
             showPlaceholder(containerId);
@@ -343,10 +343,28 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Event Delegation for all Quiz Buttons ---
     const mainContent = document.getElementById('main-content');
     if (mainContent) mainContent.addEventListener('click', async (event) => {
-        const button = event.target.closest('.lecture-btn');
-        if (!button) return;
+    const button = event.target.closest('.lecture-btn');
+    if (!button) return;
 
-        const quizFile = button.dataset.quizFile;
+    // --- Start: Find Neighbors ---
+    let prevButton = null;
+    let nextButton = null;
+    // Find the container (grid for lectures, flex for pharma tabs)
+    const buttonListContainer = button.closest('.grid, .flex'); 
+    if (buttonListContainer) {
+        const allButtons = Array.from(buttonListContainer.querySelectorAll('.lecture-btn'));
+        const currentIndex = allButtons.indexOf(button);
+        if (currentIndex > 0) {
+            prevButton = allButtons[currentIndex - 1];
+        }
+        if (currentIndex < allButtons.length - 1) {
+            nextButton = allButtons[currentIndex + 1];
+        }
+    }
+    const navLinks = { prev: prevButton, next: nextButton };
+    // --- End: Find Neighbors ---
+
+    const quizFile = button.dataset.quizFile;
         const quizContainerId = button.dataset.quizContainer;
         const quizTitle = button.dataset.quizTitle;
         const quizSubtitle = button.dataset.quizSubtitle;
@@ -375,9 +393,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (quizType === 'lab') {
-                // Call the separate Lab Quiz initialization function
-                startNewLabQuiz(fetchedData, quizContainerId, quizFile); 
-            }
+    // Call the separate Lab Quiz initialization function
+    startNewLabQuiz(fetchedData, quizContainerId, quizFile, navLinks); 
+}
             
             // Set Quiz Titles and Start MCQ
             if (parentPaneId === 'pharmacologyContent') {
@@ -385,9 +403,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 const subtitleEl = document.getElementById('pharma-quiz-subtitle');
                 if (titleEl) titleEl.textContent = quizTitle || 'Pharmacology Quiz';
                 if (subtitleEl) subtitleEl.textContent = quizSubtitle || 'Test your knowledge.';
-                if (quizType === 'mcq') startNewMcqQuiz(fetchedData, quizContainerId, quizFile);
-
-            } else if (parentPaneId === 'infectiousContent') {
+                if (quizType === 'mcq') startNewMcqQuiz(fetchedData, quizContainerId, quizFile, null, navLinks);
+} else if (parentPaneId === 'infectiousContent') {
                 document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
                 if (quizType === 'lab') {
                     const titleEl = document.getElementById('infectious-lab-quiz-title');
@@ -399,7 +416,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const quizView = document.getElementById('infectiousQuizView');
                     if (titleEl) titleEl.textContent = quizTitle || 'Infectious Disease Quiz';
                     if (quizView) quizView.classList.remove('hidden');
-                    if (quizType === 'mcq') startNewMcqQuiz(fetchedData, quizContainerId, quizFile);
+                    if (quizType === 'mcq') startNewMcqQuiz(fetchedData, quizContainerId, quizFile, null, navLinks);
                 }
             } else if (parentPaneId === 'epidemiologyContent') {
                 const listView = document.getElementById('epidemiologyListView');
@@ -408,16 +425,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (listView) listView.classList.add('hidden');
                 if (titleEl) titleEl.textContent = quizTitle || 'Epidemiology Quiz';
                 if (quizView) quizView.classList.remove('hidden');
-                if (quizType === 'mcq') startNewMcqQuiz(fetchedData, quizContainerId, quizFile);
-
-            } else if (parentPaneId === 'skinContent') {
+                if (quizType === 'mcq') startNewMcqQuiz(fetchedData, quizContainerId, quizFile, null, navLinks);
+} else if (parentPaneId === 'skinContent') {
                 const listView = document.getElementById('skinListView');
                 const titleEl = document.getElementById('skin-quiz-title');
                 const quizView = document.getElementById('skinQuizView');
                 if (listView) listView.classList.add('hidden');
                 if (titleEl) titleEl.textContent = quizTitle || 'Skin Quiz';
                 if (quizView) quizView.classList.remove('hidden');
-                if (quizType === 'mcq') startNewMcqQuiz(fetchedData, quizContainerId, quizFile);
+                if (quizType === 'mcq') startNewMcqQuiz(fetchedData, quizContainerId, quizFile, null, navLinks);
             }
             
             saveLastPage(parentPaneId, quizFile);
@@ -512,7 +528,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // --- MCQ Quiz Functions ---
-function buildMcqQuiz(quizData, containerId) {
+function buildMcqQuiz(quizData, containerId, navLinks) {
     const quizContainer = document.getElementById(containerId);
     if (!quizContainer) return;
 
@@ -558,6 +574,33 @@ function buildMcqQuiz(quizData, containerId) {
     quizContainer.appendChild(fragment);
     quizContainer.querySelectorAll('.check-btn').forEach(button => button.addEventListener('click', checkMcqAnswer));
     restoreQuiz(containerId);
+    if (navLinks) {
+        const navContainer = document.createElement('div');
+        navContainer.className = 'flex justify-between mt-8 pt-4 border-t dark:border-gray-700';
+
+        const prevNavButton = document.createElement('button');
+        if (navLinks.prev) {
+            prevNavButton.className = 'prev-lecture-btn text-left bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-200 font-bold py-2 px-4 rounded-lg transition-colors';
+            prevNavButton.innerHTML = `⬅️ ${navLinks.prev.innerHTML}`;
+            prevNavButton.onclick = () => navLinks.prev.click();
+        } else {
+            prevNavButton.className = 'prev-lecture-btn invisible'; // Keep layout
+        }
+
+        const nextNavButton = document.createElement('button');
+        if (navLinks.next) {
+            nextNavButton.className = 'next-lecture-btn text-right bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors';
+            nextNavButton.innerHTML = `${navLinks.next.innerHTML} ➡️`;
+            nextNavButton.onclick = () => navLinks.next.click();
+        } else {
+            nextNavButton.className = 'next-lecture-btn invisible';
+        }
+
+        navContainer.appendChild(prevNavButton);
+        navContainer.appendChild(nextNavButton);
+        quizContainer.appendChild(navContainer);
+    }
+    // --- End: Build Navigation ---
 }
 
 function checkMcqAnswer(event) {

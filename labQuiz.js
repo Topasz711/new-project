@@ -57,7 +57,7 @@ function initializeLabQuizState(quizData, containerId, quizFile) {
 /**
  * Builds the HTML structure for the Lab Quiz based on quizData.
  */
-function buildLabQuiz(quizData, containerId) {
+function buildLabQuiz(quizData, containerId, navLinks) {
     const quizContainer = document.getElementById(containerId);
     if (!quizContainer) return;
 
@@ -160,6 +160,34 @@ function buildLabQuiz(quizData, containerId) {
     quizContainer.appendChild(fragment);
     quizContainer.querySelectorAll('.check-lab-btn').forEach(btn => btn.addEventListener('click', checkLabAnswer));
     restoreQuiz(containerId);
+    // --- Start: Build Navigation ---
+    if (navLinks) {
+        const navContainer = document.createElement('div');
+        navContainer.className = 'flex justify-between mt-8 pt-4 border-t dark:border-gray-700';
+
+        const prevNavButton = document.createElement('button');
+        if (navLinks.prev) {
+            prevNavButton.className = 'prev-lecture-btn text-left bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-200 font-bold py-2 px-4 rounded-lg transition-colors';
+            prevNavButton.innerHTML = `⬅️ ${navLinks.prev.innerHTML}`;
+            prevNavButton.onclick = () => navLinks.prev.click();
+        } else {
+            prevNavButton.className = 'prev-lecture-btn invisible'; // Keep layout
+        }
+
+        const nextNavButton = document.createElement('button');
+        if (navLinks.next) {
+            nextNavButton.className = 'next-lecture-btn text-right bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors';
+            nextNavButton.innerHTML = `${navLinks.next.innerHTML} ➡️`;
+            nextNavButton.onclick = () => navLinks.next.click();
+        } else {
+            nextNavButton.className = 'next-lecture-btn invisible';
+        }
+
+        navContainer.appendChild(prevNavButton);
+        navContainer.appendChild(nextNavButton);
+        quizContainer.appendChild(navContainer);
+    }
+    // --- End: Build Navigation ---
 }
 
 
