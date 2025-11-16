@@ -550,7 +550,7 @@ function buildMcqQuiz(quizData, containerId) {
 
         questionElement.appendChild(questionContent);
         if (item.imageUrl) questionElement.appendChild(imageElement);
-        questionElement.innerHTML += `<div class="choices space-y-3">${choicesHTML}</div><button class="check-btn mt-6 w-full sm:w-auto bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700 dark:hover:bg-blue-500" data-question-index="${index}">Check Answer</button><div class="reasoning hidden opacity-0 max-h-0 mt-6 p-4 border-l-4"><h3 class="font-bold text-lg mb-2"></h3><div></div></div>`;
+        questionElement.innerHTML += `<div class="choices space-y-3">${choicesHTML}</div><button class="check-btn mt-6 w-full sm:w-auto bg-blue-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-700 dark:hover:bg-blue-500" data-question-index="${index}">Check Answer</button><div class="reasoning hidden opacity-0 mt-6 p-4 border-l-4"><h3 class="font-bold text-lg mb-2"></h3><div></div></div>`;
 
         fragment.appendChild(questionElement);
     });
@@ -630,8 +630,8 @@ function showMcqResult(card, questionData, userAnswer, isCorrect) {
         if (isCorrect) {
             resultTitle.textContent = '✅ Correct!';
             resultTitle.className = 'font-bold text-lg mb-2 text-blue-700 dark:text-blue-400';
-            reasoningDiv.className = 'reasoning opacity-100 max-h-screen mt-6 p-4 border-l-4 border-blue-500 bg-blue-100 dark:bg-blue-900/50 dark:border-blue-500';
-            
+            reasoningDiv.className = 'reasoning opacity-100 mt-6 p-4 border-l-4 border-blue-500 bg-blue-100 dark:bg-blue-900/50 dark:border-blue-500';
+
             resultText.innerHTML = `<p class="mb-3"></p><h4 class="font-semibold mt-4 mb-2">Why other choices are incorrect:</h4>${incorrectReasonsHTML}`;
             resultText.querySelector('p').textContent = questionData.reasoning.correct;
             
@@ -639,8 +639,8 @@ function showMcqResult(card, questionData, userAnswer, isCorrect) {
         } else {
             resultTitle.textContent = '❌ Incorrect';
             resultTitle.className = 'font-bold text-lg mb-2 text-red-700 dark:text-red-400';
-            reasoningDiv.className = 'reasoning opacity-100 max-h-screen mt-6 p-4 border-l-4 border-red-500 bg-red-50 dark:bg-red-900/20 dark:border-red-500';
-            
+            reasoningDiv.className = 'reasoning opacity-100 mt-6 p-4 border-l-4 border-red-500 bg-red-50 dark:bg-red-900/20 dark:border-red-500';
+
             resultText.innerHTML = `<p class="mb-3"><strong>The correct answer is ${questionData.correctAnswer}.</strong> </p><h4 class="font-semibold mt-4 mb-2">Why other choices are incorrect:</h4>${incorrectReasonsHTML}`;
             resultText.querySelector('p').appendChild(document.createTextNode(questionData.reasoning.correct));
 

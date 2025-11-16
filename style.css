@@ -6,7 +6,7 @@ body {
     font-family: 'Sarabun', 'Inter', sans-serif;
 }
 .reasoning {
-    transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 .pharma-tab-btn.active {
     border-color: #2563eb; /* blue-600 */
