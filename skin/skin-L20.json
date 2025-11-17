@@ -1,1 +1,122 @@
-[]
+[
+    {
+        "question": "A biopsy of a cyst lining shows stratified squamous epithelium that includes a distinct granular cell layer. The cyst is filled with laminated keratin. What is this lesion?",
+        "choices": {
+            "A": "Seborrheic Keratosis",
+            "B": "Epidermoid Cyst",
+            "C": "Steatocystoma",
+            "D": "Dermoid Cyst",
+            "E": "Trichilemmal Cyst"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The histology of an **Epidermoid Cyst** is defined by its wall, which is identical to the epidermis. This includes a stratified squamous epithelium that possesses a **distinct granular cell layer**. It originates from the follicular infundibulum. The laminated keratin found within the cyst is the 'cheesy' material seen clinically.",
+            "incorrect": {
+                "A": "A Seborrheic Keratosis is a solid, exophytic proliferation of basaloid cells, not a large, single dermal cyst.",
+                "C": "A Steatocystoma is a cyst with a wall that contains or is associated with sebaceous glands. Its contents are oily/sebum, not just laminated keratin.",
+                "D": "A Dermoid Cyst is a developmental cyst whose wall, in addition to squamous epithelium, contains adnexal structures such as hair follicles or sebaceous glands.",
+                "E": "A Trichilemmal (or pilar) Cyst is the main differential diagnosis. However, its lining is derived from the outer hair root sheath and is specifically defined by the **absence of a granular cell layer**."
+            }
+        }
+    },
+    {
+        "question": "A 75-year-old man with a history of chronic sun exposure has multiple, rough, scaly, red macules on his balding scalp and forearms. A biopsy shows cytologic atypia, crowding, and loss of polarization confined to the lower portions of the epidermis. The dermis shows marked solar elastosis. What is the diagnosis?",
+        "choices": {
+            "A": "Basal Cell Carcinoma",
+            "B": "Seborrheic Keratosis",
+            "C": "Bowen Disease (SCC in situ)",
+            "D": "Squamous Cell Carcinoma (Invasive)",
+            "E": "Actinic Keratosis"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The diagnosis is **Actinic Keratosis**. The key features are the clinical setting (sun-exposed skin) and the microscopic findings: **partial-thickness atypia**, where the cytologic atypia is **confined to the lower portions of the epidermis**. The presence of **solar elastosis** (thickened, blue-gray elastic fibers from sun damage) in the dermis is a characteristic associated finding.",
+            "incorrect": {
+                "A": "BCC is a malignant tumor composed of basaloid cell nests invading the dermis. It does not present as partial-thickness epidermal dysplasia.",
+                "B": "This is a benign proliferation of basaloid cells and shows no cytologic atypia.",
+                "C": "Bowen disease (SCC in situ) is defined by **full-thickness** epidermal atypia, not partial-thickness.",
+                "D": "An invasive SCC would show atypical squamous cells breaching the basement membrane and **invading the underlying dermis**, which is not described. This lesion is confined to the epidermis."
+            }
+        }
+    },
+    {
+        "question": "A squamous cell carcinoma that arises in a site of chronic trauma, inflammation, or a pre-existing burn scar is known by which eponym?",
+        "choices": {
+            "A": "Marjolin ulcer",
+            "B": "Bowen disease",
+            "C": "Leser-Trelat sign",
+            "D": "Gorlin syndrome",
+            "E": "Rodent ulcer"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The eponym **Marjolin ulcer** specifically refers to a squamous cell carcinoma that develops in a site of chronic inflammation or trauma, such as a chronic ulcer, burn scar, or sinus tract.",
+            "incorrect": {
+                "B": "Bowen disease is the eponym for squamous cell carcinoma **in situ** (a pre-cancer), not an invasive cancer arising in a scar.",
+                "C": "Leser-Trelat sign is a paraneoplastic syndrome describing the sudden eruption of multiple seborrheic keratoses, not a tumor arising in a scar.",
+                "D": "Gorlin syndrome is a genetic syndrome that predisposes patients to multiple basal cell carcinomas, not SCCs in scars.",
+                "E": "Rodent ulcer is a clinical term used to describe the ulcerative appearance of a basal cell carcinoma."
+            }
+        }
+    },
+    {
+        "question": "A 70-year-old man presents with an ulcer on his forehead that has been slowly growing for two years. The clinical notes describe it as a 'rodent ulcer'. A biopsy shows invasive nests of cells with scant cytoplasm and hyperchromatic nuclei. The outermost layer of these nests shows a distinct 'palisading' arrangement, and there is a separation artifact (cleft) between the tumor nests and the dermal stroma. This tumor type rarely metastasizes but can be locally destructive. What is it?",
+        "choices": {
+            "A": "Keratoacanthoma",
+            "B": "Dermatofibroma",
+            "C": "Nodular Melanoma",
+            "D": "Invasive Squamous Cell Carcinoma",
+            "E": "Basal Cell Carcinoma"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The diagnosis is **Basal Cell Carcinoma (BCC)**. The description provides the three classic, pathognomonic features: **Clinical:** **\"Rodent ulcer\"** (classic term for BCC); **Histology:** Nests of basaloid tumor cells with **\"peripheral palisading\"** (nuclei aligning at the edge of the nests), and a **\"separation artifact (cleft)\"** between the tumor nests and the stroma.",
+            "incorrect": {
+                "A": "Keratoacanthoma is a variant of SCC, which is typically very rapidly growing (not slowly) and would show keratinization, not basaloid nests.",
+                "B": "Dermatofibroma is a benign tumor of fibroblasts in the dermis; it is not an epithelial malignancy.",
+                "C": "Melanoma is composed of atypical melanocytes, not basaloid cells with palisading.",
+                "D": "SCC is composed of atypical polygonal (squamous) cells, which are defined by keratinization and intercellular bridges, not palisading basaloid nests."
+            }
+        }
+    },
+    {
+        "question": "A biopsy of a pigmented lesion shows large, atypical cells with irregular nuclei, clumped chromatin, and prominent, eosinophilic (red) nucleoli. These cells are seen proliferating individually and in nests at the dermoepidermal junction and invading downward into the dermis as an expansile nodule. What is this lesion?",
+        "choices": {
+            "A": "Junctional Nevus",
+            "B": "Bowen Disease",
+            "C": "Basal Cell Carcinoma",
+            "D": "Melanoma",
+            "E": "Squamous Cell Carcinoma"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The diagnosis is **Melanoma**. The description of large atypical cells with **\"prominent red (eosinophilic) nucleoli\"** is a classic cytological feature of malignant **melanoma**. The pattern of proliferation at the dermoepidermal junction and **invading downward into the dermis as an expansile nodule** describes the vertical growth phase, which has metastatic potential.",
+            "incorrect": {
+                "A": "A nevus is a benign proliferation of melanocytes. The cells would be small, uniform, and lack the severe cytologic atypia (e.g., prominent red nucleoli) or invasive vertical growth described.",
+                "B": "This is squamous cell carcinoma in situ, a proliferation of atypical keratinocytes, not melanocytes.",
+                "C": "BCC is composed of small, basaloid cells with scant cytoplasm and peripheral palisading, not the features of atypical melanocytes described.",
+                "E": "SCC is composed of atypical keratinocytes, which would show features like keratinization and intercellular bridges, not the features of atypical melanocytes described."
+            }
+        }
+    },
+    {
+        "question": "Activating mutations in the FGFR3 (Fibroblast Growth Factor Receptor 3) gene are commonly found in which benign skin lesion?",
+        "choices": {
+            "A": "Melanocytic Nevus",
+            "B": "Basal Cell Carcinoma",
+            "C": "Epidermoid Cyst",
+            "D": "Seborrheic Keratosis",
+            "E": "Actinic Keratosis"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The pathophysiology of **Seborrheic Keratosis** involves acquired activating mutations in growth factor signaling pathways, most commonly in the **FGFR3** (Fibroblast Growth Factor Receptor 3) gene.",
+            "incorrect": {
+                "A": "Benign melanocytic nevi are most commonly associated with activating mutations in BRAF or RAS.",
+                "B": "The molecular hallmark of BCC is loss-of-function mutations in PTCH1, which activates the Hedgehog signaling pathway.",
+                "C": "This lesion is typically caused by physical obstruction of a hair follicle or trauma, not by a specific oncogenic driver mutation like FGFR3.",
+                "E": "This premalignant lesion is most strongly associated with UV-induced mutations in the TP53 tumor suppressor gene."
+            }
+        }
+    }
+]
