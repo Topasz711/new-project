@@ -1,0 +1,21 @@
+{
+  "name": "Topaz Quiz Platform",
+  "short_name": "Topaz Quiz",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "description": "Medical Quiz Application for Students",
+  "icons": [
+    {
+      "src": "images/quizlablol.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/quizlablol.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
