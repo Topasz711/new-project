@@ -63,3 +63,48 @@ body {
     position: relative;
     overflow: hidden;
 }
+/* Whack-a-Pathogen Styles */
+.whack-cursor {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cdefs%3E%3Cfilter id='s' x='-20%25' y='-20%25' width='140%25' height='140%25'%3E%3CfeDropShadow dx='1' dy='1' stdDeviation='1' flood-opacity='0.3'/%3E%3C/filter%3E%3C/defs%3E%3Cg filter='url(%23s)'%3E%3Cline x1='1' y1='1' x2='10' y2='10' stroke='%2390a4ae' stroke-width='2' stroke-linecap='round'/%3E%3Cpath d='M7 13 L13 7 L25 19 L19 25 Z' fill='rgba(255,255,255,0.95)' stroke='%23546e7a' stroke-width='1'/%3E%3Cline x1='18' y1='26' x2='26' y2='18' stroke='%23546e7a' stroke-width='2' stroke-linecap='round'/%3E%3Cpath d='M9 15 L15 9 L21 15 L15 21 Z' fill='%23ff4081'/%3E%3Cline x1='22' y1='22' x2='28' y2='28' stroke='%23b0bec5' stroke-width='3' stroke-linecap='round'/%3E%3Ccircle cx='29' cy='29' r='2.5' fill='%2300897b'/%3E%3C/g%3E%3C/svg%3E") 0 0, crosshair;
+}
+.whack-cursor:active {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cg%3E%3Cline x1='1' y1='1' x2='10' y2='10' stroke='%2390a4ae' stroke-width='2' stroke-linecap='round'/%3E%3Cpath d='M7 13 L13 7 L25 19 L19 25 Z' fill='rgba(255,255,255,0.95)' stroke='%23546e7a' stroke-width='1'/%3E%3Cline x1='18' y1='26' x2='26' y2='18' stroke='%23546e7a' stroke-width='2' stroke-linecap='round'/%3E%3Cpath d='M17 23 L23 17 L21 15 L15 21 Z' fill='%23ff4081' opacity='0.5'/%3E%3Cline x1='22' y1='22' x2='24' y2='24' stroke='%23b0bec5' stroke-width='3' stroke-linecap='round'/%3E%3Ccircle cx='25' cy='25' r='2.5' fill='%2300897b'/%3E%3C/g%3E%3C/svg%3E") 0 0, crosshair;
+}
+.hole {
+    background: radial-gradient(circle at 50% 10%, #ffffff, #e0f7fa);
+    border: 6px solid #b2ebf2;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: inset 0 10px 15px rgba(0,0,0,0.05);
+    cursor: inherit;
+}
+.hole .germ {
+    width: 100%; height: 100%; position: absolute; top: 100%; left: 0;
+    transition: top 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex; align-items: center; justify-content: center; pointer-events: none;
+}
+.hole.up .germ { top: 5%; pointer-events: auto; }
+.splash {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0);
+    width: 100%; height: 100%; border-radius: 50%; pointer-events: none; z-index: 5; opacity: 0;
+    background-image: radial-gradient(circle at 20% 20%, white 10%, transparent 12%), radial-gradient(circle at 50% 50%, rgba(179, 229, 252, 0.8) 20%, transparent 60%);
+}
+.splash.active { animation: cleanPop 0.4s ease-out forwards; }
+@keyframes cleanPop {
+    0% { transform: translate(-50%, -50%) scale(0.5); opacity: 0.8; }
+    100% { transform: translate(-50%, -50%) scale(1.2); opacity: 0; }
+}
+
+/* Virus Sweeper Styles */
+.sweeper-cell {
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    font-weight: 800; font-size: 1.2rem; border-radius: 4px; user-select: none; transition: all 0.1s;
+    aspect-ratio: 1;
+}
+.sweeper-hidden {
+    background-color: #e2e8f0; border-top: 3px solid #fff; border-left: 3px solid #fff;
+    border-right: 3px solid #94a3b8; border-bottom: 3px solid #94a3b8;
+}
+.sweeper-revealed { background-color: #fff; border: 1px solid #cbd5e1; }
+.num-1 { color: #3b82f6; } .num-2 { color: #16a34a; } .num-3 { color: #ef4444; }

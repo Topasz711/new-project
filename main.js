@@ -332,9 +332,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.getElementById('miniGameMenu').classList.remove('hidden');
                 document.getElementById('snakeGameContainer').classList.add('hidden');
                 document.getElementById('spaceGameContainer').classList.add('hidden');
+                if(document.getElementById('whackGameContainer')) document.getElementById('whackGameContainer').classList.add('hidden');
+                if(document.getElementById('sweeperGameContainer')) document.getElementById('sweeperGameContainer').classList.add('hidden');
+                if(document.getElementById('cancerGameContainer')) document.getElementById('cancerGameContainer').classList.add('hidden');
                 
-                // Stop space game loop if running
+                // Stop games
                 if (window.stopSpaceGame) window.stopSpaceGame();
+                if (window.stopWhackGame) window.stopWhackGame();
+                if (window.stopSweeperGame) window.stopSweeperGame();
+                if (window.stopCancerGame) window.stopCancerGame();
             }
             
             const isQuizLink = link.closest('.lecture-btn');
@@ -533,14 +539,32 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     // --- Mini Game Menu Logic ---
     const miniGameMenu = document.getElementById('miniGameMenu');
+    // Containers
     const snakeContainer = document.getElementById('snakeGameContainer');
     const spaceContainer = document.getElementById('spaceGameContainer');
+    const whackContainer = document.getElementById('whackGameContainer');
+    const sweeperContainer = document.getElementById('sweeperGameContainer');
+    const cancerContainer = document.getElementById('cancerGameContainer');
+    
+    // Helper to hide all games
+    function hideAllGames() {
+        [snakeContainer, spaceContainer, whackContainer, sweeperContainer, cancerContainer].forEach(el => {
+            if(el) el.classList.add('hidden');
+        });
+        // Stop functions
+        if(window.stopSpaceGame) window.stopSpaceGame();
+        if(window.stopWhackGame) window.stopWhackGame();
+        if(window.stopSweeperGame) window.stopSweeperGame();
+        if(window.stopCancerGame) window.stopCancerGame();
+    }
+
+    // --- Button Listeners ---
     
     if (document.getElementById('btn-play-snake')) {
         document.getElementById('btn-play-snake').addEventListener('click', () => {
             miniGameMenu.classList.add('hidden');
             snakeContainer.classList.remove('hidden');
-            if (typeof initGame === 'function') initGame(); // Start Snake
+            if (typeof initGame === 'function') initGame();
         });
     }
 
@@ -548,17 +572,39 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('btn-play-space').addEventListener('click', () => {
             miniGameMenu.classList.add('hidden');
             spaceContainer.classList.remove('hidden');
-            if (typeof initSpaceGame === 'function') initSpaceGame(); // Start Space
+            if (typeof initSpaceGame === 'function') initSpaceGame();
+        });
+    }
+
+    // เพิ่ม 3 ปุ่มนี้ 👇
+    if (document.getElementById('btn-play-whack')) {
+        document.getElementById('btn-play-whack').addEventListener('click', () => {
+            miniGameMenu.classList.add('hidden');
+            whackContainer.classList.remove('hidden');
+            if (typeof initWhackGame === 'function') initWhackGame();
+        });
+    }
+
+    if (document.getElementById('btn-play-sweeper')) {
+        document.getElementById('btn-play-sweeper').addEventListener('click', () => {
+            miniGameMenu.classList.add('hidden');
+            sweeperContainer.classList.remove('hidden');
+            if (typeof initSweeperGame === 'function') initSweeperGame();
+        });
+    }
+
+    if (document.getElementById('btn-play-cancer')) {
+        document.getElementById('btn-play-cancer').addEventListener('click', () => {
+            miniGameMenu.classList.add('hidden');
+            cancerContainer.classList.remove('hidden');
+            if (typeof initCancerGame === 'function') initCancerGame();
         });
     }
 
     document.querySelectorAll('.back-to-games-btn').forEach(btn => {
         btn.addEventListener('click', () => {
-            snakeContainer.classList.add('hidden');
-            spaceContainer.classList.add('hidden');
+            hideAllGames();
             miniGameMenu.classList.remove('hidden');
-            // Stop games if needed
-            if (window.stopSpaceGame) window.stopSpaceGame();
         });
     });
 });
