@@ -327,8 +327,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 const quizView = document.getElementById('skinQuizView');
                 if (list) list.classList.remove('hidden');
                 if (quizView) quizView.classList.add('hidden');
-            } else if (targetId === 'miniGameContent' && typeof initGame === 'function') {
-                initGame();
+            } else if (targetId === 'miniGameContent') {
+                // Reset to menu view when entering Mini-Game tab
+                document.getElementById('miniGameMenu').classList.remove('hidden');
+                document.getElementById('snakeGameContainer').classList.add('hidden');
+                document.getElementById('spaceGameContainer').classList.add('hidden');
+                
+                // Stop space game loop if running
+                if (window.stopSpaceGame) window.stopSpaceGame();
             }
             
             const isQuizLink = link.closest('.lecture-btn');
@@ -524,6 +530,36 @@ document.addEventListener('DOMContentLoaded', () => {
             quizState.incorrectQuestionBlocks = [];
         }
         updateProgressBar();
+    });
+    // --- Mini Game Menu Logic ---
+    const miniGameMenu = document.getElementById('miniGameMenu');
+    const snakeContainer = document.getElementById('snakeGameContainer');
+    const spaceContainer = document.getElementById('spaceGameContainer');
+    
+    if (document.getElementById('btn-play-snake')) {
+        document.getElementById('btn-play-snake').addEventListener('click', () => {
+            miniGameMenu.classList.add('hidden');
+            snakeContainer.classList.remove('hidden');
+            if (typeof initGame === 'function') initGame(); // Start Snake
+        });
+    }
+
+    if (document.getElementById('btn-play-space')) {
+        document.getElementById('btn-play-space').addEventListener('click', () => {
+            miniGameMenu.classList.add('hidden');
+            spaceContainer.classList.remove('hidden');
+            if (typeof initSpaceGame === 'function') initSpaceGame(); // Start Space
+        });
+    }
+
+    document.querySelectorAll('.back-to-games-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            snakeContainer.classList.add('hidden');
+            spaceContainer.classList.add('hidden');
+            miniGameMenu.classList.remove('hidden');
+            // Stop games if needed
+            if (window.stopSpaceGame) window.stopSpaceGame();
+        });
     });
 });
 
