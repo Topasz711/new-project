@@ -1,1 +1,322 @@
-[]
+[
+    {
+        "question": "A neonate is born with a fully formed, warm, telangiectatic plaque with a pale halo on the shoulder. Over the next 4 months, the lesion rapidly shrinks and fades without any treatment. What is the most likely diagnosis?",
+        "choices": {
+            "A": "Infantile Hemangioma (Proliferative phase)",
+            "B": "Segmental Infantile Hemangioma",
+            "C": "Rapidly Involuting Congenital Hemangioma (RICH)",
+            "D": "Pyogenic Granuloma",
+            "E": "Non-Involuting Congenital Hemangioma (NICH)"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The key descriptors are **\"fully formed at birth\" (Congenital)** and **\"rapidly shrinks\" (Involuting)**. **RICH** presents as a fully developed tumor at delivery and undergoes **rapid regression** during the first year of life, unlike IH which grows post-natally.",
+            "incorrect": {
+                "A": "Infantile Hemangiomas (IH) are typically absent or minimal at birth. They exhibit a rapid **proliferative (growth) phase** during the first few months of life (0-5 months), rather than shrinking immediately.",
+                "B": "Segmental IH follows the standard IH course of growth followed by slow involution. It does not **regress immediately** after birth.",
+                "D": "Pyogenic Granuloma is a vascular nodule that is prone to bleeding and ulceration. It does not typically present as a plaque with a halo at birth and does not spontaneously involute rapidly; it often requires removal.",
+                "E": "Non-Involuting Congenital Hemangioma (NICH) is fully formed at birth but, by definition, **persists and does not shrink** or fade significantly over time."
+            }
+        }
+    },
+    {
+        "question": "A biopsy is performed on a lesion suspected to be an Infantile Hemangioma. Which immunohistochemical marker is considered the most specific diagnostic marker that would be positive in all phases of Infantile Hemangioma development but negative in vascular malformations?",
+        "choices": {
+            "A": "VEGF",
+            "B": "GLUT-1",
+            "C": "S-100",
+            "D": "bFGF",
+            "E": "CD34"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "Glucose Transporter-1 (**GLUT-1**) is the **specific immunophenotypic marker** for **Infantile Hemangioma**. It stains positive in both proliferative and involuting phases and **distinguishes IH from vascular malformations**, which are GLUT-1 negative.",
+            "incorrect": {
+                "A": "While VEGF (Vascular Endothelial Growth Factor) drives the growth of hemangiomas, it is not a **specific diagnostic marker** used to distinguish IH from other vascular tumors.",
+                "C": "S-100 is a marker for neural crest-derived tissues and melanocytes (used in Melanoma), not endothelial cells of hemangiomas.",
+                "D": "bFGF (basic Fibroblast Growth Factor) is a pro-angiogenic factor involved in pathogenesis, but like VEGF, it is not the diagnostic stain of choice.",
+                "E": "CD34 is a **general endothelial marker**. While it would stain the blood vessels in a hemangioma, it would also stain blood vessels in vascular malformations and normal tissue, so it **lacks specificity** for IH diagnosis."
+            }
+        }
+    },
+    {
+        "question": "A patient has a segmental hemangioma on her right face involving the maxillary prominence (S2), size > 2cm, and she is 7 weeks old. Based on the guidelines provided, what is the most appropriate management plan?",
+        "choices": {
+            "A": "Immediate surgical excision of the entire lesion.",
+            "B": "Initiate treatment with oral Propranolol immediately.",
+            "C": "Topical timolol application only.",
+            "D": "Reassurance and observation only, as most hemangiomas regress spontaneously.",
+            "E": "Wait until the child is 1 year old to see if it stops growing."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "This patient has a **\"High-Risk\" lesion** (Segmental, Facial, and large). Large facial hemangiomas carry a risk of PHACE syndrome and permanent disfigurement. **Systemic Oral Propranolol** (2-3 mg/kg/day) is the **gold standard treatment** to stop growth, induce vasoconstriction, and trigger apoptosis. Observation is unsafe.",
+            "incorrect": {
+                "A": "Surgery is rarely the first line for proliferative hemangiomas unless there is a life-threatening complication not responsive to medical therapy.",
+                "C": "Topical Timolol is generally reserved for **small, superficial, non-threatening** hemangiomas. A large segmental facial lesion requires systemic therapy.",
+                "D": "Observation is **unsafe** here. \"Benign neglect\" can lead to permanent facial distortion, vision loss (amblyopia), or missed PHACE syndrome complications.",
+                "E": "Waiting until 1 year misses the **\"window of opportunity.\"** The most rapid growth occurs between 0-5 months. Treatment must start early to prevent tissue destruction."
+            }
+        }
+    },
+    {
+        "question": "Identify the primary risk associated with an Infantile Hemangioma located specifically in the 'Beard area' (mandibular region, chin, and neck).",
+        "choices": {
+            "A": "Airway obstruction (Subglottic hemangioma)",
+            "B": "Spinal dysraphism",
+            "C": "Hepatic failure",
+            "D": "Feeding difficulties only",
+            "E": "Visual impairment (Amblyopia)"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "Hemangiomas distributed in the **\"beard area\"** (preauricular, chin, neck) have a very strong association (up to 60% risk) with concurrent **Subglottic Hemangiomas**. These can expand inward and cause **life-threatening airway obstruction (stridor)**.",
+            "incorrect": {
+                "B": "Spinal dysraphism is associated with **lumbosacral hemangiomas** (**LUMBAR syndrome**), not facial ones.",
+                "C": "Hepatic failure is a risk in diffuse neonatal hemangiomatosis (multiple liver lesions), not specifically solitary beard lesions.",
+                "D": "While feeding might be difficult, the primary **mortality risk is the airway**, making \"feeding difficulties only\" an understatement.",
+                "E": "Visual impairment (Amblyopia) is the primary risk for **periocular (eye) hemangiomas**, not beard/chin lesions."
+            }
+        }
+    },
+    {
+        "question": "A 75-year-old male presents with a chronic skin lesion on his face that has been present for 1 year. Physical examination reveals a scaly, erythematous patch on a sun-exposed area. Based on the patient history provided in the case study, what is the most likely diagnosis?",
+        "choices": {
+            "A": "Melanoma",
+            "B": "Seborrheic Keratosis",
+            "C": "Actinic Keratosis",
+            "D": "Psoriasis",
+            "E": "Basal Cell Carcinoma"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The case describes the classic presentation of **Actinic Keratosis**: an **elderly male (75yo)**, **chronic sun exposure (Face)**, and the lesion is an **erythematous macule with \"dry, adherent scale\"** and a **\"sandpaper feel\"**.",
+            "incorrect": {
+                "A": "Melanoma typically presents as a pigmented, asymmetric lesion (ABCDE rule), not usually as a scaly red patch.",
+                "B": "Seborrheic Keratosis presents as a **\"stuck-on,\" waxy, verrucous** brown/black lesion. It does not typically look like a red, scaly macule.",
+                "D": "Psoriasis presents with well-demarcated **silvery scales**, usually on extensor surfaces (elbows/knees), not typically isolated to the face in this manner without other body involvement.",
+                "E": "Basal Cell Carcinoma (BCC) typically presents as a **pearly nodule** with telangiectasia and rolled borders, rather than a scaly sandpaper patch."
+            }
+        }
+    },
+    {
+        "question": "Based on the pathophysiology described, which molecular alteration is characteristic of the UV-induced mutations found in Actinic Keratosis cells?",
+        "choices": {
+            "A": "Translocation of the MYC gene",
+            "B": "Overexpression of HER2/neu",
+            "C": "Mutation in the BRAF gene",
+            "D": "Mutation in the APC gene",
+            "E": "Mutation in TP53 and deletion of p16"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "Chronic **UVB radiation** causes direct DNA damage. The **key event in the pathogenesis of AK** is the **mutation of the TP53 tumor suppressor gene** and the **deletion of the p16** tumor suppressor gene, which prevents apoptosis of damaged cells.",
+            "incorrect": {
+                "A": "MYC translocation is associated with Burkitt Lymphoma.",
+                "B": "HER2/neu overexpression is associated with Breast Cancer.",
+                "C": "BRAF mutations are commonly associated with Melanoma, not typically Actinic Keratosis.",
+                "D": "APC gene mutations are associated with Colorectal Cancer (FAP)."
+            }
+        }
+    },
+    {
+        "question": "To distinguish Actinic Keratosis (AK) from Bowen's Disease (SCC in situ) histologically, a pathologist looks at the extent of epidermal dysplasia. Which finding supports a diagnosis of AK over Bowen's Disease?",
+        "choices": {
+            "A": "Atypia restricted to the basal layer (lower epidermis).",
+            "B": "Presence of prominent distinct intercellular bridges.",
+            "C": "Invasion of atypical cells through the basement membrane into the dermis.",
+            "D": "Dysplasia involving the full thickness of the epidermis.",
+            "E": "Absence of nuclei in the stratum corneum."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The **crucial distinction for Actinic Keratosis (AK)** is that the cytologic atypia is **Partial Thickness ONLY**. It is crowded in the basal layer but **does not span the full thickness of the epidermis**.",
+            "incorrect": {
+                "B": "Intercellular bridges are a feature of squamous cells in general; their presence just confirms squamous origin, not the grade of dysplasia.",
+                "C": "Invasion through the basement membrane defines **Invasive Squamous Cell Carcinoma**, not AK or In Situ disease.",
+                "D": "Dysplasia involving the **full thickness of the epidermis** is the **definition of SCC in situ (Bowen's Disease)**.",
+                "E": "Absence of nuclei in the stratum corneum is \"Orthokeratosis\" (normal). AK is characterized by \"Parakeratosis\" (retention of nuclei)."
+            }
+        }
+    },
+    {
+        "question": "A 75-year-old male farmer presents with multiple rough, scaly red patches on his face and dorsal hands. He reports they feel like 'sandpaper'. If you opt for a field-directed treatment for 'Field Cancerization', which agent would be most appropriate?",
+        "choices": {
+            "A": "Oral Propranolol",
+            "B": "Topical Corticosteroids",
+            "C": "Mohs Micrographic Surgery",
+            "D": "Liquid Nitrogen (Cryotherapy)",
+            "E": "Topical 5-Fluorouracil (5-FU)"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "**5-Fluorouracil (5-FU)** is an antimetabolite chemotherapy cream used for **\"Field-Directed\" therapy**. It treats visible lesions and **subclinical ones (Field Cancerization)** by interfering with DNA synthesis.",
+            "incorrect": {
+                "A": "Propranolol is for Hemangiomas, not AK.",
+                "B": "Corticosteroids reduce inflammation but do not treat the dysplastic cells; they might actually suppress local immunity which is counterproductive here.",
+                "C": "Mohs is for **invasive skin cancer** (SCC/BCC) in sensitive areas, not for treating multiple superficial pre-cancerous lesions.",
+                "D": "Cryotherapy is a **\"Lesion-Directed\"** therapy, ideal for single or few discrete lesions. It is impractical for \"multiple\" widespread patches (**Field Cancerization**)."
+            }
+        }
+    },
+    {
+        "question": "A pathologist examines a biopsy from an ulcerative lesion on the helix of a 70-year-old male. High-power magnification reveals invasive nests of atypical cells with eosinophilic, concentric lamellae resembling 'onion skins' in the center. What is the significance of this specific microscopic finding?",
+        "choices": {
+            "A": "It represents a viral inclusion body consistent with HPV infection.",
+            "B": "It indicates the tumor is a Basal Cell Carcinoma with squamous metaplasia.",
+            "C": "It is the hallmark of a well-differentiated Squamous Cell Carcinoma.",
+            "D": "It confirms the diagnosis of a Malignant Melanoma.",
+            "E": "It suggests a poorly differentiated carcinoma with high metastatic potential."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "These structures are called **Keratin Pearls** (concentric lamellae resembling 'onion skins'). Their presence signifies that the tumor cells still retain the ability to produce keratin (a normal squamous function). This classifies the tumor as **Well-Differentiated Squamous Cell Carcinoma**.",
+            "incorrect": {
+                "A": "Viral inclusions (like koilocytes) have perinuclear halos, not concentric keratin swirls.",
+                "B": "Basal Cell Carcinoma features palisading nuclei and retraction clefts, not keratin pearl formation.",
+                "D": "Melanoma would show melanin pigment or specific markers (S100, Melan-A), not keratin pearls.",
+                "E": "Poorly differentiated tumors lose their normal functions (anaplasia). They would lack keratin pearls."
+            }
+        }
+    },
+    {
+        "question": "Microscopic analysis of a skin biopsy shows 'Intercellular bridges' between atypical cells. This finding is critical because it helps the pathologist identify the cell of origin. What do these bridges represent?",
+        "choices": {
+            "A": "Desmosomes connecting squamous cells.",
+            "B": "Melanosomes connecting melanocytes.",
+            "C": "Collagen fibers in the dermis.",
+            "D": "Basement membrane extensions.",
+            "E": "Lymphatic channels invading the tumor."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "**Intercellular bridges** (also known as \"prickles\") are the visible microscopic appearance of **Desmosomes**. Finding them confirms the tumor is of **Squamous origin** (keratinocytes) as these structures connect keratinocytes in the spinous layer.",
+            "incorrect": {
+                "B": "Melanosomes are intracellular organelles containing pigment; they do not form bridges between cells.",
+                "C": "Collagen fibers are extracellular matrix components, not cell-to-cell connections.",
+                "D": "The basement membrane separates epidermis from dermis; it does not bridge individual tumor cells.",
+                "E": "Lymphatic channels are vessels, not intercellular junctions."
+            }
+        }
+    },
+    {
+        "question": "Which of the following clinical features is considered a 'Red Flag' suggesting perineural invasion in a patient with Squamous Cell Carcinoma of the face or ear?",
+        "choices": {
+            "A": "A pearly rolled border with telangiectasia",
+            "B": "Presence of pain or tenderness",
+            "C": "Presence of a 'stuck-on' waxy appearance",
+            "D": "Sandpaper-like texture",
+            "E": "Rapid color change to blue"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The presence of **pain in a cutaneous tumor** is a significant **\"Red Flag\"**. It suggests the tumor cells are invading or wrapping around nerve sheaths (**Perineural Invasion**), which is a high-risk feature common in **SCC**.",
+            "incorrect": {
+                "A": "This describes **Basal Cell Carcinoma**.",
+                "C": "This describes **Seborrheic Keratosis**.",
+                "D": "This describes **Actinic Keratosis**.",
+                "E": "This might suggest a vascular lesion or hemorrhage, but not specifically nerve invasion."
+            }
+        }
+    },
+    {
+        "question": "A 70-year-old farmer has rough, sandpaper-like patches on his ears and face that have been present for years. He admits to never using sunscreen. These lesions are considered precursor lesions to SCC. What are they?",
+        "choices": {
+            "A": "Melasma",
+            "B": "Seborrheic Keratosis",
+            "C": "Actinic Keratosis",
+            "D": "Eczema",
+            "E": "Psoriasis"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "**Actinic Keratosis** is the specific **precursor lesion** to **SCC**. The clinical description (**rough, sandpaper, sun-exposed**) matches perfectly. 60% of SCCs arise from pre-existing AKs.",
+            "incorrect": {
+                "A": "Melasma is hyperpigmentation (brown patches) usually due to hormones/sun, not rough/scaly or pre-cancerous.",
+                "B": "Seborrheic Keratosis is a **benign growth**, not a precursor to SCC.",
+                "D": "Eczema is inflammatory, itchy, and responds to steroids; it is not a malignancy precursor.",
+                "E": "Psoriasis is an autoimmune condition, not a direct precursor to sun-induced SCC."
+            }
+        }
+    },
+    {
+        "question": "A 60-year-old male presents with a pigmented lesion on his foot. Upon visual inspection, you observe the lesion shown in the case study. Which of the following sets of gross features most strongly suggests a diagnosis of Melanoma according to the ABCDE criteria mentioned in the document?",
+        "choices": {
+            "A": "Diameter < 6 mm, evolving size, uniform black color",
+            "B": "Pearly pink nodule, telangiectasia, rolled border",
+            "C": "Waxy cerebriform surface, stuck-on appearance, horn cysts",
+            "D": "Symmetrical shape, regular border, homogeneous brown color",
+            "E": "Asymmetrical shape, irregular border, color variation (black, yellow), diameter > 6 mm"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "This choice lists the classic **\"ABCDE\" high-risk features**: **A**symmetry, irregular **B**order, **C**olor **v**ariation (variegated), and **D**iameter **> 6mm** (E is evolving).",
+            "incorrect": {
+                "A": "Melanomas are typically >6mm and have color variation, not uniform color.",
+                "B": "This describes **Basal Cell Carcinoma**.",
+                "C": "This describes **Seborrheic Keratosis**.",
+                "D": "These are features of a benign **Nevus (mole)**—symmetric, regular, one color."
+            }
+        }
+    },
+    {
+        "question": "You are evaluating a patient with a suspected melanoma. The 'Microscopic findings' in the case study highlight 'Parakeratosis' and 'Acanthosis'. What do these terms refer to?",
+        "choices": {
+            "A": "Parakeratosis: invasion of dermis; Acanthosis: pigment production",
+            "B": "Parakeratosis: loss of granular layer; Acanthosis: thinning of epidermis",
+            "C": "Parakeratosis: ulceration; Acanthosis: bleeding",
+            "D": "Parakeratosis: thickening of the stratum spinosum; Acanthosis: retention of nuclei in stratum corneum",
+            "E": "Parakeratosis: retention of nuclei in the stratum corneum; Acanthosis: thickening of the epidermis (stratum spinosum)"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "These are standard dermatopathology definitions. **Parakeratosis** is the **retention of nuclei in the horny layer (stratum corneum)**. **Acanthosis** refers to the **thickening of the epidermis** (specifically the stratum spinosum).",
+            "incorrect": {
+                "A": "Definitions are wrong.",
+                "B": "Acanthosis is thickening, not thinning.",
+                "C": "These are clinical terms, not histologic definitions of these specific words.",
+                "D": "The definitions are swapped."
+            }
+        }
+    },
+    {
+        "question": "Reviewing the histology of the case, you note 'Pagetoid spread' of atypical melanocytes. What does this specific term describe?",
+        "choices": {
+            "A": "The upward scattering of atypical melanocytes into the suprabasal layers of the epidermis (buckshot scatter).",
+            "B": "The invasion of melanocytes into the deep reticular dermis.",
+            "C": "The linear proliferation of melanocytes along the basal layer of the epidermis.",
+            "D": "The presence of melanophages in the papillary dermis.",
+            "E": "The formation of keratin pearls within the tumor nests."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "**Pagetoid spread** (or buckshot scatter) describes the abnormal **\"upward migration\"** or **scattering of atypical melanocytes into the suprabasal layers of the epidermis** (away from the basement membrane where they belong). This is a hallmark of melanoma in situ and invasive melanoma.",
+            "incorrect": {
+                "B": "This describes dermal invasion or **vertical growth phase**, not Pagetoid spread.",
+                "C": "This describes a **\"Lentiginous\" pattern**.",
+                "D": "Melanophages are macrophages eating pigment; this is a reaction, not the tumor spread pattern itself.",
+                "E": "This is a feature of **Squamous Cell Carcinoma** (Keratin pearls)."
+            }
+        }
+    },
+    {
+        "question": "The patient undergoes an excisional biopsy. The pathology report returns as: 'Acral Lentiginous Melanoma, Breslow thickness 1.2 mm, no ulceration, margins clear'. Based on the NCCN guidelines referenced, what is the most appropriate next step in management?",
+        "choices": {
+            "A": "Observation only, as the margins of the biopsy were clear.",
+            "B": "Start adjuvant immunotherapy with Pembrolizumab immediately without further surgery.",
+            "C": "Wide Local Excision (WLE) with 0.5 cm margins only.",
+            "D": "Immediate amputation of the foot to ensure clearance.",
+            "E": "Wide Local Excision (WLE) with 1-2 cm margins and Sentinel Lymph Node Biopsy (SLNB)."
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "For melanomas with a **Breslow depth > 0.8 mm (or > 1.0 mm specifically)**, a **Sentinel Lymph Node Biopsy (SLNB)** is mandatory to check for spread. Additionally, the surgical margin for intermediate thickness (1-2 mm) is typically **1-2 cm Wide Local Excision (WLE)**.",
+            "incorrect": {
+                "A": "A simple biopsy often has narrow margins. Standard of care requires a Wide Local Excision to prevent recurrence.",
+                "B": "Immunotherapy is usually reserved for later stages (Stage III or high-risk Stage II). Surgery and staging come first.",
+                "C": "0.5 cm margins are **insufficient** for invasive melanoma.",
+                "D": "Amputation is a last resort; limb-sparing surgery is preferred if margins can be achieved."
+            }
+        }
+    }
+]

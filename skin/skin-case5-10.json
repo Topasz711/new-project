@@ -1,1 +1,482 @@
-[]
+[
+    {
+        "question": "Which pathogen is identified as the primary cause of early inflammation (within 24 hours) in dog bite wounds?",
+        "choices": {
+            "A": "Pasteurella multocida",
+            "B": "Capnocytophaga canimorsus",
+            "C": "Eikenella corrodens",
+            "D": "Staphylococcus aureus",
+            "E": "Streptococcus spp."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "**Pasteurella multocida** is the hallmark pathogen in animal bites (dogs and cats). It is known for a **rapid incubation period**, typically causing intense inflammation, pain, and swelling **within 24 hours** of the injury.",
+            "incorrect": {
+                "B": "Capnocytophaga canimorsus is a serious pathogen that can cause sepsis, especially in asplenic patients, but it typically has a **longer incubation period** than Pasteurella.",
+                "C": "Eikenella corrodens is classically associated with **human bites** (e.g., \"clenched-fist injuries\"), not dog bites.",
+                "D": "While Staphylococcus aureus and Streptococcus spp. are common skin flora found in dog bite wounds, they generally cause infection **later** than the rapid onset seen with Pasteurella.",
+                "E": "While Staphylococcus aureus and Streptococcus spp. are common skin flora found in dog bite wounds, they generally cause infection **later** than the rapid onset seen with Pasteurella."
+            }
+        }
+    },
+    {
+        "question": "Why is 'Primary Closure' (immediate suturing) generally contraindicated for dog bite wounds on the hand?",
+        "choices": {
+            "A": "It prevents the necessary drainage of lymphatic fluid.",
+            "B": "The dog's saliva dissolves the suture material too quickly.",
+            "C": "It increases the risk of unsightly scarring due to tension.",
+            "D": "It traps bacteria deep within the wound, increasing the risk of infections.",
+            "E": "It causes immediate necrosis of the wound edges."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "Dog bites are classified as \"Dirty Wounds\" with high bacterial contamination. Immediate suturing (**Primary Closure**) traps the bacteria inside the wound and creates an anaerobic environment, significantly **increasing the risk of abscess formation and severe infection** (like tenosynovitis), especially in the hand.",
+            "incorrect": {
+                "A": "This is not the primary medical reason for avoiding suturing. The main concern is infectious complications.",
+                "B": "This is not the primary medical reason for avoiding suturing. The main concern is infectious complications.",
+                "C": "This is not the primary medical reason for avoiding suturing. The main concern is infectious complications.",
+                "E": "This is not the primary medical reason for avoiding suturing. The main concern is infectious complications."
+            }
+        }
+    },
+    {
+        "question": "A 30-year-old merchant is bitten by a stray dog on the left thumb (dominant hand). The wound is a deep avulsion with bleeding. He presents 4 hours post-injury. He has no history of rabies vaccination. His last tetanus shot was 2 years ago. He is not allergic to medications. What is the most comprehensive and correct admission order set?",
+        "choices": {
+            "A": "Irrigation, Delayed Primary Closure, Rabies Vaccine only (observe dog), Tdap booster, Ciprofloxacin.",
+            "B": "Soaking in hydrogen peroxide, Tight dressing, Rabies Vaccine + RIG, Tdap, Cephalexin.",
+            "C": "Copious irrigation, Debridement, Leave wound open, Rabies Vaccine + RIG infiltration, No Tetanus toxoid needed, Amoxicillin-Clavulanate.",
+            "D": "Irrigation, Primary Suture closure, Td booster, Rabies Vaccine only, Oral Amoxicillin.",
+            "E": "Irrigation, Debridement, Loose suturing, Rabies Vaccine + RIG, TIG + Tdap, Clindamycin."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "This set meets all necessary criteria: **Wound Care**: **\"Leave wound open\"** (Delayed Primary Closure) for hand bites. **Rabies**: Deep wound (Category III) requires **Rabies Vaccine + Rabies Immunoglobulin (RIG)**. **Tetanus**: Last shot was <5 years ago, so **No Tetanus toxoid needed** for a dirty wound. **Antibiotics**: **Amoxicillin-Clavulanate** is the drug of choice.",
+            "incorrect": {
+                "A": "Tdap is unnecessary (last shot < 5 years). Ciprofloxacin is not the first-line drug of choice.",
+                "B": "Tight dressing is contraindicated. Cephalexin does not cover Pasteurella well.",
+                "D": "Primary closure is contraindicated. RIG is missing for a Category III wound.",
+                "E": "Loose suturing is still risky. TIG (Tetanus Immunoglobulin) is not needed as the patient has a vaccination history."
+            }
+        }
+    },
+    {
+        "question": "Which of the following statements regarding the epidemiology and characteristics of animal bite wounds is correct?",
+        "choices": {
+            "A": "Dog bites have a significantly higher rate of infection compared to cat bites due to the massive crush injury mechanism.",
+            "B": "Eikenella corrodens is the predominant pathogen found in the oral flora of both dogs and cats.",
+            "C": "Cat bites are associated with a higher risk of infection than dog bites, primarily due to the deep puncture nature of the wound.",
+            "D": "Primary surgical closure is the standard management for all animal bite wounds on the hand, regardless of the time of presentation.",
+            "E": "Rabies post-exposure prophylaxis is not required for provoked bites from domestic pets in endemic areas."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "General medical consensus supports that **cat bites** are **deep puncture wounds** that inject bacteria deeper and are harder to irrigate, leading to **higher infection rates** (30-50%) than dog bites (5-15%).",
+            "incorrect": {
+                "A": "Dog bites cause crush injuries, but cat bites typically have higher infection rates.",
+                "B": "Eikenella is associated with **human bites**. Pasteurella is the pathogen for dogs/cats.",
+                "D": "Primary closure is **contraindicated** for hand bites.",
+                "E": "In rabies-endemic areas (like Thailand), prophylaxis is generally indicated unless the animal can be observed or proven negative, regardless of provocation."
+            }
+        }
+    },
+    {
+        "question": "A 32-year-old female presents with a progressive mucocutaneous eruption. Physical examination reveals 'targetoid' lesions on the upper and lower extremities. Which specific morphological feature of the target lesions would most strongly support a diagnosis of Erythema Multiforme (EM) over Stevens-Johnson Syndrome (SJS)?",
+        "choices": {
+            "A": "The lesions are confined solely to the trunk.",
+            "B": "The presence of a positive Nikolsky sign.",
+            "C": "The lesions are flat and macular.",
+            "D": "The lesions are palpable and papular.",
+            "E": "The lesions appear as purpuric macules."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The hallmark skin lesion of **Erythema Multiforme (EM)** is the **Papular Target lesion (raised, palpable)**. This contrasts with SJS, where lesions are typically **macular (flat)** and dusky.",
+            "incorrect": {
+                "A": "EM often affects **extremities (acral distribution)**, while SJS centers on the trunk.",
+                "B": "A positive **Nikolsky sign (skin detachment)** is a feature of **SJS/TEN**, not typically EM.",
+                "C": "Flat (macular) atypical targets are characteristic of **SJS**.",
+                "E": "Flat (macular) atypical targets are characteristic of **SJS**."
+            }
+        }
+    },
+    {
+        "question": "Regarding the case study of the 32-year-old female, she was initially treated with Amoxicillin-clavulanate for Community-Acquired Pneumonia (CAP) but failed to improve. Subsequently, she developed mucositis and a rash. Why is this drug ineffective against this pathogen?",
+        "choices": {
+            "A": "It is an intracellular virus.",
+            "B": "It produces potent beta-lactamases.",
+            "C": "The dosage was too low.",
+            "D": "It lacks a cell wall.",
+            "E": "Amoxicillin cannot penetrate the lung tissue."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The pathogen is **Mycoplasma pneumoniae**. Amoxicillin-clavulanate is a beta-lactam antibiotic that works by attacking the **bacterial cell wall**. Since **Mycoplasma does not have a cell wall**, the drug has no target.",
+            "incorrect": {
+                "A": "Mycoplasma pneumoniae is a **bacterium**, not a virus.",
+                "B": "While resistance exists, this is not the primary reason for **intrinsic failure** in this context.",
+                "C": "The failure is due to the mechanism of action, not the dose.",
+                "E": "Amoxicillin penetrates lung tissue well; the issue is the lack of a target on the bacteria."
+            }
+        }
+    },
+    {
+        "question": "You are managing a patient diagnosed with Mycoplasma-induced EM Major. They have severe odynophagia limiting oral intake. Apart from supportive care with IV fluids, which pharmacological intervention addresses the underlying etiology most effectively?",
+        "choices": {
+            "A": "Oral Fluconazole",
+            "B": "Broad-spectrum Cephalosporins",
+            "C": "Topical Corticosteroids only",
+            "D": "Systemic Azithromycin",
+            "E": "Intravenous Acyclovir"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The text identifies **Macrolides (specifically Azithromycin)** as the **drug of choice** to treat the underlying **Mycoplasma infection**, which is the etiology of the EM.",
+            "incorrect": {
+                "A": "This is an **antifungal**.",
+                "B": "Like Penicillins, Cephalosporins act on the cell wall and are **ineffective against Mycoplasma**.",
+                "C": "Steroids treat inflammation but **do not kill the causative bacteria**.",
+                "E": "This is an **antiviral**."
+            }
+        }
+    },
+    {
+        "question": "In the differential diagnosis of severe cutaneous adverse reactions (SCARs), distinguishing between 'Typical' and 'Atypical' target lesions is crucial. Which of the following descriptions correctly identifies a 'Typical' target lesion found in EM?",
+        "choices": {
+            "A": "A diffuse red macule that desquamates upon pressure.",
+            "B": "A clear vesicle on an erythematous base.",
+            "C": "Three concentric zones: a dusky center/blister, a pale edematous ring, and an erythematous halo.",
+            "D": "Two zones: a central duskiness and an outer red rim, which is flat.",
+            "E": "A purpuric spot that does not blanch with pressure."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The **classic medical definition** of a **\"typical\" target lesion** involves **Three concentric zones: a dusky center/blister, a pale edematous ring, and an erythematous halo**.",
+            "incorrect": {
+                "A": "This describes a positive **Nikolsky sign**.",
+                "B": "This describes the **\"dew drop on a rose petal\"** lesion of **Varicella** (Chickenpox).",
+                "D": "This describes an **\"Atypical\" target lesion**, common in **SJS**.",
+                "E": "This describes **palpable purpura (Vasculitis)**."
+            }
+        }
+    },
+    {
+        "question": "A patient on Carbamazepine for 3 weeks develops a severe rash with skin peeling >30% BSA and mucosal erosions. You diagnose TEN. After securing the airway, what is the single most effective initial intervention to improve survival?",
+        "choices": {
+            "A": "Immediate cessation of Carbamazepine.",
+            "B": "Administering high-dose steroids.",
+            "C": "Plasmapheresis.",
+            "D": "Systemic antibiotics.",
+            "E": "Referral to a burn unit."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The text emphasizes **\"STOP THE DRUG\"** as the heart of treatment. **Early withdrawal of the culprit drug** is the only intervention proven to **significantly improve survival rates** in TEN.",
+            "incorrect": {
+                "B": "The evidence for steroids is debated (some risks of infection).",
+                "C": "This is an **adjunctive therapy**, not the primary survival determinant.",
+                "D": "Prophylactic antibiotics are **not standard**.",
+                "E": "While care in a burn unit is ideal, stopping the drug must happen physiologically first to halt the reaction."
+            }
+        }
+    },
+    {
+        "question": "Nikolsky's sign is described as positive. What does a positive Nikolsky's sign indicate?",
+        "choices": {
+            "A": "Epidermis detaches when lateral pressure is applied to normal skin.",
+            "B": "Skin blanches under pressure.",
+            "C": "Bleeding occurs when a scale is removed (Auspitz sign).",
+            "D": "Palpable purpura that does not blanch.",
+            "E": "Urticaria develops after stroking the skin."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The sign is defined as: rubbing **normal skin lightly causes the epidermis to peel off**, indicating **skin detachment** (acantholysis/necrosis).",
+            "incorrect": {
+                "B": "This is a sign of intact circulation or simple erythema.",
+                "C": "This is the **Auspitz sign**, characteristic of Psoriasis.",
+                "D": "This indicates **Vasculitis**.",
+                "E": "This is **Dermatographism**."
+            }
+        }
+    },
+    {
+        "question": "A key differential diagnosis for extensive skin detachment is Staphylococcal Scalded Skin Syndrome (SSSS). According to the case analysis, what is the most reliable clinical feature to distinguish SSSS from SJS/TEN?",
+        "choices": {
+            "A": "Positive Nikolsky sign.",
+            "B": "Skin tenderness.",
+            "C": "Acute onset.",
+            "D": "Mucosal involvement.",
+            "E": "Presence of fever."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "In **SSSS, the mucous membranes are characteristically spared (normal)**. In contrast, **SJS/TEN almost always involves severe inflammation of the eyes, mouth, and genitals**.",
+            "incorrect": {
+                "A": "Both SSSS and TEN can have a positive Nikolsky sign.",
+                "B": "Both conditions present with painful, tender skin.",
+                "C": "Both are acute conditions.",
+                "E": "Both conditions are typically accompanied by fever."
+            }
+        }
+    },
+    {
+        "question": "A 32-year-old Thai male is diagnosed with Trigeminal Neuralgia. You plan to prescribe Carbamazepine. He has never taken it before. What is your mandatory next step?",
+        "choices": {
+            "A": "Prescribe antihistamines prophylactically.",
+            "B": "Advise him to take the medication with food.",
+            "C": "Start at a low dose and monitor for rash.",
+            "D": "Order an HLA-B*15:02 genotype test.",
+            "E": "Choose Phenytoin instead."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The **HLA-B*15:02 allele is common in Thais** and increases SJS/TEN risk by 100-fold due to Carbamazepine. The text states it is **mandatory (\"should be done\") to screen for this gene** before starting Carbamazepine in Thai patients.",
+            "incorrect": {
+                "A": "Antihistamines do not prevent SCARs like SJS/TEN.",
+                "B": "This helps with GI side effects, not severe allergic reactions.",
+                "C": "Starting low is **not sufficient protection** against this life-threatening genetic hypersensitivity.",
+                "E": "Phenytoin is an aromatic anticonvulsant and carries **similar risks** (cross-reactivity)."
+            }
+        }
+    },
+    {
+        "question": "A 35-year-old female is brought to the Emergency Department 20 minutes after taking a new oral antibiotic. She complains of sudden dizziness and difficulty breathing. Vital Signs: BT: 37.2 ∘C, HR: 128 bpm (thready pulse), RR: 32 /min, BP: 80/50 mmHg, SpO2: 88% on room air. Physical Exam: Diffuse erythematous wheals over the chest and arms, swollen lips, and audible wheezing on lung auscultation. What is the most likely diagnosis?",
+        "choices": {
+            "A": "Acute Asthma Exacerbation",
+            "B": "Septic Shock",
+            "C": "Anaphylaxis",
+            "D": "Acute Urticaria",
+            "E": "Vasovagal Syncope"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The patient meets the criteria for **Anaphylaxis** (rapid onset after antibiotic trigger, multi-system involvement): **Skin/Mucosal** (Wheals, swollen lips), **Respiratory** (Wheezing, SpO2 88%), and **Circulatory** (Hypotension 80/50, Tachycardia 128).",
+            "incorrect": {
+                "A": "Does not explain the hypotension, wheals, or lip swelling.",
+                "B": "No fever, sudden onset after medication makes sepsis unlikely.",
+                "D": "Systemic involvement (hypotension, hypoxia) elevates the diagnosis to **anaphylaxis**.",
+                "E": "Vasovagal syncope typically causes **bradycardia**, not tachycardia, wheezing, or hives."
+            }
+        }
+    },
+    {
+        "question": "A 40-year-old male presents with an acute onset of erythematous, edematous plaques with central pallor after eating shrimp. The lesions are intensely pruritic and transient, disappearing within 24 hours without scarring. What is the most likely term for this primary lesion?",
+        "choices": {
+            "A": "Bulla",
+            "B": "Pustule",
+            "C": "Macule",
+            "D": "Vesicle",
+            "E": "Wheal"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "A **Wheal** is the specific medical term for the lesion described: an edematous papule or plaque with **\"Central Pallor\"** and an **\"Erythematous Halo\"** that is **transient (<24 hours)**. This is the hallmark of **urticaria**.",
+            "incorrect": {
+                "A": "Bulla is a large fluid-filled blister.",
+                "B": "Pustule contains pus.",
+                "C": "Macule is flat.",
+                "D": "Vesicle is a small fluid-filled blister."
+            }
+        }
+    },
+    {
+        "question": "A 35-year-old female presents to the dermatology clinic complaining of recurrent itchy red welts on her trunk and extremities. She states that these lesions appear almost daily, usually in the evening, and fade by the next morning without leaving any marks. She has been experiencing these symptoms for the past 3 months. She denies any recent changes in diet, medication, or evident infections. Physical examination reveals scattered erythematous wheals with central pallor. There is no bruising or scaling. Systemic exam is unremarkable. What is the most likely diagnosis?",
+        "choices": {
+            "A": "Contact Dermatitis",
+            "B": "Atopic Dermatitis",
+            "C": "Acute Urticaria",
+            "D": "Chronic Urticaria",
+            "E": "Urticarial Vasculitis"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "**Chronic Urticaria** is defined as the **recurrence of wheals for more than 6 weeks**. The patient's **3-month history** fits this definition perfectly.",
+            "incorrect": {
+                "A": "Contact dermatitis presents with eczema-like lesions at the site of contact, not migratory wheals.",
+                "B": "Atopic dermatitis involves chronic, dry, scaly, and lichenified skin, not transient wheals.",
+                "C": "Acute urticaria is defined as lasting **less than 6 weeks**.",
+                "E": "Urticarial vasculitis lesions typically last **>24 hours**, are painful/burning, and leave residual bruising (purpura)."
+            }
+        }
+    },
+    {
+        "question": "A 40-year-old woman presents with swollen lips and eyes 1 hour after a meal. She complains of difficulty breathing and a hoarse voice. Physical exam reveals stridor. What is the immediate first-line management?",
+        "choices": {
+            "A": "Inhaled Beta-agonists (Salbutamol)",
+            "B": "Intramuscular Adrenaline (Epinephrine)",
+            "C": "Subcutaneous corticosteroids",
+            "D": "Intravenous antihistamines (e.g., Diphenhydramine)",
+            "E": "Oral Prednisolone 60 mg"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The patient has signs of **airway obstruction** (hoarse voice, **stridor**) which constitutes **severe anaphylaxis/angioedema**. **Intramuscular Adrenaline (Epinephrine)** is the mandatory first-line treatment to reduce edema and secure the airway.",
+            "incorrect": {
+                "A": "While helpful for bronchospasm, salbutamol does not treat **laryngeal edema (stridor)** or hypotension.",
+                "C": "Corticosteroids have a slow onset of action (hours) and will not treat the immediate life-threatening airway obstruction.",
+                "D": "Antihistamines are second-line therapy and do not reverse airway edema or shock rapidly enough.",
+                "E": "Oral medications are inappropriate for a patient with airway compromise (risk of aspiration) and are too slow acting."
+            }
+        }
+    },
+    {
+        "question": "You are examining a patient to differentiate between Urticaria and Angioedema. Which of the following features is most specific to Angioedema?",
+        "choices": {
+            "A": "Well-defined, sharp borders.",
+            "B": "Involvement of the superficial dermis only.",
+            "C": "Intense itching (pruritus) as the primary sensation.",
+            "D": "Pain, tightness, and involvement of the deep dermis or subcutaneous tissue.",
+            "E": "Rapid resolution within minutes."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "**Angioedema** involves the **Deep Dermis and subcutaneous fat**. The deep swelling results in **pain, tightness, or burning** rather than itching, as the nerve endings for itch are superficial.",
+            "incorrect": {
+                "A": "This describes **urticaria (wheals)**. Angioedema has ill-defined borders.",
+                "B": "This describes **urticaria** (superficial dermis).",
+                "C": "**Pruritus (itching)** is the hallmark of **urticaria**.",
+                "E": "Angioedema typically lasts longer (up to 72 hours) compared to individual hives (<24 hours)."
+            }
+        }
+    },
+    {
+        "question": "A 40-year-old female presents with severe facial swelling 1 hour after ingesting shrimp. Based on the onset time and trigger, which of the following underlying mechanisms is most likely responsible for her clinical presentation?",
+        "choices": {
+            "A": "Direct non-immunologic histamine release caused by pseudoallergens",
+            "B": "Deficiency of C1-Esterase Inhibitor leading to kallikrein activation",
+            "C": "IgE-mediated mast cell degranulation releasing histamine",
+            "D": "Autoimmune activation of the complement cascade",
+            "E": "Bradykinin-mediated vasodilation due to ACE inhibition"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The case involves a **classic allergen (shrimp)** and a **rapid onset (1 hour)**. This indicates an **Allergic Angioedema** mechanism where **IgE antibodies bind to FcεRI receptors on mast cells, causing histamine release**.",
+            "incorrect": {
+                "A": "Pseudo-allergy is often associated with drugs (like opioids) acting on MRGPRX2 receptors, not typically food.",
+                "B": "This describes Hereditary Angioedema (HAE), which is typically bradykinin-mediated, has a **slower onset**, and is not triggered by specific foods like shrimp.",
+                "D": "This is more relevant to chronic urticaria or vasculitis, not acute food allergy.",
+                "E": "This would be suspected if the patient was on an ACE inhibitor, but the trigger here is explicitly food."
+            }
+        }
+    },
+    {
+        "question": "A 65-year-old male with a history of hypertension presents with swollen lips and tongue. He denies any food allergies, insect stings, or itching. His current medication list includes Enalapril. Based on the 'itch paradox' described in the text, which mediator is predominantly driving his symptoms, and which receptor is it stimulating?",
+        "choices": {
+            "A": "Bradykinin stimulating B2 receptors",
+            "B": "Leukotrienes stimulating CysLTR receptors",
+            "C": "Histamine stimulating H2 receptors",
+            "D": "Prostaglandin D2 stimulating DP1 receptors",
+            "E": "Histamine stimulating H1 receptors"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The patient is taking an **ACE Inhibitor (Enalapril)**, which prevents the breakdown of **Bradykinin**. This accumulation of **Bradykinin acts on B2 receptors**, which are linked to pain pathways, not itch pathways (explaining the **absence of itching**).",
+            "incorrect": {
+                "B": "Not the mechanism for ACEI-induced angioedema.",
+                "C": "Absence of itching rules out histamine as the primary mediator.",
+                "D": "Not the mechanism for ACEI-induced angioedema.",
+                "E": "H1 stimulation causes itching (pruritus). This patient has no itching, ruling out histamine as the primary mediator."
+            }
+        }
+    },
+    {
+        "question": "In the management of the patient who has Acute Allergic Angioedema with respiratory compromise, what is the immediate, life-saving first-line pharmacological intervention?",
+        "choices": {
+            "A": "Oral Cetirizine 10 mg",
+            "B": "Intramuscular Epinephrine (0.3-0.5 mg)",
+            "C": "Intravenous Tranexamic Acid",
+            "D": "Intravenous Hydrocortisone",
+            "E": "Subcutaneous Icatibant"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "For any allergic reaction involving the airway (**respiratory compromise**), **Intramuscular Epinephrine (Adrenaline)** is the **mandatory first-line** treatment. It acts immediately to reverse mucosal edema and bronchoconstriction.",
+            "incorrect": {
+                "A": "Oral antihistamines are **too slow** for life-threatening airway issues.",
+                "C": "Used for HAE, not allergic/anaphylactic reactions.",
+                "D": "Corticosteroids are too slow to treat immediate life-threatening airway obstruction.",
+                "E": "Icatibant is a Bradykinin receptor antagonist used for HAE or ACE-inhibitor induced angioedema, not allergic (histamine-mediated) angioedema."
+            }
+        }
+    },
+    {
+        "question": "Which histological finding specifically differentiates Bullous Pemphigoid (BP) from Pemphigus Vulgaris (PV)?",
+        "choices": {
+            "A": "Interface dermatitis with necrotic keratinocytes",
+            "B": "Suppurative granulomatous inflammation",
+            "C": "Intraepidermal split (Acantholysis)",
+            "D": "Hyperkeratosis and parakeratosis",
+            "E": "Subepidermal split with eosinophils"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "**Bullous Pemphigoid (BP)** is defined by a split **below the epidermis (\"Subepidermal Split\")** because the autoantibodies target the basement membrane zone. Additionally, the blister cavity typically contains numerous **Eosinophils**.",
+            "incorrect": {
+                "A": "This is characteristic of SJS/TEN or Erythema Multiforme.",
+                "B": "This is seen in deep fungal or bacterial infections.",
+                "C": "An **\"Intraepidermal\" split** due to acantholysis is the defining feature of **Pemphigus Vulgaris (PV)**.",
+                "D": "These are features of Psoriasis."
+            }
+        }
+    },
+    {
+        "question": "A 74-year-old female presents with multiple large, tense bullae on an erythematous base on her lower legs. She has no oral mucosal lesions. A skin biopsy shows a subepidermal split with eosinophils. What is the most likely diagnosis?",
+        "choices": {
+            "A": "Pemphigus Vulgaris",
+            "B": "Stevens-Johnson Syndrome",
+            "C": "Bullous Pemphigoid",
+            "D": "Bullous Impetigo",
+            "E": "Dermatitis Herpetiformis"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The clinical picture fits perfectly for **Bullous Pemphigoid (BP)**: **Patient:** Elderly (>60). **Lesion:** **Tense bullae** (subepidermal). **Mucosa:** **No oral lesions** (often spared in BP). **Biopsy:** **Subepidermal split with eosinophils** (pathognomonic for BP).",
+            "incorrect": {
+                "A": "PV presents with **flaccid bullae** and almost always involves the oral mucosa.",
+                "B": "SJS involves significant mucosal necrosis and atypical targets/macules, not tense bullae.",
+                "D": "Bullous Impetigo is usually in children, causing flaccid bullae.",
+                "E": "This presents with small, intensely itchy vesicles, involves neutrophils, not eosinophils, and is associated with Celiac disease."
+            }
+        }
+    },
+    {
+        "question": "In the immunopathogenesis of Bullous Pemphigoid (BP), autoantibodies are primarily directed against which structural component?",
+        "choices": {
+            "A": "Desmoglein 1",
+            "B": "Hemidesmosome (BP180 and BP230)",
+            "C": "Desmoglein 3",
+            "D": "Collagen VII",
+            "E": "Transglutaminase 3"
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "**BP** is an autoimmune disease where IgG antibodies target the **Hemidesmosome**, specifically the proteins **BP180 (Collagen XVII) and BP230**. These structures anchor the epidermis to the dermis.",
+            "incorrect": {
+                "A": "Target antigen in **Pemphigus Foliaceus**.",
+                "C": "Target antigen in **Pemphigus Vulgaris**.",
+                "D": "Target antigen in **Epidermolysis Bullosa Acquisita (EBA)**.",
+                "E": "Target antigen in **Dermatitis Herpetiformis**."
+            }
+        }
+    },
+    {
+        "question": "A patient with chronic Bullous Pemphigoid is being treated. Which medication is considered the safest and most effective first-line treatment, particularly for localized or moderate disease in the elderly to minimize systemic side effects?",
+        "choices": {
+            "A": "Topical High-Potency Corticosteroids (e.g., Clobetasol)",
+            "B": "Systemic Prednisolone (1 mg/kg/day)",
+            "C": "Azathioprine",
+            "D": "Rituximab",
+            "E": "Topical Antibiotics (Mupirocin)"
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "The text emphasizes using **Topical High-Potency Corticosteroids (e.g., Clobetasol)** for whole-body or localized application. This approach is **safer than systemic steroids**, reducing systemic side effects (diabetes, hypertension, osteoporosis) which are **critical concerns in the elderly**.",
+            "incorrect": {
+                "B": "Systemic steroids are associated with **higher mortality and complications in the elderly**. They are reserved for when topical treatment is not feasible or effective.",
+                "C": "This is a steroid-sparing agent, not the first-line induction therapy.",
+                "D": "This is a biologic used for refractory cases or Pemphigus, not first-line for typical BP.",
+                "E": "BP is an autoimmune disease, not an infection. Antibiotics do not treat the cause."
+            }
+        }
+    }
+]

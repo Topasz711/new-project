@@ -1,1 +1,322 @@
-[]
+[
+    {
+        "question": "A 20-year-old male presents with severe generalized pruritus that worsens significantly at night. Physical examination reveals multiple erythematous papules distributed in the axilla, around the umbilicus, and on the genitalia. He mentions that his wife has recently developed similar symptoms. Which of the following is considered the pathognomonic sign for this condition?",
+        "choices": {
+            "A": "Grouped vesicles on an erythematous base",
+            "B": "Honey-colored crusts",
+            "C": "Target lesions",
+            "D": "The Burrow",
+            "E": "Annular plaques with central clearing"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The **burrow** is a short (0.5-1 cm), wavy, grey/brown line. It represents the tunnel where the female mite excavates the stratum corneum to lay eggs. It is highly specific (**pathognomonic**) for Scabies.",
+            "incorrect": {
+                "A": "This is the classic description of **Herpes Simplex** (as seen in Case 2), not Scabies.",
+                "B": "This is the specific sign for **Impetigo** (bacterial infection), which looks like 'lacquer' or golden crusts.",
+                "C": "Target (or iris) lesions are typical of **Erythema Multiforme**, often a hypersensitivity reaction, not a parasitic infestation like Scabies.",
+                "E": "This describes **Tinea Corporis** (Ringworm), where the active border is red and the center heals."
+            }
+        }
+    },
+    {
+        "question": "A 20-year-old male is diagnosed with scabies. He lives with his wife and a 5-year-old daughter. His wife has mild itching, but the daughter is currently asymptomatic. According to the 'Contact Management' guidelines in the provided text, what is the most appropriate plan?",
+        "choices": {
+            "A": "Isolate the patient for 3 days; no treatment is needed for family members if they practice good hygiene",
+            "B": "Treat the patient and his wife immediately; treat the daughter only if she develops a rash",
+            "C": "Treat the patient immediately; treat the wife only if her itching worsens; observe the daughter",
+            "D": "Treat the patient, his wife, and his daughter simultaneously on the same day",
+            "E": "Treat the patient with Permethrin and the family members with antiseptic soap only"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "You must **\"Treat All Contacts\" simultaneously**, even if asymptomatic, to prevent **\"Ping-Pong Reinfection\"** (passing the infection back and forth).",
+            "incorrect": {
+                "A": "Isolation alone is insufficient because the family is likely already infected. Hygiene (washing) doesn't kill mites inside the skin.",
+                "B": "Waiting for the rash allows the mite to reproduce. The daughter may be in the incubation period (sensitization takes 2-6 weeks).",
+                "C": "Similar to B, this partial treatment fails to break the transmission cycle.",
+                "E": "Antiseptic soap does not kill Sarcoptes scabiei. All contacts need the scabicide (Permethrin)."
+            }
+        }
+    },
+    {
+        "question": "In the differential diagnosis section of the case study, Pediculosis Corporis (Body Lice) is compared to Scabies. What is the key distinguishing feature that allows a clinician to rule out Pediculosis Corporis in favor of Scabies?",
+        "choices": {
+            "A": "Pediculosis Corporis responds rapidly to topical corticosteroids",
+            "B": "Body lice lesions are typically found on the palms and soles",
+            "C": "Pediculosis Corporis presents with burrows in the interdigital spaces",
+            "D": "Pediculosis Corporis causes nocturnal pruritus, whereas Scabies does not",
+            "E": "Body lice live and lay eggs on clothing seams, not on the skin itself"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "Unlike Scabies mites which live in the skin (**Burrows**), **body lice** live and lay eggs on **clothing seams** and only move to the skin to feed.",
+            "incorrect": {
+                "A": "Steroids reduce inflammation/itching but do not kill lice or mites; they might actually mask the disease.",
+                "B": "Scabies can affect palms/soles in infants, but body lice prefer the trunk where clothing is tight.",
+                "C": "Burrows are unique to Scabies mites tunneling in the skin. Lice do not burrow.",
+                "D": "Scabies is famously known for **\"Nocturnal Pruritus\"**; this statement is false."
+            }
+        }
+    },
+    {
+        "question": "A 20-year-old male presents with itchy papules on the axillae and umbilicus. He denies any history of allergies. If you perform a 'Burrow Ink Test' to confirm scabies, what indicates a POSITIVE result?",
+        "choices": {
+            "A": "The ink turns color from blue/black to red upon contact with the mite",
+            "B": "The ink spreads diffusely into the surrounding dermis",
+            "C": "The ink is wiped away completely with alcohol, leaving no mark",
+            "D": "The patient experiences intense burning pain",
+            "E": "The ink remains as a visible, dark, wavy line within the skin after wiping with alcohol"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "The ink penetrates the **burrow (tunnel)**. When you wipe the surface with alcohol, the surface ink is removed, but the ink **trapped inside the tunnel remains visible**, outlining the mite's path.",
+            "incorrect": {
+                "A": "There is no chemical reaction involved in this test.",
+                "B": "Diffuse spread implies surface staining or inflammation, not a distinct tract.",
+                "C": "This would be a negative result, meaning there was no tunnel for the ink to get trapped in.",
+                "D": "The test involves simple topical application and wiping; it is painless."
+            }
+        }
+    },
+    {
+        "question": "A 40-year-old office worker complains of a painful, burning sensation on his lower lip for the past 24 hours. He has not developed any visible rash yet but knows from past experience that a blister will appear soon. What is the clinical term for this sensation?",
+        "choices": {
+            "A": "The Sequelae",
+            "B": "The Aura",
+            "C": "The Flare",
+            "D": "The Prodrome",
+            "E": "The Incubator"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "**Prodrome** is the \"early warning\" symptom. In **Herpes Labialis**, it presents as burning or tingling **24 hours before the lesion appears** due to virus migration along the nerve.",
+            "incorrect": {
+                "A": "Sequelae refers to chronic conditions following a disease (e.g., scarring).",
+                "B": "Aura is typically used for neurological warnings (like in migraines or epilepsy).",
+                "C": "Flare refers to an acute worsening of a chronic condition (like Lupus or Eczema).",
+                "E": "Not a clinical term for a symptom."
+            }
+        }
+    },
+    {
+        "question": "You are counseling a patient with recurrent Herpes Labialis. He is a golf player and notices outbreaks after long tournaments. Which preventive measure is most relevant for him?",
+        "choices": {
+            "A": "Applying steroid cream before playing",
+            "B": "Taking prophylactic antibiotics",
+            "C": "Washing the face with antibacterial soap",
+            "D": "Stopping golf completely",
+            "E": "Applying a sunscreen lip balm"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "UV exposure (**sunlight**) is a **major trigger** for Herpes reactivation. Using a **sunscreen lip balm** blocks this trigger and is the most relevant preventive measure for a golfer.",
+            "incorrect": {
+                "A": "Steroids suppress local immunity and can actually trigger or worsen viral replication.",
+                "B": "Herpes is a virus; antibiotics have no effect.",
+                "C": "This treats bacteria, not the Herpes virus.",
+                "D": "While effective, managing the trigger is preferred over stopping the activity."
+            }
+        }
+    },
+    {
+        "question": "Upon microscopic examination of a Tzanck smear taken from the base of a vesicle, which specific cellular finding would support a diagnosis of Herpes Simplex Virus infection?",
+        "choices": {
+            "A": "Branching fungal hyphae",
+            "B": "Atypical lymphocytes with irregular nuclei",
+            "C": "Clue cells",
+            "D": "Koilocytes with perinuclear clearing",
+            "E": "Multinucleated Giant Cells"
+        },
+        "correctAnswer": "E",
+        "reasoning": {
+            "correct": "HSV causes keratinocytes to fuse together, creating large cells with multiple nuclei. **Multinucleated Giant Cells** is the **classic Tzanck smear finding** that supports a diagnosis of Herpes Simplex Virus infection.",
+            "incorrect": {
+                "A": "This is found in Tinea (Ringworm) infections using a KOH prep.",
+                "B": "This suggests a lymphoma or certain viral exanthems, not Herpes vesicles.",
+                "C": "These are epithelial cells covered in bacteria, diagnostic for Bacterial Vaginosis.",
+                "D": "These are diagnostic for **HPV (Warts)**."
+            }
+        }
+    },
+    {
+        "question": "Which histopathological feature described in the text refers to an eosinophilic protein mass within the nucleus, surrounded by a clear halo and margination of chromatin?",
+        "choices": {
+            "A": "Ballooning Degeneration",
+            "B": "Acantholysis",
+            "C": "Reticular Degeneration",
+            "D": "Cowdry Type A inclusion bodies",
+            "E": "Honey-colored crusts"
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "**Cowdry Type A inclusion bodies** are the specific intranuclear viral inclusions seen in **HSV and VZV** infections. They appear as an **eosinophilic protein mass** inside the nucleus with a clear \"halo\" around it.",
+            "incorrect": {
+                "A": "This refers to the swelling of epidermal cells caused by fluid accumulation in viral infections, but doesn't describe the specific nuclear inclusion.",
+                "B": "This is the loss of connection between skin cells (as seen in Pemphigus or Impetigo via toxin), leading to blisters, not a nuclear finding.",
+                "C": "This refers to severe intracellular edema bursting cells, not a specific inclusion body.",
+                "E": "This is a macroscopic (clinical) finding of Impetigo, not a microscopic cellular feature."
+            }
+        }
+    },
+    {
+        "question": "When differentiating Impetigo from Recurrent Herpes Labialis, which of the following clinical presentations points most strongly towards Impetigo?",
+        "choices": {
+            "A": "Lesions located strictly on the vermilion border.",
+            "B": "Honey-colored crusts and a lack of site-specific recurrence.",
+            "C": "A prodrome of tingling and burning pain.",
+            "D": "Presence of a solitary, painless ulcer with indurated borders.",
+            "E": "Grouped vesicles on an erythematous base."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "**Honey-colored crusts** are the hallmark sign of **Impetigo**. Unlike Herpes, Impetigo **lacks site-specific recurrence** and can appear anywhere the bacteria invades.",
+            "incorrect": {
+                "A": "This is the classic location for Herpes Labialis.",
+                "C": "A tingling/burning sensation 24 hours before the rash is a key feature of **Herpes**, not Impetigo.",
+                "D": "This describes a Chancre, the primary lesion of Syphilis.",
+                "E": "This is the classic morphology of **Herpes**."
+            }
+        }
+    },
+    {
+        "question": "What is the main difference in pathophysiology between Bullous Impetigo and Staphylococcal Scalded Skin Syndrome (SSSS)?",
+        "choices": {
+            "A": "In Bullous Impetigo the toxin is localized; in SSSS the toxin is systemic.",
+            "B": "Bullous Impetigo affects adults; SSSS affects infants.",
+            "C": "Bullous Impetigo is caused by Strep, SSSS by Staph.",
+            "D": "Bullous Impetigo targets Dsg3; SSSS targets Dsg1.",
+            "E": "There is no difference; they are the same disease."
+        },
+        "correctAnswer": "A",
+        "reasoning": {
+            "correct": "Both diseases are caused by the same Exfoliative Toxin from *S. aureus*. The key difference is the spread: In **Bullous Impetigo**, the toxin effect is **localized** to the lesion site. In **SSSS**, the toxin spreads **systemically** (hematogenous spread) to affect skin all over the body, even where there are no bacteria.",
+            "incorrect": {
+                "B": "Both commonly affect infants/children.",
+                "C": "Both are caused by **Staphylococcus aureus**.",
+                "D": "Both toxins target **Desmoglein 1 (Dsg1)** in the granular layer.",
+                "E": "They are different clinical entities, though they share a similar molecular mechanism."
+            }
+        }
+    },
+    {
+        "question": "A 6-month-old infant presents with flaccid bullae in the diaper area. When one bulla ruptures, it leaves a varnish-like crust. What is the mostly likely causative organism?",
+        "choices": {
+            "A": "Candida albicans",
+            "B": "Herpes Simplex Virus Type 1",
+            "C": "Staphylococcus aureus",
+            "D": "Streptococcus pyogenes",
+            "E": "Pseudomonas aeruginosa"
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "The case describes **Bullous Impetigo** (**flaccid bullae**, **varnish-like crust**, diaper area). This is caused by **Staphylococcus aureus** (Phage Group II) producing Exfoliative Toxins.",
+            "incorrect": {
+                "A": "Causes diaper rash but typically presents as \"beefy red\" plaques with satellite papules, not large clear bullae.",
+                "B": "Causes grouped vesicles, usually on the lip, not large flaccid bullae.",
+                "D": "Usually causes the **\"Non-bullous\"** (crusted) form of impetigo.",
+                "E": "Associated with Ecthyma Gangrenosum (necrotic ulcers) in immunocompromised patients, not simple bullae in a healthy infant."
+            }
+        }
+    },
+    {
+        "question": "A 6-month-old boy is brought to the clinic with blisters on his buttocks. Five days ago, he had diarrhea. Physical exam shows flaccid bullae and areas of raw, red skin with a 'shiny varnish-like' coating. He has a fever of 38.0°C. Which management step is most appropriate?",
+        "choices": {
+            "A": "Advise only barrier cream and observation.",
+            "B": "Apply antifungal powder.",
+            "C": "Prescribe oral Acyclovir.",
+            "D": "Start systemic antibiotics.",
+            "E": "Prescribe topical steroid cream."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The patient has Bullous Impetigo with **Fever (38.0°C)**. Fever indicates systemic involvement or severe infection. In an infant with widespread lesions and fever, **Systemic Antibiotics** (like Dicloxacillin or Cephalexin) are required.",
+            "incorrect": {
+                "A": "Barrier cream is for irritant diaper dermatitis, not a bacterial infection.",
+                "B": "Antifungals treat Candida, not Staph.",
+                "C": "Acyclovir treats Herpes, not bacteria.",
+                "E": "Steroids reduce immunity and can make a bacterial infection spread faster; they are **contraindicated** here."
+            }
+        }
+    },
+    {
+        "question": "You are viewing a KOH preparation under a microscope from a skin scraping of a scaly rash. Which of the following findings would confirm the diagnosis of Dermatophytosis (Tinea) rather than Candidiasis or Pityriasis Versicolor?",
+        "choices": {
+            "A": "Large, broad, non-septate hyphae with right-angle branching.",
+            "B": "Gram-positive cocci in chains.",
+            "C": "Pseudohyphae with budding yeast cells.",
+            "D": "Long, branching, septate hyphae without yeast cells.",
+            "E": "Short, curved hyphae and clusters of round spores ('Spaghetti and Meatballs')."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "**Dermatophytes (Ringworm fungi)** show **Long, branching, septate hyphae** (long lines with cross-walls). They generally **do not show yeast cells** in tissue.",
+            "incorrect": {
+                "A": "This description matches **Mucormycosis** (Zygomycetes), a dangerous deep fungal infection.",
+                "B": "This describes **Streptococcus** bacteria.",
+                "C": "**Pseudohyphae with budding yeast** is diagnostic for **Candida**.",
+                "E": "**'Spaghetti and Meatballs'** is diagnostic for **Pityriasis Versicolor** (caused by Malassezia yeast)."
+            }
+        }
+    },
+    {
+        "question": "Which part of the fungal lesion in Tinea Corporis (Ringworm) is the best site to collect a sample for KOH preparation?",
+        "choices": {
+            "A": "Deep tissue biopsy.",
+            "B": "The central clearing.",
+            "C": "Anywhere within the plaque.",
+            "D": "The Active Border.",
+            "E": "Normal skin adjacent to the lesion."
+        },
+        "correctAnswer": "D",
+        "reasoning": {
+            "correct": "The **Active Border** (the red, raised outer ring) is where the fungus is **actively feeding on keratin and growing**. This yields the **highest number of hyphae** for diagnosis.",
+            "incorrect": {
+                "A": "Unnecessary for superficial tinea; KOH scraping is sufficient.",
+                "B": "The central clearing is where the fungus has already eaten the keratin and the immune system is winning; you might not find fungus here.",
+                "C": "Choosing random spots will likely yield a false negative.",
+                "E": "Choosing random spots will likely yield a false negative."
+            }
+        }
+    },
+    {
+        "question": "A 20-year-old female university student presents with a chronic itchy rash on her trunk for 2 months. She admits to using a cream she bought from a drugstore which made the rash fade initially, but now it has expanded significantly. She owns a Persian cat. Examination shows a large, ill-defined erythematous patch with some follicular pustules. What is the most likely diagnosis?",
+        "choices": {
+            "A": "Contact Dermatitis.",
+            "B": "Tinea Incognito.",
+            "C": "Nummular Eczema.",
+            "D": "Granuloma Annulare.",
+            "E": "Psoriasis Vulgaris."
+        },
+        "correctAnswer": "B",
+        "reasoning": {
+            "correct": "The patient likely applied a **Steroid cream** to a fungal infection (Tinea). This suppresses inflammation but allows the fungus to grow unchecked, leading to **Tinea Incognito** (fungus hidden by steroids). The resulting morphology is **ill-defined** and strange (follicular pustules). The **Persian cat** is a classic source of *Microsporum canis*.",
+            "incorrect": {
+                "A": "Contact dermatitis wouldn't typically expand continuously like this or be linked to a cat.",
+                "C": "Nummular eczema is coin-shaped but usually responds well to steroids, not worsens/expands.",
+                "D": "Granuloma Annulare is a smooth ring without scale.",
+                "E": "Psoriasis has thick silvery scales and clear borders."
+            }
+        }
+    },
+    {
+        "question": "A patient presents with a single annular lesion on the arm. The differential diagnosis includes Tinea Corporis, Nummular Eczema, and Granuloma Annulare. Which feature most strongly favors Tinea Corporis?",
+        "choices": {
+            "A": "Intense itching.",
+            "B": "The presence of vesicles.",
+            "C": "The presence of central clearing.",
+            "D": "Symmetrical distribution.",
+            "E": "Absence of scale."
+        },
+        "correctAnswer": "C",
+        "reasoning": {
+            "correct": "**Central Clearing** is the **hallmark** of **Tinea Corporis**. As the fungus moves outward, the center heals, creating a ring.",
+            "incorrect": {
+                "A": "Both Tinea and Eczema can itch intensely.",
+                "B": "Both can have vesicles (Tinea at the border, Eczema on the plaque).",
+                "D": "Tinea is often asymmetrical (unless widespread).",
+                "E": "Absence of scale favors Granuloma Annulare. Tinea almost always has scale."
+            }
+        }
+    }
+]
