@@ -568,14 +568,15 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Helper to hide all games
     function hideAllGames() {
-        [snakeContainer, spaceContainer, whackContainer, sweeperContainer, cancerContainer].forEach(el => {
+        [snakeContainer, spaceContainer, whackContainer, sweeperContainer, document.getElementById('cardioGameContainer'), document.getElementById('immuneGameContainer')].forEach(el => {
             if(el) el.classList.add('hidden');
         });
         // Stop functions
         if(window.stopSpaceGame) window.stopSpaceGame();
         if(window.stopWhackGame) window.stopWhackGame();
         if(window.stopSweeperGame) window.stopSweeperGame();
-        if(window.stopCancerGame) window.stopCancerGame();
+        if(window.stopCardioGame) window.stopCardioGame(); 
+        if(window.stopImmuneGame) window.stopImmuneGame();
     }
 
     // --- Button Listeners ---
@@ -613,6 +614,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    if (document.getElementById('btn-play-cardio')) {
+        document.getElementById('btn-play-cardio').addEventListener('click', () => {
+            miniGameMenu.classList.add('hidden');
+            document.getElementById('cardioGameContainer').classList.remove('hidden');
+            if (typeof initCardioGame === 'function') initCardioGame();
+        });
+    }
+
+    if (document.getElementById('btn-play-immune')) {
+        document.getElementById('btn-play-immune').addEventListener('click', () => {
+            miniGameMenu.classList.add('hidden');
+            document.getElementById('immuneGameContainer').classList.remove('hidden');
+            if (typeof initImmuneGame === 'function') initImmuneGame();
+        });
+    }
+    
     document.querySelectorAll('.back-to-games-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             hideAllGames();

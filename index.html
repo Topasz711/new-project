@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sarabun:wght@400;500;600;700&family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
 
@@ -347,6 +349,16 @@
                             <h3 class="text-xl font-bold text-gray-800 dark:text-white">Virus Sweeper</h3>
                             <p class="text-gray-500 dark:text-gray-400 mt-2">Find the outbreak zones safely.</p>
                         </button>
+                        <button id="btn-play-cardio" class="game-select-btn p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all border-2 border-transparent hover:border-cyan-500">
+                            <div class="text-5xl mb-4">💓</div>
+                            <h3 class="text-xl font-bold text-gray-800 dark:text-white">Cardio Beat</h3>
+                            <p class="text-gray-500 dark:text-gray-400 mt-2">Sync your heart to the rhythm!</p>
+                        </button>
+                        <button id="btn-play-immune" class="game-select-btn p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all border-2 border-transparent hover:border-yellow-500">
+                            <div class="text-5xl mb-4">🛡️</div>
+                            <h3 class="text-xl font-bold text-gray-800 dark:text-white">Immune Crisis</h3>
+                            <p class="text-gray-500 dark:text-gray-400 mt-2">Defend the cell from viruses!</p>
+                        </button>
                     </div>
                 </div>
 
@@ -453,7 +465,101 @@
                                 Try Again
                             </button>
                         </div>
+                    </div>
                 </div>
+
+                <div id="cardioGameContainer" class="hidden relative w-full h-[600px] rounded-xl overflow-hidden shadow-2xl bg-black">
+                    <canvas id="cardioGameCanvas" class="block w-full h-full"></canvas>
+                    <div id="cardioScanline"></div>
+                    
+                    <div id="cardioHitZone"></div>
+
+                    <button class="back-to-games-btn absolute top-4 left-4 z-30 px-3 py-1 bg-white/10 backdrop-blur-sm rounded-full text-white hover:bg-white/20 text-sm flex items-center pointer-events-auto border border-white/20">
+                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg> Exit
+                    </button>
+
+                    <div id="cardio-ui-layer">
+                        <div class="cardio-hud-top">
+                            <div class="cardio-health-box">
+                                <div class="cardio-vital-label">VITAL SIGNS (SYNC RATE)</div>
+                                <div id="cardioHealthContainer">
+                                    <div id="cardioHealthFill"></div>
+                                </div>
+                                <div id="cardioBpmDisplay">HR: 128 BPM</div>
+                            </div>
+                            <div class="cardio-score-box">
+                                <div class="cardio-vital-label">TOTAL SCORE</div>
+                                <div id="cardioScore">0</div>
+                            </div>
+                        </div>
+                        
+                        <div id="cardioComboContainer">
+                            <div id="cardioComboVal">0</div>
+                            <div class="cardio-combo-label">COMBO</div>
+                        </div>
+                    </div>
+
+                    <div id="cardioStartScreen">
+                        <h1 class="cardio-title">CARDIO<br>BEAT</h1>
+                        <p class="text-cyan-200 tracking-widest text-xl mb-2 font-bold font-orbitron">MEDICAL TECHNO RHYTHM</p>
+                        <p class="text-gray-400 mb-8 text-sm">SYNC YOUR INPUT WITH THE R-WAVE</p>
+                        
+                        <div class="grid grid-cols-2 gap-8 text-center text-sm text-blue-300 mb-8 border border-gray-800 p-6 rounded bg-black/50">
+                            <div>
+                                <div class="text-white font-bold text-lg mb-1">DESKTOP</div>
+                                <div>Spacebar / Mouse Click</div>
+                            </div>
+                            <div>
+                                <div class="text-white font-bold text-lg mb-1">MOBILE</div>
+                                <div>Tap Anywhere</div>
+                            </div>
+                        </div>
+
+                        <button id="cardioBtnStart" class="cardio-btn-start">INITIALIZE SYSTEM</button>
+                    </div>
+
+                    <div id="cardioTapZone"></div>
+                </div>
+
+                    <div id="immuneGameContainer" class="hidden relative w-full h-[600px] rounded-xl overflow-hidden shadow-2xl">
+                        <canvas id="immuneGameCanvas" class="block w-full h-full"></canvas>
+                        
+                        <div id="immune-ui-layer">
+                            <div style="width: 100%; text-align: center; margin-top: 40px; pointer-events: none;">
+                                <div class="immune-hud-score" id="immuneScoreEl">0</div>
+                                <div style="font-size: 0.8rem; color: rgba(255,255,255,0.5); letter-spacing: 3px;">ANTIBODIES DEPLOYED</div>
+                            </div>
+                            
+                            <button class="back-to-games-btn absolute top-4 left-4 z-30 px-3 py-1 bg-white/10 backdrop-blur-sm rounded-full text-white hover:bg-white/20 text-sm flex items-center pointer-events-auto border border-white/20">
+                                <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg> Exit
+                            </button>
+
+                            <div class="immune-health-wrapper">
+                                <div class="immune-health-text">CELL INTEGRITY</div>
+                                <div class="immune-health-container">
+                                    <div class="immune-health-bar" id="immuneHealthEl"></div>
+                                </div>
+                            </div>
+                            
+                            <div id="immune-mobile-controls"></div>
+
+                            <div class="immune-start-screen" id="immuneStartModal">
+                                <h1 class="immune-title">IMMUNE CRISIS</h1>
+                                <p class="immune-desc">Doctor, you are cleared to engage.<br>Eliminate pathogens.</p>
+                                <div class="immune-controls-hint">
+                                    Desktop: <b>WASD</b> to Move, <b>Mouse</b> to Aim/Shoot<br>
+                                    Mobile: <b>Left Stick</b> to Move, <b>Tap Right</b> to Shoot
+                                </div>
+                                <button id="immuneStartBtn" class="immune-btn">INITIATE DEFENSE</button>
+                            </div>
+
+                            <div class="immune-game-over-screen hidden" id="immuneGameOverModal">
+                                <h1 class="immune-title" style="color: #ff3333; text-shadow: 0 0 30px rgba(255, 0, 0, 0.6);">CRITICAL FAILURE</h1>
+                                <p id="immuneFinalScoreDisplay" class="immune-desc">Score: 0</p>
+                                <button id="immuneRestartBtn" class="immune-btn" style="border-color: #ff3333; color: #ff3333;">REBOOT SYSTEM</button>
+                            </div>
+                        </div>
+                    </div>
 
             <div id="placeholderContent" class="main-content-pane hidden text-center p-10 bg-white dark:bg-gray-800 rounded-lg shadow-md">
                 <h2 class="text-2xl font-semibold text-gray-500 dark:text-gray-400">ยังไม่มี/อาจจะไม่ทำ</h2>
@@ -467,6 +573,8 @@
     <script src="spaceGame.js" defer></script>
     <script src="whackGame.js" defer></script>
     <script src="virusSweeper.js" defer></script>
+    <script src="cardioGame.js" defer></script>
+    <script src="immuneGame.js" defer></script>
     <script src="labQuiz.js" defer></script>
     <script>
         if ('serviceWorker' in navigator) {
