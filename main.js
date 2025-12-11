@@ -260,11 +260,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 const title = document.getElementById('skin-quiz-title');
                 const subtitle = document.getElementById('skin-quiz-subtitle');
                 const container = document.getElementById('skinQuizContainer');
-
                 if (list) list.classList.add('hidden'); 
                 if (quizView) quizView.classList.remove('hidden');
                 if (title) title.textContent = '';
                 if (subtitle) subtitle.textContent = '';
+                if (container) container.innerHTML = placeholderHTML;
+            } else if (parentPaneId === 'musculoskeletalContent') {
+                const list = document.getElementById('musculoskeletalListView');
+                const quizView = document.getElementById('musculoskeletalQuizView');
+                const title = document.getElementById('musculoskeletal-quiz-title');
+                const container = document.getElementById('musculoskeletalQuizContainer');
+
+                if (list) list.classList.add('hidden'); 
+                if (quizView) quizView.classList.remove('hidden');
+                if (title) title.textContent = '';
                 if (container) container.innerHTML = placeholderHTML;
             }
         }
@@ -325,6 +334,11 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (targetId === 'skinContent') {
                 const list = document.getElementById('skinListView');
                 const quizView = document.getElementById('skinQuizView');
+                if (list) list.classList.remove('hidden');
+                if (quizView) quizView.classList.add('hidden');
+            } else if (targetId === 'musculoskeletalContent') {
+                const list = document.getElementById('musculoskeletalListView');
+                const quizView = document.getElementById('musculoskeletalQuizView');
                 if (list) list.classList.remove('hidden');
                 if (quizView) quizView.classList.add('hidden');
             } else if (targetId === 'miniGameContent') {
@@ -414,7 +428,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (titleEl) titleEl.textContent = quizTitle || 'Pharmacology Quiz';
                 if (subtitleEl) subtitleEl.textContent = quizSubtitle || 'Test your knowledge.';
                 if (quizType === 'mcq') startNewMcqQuiz(fetchedData, quizContainerId, quizFile, null, navLinks);
-} else if (parentPaneId === 'infectiousContent') {
+            } else if (parentPaneId === 'infectiousContent') {
                 document.querySelectorAll('.infectious-sub-pane').forEach(pane => pane.classList.add('hidden'));
                 if (quizType === 'lab') {
                     const titleEl = document.getElementById('infectious-lab-quiz-title');
@@ -436,12 +450,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (titleEl) titleEl.textContent = quizTitle || 'Epidemiology Quiz';
                 if (quizView) quizView.classList.remove('hidden');
                 if (quizType === 'mcq') startNewMcqQuiz(fetchedData, quizContainerId, quizFile, null, navLinks);
-} else if (parentPaneId === 'skinContent') {
+            } else if (parentPaneId === 'skinContent') {
                 const listView = document.getElementById('skinListView');
                 const titleEl = document.getElementById('skin-quiz-title');
                 const quizView = document.getElementById('skinQuizView');
                 if (listView) listView.classList.add('hidden');
                 if (titleEl) titleEl.textContent = quizTitle || 'Skin Quiz';
+                if (quizView) quizView.classList.remove('hidden');
+                if (quizType === 'mcq') startNewMcqQuiz(fetchedData, quizContainerId, quizFile, null, navLinks);
+            } else if (parentPaneId === 'musculoskeletalContent') {
+                const listView = document.getElementById('musculoskeletalListView');
+                const titleEl = document.getElementById('musculoskeletal-quiz-title');
+                const quizView = document.getElementById('musculoskeletalQuizView');
+                if (listView) listView.classList.add('hidden');
+                if (titleEl) titleEl.textContent = quizTitle || 'Musculoskeletal Quiz';
                 if (quizView) quizView.classList.remove('hidden');
                 if (quizType === 'mcq') startNewMcqQuiz(fetchedData, quizContainerId, quizFile, null, navLinks);
             }
