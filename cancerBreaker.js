@@ -23,6 +23,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const paddle = { width: 80, height: 12, x: 0, y: 0, color: '#a78bfa' };
     let bricks = [];
     let particles = [];
+    
+    // เพิ่มตัวแปรเช็คการกดปุ่ม
+    let rightPressed = false;
+    let leftPressed = false;
 
     function resize() {
         if(!container) return;
@@ -89,6 +93,14 @@ document.addEventListener('DOMContentLoaded', () => {
     function update() {
         if(!gameRunning) return;
         
+        // เพิ่ม Logic ขยับ Paddle ตามปุ่มที่กด
+        if(rightPressed && paddle.x < canvas.width - paddle.width) {
+            paddle.x += 7; // ความเร็วในการเลื่อน
+        }
+        else if(leftPressed && paddle.x > 0) {
+            paddle.x -= 7;
+        }
+
         ball.x += ball.dx;
         ball.y += ball.dy;
 
@@ -148,16 +160,22 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Input
-    canvas.addEventListener('mousemove', e => {
-        const rect = canvas.getBoundingClientRect();
-        paddle.x = (e.clientX - rect.left) - paddle.width/2;
+    // Input (แก้ไขเป็น Keyboard: ลูกศรซ้าย/ขวา หรือ A/D)
+    document.addEventListener('keydown', (e) => {
+        if(e.key === 'Right' || e.key === 'ArrowRight' || e.key === 'd' || e.key === 'D') {
+            rightPressed = true;
+        } else if(e.key === 'Left' || e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') {
+            leftPressed = true;
+        }
     });
-    canvas.addEventListener('touchmove', e => {
-        e.preventDefault();
-        const rect = canvas.getBoundingClientRect();
-        paddle.x = (e.touches[0].clientX - rect.left) - paddle.width/2;
-    }, {passive: false});
 
+    document.addEventListener('keyup', (e) => {
+        if(e.key === 'Right' || e.key === 'ArrowRight' || e.key === 'd' || e.key === 'D') {
+            rightPressed = false;
+        } else if(e.key === 'Left' || e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') {
+            leftPressed = false;
+        }
+    });
     if(startBtn) startBtn.addEventListener('click', startGame);
     if(restartBtn) restartBtn.addEventListener('click', startGame);
 

@@ -334,13 +334,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.getElementById('spaceGameContainer').classList.add('hidden');
                 if(document.getElementById('whackGameContainer')) document.getElementById('whackGameContainer').classList.add('hidden');
                 if(document.getElementById('sweeperGameContainer')) document.getElementById('sweeperGameContainer').classList.add('hidden');
-                if(document.getElementById('cancerGameContainer')) document.getElementById('cancerGameContainer').classList.add('hidden');
                 
                 // Stop games
                 if (window.stopSpaceGame) window.stopSpaceGame();
                 if (window.stopWhackGame) window.stopWhackGame();
                 if (window.stopSweeperGame) window.stopSweeperGame();
-                if (window.stopCancerGame) window.stopCancerGame();
             }
             
             const isQuizLink = link.closest('.lecture-btn');
@@ -590,14 +588,6 @@ document.addEventListener('DOMContentLoaded', () => {
             miniGameMenu.classList.add('hidden');
             sweeperContainer.classList.remove('hidden');
             if (typeof initSweeperGame === 'function') initSweeperGame();
-        });
-    }
-
-    if (document.getElementById('btn-play-cancer')) {
-        document.getElementById('btn-play-cancer').addEventListener('click', () => {
-            miniGameMenu.classList.add('hidden');
-            cancerContainer.classList.remove('hidden');
-            if (typeof initCancerGame === 'function') initCancerGame();
         });
     }
 
