@@ -47,6 +47,7 @@ function saveQuizState(quizFile, state) {
         const stateToSave = { ...state };
         delete stateToSave.currentQuizDataRef;
         delete stateToSave.originalQuizDataRef;
+        delete stateToSave.navLinks;
         localStorage.setItem(`topazQuizState_${quizFile}`, JSON.stringify(stateToSave));
     } catch {}
 }
@@ -135,6 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const progressTracker = document.getElementById('progress-tracker');
     const retryBtn = document.getElementById('retry-btn');
     const retryIncorrectBtn = document.getElementById('retry-incorrect-btn');
+    const shuffleBtn = document.getElementById('shuffle-btn');
     const infectiousMenuBtn = document.getElementById('infectious-menu-btn');
     const backToMainMenuBtn = document.getElementById('back-to-main-menu');
     const mainMenu = document.getElementById('main-menu');
@@ -189,7 +191,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const startNewMcqQuiz = (quizData, containerId, quizFile, originalDataRef, navLinks) => {
     if (!quizData || quizData.length === 0) { showPlaceholder(containerId); return; }
     initializeQuizState(quizData, containerId, originalDataRef, quizFile);
-    buildMcqQuiz(quizData, containerId, navLinks);
+    // <--- เพิ่มส่วนนี้: ถ้ามีปุ่มส่งมา ให้จำไว้ใน quizState ด้วย
+    if (navLinks) {
+        quizState.navLinks = navLinks;
+    }
+    // ใช้ปุ่มที่ส่งมา หรือถ้าไม่มีให้ไปดึงจากความจำเดิม (quizState)
+    buildMcqQuiz(quizData, containerId, navLinks || quizState.navLinks);
         
         // --- START FIX for Progress Bar not showing on subsequent manual tab clicks ---
         const tracker = document.getElementById('progress-tracker');
@@ -557,6 +564,47 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         updateProgressBar();
     });
+    // --- เพิ่มโค้ดปุ่ม Shuffle ---
+    if (shuffleBtn) shuffleBtn.addEventListener('click', () => {
+        // ทำงานเฉพาะเมื่อมีข้อมูล Quiz และเป็นแบบ MCQ
+        if (quizState.originalQuizDataRef && quizState.type === 'mcq') {
+            
+            // 1. คัดลอกข้อมูลต้นฉบับออกมาเพื่อไม่ให้กระทบข้อมูลหลัก (Deep Copy)
+            let shuffledData = JSON.parse(JSON.stringify(quizState.originalQuizDataRef));
+            const currentNavLinks = quizState.navLinks;
+
+            // 2. ฟังก์ชันสลับอาเรย์ (Fisher-Yates Shuffle)
+            const shuffleArray = (array) => {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+            };
+
+            // 3. สลับลำดับข้อคำถาม
+            shuffleArray(shuffledData);
+
+            // 4. สลับลำดับ Choice ภายในแต่ละข้อ
+            shuffledData.forEach(question => {
+                if (question.choices) {
+                    // แปลง Object choices เป็น Array [key, value]
+                    const entries = Object.entries(question.choices);
+                    // สลับลำดับใน Array
+                    shuffleArray(entries);
+                    // แปลงกลับเป็น Object (ลำดับ key จะเปลี่ยนไปตามการสลับ)
+                    question.choices = Object.fromEntries(entries);
+                }
+            });
+
+            // 5. เคลียร์สถานะเก่า (ถ้ามี)
+            try { localStorage.removeItem(`topazQuizState_${quizState.quizFile}`); } catch {}
+
+            // 6. เริ่ม Quiz ใหม่ด้วยข้อมูลที่สลับแล้ว
+            // เราไม่ส่ง originalDataRef พารามิเตอร์ที่ 4 เพื่อให้ Quiz จำว่าชุดที่สลับแล้วคือชุดปัจจุบัน (ถ้ากด Retry จะได้ชุดสลับเดิม)
+            startNewMcqQuiz(shuffledData, quizState.containerId, quizState.quizFile, null, currentNavLinks);
+        }
+    });
+    // --- จบโค้ดปุ่ม Shuffle ---
     // --- Mini Game Menu Logic ---
     const miniGameMenu = document.getElementById('miniGameMenu');
     // Containers
@@ -629,7 +677,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (typeof initImmuneGame === 'function') initImmuneGame();
         });
     }
-    
+
     document.querySelectorAll('.back-to-games-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             hideAllGames();
