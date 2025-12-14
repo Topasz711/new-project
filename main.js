@@ -720,8 +720,8 @@ function buildMcqQuiz(quizData, containerId, navLinks) {
 
         const questionContent = document.createElement('h2');
         questionContent.className = 'text-xl font-semibold mb-4';
-        questionContent.innerHTML = `<span class="text-blue-600 dark:text-blue-400 font-bold">Question ${index + 1}:</span> `;
-        questionContent.appendChild(document.createTextNode(item.question));
+        const formattedQuestion = item.question.replace(/\n/g, '<br>');
+        questionContent.innerHTML = `<span class="text-blue-600 dark:text-blue-400 font-bold">Question ${index + 1}:</span> ${formattedQuestion}`;
 
         questionElement.appendChild(questionContent);
         if (item.imageUrl) questionElement.appendChild(imageElement);

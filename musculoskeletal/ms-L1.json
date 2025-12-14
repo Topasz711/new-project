@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Statement 1: A plane parallel to the median plane but not through the midline\nStatement 2: A plane dividing the body into superior and inferior parts\nWhich option is correct?",
+    "choices": {
+      "A": "1 = parasagittal, 2 = horizontal",
+      "B": "1 = horizontal, 2 = parasagittal",
+      "C": "1 = coronal, 2 = sagittal",
+      "D": "1 = median, 2 = coronal",
+      "E": "1 = oblique, 2 = median"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Statement 1 (Parasagittal): The Sagittal plane or Parasagittal plane is a vertical plane that runs parallel to the Median plane but does not pass through the midline. The Median plane specifically divides the body into equal right and left halves, whereas parasagittal planes divide the body into unequal right and left parts. Statement 2 (Horizontal): The Transverse (axial) plane, often referred to as the horizontal plane, divides the body into Superior (upper) and Inferior (lower) parts.",
+      "incorrect": {
+        "B": "Incorrect because Statement 1 describes a vertical plane (parasagittal), not a horizontal one. Statement 2 describes a horizontal plane, not a vertical one.",
+        "C": "Incorrect because a Coronal (frontal) plane divides the body into Anterior (front) and Posterior (back) parts, which does not match Statement 1. The sagittal plane is vertical, dividing left and right.",
+        "D": "Incorrect because the Median plane passes directly through the midline, whereas Statement 1 specifically says \"not through the midline.\" Also, the Coronal plane divides Anterior/Posterior, not Superior/Inferior.",
+        "E": "Incorrect because an Oblique plane would be at an angle other than 90 degrees, and Statement 2 describes a standard transverse/horizontal plane. The Median plane passes through the midline."
+      }
+    }
+  },
+  {
+    "question": "Statement 1: A clinician suspects a right cerebral hemisphere lesion. The patient has weakness of the left arm and left leg.\nStatement 2: A patient has pain limited to the right side of the neck only.\nWhich option is correct?",
+    "choices": {
+      "A": "1 = ipsilateral, 2 = unilateral",
+      "B": "1 = contralateral, 2 = unilateral",
+      "C": "1 = unilateral, 2 = contralateral",
+      "D": "1 = contralateral, 2 = bilateral",
+      "E": "1 = ipsilateral, 2 = bilateral"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Statement 1 (Contralateral): The lesion is on the Right side of the brain, but the weakness is on the Left side of the body. This relationship—occurring on the opposite side of the body—is defined as Contralateral. Statement 2 (Unilateral): The pain is limited to the Right side only. Occurring on one side of the body is defined as Unilateral.",
+      "incorrect": {
+        "A": "Incorrect because Ipsilateral means occurring on the same side of the body. Statement 1 describes opposite sides (Right vs. Left).",
+        "C": "Incorrect because the definitions are swapped. Statement 1 is Contralateral (opposite), not Unilateral. Statement 2 is Unilateral, not Contralateral.",
+        "D": "Incorrect because Bilateral means occurring on both sides of the body (e.g., both left and right). Statement 2 describes pain on the right side only.",
+        "E": "Incorrect because Ipsilateral means occurring on the same side (contradicts Statement 1) and Bilateral means on both sides (contradicts Statement 2)."
+      }
+    }
+  },
+  {
+    "question": "Arrange these bony landmarks from smallest to largest: tubercle, tuberosity, trochanter",
+    "choices": {
+      "A": "trochanter < tuberosity < tubercle",
+      "B": "tubercle < trochanter < tuberosity",
+      "C": "tubercle < tuberosity < trochanter",
+      "D": "tuberosity < tubercle < trochanter",
+      "E": "tuberosity < trochanter < tubercle"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "According to the \"Bone Marking\" table in your lecture slides: Tubercle is defined as a \"Small, round projection\". Tuberosity is defined as a \"Large, rough projection\". Trochanter is defined as a \"Massive, rough projection found only on the femur\". Therefore, the order from smallest to largest is Tubercle (Small) < Tuberosity (Large) < Trochanter (Massive).",
+      "incorrect": {
+        "A": "Incorrect because Trochanter is the largest, not the smallest.",
+        "B": "Incorrect because Trochanter is larger than Tuberosity.",
+        "D": "Incorrect because Tuberosity is larger than a Tubercle.",
+        "E": "Incorrect because Tuberosity is larger than a Tubercle, and Trochanter is the largest."
+      }
+    }
+  },
+  {
+    "question": "A patient is asked to make a fist and then fully open the hand. The main finger movement in this task is best described as occurring in which plane?",
+    "choices": {
+      "A": "Sagittal plane",
+      "B": "Coronal (frontal) plane",
+      "C": "Transverse plane",
+      "D": "Oblique plane of the palm",
+      "E": "Scapular plane"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Making a fist involves Flexion of the fingers (decreasing the angle), and opening the hand involves Extension (increasing the angle). Flexion and extension movements generally occur in the Sagittal plane. This applies to the interphalangeal and metacarpophalangeal joints when making a fist.",
+      "incorrect": {
+        "B": "Incorrect because the Coronal (frontal) plane is associated with Abduction (spreading fingers apart) and Adduction (bringing fingers together).",
+        "C": "Incorrect because the Transverse plane is associated with rotational movements (like pronation/supination or rotation of the head).",
+        "D": "Incorrect because \"Oblique plane of the palm\" is not the standard anatomical plane used to describe these primary movements.",
+        "E": "Incorrect because \"Scapular plane\" is not the standard anatomical plane used to describe these primary movements."
+      }
+    }
+  }
+]
