@@ -1,0 +1,164 @@
+[
+  {
+    "question": "Which of the following bones is classified as an 'irregular bone'?",
+    "choices": {
+      "A": "Humerus",
+      "B": "Patella",
+      "C": "Carpal bone",
+      "D": "Sacrum",
+      "E": "Sternum"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Irregular bones have complex shapes that do not fit into the other categories (long, short, flat, or sesamoid). The vertebrae, including the fused vertebrae of the sacrum and coccyx, are classic examples of irregular bones.",
+      "incorrect": {
+        "A": "Incorrect. The humerus is a long bone. It has a diaphysis (shaft) and epiphyses (ends).",
+        "B": "Incorrect. The patella is a sesamoid bone, which is a small bone embedded within a tendon.",
+        "C": "Incorrect. Carpal bones (wrist bones) are short bones, which are roughly cube-shaped.",
+        "E": "Incorrect. The sternum (breastbone) is a flat bone."
+      }
+    }
+  },
+  {
+    "question": "Which membrane lines the internal medullary cavity of a long bone?",
+    "choices": {
+      "A": "Epiphysis",
+      "B": "Articular cartilage",
+      "C": "Endosteum",
+      "D": "Periosteum",
+      "E": "Perichondrium"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The endosteum is a thin membrane that lines the medullary cavity (the hollow center of the bone shaft).",
+      "incorrect": {
+        "A": "Incorrect. This refers to the ends of a long bone (proximal and distal), not a membrane.",
+        "B": "Incorrect. This is a thin layer of hyaline cartilage covering the epiphysis where the bone forms a joint; it reduces friction.",
+        "D": "Incorrect. This is the tough connective tissue membrane that covers the outer surface of the bone (except where there is articular cartilage).",
+        "E": "Incorrect. This is the membrane that covers cartilage, not the internal cavity of a bone."
+      }
+    }
+  },
+  {
+    "question": "A 25-year-old male is brought to the emergency department after being struck by a baseball on the lateral side of his head. He initially lost consciousness but is now awake and lucid (lucid interval). A CT scan reveals an epidural hematoma caused by a rupture of the middle meningeal artery.\nThe fracture is located at the thinnest part of the lateral skull, where sutures of four bones meet to form an H-shaped junction.\nWhich craniometric point corresponds to this anatomical location?",
+    "choices": {
+      "A": "Inion",
+      "B": "Asterion",
+      "C": "Bregma",
+      "D": "Lambda",
+      "E": "Pterion"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The Pterion is the H-shaped junction formed by the meeting of the Frontal, Parietal, Temporal, and Sphenoid (greater wing) bones. It is the thinnest part of the lateral skull and overlies the anterior division of the middle meningeal artery. Trauma here is a common cause of epidural hematoma.",
+      "incorrect": {
+        "A": "Incorrect. This is the most prominent point of the external occipital protuberance at the back of the skull.",
+        "B": "Incorrect. This is the star-shaped junction of the parietomastoid, occipitomastoid, and lambdoid sutures (Posterior lateral aspect).",
+        "C": "Incorrect. This is the junction of the coronal and sagittal sutures on the top of the skull.",
+        "D": "Incorrect. This is the junction of the lambdoid and sagittal sutures at the posterior aspect of the skull."
+      }
+    }
+  },
+  {
+    "question": "A 2-year-old boy is brought to the pediatric clinic due to delayed walking and bowing of the legs. Physical examination reveals 'frontal bossing' and 'rachitic rosary' (bead-like prominences at the costochondral junctions).\nBased on these clinical features, which of the following skeletal findings is most likely associated with this patient's condition?",
+    "choices": {
+      "A": "Increased bone density (Osteopetrosis)",
+      "B": "Early closure of the sagittal suture",
+      "C": "Narrowing of the cranial sutures",
+      "D": "Delayed closure of the anterior fontanel",
+      "E": "Premature fusion of the epiphyseal plates"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The clinical presentation (bowing legs, frontal bossing, rachitic rosary) is characteristic of Rickets (Vitamin D deficiency). A key feature of Rickets listed in your lecture is the delayed closure of fontanelles.",
+      "incorrect": {
+        "A": "Incorrect. Rickets causes softening and weakening of bones due to lack of calcium/phosphate/Vitamin D, not increased density.",
+        "B": "Incorrect. Rickets is associated with wide sutures and delayed closure, not early closure (craniosynostosis).",
+        "C": "Incorrect. Rickets leads to wide sutures.",
+        "E": "Incorrect. Rickets affects the growth plates (metaphysis) by making them wide and irregular, but it typically delays proper ossification rather than causing premature fusion."
+      }
+    }
+  },
+  {
+    "question": "A bicyclist falls forward over the handlebars and strikes the center of their chin (mentum) directly against the pavement.\nThe resulting high-energy, direct impact is most likely to cause a fracture in which prominent, horizontal part of the jawbone?",
+    "choices": {
+      "A": "Ramus",
+      "B": "Body",
+      "C": "Coronoid process",
+      "D": "Mandibular angle",
+      "E": "Condylar process"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The Body is the prominent, horizontal part of the mandible that forms the chin (mental protuberance) and contains the teeth. A direct blow to the chin impacts the Body of the mandible first.",
+      "incorrect": {
+        "A": "Incorrect. The ramus is the vertical portion of the mandible that projects upward to form the joint.",
+        "C": "Incorrect. The coronoid process is the anterior projection of the ramus, used for temporalis muscle attachment, protected by the zygomatic arch.",
+        "D": "Incorrect. The mandibular angle is the corner where the body meets the ramus.",
+        "E": "Incorrect. The condylar process forms the TMJ joint. While a chin blow can cause an indirect fracture here, the question asks about the prominent horizontal part subjected to direct impact."
+      }
+    }
+  },
+  {
+    "question": "You are identifying the vertebra shown in the image. Which region of the vertebral column does it belong to?",
+    "imageUrl": "images/msk1.png",
+    "imageSource": "Anatomy Standard",
+    "choices": {
+      "A": "Cervical",
+      "B": "Thoracic",
+      "C": "Coccygeal",
+      "D": "Lumbar",
+      "E": "Sacral"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Visual Evidence: The most definitive feature visible in the image is the presence of a transverse foramen (foramen transversarium) in each transverse process. This anatomical feature is unique to cervical vertebrae (C1-C7) and is not found in any other region.\nSpecific Identification (C7): Although typical cervical vertebrae (C3-C6) have short, bifid spinous processes, the vertebra in the image displays a long, non-bifid spinous process. This is the specific characteristic of C7, also known as the Vertebra Prominens. It acts as a transition to the thoracic spine but retains the cervical hallmark of having transverse foramina.",
+      "incorrect": {
+        "B": "Incorrect. Thoracic vertebrae are distinguished by the presence of costal facets for rib articulation, but they do not possess transverse foramina.",
+        "C": "Incorrect. The coccyx consists of fused rudimentary vertebrae forming a small triangular bone at the base of the spine, which looks completely different from the distinct, single vertebra shown in the image.",
+        "D": "Incorrect. Lumbar vertebrae are characterized by a massive, kidney-shaped body to support weight and short, hatchet-shaped spinous processes. They lack transverse foramina.",
+        "E": "Incorrect. The sacrum is a large, triangular bone formed by the fusion of 5 sacral vertebrae. It does not resemble a single, unfused vertebra with a large vertebral foramen like the one shown."
+      }
+    }
+  },
+  {
+    "question": "Which pair of ribs is classified as atypical?",
+    "choices": {
+      "A": "11th and 12th ribs, because they lack both a neck and a tubercle",
+      "B": "9th and 10th ribs, because they are the last pair of true ribs with a bifid spinous process",
+      "C": "8th and 10th ribs, because they are false ribs and articulate indirectly with the sternum",
+      "D": "1st and 12th ribs, because the 1st has only one facet on its head, and the 12th is the shortest",
+      "E": "3rd and 9th ribs, because they attach directly to the sternum"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Ribs 11 and 12 are highly atypical (floating ribs) because, unlike typical ribs, they lack both a neck and a tubercle. They only have a single facet on their head for articulation with a single vertebral body.",
+      "incorrect": {
+        "B": "Incorrect. Rib 10 is atypical (one facet), but Rib 9 is usually considered typical or transitional. The mention of \"bifid spinous process\" is incorrect as that applies to cervical vertebrae, not ribs.",
+        "C": "Incorrect. Ribs 8 and 10 are false ribs, but the primary reason for the atypical classification of ribs 11 and 12 is their lack of key structural features (neck and tubercle). Rib 8 is structurally a Typical rib.",
+        "D": "Incorrect. Both 1st and 12th ribs are atypical, but the reason given for R12 (shortest) is less definitive than the structural absence of the neck and tubercle. Rib 1 is atypical because it is short, flat, and has grooves for subclavian vessels.",
+        "E": "Incorrect. Ribs 3 through 9 are generally classified as Typical ribs."
+      }
+    }
+  },
+  {
+    "question": "The Olecranon is a large process that forms the posterior point (the 'funny bone' tip) of the elbow. This process articulates with the upper arm bone to prevent hyperextension of the elbow joint.\nWhich bone possesses this prominent Olecranon process?",
+    "choices": {
+      "A": "Clavicle",
+      "B": "Ulna",
+      "C": "Scapula",
+      "D": "Radius",
+      "E": "Humerus"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The Olecranon is the large proximal process of the Ulna, which is the medial bone of the forearm. It articulates with the Humerus to form the main elbow joint, preventing hyperextension.",
+      "incorrect": {
+        "A": "Incorrect. The clavicle (collarbone) is part of the pectoral girdle, located in the shoulder region.",
+        "C": "Incorrect. The scapula (shoulder blade) has the acromion and coracoid processes, but not the olecranon.",
+        "D": "Incorrect. The radius is the lateral bone of the forearm. Its proximal end has a head and neck, but the olecranon belongs to the ulna.",
+        "E": "Incorrect. The humerus is the upper arm bone. It has the Olecranon fossa (the depression) that receives the olecranon process, but not the process itself."
+      }
+    }
+  }
+]
