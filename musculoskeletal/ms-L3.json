@@ -1,0 +1,82 @@
+[
+  {
+    "question": "A patient has a Herpes Zoster infection (Shingles) presenting with a vesicular rash at the level of the nipple. Which spinal nerve is affected?",
+    "choices": {
+      "A": "T4",
+      "B": "T10",
+      "C": "T7",
+      "D": "L1",
+      "E": "C4"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The T4 dermatome specifically corresponds to the level of the nipples. In clinical neurology, this is a key landmark used to localize spinal cord lesions or identify affected nerve roots in conditions like Shingles (Herpes Zoster), which follows a dermatomal distribution.",
+      "incorrect": {
+        "B": "Incorrect. The T10 dermatome landmark is at the level of the umbilicus (navel).",
+        "C": "Incorrect. The T7 dermatome is located at the level of the xiphoid process (inferior sternum).",
+        "D": "Incorrect. The L1 dermatome covers the inguinal (groin) region.",
+        "E": "Incorrect. The C4 dermatome supplies the top of the shoulder and the acromion area."
+      }
+    }
+  },
+  {
+    "question": "Which statement correctly defines a 'dermatome'?",
+    "choices": {
+      "A": "An area of skin supplied by sensory fibers of a single spinal nerve root.",
+      "B": "A group of muscles innervated by a single spinal nerve root.",
+      "C": "A peripheral nerve that supplies multiple skin areas.",
+      "D": "An area of skin supplied primarily by the brachial plexus.",
+      "E": "The region of skin supplied by the ventral root of a spinal nerve."
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "A dermatome is defined as an area of skin mainly supplied by afferent (sensory) nerve fibers from the dorsal root of a single spinal nerve.",
+      "incorrect": {
+        "B": "Incorrect. A group of muscles innervated by a single spinal nerve root is the definition of a Myotome, not a dermatome.",
+        "C": "Incorrect. Peripheral nerves are formed by plexuses (mixing of fibers from multiple spinal levels); their cutaneous area is multisegmental and does not correspond to a single dermatome.",
+        "D": "Incorrect. The brachial plexus is a network of nerves (C5-T1), not a single spinal nerve or the general definition of a dermatome.",
+        "E": "Incorrect. The ventral root is purely motor (efferent). Sensory innervation to the skin is supplied via the dorsal root."
+      }
+    }
+  },
+  {
+    "question": "A patient presents with weakness in elbow extension but has completely normal sensation throughout the arm and hand. Which structure is most likely injured?",
+    "choices": {
+      "A": "Dorsal root",
+      "B": "Ventral root",
+      "C": "Anterior ramus",
+      "D": "Posterior ramus",
+      "E": "Spinal ganglion"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The ventral (anterior) root contains only motor (efferent) fibers. A lesion here results in motor deficits (weakness) but spares sensation because sensory fibers enter through the dorsal root. Elbow extension is primarily a C7 myotome function.",
+      "incorrect": {
+        "A": "Incorrect. The dorsal root contains only sensory fibers; injury would cause sensory loss without motor weakness.",
+        "C": "Incorrect. The anterior ramus contains mixed fibers (both motor and sensory); damage would cause both weakness and sensory loss.",
+        "D": "Incorrect. The posterior ramus contains mixed fibers but supplies deep back muscles and skin of the back, not the arm.",
+        "E": "Incorrect. The spinal ganglion (Dorsal Root Ganglion) contains cell bodies of sensory neurons; damage here would primarily affect sensation."
+      }
+    }
+  },
+  {
+    "question": "Which of the following is a terminal branch of the Brachial plexus?",
+    "choices": {
+      "A": "Obturator nerve",
+      "B": "Femoral nerve",
+      "C": "Musculocutaneous nerve",
+      "D": "Genitofemoral nerve",
+      "E": "Superior gluteal nerve"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The Brachial plexus (C5-T1) supplies the upper limb. Its five main terminal branches are the Musculocutaneous, Axillary, Radial, Median, and Ulnar nerves. The Musculocutaneous nerve innervates the anterior compartment of the arm.",
+      "incorrect": {
+        "A": "Incorrect. The Obturator nerve is a branch of the Lumbar plexus (L2-L4), supplying the medial thigh.",
+        "B": "Incorrect. The Femoral nerve is a branch of the Lumbar plexus (L2-L4), supplying the anterior thigh.",
+        "D": "Incorrect. The Genitofemoral nerve is a branch of the Lumbar plexus (L1-L2).",
+        "E": "Incorrect. The Superior gluteal nerve is a branch of the Sacral plexus (L4-S1), supplying gluteal muscles."
+      }
+    }
+  }
+]
