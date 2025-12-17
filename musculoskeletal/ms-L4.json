@@ -1,0 +1,162 @@
+[
+  {
+    "question": "Which of the following best describes the movement and classification of the median atlanto-axial joint?",
+    "choices": {
+      "A": "Condyloid joint facilitating flexion and extension",
+      "B": "Saddle joint facilitating circumduction",
+      "C": "Pivot joint facilitating rotation of the head",
+      "D": "Hinge joint facilitating flexion only",
+      "E": "Plane joint facilitating lateral flexion only"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The median atlanto-axial joint is a synovial pivot (trochoid) joint formed between the dens (odontoid process) of the axis (C2) and the anterior arch of the atlas (C1). Its primary function is to allow rotation of the head (as in shaking the head 'no').",
+      "incorrect": {
+        "A": "Incorrect. Condyloid joints (like the atlanto-occipital joint) primarily allow flexion and extension (nodding 'yes') and some lateral flexion, not rotation.",
+        "B": "Incorrect. Saddle joints (like the 1st carpometacarpal joint) allow movement in two planes (biaxial), but the atlanto-axial joint is uniaxial.",
+        "D": "Incorrect. Hinge joints (like the elbow) allow flexion and extension only.",
+        "E": "Incorrect. Plane joints (like the lateral atlanto-axial joints or zygapophysial joints) allow gliding movements, but the median joint specifically is a pivot type."
+      }
+    }
+  },
+  {
+    "question": "A patient sustains a hyperextension injury of the vertebral column in a motor vehicle collision. Which ligament is most responsible for limiting excessive hyperextension?",
+    "choices": {
+      "A": "The anterior longitudinal ligament",
+      "B": "The posterior longitudinal ligament",
+      "C": "The ligamentum flavum",
+      "D": "The interspinous ligament",
+      "E": "The supraspinous ligament"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The Anterior Longitudinal Ligament (ALL) is a strong, broad band that runs along the anterior surfaces of the vertebral bodies. It is the only major ligament of the spine that limits extension (preventing hyperextension).",
+      "incorrect": {
+        "B": "Incorrect. The Posterior Longitudinal Ligament (PLL) runs along the posterior aspect of the vertebral bodies (inside the vertebral canal) and weakly limits flexion.",
+        "C": "Incorrect. The Ligamentum flavum connects laminae and limits flexion.",
+        "D": "Incorrect. The Interspinous ligament connects spinous processes and limits flexion.",
+        "E": "Incorrect. The Supraspinous ligament connects the tips of spinous processes and limits flexion. Ligaments located posterior to the axis of rotation are stretched during flexion, not extension."
+      }
+    }
+  },
+  {
+    "question": "A lumbar puncture is planned in an adult patient. The needle is inserted in the midline after flexing the spine. Which anatomical rationale best explains why the L3–L4 or L4–L5 level is chosen?",
+    "choices": {
+      "A": "The spinal cord typically terminates above these levels",
+      "B": "The interspinous ligaments are absent at these levels",
+      "C": "The posterior longitudinal ligament is thinner inferiorly",
+      "D": "The ligamentum flavum is discontinuous in the lumbar region",
+      "E": "The intervertebral discs are smaller in the lower lumbar spine"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "In adults, the spinal cord usually terminates at the L1 or L2 vertebral level (the conus medullaris). Below this level, the subarachnoid space contains only the cauda equina (nerve roots) floating in CSF. Inserting a needle at L3–L4 or L4–L5 minimizes the risk of injuring the spinal cord itself.",
+      "incorrect": {
+        "B": "Incorrect. Interspinous ligaments are present and well-developed in the lumbar region.",
+        "C": "Incorrect. While the PLL does narrow inferiorly, this is not the primary safety rationale for the level chosen for LP.",
+        "D": "Incorrect. The ligamentum flavum is thickest in the lumbar region; piercing it gives the characteristic 'pop' sensation.",
+        "E": "Incorrect. Lumbar intervertebral discs are actually large and thick to support body weight."
+      }
+    }
+  },
+  {
+    "question": "A patient has unilateral low back pain worsened by extension and rotation. Imaging suggests degeneration of a synovial joint formed by adjacent vertebral articular processes. Which joint is most likely responsible?",
+    "choices": {
+      "A": "Intervertebral joint between adjacent vertebral bodies",
+      "B": "Zygapophysial joint between adjacent vertebral arches",
+      "C": "Median atlanto-axial joint between dens and atlas",
+      "D": "Atlanto-occipital joint between atlas and occipital bone",
+      "E": "Costovertebral joint between rib head and vertebral body"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The Zygapophysial joints (Facet joints) are synovial plane joints formed between the superior and inferior articular processes of adjacent vertebrae. They are commonly involved in osteoarthritis (spondylosis) and are a common source of back pain aggravated by extension.",
+      "incorrect": {
+        "A": "Incorrect. The joint between vertebral bodies is a cartilaginous symphysis (intervertebral disc), not a synovial joint formed by articular processes.",
+        "C": "Incorrect. These are cervical joints (C1-C2) and would cause neck pain, not low back pain.",
+        "D": "Incorrect. These are cervical joints (C0-C1) and would cause neck pain.",
+        "E": "Incorrect. Costovertebral joints are not present in the lumbar region (low back)."
+      }
+    }
+  },
+  {
+    "question": "A patient presents with a 'drooping' right shoulder and inability to shrug against resistance. Physical exam reveals weakness in scapular retraction and elevation. There is no sensory loss in the upper limb. Which structure is most likely injured?",
+    "choices": {
+      "A": "Axillary nerve",
+      "B": "Thoracodorsal nerve",
+      "C": "Spinal accessory nerve",
+      "D": "Long thoracic nerve",
+      "E": "Dorsal scapular nerve"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The Spinal Accessory Nerve (CN XI) innervates the Trapezius muscle. The trapezius elevates the scapula (shrugging) and retracts it. Paralysis results in a characteristic 'drooping shoulder' and weakness in shrugging.",
+      "incorrect": {
+        "A": "Incorrect. The Axillary nerve innervates the Deltoid and Teres minor; injury causes weakness in abduction.",
+        "B": "Incorrect. The Thoracodorsal nerve innervates the Latissimus dorsi (extension/adduction of humerus).",
+        "D": "Incorrect. The Long thoracic nerve innervates the Serratus anterior; injury leads to 'winged scapula'.",
+        "E": "Incorrect. The Dorsal scapular nerve innervates the Rhomboids and Levator scapulae; while it affects retraction, the inability to shrug is hallmarks of Trapezius/CN XI palsy."
+      }
+    }
+  },
+  {
+    "question": "A clinician auscultates lung sounds at a site where breath sounds are heard more clearly due to a relative lack of thick overlying muscle. Which set of boundaries best defines this region?",
+    "choices": {
+      "A": "Rhomboids, vertebral column, and serratus anterior borders",
+      "B": "Trapezius, clavicle, and sternocleidomastoid borders",
+      "C": "Trapezius, scapula, and latissimus dorsi borders",
+      "D": "Latissimus dorsi, iliac crest, and external oblique borders",
+      "E": "Erector spinae, rib angles, and quadratus lumborum borders"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "This describes the Triangle of Auscultation. Its boundaries are: Lateral border of the Trapezius (Medial), Medial border of the Scapula (Lateral), and Superior border of the Latissimus Dorsi (Inferior). It is a site where lung sounds are easier to hear due to less muscle thickness.",
+      "incorrect": {
+        "A": "Incorrect. These boundaries do not correspond to standard anatomical triangles for auscultation.",
+        "B": "Incorrect. This describes the Posterior Triangle of the neck.",
+        "D": "Incorrect. This describes the Lumbar Triangle (of Petit), which is a site for lumbar hernias.",
+        "E": "Incorrect. These boundaries do not form a clinical triangle used for lung auscultation."
+      }
+    }
+  },
+  {
+    "question": "A 35-year-old patient has difficulty extending, adducting, and medially rotating the humerus. Examination suggests injury to a nerve arising from the brachial plexus (C6–C8). Which muscle is most likely weakened?",
+    "choices": {
+      "A": "Trapezius",
+      "B": "Latissimus dorsi",
+      "C": "Rhomboid major",
+      "D": "Levator scapulae",
+      "E": "Serratus posterior"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The Latissimus Dorsi performs extension, adduction, and medial rotation of the humerus. It is innervated by the Thoracodorsal nerve (C6, C7, C8).",
+      "incorrect": {
+        "A": "Incorrect. The Trapezius acts on the scapula and is innervated by CN XI.",
+        "C": "Incorrect. Rhomboids act on the scapula and are innervated by the Dorsal Scapular Nerve (C5).",
+        "D": "Incorrect. Levator Scapulae acts on the scapula and is innervated by the Dorsal Scapular Nerve (C5).",
+        "E": "Incorrect. Serratus Posterior muscles are accessory muscles of respiration and do not move the humerus."
+      }
+    }
+  },
+  {
+    "question": "A patient pulls the scapula medially toward the vertebral column and helps fix it to the thoracic wall. Which muscle is most directly responsible?",
+    "choices": {
+      "A": "Rhomboid major muscle",
+      "B": "Serratus posterior inferior muscle",
+      "C": "Splenius cervicis muscle",
+      "D": "Iliocostalis thoracis muscle",
+      "E": "Obliquus capitis inferior muscle"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The Rhomboid major (and minor) muscles retract the scapula (pulling it medially toward the spine) and fix the scapula to the thoracic wall.",
+      "incorrect": {
+        "B": "Incorrect. The Serratus posterior inferior depresses the ribs during respiration.",
+        "C": "Incorrect. The Splenius cervicis extends and rotates the neck/head.",
+        "D": "Incorrect. The Iliocostalis thoracis extends the vertebral column.",
+        "E": "Incorrect. The Obliquus capitis inferior rotates the atlas on the axis."
+      }
+    }
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "A patient with a 'drop arm' sign is unable to lower their arm smoothly from an abducted position. This finding is most specific for pathology of which tendon?",
+    "choices": {
+      "A": "Subscapularis",
+      "B": "Long head of biceps",
+      "C": "Pectoralis major",
+      "D": "Teres minor",
+      "E": "Supraspinatus"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The supraspinatus muscle is responsible for the initiation of abduction. When the arm is fully abducted and then lowered, the deltoid acts as the primary abductor. However, as the arm descends (eccentric contraction), the supraspinatus is crucial for controlling the movement. If the supraspinatus tendon is torn, the patient cannot control the descent smoothly, and the arm will 'drop' suddenly to the side. This is the hallmark of the 'Drop Arm Test'.",
+      "incorrect": {
+        "A": "Incorrect. Subscapularis is a primary medial rotator. Tears are typically evaluated using the 'Lift-off test' or 'Belly press test'.",
+        "B": "Incorrect. Pathology here usually presents as anterior shoulder pain (bicipital tendinitis). Clinical tests include Speed's test or Yergason's test.",
+        "C": "Incorrect. Pectoralis major is a powerful adductor and medial rotator. A tear typically results in a visible deformity and weakness in adduction.",
+        "D": "Incorrect. Teres minor is a lateral rotator of the arm. Pathology would present as weakness in external rotation."
+      }
+    }
+  },
+  {
+    "question": "During a physical exam, a patient demonstrates significant weakness in medial rotation of the arm against resistance. The clinician suspects injury to a muscle that inserts on the lesser tubercle of the humerus. Which nerve innervates this specific muscle?",
+    "choices": {
+      "A": "Axillary nerve",
+      "B": "Subscapular nerves",
+      "C": "Thoracodorsal nerve",
+      "D": "Suprascapular nerve",
+      "E": "Radial nerve"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The muscle described is the Subscapularis. It is the only rotator cuff muscle that inserts onto the lesser tubercle of the humerus and acts as a primary medial rotator. It is innervated by the upper and lower subscapular nerves (C5, C6, C7).",
+      "incorrect": {
+        "A": "Incorrect. Axillary nerve innervates the Deltoid and Teres minor. Teres minor attaches to the greater tubercle and laterally rotates the arm.",
+        "C": "Incorrect. Thoracodorsal nerve innervates the Latissimus dorsi. While it is a medial rotator, it inserts into the floor of the intertubercular groove.",
+        "D": "Incorrect. Suprascapular nerve innervates the Supraspinatus and Infraspinatus, both of which attach to the greater tubercle.",
+        "E": "Incorrect. Radial nerve innervates the posterior compartment of the arm (Triceps) and forearm extensors; it does not innervate the subscapularis."
+      }
+    }
+  },
+  {
+    "question": "A 66-year-old male presents with a fracture of the surgical neck of the humerus. Which nerve is most at risk of injury?",
+    "choices": {
+      "A": "Radial nerve",
+      "B": "Ulnar nerve",
+      "C": "Axillary nerve",
+      "D": "Median nerve",
+      "E": "Musculocutaneous nerve"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The axillary nerve passes through the quadrangular space and wraps directly around the surgical neck of the humerus. Due to this close anatomical relationship, it is the nerve most commonly injured in surgical neck fractures or anterior shoulder dislocations.",
+      "incorrect": {
+        "A": "Incorrect. Radial nerve runs in the radial groove (spiral groove) of the humerus and is most at risk during mid-shaft fractures.",
+        "B": "Incorrect. Ulnar nerve passes posterior to the medial epicondyle and is at risk in fractures of that region.",
+        "D": "Incorrect. Median nerve passes anterior to the elbow and is commonly injured in supracondylar fractures of the humerus.",
+        "E": "Incorrect. Musculocutaneous nerve pierces the coracobrachialis. While it can be injured in dislocations, it is less commonly associated with surgical neck fractures than the axillary nerve."
+      }
+    }
+  },
+  {
+    "question": "In the suprascapular region, how do the suprascapular artery and nerve relate to the superior transverse scapular ligament?",
+    "choices": {
+      "A": "The nerve passes superior, and the artery passes inferior to the ligament.",
+      "B": "The artery passes through the scapular notch, and the nerve passes laterally.",
+      "C": "Both pass inferior to the ligament.",
+      "D": "The artery passes superior, and the nerve passes inferior to the ligament.",
+      "E": "Both pass superior to the ligament."
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "At the superior border of the scapula, the scapular notch is bridged by the superior transverse scapular ligament. The relationship follows the mnemonic 'Army over, Navy under': The Suprascapular Artery (Army) passes over (superior to) the ligament, while the Suprascapular Nerve (Navy) passes under (inferior to) the ligament through the notch.",
+      "incorrect": {
+        "A": "Incorrect. This reverses the correct anatomical positions.",
+        "B": "Incorrect. The artery goes over the ligament, not through the notch.",
+        "C": "Incorrect. Only the nerve passes inferior to the ligament (through the notch).",
+        "E": "Incorrect. Only the artery passes superior to the ligament."
+      }
+    }
+  }
+]

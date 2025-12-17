@@ -1,0 +1,162 @@
+[
+  {
+    "question": "A 45-year-old woman undergoes a mastectomy for breast cancer. Following the surgery, she presents with a 'winged scapula' on the affected side. Which nerve was most likely damaged during the lymph node dissection?",
+    "choices": {
+      "A": "Axillary nerve",
+      "B": "Dorsal scapular nerve",
+      "C": "Suprascapular nerve",
+      "D": "Thoracodorsal nerve",
+      "E": "Long thoracic nerve"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The long thoracic nerve (C5-C7) runs superficially along the medial wall of the axilla on the surface of the serratus anterior muscle. It is highly susceptible to injury during axillary lymph node dissection or mastectomy. The serratus anterior holds the scapula against the thoracic wall; its paralysis causes the medial border and inferior angle of the scapula to pull away from the posterior chest wall, creating the 'winged scapula' appearance.",
+      "incorrect": {
+        "A": "Incorrect. Axillary nerve passes through the quadrangular space to innervate the deltoid and teres minor. Injury results in weakness of arm abduction and sensory loss over the lateral shoulder.",
+        "B": "Incorrect. Dorsal scapular nerve innervates the rhomboids and levator scapulae. Injury causes weakness in scapular retraction, not the classic 'winging'.",
+        "C": "Incorrect. Suprascapular nerve innervates the supraspinatus and infraspinatus. Injury leads to weakness in abduction initiation and lateral rotation.",
+        "D": "Incorrect. Thoracodorsal nerve innervates the latissimus dorsi. Injury weakens extension, adduction, and medial rotation of the humerus, but does not cause scapular winging."
+      }
+    }
+  },
+  {
+    "question": "A newborn infant presents with the left arm hanging by the side, medially rotated, and the forearm extended and pronated. This condition, known as 'waiter's tip' position, is most likely caused by injury to which part of the brachial plexus?",
+    "choices": {
+      "A": "Medial cord",
+      "B": "Lateral cord",
+      "C": "Inferior trunk (C8, T1)",
+      "D": "Posterior cord",
+      "E": "Superior trunk (C5, C6)"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "This is Erb-Duchenne palsy resulting from injury to the superior trunk (C5, C6), often due to birth trauma. It affects the suprascapular, musculocutaneous, and axillary nerves. Paralyzed muscles include the Deltoid/Supraspinatus (loss of abduction), Infraspinatus/Teres minor (loss of lateral rotation), and Biceps/Brachialis (loss of flexion), creating the 'waiter's tip' posture.",
+      "incorrect": {
+        "A": "Incorrect. Medial cord injury would affect intrinsic hand muscles and flexors, not the proximal shoulder muscles.",
+        "B": "Incorrect. Lateral cord injury affects musculocutaneous and median nerve roots but doesn't explain the full Erb's palsy pattern.",
+        "C": "Incorrect. Inferior trunk injury causes Klumpke’s palsy, resulting in 'claw hand' deformity due to intrinsic hand muscle involvement.",
+        "D": "Incorrect. Posterior cord injury leads to radial and axillary nerve deficits; while it includes abduction loss, it doesn't account for the specific Waiter's tip combination."
+      }
+    }
+  },
+  {
+    "question": "Identify the muscle that inserts on the coracoid process of the scapula and is innervated by the medial pectoral nerve.",
+    "choices": {
+      "A": "Serratus anterior",
+      "B": "Subclavius",
+      "C": "Coracobrachialis",
+      "D": "Pectoralis minor",
+      "E": "Pectoralis major"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Pectoralis minor originates from ribs 3-5 and inserts on the coracoid process of the scapula. It is innervated by the medial pectoral nerve, which typically pierces this muscle to reach the pectoralis major.",
+      "incorrect": {
+        "A": "Incorrect. Serratus anterior inserts on the medial border of the scapula and is innervated by the long thoracic nerve.",
+        "B": "Incorrect. Subclavius inserts on the inferior surface of the clavicle and is innervated by the nerve to subclavius.",
+        "C": "Incorrect. Coracobrachialis originates from the coracoid process (does not insert there) and is innervated by the musculocutaneous nerve.",
+        "E": "Incorrect. Pectoralis major inserts on the lateral lip of the intertubercular sulcus of the humerus."
+      }
+    }
+  },
+  {
+    "question": "Which nerve innervates the latissimus dorsi muscle?",
+    "choices": {
+      "A": "Upper subscapular nerve",
+      "B": "Lower subscapular nerve",
+      "C": "Dorsal scapular nerve",
+      "D": "Axillary nerve",
+      "E": "Thoracodorsal nerve"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The thoracodorsal nerve (also known as the middle subscapular nerve) arises from the posterior cord of the brachial plexus (C6, C7, C8) and runs inferiorly to innervate the latissimus dorsi muscle.",
+      "incorrect": {
+        "A": "Incorrect. Upper subscapular nerve innervates the superior portion of the subscapularis.",
+        "B": "Incorrect. Lower subscapular nerve innervates the inferior portion of the subscapularis and the teres major.",
+        "C": "Incorrect. Dorsal scapular nerve innervates the rhomboids and levator scapulae.",
+        "D": "Incorrect. Axillary nerve innervates the deltoid and teres minor."
+      }
+    }
+  },
+  {
+    "question": "Regarding the lymphatic drainage of the breast, where does the majority of the lymph drain?",
+    "choices": {
+      "A": "Axillary lymph nodes",
+      "B": "Parasternal lymph nodes",
+      "C": "Contralateral breast",
+      "D": "Supraclavicular lymph nodes",
+      "E": "Abdominal lymph nodes"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Approximately 75% of the lymphatic drainage from the breast (especially the lateral quadrants) drains into the axillary lymph nodes, primarily the pectoral (anterior) group. This is the main pathway for breast cancer metastasis.",
+      "incorrect": {
+        "B": "Incorrect. Parasternal lymph nodes drain the medial quadrants and account for about 20-25% of drainage.",
+        "C": "Incorrect. Only a very small amount of lymph may cross to the opposite breast.",
+        "D": "Incorrect. These are usually tertiary nodes that receive lymph after it passes through axillary or parasternal nodes.",
+        "E": "Incorrect. Drainage to abdominal nodes is a minor pathway from the inferior quadrants."
+      }
+    }
+  },
+  {
+    "question": "What is the primary action of the clavicular head of the pectoralis major?",
+    "choices": {
+      "A": "Lateral rotation of the humerus",
+      "B": "Flexion of the humerus",
+      "C": "Protraction of the scapula",
+      "D": "Depression of the clavicle",
+      "E": "Extension of the humerus"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The clavicular head of the pectoralis major originates from the clavicle and pulls the humerus anteriorly and superiorly, assisting in flexion of the humerus, especially from an extended position.",
+      "incorrect": {
+        "A": "Incorrect. Pectoralis major is a medial rotator, not a lateral rotator.",
+        "C": "Incorrect. Protraction is the main action of the serratus anterior and pectoralis minor; pectoralis major acts on the humerus.",
+        "D": "Incorrect. Depression of the clavicle is the function of the subclavius.",
+        "E": "Incorrect. The clavicular head is a flexor; only the sternocostal head assists in extension, and only from a flexed position back to neutral."
+      }
+    }
+  },
+  {
+    "question": "Which of the following nerves typically pierces the coracobrachialis muscle?",
+    "choices": {
+      "A": "Musculocutaneous nerve",
+      "B": "Median nerve",
+      "C": "Axillary nerve",
+      "D": "Radial nerve",
+      "E": "Ulnar nerve"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The musculocutaneous nerve arises from the lateral cord and pierces the coracobrachialis muscle. This is a key anatomical relationship used to identify the nerve in cadaveric studies.",
+      "incorrect": {
+        "B": "Incorrect. The median nerve runs medial to the brachial artery and does not pierce the coracobrachialis.",
+        "C": "Incorrect. The axillary nerve travels posteriorly through the quadrangular space.",
+        "D": "Incorrect. The radial nerve travels posteriorly into the radial groove of the humerus.",
+        "E": "Incorrect. The ulnar nerve runs medially and passes posterior to the medial epicondyle."
+      }
+    }
+  },
+  {
+    "question": "A 30-year-old boxer complains of weakness when trying to punch forward. Physical examination reveals that the medial border of his right scapula moves posteriorly and laterally away from the thoracic wall when he pushes against a wall. Which nerve is most likely injured?",
+    "choices": {
+      "A": "Axillary nerve",
+      "B": "Dorsal scapular nerve",
+      "C": "Thoracodorsal nerve",
+      "D": "Long thoracic nerve",
+      "E": "Radial nerve"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The long thoracic nerve innervates the serratus anterior muscle (the 'Boxer's muscle'). This muscle protracts the scapula and holds it against the thoracic wall. Paralysis leads to 'winging' of the scapula, especially prominent during pushing or punching movements.",
+      "incorrect": {
+        "A": "Incorrect. Axillary nerve injury affects deltoid function and abduction.",
+        "B": "Incorrect. Dorsal scapular nerve injury affects the rhomboids and scapular retraction.",
+        "C": "Incorrect. Thoracodorsal nerve injury affects latissimus dorsi function (climbing/rowing).",
+        "E": "Incorrect. Radial nerve injury causes wrist drop and weakness in elbow extension."
+      }
+    }
+  }
+]
