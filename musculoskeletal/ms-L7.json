@@ -1,0 +1,162 @@
+[
+  {
+    "question": "Which of the following muscles is uniquely supplied by two different nerves, specifically the median (via anterior interosseous) and the ulnar nerves?",
+    "choices": {
+      "A": "Flexor carpi ulnaris",
+      "B": "Flexor digitorum superficialis",
+      "C": "Flexor digitorum profundus",
+      "D": "Flexor pollicis longus",
+      "E": "Pronator quadratus"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The Flexor Digitorum Profundus (FDP) is a composite muscle. The lateral part (supplying digits 2 and 3) is innervated by the anterior interosseous branch of the median nerve, while the medial part (supplying digits 4 and 5) is innervated by the ulnar nerve. This dual innervation is a classic anatomical feature.",
+      "incorrect": {
+        "A": "Incorrect. Flexor carpi ulnaris is innervated solely by the ulnar nerve.",
+        "B": "Incorrect. Flexor digitorum superficialis is innervated solely by the median nerve.",
+        "D": "Incorrect. Flexor pollicis longus is innervated solely by the anterior interosseous nerve (branch of median).",
+        "E": "Incorrect. Pronator quadratus is innervated solely by the anterior interosseous nerve (branch of median)."
+      }
+    }
+  },
+  {
+    "question": "A 45-year-old carpenter complains of pain on the medial side of his elbow that worsens when he grips his hammer tightly or flexes his wrist. Physical examination reveals tenderness at the medial epicondyle. What is the most likely diagnosis?",
+    "choices": {
+      "A": "Cubital tunnel syndrome",
+      "B": "Radial nerve compression",
+      "C": "Tennis elbow",
+      "D": "Golfer's elbow",
+      "E": "Carpal tunnel syndrome"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "'Golfer’s elbow' is the common term for Medial Epicondylitis. It involves inflammation of the common flexor tendon origin at the medial epicondyle. The symptoms (pain on gripping/flexion) and location (medial epicondyle) perfectly match this diagnosis.",
+      "incorrect": {
+        "A": "Incorrect. Cubital tunnel syndrome involves ulnar nerve compression and typically presents with neurological symptoms like numbness in the 4th and 5th digits.",
+        "B": "Incorrect. Radial nerve compression would present with lateral elbow pain or extensor weakness/sensory loss.",
+        "C": "Incorrect. Tennis elbow is Lateral Epicondylitis, affecting the extensor origin on the lateral side of the elbow.",
+        "E": "Incorrect. Carpal tunnel syndrome involves median nerve compression at the wrist, not the medial elbow."
+      }
+    }
+  },
+  {
+    "question": "A student spends long hours studying with his elbows resting on a hard desk. He begins to feel numbness and tingling in his pinky and the medial half of his ring finger. Which nerve is most likely compressed?",
+    "choices": {
+      "A": "Ulnar nerve",
+      "B": "Musculocutaneous nerve",
+      "C": "Radial nerve",
+      "D": "Median nerve",
+      "E": "Axillary nerve"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The ulnar nerve runs superficially in the groove behind the medial epicondyle (the cubital tunnel). Constant pressure on this area compresses the nerve, leading to paresthesia in its cutaneous distribution: the 5th digit and the medial half of the 4th digit.",
+      "incorrect": {
+        "B": "Incorrect. The musculocutaneous nerve continues as the lateral antebrachial cutaneous nerve, supplying sensation to the lateral forearm.",
+        "C": "Incorrect. The radial nerve supplies sensation to the posterior arm/forearm and the lateral part of the dorsal hand.",
+        "D": "Incorrect. The median nerve supplies sensation to the lateral palm and the lateral 3.5 digits on the palmar surface.",
+        "E": "Incorrect. The axillary nerve supplies sensation to the skin over the deltoid muscle ('regiment badge' area)."
+      }
+    }
+  },
+  {
+    "question": "During a surgery to repair a laceration in the mid-forearm, the surgeon identifies a muscle that originates from the distal quarter of the anterior surface of the ulna and inserts on the distal quarter of the anterior surface of the radius. What is the primary action of this muscle?",
+    "choices": {
+      "A": "Extension of the elbow",
+      "B": "Flexion of the wrist",
+      "C": "Pronation of the forearm",
+      "D": "Supination of the forearm",
+      "E": "Abduction of the thumb"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The description identifies the Pronator Quadratus. It is the deepest muscle in the anterior forearm and its primary action is to initiate and maintain pronation of the forearm, while also binding the radius and ulna together.",
+      "incorrect": {
+        "A": "Incorrect. Extension of the elbow is primarily performed by the Triceps brachii.",
+        "B": "Incorrect. Flexion of the wrist is performed by muscles such as FCR, FCU, and Palmaris longus.",
+        "D": "Incorrect. Supination is performed by the Supinator and Biceps brachii.",
+        "E": "Incorrect. Abduction of the thumb is the function of the Abductor Pollicis Longus (APL)."
+      }
+    }
+  },
+  {
+    "question": "A 24-year-old male presents with a deep laceration to the anterior aspect of his mid-arm. Physical examination reveals an inability to flex the elbow and loss of sensation on the lateral aspect of the forearm. Which nerve is most likely severed?",
+    "choices": {
+      "A": "Radial nerve",
+      "B": "Axillary nerve",
+      "C": "Musculocutaneous nerve",
+      "D": "Ulnar nerve",
+      "E": "Median nerve"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The Musculocutaneous nerve innervates the anterior compartment of the arm (Biceps brachii, Brachialis, Coracobrachialis), which are the primary elbow flexors. It continues as the Lateral Antebrachial Cutaneous nerve, providing sensation to the lateral forearm. Loss of both confirms injury to this nerve.",
+      "incorrect": {
+        "A": "Incorrect. Radial nerve injury typically causes 'wrist drop' due to paralysis of extensors.",
+        "B": "Incorrect. Axillary nerve injury affects the deltoid and shoulder abduction.",
+        "D": "Incorrect. Ulnar nerve injury affects hand intrinsic muscles and medial flexors, but not elbow flexion or lateral forearm sensation.",
+        "E": "Incorrect. Median nerve injury affects wrist/finger flexion and thumb opposition."
+      }
+    }
+  },
+  {
+    "question": "A 30-year-old woman presents with pain and weakness during thumb movements. Physical exam shows she cannot extend her thumb at the interphalangeal (IP) joint. Injury to which muscle's tendon is most likely?",
+    "choices": {
+      "A": "Extensor indicis",
+      "B": "Flexor pollicis longus",
+      "C": "Abductor pollicis longus",
+      "D": "Extensor pollicis brevis",
+      "E": "Extensor pollicis longus"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The Extensor Pollicis Longus (EPL) inserts at the base of the distal phalanx of the thumb. It is the only muscle capable of extending the interphalangeal (IP) joint of the thumb.",
+      "incorrect": {
+        "A": "Incorrect. Extensor indicis extends the index finger.",
+        "B": "Incorrect. Flexor pollicis longus flexes the thumb; it does not extend it.",
+        "C": "Incorrect. Abductor pollicis longus abducts the thumb at the CMC joint.",
+        "D": "Incorrect. Extensor pollicis brevis inserts on the proximal phalanx and extends the MCP joint, not the IP joint."
+      }
+    }
+  },
+  {
+    "question": "Which of the following muscles is innervated by the Radial nerve (or its deep branch) and pierces the muscle itself?",
+    "choices": {
+      "A": "Anconeus",
+      "B": "Supinator",
+      "C": "Pronator teres",
+      "D": "Coracobrachialis",
+      "E": "Brachioradialis"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The Deep branch of the Radial nerve passes between the two heads of the Supinator muscle, piercing it to reach the posterior compartment of the forearm, where it becomes the Posterior Interosseous Nerve (PIN).",
+      "incorrect": {
+        "A": "Incorrect. Anconeus is innervated by the radial nerve, but the nerve does not pierce the muscle.",
+        "C": "Incorrect. The Pronator teres is typically pierced by the Median nerve.",
+        "D": "Incorrect. The Coracobrachialis is pierced by the Musculocutaneous nerve.",
+        "E": "Incorrect. The Brachioradialis is innervated by the radial nerve, but the nerve runs deep to it rather than piercing it."
+      }
+    }
+  },
+  {
+    "question": "A 28-year-old violinist reports posterior elbow pain and localized tenderness over the lateral olecranon. The symptoms worsen during active forearm pronation while the elbow is extended, indicating an issue with joint stabilization. Based on the anatomical insertion and biomechanics, which muscle is affected?",
+    "choices": {
+      "A": "Supinator muscle",
+      "B": "Triceps brachii (medial head)",
+      "C": "Anconeus muscle",
+      "D": "Extensor carpi ulnaris",
+      "E": "Brachioradialis"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The Anconeus muscle helps stabilize the elbow joint by abducting the ulna during pronation, maintaining the axis of rotation. Its insertion at the lateral olecranon matches the site of tenderness described.",
+      "incorrect": {
+        "A": "Incorrect. The supinator's primary role is supination, not stabilization during pronation.",
+        "B": "Incorrect. The triceps medial head is an extensor but doesn't have the specific stabilization role during pronation.",
+        "D": "Incorrect. Extensor carpi ulnaris acts primarily on the wrist.",
+        "E": "Incorrect. Brachioradialis is a flexor, especially in the mid-prone position."
+      }
+    }
+  }
+]

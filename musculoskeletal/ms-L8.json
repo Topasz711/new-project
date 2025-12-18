@@ -1,0 +1,82 @@
+[
+  {
+    "question": "A 28-year-old man develops a deep-space hand infection after a puncture wound on the ulnar border of the hand. Examination suggests an abscess confined to the medial aspect of the palm, anterior to the 5th metacarpal shaft. Which intrinsic hand muscle is contained within this involved space?",
+    "choices": {
+      "A": "Opponens pollicis",
+      "B": "First dorsal interosseous",
+      "C": "Lumbricals",
+      "D": "Adductor pollicis",
+      "E": "Abductor digiti minimi"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The clinical description places the abscess in the hypothenar compartment. Anatomically, the medial fibrous septum extends from the medial border of the palmar aponeurosis to the 5th metacarpal, creating this space. The contents include three muscles: the abductor digiti minimi, the flexor digiti minimi brevis, and the opponens digiti minimi.",
+      "incorrect": {
+        "A": "Incorrect. Opponens pollicis is located in the thenar compartment at the base of the thumb.",
+        "B": "Incorrect. The interossei muscles are located in separate interosseous compartments between the metacarpals.",
+        "C": "Incorrect. Lumbricals are located in the central compartment of the palm, along with the long flexor tendons.",
+        "D": "Incorrect. Adductor pollicis is located in the distinct adductor compartment, which is the deepest muscular plane in the palm."
+      }
+    }
+  },
+  {
+    "question": "Two patients sustain dorsal hand lacerations:\nPatient A: A 22-year-old man has a sharp cut over the dorsal aspect of the proximal phalanx of the index finger. Bleeding is localized along the dorsum of the finger.\nPatient B: A 24-year-old woman has a glass cut at the dorsal web space between the index and middle fingers, just proximal to the MCP joints.\nWhich option correctly identifies the most likely injured artery in each patient?",
+    "choices": {
+      "A": "Patient A: Dorsal metacarpal artery, Patient B: Dorsal digital artery",
+      "B": "Patient A: Dorsal digital artery, Patient B: Dorsal metacarpal artery",
+      "C": "Patient A: Dorsal branch of radial artery, Patient B: Dorsal digital artery",
+      "D": "Patient A: Proper palmar digital artery, Patient B: Dorsal branch of radial artery",
+      "E": "Patient A: Princeps pollicis artery, Patient B: Dorsal metacarpal artery"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Patient A's injury is on the dorsal proximal phalanx, supplied by the terminal dorsal digital arteries. Patient B's injury is at the web space proximal to the MCP joints, which is the location of the dorsal metacarpal arteries before they bifurcate.",
+      "incorrect": {
+        "A": "Incorrect. This reverses the anatomy; metacarpal arteries are proximal on the hand, digital arteries are distal on the fingers.",
+        "C": "Incorrect. The proper palmar digital artery (in D) is on the palmar side. The dorsal branch of the radial artery is more proximal at the wrist/snuffbox.",
+        "D": "Incorrect. Palmar digital arteries supply the palmar surface, not the dorsal surface described.",
+        "E": "Incorrect. The Princeps pollicis artery specifically supplies the thumb, not the index finger involved in Patient A."
+      }
+    }
+  },
+  {
+    "question": "A patient is found to have weakness of an intrinsic hand muscle group that flexes the metacarpophalangeal (MCP) joints while contributing to extension at the interphalangeal (IP) joints. Electrophysiology suggests the involved muscles are supplied by the ulnar nerve. Which muscles best match this description?",
+    "choices": {
+      "A": "1st and 2nd lumbricals",
+      "B": "3rd and 4th lumbricals",
+      "C": "1st dorsal interosseous and 2nd dorsal interosseous",
+      "D": "Thenar muscles (abductor pollicis brevis and opponens pollicis)",
+      "E": "Flexor digiti minimi brevis and opponens digiti minimi"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The lumbrical muscles flex the MCP joints and extend the IP joints. While all lumbricals perform this, they have dual innervation: the 3rd and 4th lumbricals are supplied by the ulnar nerve, while the 1st and 2nd are supplied by the median nerve.",
+      "incorrect": {
+        "A": "Incorrect. Although they perform the same action, the 1st and 2nd lumbricals are innervated by the median nerve.",
+        "C": "Incorrect. While interossei assist in this action, they are primarily defined by abduction/adduction of the fingers.",
+        "D": "Incorrect. Thenar muscles act on the thumb and are primarily innervated by the recurrent branch of the median nerve.",
+        "E": "Incorrect. Flexor digiti minimi brevis flexes the 5th digit's MCP joint but does not contribute significantly to IP extension."
+      }
+    }
+  },
+  {
+    "question": "A 29-year-old man sustains a deep laceration across the palmar aspect of the midshaft of the 3rd metacarpal. After the injury, he has weakness of thumb adduction (difficulty holding a paper between the thumb and index finger). Which nerve is most likely injured?",
+    "choices": {
+      "A": "Deep branch of the ulnar nerve",
+      "B": "Superficial branch of the ulnar nerve",
+      "C": "Recurrent (thenar) branch of the median nerve",
+      "D": "Anterior interosseous nerve",
+      "E": "Deep branch of the radial nerve"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The adductor pollicis muscle (responsible for thumb adduction) is innervated by the deep branch of the ulnar nerve. This nerve crosses the palm deeply across the metacarpals; thus, a deep laceration at the 3rd metacarpal midshaft is likely to sever it.",
+      "incorrect": {
+        "B": "Incorrect. The superficial branch of the ulnar nerve is primarily sensory to the medial 1.5 fingers.",
+        "C": "Incorrect. The recurrent branch of the median nerve supplies the thenar muscles (APB, FPB, OP), which control thumb abduction/flexion/opposition, not adduction.",
+        "D": "Incorrect. The anterior interosseous nerve is a branch of the median nerve in the forearm supplying FPL and PQ.",
+        "E": "Incorrect. The deep branch of the radial nerve supplies the extensor muscles on the dorsal aspect of the limb."
+      }
+    }
+  }
+]
