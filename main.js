@@ -487,10 +487,13 @@ document.addEventListener('DOMContentLoaded', () => {
     if (retryBtn) retryBtn.addEventListener('click', () => {
         if (quizState.originalQuizDataRef) {
             try { localStorage.removeItem(`topazQuizState_${quizState.quizFile}`); } catch {}
+            const currentNavLinks = quizState.navLinks;
             if (quizState.type === 'lab') {
-                startNewLabQuiz(quizState.originalQuizDataRef, quizState.containerId, quizState.quizFile);
+                // ส่ง currentNavLinks เข้าไปเป็น parameter ตัวที่ 4
+                startNewLabQuiz(quizState.originalQuizDataRef, quizState.containerId, quizState.quizFile, currentNavLinks);
             } else {
-                startNewMcqQuiz(quizState.originalQuizDataRef, quizState.containerId, quizState.quizFile);
+                // ส่ง currentNavLinks เข้าไปเป็น parameter ตัวที่ 5 (ตัวที่ 4 เป็น null เพราะเราใช้ data เดิม)
+                startNewMcqQuiz(quizState.originalQuizDataRef, quizState.containerId, quizState.quizFile, null, currentNavLinks);
             }
         }
     });
@@ -612,11 +615,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const spaceContainer = document.getElementById('spaceGameContainer');
     const whackContainer = document.getElementById('whackGameContainer');
     const sweeperContainer = document.getElementById('sweeperGameContainer');
-    const cancerContainer = document.getElementById('cancerGameContainer');
+    const pianoContainer = document.getElementById('pianoGameContainer');
     
     // Helper to hide all games
     function hideAllGames() {
-        [snakeContainer, spaceContainer, whackContainer, sweeperContainer, document.getElementById('cardioGameContainer'), document.getElementById('immuneGameContainer')].forEach(el => {
+        [snakeContainer, spaceContainer, whackContainer, sweeperContainer, document.getElementById('cardioGameContainer'), document.getElementById('immuneGameContainer'), pianoContainer].forEach(el => {
             if(el) el.classList.add('hidden');
         });
         // Stop functions
@@ -625,6 +628,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if(window.stopSweeperGame) window.stopSweeperGame();
         if(window.stopCardioGame) window.stopCardioGame(); 
         if(window.stopImmuneGame) window.stopImmuneGame();
+        if(window.stopPianoGame) window.stopPianoGame();
     }
 
     // --- Button Listeners ---
@@ -675,6 +679,14 @@ document.addEventListener('DOMContentLoaded', () => {
             miniGameMenu.classList.add('hidden');
             document.getElementById('immuneGameContainer').classList.remove('hidden');
             if (typeof initImmuneGame === 'function') initImmuneGame();
+        });
+    }
+
+    if (document.getElementById('btn-play-piano')) {
+        document.getElementById('btn-play-piano').addEventListener('click', () => {
+            miniGameMenu.classList.add('hidden');
+            pianoContainer.classList.remove('hidden');
+            if (typeof initPianoGame === 'function') initPianoGame();
         });
     }
 
