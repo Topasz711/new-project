@@ -355,11 +355,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.getElementById('spaceGameContainer').classList.add('hidden');
                 if(document.getElementById('whackGameContainer')) document.getElementById('whackGameContainer').classList.add('hidden');
                 if(document.getElementById('sweeperGameContainer')) document.getElementById('sweeperGameContainer').classList.add('hidden');
-                
+                if(document.getElementById('pianoGameContainer')) document.getElementById('pianoGameContainer').classList.add('hidden');
+
                 // Stop games
                 if (window.stopSpaceGame) window.stopSpaceGame();
                 if (window.stopWhackGame) window.stopWhackGame();
                 if (window.stopSweeperGame) window.stopSweeperGame();
+                if (window.stopPianoGame) window.stopPianoGame();
             }
             
             const isQuizLink = link.closest('.lecture-btn');
@@ -619,7 +621,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Helper to hide all games
     function hideAllGames() {
-        [snakeContainer, spaceContainer, whackContainer, sweeperContainer, document.getElementById('cardioGameContainer'), document.getElementById('immuneGameContainer'), pianoContainer].forEach(el => {
+        [snakeContainer, spaceContainer, whackContainer, sweeperContainer, document.getElementById('cardioGameContainer'), document.getElementById('immuneGameContainer'), document.getElementById('pianoGameContainer')].forEach(el => {
             if(el) el.classList.add('hidden');
         });
         // Stop functions
