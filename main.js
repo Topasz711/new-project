@@ -305,6 +305,13 @@ document.addEventListener('DOMContentLoaded', () => {
     sidebarLinks.forEach(link => {
         link.addEventListener('click', (event) => {
             event.preventDefault();
+            // --- FIX: สั่งหยุดเกมทุกเกมทันที ที่มีการกดเปลี่ยนหน้า ---
+            if (window.stopPianoGame) window.stopPianoGame();   // หยุดเปียโน 🎹
+            if (window.stopSpaceGame) window.stopSpaceGame();   // หยุดยานอวกาศ 🚀
+            if (window.stopWhackGame) window.stopWhackGame();   // หยุดทุบเชื้อโรค 🔨
+            if (window.stopSweeperGame) window.stopSweeperGame(); // หยุดกู้ระเบิด 💣
+            if (window.stopCardioGame) window.stopCardioGame(); // หยุดเกมหัวใจ 💓
+            if (window.stopImmuneGame) window.stopImmuneGame(); // หยุดเกมยิง 🛡️
             const targetId = link.dataset.target;
             const subTargetId = link.dataset.subTarget;
             if (progressTracker) progressTracker.classList.add('hidden'); // *** ส่วนนี้คือส่วนที่ซ่อน Progress Bar เมื่อเปลี่ยนหน้าหลัก ***
@@ -635,25 +642,45 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Button Listeners ---
     
+    function forceStopAllGames() {
+        // สั่งหยุดทุกเกมที่มี
+        if (window.stopPianoGame) window.stopPianoGame();
+        if (window.stopSpaceGame) window.stopSpaceGame();
+        if (window.stopWhackGame) window.stopWhackGame();
+        if (window.stopSweeperGame) window.stopSweeperGame();
+        if (window.stopCardioGame) window.stopCardioGame();
+        if (window.stopImmuneGame) window.stopImmuneGame();
+        // ซ่อนทุก Container เพื่อความชัวร์
+        [snakeContainer, spaceContainer, whackContainer, sweeperContainer, 
+         document.getElementById('cardioGameContainer'), 
+         document.getElementById('immuneGameContainer'), 
+         document.getElementById('pianoGameContainer')].forEach(el => {
+            if(el) el.classList.add('hidden');
+        });
+    }
+
+    // 2. อัปเดตปุ่มกดทุกเกม ให้เรียก forceStopAllGames() ก่อนเสมอ
     if (document.getElementById('btn-play-snake')) {
         document.getElementById('btn-play-snake').addEventListener('click', () => {
+            forceStopAllGames(); // <--- ล้างเกมเก่า
             miniGameMenu.classList.add('hidden');
             snakeContainer.classList.remove('hidden');
-            if (typeof initGame === 'function') initGame();
+            if (typeof initGame === 'function') initGame(); // Snake ใช้ชื่อ initGame
         });
     }
 
     if (document.getElementById('btn-play-space')) {
         document.getElementById('btn-play-space').addEventListener('click', () => {
+            forceStopAllGames(); // <--- ล้างเกมเก่า
             miniGameMenu.classList.add('hidden');
             spaceContainer.classList.remove('hidden');
             if (typeof initSpaceGame === 'function') initSpaceGame();
         });
     }
 
-    // เพิ่ม 3 ปุ่มนี้ 👇
     if (document.getElementById('btn-play-whack')) {
         document.getElementById('btn-play-whack').addEventListener('click', () => {
+            forceStopAllGames();
             miniGameMenu.classList.add('hidden');
             whackContainer.classList.remove('hidden');
             if (typeof initWhackGame === 'function') initWhackGame();
@@ -662,6 +689,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (document.getElementById('btn-play-sweeper')) {
         document.getElementById('btn-play-sweeper').addEventListener('click', () => {
+            forceStopAllGames();
             miniGameMenu.classList.add('hidden');
             sweeperContainer.classList.remove('hidden');
             if (typeof initSweeperGame === 'function') initSweeperGame();
@@ -670,6 +698,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (document.getElementById('btn-play-cardio')) {
         document.getElementById('btn-play-cardio').addEventListener('click', () => {
+            forceStopAllGames();
             miniGameMenu.classList.add('hidden');
             document.getElementById('cardioGameContainer').classList.remove('hidden');
             if (typeof initCardioGame === 'function') initCardioGame();
@@ -678,23 +707,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (document.getElementById('btn-play-immune')) {
         document.getElementById('btn-play-immune').addEventListener('click', () => {
+            forceStopAllGames();
             miniGameMenu.classList.add('hidden');
             document.getElementById('immuneGameContainer').classList.remove('hidden');
             if (typeof initImmuneGame === 'function') initImmuneGame();
         });
     }
 
+    // ปุ่มเปียโน 
     if (document.getElementById('btn-play-piano')) {
         document.getElementById('btn-play-piano').addEventListener('click', () => {
+            forceStopAllGames();
             miniGameMenu.classList.add('hidden');
-            pianoContainer.classList.remove('hidden');
+            document.getElementById('pianoGameContainer').classList.remove('hidden');
             if (typeof initPianoGame === 'function') initPianoGame();
         });
     }
 
+    // ปุ่ม Back ก็ใช้ฟังก์ชันเดียวกันได้เลย
     document.querySelectorAll('.back-to-games-btn').forEach(btn => {
         btn.addEventListener('click', () => {
-            hideAllGames();
+            forceStopAllGames();
             miniGameMenu.classList.remove('hidden');
         });
     });

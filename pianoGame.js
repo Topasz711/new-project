@@ -1,4 +1,4 @@
-// pianoGame.js - Final Fixed Version: Note Labels & All Songs Restored
+// pianoGame.js - Final Fix: Properly Remove Event Listeners
 (function() {
     let audioContextRef = { current: null };
     let activeOscillators = new Map();
@@ -65,7 +65,7 @@
                 { note: "A4", duration: 1.5, time: 13.4 }
             ]
         },
-        "twinkle": { // คืนชีพน้องดาวกลับมาแล้วค่ะ! ⭐
+        "twinkle": {
             title: "Twinkle Twinkle",
             notes: [
                 { note: "C4", duration: 0.4, time: 0 }, { note: "C4", duration: 0.4, time: 0.5 },
@@ -77,7 +77,7 @@
                 { note: "D4", duration: 0.4, time: 6.5 }, { note: "C4", duration: 0.8, time: 7 }
             ]
         },
-        "mario": { // แถมมาริโอ้กลับมาให้ด้วยค่ะ 🍄
+        "mario": {
             title: "Super Mario",
             notes: [
                 { note: "E5", duration: 0.15, time: 0 }, { note: "E5", duration: 0.15, time: 0.3 },
@@ -88,6 +88,21 @@
         }
     };
 
+    // --- Separate Handlers for Proper Removal (FIXED) ---
+    // แยกฟังก์ชันออกมา เพื่อให้ removeEventListener ทำงานได้จริง
+    const handleKeyDown = (e) => {
+        if (isInputFocused || e.repeat) return;
+        const note = keyMappings[e.code];
+        if (note) startNote(note);
+    };
+
+    const handleKeyUp = (e) => {
+        if (isInputFocused) return;
+        const note = keyMappings[e.code];
+        if (note) stopNote(note);
+    };
+    // ----------------------------------------------------
+
     function renderKeys() {
         const whiteContainer = document.getElementById('white-keys-container');
         const blackContainer = document.getElementById('black-keys-container');
@@ -97,7 +112,6 @@
         blackContainer.innerHTML = '';
 
         keyStructure.forEach((group) => {
-            // 1. Render White Key
             const whiteBtn = document.createElement('div');
             whiteBtn.className = "flex-1 h-full relative group px-[1px] sm:px-[2px]";
             whiteBtn.innerHTML = `
@@ -109,7 +123,6 @@
             `;
             whiteContainer.appendChild(whiteBtn);
 
-            // 2. Render Black Key Slot
             const blackSlot = document.createElement('div');
             blackSlot.className = "flex-1 h-full relative pointer-events-none";
             
@@ -120,7 +133,6 @@
                 blackBtn.innerHTML = `
                     <span class="text-[8px] sm:text-[10px] font-bold mb-0.5 text-gray-400 pointer-events-none">${group.keyB}</span>
                     <span class="text-[6px] sm:text-[8px] font-mono text-gray-500 pointer-events-none">${group.black}</span>
-                    
                     <div class="glass-reflection absolute top-1 left-1 right-1 h-1/3 bg-gradient-to-b from-white/20 to-transparent rounded-t-sm pointer-events-none"></div>
                 `;
                 addKeyListeners(blackBtn, group.black);
@@ -132,7 +144,6 @@
         });
     }
 
-    // --- Audio & Logic (เหมือนเดิม) ---
     function initAudio() {
         if (!audioContextRef.current) {
             try {
@@ -247,57 +258,36 @@
     function updateKeyVisual(note, isActive) {
         const keyEl = document.getElementById(`key-${note}`);
         if (!keyEl) return;
-        
         const isWhite = !note.includes('#');
         const reflection = keyEl.querySelector('.glass-reflection');
-        const labelKey = keyEl.querySelector('span:first-child'); // ตัวอักษรปุ่มกด (A, S, D...)
-        const labelNote = keyEl.querySelector('span:nth-child(2)'); // ชื่อโน้ต (C4, D4...)
+        const labelKey = keyEl.querySelector('span:first-child');
+        const labelNote = keyEl.querySelector('span:nth-child(2)');
 
         if (isActive) {
             if (isWhite) {
-                // --- คีย์ขาว (กดแล้วเป็นสีฟ้า) ---
-                // ลบสไตล์ปกติ
                 keyEl.classList.remove('bg-white/90', 'border-white/20', 'shadow-[0_4px_10px_rgba(0,0,0,0.1),inset_0_-10px_20px_rgba(255,255,255,0.8)]');
-                // เพิ่มสไตล์ตอนกด (Gradient ฟ้า + เงาฟุ้ง)
                 keyEl.classList.add('bg-gradient-to-b', 'from-cyan-200/90', 'to-blue-300/90', 'shadow-[0_0_30px_rgba(6,182,212,0.6)]', 'border-cyan-300');
-                
-                // เปลี่ยนสีตัวอักษรให้เข้มขึ้น
                 if(labelKey) { labelKey.classList.remove('text-gray-400'); labelKey.classList.add('text-blue-900'); }
                 if(labelNote) { labelNote.classList.remove('text-cyan-600/60'); labelNote.classList.add('text-blue-800'); }
             } else {
-                // --- คีย์ดำ (กดแล้วเป็นสีม่วงชมพู) ---
-                // ลบสไตล์ปกติ
                 keyEl.classList.remove('from-gray-700', 'via-gray-900', 'to-black', 'border-gray-600', 'shadow-[0_10px_20px_rgba(0,0,0,0.5)]');
-                // เพิ่มสไตล์ตอนกด (Gradient ม่วง + เงาฟุ้ง)
                 keyEl.classList.add('from-fuchsia-500', 'to-purple-600', 'shadow-[0_0_25px_rgba(219,39,119,0.8)]', 'border-fuchsia-900');
-                
                 if(labelKey) { labelKey.classList.remove('text-gray-400'); labelKey.classList.add('text-white'); }
             }
-
-            // ขยับปุ่มลงเล็กน้อย (Press effect)
             keyEl.style.transform = isWhite ? 'translateY(2px)' : 'translate(50%, 2px)';
-            // ซ่อนเงาสะท้อนเพื่อให้สีชัดขึ้น
             if(reflection) reflection.style.opacity = '0';
-
         } else {
             if (isWhite) {
-                // --- คืนค่าคีย์ขาว ---
                 keyEl.classList.add('bg-white/90', 'border-white/20', 'shadow-[0_4px_10px_rgba(0,0,0,0.1),inset_0_-10px_20px_rgba(255,255,255,0.8)]');
                 keyEl.classList.remove('bg-gradient-to-b', 'from-cyan-200/90', 'to-blue-300/90', 'shadow-[0_0_30px_rgba(6,182,212,0.6)]', 'border-cyan-300');
-                
                 if(labelKey) { labelKey.classList.add('text-gray-400'); labelKey.classList.remove('text-blue-900'); }
                 if(labelNote) { labelNote.classList.add('text-cyan-600/60'); labelNote.classList.remove('text-blue-800'); }
             } else {
-                // --- คืนค่าคีย์ดำ ---
                 keyEl.classList.add('from-gray-700', 'via-gray-900', 'to-black', 'border-gray-600', 'shadow-[0_10px_20px_rgba(0,0,0,0.5)]');
                 keyEl.classList.remove('from-fuchsia-500', 'to-purple-600', 'shadow-[0_0_25px_rgba(219,39,119,0.8)]', 'border-fuchsia-900');
-                
                 if(labelKey) { labelKey.classList.add('text-gray-400'); labelKey.classList.remove('text-white'); }
             }
-
-            // คืนตำแหน่งเดิม
             keyEl.style.transform = isWhite ? 'none' : 'translateX(50%)';
-            // แสดงเงาสะท้อนกลับมา
             if(reflection) reflection.style.opacity = '0.5';
         }
     }
@@ -356,8 +346,11 @@
         renderKeys();
         renderSongLibrary();
         
-        window.addEventListener('keydown', (e) => { if (isInputFocused || e.repeat) return; const note = keyMappings[e.code]; if (note) startNote(note); });
-        window.addEventListener('keyup', (e) => { if (isInputFocused) return; const note = keyMappings[e.code]; if (note) stopNote(note); });
+        // --- Fixed: Add Listeners by Reference ---
+        window.addEventListener('keydown', handleKeyDown);
+        window.addEventListener('keyup', handleKeyUp);
+        // -----------------------------------------
+
         window.addEventListener('mouseup', handleGlobalMouseUp);
 
         const pianoArea = document.getElementById('piano-keys-area');
@@ -390,5 +383,16 @@
         if(playBtn) playBtn.addEventListener('click', togglePlay);
     };
 
-    window.stopPianoGame = function() { stopSong(); if(audioContextRef.current) audioContextRef.current.suspend(); window.removeEventListener('mouseup', handleGlobalMouseUp); };
+    window.stopPianoGame = function() {
+        stopSong();
+        if(audioContextRef.current) audioContextRef.current.suspend();
+        
+        // --- Fixed: Remove Listeners by Reference ---
+        // คำสั่งนี้จะทำงานได้ถูกต้องแล้วเพราะเราแยกฟังก์ชันออกมา
+        window.removeEventListener('keydown', handleKeyDown);
+        window.removeEventListener('keyup', handleKeyUp);
+        // --------------------------------------------
+        
+        window.removeEventListener('mouseup', handleGlobalMouseUp);
+    };
 })();

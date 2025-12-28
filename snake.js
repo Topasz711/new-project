@@ -192,9 +192,21 @@ document.addEventListener('DOMContentLoaded', () => {
     
         handleKeyDown(e) {
             if (this.gameState.isGameOver) return;
-            if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
+            
+            // ใช้ e.code แทน e.key เพื่อรองรับทั้งภาษาไทยและอังกฤษ
+            // KeyW, KeyA, KeyS, KeyD หรือ ArrowUp, ArrowDown...
+            const key = e.code; 
+            
+            const keyMap = {
+                'ArrowUp': 'up',    'KeyW': 'up',
+                'ArrowDown': 'down',  'KeyS': 'down',
+                'ArrowLeft': 'left',  'KeyA': 'left',
+                'ArrowRight': 'right', 'KeyD': 'right'
+            };
+
+            if (keyMap[key]) {
                 e.preventDefault();
-                this.nextDirection = e.key.replace('Arrow', '').toLowerCase();
+                this.nextDirection = keyMap[key];
             }
         },
     

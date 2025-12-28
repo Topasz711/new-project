@@ -400,19 +400,21 @@
     // --- Event Handlers (Named for removal) ---
     function handleKeyDown(e) {
         if(!gameActive) return;
-        switch(e.key.toLowerCase()) {
-            case 'w': case 'arrowup': keys.w = true; break;
-            case 'a': case 'arrowleft': keys.a = true; break;
-            case 's': case 'arrowdown': keys.s = true; break;
-            case 'd': case 'arrowright': keys.d = true; break;
+        // ใช้ e.code เพื่อเช็กปุ่มโดยไม่สนภาษา (KeyW, ArrowUp)
+        switch(e.code) {
+            case 'KeyW': case 'ArrowUp': keys.w = true; break;
+            case 'KeyA': case 'ArrowLeft': keys.a = true; break;
+            case 'KeyS': case 'ArrowDown': keys.s = true; break;
+            case 'KeyD': case 'ArrowRight': keys.d = true; break;
         }
     }
+    
     function handleKeyUp(e) {
-        switch(e.key.toLowerCase()) {
-            case 'w': case 'arrowup': keys.w = false; break;
-            case 'a': case 'arrowleft': keys.a = false; break;
-            case 's': case 'arrowdown': keys.s = false; break;
-            case 'd': case 'arrowright': keys.d = false; break;
+        switch(e.code) {
+            case 'KeyW': case 'ArrowUp': keys.w = false; break;
+            case 'KeyA': case 'ArrowLeft': keys.a = false; break;
+            case 'KeyS': case 'ArrowDown': keys.s = false; break;
+            case 'KeyD': case 'ArrowRight': keys.d = false; break;
         }
     }
     function handleMouseMove(e) {
