@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Which triangle of the neck contains the spinal accessory nerve (CN XI) as a major content?",
+    "choices": {
+      "A": "Submental triangle",
+      "B": "Carotid triangle",
+      "C": "Muscular triangle",
+      "D": "Occipital triangle",
+      "E": "Subclavian (Omoclavicular) triangle"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The posterior triangle is subdivided by the inferior belly of the omohyoid into the larger, upper Occipital triangle and the smaller, lower Subclavian triangle. The spinal accessory nerve (CN XI) crosses the occipital triangle to supply the sternocleidomastoid and trapezius muscles.",
+      "incorrect": {
+        "E": "Incorrect. The Subclavian triangle contains the subclavian artery, vein, and parts of the brachial plexus, but the spinal accessory nerve runs superior to this area.",
+        "A": "Incorrect. Submental triangle is part of the Anterior triangle.",
+        "B": "Incorrect. Carotid triangle is part of the Anterior triangle.",
+        "C": "Incorrect. Muscular triangle is part of the Anterior triangle."
+      }
+    }
+  },
+  {
+    "question": "The thyrocervical trunk typically arises from the first part of the subclavian artery. Which of the following is NOT a direct branch of this trunk?",
+    "choices": {
+      "A": "Inferior thyroid artery",
+      "B": "Ascending cervical artery",
+      "C": "Transverse cervical artery",
+      "D": "Suprascapular artery",
+      "E": "Vertebral artery"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The Vertebral artery is a direct branch of the first part of the subclavian artery itself, arising separately from the thyrocervical trunk. It ascends through the transverse foramina of C6 to C1.",
+      "incorrect": {
+        "A": "Incorrect. The Inferior thyroid artery is one of the three main branches of the thyrocervical trunk.",
+        "C": "Incorrect. The Transverse cervical artery arises from the thyrocervical trunk.",
+        "D": "Incorrect. The Suprascapular artery arises from the thyrocervical trunk.",
+        "B": "Incorrect. The Ascending cervical artery is typically a small branch associated with the thyrocervical trunk system (often branching from the inferior thyroid artery)."
+      }
+    }
+  },
+  {
+    "question": "A patient has a tumor compressing the structure located between the anterior and middle scalene muscles. Which of the following symptoms would they most likely experience?",
+    "choices": {
+      "A": "Inability to elevate the scapula",
+      "B": "Facial paralysis",
+      "C": "Swelling of the arm due to venous occlusion",
+      "D": "Numbness and tingling in the upper limb",
+      "E": "Hoarseness of voice"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The roots/trunks of the brachial plexus and the subclavian artery pass directly between the anterior and middle scalene muscles (interscalene triangle). Compression here (Scalenus Anticus Syndrome) results in neurological symptoms like numbness and tingling in the upper limb.",
+      "incorrect": {
+        "C": "Incorrect. The Subclavian vein lies anterior to the anterior scalene muscle, not between the scalene muscles; therefore, venous occlusion is less likely in this specific location.",
+        "E": "Incorrect. Hoarseness involves the recurrent laryngeal nerve, which does not pass between these muscles.",
+        "B": "Incorrect. Facial paralysis involves CN VII, located much higher in the face.",
+        "A": "Incorrect. Scapula elevation is controlled by muscles like Levator scapulae, whose innervation is not primarily compressed in the interscalene triangle."
+      }
+    }
+  },
+  {
+    "question": "The 'floor' of the posterior triangle of the neck is formed by a layer of deep cervical fascia covering several muscles. Which of the following muscles is NOT part of the floor?",
+    "choices": {
+      "A": "Sternohyoid",
+      "B": "Middle scalene",
+      "C": "Posterior scalene",
+      "D": "Levator scapulae",
+      "E": "Splenius capitis"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The Sternohyoid is an infrahyoid muscle located in the muscular triangle of the anterior neck. It does not contribute to the floor of the posterior triangle.",
+      "incorrect": {
+        "B": "Incorrect. The Middle scalene is part of the muscular floor.",
+        "C": "Incorrect. The Posterior scalene is part of the muscular floor.",
+        "D": "Incorrect. The Levator scapulae is part of the muscular floor.",
+        "E": "Incorrect. The Splenius capitis is the most superior muscle forming the floor of the posterior triangle."
+      }
+    }
+  }
+]

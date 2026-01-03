@@ -1,0 +1,162 @@
+[
+  {
+    "question": "A surgeon is identifying the branches of the external carotid artery. Which branch is typically the first to arise from the anterior aspect of the artery?",
+    "choices": {
+      "A": "Facial artery",
+      "B": "Lingual artery",
+      "C": "Superior thyroid artery",
+      "D": "Ascending pharyngeal artery",
+      "E": "Occipital artery"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The Superior thyroid artery is the very first branch to arise from the anterior aspect of the external carotid artery. It descends to supply the thyroid gland and larynx.",
+      "incorrect": {
+        "A": "Incorrect. The Facial artery is the third anterior branch, arising superior to the Lingual artery.",
+        "B": "Incorrect. The Lingual artery is the second anterior branch, arising between the Superior thyroid and Facial arteries.",
+        "D": "Incorrect. The Ascending pharyngeal artery is usually the first branch overall, but it arises from the medial aspect of the external carotid, not the anterior aspect.",
+        "E": "Incorrect. The Occipital artery arises from the posterior aspect of the external carotid artery."
+      }
+    }
+  },
+  {
+    "question": "Following a radical neck dissection, a patient has difficulty depressing the hyoid bone after swallowing. The surgeon suspects damage to the Ansa cervicalis. Which muscle would still function normally despite this injury?",
+    "choices": {
+      "A": "Sternohyoid",
+      "B": "Sternothyroid",
+      "C": "Platysma",
+      "D": "Thyrohyoid",
+      "E": "Omohyoid"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The Thyrohyoid muscle is an infrahyoid (strap) muscle, but unlike the others, it is NOT innervated by the Ansa cervicalis. It receives innervation from C1 fibers that travel with the Hypoglossal nerve (CN XII). Therefore, damage strictly to the Ansa cervicalis would spare this muscle.",
+      "incorrect": {
+        "A": "Incorrect. The Sternohyoid is innervated by the Ansa cervicalis (C1-C3).",
+        "B": "Incorrect. The Sternothyroid is innervated by the Ansa cervicalis (C1-C3).",
+        "C": "Incorrect. The Platysma is innervated by the cervical branch of the Facial nerve (CN VII). While spared, it is not a primary hyoid depressor.",
+        "E": "Incorrect. The Omohyoid (both superior and inferior bellies) is innervated by the Ansa cervicalis (C1-C3)."
+      }
+    }
+  },
+  {
+    "question": "The 'nerve point of the neck' (Erb's point) is where cutaneous branches of the cervical plexus emerge. Which nerve is NOT one of these cutaneous branches?",
+    "choices": {
+      "A": "Transverse cervical nerve",
+      "B": "Great auricular nerve",
+      "C": "Supraclavicular nerves",
+      "D": "Phrenic nerve",
+      "E": "Lesser occipital nerve"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The Phrenic nerve is a motor nerve (supplying the diaphragm) that lies deep in the neck, running vertically on the anterior surface of the anterior scalene muscle under the prevertebral fascia. It does not emerge superficially at the nerve point.",
+      "incorrect": {
+        "A": "Incorrect. Transverse cervical (C2, C3) is one of the four cutaneous branches at Erb's point.",
+        "B": "Incorrect. Great auricular (C2, C3) is one of the four cutaneous branches at Erb's point.",
+        "C": "Incorrect. Supraclavicular (C3, C4) is one of the four cutaneous branches at Erb's point.",
+        "E": "Incorrect. Lesser occipital (C2) is one of the four cutaneous branches at Erb's point."
+      }
+    }
+  },
+  {
+    "question": "A newborn is diagnosed with congenital torticollis. The head is tilted to the right and the chin points to the left. Which muscle is shortened, and what is its normal unilateral action?",
+    "choices": {
+      "A": "Right Trapezius; Extends neck",
+      "B": "Right Splenius Capitis; Rotates face to right",
+      "C": "Left SCM; Tilts head to left, rotates face to right",
+      "D": "Right SCM; Tilts head to right, rotates face to left",
+      "E": "Left SCM; Tilts head to right, rotates face to left"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The Sternocleidomastoid (SCM) muscle acts unilaterally to tilt the head to the ipsilateral (same) side and rotate the face to the contralateral (opposite) side. Therefore, a shortened Right SCM tilts the head Right and points the chin Left.",
+      "incorrect": {
+        "A": "Incorrect. The Trapezius extends the neck bilaterally; it is not the primary cause of rotational torticollis.",
+        "B": "Incorrect. The Splenius Capitis rotates the head to the same side (ipsilateral rotation).",
+        "C": "Incorrect. A Left SCM contracture would tilt the head Left and rotate the face Right.",
+        "E": "Incorrect. This combination of action is anatomically impossible for the Left SCM."
+      }
+    }
+  },
+  {
+    "question": "A 6-year-old child presents with a high fever and difficulty swallowing. Imaging reveals an abscess in the retropharyngeal space. Anatomically, what is the most significant danger associated with the inferior spread of this infection?",
+    "choices": {
+      "A": "Spread to the axilla via the axillary sheath",
+      "B": "Compression of the internal carotid artery",
+      "C": "Spread into the posterior mediastinum",
+      "D": "Spread into the anterior mediastinum",
+      "E": "Rupture into the trachea"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The Retropharyngeal space and the 'Danger Space' are potential spaces that communicate inferiorly directly with the posterior mediastinum. An infection here can cause acute mediastinitis, which is life-threatening.",
+      "incorrect": {
+        "A": "Incorrect. Spread to the axilla occurs if infection is within the axillary sheath, deep to the prevertebral fascia.",
+        "B": "Incorrect. While possible, this is not the primary anatomical danger associated with the vertical spread of the retropharyngeal space.",
+        "D": "Incorrect. The pretracheal space communicates with the anterior mediastinum, not the retropharyngeal space.",
+        "E": "Incorrect. While rupture can occur, the spread to the mediastinum is the classic life-threatening danger."
+      }
+    }
+  },
+  {
+    "question": "A patient complains of numbness over the angle of the mandible and the earlobe following a neck surgery. Which nerve is likely damaged, and from which spinal segments does it arise?",
+    "choices": {
+      "A": "Lesser occipital nerve; C2",
+      "B": "Great auricular nerve; C2, C3",
+      "C": "Supraclavicular nerve; C3, C4",
+      "D": "Auriculotemporal nerve; CN V3",
+      "E": "Transverse cervical nerve; C2, C3"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The Great auricular nerve (C2, C3) ascends vertically on the SCM and supplies the skin over the parotid gland, the angle of the mandible, and the earlobe.",
+      "incorrect": {
+        "A": "Incorrect. The Lesser occipital nerve (C2) supplies the scalp posterior to the ear.",
+        "C": "Incorrect. Supraclavicular nerves (C3, C4) supply the skin over the shoulder and upper chest.",
+        "D": "Incorrect. The Auriculotemporal nerve (CN V3) supplies the temple but typically spares the angle of the mandible.",
+        "E": "Incorrect. The Transverse cervical nerve (C2, C3) supplies the skin of the anterior neck."
+      }
+    }
+  },
+  {
+    "question": "A patient presents with a deviated tongue upon protrusion. The tongue points to the right side. Which nerve is lesioned, and which specific muscle is paralyzed?",
+    "choices": {
+      "A": "Left CN XII; Right Genioglossus",
+      "B": "Right CN X; Right Palatoglossus",
+      "C": "Right CN IX; Right Styloglossus",
+      "D": "Right CN XII; Right Genioglossus",
+      "E": "Left CN XII; Left Genioglossus"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The Hypoglossal nerve (CN XII) innervates the Genioglossus muscle. If the Right CN XII is damaged, the Right Genioglossus is paralyzed. The functioning Left muscle pushes the tongue forward, causing it to deviate towards the paralyzed (right) side.",
+      "incorrect": {
+        "A": "Incorrect. A Left CN XII lesion would cause deviation to the Left side.",
+        "B": "Incorrect. CN X lesions affect the palate/uvula, not tongue protrusion deviation.",
+        "C": "Incorrect. Styloglossus retracts the tongue; it does not cause deviation upon protrusion.",
+        "E": "Incorrect. A Left CN XII lesion would cause deviation to the Left side."
+      }
+    }
+  },
+  {
+    "question": "The nerve that supplies the muscle forming the lateral boundary of the submental triangle also supplies which other muscle?",
+    "choices": {
+      "A": "Stylohyoid",
+      "B": "Posterior belly of digastric",
+      "C": "Geniohyoid",
+      "D": "Sternohyoid",
+      "E": "Mylohyoid"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The lateral boundary of the submental triangle is the Anterior belly of the digastric. This muscle is innervated by the Nerve to Mylohyoid (from V3), which also supplies the Mylohyoid muscle.",
+      "incorrect": {
+        "A": "Incorrect. The Stylohyoid is innervated by the Facial Nerve (CN VII).",
+        "B": "Incorrect. The Posterior belly of the digastric is innervated by the Facial Nerve (CN VII).",
+        "C": "Incorrect. The Geniohyoid is innervated by C1 fibers via the Hypoglossal nerve.",
+        "D": "Incorrect. The Sternohyoid is innervated by the Ansa cervicalis."
+      }
+    }
+  }
+]
