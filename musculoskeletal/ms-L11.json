@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Regarding the sexual dimorphism of the pelvis, which of the following features is characteristic of a typical male pelvis compared to a female pelvis?",
+    "choices": {
+      "A": "The pelvic inlet (brim) is large and oval-shaped.",
+      "B": "The pubic arch angle is greater than 90 degrees.",
+      "C": "The greater sciatic notch is wide.",
+      "D": "The obturator foramen is round in shape.",
+      "E": "The sacrum is shorter, wider, and less curved anteriorly."
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "In a typical male pelvis, the obturator foramen is round. In contrast, the female obturator foramen tends to be oval or triangular.",
+      "incorrect": {
+        "A": "Incorrect. A large, oval-shaped pelvic inlet is characteristic of the female pelvis to facilitate childbirth. The male pelvic inlet is typically smaller and heart-shaped.",
+        "B": "Incorrect. A pubic arch angle greater than 90° is characteristic of the female pelvis. The male pubic arch is narrower, typically less than 90°.",
+        "C": "Incorrect. A wide greater sciatic notch is found in females (approx. 74°). In males, this notch is much narrower (approx. 50°).",
+        "E": "Incorrect. A shorter, wider, and less curved sacrum is characteristic of females. The male sacrum is longer, narrower, and more curved anteriorly."
+      }
+    }
+  },
+  {
+    "question": "A medical student is examining the proximal femur. They observe a prominent ridge of bone connecting the greater and lesser trochanters on the posterior aspect. What is this structure identified as?",
+    "choices": {
+      "A": "Pectineal line",
+      "B": "Intertrochanteric line",
+      "C": "Intertrochanteric crest",
+      "D": "Gluteal tuberosity",
+      "E": "Linea aspera"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The intertrochanteric crest is the prominent ridge that connects the greater and lesser trochanters on the posterior surface of the femur.",
+      "incorrect": {
+        "A": "Incorrect. The pectineal line is a ridge extending inferiorly from the lesser trochanter on the posterior surface, but it doesn't connect the two trochanters.",
+        "B": "Incorrect. The intertrochanteric line connects the greater and lesser trochanters on the anterior surface of the femur.",
+        "D": "Incorrect. The gluteal tuberosity is a roughened area on the posterior shaft inferior to the crest for the attachment of the gluteus maximus.",
+        "E": "Incorrect. The linea aspera is the prominent longitudinal ridge running down the posterior aspect of the femoral shaft."
+      }
+    }
+  },
+  {
+    "question": "Which bone of the leg forms the outer ankle and is strictly non-weight bearing, serving primarily for muscle attachment and stability?",
+    "choices": {
+      "A": "Calcaneus",
+      "B": "Tibia",
+      "C": "Talus",
+      "D": "Patella",
+      "E": "Fibula"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The fibula is the lateral bone of the leg. It forms the lateral malleolus at the ankle and is not part of the weight-bearing knee joint; its main function is muscle attachment and ankle stability.",
+      "incorrect": {
+        "A": "Incorrect. The calcaneus is the heel bone (a tarsal bone), not a bone of the leg (crus).",
+        "B": "Incorrect. The tibia is the medial, weight-bearing bone of the leg that articulates with the femur.",
+        "C": "Incorrect. The talus is a tarsal bone that articulates with the tibia and fibula to form the ankle joint.",
+        "D": "Incorrect. The patella is a sesamoid bone located anterior to the knee joint."
+      }
+    }
+  },
+  {
+    "question": "Identify the specific bone of the hindfoot that projects posteriorly to form the heel and possesses a large tuberosity for the attachment of the Achilles tendon.",
+    "choices": {
+      "A": "Calcaneus",
+      "B": "Talus",
+      "C": "Lateral Cuneiform",
+      "D": "Cuboid",
+      "E": "Navicular"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The calcaneus is the largest tarsal bone located in the hindfoot. It projects posteriorly to form the heel and has a large calcaneal tuberosity for the attachment of the Achilles (calcaneal) tendon.",
+      "incorrect": {
+        "B": "Incorrect. The talus sits superior to the calcaneus and forms the ankle joint; it does not form the heel.",
+        "C": "Incorrect. The lateral cuneiform is a bone of the midfoot.",
+        "D": "Incorrect. The cuboid is a bone of the midfoot located on the lateral side.",
+        "E": "Incorrect. The navicular is a boat-shaped bone of the midfoot located on the medial side."
+      }
+    }
+  }
+]

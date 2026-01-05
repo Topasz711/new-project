@@ -1,0 +1,162 @@
+[
+  {
+    "question": "A 55-year-old male with peripheral arterial disease is scheduled for a femoropopliteal bypass. The surgeon is identifying the transition point where the femoral artery leaves the adductor canal to enter the popliteal fossa as the popliteal artery. This transition occurs by passing through an opening in the tendon of which muscle, and what is the specific name of this anatomical landmark?",
+    "choices": {
+      "A": "Adductor longus; Adductor hiatus",
+      "B": "Adductor magnus; Adductor hiatus",
+      "C": "Adductor magnus; Femoral ring",
+      "D": "Gracilis; Pes anserinus",
+      "E": "Pectineus; Saphenous opening"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The femoral artery runs through the adductor canal and transitions into the popliteal artery as it passes through the adductor hiatus. The adductor hiatus is a gap in the tendon of the adductor magnus muscle.",
+      "incorrect": {
+        "A": "Incorrect. While the adductor longus forms part of the canal's boundary, it does not contain the hiatus for the arterial transition.",
+        "C": "Incorrect. The femoral ring is the entrance to the femoral canal located superiorly in the femoral triangle, not the exit of the adductor canal.",
+        "D": "Incorrect. The gracilis contributes to the pes anserinus but is not involved in the passage of the femoral artery to the popliteal fossa.",
+        "E": "Incorrect. The pectineus is in the floor of the femoral triangle, and the saphenous opening is for the great saphenous vein."
+      }
+    }
+  },
+  {
+    "question": "In the gluteal region, various neurovascular structures enter and exit through the sciatic foramina. Which structure normally exits the pelvis through the greater sciatic foramen superior to the piriformis muscle?",
+    "choices": {
+      "A": "Posterior femoral cutaneous nerve",
+      "B": "Sciatic nerve",
+      "C": "Pudendal nerve",
+      "D": "Superior gluteal nerve",
+      "E": "Inferior gluteal nerve"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The superior gluteal nerve (and artery) is the only major neurovascular structure listed that emerges from the greater sciatic foramen superior to the piriformis muscle.",
+      "incorrect": {
+        "A": "Incorrect. Posterior femoral cutaneous nerve exits inferior to the piriformis.",
+        "B": "Incorrect. Sciatic nerve typically exits inferior to the piriformis muscle.",
+        "C": "Incorrect. Pudendal nerve exits the greater sciatic foramen inferior to the piriformis.",
+        "E": "Incorrect. Inferior gluteal nerve exits inferior to the piriformis muscle."
+      }
+    }
+  },
+  {
+    "question": "A surgeon is performing a dissection in the femoral triangle and needs to identify structures relative to the femoral sheath. Which of the following structures is found lateral to the femoral sheath?",
+    "choices": {
+      "A": "Femoral artery",
+      "B": "Deep inguinal lymph nodes (Cloquet's)",
+      "C": "Femoral vein",
+      "D": "Femoral nerve",
+      "E": "Femoral canal"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The femoral sheath contains the femoral artery (lateral compartment), femoral vein (intermediate compartment), and femoral canal (medial compartment). The femoral nerve lies within the femoral triangle but is situated lateral to the femoral sheath, not inside it.",
+      "incorrect": {
+        "A": "Incorrect. Located inside the lateral compartment of the femoral sheath.",
+        "B": "Incorrect. Located inside the femoral canal (medial compartment of the sheath).",
+        "C": "Incorrect. Located inside the intermediate compartment of the femoral sheath.",
+        "E": "Incorrect. This is the medial compartment of the femoral sheath itself."
+      }
+    }
+  },
+  {
+    "question": "A 28-year-old football player sustained a deep laceration at the back of his knee. If the lateral boundary of the superior part of the popliteal fossa is damaged, which muscle is most likely affected?",
+    "choices": {
+      "A": "Semimembranosus",
+      "B": "Semitendinosus",
+      "C": "Biceps femoris",
+      "D": "Gastrocnemius",
+      "E": "Popliteus"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The popliteal fossa is a diamond-shaped depression. Its superior lateral boundary is formed by the biceps femoris muscle.",
+      "incorrect": {
+        "A": "Incorrect. Semimembranosus forms the superior medial boundary.",
+        "B": "Incorrect. Semitendinosus forms the superior medial boundary.",
+        "D": "Incorrect. The medial and lateral heads of the gastrocnemius form the inferior boundaries.",
+        "E": "Incorrect. Popliteus forms part of the floor of the popliteal fossa."
+      }
+    }
+  },
+  {
+    "question": "A patient presents with extreme difficulty initiating the swing phase of walking due to weakness in flexing the thigh at the hip joint. Which muscle, originating from the sides of T12-L5 vertebrae and inserting into the lesser trochanter, is primarily responsible for this action?",
+    "choices": {
+      "A": "Rectus femoris",
+      "B": "Sartorius",
+      "C": "Psoas major",
+      "D": "Pectineus",
+      "E": "Vastus intermedius"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The psoas major originates from the sides of the T12-L5 vertebrae and discs and inserts into the lesser trochanter of the femur. Its main action is to flex the thigh at the hip joint.",
+      "incorrect": {
+        "A": "Incorrect. Rectus femoris originates from the AIIS and inserts into the tibial tuberosity.",
+        "B": "Incorrect. Sartorius originates from the ASIS and inserts into the superior medial tibia.",
+        "D": "Incorrect. Pectineus originates from the superior ramus of the pubis and inserts into the pectineal line.",
+        "E": "Incorrect. Vastus intermedius is a knee extensor, not a hip flexor."
+      }
+    }
+  },
+  {
+    "question": "A patient presents with an abnormal gait. When asked to stand on their right leg and lift their left leg off the ground, the pelvis drops on the left side. This finding (positive Trendelenburg sign) indicates an injury to which nerve?",
+    "choices": {
+      "A": "Right femoral nerve",
+      "B": "Right superior gluteal nerve",
+      "C": "Left superior gluteal nerve",
+      "D": "Left inferior gluteal nerve",
+      "E": "Right inferior gluteal nerve"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "A positive Trendelenburg sign occurs due to weakness of the gluteus medius and minimus on the supported (stance) side. These muscles are innervated by the superior gluteal nerve. Since standing on the right leg results in a left pelvic drop, the right superior gluteal nerve is injured.",
+      "incorrect": {
+        "A": "Incorrect. Would cause quadriceps weakness and knee extension issues.",
+        "C": "Incorrect. Injury here would cause the right pelvis to drop when standing on the left leg.",
+        "D": "Incorrect. Supplies gluteus maximus; injury causes difficulty rising from a seat.",
+        "E": "Incorrect. Supplies gluteus maximus; injury causes difficulty rising from a seat."
+      }
+    }
+  },
+  {
+    "question": "A professional sprinter complains of 'hamstring' pain. Examination shows weakness in flexing the knee and medially rotating the leg when the knee is flexed. However, the lateral rotation of the leg is unaffected. Which of the following muscles is likely spared?",
+    "choices": {
+      "A": "Semitendinosus",
+      "B": "Semimembranosus",
+      "C": "Long head of biceps femoris",
+      "D": "Short head of biceps femoris",
+      "E": "Adductor magnus (hamstring part)"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The short head of the biceps femoris is innervated by the common fibular division of the sciatic nerve and acts as a lateral rotator. Since lateral rotation is unaffected, this muscle is likely spared, while others innervated by the tibial division (responsible for medial rotation and flexion) are affected.",
+      "incorrect": {
+        "A": "Incorrect. Innervated by the tibial division; would be affected if medial rotation is weak.",
+        "B": "Incorrect. Innervated by the tibial division; would be affected if medial rotation is weak.",
+        "C": "Incorrect. Innervated by the tibial division; would be affected if flexion is weak.",
+        "E": "Incorrect. Innervated by the tibial division; would be affected if flexion is weak."
+      }
+    }
+  },
+  {
+    "question": "A patient presents with radiating pain down the posterior aspect of the thigh and leg. During the FAIR test (flexion, adduction, and internal rotation), the pain is reproduced. This condition results from the compression of which nerve?",
+    "choices": {
+      "A": "Superior gluteal nerve",
+      "B": "Posterior femoral cutaneous nerve",
+      "C": "Obturator nerve",
+      "D": "Femoral nerve",
+      "E": "Sciatic nerve"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The FAIR test stretches the piriformis muscle. If the piriformis compresses the underlying sciatic nerve, it causes pain in the buttocks radiating down the leg, known as Piriformis syndrome.",
+      "incorrect": {
+        "A": "Incorrect. Supplies abductors; entrapment causes weakness, not radiating posterior pain.",
+        "B": "Incorrect. While it causes posterior pain, the FAIR test specifically evaluates sciatic nerve compression in piriformis syndrome.",
+        "C": "Incorrect. Supplies the medial thigh compartment.",
+        "D": "Incorrect. Supplies the anterior thigh compartment."
+      }
+    }
+  }
+]
