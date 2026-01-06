@@ -1,0 +1,82 @@
+[
+  {
+    "question": "A 28-year-old professional dancer presents with acute pain and swelling on the superolateral aspect of her right hindfoot after a landing error. Physical examination reveals focal tenderness just anterior to the lateral malleolus. While the patient can still perform forceful dorsiflexion of the ankle, she demonstrates significant weakness when attempting to extend the metatarso-phalangeal (MTP) joints of her 2nd, 3rd, and 4th toes against resistance. Sensation in the first dorsal web space is diminished. Which of the following is most likely true regarding the injured structures?",
+    "choices": {
+      "A": "The affected intrinsic muscles are situated superficial to the tendons of the extensor digitorum longus.",
+      "B": "The diminished sensation in the first web space suggests concomitant involvement of the superficial fibular nerve.",
+      "C": "The primary muscle responsible for the 2nd-4th toe extension deficit is innervated by the deep fibular nerve.",
+      "D": "The injured muscle's primary function is to extend the distal interphalangeal (DIP) joints of the affected toes.",
+      "E": "The blood supply to this dorsal compartment is primarily provided by the lateral plantar artery."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The symptoms point to an injury of the Extensor digitorum brevis (EDB) and the deep fibular nerve. The EDB is the primary intrinsic muscle responsible for extending the MTP joints of the 2nd-4th toes and is innervated by the deep fibular nerve. Additionally, the sensory deficit in the first dorsal web space is a pathognomonic sign of deep fibular nerve involvement.",
+      "incorrect": {
+        "A": "Incorrect. The Extensor digitorum brevis lies deep to the tendons of the extensor digitorum longus.",
+        "B": "Incorrect. Sensation in the first dorsal web space is supplied by the deep fibular nerve, not the superficial fibular nerve (which supplies the rest of the dorsum).",
+        "D": "Incorrect. Extension of the DIP joints is primarily performed by the Extensor digitorum longus; the EDB primarily acts on the MTP and proximal IP joints.",
+        "E": "Incorrect. The dorsum of the foot is supplied by the dorsalis pedis artery; the lateral plantar artery supplies the plantar aspect."
+      }
+    }
+  },
+  {
+    "question": "Which nerve serves as the 'major motor nerve' of the foot, supplying the majority of the intrinsic muscles including the Adductor hallucis and all interossei?",
+    "choices": {
+      "A": "Deep fibular nerve",
+      "B": "Tibial nerve",
+      "C": "Sural nerve",
+      "D": "Lateral plantar nerve",
+      "E": "Medial plantar nerve"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The lateral plantar nerve (a branch of the tibial nerve) is analogous to the ulnar nerve in the hand. It innervates most intrinsic foot muscles, including the adductor hallucis, all interossei, quadratus plantae, and muscles of the little toe.",
+      "incorrect": {
+        "A": "Incorrect. This nerve supplies only the EDB and EHB on the dorsum.",
+        "B": "Incorrect. The tibial nerve divides into the medial and lateral plantar nerves; it doesn't supply these muscles directly in its main trunk.",
+        "C": "Incorrect. The sural nerve is purely sensory to the lateral aspect of the foot.",
+        "E": "Incorrect. The medial plantar nerve supplies only four muscles: Abductor hallucis, Flexor digitorum brevis, Flexor hallucis brevis, and the 1st lumbrical."
+      }
+    }
+  },
+  {
+    "question": "A diabetic patient develops a deep ischemic ulcer on the dorsum of the foot, lateral to the extensor hallucis longus tendon. The physician attempts to palpate a pulse in this area to assess vascular integrity. Which artery and origin are being evaluated?",
+    "choices": {
+      "A": "Medial plantar artery; a branch of the posterior tibial artery",
+      "B": "Arcuate artery; a branch of the lateral tarsal artery",
+      "C": "Dorsalis pedis artery; a continuation of the anterior tibial artery",
+      "D": "Posterior tibial artery; located midway between the heel and medial malleolus",
+      "E": "Deep plantar arch; formed by the junction of the medial and lateral plantar arteries"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The dorsalis pedis artery is the continuation of the anterior tibial artery distal to the inferior extensor retinaculum. Its pulse is clinically palpated on the dorsum of the foot, typically lateral to the EHL tendon.",
+      "incorrect": {
+        "A": "Incorrect. The medial plantar artery is located on the sole of the foot.",
+        "B": "Incorrect. The arcuate artery arises from the dorsalis pedis artery.",
+        "D": "Incorrect. This describes the location and origin of the posterior tibial pulse at the medial malleolus.",
+        "E": "Incorrect. The deep plantar arch is a deep structure in the sole and is not palpated on the dorsum."
+      }
+    }
+  },
+  {
+    "question": "Which of the following muscles is located in the third layer of the plantar foot and is innervated by the medial plantar nerve?",
+    "choices": {
+      "A": "Flexor digiti minimi brevis",
+      "B": "Abductor hallucis",
+      "C": "Adductor hallucis",
+      "D": "Quadratus plantae",
+      "E": "Flexor hallucis brevis"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The flexor hallucis brevis is a member of the third layer of plantar muscles. It is one of the few intrinsic muscles supplied by the medial plantar nerve.",
+      "incorrect": {
+        "A": "Incorrect. While in the 3rd layer, it is innervated by the lateral plantar nerve.",
+        "B": "Incorrect. This muscle is in the 1st layer.",
+        "C": "Incorrect. While in the 3rd layer, it is innervated by the lateral plantar nerve.",
+        "D": "Incorrect. This muscle is in the 2nd layer and is supplied by the lateral plantar nerve."
+      }
+    }
+  }
+]

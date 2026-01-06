@@ -1,0 +1,82 @@
+[
+  {
+    "question": "A traumatic injury to the lateral aspect of the knee fractures the neck of the fibula. Which functional deficit would most specifically indicate damage to the nerve coursing through the Lateral Compartment of the leg?",
+    "choices": {
+      "A": "Loss of ankle dorsiflexion",
+      "B": "Loss of sensation on the sole of the foot",
+      "C": "Loss of foot eversion",
+      "D": "Loss of ankle plantarflexion",
+      "E": "Loss of foot inversion"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The lateral compartment contains the Fibularis longus and Fibularis brevis muscles, which are innervated by the Superficial fibular nerve. Their main action is foot eversion. While a fibular neck fracture affecting the Common fibular nerve would also cause foot drop (Deep fibular nerve), the loss of eversion specifically points to the Lateral Compartment path.",
+      "incorrect": {
+        "A": "Incorrect. Dorsiflexion is the function of the Anterior Compartment (Deep fibular nerve).",
+        "B": "Incorrect. Sensation on the sole is supplied by branches of the Tibial nerve.",
+        "D": "Incorrect. Plantarflexion is performed by the posterior compartment (Tibial nerve).",
+        "E": "Incorrect. Inversion is primarily performed by the Tibialis anterior and Tibialis posterior."
+      }
+    }
+  },
+  {
+    "question": "A patient diagnosed with Tarsal Tunnel Syndrome reports burning pain and paresthesia on the sole of the foot. Compression of which nerve causes these symptoms, and what is its parent nerve?",
+    "choices": {
+      "A": "Tibial nerve; Sciatic nerve",
+      "B": "Saphenous nerve; Femoral nerve",
+      "C": "Deep fibular nerve; Common fibular nerve",
+      "D": "Sural nerve; Tibial and Common fibular nerves",
+      "E": "Superficial fibular nerve; Common fibular nerve"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The Tarsal Tunnel (medial ankle) contains the Tibial nerve ('Very Nervous' in the mnemonic 'Tom, Dick, And Very Nervous Harry'). It divides into medial and lateral plantar nerves supplying the sole. The Tibial nerve is a major branch of the Sciatic nerve.",
+      "incorrect": {
+        "B": "Incorrect. The Saphenous nerve supplies the medial leg/foot but is not inside the tarsal tunnel.",
+        "C": "Incorrect. The Deep fibular nerve supplies the 1st web space on the dorsum, not the sole.",
+        "D": "Incorrect. The Sural nerve supplies the lateral foot and passes behind the lateral malleolus.",
+        "E": "Incorrect. The Superficial fibular nerve supplies the lateral compartment and dorsal hand."
+      }
+    }
+  },
+  {
+    "question": "A patient exhibits a 'steppage gait' and sensory loss in the web space between the first and second toes. Which structure is most likely compromised, and which compartment of the leg is primarily affected?",
+    "choices": {
+      "A": "Tibial nerve; Posterior compartment",
+      "B": "Deep fibular nerve; Anterior compartment",
+      "C": "Superficial fibular nerve; Lateral compartment",
+      "D": "Saphenous nerve; Anterior compartment",
+      "E": "Common fibular nerve; Posterior compartment"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "'Steppage gait' compensates for foot drop caused by paralysis of the dorsiflexors (Anterior compartment), which are innervated by the Deep fibular nerve. This nerve also specifically supplies sensation to the 1st interdigital space (web space).",
+      "incorrect": {
+        "A": "Incorrect. Tibial nerve injury affects plantarflexion, not dorsiflexion.",
+        "C": "Incorrect. Superficial fibular nerve injury causes loss of eversion, not dorsiflexion.",
+        "D": "Incorrect. The Saphenous nerve is purely sensory and does not affect gait mechanics.",
+        "E": "Incorrect. While Common fibular injury causes foot drop, the compartment listed ('Posterior') is wrong; the posterior compartment is tibial nerve territory."
+      }
+    }
+  },
+  {
+    "question": "The Popliteus muscle plays a unique 'key' role in knee joint mechanics. Which of the following correctly describes its action during the initiation of flexion from a fully extended (locked) knee position?",
+    "choices": {
+      "A": "It is the primary plantarflexor of the ankle.",
+      "B": "It extends the knee joint.",
+      "C": "It medially rotates the femur on the tibia when the foot is fixed.",
+      "D": "It laterally rotates the tibia on the femur when the foot is off the ground.",
+      "E": "It laterally rotates the femur on the tibia when the foot is fixed."
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The Popliteus 'unlocks' the knee. In weight-bearing (closed chain, foot fixed), it rotates the femur laterally on the fixed tibia to initiate flexion.",
+      "incorrect": {
+        "A": "Incorrect. The primary plantarflexors are the Gastrocnemius and Soleus.",
+        "B": "Incorrect. The Popliteus is a weak flexor, not an extensor.",
+        "C": "Incorrect. Medial rotation of the femur on the tibia is part of the 'locking' mechanism.",
+        "D": "Incorrect. In open chain (foot off ground), it unlocks the knee by medially rotating the tibia on the femur."
+      }
+    }
+  }
+]
