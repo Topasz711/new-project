@@ -1,0 +1,159 @@
+[
+  {
+    "question": "A 22-year-old football player experienced a severe blow to the lateral aspect of his extended knee. Physical examination reveals an 'unhappy triad' injury. Which structure is directly attached to the damaged medial collateral ligament (MCL)?",
+    "choices": {
+      "A": "Popliteus tendon",
+      "B": "Lateral meniscus",
+      "C": "Anterior cruciate ligament",
+      "D": "Medial meniscus",
+      "E": "Posterior cruciate ligament"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The Tibial Collateral Ligament (MCL) has deep fibers that are firmly attached to the medial meniscus. This anatomical continuity explains why a valgus stress causing an MCL tear often leads to a concomitant medial meniscus injury, a key component of the 'Unhappy Triad' (alongside the ACL).",
+      "incorrect": {
+        "A": "Incorrect. The popliteus tendon is located posterolaterally, separated from the lateral meniscus by the joint capsule.",
+        "B": "Incorrect. The lateral meniscus is separated from the Fibular Collateral Ligament (LCL) by the popliteus tendon and has no relation to the MCL.",
+        "C": "Incorrect. While the ACL is part of the Unhappy Triad, it is an intracapsular ligament without direct physical attachment to the MCL.",
+        "E": "Incorrect. The PCL is centrally located and does not attach to the collateral ligaments."
+      }
+    }
+  },
+  {
+    "question": "During a physical examination of a patient with a suspected knee injury, the physician performs a 'Posterior Drawer Sign' test. Which of the following mechanical failures is this test specifically designed to identify?",
+    "choices": {
+      "A": "Medial rotation of the femur when the foot is fixed",
+      "B": "Lateral rotation of the tibia during the 'Screw Home' mechanism",
+      "C": "Hyperextension of the knee joint",
+      "D": "Posterior translation of the femur on the tibia",
+      "E": "Anterior translation of the femur on the tibia"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The PCL prevents posterior displacement of the tibia relative to the femur. In a 'Posterior Drawer Test', if the PCL is ruptured, the tibia moves backward. This is mechanically equivalent to the femur being displaced anteriorly relative to the tibia.",
+      "incorrect": {
+        "A": "Incorrect. Medial rotation of the femur is part of the locking mechanism, not an instability sign.",
+        "B": "Incorrect. This refers to the physiological 'Screw Home' mechanism, not a ligamentous failure.",
+        "C": "Incorrect. Resistance to hyperextension is primarily provided by the ACL and oblique popliteal ligament.",
+        "D": "Incorrect. Preventing posterior translation of the femur (or anterior translation of the tibia) is the function of the ACL."
+      }
+    }
+  },
+  {
+    "question": "A patient presents with a severe inversion injury of the ankle. Upon clinical examination, the 'Anterior Talofibular Ligament' (ATFL) is found to be torn. Which other ligament is most likely to be damaged in this specific mechanism of injury?",
+    "choices": {
+      "A": "Posterior tibiotalar ligament",
+      "B": "Deltoid ligament",
+      "C": "Calcaneofibular ligament",
+      "D": "Tibionavicular ligament",
+      "E": "Plantar calcaneonavicular (spring) ligament"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Inversion injuries stress the lateral collateral ligaments. The ATFL is the weakest and tears first, followed by the Calcaneofibular ligament (CFL) as the force increases.",
+      "incorrect": {
+        "A": "Incorrect. Part of the medial deltoid complex; injured during eversion.",
+        "B": "Incorrect. The deltoid ligament resists eversion stress.",
+        "D": "Incorrect. A component of the medial deltoid complex.",
+        "E": "Incorrect. The spring ligament supports the medial longitudinal arch and is not a primary stabilizer against inversion."
+      }
+    }
+  },
+  {
+    "question": "In the context of the Shoulder Joint Complex, which structure forms the 'Coraco-acromial arch' to prevent superior displacement of the humeral head?",
+    "choices": {
+      "A": "Acromion, Coracoid process, and Coraco-acromial ligament",
+      "B": "Transverse humeral ligament and Bicipital groove",
+      "C": "Glenoid labrum and Glenohumeral ligaments",
+      "D": "Clavicle, Acromion, and Acromioclavicular ligament",
+      "E": "Coracoid process, Conoid ligament, and Trapezoid ligament"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The coraco-acromial arch is an osseoligamentous protective 'roof' formed by the acromion, coracoid process, and the bridging coraco-acromial ligament. It prevents the humeral head from migrating superiorly out of the glenoid cavity.",
+      "incorrect": {
+        "B": "Incorrect. This ligament only secures the long head of the biceps tendon.",
+        "C": "Incorrect. These structures deepen and stabilize the joint but do not form the superior arch.",
+        "D": "Incorrect. The clavicle is not a component of the coraco-acromial arch.",
+        "E": "Incorrect. These form the coracoclavicular ligament, which stabilizes the AC joint, not the humeral head."
+      }
+    }
+  },
+  {
+    "question": "A 35-year-old weightlifter presents with pain at the sternoclavicular (SC) joint. Which description correctly characterizes this joint according to its structural and functional classification?",
+    "choices": {
+      "A": "It is structurally a ball-and-socket joint and functionally a saddle joint.",
+      "B": "It is structurally a saddle joint but functions as a ball-and-socket joint.",
+      "C": "The costoclavicular ligament serves as the primary intrinsic capsular ligament.",
+      "D": "The articular surfaces are covered by hyaline cartilage.",
+      "E": "It lacks an articular disc to allow for a wide range of movement."
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The SC joint is anatomically a saddle (sellar) joint. However, the presence of a fibrocartilaginous articular disc allows it to move in multiple planes, effectively functioning like a ball-and-socket (spheroidal) joint.",
+      "incorrect": {
+        "A": "Incorrect. This is the exact inverse of the correct classification.",
+        "C": "Incorrect. The costoclavicular ligament is an extrinsic (accessory) ligament, not intrinsic to the capsule.",
+        "D": "Incorrect. Unlike most synovial joints, the SC joint surfaces are covered by fibrocartilage.",
+        "E": "Incorrect. The joint contains a robust articular disc that is essential for congruency and shock absorption."
+      }
+    }
+  },
+  {
+    "question": "A 'Grade III Acromioclavicular (AC) Joint Dislocation' results in a prominent upward displacement of the distal clavicle. Damage to which ligament is primarily responsible for this vertical instability?",
+    "choices": {
+      "A": "Acromioclavicular ligament",
+      "B": "Costoclavicular ligament",
+      "C": "Coracoclavicular ligament",
+      "D": "Superior glenohumeral ligament",
+      "E": "Coraco-acromial ligament"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The coracoclavicular ligament (Conoid and Trapezoid) is the primary weight-bearing/suspensory ligament of the upper limb. Its rupture leads to the hallmark vertical displacement of the clavicle seen in Grade III AC dislocations.",
+      "incorrect": {
+        "A": "Incorrect. The AC ligament primarily provides horizontal stability; its rupture alone causes minimal vertical shift.",
+        "B": "Incorrect. This ligament is located at the medial end of the clavicle (SC joint).",
+        "D": "Incorrect. This is a stabilizer of the glenohumeral joint capsule.",
+        "E": "Incorrect. This connects the coracoid to the acromion and does not stabilize the clavicle."
+      }
+    }
+  },
+  {
+    "question": "In which position are the hip ligaments slackened, making the joint most vulnerable to a posterior dislocation during a motor vehicle accident?",
+    "choices": {
+      "A": "Flexion, adduction, and internal rotation",
+      "B": "Extension, abduction, and lateral rotation",
+      "C": "Hyperabduction and external rotation",
+      "D": "Hyperextension and internal rotation",
+      "E": "Neutral position with full extension"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The hip ligaments spiral and tighten during extension. In flexion, they uncoil and become slack. Combined with adduction and internal rotation, the femoral head is least supported posteriorly, making it vulnerable to 'dashboard injuries'.",
+      "incorrect": {
+        "B, D, E": "Incorrect. Extension (or hyperextension) tightens the strong iliofemoral ligament, increasing joint stability.",
+        "C": "Incorrect. Hyperabduction tightens the pubofemoral ligament."
+      }
+    }
+  },
+  {
+    "question": "The humeroradial joint is a multiaxial joint that allows both flexion/extension and rotation. Which specific bony landmarks form this articulation?",
+    "choices": {
+      "A": "Coronoid fossa of humerus and coronoid process of ulna",
+      "B": "Radial notch of ulna and head of radius",
+      "C": "Trochlea of humerus and head of radius",
+      "D": "Capitulum of humerus and head of radius",
+      "E": "Olecranon process of humerus and olecranon fossa of ulna"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The humeroradial joint is the articulation between the hemispherical capitulum of the humerus and the fovea (concave surface) on the head of the radius.",
+      "incorrect": {
+        "A, E": "Incorrect. These involve the humeroulnar articulation.",
+        "B": "Incorrect. This forms the proximal radioulnar joint.",
+        "C": "Incorrect. The trochlea articulates with the trochlear notch of the ulna."
+      }
+    }
+  }
+]
