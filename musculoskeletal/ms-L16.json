@@ -1,0 +1,122 @@
+[
+  {
+    "question": "A 45-year-old male presents to the outpatient clinic with a chief complaint of sudden onset of facial asymmetry. During physical examination, the physician observes that the patient is unable to close his lips tightly, resulting in saliva drooling from the corner of his mouth on the affected side. Additionally, he cannot whistle or puff out his cheeks. Based on these clinical findings, which muscle is primarily dysfunctional, and which nerve provides its motor innervation?",
+    "choices": {
+      "A": "Levator labii superioris; Infraorbital nerve (CN V2)",
+      "B": "Orbicularis oris; Trigeminal nerve (CN V)",
+      "C": "Buccinator; Mandibular nerve (CN V3)",
+      "D": "Orbicularis oris; Facial nerve (CN VII)",
+      "E": "Orbicularis oculi; Facial nerve (CN VII)"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The clinical presentation of being 'unable to close lips' points directly to the Orbicularis oris muscle, whose main action is to close the lips. All muscles of facial expression, including the orbicularis oris, are innervated by the Facial nerve (CN VII). The inability to hold saliva (drooling) confirms the failure of the oral sphincter function.",
+      "incorrect": {
+        "A": "The Levator labii superioris elevates the upper lip. Dysfunction here would affect smiling or showing teeth, not closing the lips. Furthermore, the Infraorbital nerve (CN V2) is a sensory nerve, not a motor nerve for facial muscles.",
+        "B": "While Orbicularis oris is the correct muscle, the Trigeminal nerve (CN V) provides sensory innervation to the face and motor innervation to muscles of mastication, not facial expression.",
+        "C": "The Buccinator compresses the cheek, which helps in whistling, but the primary deficit of 'unable to close lips' is specific to the Orbicularis oris. Also, the Mandibular nerve (CN V3) does not innervate muscles of facial expression (except for its sensory branches and motor supply to mastication muscles).",
+        "E": "The Orbicularis oculi closes the eyelids (winking/blinking), not the lips."
+      }
+    }
+  },
+  {
+    "question": "A patient is diagnosed with an infection in the scalp that has spread into the cranial cavity. Which of the following structures provides a direct pathway for the spread of infection from the extracranial veins to the dural venous sinuses?",
+    "choices": {
+      "A": "Diploic veins",
+      "B": "Emissary veins",
+      "C": "Cerebral veins",
+      "D": "Bridging veins",
+      "E": "Superficial temporal veins"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Emissary veins are valveless veins that connect the extracranial venous system (scalp veins) with the intracranial venous system (dural venous sinuses). Because they lack valves, blood (and infection) can flow in either direction. This is the anatomical basis for how an infection in the scalp's connective tissue can spread into the dural venous sinuses, potentially causing thrombosis.",
+      "incorrect": {
+        "A": "Diploic veins drain the diploë (spongy bone) of the skull. While they communicate with dural sinuses, the direct pathway often cited for scalp-to-sinus infection spread is the emissary vein.",
+        "C": "Cerebral veins drain the brain parenchyma into the sinuses; they are already intracranial.",
+        "D": "Bridging veins are segments of cerebral veins that cross the subarachnoid space to enter the dural sinuses; they are intracranial structures.",
+        "E": "Superficial temporal veins are extracranial veins draining the scalp. They are the source of the blood, but the pathway connecting them to the inside of the skull is the emissary vein."
+      }
+    }
+  },
+  {
+    "question": "During a physical examination, a medical student asks a patient to smile broadly by drawing the angle of the mouth (modiolus) backward and upward. Which muscle is primarily responsible for this specific action?",
+    "choices": {
+      "A": "Zygomaticus minor",
+      "B": "Zygomaticus major",
+      "C": "Risorius",
+      "D": "Levator anguli oris",
+      "E": "Platysma"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The Zygomaticus major originates from the zygomatic bone and inserts into the angle of the mouth. Its main action is to draw the modiolus (angle of the mouth) backward and upward, which produces a smile or laugh.",
+      "incorrect": {
+        "A": "Zygomaticus minor elevates the upper lip, but it inserts into the upper lip rather than the angle of the mouth.",
+        "C": "Risorius retracts the modiolus (pulls it laterally/backward) to produce a grimace, not necessarily upward.",
+        "D": "Levator anguli oris elevates the modiolus medially, often associated with an expression of disgust.",
+        "E": "Platysma depresses the mandible and tenses the skin of the neck; it pulls the corners of the mouth downward (frowning/sadness), opposing the action of a smile."
+      }
+    }
+  },
+  {
+    "question": "A 35-year-old woman has a blockage in her parotid duct due to a sialolith (calculus). The dentist explains that the duct is constricted as it passes through a specific muscle before entering the oral cavity. Which muscle is it?",
+    "choices": {
+      "A": "Masseter",
+      "B": "Temporalis",
+      "C": "Buccinator",
+      "D": "Orbicularis oris",
+      "E": "Medial pterygoid"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The parotid duct (Stensen's duct) leaves the anterior border of the parotid gland, crosses superficial to the masseter muscle, and then turns medially to penetrate the buccinator muscle. It finally opens into the oral cavity opposite the 2nd upper molar tooth.",
+      "incorrect": {
+        "A": "The duct runs over (superficial to) the Masseter muscle, but it does not pass through it.",
+        "B": "The Temporalis is a muscle of mastication located deeply/superiorly relative to the path of the duct.",
+        "D": "The Orbicularis oris surrounds the mouth; the duct enters the oral cavity through the cheek (buccinator) further back.",
+        "E": "The Medial pterygoid is a muscle of mastication located deeply relative to the path of the duct."
+      }
+    }
+  },
+  {
+    "question": "A 19-year-old college student presents with a deep, infected 'pimple' at the bridge of her nose (apex of the danger triangle). Within 48 hours, she develops ophthalmoplegia and loss of sensation on her forehead. The physician suspects thrombophlebitis of the cavernous sinus. Which of the following cranial nerves, passing through the lateral wall of this sinus, is responsible for the loss of sensation on her forehead?",
+    "choices": {
+      "A": "Ophthalmic nerve (CN V1)",
+      "B": "Maxillary nerve (CN V2)",
+      "C": "Mandibular nerve (CN V3)",
+      "D": "Trochlear nerve (CN IV)",
+      "E": "Oculomotor nerve (CN III)"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The lateral wall of the cavernous sinus contains cranial nerves III, IV, V1, and V2. The sensation of the forehead is supplied by the Ophthalmic division of the Trigeminal nerve (CN V1), specifically via its branches: the supratrochlear and supraorbital nerves. Therefore, compression or inflammation of V1 in the cavernous sinus wall would cause anesthesia of the forehead.",
+      "incorrect": {
+        "B": "Maxillary nerve (CN V2) passes through the cavernous sinus wall, but it supplies sensation to the mid-face (infraorbital region, cheek, upper lip), not the forehead.",
+        "C": "Mandibular nerve (CN V3) does not pass through the cavernous sinus; it supplies the lower face.",
+        "D": "Trochlear nerve (CN IV) is a motor nerve to the eye muscles; its involvement causes ophthalmoplegia (paralysis of eye movements), not loss of sensation.",
+        "E": "Oculomotor nerve (CN III) is a motor nerve to the eye muscles; its involvement causes ophthalmoplegia (paralysis of eye movements), not loss of sensation."
+      }
+    }
+  },
+  {
+    "question": "A patient presents with a severe epistaxis (nosebleed). The bleeding is found to originate from the terminal branch of the Facial artery located near the medial angle of the eye. Which artery is the physician referring to?",
+    "choices": {
+      "A": "Superior labial artery",
+      "B": "Infraorbital artery",
+      "C": "Angular artery",
+      "D": "Transverse facial artery",
+      "E": "Dorsal nasal artery"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The Angular artery is the terminal branch of the Facial artery. It ascends to the medial angle of the eye (near the nose), where it anastomoses with branches of the ophthalmic artery.",
+      "incorrect": {
+        "A": "Superior labial artery supplies the upper lip, not the medial angle of the eye.",
+        "B": "Infraorbital artery is a branch of the Maxillary artery, emerging from the infraorbital foramen below the orbit.",
+        "D": "Transverse facial artery is a branch of the Superficial Temporal artery; it runs across the face below the zygomatic arch.",
+        "E": "Dorsal nasal artery is a branch of the Ophthalmic artery (internal carotid system), not the Facial artery."
+      }
+    }
+  }
+]

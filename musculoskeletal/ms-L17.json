@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Which nerve passes between the two heads of the lateral pterygoid muscle to reach the cheek region, and what is its primary functional classification?",
+    "choices": {
+      "A": "Deep temporal nerve; Motor",
+      "B": "Masseteric nerve; Motor",
+      "C": "Buccal nerve; Motor",
+      "D": "Buccal nerve; Sensory",
+      "E": "Inferior alveolar nerve; Mixed"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Anatomy: The buccal nerve (a branch of the anterior division of the mandibular nerve, CN V3) specifically passes between the two heads of the lateral pterygoid muscle to reach the cheek.\nFunction: It supplies sensory innervation (pain, temperature, touch) to the skin and oral mucosa of the cheek and the buccal gingivae. It is not a motor nerve.",
+      "incorrect": {
+        "A": "While these are motor nerves supplying the temporalis muscle, they ascend deep to the temporalis muscle and do not pass between the pterygoid heads to reach the cheek surface.",
+        "B": "This is a motor nerve supplying the masseter muscle. It passes through the mandibular notch, not between the pterygoid heads in the context of reaching the cheek skin.",
+        "C": "This is a common trick. The 'Buccal branch of the Facial Nerve (CN VII)' is motor. However, the question refers to the nerve in the infratemporal fossa (passing through the lateral pterygoid), which is the Buccal nerve of CN V3, and it is strictly sensory.",
+        "E": "This nerve descends medial to the lateral pterygoid muscle (not between its heads) and enters the mandibular canal. It supplies the lower teeth and chin, not the cheek region in this specific pathway."
+      }
+    }
+  },
+  {
+    "question": "Identify the muscle primarily responsible for the protraction of the mandible, given its insertion into the pterygoid fovea of the neck of the mandible and the articular disc of the temporomandibular joint.",
+    "choices": {
+      "A": "Temporalis muscle",
+      "B": "Medial pterygoid muscle",
+      "C": "Digastric muscle",
+      "D": "Lateral pterygoid muscle",
+      "E": "Masseter muscle"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Insertion: The Lateral pterygoid muscle has two heads. The Superior head inserts into the joint capsule and articular disc. The Inferior head inserts into the pterygoid fovea on the neck of the condyloid process of the mandible.\nAction: When acting together (bilaterally), they cause protraction (moving the jaw forward) and depression (opening the mouth).",
+      "incorrect": {
+        "A": "Its posterior fibers are responsible for retraction (pulling the jaw back), not protraction. It acts mainly as an elevator.",
+        "B": "While it assists in protrusion, its primary action is elevation. It inserts into the medial surface of the ramus and angle of the mandible, not the pterygoid fovea.",
+        "C": "This muscle is involved in depression and retraction of the mandible, not protraction.",
+        "E": "This is a powerful elevator of the mandible. Its superficial head assists in protraction, but it inserts into the ramus and angle of the mandible, not the pterygoid fovea or articular disc."
+      }
+    }
+  },
+  {
+    "question": "Which arterial branch arises from the inferior alveolar artery immediately prior to its entry into the mandibular foramen?",
+    "choices": {
+      "A": "Incisive artery",
+      "B": "Buccal artery",
+      "C": "Deep auricular artery",
+      "D": "Mental artery",
+      "E": "Mylohyoid artery"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "As the inferior alveolar artery descends toward the mandibular foramen, it gives off the mylohyoid artery just before entering the foramen. This artery then descends into the mylohyoid groove to supply the mylohyoid muscle.",
+      "incorrect": {
+        "A": "This is a terminal branch of the inferior alveolar artery within the mandibular canal (supplying anterior teeth), occurring long after the artery has entered the foramen.",
+        "B": "This is a branch of the second (pterygoid) part of the maxillary artery, independent of the inferior alveolar artery.",
+        "C": "This is a branch of the first (mandibular) part of the maxillary artery, but it arises early and supplies the ear region, not from the inferior alveolar artery.",
+        "D": "This is the terminal branch that exits the mental foramen to supply the chin and lower lip. It arises at the end of the mandibular canal, not at the entrance."
+      }
+    }
+  },
+  {
+    "question": "Which cranial foramen serves as the passageway for the mandibular division of the trigeminal nerve (CN V3), the accessory meningeal artery, and the lesser petrosal nerve?",
+    "choices": {
+      "A": "Jugular foramen",
+      "B": "Foramen ovale",
+      "C": "Foramen rotundum",
+      "D": "Foramen spinosum",
+      "E": "Stylomastoid foramen"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The Foramen ovale transmits the Mandibular nerve (CN V3), the Accessory meningeal artery, and typically the lesser petrosal nerve (though sometimes it has its own canal, it is classically associated here in this context).",
+      "incorrect": {
+        "A": "Transmits CN IX, X, XI and the Internal Jugular Vein.",
+        "C": "Transmits the Maxillary nerve (CN V2).",
+        "D": "Transmits the Middle meningeal artery and the meningeal branch of V3 (nervus spinosus).",
+        "E": "Transmits the Facial nerve (CN VII) and stylomastoid artery."
+      }
+    }
+  },
+  {
+    "question": "Which ligament reinforces the TMJ laterally to prevent posterior dislocation, and this function is associated with limiting which type of movement in which joint cavity?",
+    "choices": {
+      "A": "Sphenomandibular ligament; Hinge movement; Inferior cavity",
+      "B": "Stylomandibular ligament; Gliding movement; Superior cavity",
+      "C": "Temporomandibular ligament; Hinge movement; Inferior cavity",
+      "D": "Temporomandibular ligament; Gliding movement; Superior cavity",
+      "E": "Sphenomandibular ligament; Gliding movement; Superior cavity"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Ligament: The Temporomandibular (lateral) ligament strengthens the joint laterally and acts to prevent posterior dislocation of the joint.\nMovement/Cavity: Posterior dislocation is a risk during retrusion/backward movement. Gliding (translational) movements (like protrusion and retrusion) occur in the Superior articular cavity (between the temporal bone and the disc). Therefore, this ligament limits excessive backward gliding in the superior cavity.",
+      "incorrect": {
+        "A": "This is an accessory ligament on the medial side, not the primary lateral reinforcement against posterior dislocation.",
+        "B": "Also an accessory ligament, limits excessive protrusion, but is not the primary lateral stabilizer.",
+        "C": "While the ligament is correct, the Inferior articular cavity (between the disc and condyle) is responsible for Hinge (rotational) movements. Posterior dislocation is primarily a failure of the translational (gliding) limit, which concerns the relationship of the condyle/disc to the mandibular fossa (Superior cavity mechanics).",
+        "E": "This is an accessory ligament on the medial side, not the primary lateral reinforcement against posterior dislocation."
+      }
+    }
+  },
+  {
+    "question": "Which specific venous structure is formed by the union of the superficial temporal and maxillary veins, and anastomoses with the facial vein to ultimately drain into the internal jugular vein?",
+    "choices": {
+      "A": "Pterygoid venous plexus",
+      "B": "Deep facial vein",
+      "C": "External jugular vein",
+      "D": "Anterior division of the retromandibular vein",
+      "E": "Posterior division of the retromandibular vein"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The Retromandibular vein is formed by the union of the Superficial temporal vein and the Maxillary vein.\nIt divides into two branches. The Anterior division anastomoses with the Facial vein to form the common facial vein, which then drains into the Internal Jugular Vein (IJV).",
+      "incorrect": {
+        "A": "This is a network of veins that drains into the maxillary vein. It is not the vessel formed by the union of the superficial temporal and maxillary veins.",
+        "B": "This vein connects the pterygoid plexus to the facial vein, allowing communication, but it is not the main drainage path described.",
+        "C": "This is formed by the union of the Posterior division of the retromandibular vein and the posterior auricular vein.",
+        "E": "This division joins the posterior auricular vein to drain into the External Jugular Vein, not the Internal Jugular Vein."
+      }
+    }
+  }
+]
