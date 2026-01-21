@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which specific protein undergoes a conformational change upon depolarization of the T-tubule membrane, directly acting as a voltage sensor in skeletal muscle excitation-contraction coupling?",
+    "choices": {
+      "A": "Ryanodine receptor (RyR1)",
+      "B": "Troponin C",
+      "C": "Dihydropyridine receptor (DHPR)",
+      "D": "Calsequestrin",
+      "E": "SERCA pump"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "This is an L-type calcium channel located on the T-tubule membrane. It acts as the voltage sensor. When the action potential depolarizes the T-tubule, the DHPR changes shape and mechanically pulls the RyR1 open.",
+      "incorrect": {
+        "A": "This is the calcium release channel located on the Sarcoplasmic Reticulum (SR) membrane. While it releases calcium, it is not the voltage sensor; it is mechanically opened by the DHPR.",
+        "B": "This is the calcium-binding protein on the thin filament (actin). It senses calcium concentration, not membrane voltage.",
+        "D": "This is a low-affinity calcium-binding protein inside the SR that helps store calcium in high concentrations. It plays no role in voltage sensing.",
+        "E": "The Sarcoplasmic Endoplasmic Reticulum Calcium ATPase pumps calcium back into the SR to cause relaxation. It is an ATP-dependent pump, not a voltage sensor."
+      }
+    }
+  },
+  {
+    "question": "In the sliding filament theory, which band or zone of the sarcomere remains constant in length during muscle contraction?",
+    "choices": {
+      "A": "Sarcomere length",
+      "B": "Z disc distance",
+      "C": "A band",
+      "D": "H zone",
+      "E": "I band"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The A band corresponds to the length of the thick filaments (myosin). During contraction, the filaments slide past each other, but the physical length of the myosin filament itself does not change; therefore, the A band width remains constant.",
+      "incorrect": {
+        "A": "The sarcomere is defined as the distance between two Z-discs. Since the muscle shortens, the entire sarcomere length decreases.",
+        "B": "This is synonymous with sarcomere length. The Z-discs move closer together during contraction.",
+        "D": "The H zone is the region in the center of the A band where there is only myosin (no actin overlap). As actin slides toward the center, the H zone narrows and may disappear.",
+        "E": "The I band contains only thin filaments (actin). As the myosin heads pull actin toward the center, the I band narrows significantly."
+      }
+    }
+  },
+  {
+    "question": "Which enzymatic activity determines the maximal velocity of shortening (Vmax) of a skeletal muscle fiber?",
+    "choices": {
+      "A": "SERCA pump rate",
+      "B": "Phosphofructokinase activity",
+      "C": "Creatine Kinase activity",
+      "D": "Myosin ATPase activity",
+      "E": "Acetylcholinesterase activity"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "This enzyme is located on the myosin head. Its speed determines how quickly the myosin head can hydrolyze ATP and reset for the next power stroke (cross-bridge cycling rate). Fast-twitch fibers have a fast isoform of this enzyme; slow-twitch fibers have a slow isoform.",
+      "incorrect": {
+        "A": "The speed of the SERCA pump determines how fast the muscle relaxes (by clearing calcium), not how fast it shortens.",
+        "B": "This is the rate-limiting enzyme of glycolysis. It determines the rate of ATP production, not the mechanical speed of contraction.",
+        "C": "This enzyme regenerates ATP from Creatine Phosphate. Like PFK, it is metabolic, not mechanical.",
+        "E": "This breaks down ACh at the neuromuscular junction to stop the signal. It does not determine the cross-bridge cycling speed."
+      }
+    }
+  },
+  {
+    "question": "Which of the following events occurs immediately after ATP binds to the myosin head during the cross-bridge cycle?",
+    "choices": {
+      "A": "Myosin head detaches from actin",
+      "B": "ATP is hydrolyzed to ADP and Pi",
+      "C": "Tropomyosin moves to expose binding sites",
+      "D": "Power stroke occurs",
+      "E": "Rigor complex forms"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "ATP binding causes a conformational change that drastically reduces the affinity of myosin for actin. This breaks the cross-bridge (the 'divorce' step).",
+      "incorrect": {
+        "B": "This happens after detachment. Hydrolysis provides the energy to 'cock' the myosin head into the high-energy position.",
+        "C": "This occurs earlier and is triggered by Calcium binding to Troponin, not ATP binding to myosin.",
+        "D": "The power stroke occurs when ADP and Pi are released from the myosin head, after it has reattached to actin.",
+        "E": "Rigor occurs when there is no ATP available to bind to myosin (e.g., after death), causing the head to stay stuck to actin."
+      }
+    }
+  },
+  {
+    "question": "Which fiber type would be most predominant in the postural muscles of the back (e.g., Erector spinae)?",
+    "choices": {
+      "A": "Single-unit smooth muscle",
+      "B": "Type IIb (Fast Glycolytic)",
+      "C": "Type IIa (Fast Oxidative)",
+      "D": "Type IIx",
+      "E": "Type I (Slow Oxidative)"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Postural muscles must remain contracted for long periods to keep you upright against gravity without getting tired. Type I fibers (red muscle) have high myoglobin, many mitochondria, and are highly fatigue-resistant.",
+      "incorrect": {
+        "A": "The erector spinae are skeletal muscles, not smooth muscles.",
+        "B": "These fibers fatigue very quickly (white muscle) and are used for explosive movements (like sprinting), not maintaining posture for hours.",
+        "C": "These are intermediate fibers. While they have some endurance, they are not as fatigue-resistant as Type I fibers.",
+        "D": "Similar to Type IIb, these are fast-twitch fibers found in humans that fatigue relatively quickly."
+      }
+    }
+  },
+  {
+    "question": "What is the primary cause of 'Active Tension' decrease when a muscle is stretched beyond its optimal length (L0)?",
+    "choices": {
+      "A": "Inhibition of Calcium release",
+      "B": "Reduced overlap between actin and myosin filaments",
+      "C": "Distortion of the T-tubule system",
+      "D": "Increased passive resistance from titin",
+      "E": "Collision of Z-discs with thick filaments"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Active tension depends on the number of cross-bridges formed. If the sarcomere is stretched too far, the actin filaments are pulled away from the myosin heads, leaving fewer heads able to grab onto actin. Zero overlap = zero active tension.",
+      "incorrect": {
+        "A": "Stretching within physiological limits does not significantly stop calcium release.",
+        "C": "This is not the mechanism described by the length-tension relationship.",
+        "D": "While stretching does increase passive tension (due to titin stretching), the question asks about the decrease in active tension.",
+        "E": "This occurs when the muscle is too short (compressed), not when it is stretched."
+      }
+    }
+  },
+  {
+    "question": "Which adaptation is a primary result of resistance training (weight lifting) rather than endurance training?",
+    "choices": {
+      "A": "Increased capillary density",
+      "B": "Hypertrophy via synthesis of more myofibrils",
+      "C": "Conversion of Type II to Type I fibers",
+      "D": "Increased myoglobin content",
+      "E": "Increased number of mitochondria"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Resistance training creates mechanical stress, signaling the PI3K/Akt/mTOR pathway to synthesize more actin and myosin protein strands (myofibrils). This makes the muscle fiber larger (hypertrophy) and stronger.",
+      "incorrect": {
+        "A": "This is an adaptation to endurance training (aerobic) to improve oxygen delivery.",
+        "C": "True fiber type conversion is rare. Training might shift IIx to IIa, but resistance training does not turn fast fibers into slow fibers.",
+        "D": "Myoglobin stores oxygen; increasing it is an endurance adaptation.",
+        "E": "Mitochondria generate aerobic energy; increasing them is the hallmark of endurance training."
+      }
+    }
+  },
+  {
+    "question": "Which source of energy provides the fastest rate of ATP production but has the smallest capacity?",
+    "choices": {
+      "A": "Anaerobic Glycolysis",
+      "B": "Aerobic Glycolysis",
+      "C": "Gluconeogenesis",
+      "D": "Aerobic Lipolysis (Fatty acids)",
+      "E": "Creatine Phosphate"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The reaction (PCr + ADP -> ATP + Cr) is catalyzed by a single enzyme (Creatine Kinase). It is instant but the stores of PCr are very small (lasting ~10-15 seconds).",
+      "incorrect": {
+        "A": "This is fast but requires several enzymatic steps (10+ steps). It is slower than the CP system.",
+        "B": "This requires the Krebs cycle and Electron Transport Chain, making it much slower than anaerobic systems.",
+        "C": "This is the synthesis of glucose in the liver, not a direct ATP source for muscle contraction.",
+        "D": "Burning fat requires Beta-oxidation and the Krebs cycle. It provides the most energy (capacity) but at the slowest rate."
+      }
+    }
+  },
+  {
+    "question": "Calmodulin-Ca4 complex activates which enzyme in smooth muscle to initiate contraction?",
+    "choices": {
+      "A": "Myosin Light Chain Kinase (MLCK)",
+      "B": "Myosin ATPase",
+      "C": "Myosin Light Chain Phosphatase",
+      "D": "Adenylate Cyclase",
+      "E": "Protein Kinase C"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "In smooth muscle, Calcium binds to Calmodulin. This complex activates MLCK, which phosphorylates the regulatory light chain of myosin, allowing it to interact with actin.",
+      "incorrect": {
+        "B": "This is the enzyme on the myosin head that breaks down ATP. It is regulated by phosphorylation, but it is not the enzyme that Calmodulin activates directly.",
+        "C": "This enzyme removes the phosphate to cause relaxation (or the latch state). It opposes MLCK.",
+        "D": "This produces cAMP, which usually leads to smooth muscle relaxation (by inhibiting MLCK).",
+        "E": "PKC is involved in sustaining contraction (calcium sensitization) but MLCK is the primary initiator via the Calmodulin pathway."
+      }
+    }
+  },
+  {
+    "question": "Which characteristic is unique to 'Multi-unit' smooth muscle compared to 'Single-unit'?",
+    "choices": {
+      "A": "Spontaneous pacemaker activity",
+      "B": "Response to stretch",
+      "C": "Precise neural control of individual fibers",
+      "D": "Dependence on intracellular calcium only",
+      "E": "Presence of gap junctions"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Multi-unit smooth muscle fibers (e.g., iris of the eye, piloerector muscles) are electrically isolated (no gap junctions). Each fiber must be stimulated by a nerve ending, allowing for fine, graded control.",
+      "incorrect": {
+        "A": "This is a feature of single-unit (visceral) smooth muscle (e.g., gut), which contracts rhythmically without nerve input.",
+        "B": "Single-unit muscle (e.g., bladder, uterus) contracts when stretched. Multi-unit usually does not.",
+        "D": "Both types of smooth muscle rely heavily on extracellular calcium influx.",
+        "E": "Gap junctions connect single-unit smooth muscle cells so they contract as a whole sheet. Multi-unit muscles lack these to function independently."
+      }
+    }
+  },
+  {
+    "question": "Physiologically, cardiac muscle is incapable of undergoing tetanic contraction. What is the specific reason for this safety mechanism?",
+    "choices": {
+      "A": "The absolute refractory period is extremely short, allowing rapid repolarization.",
+      "B": "Cardiac muscle lacks the Sarcoplasmic Reticulum Ca2+-ATPase (SERCA) pump.",
+      "C": "The conduction velocity through the AV node is too slow.",
+      "D": "The duration of the action potential is nearly as long as the duration of the mechanical contraction.",
+      "E": "The release of Acetylcholine prevents summation of twitches."
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The plateau phase (due to Ca2+ influx) keeps the cell depolarized and in a refractory state (unable to fire again) for almost the entire duration of the twitch. By the time the cell can fire again, it has already relaxed, preventing summation/tetanus.",
+      "incorrect": {
+        "A": "If it were short, the muscle could be restimulated quickly to cause tetanus (like skeletal muscle). Cardiac refractory periods are very long.",
+        "B": "Cardiac muscle has SERCA pumps; they are essential for relaxation.",
+        "C": "This prevents the ventricles from beating too soon after the atria, but it doesn't prevent tetanus within the ventricular muscle itself.",
+        "E": "ACh is a neurotransmitter that modulates rate, not the mechanism of the refractory period itself."
+      }
+    }
+  },
+  {
+    "question": "Cardiac muscle exhibits structural and functional characteristics that share features with both skeletal and smooth muscles. Which of the following statements correctly identifies these similarities?",
+    "choices": {
+      "A": "Like smooth muscle, it lacks T-tubules; like skeletal muscle, it is under voluntary control.",
+      "B": "Like skeletal muscle, it possesses T-tubules and Troponin C; however, like smooth muscle, it relies significantly on Calcium-Induced Calcium Release (CICR).",
+      "C": "Like skeletal muscle, it has triads at the A-I junction; like smooth muscle, it uses Calmodulin.",
+      "D": "Like smooth muscle, it has gap junctions; like skeletal muscle, it relies solely on intracellular calcium pools.",
+      "E": "Like skeletal muscle, it is multinucleated; like smooth muscle, it lacks sarcomeres."
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Similar to Skeletal: It is striated (has sarcomeres), uses Troponin C as the sensor, and has T-tubules.\nSimilar to Smooth: It requires extracellular Calcium to enter the cell to trigger the release of SR Calcium (CICR) and is involuntary.",
+      "incorrect": {
+        "A": "Cardiac muscle does have T-tubules (though larger and at the Z-line) and is involuntary.",
+        "C": "Cardiac muscle has 'Dyads' located at the Z-line (not triads at the A-I junction). It uses Troponin, not Calmodulin (which is smooth muscle).",
+        "D": "The first part is true (gap junctions exist), but the second part is false. Skeletal muscle relies on intracellular pools; Cardiac muscle requires extracellular calcium entry.",
+        "E": "Cardiac muscle cells are typically uni- or bi-nucleated (not multinucleated like skeletal) and they do have sarcomeres (unlike smooth muscle)."
+      }
+    }
+  }
+]

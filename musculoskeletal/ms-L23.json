@@ -1,0 +1,122 @@
+[
+  {
+    "question": "A 70-year-old woman presents with acute pain in her right wrist. Synovial fluid analysis reveals rhomboid-shaped crystals with weakly positive birefringence. What is the most likely diagnosis?",
+    "choices": {
+      "A": "Rheumatoid arthritis",
+      "B": "CPPD disease",
+      "C": "Septic arthritis",
+      "D": "Osteoarthritis",
+      "E": "Gouty arthritis"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The presence of rhomboid-shaped crystals with weakly positive birefringence is the definitive diagnostic finding for Calcium Pyrophosphate Deposition (CPPD) disease (often called pseudogout). Furthermore, CPPD commonly affects the wrist, knee, and shoulder, fitting the patient's clinical presentation.",
+      "incorrect": {
+        "A": "RA is an autoimmune disease. Synovial fluid would show inflammation (WBCs) but no crystals would be found.",
+        "C": "This is a medical emergency caused by infection. The synovial fluid would be purulent with a very high WBC count (>50,000) and positive Gram stain/culture. Crystals are not the primary finding, though they can coexist.",
+        "D": "OA is a degenerative joint disease. Synovial fluid is typically non-inflammatory (WBC < 2,000) and clear. It does not present with crystals.",
+        "E": "Gout is characterized by needle-shaped crystals with strongly negative birefringence, not rhomboid/positive ones."
+      }
+    }
+  },
+  {
+    "question": "Which of the following metabolic abnormalities is NOT typically associated with Calcium Pyrophosphate Deposition (CPPD) disease?",
+    "choices": {
+      "A": "Hyperparathyroidism",
+      "B": "Hypomagnesemia",
+      "C": "Hyperthyroidism",
+      "D": "Hypophosphatasia",
+      "E": "Hemochromatosis"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Hyperthyroidism is not considered a classic risk factor for CPPD. The metabolic conditions strongly associated with CPPD are often remembered by the '4H' mnemonic.",
+      "incorrect": {
+        "A": "A known 'H' associated with CPPD (Hyperparathyroidism).",
+        "B": "Low magnesium is a known risk factor.",
+        "D": "A known 'H' associated with CPPD (Hypophosphatasia).",
+        "E": "A known 'H' associated with iron overload leading to CPPD (Hemochromatosis)."
+      }
+    }
+  },
+  {
+    "question": "Which radiographic finding is most characteristic of chronic tophaceous gout?",
+    "choices": {
+      "A": "Joint space narrowing with osteophytes",
+      "B": "Periarticular osteopenia",
+      "C": "Chondrocalcinosis",
+      "D": "Bamboo spine appearance",
+      "E": "Punched-out erosions with overhanging edges"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The hallmark radiographic finding in chronic gout is punched-out erosions with sclerotic margins and overhanging edges. This is often accompanied by soft tissue masses representing tophi.",
+      "incorrect": {
+        "A": "This is the classic presentation of Osteoarthritis (OA), not gout.",
+        "B": "This is a classic early sign of Rheumatoid Arthritis (RA).",
+        "C": "This refers to the calcification of cartilage (e.g., in the meniscus) and is the pathognomonic sign of CPPD disease.",
+        "D": "This is the classic sign of Ankylosing Spondylitis."
+      }
+    }
+  },
+  {
+    "question": "A 55-year-old male presents with acute, intense pain in his right big toe. Arthrocentesis is performed. Which of the following synovial fluid findings would be most diagnostic for gout?",
+    "choices": {
+      "A": "Bipyramidal crystals with no birefringence",
+      "B": "Rhomboid-shaped crystals with weakly positive birefringence",
+      "C": "Needle-shaped crystals with strongly negative birefringence",
+      "D": "Cholesterol crystals with Maltese cross appearance",
+      "E": "Needle-shaped crystals with positive birefringence"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Monosodium urate (MSU) crystals, which cause gout, are characteristically needle-shaped and exhibit strongly negative birefringence (appearing yellow when parallel to the polarizing axis). This is the gold standard for diagnosis.",
+      "incorrect": {
+        "A": "Typically associated with calcium oxalate (often seen in kidney stones or specific renal failure contexts), not gout.",
+        "B": "As explained in Question 1, this is diagnostic for CPPD.",
+        "D": "These show a 'Maltese cross' appearance, not seen in gout.",
+        "E": "This combination does not exist for common crystal arthropathies; MSU is negative, CPPD is positive (but rhomboid)."
+      }
+    }
+  },
+  {
+    "question": "Which of the following factors is primarily responsible for the majority (90%) of hyperuricemia cases in gout patients?",
+    "choices": {
+      "A": "Increased cell turnover",
+      "B": "Deficiency of HGPRT",
+      "C": "Overproduction of uric acid",
+      "D": "Renal underexcretion of uric acid",
+      "E": "Increased dietary intake of purines"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The vast majority of patients with hyperuricemia and gout fall into the category of underexcretion of uric acid by the kidneys. This can be due to genetic factors (transporters), chronic kidney disease, or drugs.",
+      "incorrect": {
+        "A": "This causes secondary overproduction (e.g., tumor lysis syndrome, psoriasis), but this accounts for a small minority of cases.",
+        "B": "This is a specific genetic cause of primary overproduction (Lesch-Nyhan syndrome), which is rare.",
+        "C": "Overall, overproduction (both primary and secondary) accounts for only about 10% of gout cases; underexcretion is much more common.",
+        "E": "While diet contributes (e.g., red meat, alcohol), strict dietary restriction usually only lowers serum urate slightly. It is rarely the sole primary cause compared to the physiological inability to excrete urate."
+      }
+    }
+  },
+  {
+    "question": "A patient with chronic CPPD presents with symmetrical polyarthritis involving the wrists and MCP joints. This presentation mimics which other rheumatic disease?",
+    "choices": {
+      "A": "Rheumatoid Arthritis (RA)",
+      "B": "Septic Arthritis",
+      "C": "Systemic Lupus Erythematosus",
+      "D": "Ankylosing Spondylitis",
+      "E": "Osteoarthritis (OA)"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Chronic CPPD can present as a symmetrical polyarthritis that closely resembles Rheumatoid Arthritis. This specific clinical presentation is often referred to as 'Pseudo-RA'. It can involve the wrists and MCP joints, which are classic sites for RA.",
+      "incorrect": {
+        "B": "Usually presents as an acute monoarthritis (one joint), not symmetrical polyarthritis.",
+        "C": "While SLE causes arthritis, the term 'Pseudo-RA' is specifically used in the context of CPPD mimicking RA.",
+        "D": "Primarily affects the axial skeleton (spine/sacroiliac joints), not typically symmetrical wrists/MCPs.",
+        "E": "CPPD can mimic OA (Pseudo-OA), but the pattern described in the question (symmetrical, wrists/MCPs) is the inflammatory pattern of RA. OA typically affects DIPs, PIPs, and weight-bearing joints."
+      }
+    }
+  }
+]

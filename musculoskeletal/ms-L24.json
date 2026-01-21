@@ -1,0 +1,82 @@
+[
+  {
+    "question": "A 35-year-old male presents to the emergency department with a 2-week history of high-grade fever, severe myalgia, and generalized weakness. He reports no history of trauma. Physical examination reveals tenderness in the gastrocnemius and deltoid muscles. Interestingly, a closer inspection of his fingernails reveals multiple linear, red-brown streaks on the distal nail bed (splinter hemorrhages). Laboratory results show marked eosinophilia (35%) and elevated Creatine Phosphokinase (CPK). Which of the following organisms is the most likely cause of his condition?",
+    "choices": {
+      "A": "Taenia solium",
+      "B": "Gnathostoma spinigerum",
+      "C": "Trichinella spiralis",
+      "D": "Angiostrongylus cantonensis",
+      "E": "Capillaria philippinensis"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Clinical Presentation: The patient presents with the classic triad of the muscular phase of trichinellosis: fever, severe myalgia, and weakness, which typically occurs 2-6 weeks after ingestion of raw meat.\nPathognomonic Sign: The presence of splinter hemorrhages (subungual streaks) is a highly specific clinical finding associated with Trichinella infection due to vasculitis induced by the migrating larvae.\nLaboratory Findings: Marked eosinophilia (often >15-50% in light-moderate infection) and elevated muscle enzymes (CPK, LDH, AST) are hallmark laboratory findings indicating muscle invasion and inflammation.",
+      "incorrect": {
+        "A": "While T. solium causes cysticercosis (cysts in muscles), it typically presents as subcutaneous nodules (firm, painless, palpable) or seizures (neurocysticercosis). It does not typically cause the acute febrile myositis syndrome with splinter hemorrhages seen in this case.",
+        "B": "This parasite causes Cutaneous Larva Migrans. The hallmark sign is migratory swelling (intermittent subcutaneous swelling that moves), not generalized myositis or splinter hemorrhages.",
+        "D": "This is the primary cause of Eosinophilic Meningitis. Patients present with severe headache, neck stiffness, and paresthesia, rather than predominant muscle pain or nail bed findings.",
+        "E": "This parasite causes Intestinal Capillariasis. The main symptoms are chronic watery diarrhea, borborygmi, and wasting (cachexia). It affects the intestines, not the musculoskeletal system."
+      }
+    }
+  },
+  {
+    "question": "A 42-year-old farmer comes to the clinic complaining of a generalized enlargement of his right thigh. He noticed the swelling 6 months ago, and it has been slowly progressing. On physical examination, there are no palpable superficial nodules, but the right thigh appears larger than the left, firm, and non-tender, resembling a 'Pseudotumor'. An X-ray of the femur reveals multiple 'cigar-shaped' calcifications arranged parallel to the muscle fibers. What is the most likely diagnosis?",
+    "choices": {
+      "A": "Subcutaneous cysticercosis",
+      "B": "Intramuscular cysticercosis",
+      "C": "Trichinellosis",
+      "D": "Soft tissue sarcoma",
+      "E": "Myositis ossificans"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The key features are the 'Pseudotumor' appearance (mass-like muscular hypertrophy) and the specific 'Cigar-shaped' (or Rice Grain) calcifications seen on X-ray, which are calcified cysts aligned with muscle fibers.",
+      "incorrect": {
+        "A": "This type presents as small, palpable 'subcutaneous nodules' (0.5-2 cm), not a generalized deep muscle mass (pseudotumor). The scenario explicitly says 'no palpable superficial nodules'.",
+        "C": "The classic signs are fever and facial/periorbital edema. While larvae do calcify, they are microscopic and do not appear as large 'cigar-shaped' opacities on plain X-ray like Cysticercosis.",
+        "D": "These non-parasitic conditions (tumor/trauma) do not show the distinct, disseminated 'cigar-shaped' calcification pattern specific to parasitic cysts.",
+        "E": "These non-parasitic conditions (tumor/trauma) do not show the distinct, disseminated 'cigar-shaped' calcification pattern specific to parasitic cysts."
+      }
+    }
+  },
+  {
+    "question": "A 29-year-old female presents with new-onset seizures. A CT scan of the brain reveals multiple cystic lesions with scolex suggestive of Neurocysticercosis. Further examination reveals palpable subcutaneous nodules on her arms. The patient is a strict vegan who consumes only plant-based diets and has never eaten meat in her life. Which of the following is the most likely mode of transmission for her infection?",
+    "choices": {
+      "A": "Consumption of raw pork salad",
+      "B": "Consumption of raw beef salad",
+      "C": "Consumption of vegetable salad contaminated with pig feces",
+      "D": "Consumption of vegetable salad contaminated with human feces",
+      "E": "Consumption of vegetable salad contaminated with dog feces"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Life Cycle Mechanics: Cysticercosis (both neuro- and subcutaneous) is caused by the ingestion of infective eggs or gravid proglottids of Taenia solium.\nSource of Eggs: The definitive host for Taenia solium is the human. Adult tapeworms live in the human small intestine and shed eggs/proglottids in human feces. Therefore, transmission occurs via the fecal-oral route (food/water contaminated with human feces) or autoinfection. Since the patient is vegan, she likely ate vegetables contaminated with human feces containing the eggs.",
+      "incorrect": {
+        "A": "Ingesting raw pork containing cysticerci (larval stage) leads to Taeniasis (adult tapeworm infection in the intestine), not immediate Cysticercosis.",
+        "B": "This would transmit Taenia saginata, which does not cause cysticercosis in humans.",
+        "C": "Pigs are intermediate hosts. They get infected by eating human feces. Pigs do not shed infective eggs; they harbor the cysts in their muscles. Therefore, pig feces is not the direct source of human cysticercosis.",
+        "E": "This is the transmission route for Echinococcus (Hydatid cyst) or Toxocara, not Taenia solium."
+      }
+    }
+  },
+  {
+    "question": "A 40-year-old male attended a local festival where he consumed a dish consisting of raw wild boar meat. Two weeks later, he developed high fever and severe muscle pain. The physician suspects a parasitic infection and is trying to differentiate between acute Trichinellosis and Cysticercosis. Which of the following clinical findings is MOST specific to Trichinellosis in this clinical context?",
+    "choices": {
+      "A": "Subcutaneous mobile nodules",
+      "B": "Seizures and altered sensorium",
+      "C": "Periorbital and facial edema",
+      "D": "Passage of proglottids in stool",
+      "E": "Cigar-shaped calcifications on plain film"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Specific Clinical Feature: In the context of fever and myalgia following raw meat ingestion (especially wild boar), facial and periorbital edema are classic and highly suggestive signs of acute Trichinellosis. This edema is likely due to a hypersensitivity reaction to the migrating larvae.\nTimeline: These symptoms typically appear during the muscular phase, about 2-6 weeks after ingestion.",
+      "incorrect": {
+        "A": "This is a classic sign of Subcutaneous Cysticercosis, not Trichinellosis.",
+        "B": "These are signs of Neurocysticercosis, which affects the CNS. While Trichinella can cause encephalitis in severe cases (heavy infection), seizures are the hallmark of Neurocysticercosis. However, periorbital edema is far more specific and common for Trichinellosis.",
+        "D": "This indicates the presence of an adult tapeworm (Taeniasis), not the tissue invasion phase of Trichinellosis or Cysticercosis.",
+        "E": "This is a sign of chronic Intramuscular Cysticercosis, not acute Trichinellosis."
+      }
+    }
+  }
+]

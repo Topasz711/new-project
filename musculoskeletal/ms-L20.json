@@ -1,0 +1,162 @@
+[
+  {
+    "question": "Which of the following correctly describes the rotation of the limbs during the 7th week of development?",
+    "choices": {
+      "A": "Limbs do not rotate; they grow straight out.",
+      "B": "Both upper and lower limbs rotate 90° laterally.",
+      "C": "Both upper and lower limbs rotate 90° medially.",
+      "D": "Upper limbs rotate 90° laterally; Lower limbs rotate 90° medially.",
+      "E": "Upper limbs rotate 90° medially; Lower limbs rotate 90° laterally."
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Upper Limbs: Rotate 90° Laterally. This places the elbows pointing posteriorly and the extensor muscles on the lateral/posterior aspect.\nLower Limbs: Rotate 90° Medially. This places the knees pointing anteriorly and the extensor muscles (like the Quadriceps) on the anterior aspect.",
+      "incorrect": {
+        "A": "Limbs must rotate to attain the adult anatomical position; otherwise, our joints would bend in the same direction (like a quadruped).",
+        "B": "If both rotated laterally, the knees would point outward/backward, similar to the elbows.",
+        "C": "If both rotated medially, the elbows would point inward, similar to the knees.",
+        "E": "This is the reverse of the actual developmental process."
+      }
+    }
+  },
+  {
+    "question": "Which auditory ossicles are derived from the first pharyngeal arch (Meckel's cartilage)?",
+    "choices": {
+      "A": "Incus and Stapes",
+      "B": "Stapes only",
+      "C": "Malleus and Incus",
+      "D": "Malleus, Incus, and Stapes",
+      "E": "Malleus and Stapes"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The dorsal tip of the mandibular prominence (First Arch/Meckel's cartilage) ossifies to form the Malleus and the Incus.",
+      "incorrect": {
+        "A": "The stapes is not from the first arch.",
+        "B": "The stapes is derived from the Second Pharyngeal Arch (Reichert's cartilage).",
+        "D": "The stapes has a different origin (2nd arch).",
+        "E": "Malleus is 1st arch, but Stapes is 2nd arch."
+      }
+    }
+  },
+  {
+    "question": "Consider the Quadriceps femoris muscle group in the adult thigh. It is located in the anterior compartment and extends the knee. From which embryonic muscle mass is it derived?",
+    "choices": {
+      "A": "Anterior condensation",
+      "B": "Posterior condensation",
+      "C": "Epimere",
+      "D": "Hypomere",
+      "E": "Lateral plate mesoderm"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Embryologically, the Posterior Condensation (Dorsal muscle mass) gives rise to Extensor muscles.\nDue to the medial rotation of the lower limb (see Question 1), the original dorsal/extensor mass (Quadriceps) moves to the anterior aspect of the thigh.",
+      "incorrect": {
+        "A": "The Anterior condensation (Ventral muscle mass) gives rise to Flexors. Although the Quadriceps are anatomically anterior in adults, they are functional Extensors.",
+        "C": "Epimere forms intrinsic back muscles (epaxial), not limb muscles.",
+        "D": "'Hypomere' is the general category for limb/body wall muscles, but it is not specific enough to distinguish between flexors and extensors.",
+        "E": "Lateral plate mesoderm forms the bones and connective tissues of the limb, but not the muscle cells (which migrate from somites)."
+      }
+    }
+  },
+  {
+    "question": "Which of the following structures is derived from the Sclerotome?",
+    "choices": {
+      "A": "Spinal cord",
+      "B": "Dermis of the back skin",
+      "C": "Semispinalis muscle",
+      "D": "Nucleus pulposus of the intervertebral disc",
+      "E": "Annulus fibrosus of the intervertebral disc"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The Sclerotome (a subdivision of the somite) gives rise to the vertebrae, ribs, and the Annulus Fibrosus (the fibrous outer ring of the intervertebral disc).",
+      "incorrect": {
+        "A": "The spinal cord is derived from the Neural Tube (Ectoderm).",
+        "B": "The dermis is derived from the Dermatome.",
+        "C": "The Semispinalis muscle is derived from the Myotome (specifically the Epimere).",
+        "D": "The Nucleus pulposus is the remnant of the Notochord."
+      }
+    }
+  },
+  {
+    "question": "Regarding the molecular regulation of limb development, which signaling center is primarily responsible for anteroposterior patterning (e.g., specifying the radius vs. the ulna)?",
+    "choices": {
+      "A": "Apical Ectodermal Ridge (AER)",
+      "B": "Zone of Polarizing Activity (ZPA)",
+      "C": "FGFs",
+      "D": "Dermomyotome",
+      "E": "Neural Tube"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The ZPA is a cluster of mesenchymal cells at the posterior border of the limb bud. It secretes Sonic Hedgehog (SHH) to establish the Anteroposterior axis (Thumb vs. Pinky).",
+      "incorrect": {
+        "A": "The AER is responsible for the Proximodistal axis (limb lengthening) via FGF signaling.",
+        "C": "FGFs (Fibroblast Growth Factors) are the primary signals from the AER, not the ZPA.",
+        "D": "The dermomyotome forms muscle and skin, not the signaling center for limb patterning.",
+        "E": "The Neural Tube influences spinal development but is not the primary organizer inside the limb bud."
+      }
+    }
+  },
+  {
+    "question": "The sternum develops from which embryonic source?",
+    "choices": {
+      "A": "Parietal (somatic) layer of lateral plate mesoderm",
+      "B": "Visceral (splanchnic) layer of lateral plate mesoderm",
+      "C": "Sclerotome of somites",
+      "D": "Neural crest cells",
+      "E": "Dermatome"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Two sternal bars develop in the Parietal (somatic) lateral plate mesoderm of the anterior body wall. These bars eventually fuse in the midline to form the sternum.",
+      "incorrect": {
+        "B": "The Visceral (splanchnic) layer surrounds the gut tube and forms smooth muscle/cardiac muscle.",
+        "C": "The Sclerotome forms the vertebrae and ribs, but not the sternum.",
+        "D": "Neural crest cells contribute to the facial skeleton and clavicle, but not the sternum.",
+        "E": "The Dermatome forms the dermis of the skin."
+      }
+    }
+  },
+  {
+    "question": "During vertebral formation, the process of resegmentation is critical. How does this process occur?",
+    "choices": {
+      "A": "The rostral half of one sclerotome fuses with the rostral half of the adjacent sclerotome.",
+      "B": "The sclerotome remains intact and each somite forms exactly one vertebra.",
+      "C": "The caudal half of one sclerotome fuses with the rostral half of the sclerotome immediately below it.",
+      "D": "The caudal half of the sclerotome degenerates, leaving only the rostral half to form bone.",
+      "E": "The cranial half of the sclerotome migrates dorsally while the caudal half expands to form the neural arch."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "This is Resegmentation. The dense caudal half of sclerotome X fuses with the loose rostral half of sclerotome X+1. This forms the vertebral body between the spinal nerves and allows muscles to span the intervertebral joint.",
+      "incorrect": {
+        "A": "Fusing two rostral halves is biologically incorrect and would disrupt the pattern.",
+        "B": "If segments remained intact, muscles (from the same segment) would attach within a single vertebra and could not move the spine.",
+        "D": "Sclerotome tissue does not degenerate during this phase; it reorganizes.",
+        "E": "This describes an incorrect mechanism of migration."
+      }
+    }
+  },
+  {
+    "question": "An infant is born with a unilateral cleft lip. The plastic surgeon explains to the parents that this defect occurred due to the failure of fusion between two specific embryonic prominences. Which pair of prominences failed to fuse?",
+    "choices": {
+      "A": "Two mandibular prominences",
+      "B": "Two medial nasal prominences",
+      "C": "Lateral nasal prominence and maxillary prominence",
+      "D": "Maxillary prominence and mandibular prominence",
+      "E": "Maxillary prominence and medial nasal prominence"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The Maxillary Prominence (forming the lateral upper lip/cheek) must merge with the Medial Nasal Prominence (forming the philtrum/middle lip). Failure of this specific fusion results in a Cleft Lip.",
+      "incorrect": {
+        "A": "Failure here causes a rare midline cleft of the lower jaw.",
+        "B": "Failure here causes a rare median cleft lip (harelip).",
+        "C": "Failure here causes an Oblique Facial Cleft (exposed nasolacrimal duct).",
+        "D": "Failure here causes Macrostomia (large mouth)."
+      }
+    }
+  }
+]

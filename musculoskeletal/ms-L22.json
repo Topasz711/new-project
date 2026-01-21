@@ -1,0 +1,242 @@
+[
+  {
+    "question": "A 45-year-old male presents with chronic hip pain. Radiographs reveal a 'crescent sign' (semilunar line) in the subchondral bone of the femoral head, indicating subchondral collapse. Which of the following is the most likely risk factor associated with this patient's condition?",
+    "choices": {
+      "A": "Vitamin D Deficiency",
+      "B": "Chronic Alcohol Use",
+      "C": "Bisphosphonate Therapy",
+      "D": "Hyperuricemia",
+      "E": "Staphylococcus aureus infection"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The clinical presentation describes Avascular Necrosis (Osteonecrosis) of the femoral head. The 'crescent sign' is a pathognomonic radiological finding indicating a subchondral fracture due to bone death. Chronic alcohol use and long-term corticosteroid therapy are the two most common non-traumatic causes of AVN. Alcohol causes adipogenesis in the marrow, increasing intraosseous pressure and reducing blood flow.",
+      "incorrect": {
+        "A": "Vitamin D deficiency leads to Osteomalacia (in adults) or Rickets (in children), characterized by poorly mineralized bone (soft bones), not ischemic necrosis.",
+        "C": "Bisphosphonate therapy is associated with osteonecrosis of the jaw (ONJ), but it is generally used to treat osteoporosis and is not a primary cause of femoral head AVN.",
+        "D": "Hyperuricemia causes Gout. While gout affects joints, it causes erosive arthritis and tophi, not the specific subchondral ischemic collapse seen in AVN.",
+        "E": "Staphylococcus aureus infection causes Osteomyelitis (pyogenic infection). This would present with fever, systemic signs, and bone destruction/pus, rather than a clean subchondral fracture line (crescent sign)."
+      }
+    }
+  },
+  {
+    "question": "A 22-year-old male complains of dull, aching pain in his spine that worsens at night. He reports that the pain is NOT relieved by aspirin or NSAIDs. Imaging reveals a 3.5 cm radiolucent nidus with surrounding sclerosis. What is the most likely diagnosis?",
+    "choices": {
+      "A": "Ewing Sarcoma",
+      "B": "Osteoid Osteoma",
+      "C": "Osteosarcoma",
+      "D": "Osteoblastoma",
+      "E": "Osteochondroma"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Osteoblastoma is histologically similar to Osteoid Osteoma (both form osteoid). However, Osteoblastoma is distinguished by being larger (>2 cm)—here it is 3.5 cm—and usually involves the spine. Crucially, the pain is NOT relieved by aspirin, differentiating it from Osteoid Osteoma.",
+      "incorrect": {
+        "A": "Ewing Sarcoma is a malignant tumor typically found in the diaphysis of long bones with an 'onion-skin' periosteal reaction, not a sclerotic nidus in the spine.",
+        "B": "Osteoid Osteoma is typically smaller (<2 cm) and presents with night pain that is dramatically relieved by aspirin (due to prostaglandin inhibition).",
+        "C": "Osteosarcoma is a high-grade malignancy with a 'sunburst' appearance, typically in the metaphysis of long bones (around the knee), not a well-defined nidus.",
+        "E": "Osteochondroma is a bony projection with a cartilage cap (exostosis), growing away from the joint, not a nidus within the bone."
+      }
+    }
+  },
+  {
+    "question": "A 12-year-old boy presents with a painful mass in the femoral diaphysis. Radiographs show a lytic lesion with a multi-layered 'onion-skin' periosteal reaction. Cytogenetic analysis would most likely reveal which chromosomal translocation?",
+    "choices": {
+      "A": "t(11;22)",
+      "B": "t(12;16)",
+      "C": "t(9;22)",
+      "D": "t(2;13)",
+      "E": "t(X;18)"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The case describes Ewing Sarcoma (child, diaphysis, onion-skin appearance). The hallmark genetic driver is the fusion of the EWS gene on chromosome 22 with the FLI1 gene on chromosome 11, creating the t(11;22) translocation.",
+      "incorrect": {
+        "B": "t(12;16) is characteristic of Myxoid Liposarcoma (FUS-DDIT3 fusion).",
+        "C": "t(9;22) is the Philadelphia chromosome found in Chronic Myeloid Leukemia (CML).",
+        "D": "t(2;13) is characteristic of Alveolar Rhabdomyosarcoma (PAX3-FOXO1 fusion).",
+        "E": "t(X;18) is the diagnostic translocation for Synovial Sarcoma."
+      }
+    }
+  },
+  {
+    "question": "Which primary bone malignancy is known for its resistance to both chemotherapy and radiation therapy, making wide surgical resection the only effective treatment?",
+    "choices": {
+      "A": "Lymphoma of Bone",
+      "B": "Chondrosarcoma",
+      "C": "Ewing Sarcoma",
+      "D": "Multiple Myeloma",
+      "E": "Osteosarcoma"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Chondrosarcomas produce a cartilaginous matrix. Cartilage is relatively avascular and the cells grow slowly, making them generally resistant to chemotherapy and radiation (which target rapidly dividing cells). Therefore, wide surgical excision is the primary treatment.",
+      "incorrect": {
+        "A": "Lymphoma is highly sensitive to both chemotherapy and radiation.",
+        "C": "Ewing Sarcoma is highly aggressive but also very sensitive to chemotherapy and radiation.",
+        "D": "Multiple Myeloma is a systemic disease treated primarily with chemotherapy/immunotherapy, not wide resection.",
+        "E": "While Osteosarcoma requires surgery, it is also treated with neoadjuvant chemotherapy to shrink the tumor and treat micrometastases."
+      }
+    }
+  },
+  {
+    "question": "A patient presents with a hard mass in the quadriceps muscle after a football injury. Biopsy reveals a 'zonation pattern' with a central immature fibroblastic zone, an intermediate osteoblastic zone, and a peripheral zone of mature bone. What is the diagnosis?",
+    "choices": {
+      "A": "Polymyositis",
+      "B": "Synovial Sarcoma",
+      "C": "Osteochondroma",
+      "D": "Parosteal Osteosarcoma",
+      "E": "Myositis Ossificans"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "This is a benign, reactive bone formation within muscle following trauma. The key diagnostic feature is the Zonation Pattern: the periphery is the most mature (well-formed bone), while the center is immature. This distinguishes it from malignancy.",
+      "incorrect": {
+        "A": "Polymyositis is an autoimmune inflammatory muscle disease causing weakness, not a bone-forming mass.",
+        "B": "Synovial sarcoma is a malignancy showing a biphasic cellular pattern, not bone zonation.",
+        "C": "Osteochondroma is a tumor attached to the skeleton (exostosis), not a mass floating within the muscle belly.",
+        "D": "Parosteal Osteosarcoma (and Osteosarcoma in general) typically shows the reverse zonation—the center is more mineralized/mature, and the periphery is immature and infiltrative."
+      }
+    }
+  },
+  {
+    "question": "Microscopic examination of a soft tissue tumor from a child reveals large, eosinophilic cells with abundant cytoplasm, resembling 'strap cells' or 'tadpole cells'. Cross-striations are visible. What is the most likely diagnosis?",
+    "choices": {
+      "A": "Fibrosarcoma",
+      "B": "Leiomyosarcoma",
+      "C": "Rhabdomyosarcoma",
+      "D": "Liposarcoma",
+      "E": "Synovial Sarcoma"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The description matches Rhabdomyoblasts, which are immature skeletal muscle cells. They often appear as 'strap cells' or 'tadpole cells' with eosinophilic cytoplasm, and the presence of cross-striations (Z-lines) is definitive for skeletal muscle differentiation.",
+      "incorrect": {
+        "A": "Fibrosarcoma consists of fibroblasts arranged in a 'herringbone' pattern, without eosinophilic cytoplasm or striations.",
+        "B": "Leiomyosarcoma (smooth muscle) has spindle cells with blunt-ended 'cigar-shaped' nuclei, not strap cells.",
+        "D": "Liposarcoma contains lipoblasts (fat cells) with vacuolated cytoplasm, not muscle striations.",
+        "E": "Synovial sarcoma shows a biphasic pattern of epithelial and spindle cells."
+      }
+    }
+  },
+  {
+    "question": "Which of the following primary bone tumors is most characteristically located in the diaphysis (shaft) of long bones?",
+    "choices": {
+      "A": "Osteochondroma",
+      "B": "Chondroblastoma",
+      "C": "Giant Cell Tumor",
+      "D": "Osteosarcoma",
+      "E": "Ewing Sarcoma"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Primary bone tumors have specific locations. Ewing Sarcoma typically arises in the diaphysis (the long mid-shaft) of long bones like the femur.",
+      "incorrect": {
+        "A": "Osteochondroma arises from the metaphysis (growth plate area).",
+        "B": "Chondroblastoma is an epiphyseal tumor.",
+        "C": "Giant Cell Tumor is characteristically found in the epiphysis (end of the bone) usually after the growth plate closes.",
+        "D": "Osteosarcoma typically arises in the metaphysis (e.g., around the knee)."
+      }
+    }
+  },
+  {
+    "question": "A bony projection is noted on the distal femur. Imaging shows the cortex and medullary cavity of the projection are continuous with the underlying bone, and it is growing away from the knee joint. What is the diagnosis?",
+    "choices": {
+      "A": "Enchondroma",
+      "B": "Osteosarcoma",
+      "C": "Osteoid Osteoma",
+      "D": "Chondrosarcoma",
+      "E": "Osteochondroma"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Also known as an Exostosis, this is a benign cartilage-capped bony projection. The key features are the continuity of the marrow space with the parent bone and the direction of growth away from the joint (due to tendon pull).",
+      "incorrect": {
+        "A": "Enchondroma is a cartilage tumor located inside the medullary cavity (intramedullary), not a projection.",
+        "B": "Osteosarcoma is a destructive malignant mass, not a pedunculated projection.",
+        "C": "Osteoid Osteoma is a cortical nidus causing pain, not a projection.",
+        "D": "Chondrosarcoma is a malignant cartilage tumor, usually a large mass infiltrating the bone."
+      }
+    }
+  },
+  {
+    "question": "A deep soft tissue tumor near the knee is biopsied. Histology shows a 'biphasic' pattern composed of epithelial-like cells forming glands and spindle cells. What is the diagnosis?",
+    "choices": {
+      "A": "Fibrosarcoma",
+      "B": "Liposarcoma",
+      "C": "Synovial Sarcoma",
+      "D": "Leiomyosarcoma",
+      "E": "Rhabdomyosarcoma"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Synovial Sarcoma is genetically defined by t(X;18). Histologically, the classic form is biphasic, meaning it contains two distinct cell populations: epithelial cells (forming glands/tubules) and spindle cells (fibroblast-like).",
+      "incorrect": {
+        "A": "Fibrosarcoma = Spindle cells only (Herringbone).",
+        "B": "Liposarcoma = Adipocytes/Lipoblasts only.",
+        "D": "Leiomyosarcoma = Smooth muscle cells only.",
+        "E": "Rhabdomyosarcoma = Skeletal muscle blasts only."
+      }
+    }
+  },
+  {
+    "question": "A tumor arising from a peripheral nerve shows alternating areas of high cellularity (Antoni A) with nuclear palisading (Verocay bodies) and loose, myxoid areas (Antoni B). What is the tumor?",
+    "choices": {
+      "A": "Schwannoma",
+      "B": "Malignant Peripheral Nerve Sheath Tumor (MPNST)",
+      "C": "Neurofibroma",
+      "D": "Paraganglioma",
+      "E": "Ganglioneuroma"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "These are the classic histological hallmarks of a Schwannoma. Antoni A areas are dense, where nuclei line up in rows (palisading) to form Verocay bodies. Antoni B areas are hypocellular and loose.",
+      "incorrect": {
+        "B": "MPNST shows frank features of malignancy (mitosis, necrosis) and lacks organized Verocay bodies.",
+        "C": "Neurofibroma consists of a 'shredded carrot' appearance of wavy collagen fibers and cells; it does not form Verocay bodies or distinct Antoni A/B zones.",
+        "D": "Paraganglioma has a 'Zellballen' pattern (nests of cells).",
+        "E": "Ganglioneuroma contains large Ganglion cells."
+      }
+    }
+  },
+  {
+    "question": "A retroperitoneal mass is resected. Histology reveals intersecting bundles of spindle cells with blunt-ended, 'cigar-shaped' nuclei and perinuclear vacuoles. Mitotic figures are frequent. What is the diagnosis?",
+    "choices": {
+      "A": "Leiomyosarcoma",
+      "B": "Rhabdomyosarcoma",
+      "C": "Fibrosarcoma",
+      "D": "Leiomyoma",
+      "E": "Schwannoma"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The cell morphology—spindle cells with blunt-ended 'cigar-shaped' nuclei and perinuclear vacuoles—indicates smooth muscle differentiation. The location (retroperitoneum) and frequent mitoses confirm it is malignant (Sarcoma).",
+      "incorrect": {
+        "B": "Rhabdomyosarcoma has strap/tadpole cells, not cigar nuclei.",
+        "C": "Fibrosarcoma has 'tapered' (pointed) nuclei, like a carrot, not blunt ended.",
+        "D": "Leiomyoma is the benign counterpart. While the cells look similar, Leiomyomas rarely occur in the retroperitoneum (usually uterus) and do not have frequent mitotic figures.",
+        "E": "Schwannoma has wavy/buckled nuclei, not cigar shapes."
+      }
+    }
+  },
+  {
+    "question": "A 65-year-old patient presents with confusion and bone pain. Imaging reveals a large, expansile 'soap bubble' lytic lesion in the pelvis. A biopsy of the lesion shows sheets of plasma cells. Laboratory tests show hypercalcemia and renal failure. What is the most likely diagnosis?",
+    "choices": {
+      "A": "Multiple Myeloma",
+      "B": "Chondrosarcoma",
+      "C": "Aneurysmal Bone Cyst",
+      "D": "Giant Cell Tumor of Bone",
+      "E": "Metastatic Prostate Carcinoma"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "While Giant Cell Tumor is famously associated with 'soap bubble' appearance, a Plasmacytoma (a localized mass in Multiple Myeloma) can look exactly the same radiologically. The key is the histology (Plasma cells ) and the systemic symptoms (C.R.A.B. criteria: Calcium elevation, Renal failure, Anemia, Bone lesions).",
+      "incorrect": {
+        "B": "Chondrosarcoma shows cartilage matrix and 'popcorn' calcifications, not plasma cells.",
+        "C": "Aneurysmal Bone Cyst is a benign, blood-filled lesion, not a proliferation of plasma cells, and doesn't cause renal failure.",
+        "D": "Giant Cell Tumor contains multinucleated giant cells and mononuclear stromal cells. It does not consist of plasma cells and does not cause hypercalcemia or renal failure.",
+        "E": "Metastatic Prostate Carcinoma is typically osteoblastic (sclerotic/white on X-ray), not lytic/soap-bubble."
+      }
+    }
+  }
+]

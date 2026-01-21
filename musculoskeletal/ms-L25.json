@@ -1,0 +1,82 @@
+[
+  {
+    "question": "A 22-year-old sexually active male presents with migratory polyarthritis, tenosynovitis, and dermatitis (pustular skin lesions). Arthrocentesis is performed, but the synovial fluid culture shows no growth on standard Blood Agar and MacConkey Agar. Which organism is the most likely pathogen?",
+    "choices": {
+      "A": "Staphylococcus aureus",
+      "B": "Streptococcus pyogenes",
+      "C": "Neisseria gonorrhoeae",
+      "D": "Escherichia coli",
+      "E": "Pseudomonas aeruginosa"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Clinical Picture: The patient fits the classic demographic (young, sexually active) and presents with the 'Classic Triad' of Disseminated Gonococcal Infection (DGI): Tenosynovitis, Dermatitis (skin lesions), and Migratory Polyarthritis.\nLab Finding: N. gonorrhoeae is a fastidious organism. It is fragile and does not grow on standard Blood Agar or MacConkey Agar. It specifically requires enriched media like Thayer-Martin agar (which contains antibiotics to kill other flora) or Chocolate Agar (with CO2). The negative culture on standard media strongly points to this pathogen.",
+      "incorrect": {
+        "A": "While S. aureus is the most common cause of septic arthritis overall, it typically presents as a monoarticular infection (one hot, swollen joint) rather than the migratory triad described. Crucially, S. aureus is not fastidious; it grows easily and rapidly on standard Blood Agar (showing beta-hemolysis).",
+        "B": "This organism grows very well on Blood Agar (showing beta-hemolysis). A negative culture on Blood Agar makes this highly unlikely.",
+        "D": "E. coli is a Gram-negative bacillus that grows readily on MacConkey Agar (appearing as pink colonies because it ferments lactose). If this were the cause, the MacConkey plate would be positive.",
+        "E": "P. aeruginosa also grows readily on MacConkey Agar (appearing as colorless colonies because it is a non-lactose fermenter). It is usually associated with IV drug users or puncture wounds, not the DGI triad."
+      }
+    }
+  },
+  {
+    "question": "A rice farmer presents with a rapidly progressing wound infection on his leg after working in a muddy field. Tissue culture reveals a Gram-negative bacillus that is Beta-hemolytic on Blood Agar, Oxidase positive, and Glucose fermenting. Based on the likely pathogen and exposure, how would this Necrotizing Fasciitis be classified?",
+    "choices": {
+      "A": "Type 2 Necrotizing Fasciitis",
+      "B": "Type 1 Necrotizing Fasciitis",
+      "C": "Gas Gangrene (Clostridial Myonecrosis)",
+      "D": "Type 3 Necrotizing Fasciitis",
+      "E": "Type 4 Necrotizing Fasciitis"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Classification: Type 3 NF is defined as monomicrobial infection caused by marine bacteria (Vibrio vulnificus) or freshwater/soil bacteria (Aeromonas hydrophila).\nPathogen ID: The lab results identify Aeromonas hydrophila: Gram-negative bacillus, Beta-hemolytic, Oxidase positive, and Glucose fermenting.\nHistory: The history of a 'rice farmer' working in a 'muddy field' (freshwater/soil exposure) is the classic risk factor for Aeromonas.",
+      "incorrect": {
+        "A": "Type 2 is monomicrobial but caused by Gram-positive cocci, specifically Group A Streptococcus (S. pyogenes) or S. aureus. The lab results clearly state a Gram-negative bacillus.",
+        "B": "Type 1 is polymicrobial, involving a mix of aerobes (like E. coli) and anaerobes (like Bacteroides). It is most common in diabetics or immunocompromised patients. The isolation of a single specific pathogen (monomicrobial) generally rules this out.",
+        "C": "Gas Gangrene is caused by Clostridium perfringens (or other Clostridia species). Clostridium is a Gram-positive bacillus and is an anaerobe. It does not fit the Gram-negative description.",
+        "E": "Type 4 is rare and refers to necrotizing fasciitis caused by fungal infections (e.g., Candida or Zygomycetes)."
+      }
+    }
+  },
+  {
+    "question": "Which toxin produced by Staphylococcus aureus is most specifically implicated in the pathogenesis of Pyomyositis by causing dysfunction and lysis of neutrophils?",
+    "choices": {
+      "A": "Exfoliative Toxin A",
+      "B": "Toxic Shock Syndrome Toxin-1 (TSST-1)",
+      "C": "Enterotoxin B",
+      "D": "Panton-Valentine Leucocidin (PVL)",
+      "E": "Beta-hemolysin"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Mechanism: PVL is a bicomponent cytotoxin that creates pores in the cell membranes of leukocytes (specifically neutrophils and macrophages). 'Leuco' = White blood cell, 'Cidin' = Kill.\nPathogenesis: By killing the immune cells sent to fight the infection, it leads to massive tissue necrosis and abscess formation, which is the hallmark of Pyomyositis. It is strongly associated with Community-Acquired MRSA (CA-MRSA).",
+      "incorrect": {
+        "A": "This toxin targets desmoglein-1 in the skin, causing the separation of skin layers seen in Staphylococcal Scalded Skin Syndrome (SSSS), not muscle abscesses.",
+        "B": "TSST-1 is a superantigen that causes massive cytokine release, leading to shock, fever, and rash (Toxic Shock Syndrome). While severe, its primary mechanism is systemic immune activation, not the local neutrophil lysis seen in pyomyositis.",
+        "C": "Enterotoxins are heat-stable toxins primarily responsible for Staphylococcal Food Poisoning (vomiting and diarrhea).",
+        "E": "Beta-hemolysin (or Alpha-toxin in some classifications) lyses red blood cells (hemolysis). While it contributes to tissue damage, PVL is the specific toxin cited for the neutrophilic dysfunction and abscess formation in pyomyositis."
+      }
+    }
+  },
+  {
+    "question": "What is the primary reason why antibiotics alone are often insufficient to cure Chronic Osteomyelitis and surgical debridement is required?",
+    "choices": {
+      "A": "The bacteria develop resistance to all oral antibiotics.",
+      "B": "The sequestrum is avascular, preventing antibiotic delivery.",
+      "C": "Chronic osteomyelitis is always caused by fungi.",
+      "D": "The bacteria transform into L-forms that are cell-wall deficient.",
+      "E": "Antibiotics cannot penetrate the bone marrow barrier."
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Pathology: In chronic osteomyelitis, the infection causes ischemia (loss of blood supply) to a segment of bone, causing it to die. This dead piece of bone is called the Sequestrum.\nTherapeutic Implication: Systemic antibiotics travel through the bloodstream. Since the sequestrum has no blood supply (avascular), the antibiotics literally cannot reach the bacteria trapped inside it. The sequestrum acts as a protected reservoir for bacteria, so it must be physically removed (debridement) for the patient to be cured.",
+      "incorrect": {
+        "A": "While antibiotic resistance (e.g., MRSA) is a problem, it is not the primary reason surgery is needed. Even if the bacteria were sensitive to the drug, the drug still cannot reach them in the dead bone.",
+        "C": "The vast majority of osteomyelitis cases are bacterial (e.g., S. aureus, Pseudomonas, Enterobacteriaceae). Fungal osteomyelitis is rare.",
+        "D": "While L-forms (bacteria that lose their cell wall) can persist and are harder to treat, the gross anatomical problem of avascular dead bone (sequestrum) is the dominant reason for treatment failure without surgery.",
+        "E": "Many antibiotics (like fluoroquinolones, clindamycin, and rifampin) have excellent bone penetration. The issue is not the 'marrow barrier' in healthy bone, but the lack of blood flow in the necrotic (dead) bone."
+      }
+    }
+  }
+]

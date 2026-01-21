@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Which of the following correctly pairs the connective tissue layer with its predominant fiber type and location?",
+    "choices": {
+      "A": "Endomysium - Type I collagen (Dense) - Surrounding fascicles",
+      "B": "Epimysium - Loose connective tissue - Surrounding fascicles",
+      "C": "Perimysium - Elastic fibers only - Surrounding the whole muscle",
+      "D": "Epimysium - Reticular fibers - Surrounding individual cells",
+      "E": "Endomysium - Reticular fibers - Surrounding individual muscle fibers"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The endomysium is the delicate layer of loose connective tissue containing reticular fibers that surrounds each individual muscle cell (fiber).",
+      "incorrect": {
+        "A": "The endomysium surrounds individual muscle fibers, not fascicles, and it is composed of loose connective tissue (reticular fibers), not dense collagen.",
+        "B": "The epimysium surrounds the entire muscle, not fascicles, and it is composed of dense irregular connective tissue (collagen fibers), not loose tissue.",
+        "C": "The perimysium surrounds muscle fascicles, not the whole muscle, and it is composed of dense irregular connective tissue (collagen fibers), not just elastic fibers.",
+        "D": "The epimysium surrounds the entire muscle, whereas the layer surrounding individual cells is the endomysium. Furthermore, the epimysium is dense irregular connective tissue, not reticular fibers."
+      }
+    }
+  },
+  {
+    "question": "Microscopic analysis of a tissue sample reveals cells that are long, cylindrical, and unbranched. The nuclei are multiple and located at the periphery of the cell. Transverse striations are clearly visible. Based on these characteristics, what is the most likely tissue identification?",
+    "choices": {
+      "A": "Purkinje fibers",
+      "B": "Smooth muscle",
+      "C": "Dense regular connective tissue",
+      "D": "Skeletal muscle",
+      "E": "Cardiac muscle"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "These are the classic features of skeletal muscle. Skeletal muscle fibers are elongated and cylindrical with no branching. They are multinucleated with nuclei located at the periphery. Transverse striations are a key characteristic due to the arrangement of sarcomeres.",
+      "incorrect": {
+        "A": "Purkinje fibers are modified cardiac muscle cells found in the subendocardium. They are typically larger and lighter staining than cardiomyocytes, and while they conduct impulses, they are not described as long, cylindrical, unbranched cells with peripheral nuclei.",
+        "B": "Smooth muscle cells are fusiform (spindle-shaped), not cylindrical. They have a single central nucleus and lack striations.",
+        "C": "Dense regular connective tissue (like tendons) consists mainly of collagen fibers and fibroblasts. It is not composed of contractile muscle cells with striations.",
+        "E": "Cardiac muscle cells are branched, not unbranched. They typically have 1-2 centrally located nuclei, unlike the multiple peripheral nuclei of skeletal muscle."
+      }
+    }
+  },
+  {
+    "question": "Which histological feature is unique to cardiac muscle and ensures electrochemical synchrony between cells?",
+    "choices": {
+      "A": "Peripheral nuclei",
+      "B": "Dense bodies",
+      "C": "Intercalated discs",
+      "D": "Caveolae",
+      "E": "Triads"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Intercalated discs are specialized end-to-end junctions unique to cardiac muscle. They contain gap junctions, which act as ion channels to ensure electrochemical synchrony (allowing the heart to contract as a unit), and desmosomes/fascia adherens for physical adhesion.",
+      "incorrect": {
+        "A": "Peripheral nuclei are a characteristic of skeletal muscle, not cardiac muscle (which has central nuclei).",
+        "B": "Dense bodies are found in smooth muscle (analogous to Z-discs), not cardiac muscle.",
+        "D": "Caveolae are depressions in the plasma membrane found prominently in smooth muscle, though they can exist in other tissues, they are not the unique synchronizing feature of cardiac muscle.",
+        "E": "Triads (one T-tubule + two terminal cisternae) are a characteristic feature of skeletal muscle. Cardiac muscle has diads (one T-tubule + one terminal cisterna)."
+      }
+    }
+  },
+  {
+    "question": "During concentric contraction of a skeletal muscle fiber, the myofilaments slide past one another, resulting in changes to the sarcomere's length. Which of the following combinations correctly describes the structural changes observed in the bands and zones?",
+    "choices": {
+      "A": "The A band shortens, the I band narrows, and the H zone disappears.",
+      "B": "The A band remains constant length, the I band and the H zone narrows.",
+      "C": "The Z discs move further apart, the A band remains constant, and the H zone widens.",
+      "D": "The I band remains constant length, while both the A band and H zone shorten.",
+      "E": "The A band lengthens, the I band shortens, and the H zone remains constant."
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "During contraction, the thin filaments slide past the thick filaments.\nThe A band (length of thick filaments) remains constant.\nThe I band (region of only thin filaments) narrows as the overlap increases.\nThe H zone (region of only thick filaments) narrows (and can disappear) as thin filaments encroach into the center of the sarcomere.",
+      "incorrect": {
+        "A": "The A band remains constant in length during contraction because the length of the thick filaments (myosin) does not change.",
+        "C": "The Z discs move closer together as the sarcomere shortens, they do not move further apart. The H zone narrows, it does not widen.",
+        "D": "The I band narrows; it does not remain constant. The A band remains constant; it does not shorten.",
+        "E": "The A band remains constant; it does not lengthen. The H zone narrows; it does not remain constant."
+      }
+    }
+  }
+]

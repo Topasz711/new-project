@@ -1,0 +1,162 @@
+[
+  {
+    "question": "A medical student observes a histology slide of a tissue that lacks blood vessels and nerves. The matrix shows a 'glass-like' appearance with chondrocytes arranged in isogenous groups. Which of the following is the primary type of collagen fiber that provides structural support to this tissue?",
+    "choices": {
+      "A": "Type VI Collagen",
+      "B": "Type IV Collagen",
+      "C": "Type III Collagen",
+      "D": "Type II Collagen",
+      "E": "Type I Collagen"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The description 'glass-like' refers to Hyaline cartilage (Hyaline = glass). The lecture notes explicitly state that the fiber component of the hyaline cartilage matrix is Type II collagen.",
+      "incorrect": {
+        "A": "Type VI collagen forms a fine network mainly in the capsular matrix immediately surrounding the chondrocytes, but it is not the primary fiber of the bulk ECM.",
+        "B": "Type IV collagen is a key component of the basal lamina (basement membrane) of epithelial tissues, not cartilage matrix.",
+        "C": "Type III collagen is found in reticular fibers (e.g., in lymphoid organs) and is not the main structural component of hyaline cartilage.",
+        "E": "Type I collagen is the predominant fiber in Fibrocartilage and Bone. It provides high tensile strength but does not give the 'glassy' appearance seen in hyaline cartilage."
+      }
+    }
+  },
+  {
+    "question": "During a biopsy of the auricle, a pathologist identifies a tissue with high flexibility that returns to its original shape after distortion. What is the key molecular component responsible for this specific physical property?",
+    "choices": {
+      "A": "Abundant Type I Collagen",
+      "B": "Isogenous groups of chondrocytes",
+      "C": "Presence of a dense fibrous perichondrium",
+      "D": "High concentration of Hydroxyapatite",
+      "E": "Elastic fibers in matrix"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The auricle (external ear) is composed of Elastic Cartilage. While it looks similar to hyaline cartilage, its matrix contains elastic fibers, which allow it to tolerate distortion and return to its original shape.",
+      "incorrect": {
+        "A": "Type I collagen is abundant in fibrocartilage and provides tensile strength (resistance to pulling), not elasticity.",
+        "B": "Isogenous groups are clusters of chondrocytes found in all types of cartilage (hyaline, elastic, fibrocartilage) where cells have recently divided. They indicate growth, not the specific physical property of elasticity.",
+        "C": "The perichondrium is a dense connective tissue capsule surrounding the cartilage. While present in elastic cartilage, it provides vascular supply and stem cells, not the intrinsic elasticity of the tissue itself.",
+        "D": "Hydroxyapatite is the mineral component of bone that provides hardness and rigidity, not flexibility."
+      }
+    }
+  },
+  {
+    "question": "In the process of bone remodeling, which enzyme is secreted by osteoblasts to promote the mineralization of the organic matrix (osteoid)?",
+    "choices": {
+      "A": "H+-ATPase",
+      "B": "Collagenase",
+      "C": "Acid Phosphatase",
+      "D": "Protease",
+      "E": "Alkaline Phosphatase"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Osteoblasts synthesize alkaline phosphatase, which promotes mineralization (calcification) of the osteoid matrix.",
+      "incorrect": {
+        "A": "H+-ATPase is secreted by osteoclasts (not osteoblasts) to pump hydrogen ions into the resorption bay, creating an acidic environment to dissolve bone minerals.",
+        "B": "Collagenase is an enzyme that breaks down collagen. While involved in matrix turnover, the primary enzyme listed for mineralization by osteoblasts is alkaline phosphatase.",
+        "C": "Acid Phosphatase is associated with lysosomes and is typically elevated during bone resorption by osteoclasts, not formation.",
+        "D": "Protease enzymes (like cathepsin K) are secreted by osteoclasts to digest the organic matrix (collagen) after the minerals have been dissolved."
+      }
+    }
+  },
+  {
+    "question": "Which specific zone of the epiphyseal plate is characterized by older chondrocytes enlarging and signaling the surrounding matrix to calcify?",
+    "choices": {
+      "A": "Growth or proliferation zone",
+      "B": "Resting or quiescent zone",
+      "C": "Zone of ossification",
+      "D": "Hypertrophic zone",
+      "E": "Calcification zone"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "In the Hypertrophic zone (Zone 3), older chondrocytes enlarge (hypertrophy) and release signals that cause the surrounding matrix to calcify.",
+      "incorrect": {
+        "A": "In the Growth or proliferation zone (Zone 2), chondroblasts undergo rapid mitosis (division), stacking like coins to lengthen the bone. They are not yet enlarging or calcifying.",
+        "B": "The Resting or quiescent zone (Zone 1) contains small, inactive cartilage cells that serve as a reserve source.",
+        "C": "The Zone of ossification (Zone 5) is where osteoclasts digest the calcified cartilage and osteoblasts deposit actual bone tissue.",
+        "E": "In the Calcification zone (Zone 4), the matrix is already calcifying, and the chondrocytes die (undergo apoptosis), leaving behind empty spaces. The signaling and enlargement happen in the preceding hypertrophic zone."
+      }
+    }
+  },
+  {
+    "question": "In 'Compact Bone', the small channels that allow osteocytes to communicate and receive nutrients from the central Haversian canal are called:",
+    "choices": {
+      "A": "Interstitial lamellae",
+      "B": "Sharpey's fibers",
+      "C": "Lacunae",
+      "D": "Canaliculi",
+      "E": "Volkmann's canals"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Canaliculi are the narrow channels that house the long cell processes (filopodia) of osteocytes. These channels connect lacunae to each other and to the central canal, allowing for the transport of nutrients and signals.",
+      "incorrect": {
+        "A": "Interstitial lamellae are the remnants of old osteons found between current osteons. They are layers of bone matrix, not channels.",
+        "B": "Sharpey's fibers (perforating fibers) are collagen fibers that connect the periosteum to the bone matrix.",
+        "C": "Lacunae are the small spaces or cavities where the osteocyte cell bodies reside, not the connecting channels themselves.",
+        "E": "Volkmann's (perforating) canals are larger channels that run perpendicular to the long axis, connecting Haversian canals to each other and to the periosteum/marrow cavity."
+      }
+    }
+  },
+  {
+    "question": "Which of the following bones is formed primarily through 'Intramembranous Ossification'?",
+    "choices": {
+      "A": "Pelvis",
+      "B": "Vertebrae",
+      "C": "Femur",
+      "D": "Humerus",
+      "E": "Frontal bone"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Intramembranous ossification is the process where bone forms directly from mesenchyme. This process forms the flat bones of the cranium (such as the Frontal bone), parts of the mandible, and the clavicle.",
+      "incorrect": {
+        "A": "The Pelvis is formed via Intracartilaginous (Endochondral) ossification.",
+        "B": "The Vertebrae are formed via Intracartilaginous (Endochondral) ossification.",
+        "C": "The Femur (long bone) is formed via Intracartilaginous (Endochondral) ossification.",
+        "D": "The Humerus (long bone) is formed via Intracartilaginous (Endochondral) ossification."
+      }
+    }
+  },
+  {
+    "question": "During bone resorption, osteoclasts create a specialized clear area on the bone surface called:",
+    "choices": {
+      "A": "Osteoid",
+      "B": "Pericellular matrix",
+      "C": "Howship’s lacuna",
+      "D": "Haversian system",
+      "E": "Metaphysis"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Osteoclasts are found in shallow depressions or cavities on the bone surface called Howship's lacunae (or resorption bays), which are created by the enzymatic digestion of the bone matrix by the osteoclast itself.",
+      "incorrect": {
+        "A": "Osteoid is the unmineralized organic matrix (mostly collagen) secreted by osteoblasts, not a resorption space created by osteoclasts.",
+        "B": "Pericellular matrix (or capsular matrix) surrounds chondrocytes in cartilage, not osteoclasts in bone.",
+        "D": "The Haversian system (Osteon) is the structural unit of compact bone, consisting of concentric lamellae around a central canal.",
+        "E": "The Metaphysis is the region of a long bone between the epiphysis and diaphysis."
+      }
+    }
+  },
+  {
+    "question": "Which of the following is TRUE regarding 'Articular Cartilage'?",
+    "choices": {
+      "A": "It is covered by a thick perichondrium",
+      "B": "It is vascularized to support the joint",
+      "C": "It consists of fibrocartilage for maximum strength",
+      "D": "It lacks a perichondrium for smooth joint movement",
+      "E": "It is replaced by a bone collar during growth"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Articular cartilage covers the ends of long bones in joint cavities. A key characteristic is that it is not covered by perichondrium (except at the edges), which provides a smooth, slippery surface for friction-free movement.",
+      "incorrect": {
+        "A": "Most hyaline cartilage has a perichondrium, but articular cartilage specifically lacks it.",
+        "B": "Cartilage, including articular cartilage, is avascular (no blood vessels). It receives nutrients via diffusion from the synovial fluid.",
+        "C": "Articular cartilage is composed of Hyaline cartilage, not fibrocartilage (which is found in intervertebral discs and the meniscus).",
+        "E": "The bone collar forms around the diaphysis (shaft) of the cartilage model during endochondral ossification, not on the articular surface. Articular cartilage persists throughout life (unless damaged)."
+      }
+    }
+  }
+]
