@@ -1,0 +1,174 @@
+[
+  {
+    "question": "A 54-year-old male presents to the emergency department with a 2-day history of a swollen, erythematous, and exquisitely tender right knee. He reports high-grade fever and is unable to flex the joint or bear weight. Based on the most likely diagnosis, which of the following is NOT a typical radiographic finding?",
+    "choices": {
+      "A": "Rapid, uniform joint space narrowing",
+      "B": "Deep soft tissue swelling obliterating fat planes",
+      "C": "Marginal and central osseous erosions",
+      "D": "Periarticular osteopenia",
+      "E": "Subchondral sclerosis and osteophytes"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The clinical presentation (fever, acute onset, red/hot joint) is classic for Septic Arthritis. Subchondral sclerosis (whitening of bone) and osteophytes (bone spurs) are hallmarks of Osteoarthritis (OA), which is a chronic, degenerative process involving 'wear and repair.' These findings take years to develop and are not seen in acute infection.",
+      "incorrect": {
+        "A": "In septic arthritis, proteolytic enzymes from bacteria and leukocytes rapidly destroy cartilage, leading to uniform joint space narrowing within days.",
+        "B": "Significant inflammation causes soft tissue swelling, which blurs or obliterates the normal lucent fat planes on X-ray.",
+        "C": "As the infection progresses, the inflammatory pannus destroys the bone, causing erosions at the margins and centrally.",
+        "D": "Hyperemia (increased blood flow) due to acute inflammation causes rapid bone resorption, appearing as periarticular osteopenia (washed-out bone density)."
+      }
+    }
+  },
+  {
+    "question": "A 22-year-old football player sustains a direct high-velocity blow to the mid-tibia during a match. He experiences immediate severe pain and is unable to ambulate. Standard radiographs are obtained to evaluate the injury. Which of the following pathological features is NOT directly visible on plain film radiography?",
+    "choices": {
+      "A": "Displacement or angulation of bone fragments",
+      "B": "Radiolucent lines traversing the bone shaft",
+      "C": "Bone marrow edema",
+      "D": "Disruption of the cortical bone continuity",
+      "E": "Distortion of the trabecular bone pattern"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Bone marrow edema refers to fluid/inflammation within the trabecular marrow space. While this significantly alters signal intensity on MRI (bright on T2/STIR sequences), it does not alter the radiographic density enough to be visible on a standard X-ray (plain film).",
+      "incorrect": {
+        "A": "Gross deformity, such as displacement or angulation, is clearly visible as a misalignment of the bone structures.",
+        "B": "The fracture gap usually contains blood or soft tissue, which is less dense than bone, appearing as a dark (radiolucent) line.",
+        "D": "The break in the hard outer shell of the bone (cortical disruption) is the primary sign looked for in fractures.",
+        "E": "The internal spongey bone architecture (trabecular pattern) appears interrupted or distorted at the fracture site."
+      }
+    }
+  },
+  {
+    "question": "What is the structure in the arrow?",
+    "imageUrl": "images/msk2.jpg",
+    "imageSource": "Radiopaedia",
+    "choices": {
+      "A": "AIIS",
+      "B": "ASIS",
+      "C": "PSIS",
+      "D": "PIIS",
+      "E": "Acetabulum"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The Anterior Superior Iliac Spine (ASIS) is the prominent bony projection at the anterior end of the iliac crest. It is a key landmark visible on AP pelvic films.",
+      "incorrect": {
+        "A": "The Anterior Inferior Iliac Spine is located inferior to the ASIS (just above the acetabulum).",
+        "C": "The Posterior Superior Iliac Spine is located on the back of the pelvis and is usually superimposed on the sacrum/ilium in an AP view, not at the lateral/anterior edge.",
+        "D": "The Posterior Inferior Iliac Spine is also posterior and lower.",
+        "E": "The acetabulum is the hip socket (cup-shaped) that articulates with the femoral head, located much lower than the ASIS."
+      }
+    }
+  },
+  {
+    "question": "What is the structure in the arrow?",
+    "imageUrl": "images/msk3.jpg",
+    "imageSource": "EBM consult",
+    "choices": {
+      "A": "Transverse process of C1",
+      "B": "Transverse process of C2",
+      "C": "Spinous process of C1",
+      "D": "Spinous process of C2",
+      "E": "Odontoid process of C2"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The arrow points to the posterior bony prominence of the Atlas (C1). While anatomically termed the 'Posterior Tubercle' (since C1 lacks a true spinous process), in the context of multiple-choice options for identifying the posterior structure of C1 vs C2, this choice represents the posterior arch structure of C1.",
+      "incorrect": {
+        "A": "Transverse processes project laterally. On a lateral film, they are superimposed over the vertebral bodies/facets and are not the distinct posterior projections.",
+        "B": "Transverse processes project laterally. On a lateral film, they are superimposed over the vertebral bodies/facets and are not the distinct posterior projections.",
+        "D": "The spinous process of C2 (Axis) is very large, prominent, and located inferior to the C1 arch. It is often the first palpable spinous process.",
+        "E": "The odontoid process (Dens) projects superiorly from the body of C2 and is located anteriorly, articulating with the anterior arch of C1."
+      }
+    }
+  },
+  {
+    "question": "What is the structure in the arrow and what's the name of this projection?",
+    "imageUrl": "images/msk4.jpg",
+    "imageSource": "Radiopaedia",
+    "choices": {
+      "A": "Coronoid process; lateral view",
+      "B": "Acromian process; lateral view",
+      "C": "Coronoid process; transcapular view",
+      "D": "Acromian process; transcapular view",
+      "E": "Inferior angle of scapular; transcapular view"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The projection is the Transcapular view (or Scapular Y-view), used to assess dislocations. The 'Y' shape is formed by the scapular body (bottom), Coracoid (anterior branch), and Acromion (posterior/superior branch). The arrow points to the Acromion at the top/back of the Y.",
+      "incorrect": {
+        "A": "While it is a 'lateral' view of the scapula, the specific technical name is Transcapular or Y-view. Furthermore, the Coronoid process is in the elbow (ulna), not the shoulder (the shoulder has a Coracoid process).",
+        "B": "While it is a 'lateral' view of the scapula, the specific technical name is Transcapular or Y-view.",
+        "C": "The Coracoid process forms the anterior branch of the Y, not the superior/posterior one.",
+        "E": "The inferior angle is at the very bottom of the scapula, forming the stem of the Y, not the top."
+      }
+    }
+  },
+  {
+    "question": "Based on the radiographic findings shown, what is the most accurate description of the key findings and the associated diagnosis?",
+    "imageUrl": "images/msk5.jpg",
+    "imageSource": "Radiopaedia",
+    "choices": {
+      "A": "Symmetrical joint space narrowing, periarticular osteopenia, and marginal erosions without sclerotic borders; Rheumatoid Arthritis.",
+      "B": "Non-uniform joint space narrowing, subchondral sclerosis, osteophytes, and subchondral cysts; Osteoarthritis.",
+      "C": "Well-defined 'punched-out' marginal erosions with sclerotic borders, 'overhanging edges,' and asymmetric soft tissue swelling (tophi); Gouty Arthritis.",
+      "D": "Chondrocalcinosis within the fibrocartilage and hyaline cartilage, with associated degenerative changes; Calcium Pyrophosphate Deposition Disease (CPPD).",
+      "E": "'Pencil-in-cup' deformity involving the interphalangeal joint with acro-osteolysis; Psoriatic Arthritis."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The classic radiographic triad for chronic Gout includes 'punched-out' erosions (often away from the joint surface), sclerotic borders (indicating a slow, non-aggressive process), and 'overhanging edges' (Martel's sign). Soft tissue masses representing tophi are also common.",
+      "incorrect": {
+        "A": "Rheumatoid arthritis typically presents with osteopenia (bone loss) and erosions without sclerotic borders.",
+        "B": "Osteoarthritis is characterized by sclerosis (whitening) and osteophytes (spurs), but not the deep punched-out erosions seen in gout.",
+        "D": "CPPD is defined by chondrocalcinosis (calcification of cartilage), which looks like white lines inside the joint space.",
+        "E": "Psoriatic arthritis causes profound destruction leading to a 'pencil-in-cup' appearance, which is distinct from the punched-out erosions of gout."
+      }
+    }
+  },
+  {
+    "question": "What is the key radiographic finding?",
+    "imageUrl": "images/msk6.jpg",
+    "imageSource": "Radiopaedia",
+    "choices": {
+      "A": "Osteoblastic lesion",
+      "B": "Osteolytic lesion",
+      "C": "Mixed sclerotic and lytic lesion",
+      "D": "Periosteal reaction",
+      "E": "Bone sequestration"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The image displays an area of radiolucency (darkness) within the bone substance, indicating that bone has been destroyed or replaced by less dense tissue. This is the definition of an Osteolytic lesion. (In a young adult at the distal radius, this is often a Giant Cell Tumor).",
+      "incorrect": {
+        "A": "An Osteoblastic lesion implies new bone formation, appearing whiter (denser) than normal bone.",
+        "C": "Mixed lesions show a 'salt and pepper' pattern of both whiter and darker areas.",
+        "D": "Periosteal reaction is visible on the outside surface of the cortex (e.g., onion skinning, sunburst), not the internal matrix of the lesion itself.",
+        "E": "Sequestrum refers to a piece of dead bone separated from healthy bone (seen in osteomyelitis), appearing as a dense fragment inside a lucent cavity."
+      }
+    }
+  },
+  {
+    "question": "Based on the radiographic findings shown, what is the most accurate description of the key findings and the associated diagnosis?",
+    "imageUrl": "images/msk7.jpg",
+    "imageSource": "Radiopaedia",
+    "choices": {
+      "A": "Symmetrical, uniform joint space narrowing with marginal erosions and severe periarticular osteopenia; Rheumatoid Arthritis.",
+      "B": "Asymmetric (non-uniform) joint space narrowing, subchondral sclerosis, subchondral cysts, and marginal osteophyte formation; Osteoarthritis.",
+      "C": "Chondrocalcinosis within the menisci and hyaline cartilage with relatively preserved joint space; Calcium Pyrophosphate Deposition Disease (CPPD).",
+      "D": "Rapid, diffuse joint space loss with destruction of the subchondral bone plate and soft tissue gas; Septic Arthritis.",
+      "E": "Preservation of joint space width until late stages, with juxta-articular 'punched-out' erosions and soft tissue masses; Gouty Arthritis."
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "This is the classic description of Osteoarthritis (OA). The key features are: Non-uniform narrowing (usually affecting the weight-bearing medial compartment first), Subchondral sclerosis (bone hardens/whitens due to stress), and Osteophytes (bone spurs trying to stabilize the joint).",
+      "incorrect": {
+        "A": "RA causes uniform narrowing (entire joint) and osteopenia, not sclerosis.",
+        "C": "CPPD is identified by calcification of the menisci (chondrocalcinosis).",
+        "D": "Septic arthritis causes rapid destruction and is an acute process, unlike the chronic changes of OA.",
+        "E": "Gout typically preserves joint space until very late and features distinct erosions."
+      }
+    }
+  }
+]

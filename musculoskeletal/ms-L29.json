@@ -1,0 +1,82 @@
+[
+  {
+    "question": "A patient presents with a 'dashboard injury' mechanism where the proximal tibia was struck posteriorly while the knee was flexed 90 degrees. Which physical examination test would be most appropriate to confirm your primary suspicion?",
+    "choices": {
+      "A": "Anterior Drawer Test",
+      "B": "Posterior Drawer Test",
+      "C": "Valgus Stress Test",
+      "D": "Varus Stress Test",
+      "E": "McMurray Test"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The 'dashboard injury' describes a direct blow to the anterior proximal tibia while the knee is flexed (often 90 degrees), pushing the tibia posteriorly relative to the femur. This is the classic mechanism of injury for the Posterior Cruciate Ligament (PCL). To assess PCL integrity, the Posterior Drawer Test is performed by pushing the lower leg posteriorly to check for excessive laxity or translation.",
+      "incorrect": {
+        "A": "This test involves pulling the lower leg anteriorly to check for laxity. It is used to diagnose an Anterior Cruciate Ligament (ACL) injury, which is often caused by twisting or hyperextension, not a direct posterior blow.",
+        "C": "This test applies an inward force to the knee to assess the Medial Collateral Ligament (MCL). It is not appropriate for a PCL injury.",
+        "D": "This test applies an outward force to assess the Lateral Collateral Ligament (LCL).",
+        "E": "This maneuver involves flexion and rotation of the knee to detect a meniscus tear (medial or lateral)."
+      }
+    }
+  },
+  {
+    "question": "A 55-year-old male presents with heel pain that is sharpest during the first few steps in the morning. He notes the pain improves after walking but returns after prolonged standing. Physical exam reveals tenderness at the medial process of the calcaneal tuberosity. What is the most likely diagnosis?",
+    "choices": {
+      "A": "Achilles Tendonitis",
+      "B": "Tarsal Tunnel Syndrome",
+      "C": "Calcaneal Stress Fracture",
+      "D": "Plantar Fasciitis",
+      "E": "Retrocalcaneal Bursitis"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The clinical presentation is classic for Plantar Fasciitis. Key diagnostic features include: 1) Start-up pain: Insidious onset of sharp heel pain, especially when first getting out of bed in the morning. 2) Activity pattern: Pain is relieved by ambulation (walking) but worsens after prolonged standing. 3) Location: Inflammation occurs at the insertion of the plantar fascia on the medial process of the calcaneal tuberosity.",
+      "incorrect": {
+        "A": "This involves inflammation of the Achilles tendon, causing pain at the posterior aspect of the heel or slightly above it, not at the plantar surface (bottom of the heel).",
+        "B": "This involves compression of the tibial nerve, typically presenting with burning pain, numbness, or tingling radiating into the foot, rather than the mechanical 'first-step' pain described.",
+        "C": "Pain from a stress fracture typically worsens with activity (walking/running) and does not improve with ambulation. It is usually reproducible by squeezing the calcaneus.",
+        "E": "This affects the bursa located between the Achilles tendon and the calcaneus, causing pain and swelling at the back of the heel, distinct from the plantar pain of fasciitis."
+      }
+    }
+  },
+  {
+    "question": "A patient presents with persistent radial wrist pain aggravated by lifting. Physical exam reveals tenderness over the radial styloid. A provocative test involving ulnar deviation of the wrist with the thumb flexed inside the palm (Finkelstein’s maneuver) elicits sharp pain. Which of the following anatomical descriptions correctly identifies the structures involved in the pathophysiology of this condition?",
+    "choices": {
+      "A": "Entrapment of the Extensor Pollicis Longus (EPL) tendon within the third dorsal compartment.",
+      "B": "Stenosing tenosynovitis involving the synovial sheaths of the Abductor Pollicis Longus (APL) and Extensor Pollicis Brevis (EPB) tendons.",
+      "C": "Inflammation of the Intersection point where the First and Second dorsal compartments cross.",
+      "D": "Compression of the superficial branch of the radial nerve due to repetitive pronation and supination.",
+      "E": "Tendinosis of the Extensor Carpi Radialis Brevis (ECRB) at its insertion at the base of the second metacarpal."
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The patient is suffering from De Quervain’s Tenosynovitis, characterized by pain on the radial side of the wrist. The positive Finkelstein’s maneuver (or Eichhoff’s) confirms the diagnosis. The pathology involves inflammation and stenosis of the first dorsal compartment, which contains the tendons of the Abductor Pollicis Longus (APL) and Extensor Pollicis Brevis (EPB).",
+      "incorrect": {
+        "A": "The EPL tendon is located in the third dorsal compartment. While it extends the thumb, it is not the primary structure involved in De Quervain’s.",
+        "C": "This refers to 'Intersection Syndrome,' which occurs more proximally in the forearm where the APL/EPB muscles cross over the wrist extensors, not at the radial styloid.",
+        "D": "This condition is known as Wartenberg’s syndrome. While it causes radial wrist pain, it is a neuropathy characterized by paresthesia (numbness/tingling), not the mechanical tendon pain reproduced by Finkelstein’s.",
+        "E": "This pathology is associated with Lateral Epicondylitis (Tennis Elbow), causing lateral elbow pain, not radial wrist pain."
+      }
+    }
+  },
+  {
+    "question": "A patient reports lateral elbow pain worsened by gripping objects. Physical exam shows tenderness distal to the lateral epicondyle. Pain is reproduced when the patient extends the wrist against resistance with the elbow fully extended (Cozen's test). Which specific tendinous origin is most commonly implicated as the primary site of angiofibroblastic hyperplasia and microtearing in this clinical presentation?",
+    "choices": {
+      "A": "Extensor Carpi Radialis Longus (ECRL)",
+      "B": "Extensor Digitorum Communis (EDC)",
+      "C": "Extensor Carpi Ulnaris (ECU)",
+      "D": "Extensor Carpi Radialis Brevis (ECRB)",
+      "E": "Anconeus muscle tendon"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The clinical presentation describes Lateral Epicondylitis (commonly known as Tennis Elbow). The diagnostic maneuver described is Cozen’s test, where resisted wrist extension with the elbow straight reproduces the pain. Pathologically, the Extensor Carpi Radialis Brevis (ECRB) is the most commonly affected tendon, accounting for approximately 80% of cases.",
+      "incorrect": {
+        "A": "While the ECRL is part of the wrist extensor group originating from the lateral supracondylar ridge, it is less frequently the primary site of pathology in tennis elbow compared to the ECRB, accounting for only about 20% of cases.",
+        "B": "This tendon is also part of the common extensor origin but is not the primary driver of the pathology compared to the ECRB.",
+        "C": "The ECU is located on the ulnar side of the forearm and is associated with medial or ulnar-sided wrist/elbow problems, not the classic lateral epicondylitis findings.",
+        "E": "The anconeus is a small muscle located posteriorly that assists in elbow extension. It is rarely the primary site of the degenerative changes seen in tennis elbow."
+      }
+    }
+  }
+]

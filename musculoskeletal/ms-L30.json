@@ -1,0 +1,242 @@
+[
+  {
+    "question": "A 60-year-old patient with osteoarthritis has been taking Drug A for months and developed a gastric ulcer. The doctor switched him to Drug B to avoid GI toxicity, but warned him about an increased risk of thrombotic events (myocardial infarction). Which of the following correctly identifies the mechanism of Drug B compared to Drug A?",
+    "choices": {
+      "A": "Drug B irreversibly inhibits COX-1, while Drug A inhibits COX-2.",
+      "B": "Drug B inhibits Phospholipase A2, whereas Drug A inhibits COX-1 and COX-2.",
+      "C": "Drug B selectively inhibits COX-2, preserving TXA2 production while suppressing endothelial PGI2.",
+      "D": "Drug B is a non-selective COX inhibitor, whereas Drug A is a selective COX-2 inhibitor.",
+      "E": "Drug B inhibits LOX pathway, shifting arachidonic acid metabolism to COX pathway."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "'Drug A' is likely a traditional non-selective NSAID (like Ibuprofen), which inhibits COX-1 and causes gastric ulcers. 'Drug B' represents a selective COX-2 inhibitor (like Celecoxib), which spares COX-1 (reducing GI risk) but inhibits COX-2-mediated Prostacyclin (PGI2) in blood vessels. Since it does not inhibit platelet Thromboxane A2 (TXA2, which is COX-1 dependent), it creates an imbalance favoring thrombosis, increasing cardiovascular risk.",
+      "incorrect": {
+        "A": "This describes Aspirin (irreversible COX inhibition), which causes ulcers and is used to prevent thrombosis, not cause it.",
+        "B": "Inhibition of Phospholipase A2 is the mechanism of corticosteroids, not NSAIDs/COX-2 inhibitors.",
+        "D": "This reverses the drug descriptions. Drug B (the one causing thrombosis risk) is the selective one.",
+        "E": "LOX inhibition is not the primary mechanism relevant to the NSAID/COX-2 inhibitor trade-off described."
+      }
+    }
+  },
+  {
+    "question": "A 35-year-old office worker presents with chronic lower back pain. She has tried taking Paracetamol (1,000 mg) and Ibuprofen (400 mg) for several weeks but the pain persists. According to the WHO analgesic ladder and step-up therapy principles, which of the following drugs is the most appropriate next step?",
+    "choices": {
+      "A": "Morphine",
+      "B": "Aspirin",
+      "C": "Tramadol",
+      "D": "Prednisolone",
+      "E": "Methotrexate"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The WHO analgesic ladder recommends stepping up from non-opioids (Paracetamol/NSAIDs) to weak opioids for mild-to-moderate pain that persists. Tramadol (or Codeine) is the standard Step 2 choice.",
+      "incorrect": {
+        "A": "Morphine is a Step 3 strong opioid, reserved for severe pain or when weak opioids fail.",
+        "B": "Aspirin is another NSAID (Step 1). Switching between standard NSAIDs usually offers little benefit if one has failed.",
+        "D": "Prednisolone is a steroid for inflammatory diseases, not a standard analgesic for mechanical back pain.",
+        "E": "Methotrexate is a DMARD for autoimmune conditions like RA, not for general pain relief."
+      }
+    }
+  },
+  {
+    "question": "Paracetamol and NSAIDs are both antipyretic and analgesic. However, Paracetamol lacks significant anti-inflammatory activity compared to NSAIDs. What is the primary pharmacological difference that explains this observation?",
+    "choices": {
+      "A": "Paracetamol acts primarily in the CNS, having little effect on peripheral COX enzymes.",
+      "B": "Paracetamol is rapidly metabolized by the liver before it can reach peripheral tissues.",
+      "C": "Paracetamol inhibits Phospholipase C, whereas NSAIDs inhibit Cyclooxygenase.",
+      "D": "NSAIDs bind irreversibly to plasma proteins, displacing Paracetamol from the site of action.",
+      "E": "Paracetamol is a weak opioid agonist, while NSAIDs are prostaglandin inhibitors."
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Paracetamol acts centrally (in the CNS) to reduce pain and fever, likely via COX-3 inhibition or serotonergic pathways. It has very weak activity against COX enzymes in peripheral tissues (sites of inflammation), explaining why it reduces fever/pain but not inflammation.",
+      "incorrect": {
+        "B": "Paracetamol distributes widely; its lack of peripheral effect is due to enzyme sensitivity, not metabolism preventing distribution.",
+        "C": "Both affect COX pathways (though isoforms differ); Paracetamol does not inhibit Phospholipase C.",
+        "D": "This is a pharmacokinetic theory that does not explain the pharmacodynamic difference in inflammation.",
+        "E": "Paracetamol is not an opioid agonist."
+      }
+    }
+  },
+  {
+    "question": "A 7-year-old boy recovering from an Influenza B infection is brought to the ER with vomiting, confusion, and rapidly progressing liver failure. His parents admit to giving him a specific medication for fever reduction. Which of the following conditions has likely occurred?",
+    "choices": {
+      "A": "Steven-Johnson Syndrome",
+      "B": "Reye’s Syndrome",
+      "C": "Serotonin Syndrome",
+      "D": "Gray Baby Syndrome",
+      "E": "Malignant Hyperthermia"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Reye’s Syndrome is a severe condition causing encephalopathy (confusion) and liver failure. It is strongly associated with using Aspirin (salicylates) in children with viral infections (like Influenza or Chickenpox).",
+      "incorrect": {
+        "A": "Steven-Johnson Syndrome is a severe skin reaction (rash/blistering), not primarily liver/brain failure.",
+        "C": "Serotonin Syndrome involves tremors and autonomic instability from serotonergic drugs.",
+        "D": "Gray Baby Syndrome is caused by Chloramphenicol toxicity.",
+        "E": "Malignant Hyperthermia is a reaction to anesthesia (succinylcholine)."
+      }
+    }
+  },
+  {
+    "question": "A 68-year-old male with Rheumatoid Arthritis has a past medical history of myocardial infarction and ischemic stroke. He requires an NSAID for an acute flare. Which of the following drugs should be strictly AVOIDED due to its high selectivity for COX-2 and associated cardiovascular risk?",
+    "choices": {
+      "A": "Naproxen",
+      "B": "Ibuprofen",
+      "C": "Aspirin",
+      "D": "Celecoxib",
+      "E": "Paracetamol"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Celecoxib is a selective COX-2 inhibitor. Selective COX-2 inhibition tips the balance towards thrombosis (by lowering PGI2 but not TXA2), significantly increasing cardiovascular risk (MI/Stroke). It should be avoided in patients with CV history.",
+      "incorrect": {
+        "A": "Naproxen is non-selective and has the lowest cardiovascular risk profile among NSAIDs.",
+        "B": "Ibuprofen carries some risk but less than highly selective COX-2 inhibitors.",
+        "C": "Aspirin is cardioprotective at low doses.",
+        "E": "Paracetamol has no significant cardiovascular risk, so it wouldn't be the drug to 'strictly avoid' for this reason."
+      }
+    }
+  },
+  {
+    "question": "A 22-year-old female suffers from severe primary dysmenorrhea. Her physician prescribes a drug that effectively inhibits both COX-1 and COX-2 but is particularly favored for this indication due to its efficacy in reducing uterine cramping. Which drug is it?",
+    "choices": {
+      "A": "Mefenamic acid",
+      "B": "Celecoxib",
+      "C": "Etoricoxib",
+      "D": "Tramadol",
+      "E": "Colchicine"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Mefenamic acid (a Fenamate) is a traditional NSAID widely used and specifically indicated for dysmenorrhea.",
+      "incorrect": {
+        "B": "Celecoxib is a COX-2 inhibitor. While it treats pain, Mefenamic acid is the classic 'favored' choice for menstrual pain.",
+        "C": "Etoricoxib is a COX-2 inhibitor. While it treats pain, Mefenamic acid is the classic 'favored' choice for menstrual pain.",
+        "D": "Tramadol is an opioid, not a first-line treatment for menstrual cramps.",
+        "E": "Colchicine is used for Gout."
+      }
+    }
+  },
+  {
+    "question": "A patient applies a topical cream containing Methyl Salicylate and Menthol to his sore calf muscle. He feels a cooling and burning sensation that distracts him from the deep muscle pain. What is the pharmacological classification of the active ingredients in this cream?",
+    "choices": {
+      "A": "Local Anesthetics",
+      "B": "Counterirritants",
+      "C": "Topical Corticosteroids",
+      "D": "Neuromuscular Blockers",
+      "E": "Selective COX-2 Inhibitors"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Methyl Salicylate and Menthol work as Counterirritants (Rubefacients). They irritate sensory nerve endings to alter pain perception (masking deep pain with surface sensation).",
+      "incorrect": {
+        "A": "Local anesthetics (like Lidocaine) cause numbness, not burning/cooling sensations.",
+        "C": "Topical steroids reduce inflammation but do not act via counter-irritation.",
+        "D": "Neuromuscular blockers cause paralysis.",
+        "E": "While Methyl Salicylate is related to Aspirin, in topical form for this purpose, it is classified as a counterirritant."
+      }
+    }
+  },
+  {
+    "question": "Opioids are considered the most potent analgesics for severe pain. Unlike NSAIDs which act peripherally, why do opioids provide such profound analgesia?",
+    "choices": {
+      "A": "They inhibit the release of Histamine and Bradykinin in the periphery only.",
+      "B": "They block voltage-gated sodium channels in the nerve axon.",
+      "C": "They bind to Mu-receptors located in the CNS (brain), spinal cord (dorsal horn), and peripheral tissues, modulating pain at multiple levels.",
+      "D": "They induce amnesia so the patient forgets the pain.",
+      "E": "They completely sever the connection between afferent and efferent neurons."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Opioids act on Mu-opioid receptors found in the brain, spinal cord, and periphery. By acting centrally (reducing pain perception/reaction) and spinally (blocking transmission), they are more potent than drugs acting only peripherally.",
+      "incorrect": {
+        "A": "This mechanism is more relevant to antihistamines.",
+        "B": "This is the mechanism of local anesthetics.",
+        "D": "Opioids provide analgesia (pain relief), not primarily amnesia.",
+        "E": "Drugs modulate signaling; they do not physically sever neurons."
+      }
+    }
+  },
+  {
+    "question": "A patient with severe systemic inflammation is treated with Dexamethasone. This drug exerts its potent anti-inflammatory effect by inducing the production of lipocortin, which directly inhibits an enzyme upstream of the arachidonic acid pathway. Which enzyme is inhibited?",
+    "choices": {
+      "A": "Cyclooxygenase-1 (COX-1)",
+      "B": "Cyclooxygenase-2 (COX-2)",
+      "C": "Lipoxygenase (LOX)",
+      "D": "Phospholipase A2",
+      "E": "Dihydrofolate Reductase"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Corticosteroids (like Dexamethasone) induce lipocortin, which inhibits Phospholipase A2. This enzyme releases arachidonic acid from cell membranes. By blocking it, steroids stop the production of both prostaglandins (COX) and leukotrienes (LOX).",
+      "incorrect": {
+        "A": "NSAIDs inhibit COX enzymes; steroids act upstream of this.",
+        "B": "NSAIDs inhibit COX enzymes; steroids act upstream of this.",
+        "C": "Steroids reduce substrate for LOX but do not directly inhibit the enzyme.",
+        "E": "Methotrexate inhibits Dihydrofolate Reductase."
+      }
+    }
+  },
+  {
+    "question": "A patient with Rheumatoid Arthritis has failed methotrexate therapy. The rheumatologist considers switching to a biologic agent that targets the Interleukin-6 (IL-6) receptor. Before starting this drug, the patient must undergo screening for Latent Tuberculosis. Which drug is being considered?",
+    "choices": {
+      "A": "Infliximab",
+      "B": "Rituximab",
+      "C": "Tocilizumab",
+      "D": "Abatacept",
+      "E": "Etanercept"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Tocilizumab is an anti-IL-6 receptor antibody. Screening for latent TB is mandatory before starting any biologic.",
+      "incorrect": {
+        "A": "Infliximab targets TNF-alpha.",
+        "B": "Rituximab targets CD20 (B-cells).",
+        "D": "Abatacept targets T-cell co-stimulation.",
+        "E": "Etanercept targets TNF-alpha."
+      }
+    }
+  },
+  {
+    "question": "A newly diagnosed RA patient has a history of severe alcoholic liver disease, making Methotrexate contraindicated. Laboratory results show very high titers of Rheumatoid Factor (RF) and Anti-CCP, indicating poor prognosis. According to EULAR guidelines (Phase I), what is the most appropriate initial therapeutic strategy?",
+    "choices": {
+      "A": "Start Monotherapy with Hydroxychloroquine alone.",
+      "B": "Start NSAIDs monotherapy and observe for 6 months.",
+      "C": "Start Sulfasalazine or Leflunomide.",
+      "D": "Use high-dose Prednisolone long-term.",
+      "E": "Wait until liver function normalizes before treating."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "EULAR guidelines (Phase I) state that if Methotrexate is contraindicated, the next appropriate step is to start Leflunomide or Sulfasalazine. These are effective csDMARDs suitable for initial therapy when MTX cannot be used.",
+      "incorrect": {
+        "A": "Hydroxychloroquine is generally used for mild disease. With 'poor prognosis' markers, stronger csDMARDs are preferred.",
+        "B": "NSAIDs alone do not prevent joint damage; DMARDs are essential.",
+        "D": "Long-term high-dose steroids cause severe toxicity.",
+        "E": "RA requires early treatment to prevent permanent damage."
+      }
+    }
+  },
+  {
+    "question": "A 28-year-old female patient with Rheumatoid Arthritis has been effectively treated with Methotrexate for the past year. She informs you that she plans to conceive in the next 3 months. Which of the following is the appropriate management?",
+    "choices": {
+      "A": "Continue Methotrexate at the same dose throughout pregnancy.",
+      "B": "Increase the dose of Folic acid to 5 mg/day and continue Methotrexate.",
+      "C": "Discontinue Methotrexate immediately and switch to Sulfasalazine or Hydroxychloroquine.",
+      "D": "Switch Methotrexate to Leflunomide.",
+      "E": "Stop all medications and treat with high-dose Aspirin."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Methotrexate is teratogenic (causes birth defects) and must be stopped 1-3 months before conception. Sulfasalazine and Hydroxychloroquine are considered compatible with pregnancy and are safe alternatives.",
+      "incorrect": {
+        "A": "Methotrexate is absolutely contraindicated in pregnancy.",
+        "B": "Methotrexate is absolutely contraindicated in pregnancy.",
+        "D": "Leflunomide is also teratogenic and unsafe for pregnancy.",
+        "E": "High-dose Aspirin is not recommended in late pregnancy and is insufficient to control RA compared to safe DMARDs."
+      }
+    }
+  }
+]

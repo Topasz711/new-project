@@ -1,0 +1,162 @@
+[
+  {
+    "question": "A patient exhibits a 'Trendelenburg gait'. When they stand on their right leg, their left pelvis drops. Which muscle is weak, and on which side?",
+    "choices": {
+      "A": "Left Gluteus Medius",
+      "B": "Right Gluteus Medius",
+      "C": "Right Quadriceps",
+      "D": "Left Iliopsoas",
+      "E": "Right Gluteus Maximus"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Trendelenburg gait is caused by weakness of the hip abductors (mainly Gluteus Medius). The function of the gluteus medius on the stance leg (the leg touching the ground) is to contract and hold the pelvis level, preventing the opposite side (swing side) from dropping. In this scenario, the patient stands on the Right leg (stance phase), and the Left pelvis drops. This failure to support the pelvis indicates weakness of the abductor mechanism on the Right side.",
+      "incorrect": {
+        "A": "If the Left Gluteus Medius were weak, the pelvis would drop on the right side when the patient stands on their left leg.",
+        "C": "The Quadriceps (L3) are responsible for knee extension. Weakness here would cause buckling of the knee, not a pelvic drop.",
+        "D": "The Iliopsoas (L2) is a hip flexor. Weakness would affect the ability to lift the leg (flex hip), not lateral pelvic stability.",
+        "E": "The Gluteus Maximus is the primary hip extensor. Weakness here results in a 'Gluteus Maximus Lurch' (backward trunk lean at heel strike), not a lateral pelvic drop."
+      }
+    }
+  },
+  {
+    "question": "If a patient has limited Active Range of Motion (AROM) but full/normal Passive Range of Motion (PROM), what does this clinical finding typically suggest?",
+    "choices": {
+      "A": "Intra-articular pathology",
+      "B": "Extra-articular pathology",
+      "C": "Joint ankylosis",
+      "D": "Capsular contracture",
+      "E": "Severe joint effusion"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "This pattern (Limited Active + Full Passive) characterizes Extra-articular pathology (problems outside the joint capsule). If the examiner can move the joint fully (Passive), the joint mechanics are intact. The limitation in active movement implies a failure of the 'motor' unit—muscle weakness, tendon rupture, or nerve injury—or pain inhibition from extra-articular structures preventing the patient from moving it themselves.",
+      "incorrect": {
+        "A": "Intra-articular pathology (inside the joint) typically limits both Active and Passive ROM because the mechanical obstruction or joint swelling blocks movement regardless of who moves it.",
+        "C": "Joint ankylosis is a fusion or stiffness of the joint bones/tissues, which would restrict motion in all directions, both actively and passively.",
+        "D": "Capsular contracture involves tightening of the joint capsule. Since the capsule is an integral part of the joint, it restricts both Active and Passive ROM (Intra-articular pattern).",
+        "E": "Severe joint effusion (fluid inside the joint) creates physical pressure and pain that restricts both Active and Passive ROM."
+      }
+    }
+  },
+  {
+    "question": "You are examining a patient with cervical radiculopathy. You perform Spurling’s test to reproduce the symptoms. Which of the following describes the correct maneuver?",
+    "choices": {
+      "A": "Flexion of the neck, rotation to the affected side, and axial compression.",
+      "B": "Extension of the neck, lateral flexion to the affected side, and axial compression.",
+      "C": "Extension of the neck, rotation to the unaffected side, and distraction.",
+      "D": "Flexion of the neck, lateral flexion to the unaffected side, and distraction.",
+      "E": "Neutral position with heavy axial compression only."
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Spurling’s test is designed to narrow the neural foramen and compress the nerve root. The maneuver involves Extension and Lateral flexion (or rotation) towards the affected side, followed by Axial compression (pushing down on the head). This specifically closes the foramen on the symptomatic side to reproduce radicular pain.",
+      "incorrect": {
+        "A": "Flexion opens the neural foramen, which would relieve, not reproduce, the symptoms of radiculopathy.",
+        "C": "Rotation to the unaffected side opens the foramen on the affected side. Distraction (pulling up) also opens the foramen and is used to relieve pain (Distraction test).",
+        "D": "Flexion and distraction are relief maneuvers, not provocative tests for radiculopathy.",
+        "E": "Compression in a neutral position (Compression test) can be used, but Spurling's specifically adds extension and lateral flexion to maximally compromise the foramen, making it more sensitive/specific for localized root compression."
+      }
+    }
+  },
+  {
+    "question": "You are examining a patient with lower back pain. You perform a Straight Leg Raising Test (SLRT). At what angle of elevation is tension primarily applied to the sciatic roots?",
+    "choices": {
+      "A": "35 - 70 degrees",
+      "B": "70 - 90 degrees",
+      "C": "90 - 110 degrees",
+      "D": "0 - 30 degrees",
+      "E": "Any angle causes tension"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "During the SLRT, the range of 35 to 70 degrees is the critical zone where the sciatic nerve roots are pulled tight over the intervertebral disc. Tension is maximally applied to the sciatic roots at this angle, making it the diagnostic range for herniated discs.",
+      "incorrect": {
+        "B": "Beyond 70 degrees, the sciatic roots are already fully stretched. Practically no further deformation of the roots occurs. Pain at this range is usually due to hamstring tightness or joint pain (lumbar/sacroiliac), not nerve root compression.",
+        "C": "This range is anatomically beyond the limit for nerve root testing and usually indicates flexibility issues.",
+        "D": "Between 0 and 35 degrees, there is slack in the sciatic nerve arborization. The nerve is being picked up, but no significant tension is applied to the roots yet.",
+        "E": "Tension varies significantly by angle; it is not constant throughout the arc."
+      }
+    }
+  },
+  {
+    "question": "A patient presents with numbness over the lateral aspect of the forearm and the thumb. Which spinal dermatome is most likely affected?",
+    "choices": {
+      "A": "C6",
+      "B": "C8",
+      "C": "C5",
+      "D": "C7",
+      "E": "T1"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The C6 dermatome covers the lateral forearm and extends to the thumb (and often index finger).",
+      "incorrect": {
+        "B": "C8 covers the medial side of the hand, specifically the ring and little fingers.",
+        "C": "C5 covers the lateral arm (deltoid area) down to the elbow, but not the forearm or thumb.",
+        "D": "C7 supplies the middle aspect of the hand, typically the middle finger.",
+        "E": "T1 covers the medial aspect of the arm and elbow."
+      }
+    }
+  },
+  {
+    "question": "Which specific muscle action is tested when assessing the C8 myotome?",
+    "choices": {
+      "A": "Finger abductors",
+      "B": "Elbow extensors",
+      "C": "Finger flexors",
+      "D": "Biceps brachii",
+      "E": "Wrist extensors"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The C8 myotome is tested by checking Finger flexors (e.g., asking the patient to squeeze the examiner's hand or curl their fingers).",
+      "incorrect": {
+        "A": "Finger abductors (specifically the little finger) test the T1 myotome.",
+        "B": "Elbow extensors (Triceps) test the C7 myotome.",
+        "D": "Biceps brachii (Elbow flexion) tests the C5 myotome.",
+        "E": "Wrist extensors test the C6 myotome."
+      }
+    }
+  },
+  {
+    "question": "On inspection of a patient’s knees in a standing position, you notice that the distal parts of the legs (tibias) point outward, away from the body's midline, while the knees touch each other ('Knock knees'). How is this deformity clinically termed?",
+    "choices": {
+      "A": "Genu varum",
+      "B": "Genu recurvatum",
+      "C": "Genu valgum",
+      "D": "Flexion contracture",
+      "E": "Coxa vara"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Genu valgum (Valgus knee) is the deformity where the distal part of the limb (tibia/foot) bends outward (away from midline), causing the knees to touch or 'knock' together.",
+      "incorrect": {
+        "A": "Genu varum (Varus knee/Bow-legged) is when the distal part points inward (towards midline), creating a gap between the knees.",
+        "B": "Genu recurvatum is hyperextension of the knee (Back knee).",
+        "D": "Flexion contracture is when the joint is stuck in flexion and cannot be fully straightened.",
+        "E": "Coxa vara refers to a deformity at the hip joint (angle between femoral head and shaft < 120 degrees), not the knee."
+      }
+    }
+  },
+  {
+    "question": "A patient presents with weakness in extending the big toe (Extensor Hallucis Longus). Which nerve root is primarily responsible for this motor function, and which reflex might be associated with it?",
+    "choices": {
+      "A": "L4; Patellar reflex",
+      "B": "L5; No specific deep tendon reflex",
+      "C": "S1; Achilles reflex",
+      "D": "L5; Hamstring reflex",
+      "E": "L4; Tibialis posterior reflex"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The L5 nerve root supplies the Long toe extensors (Extensor Hallucis Longus - EHL) which dorsiflex the big toe. Importantly, L5 has no distinct deep tendon reflex associated with it clinically.",
+      "incorrect": {
+        "A": "L4 supplies the Tibialis Anterior (Ankle dorsiflexion) and is associated with the Patellar tendon reflex ('knee jerk').",
+        "C": "S1 supplies the Gastrocnemius (Ankle plantarflexion) and is associated with the Achilles tendon reflex ('ankle jerk').",
+        "D": "While L5 is the root, there is no 'Hamstring reflex' routinely used to test L5 in standard screening (the medial hamstring reflex exists but is L5/S1 and less common; the standard answer is 'None').",
+        "E": "L4 is associated with the Patellar reflex, not Tibialis posterior (which is L5-S1)."
+      }
+    }
+  }
+]

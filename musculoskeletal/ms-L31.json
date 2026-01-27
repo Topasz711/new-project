@@ -1,0 +1,82 @@
+[
+  {
+    "question": "During a cholecystectomy, a patient receiving Sevoflurane and Succinylcholine develops tachycardia, muscle rigidity, and a rapidly rising temperature (40°C). Arterial blood gas shows metabolic acidosis. The most effective antidote acts by:",
+    "choices": {
+      "A": "Blocking the release of calcium from the sarcoplasmic reticulum.",
+      "B": "Increasing the reuptake of calcium into the mitochondria.",
+      "C": "Competitively blocking the nicotinic receptor at the motor endplate.",
+      "D": "Chelation of intracellular calcium ions.",
+      "E": "Agonizing the beta-2 adrenergic receptors to promote vasodilation."
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "This is the exact mechanism of Dantrolene, the antidote for malignant hyperthermia. Dantrolene is a RyR1 antagonist. It works by blocking the ryanodine receptor-1 (Ca2+)-release channels in the sarcoplasmic reticulum of skeletal muscle. This stops the excessive calcium release and halts the hypermetabolic state.",
+      "incorrect": {
+        "B": "While mitochondria do sequester calcium, this is not the mechanism of dantrolene. Dantrolene prevents the release, rather than increasing reuptake.",
+        "C": "This describes the mechanism of Non-depolarizing neuromuscular blockers (like Rocuronium or d-TC). These drugs do not stop the intracellular calcium release once it has been triggered inside the muscle cell.",
+        "D": "Chelating agents (like EDTA) bind ions, but Dantrolene blocks the channel (RyR1) directly rather than acting as a chemical chelator in the cytoplasm.",
+        "E": "Beta-2 agonists (like Albuterol) are used for bronchospasm. While MH causes tachycardia, using a beta-agonist would not treat the underlying muscle pathology and might worsen the tachycardia."
+      }
+    }
+  },
+  {
+    "question": "A 68-year-old female with end-stage renal disease (ESRD) and liver cirrhosis is undergoing an exploratory laparotomy. The medical team wishes to use a neuromuscular blocker that relies on organ-independent elimination (Hofmann elimination). Which agent is most appropriate?",
+    "choices": {
+      "A": "Rocuronium",
+      "B": "Pancuronium",
+      "C": "Cisatracurium",
+      "D": "Vecuronium",
+      "E": "Pipercuronium"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Like Atracurium, Cisatracurium undergoes Hofmann elimination (spontaneous degradation). This makes it the safest choice for a patient with multi-organ failure (ESRD and cirrhosis) because its elimination does not depend on the liver or kidneys.",
+      "incorrect": {
+        "A": "Rocuronium is a steroidal compound. While it has some hepatic elimination, it is not primarily eliminated via Hofmann degradation.",
+        "B": "Pancuronium is long-acting and primarily excreted unchanged in the urine. It should be avoided or used with extreme caution in renal failure.",
+        "D": "Vecuronium is a steroidal compound that relies on hepatic metabolism and biliary excretion.",
+        "E": "Pipercuronium is a long-acting steroidal blocker primarily excreted by the kidneys."
+      }
+    }
+  },
+  {
+    "question": "A 45-year-old patient with muscle spasms due to a spinal injury is prescribed a centrally acting muscle relaxant. The drug works by facilitating GABAergic transmission, specifically acting as a GABA A agonist to induce chloride (Cl-) influx. Which drug was prescribed?",
+    "choices": {
+      "A": "Baclofen",
+      "B": "Tizanidine",
+      "C": "Diazepam",
+      "D": "Dantrolene",
+      "E": "Botulinum toxin"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "As stated in the lecture, Diazepam facilitates GABAergic transmission (GABA A agonist) by inducing Cl- influx, leading to hyperpolarization and inhibition of the neuron.",
+      "incorrect": {
+        "A": "While Baclofen is a centrally acting spasmolytic, it is a GABA B agonist, not GABA A. It works by increasing potassium (K+) efflux and reducing calcium (Ca2+) influx, leading to hyperpolarization.",
+        "B": "Tizanidine acts as an alpha-2 adrenoceptor agonist in the spinal cord, not on GABA receptors.",
+        "D": "Dantrolene is a peripherally acting (directly acting) muscle relaxant. It works on the Ryanodine receptor in the muscle, not in the CNS.",
+        "E": "Botulinum toxin acts presynaptically at the neuromuscular junction by inhibiting acetylcholine release (cleaving SNARE proteins), not via GABA receptors in the CNS."
+      }
+    }
+  },
+  {
+    "question": "During the recovery phase of a surgery, the anesthesiologist administers a drug specifically classified in the lecture as a 'Selective relaxant binding agent' to reverse the neuromuscular block. Which agent was used?",
+    "choices": {
+      "A": "Neostigmine",
+      "B": "Edrophonium",
+      "C": "Pyridostigmine",
+      "D": "Sugammadex",
+      "E": "Atropine"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "This is the only drug listed that is defined as a Selective relaxant binding agent. It forms a complex with steroidal neuromuscular blockers (Rocuronium, Vecuronium, Pancuronium) to reverse paralysis.",
+      "incorrect": {
+        "A": "Neostigmine is classified as a Reversible cholinesterase inhibitor (Anticholinesterase). It works by increasing acetylcholine levels to compete with the blocker.",
+        "B": "Edrophonium is also a cholinesterase inhibitor (short-acting), not a selective binding agent.",
+        "C": "Pyridostigmine is another cholinesterase inhibitor.",
+        "E": "Atropine is an antimuscarinic agent. It is often given with anticholinesterases (like Neostigmine) to prevent muscarinic side effects (like bradycardia), but it is not a muscle relaxant reversal agent itself."
+      }
+    }
+  }
+]

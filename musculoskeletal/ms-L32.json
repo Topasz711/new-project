@@ -1,0 +1,82 @@
+[
+  {
+    "question": "A 55-year-old male presents with a swollen, erythematous, and excruciatingly painful first metatarsophalangeal joint. The symptoms started 12 hours ago after a heavy meal. His past medical history is significant for peptic ulcer disease and stage 3 chronic kidney disease (eGFR 45 mL/min). Which of the following is the most appropriate initial monotherapy for this patient?",
+    "choices": {
+      "A": "High-dose Indomethacin",
+      "B": "Oral Colchicine",
+      "C": "High-dose Aspirin",
+      "D": "Oral Probenecid",
+      "E": "Allopurinol"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Colchicine is effective for acute gout if administered within 36 hours of onset. While dose adjustments may be needed for renal impairment, it is not strictly contraindicated in this patient compared to NSAIDs. It avoids the gastrointestinal risks associated with his Peptic Ulcer Disease (PUD).",
+      "incorrect": {
+        "A": "Indomethacin is an NSAID. NSAIDs are generally contraindicated or require extreme caution in patients with active Peptic Ulcer Disease (GI bleeding risk) and Chronic Kidney Disease (risk of acute kidney injury and further GFR decline).",
+        "C": "Aspirin is generally not used for acute gout. Low doses (< 2 g) can actually retain uric acid. High doses are uricosuric but cause significant GI irritation, which is dangerous for a patient with PUD.",
+        "D": "Probenecid is a uricosuric agent used for chronic prophylaxis, not acute attacks. Starting it during an acute flare can exacerbate or prolong the attack by mobilizing urate stores. Furthermore, Probenecid is ineffective and should be avoided if creatinine clearance (or eGFR) is less than 50 mL/min, and this patient has an eGFR of 45 mL/min.",
+        "E": "Allopurinol is a Xanthine Oxidase Inhibitor used for chronic prevention. It should never be initiated during an acute attack because the sudden drop in serum uric acid can precipitate further crystal shedding and worsen inflammation."
+      }
+    }
+  },
+  {
+    "question": "A 45-year-old male with chronic tophaceous gout is being treated with Allopurinol. However, his serum uric acid levels remain above the target despite dose escalation. Genetic testing reveals he is HLA-B*58:01 negative. The physician decides to switch him to a non-purine xanthine oxidase inhibitor. Which comorbidity should be carefully evaluated before initiating this new medication?",
+    "choices": {
+      "A": "History of calcium oxalate stones",
+      "B": "G6PD deficiency",
+      "C": "History of Cardiovascular disease or stroke",
+      "D": "Peptic ulcer disease",
+      "E": "Chronic obstructive pulmonary disease"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The non-purine xanthine oxidase inhibitor described is Febuxostat. Clinical guidelines and drug labels warn of a higher risk of cardiovascular death in patients treated with Febuxostat compared to Allopurinol. Therefore, caution is required in patients with a history of heart disease or stroke.",
+      "incorrect": {
+        "A": "While renal stones are a concern in gout, they are not a specific contraindication unique to Febuxostat compared to other therapies.",
+        "B": "This is a critical contraindication for Rasburicase or Pegloticase (Uricase enzymes), as they can cause hemolysis in G6PD-deficient patients. It is not a primary concern for Febuxostat.",
+        "D": "This is a major concern for NSAIDs, not for Xanthine Oxidase Inhibitors like Febuxostat.",
+        "E": "COPD is not a specific contraindication or precaution for Febuxostat usage."
+      }
+    }
+  },
+  {
+    "question": "A 35-year-old male with Hematologic malignancy is admitted for chemotherapy. The oncologist is concerned about Tumor Lysis Syndrome. A recombinant enzyme is administered intravenously to rapidly lower plasma uric acid levels. This drug works by converting uric acid into which water-soluble inactive metabolite?",
+    "choices": {
+      "A": "Hypoxanthine",
+      "B": "Xanthine",
+      "C": "Allantoin",
+      "D": "Urea",
+      "E": "Orotic acid"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The drug described is Rasburicase (a recombinant urate oxidase). It enzymatically oxidizes uric acid into allantoin, a highly water-soluble and nontoxic metabolite that is easily excreted by the kidneys.",
+      "incorrect": {
+        "A": "Hypoxanthine is a precursor to uric acid in the purine metabolism pathway, not a product of uricase activity.",
+        "B": "Xanthine is the immediate precursor to uric acid. Allopurinol inhibits the conversion of xanthine to uric acid, which can lead to increased xanthine levels, but Rasburicase does not produce xanthine.",
+        "D": "Urea is the end product of protein (nitrogen) metabolism in humans, not the direct product of Rasburicase action on uric acid.",
+        "E": "Orotic acid is an intermediate in pyrimidine synthesis, not involved in the degradation of purines by uricase."
+      }
+    }
+  },
+  {
+    "question": "A 35-year-old male with leukemia is undergoing chemotherapy. To prevent Tumor Lysis Syndrome, the oncologist prescribes an intravenous drug that rapidly reduces serum uric acid. What is Drug X?",
+    "choices": {
+      "A": "Allopurinol",
+      "B": "Febuxostat",
+      "C": "Rasburicase",
+      "D": "Probenecid",
+      "E": "Colchicine"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The keyword is 'intravenous' and 'Tumor Lysis Syndrome'. Rasburicase is a recombinant urate oxidase enzyme given IV to rapidly convert uric acid to allantoin.",
+      "incorrect": {
+        "A": "Although used for prophylaxis, it is typically given orally (PO) and works by inhibiting formation, which is slower than Rasburicase's breakdown of existing uric acid.",
+        "B": "This is an oral Xanthine Oxidase Inhibitor, not an IV drug for rapid reduction in tumor lysis.",
+        "D": "This is a uricosuric agent. It is not indicated for tumor lysis syndrome and does not reduce the uric acid load rapidly enough.",
+        "E": "This is an anti-inflammatory drug for gout attacks; it has no effect on serum uric acid levels."
+      }
+    }
+  }
+]

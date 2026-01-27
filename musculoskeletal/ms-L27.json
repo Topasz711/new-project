@@ -1,0 +1,162 @@
+[
+  {
+    "question": "Which specific type of cell, when found in synovial fluid, contains dark cytoplasmic inclusions of immune complexes and is associated with Rheumatoid Arthritis?",
+    "choices": {
+      "A": "Ragocytes",
+      "B": "Mesothelial cells",
+      "C": "LE cells",
+      "D": "Reiter cells",
+      "E": "Tart cells"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Also known as 'RA cells,' these are neutrophils found in the synovial fluid that have ingested immune complexes (typically IgG-IgM complexes like Rheumatoid Factor). These inclusions appear as dark granules in the cytoplasm. They are highly characteristic of Rheumatoid Arthritis.",
+      "incorrect": {
+        "B": "These are cells that line body cavities (pleura, peritoneum). They are not typically found in synovial fluid and do not contain immune complex inclusions.",
+        "C": "These are neutrophils that have engulfed the denatured nucleus of another cell (hematoxylin body). They are historically specific for Systemic Lupus Erythematosus (SLE), not RA.",
+        "D": "These are vacuolated macrophages containing ingested neutrophils (cytophagocytosis). They are associated with Reactive Arthritis (formerly Reiter's syndrome).",
+        "E": "These are monocytes that have engulfed a nucleus, but unlike LE cells, the engulfed nuclear material retains its chromatin pattern. They are non-specific and can be found in various conditions."
+      }
+    }
+  },
+  {
+    "question": "A patient with acute gouty arthritis presents with a normal serum uric acid level. What is the most plausible physiological explanation for this finding?",
+    "choices": {
+      "A": "The uric acid has precipitated entirely into the joint space.",
+      "B": "The patient is likely suffering from calcium pyrophosphate deposition.",
+      "C": "Systemic acidosis has shifted uric acid into the intracellular space.",
+      "D": "The patient has a deficiency in xanthine oxidase enzyme.",
+      "E": "Acute inflammation causes a uricosuric effect, increasing excretion."
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "During an acute flare, inflammatory cytokines (like IL-6) and cortisol secretion act on the kidneys to increase the excretion of uric acid (uricosuric effect). This can temporarily lower serum uric acid to normal levels even though the total body load is high.",
+      "incorrect": {
+        "A": "While precipitation occurs, the body's uric acid pool is too large for joint precipitation alone to significantly lower serum levels.",
+        "B": "While CPPD (Pseudogout) is a differential diagnosis, the question asks for the explanation of normal uric acid in the context of gout.",
+        "C": "Acidosis typically reduces renal excretion of uric acid, which would raise serum levels, not lower them.",
+        "D": "This would cause permanently low uric acid levels (hypouricemia), not a transient normalization during an attack."
+      }
+    }
+  },
+  {
+    "question": "Which mechanism best explains the elevation of Erythrocyte Sedimentation Rate (ESR) in the presence of inflammation?",
+    "choices": {
+      "A": "Fibrinogen neutralizes the negative zeta potential, causing rouleaux formation.",
+      "B": "Increased plasma viscosity slows down the settling of red blood cells.",
+      "C": "Decreased production of albumin allows red blood cells to clump together.",
+      "D": "Inflammatory cytokines directly destroy red blood cells, reducing their mass.",
+      "E": "Red blood cells swell and become spherical, increasing their settling speed."
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Red blood cells (RBCs) normally repel each other due to a negative surface charge called 'zeta potential' (from sialic acid). In inflammation, positively charged acute-phase proteins (mainly fibrinogen) coat the RBCs, neutralizing this charge. This allows RBCs to stack like coins (Rouleaux formation), which increases their mass-to-surface-area ratio, causing them to fall (sediment) faster.",
+      "incorrect": {
+        "B": "While viscosity changes, Stoke's law dictates that the increased radius of the RBC clumps (Rouleaux) has a squared effect (r2) on velocity, vastly overpowering any slowing effect of viscosity.",
+        "C": "While albumin does retard sedimentation and its decrease (negative acute phase reactant) contributes to higher ESR, the primary driver is the increase in fibrinogen causing aggregation, not just the lack of albumin.",
+        "D": "This describes anemia of chronic disease. While fewer RBCs (anemia) can artificially raise ESR, it is not the primary mechanism of inflammation-induced elevation.",
+        "E": "Spherocytes (as seen in spherocytosis) actually settle slower because they cannot form Rouleaux stacks effectively."
+      }
+    }
+  },
+  {
+    "question": "A 45-year-old woman with a history of morning stiffness presents with knee pain. Synovial fluid is yellow and cloudy. WBC is 15,000 cells/µL (60% neutrophils). Microscopic exam reveals neutrophils with dark cytoplasmic inclusions. No crystals are seen. What is the most probable diagnosis?",
+    "choices": {
+      "A": "Septic Arthritis",
+      "B": "Gout",
+      "C": "Rheumatoid Arthritis (RA)",
+      "D": "Systemic Lupus Erythematosus (SLE)",
+      "E": "Osteoarthritis"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The fluid is Group II (Inflammatory: yellow, cloudy, WBC 2,000-75,000). The key finding is 'neutrophils with dark cytoplasmic inclusions,' which describes Ragocytes (RA cells). This, combined with the history of morning stiffness, points strongly to RA.",
+      "incorrect": {
+        "A": "This usually presents with much higher WBC counts (>50,000–100,000/µL) and >90% neutrophils.",
+        "B": "This would be characterized by the presence of needle-shaped, negatively birefringent crystals (Monosodium Urate), which are absent here.",
+        "D": "SLE synovial fluid is usually inflammatory but milder. The specific finding of Ragocytes is more strongly linked to RA.",
+        "E": "This presents with Group I (Non-inflammatory) fluid: clear, yellow, WBC <2,000/µL."
+      }
+    }
+  },
+  {
+    "question": "A laboratory technician observes an ANA pattern using Indirect Immunofluorescence (IFA) on HEp-2 cells. The pattern shows uniform staining of the entire nucleus with the chromosomal region of metaphase cells also being stained. Which of the following conditions is this 'Homogeneous' pattern most commonly associated with?",
+    "choices": {
+      "A": "Primary Biliary Cirrhosis",
+      "B": "Healthy individuals with no risk",
+      "C": "Limited Cutaneous Scleroderma (CREST)",
+      "D": "Systemic Lupus Erythematosus (SLE)",
+      "E": "Polymyositis"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The Homogeneous pattern (AC-1) is caused by antibodies against dsDNA, histones, and nucleosomes. It is the most common pattern seen in SLE and Drug-induced Lupus.",
+      "incorrect": {
+        "A": "Associated with Anti-Mitochondrial Antibodies (cytoplasmic pattern) or Nuclear Dots.",
+        "B": "While low-titer ANA can be seen in healthy people, the Homogeneous pattern is a specific pathological pattern associated with chromatin antibodies.",
+        "C": "Strictly associated with the Centromere pattern (AC-3).",
+        "E": "Associated with cytoplasmic (Anti-Jo-1) or Speckled patterns."
+      }
+    }
+  },
+  {
+    "question": "In ANCA testing using ethanol-fixed neutrophils, a 'c-ANCA' (cytoplasmic) pattern is observed. This pattern is most strongly correlated with antibodies directed against:",
+    "choices": {
+      "A": "Lactoferrin",
+      "B": "Proteinase 3 (PR3)",
+      "C": "Cyclic Citrullinated Peptide (CCP)",
+      "D": "Double-stranded DNA (dsDNA)",
+      "E": "Myeloperoxidase (MPO)"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The c-ANCA (cytoplasmic) pattern is caused by antibodies binding to the PR3 antigen in the neutrophil cytoplasm. This is the marker for Granulomatosis with Polyangiitis (GPA).",
+      "incorrect": {
+        "A": "Can cause an atypical ANCA pattern but is rare.",
+        "C": "This is a marker for Rheumatoid Arthritis, unrelated to ANCA.",
+        "D": "This is a marker for SLE (ANA).",
+        "E": "Antibodies to MPO produce a p-ANCA (perinuclear) pattern."
+      }
+    }
+  },
+  {
+    "question": "A 45-year-old woman complains of chronic symmetric joint pain in her hands and wrists with morning stiffness lasting >1 hour. Physical exam reveals swollen MCP and PIP joints. Her ESR and CRP are elevated. If you suspect Rheumatoid Arthritis, which combination of serological results is most likely?",
+    "choices": {
+      "A": "ANA Positive (Nucleolar) and Anti-Scl-70 Positive",
+      "B": "c-ANCA Positive and PR3 Positive",
+      "C": "HLA-B27 Positive and RF Negative",
+      "D": "RF Positive and Anti-CCP Positive",
+      "E": "ANA Positive (Homogeneous) and Anti-dsDNA Positive"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Rheumatoid Factor (RF) is sensitive but not specific, while Anti-CCP is highly specific (~96%) for RA. Their combination is the hallmark serology for diagnosing Rheumatoid Arthritis.",
+      "incorrect": {
+        "A": "This is the profile for Diffuse Systemic Sclerosis.",
+        "B": "This is the profile for ANCA-associated vasculitis (GPA).",
+        "C": "This is the profile for Spondyloarthritis (e.g., Ankylosing Spondylitis).",
+        "E": "This is the profile for Systemic Lupus Erythematosus (SLE)."
+      }
+    }
+  },
+  {
+    "question": "A 22-year-old male presents with chronic low back pain for 1 year, which is worse in the morning and improves with exercise. He has a history of uveitis. X-ray shows bilateral sacroiliitis. Which laboratory marker is most likely to be positive in this patient?",
+    "choices": {
+      "A": "Anti-Centromere",
+      "B": "Anti-dsDNA",
+      "C": "Anti-CCP",
+      "D": "c-ANCA",
+      "E": "HLA-B27"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The clinical picture (inflammatory back pain, young male, uveitis, sacroiliitis) is classic for Ankylosing Spondylitis. This condition has a very strong genetic association with HLA-B27, which is positive in 90-95% of patients.",
+      "incorrect": {
+        "A": "Associated with Limited Scleroderma (CREST).",
+        "B": "Associated with SLE.",
+        "C": "Associated with Rheumatoid Arthritis.",
+        "D": "Associated with Vasculitis."
+      }
+    }
+  }
+]
