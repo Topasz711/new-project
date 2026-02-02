@@ -139,8 +139,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const shuffleBtn = document.getElementById('shuffle-btn');
     const infectiousMenuBtn = document.getElementById('infectious-menu-btn');
     const backToMainMenuBtn = document.getElementById('back-to-main-menu');
+    const cnsMenuBtn = document.getElementById('cns-menu-btn'); 
+    const backToMainMenuBtnCns = document.getElementById('back-to-main-menu-cns'); 
     const mainMenu = document.getElementById('main-menu');
     const infectiousSubMenu = document.getElementById('infectious-sub-menu');
+    const cnsSubMenu = document.getElementById('cns-sub-menu'); 
     const loadingIndicator = document.getElementById('loading-indicator');
 
     // --- Theme Persistence (FIX 1: Robust logic) ---
@@ -282,6 +285,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (quizView) quizView.classList.remove('hidden');
                 if (title) title.textContent = '';
                 if (container) container.innerHTML = placeholderHTML;
+            } else if (parentPaneId === 'cnsContent') {
+                // ซ่อนรายการบทเรียน (Nervous 1 & 2)
+                document.querySelectorAll('.cns-sub-pane').forEach(pane => pane.classList.add('hidden'));
+                
+                const quizView = document.getElementById('cnsQuizView');
+                const title = document.getElementById('cns-quiz-title');
+                const container = document.getElementById('cnsQuizContainer');
+
+                // แสดงหน้า QuizView และใส่ข้อความ Placeholder
+                if (quizView) quizView.classList.remove('hidden');
+                if (title) title.textContent = '';
+                if (container) container.innerHTML = placeholderHTML;
             }
         }
     };
@@ -300,6 +315,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if (backToMainMenuBtn && mainMenu && infectiousSubMenu) {
         backToMainMenuBtn.addEventListener('click', (e) => { e.preventDefault(); mainMenu.classList.remove('hide-left'); infectiousSubMenu.classList.remove('show'); });
+    }
+
+    // Logic ของ CNS Menu
+    if (cnsMenuBtn && mainMenu && cnsSubMenu) {
+        cnsMenuBtn.addEventListener('click', (e) => { e.preventDefault(); mainMenu.classList.add('hide-left'); cnsSubMenu.classList.add('show'); });
+    }
+    if (backToMainMenuBtnCns && mainMenu && cnsSubMenu) {
+        backToMainMenuBtnCns.addEventListener('click', (e) => { e.preventDefault(); mainMenu.classList.remove('hide-left'); cnsSubMenu.classList.remove('show'); });
     }
 
     sidebarLinks.forEach(link => {
@@ -356,6 +379,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 const quizView = document.getElementById('musculoskeletalQuizView');
                 if (list) list.classList.remove('hidden');
                 if (quizView) quizView.classList.add('hidden');
+            } else if (targetId === 'cnsContent') {
+                // Reset CNS view
+                document.querySelectorAll('.cns-sub-pane').forEach(pane => pane.classList.add('hidden'));
+                const subTarget = document.getElementById(subTargetId);
+                const quizView = document.getElementById('cnsQuizView');
+                
+                if (subTarget) {
+                     subTarget.classList.remove('hidden');
+                } else if (quizView && !quizView.classList.contains('hidden')) {
+                     // ถ้าไม่มี subTarget แต่ quizView เปิดอยู่ ให้คง quizView ไว้ (กรณี refresh)
+                }
             } else if (targetId === 'miniGameContent') {
                 // Reset to menu view when entering Mini-Game tab
                 document.getElementById('miniGameMenu').classList.remove('hidden');
@@ -481,6 +515,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 const quizView = document.getElementById('musculoskeletalQuizView');
                 if (listView) listView.classList.add('hidden');
                 if (titleEl) titleEl.textContent = quizTitle || 'Musculoskeletal Quiz';
+                if (quizView) quizView.classList.remove('hidden');
+                if (quizType === 'mcq') startNewMcqQuiz(fetchedData, quizContainerId, quizFile, null, navLinks);
+            } else if (parentPaneId === 'cnsContent') {
+                const titleEl = document.getElementById('cns-quiz-title');
+                const quizView = document.getElementById('cnsQuizView');
+                // ซ่อนรายการเลือกบทเรียน
+                document.querySelectorAll('.cns-sub-pane').forEach(pane => pane.classList.add('hidden')); 
+                
+                if (titleEl) titleEl.textContent = quizTitle || 'CNS Quiz';
                 if (quizView) quizView.classList.remove('hidden');
                 if (quizType === 'mcq') startNewMcqQuiz(fetchedData, quizContainerId, quizFile, null, navLinks);
             }
