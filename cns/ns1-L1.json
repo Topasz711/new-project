@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "Regarding the orientation of the central nervous system, the neural axis bends at the midbrain-diencephalic junction. Consequently, directional terms change meaning relative to the ground. In the forebrain (telencephalon and diencephalon), which directional term is synonymous with 'Rostral'?",
+    "choices": {
+      "A": "Superior",
+      "B": "Inferior",
+      "C": "Anterior",
+      "D": "Posterior",
+      "E": "Ventral"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The term 'Rostral' generally means 'towards the nose' or beak. Because of the flexure (bend) in the neural axis during development, the forebrain is oriented horizontally. Therefore, in the forebrain, 'Rostral' points towards the front of the face, which is synonymous with Anterior.",
+      "incorrect": {
+        "A": "In the forebrain, 'Superior' is synonymous with Dorsal, not Rostral. (Note: In the spinal cord and brainstem, Rostral does mean Superior/towards the head, but the question specifically asks about the forebrain).",
+        "B": "In the forebrain, 'Inferior' is synonymous with Ventral, not Rostral.",
+        "D": "In the forebrain, 'Posterior' is synonymous with Caudal (towards the tail).",
+        "E": "As mentioned above, Ventral in the forebrain corresponds to Inferior, whereas Rostral corresponds to Anterior."
+      }
+    }
+  },
+  {
+    "question": "A 50-year-old male presents with a 3-month history of progressive weakness. Examination reveals motor power grade 3/5 in both lower extremities, while power in both upper extremities is preserved (grade 5/5). Which of the following clinical terms correctly describes this pattern of weakness?",
+    "choices": {
+      "A": "Diplegia",
+      "B": "Paraparesis",
+      "C": "Paresthesia",
+      "D": "Hemiparesis",
+      "E": "Quadriparesis"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The prefix 'Para-' refers to both legs, and the suffix '-paresis' indicates partial weakness (as opposed to '-plegia' which is complete paralysis). Therefore, weakness in both legs is defined as Paraparesis.",
+      "incorrect": {
+        "A": "While sometimes used to describe paralysis affecting symmetrical parts of the body (like facial diplegia), 'Paraparesis' is the standard and specific term for weakness of the lower limbs.",
+        "C": "This is a sensory term describing abnormal sensations (tingling, numbness), not motor weakness.",
+        "D": "'Hemi-' refers to one side of the body. Hemiparesis is weakness of the arm and leg on the same side.",
+        "E": "'Quadri-' (or Tetra-) refers to all four limbs. This diagnosis would require weakness in the arms as well."
+      }
+    }
+  },
+  {
+    "question": "A patient describes an abnormal spontaneous sensation of 'pins and needles' and tingling in their right hand without any external stimulation. Which term best defines this specific sensory abnormality?",
+    "choices": {
+      "A": "Paraparesis",
+      "B": "Dysesthesia",
+      "C": "Hyperalgesia",
+      "D": "Paresthesia",
+      "E": "Anesthesia"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Paresthesia is defined as abnormal spontaneous sensations (such as tingling, prickling, or numbness) experienced in the absence of specific stimulation.",
+      "incorrect": {
+        "A": "As explained in the previous question, this is a motor term for leg weakness, not a sensory symptom.",
+        "B": "Dysesthesia refers to unpleasant or painful abnormal sensations, often triggered by a stimulus or spontaneous, but distinctly characterized by being 'unpleasant' or 'painful' rather than just tingling.",
+        "C": "Hyperalgesia is an increased sensitivity to pain, where a normally painful stimulus is felt as more painful.",
+        "E": "Anesthesia is the complete absence of all sensation."
+      }
+    }
+  },
+  {
+    "question": "The corticospinal tract is the major pathway for voluntary motor control. While it originates in the cortex, its fibers eventually cross to the contralateral side to control the opposite side of the body. At which specific anatomical location does the pyramidal decussation occur?",
+    "choices": {
+      "A": "Ventral horn of the Spinal cord",
+      "B": "Midbrain (Crus cerebri)",
+      "C": "Cervicomedullary junction",
+      "D": "Internal Capsule (Posterior limb)",
+      "E": "Pons (Basis pontis)"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The corticospinal tract fibers cross the midline (decussate) at the junction between the medulla oblongata and the spinal cord, known as the Cervicomedullary junction (or Pyramidal decussation).",
+      "incorrect": {
+        "A": "This is where the Upper Motor Neuron (UMN) synapses with the Lower Motor Neuron (LMN), not where the main crossing occurs.",
+        "B": "The tract passes through the cerebral peduncles (crus cerebri) in the midbrain but does not cross there.",
+        "D": "The tract passes through the posterior limb of the internal capsule in the brain, but fibers are still ipsilateral (on the same side as the cortex) at this point.",
+        "E": "The fibers descend through the pons but do not decussate there."
+      }
+    }
+  },
+  {
+    "question": "Consider a sensory pathway composed of a three-neuron chain. The first-order neuron is in the dorsal root ganglion. The second-order neuron is located in the nucleus gracilis or cuneatus of the medulla and decussates via internal arcuate fibers. What is the primary function of this pathway?",
+    "choices": {
+      "A": "Crude touch and pressure",
+      "B": "Voluntary motor control",
+      "C": "Unconscious proprioception",
+      "D": "Pain and temperature sensation",
+      "E": "Conscious proprioception, vibration, and fine touch"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The pathway described is the Posterior Column-Medial Lemniscus (PCML) pathway. It carries sensations of vibration, proprioception (position sense), and fine touch. The second-order neurons are indeed in the gracile and cuneate nuclei of the medulla and cross there.",
+      "incorrect": {
+        "A": "Crude touch is typically carried by the Anterior Spinothalamic tract, not the PCML.",
+        "B": "This is the function of the Corticospinal tract (a descending motor pathway), not a sensory pathway.",
+        "C": "This is the function of the Spinocerebellar tracts, which project to the cerebellum, not the conscious cortex.",
+        "D": "These modalities are carried by the Lateral Spinothalamic tract. In this pathway, the second-order neurons are in the spinal cord (dorsal horn) and cross immediately at the spinal level, not in the medulla."
+      }
+    }
+  },
+  {
+    "question": "A 25-year-old male presents with limb weakness. Physical examination reveals:\n\nC5 (Elbow flexion): Normal power, normoreflexia\nC6 (Wrist extension): Normal power, normoreflexia\nC7 (Elbow extension): Weakness, hyporeflexia\nC8-T1 (Hand muscles): Spastic weakness, hyperreflexia\nLegs: Spastic weakness, hyperreflexia\n\nWhere is the lesion located?",
+    "choices": {
+      "A": "C8 Segment",
+      "B": "T1 Segment",
+      "C": "C6 Segment",
+      "D": "C7 Segment",
+      "E": "C5 Segment"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "To localize a spinal cord lesion, we look for Lower Motor Neuron (LMN) signs (such as flaccid weakness, atrophy, and hyporeflexia). LMN signs occur at the level of the lesion because the anterior horn cells (the LMNs themselves) at that specific segment are destroyed. In this case, the patient has hyporeflexia and weakness at C7 (Elbow extension). The segments below (C8, T1, Legs) show Upper Motor Neuron (UMN) signs (spasticity, hyperreflexia) because the descending corticospinal tracts are interrupted at C7, affecting control of everything below it.",
+      "incorrect": {
+        "A": "A lesion at C8 would cause LMN signs (hyporeflexia/atrophy) in the C8 distribution (hand muscles). However, the patient has UMN signs (spasticity) at C8.",
+        "B": "Similar to C8, a lesion here would cause LMN signs at T1, not UMN signs.",
+        "C": "A lesion at C6 would cause LMN signs at C6 (Wrist extension). The patient has normal function at C6.",
+        "E": "A lesion at C5 would cause LMN signs at C5 (Elbow flexion). The patient has normal function at C5."
+      }
+    }
+  },
+  {
+    "question": "A patient is diagnosed with a peripheral nerve sheath tumor. MRI and intraoperative findings reveal a well-encapsulated tumor that displaces the nerve fibers to one side, allowing the surgeon to resect the tumor without sacrificing the nerve. What is the most likely diagnosis?",
+    "choices": {
+      "A": "Oligodendroglioma",
+      "B": "Meningioma",
+      "C": "Glioblastoma",
+      "D": "Neurofibroma",
+      "E": "Schwannoma"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Schwannomas are tumors of Schwann cells. Anatomically, they grow eccentrically, pushing the nerve fibers to the side (displacing them). This distinct feature allows them to be dissected and removed without cutting the nerve fibers themselves.",
+      "incorrect": {
+        "A": "This is a tumor of oligodendrocytes, found in the Central Nervous System (CNS), not peripheral nerves.",
+        "B": "This is a tumor arising from the meninges (coverings of the brain/spinal cord), not the peripheral nerve sheath.",
+        "C": "This is a highly malignant tumor of astrocytes in the brain (CNS), not a peripheral nerve tumor.",
+        "D": "Neurofibromas involve the proliferation of perineurial cells and fibroblasts within the nerve fascicle. The nerve fibers are embedded and intermingled within the tumor mass, making it impossible to separate the tumor without sacrificing the nerve."
+      }
+    }
+  },
+  {
+    "question": "In the process of clinical diagnosis, the physician integrates the history and physical examination findings to pinpoint the exact site of the lesion (e.g., 'Where is the lesion?'). What is this specific step of the diagnosis called?",
+    "choices": {
+      "A": "Anatomical Diagnosis",
+      "B": "Pathological Diagnosis",
+      "C": "Differential Diagnosis",
+      "D": "Etiological Diagnosis",
+      "E": "Functional Diagnosis"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Anatomical diagnosis, also known as Localization, specifically answers the question 'Where is the lesion?'. It is based on mapping the patient's symptoms and signs to specific neural structures.",
+      "incorrect": {
+        "B": "Pathological diagnosis answers the question 'What is the lesion?' (e.g., is it a tumor, an infarct, or an infection?).",
+        "C": "This refers to the list of potential diseases or conditions that could cause the symptoms, generated after localization.",
+        "D": "This refers to identifying the cause or origin of the disease (e.g., viral, genetic, traumatic).",
+        "E": "This generally refers to the assessment of the patient's functional impairment (disability) rather than the anatomical location."
+      }
+    }
+  }
+]

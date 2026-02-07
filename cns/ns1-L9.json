@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "In a cross-section of the midbrain at the level of the superior colliculus, a specific nucleus is crucial for motor coordination. Damage to this structure, often combined with damage to the fascicles of CN III, results in 'Claude Syndrome'. Which structure is this?",
+    "choices": {
+      "A": "Substantia nigra",
+      "B": "Periaqueductal gray",
+      "C": "Red nucleus",
+      "D": "Inferior olivary nucleus",
+      "E": "Medial geniculate nucleus"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Claude Syndrome is a midbrain tegmentum lesion involving the Red Nucleus (causing contralateral cerebellar ataxia and tremor) and the fascicles of CN III (causing ipsilateral oculomotor palsy). The Red nucleus is prominent at the level of the superior colliculus.",
+      "incorrect": {
+        "A": "Substantia nigra contains dopaminergic neurons. Damage here leads to Parkinsonism or is associated with Weber Syndrome (if combined with CN III and Crus Cerebri), presenting with contralateral hemiparesis, not primarily ataxia.",
+        "B": "Periaqueductal gray (PAG) surrounds the cerebral aqueduct and is involved in pain modulation (descending analgesia). It is not the primary cause of the motor deficits in Claude syndrome.",
+        "D": "Inferior olivary nucleus is a large nucleus located in the medulla oblongata, not the midbrain.",
+        "E": "Medial geniculate nucleus (MGN) is part of the thalamus (diencephalon) and acts as the relay center for the auditory pathway."
+      }
+    }
+  },
+  {
+    "question": "A patient exhibits 'locked-in syndrome,' retaining only vertical eye movements and eyelid elevation. This condition implies a large infarction affecting the bilateral basilar pons. Which specific fiber tracts are interrupted to cause the quadriplegia in this patient?",
+    "choices": {
+      "A": "Spinothalamic tracts",
+      "B": "Rubrospinal tracts",
+      "C": "Corticospinal tracts",
+      "D": "Dorsal columns",
+      "E": "Medial longitudinal fasciculi"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The Corticospinal tracts descend through the ventral part of the pons (basis pontis). In Locked-in syndrome, a large infarction destroys the basis pontis bilaterally, interrupting voluntary motor output to the body (quadriplegia) and face (corticobulbar damage), sparing only vertical eye movements (controlled by the midbrain).",
+      "incorrect": {
+        "A": "Spinothalamic tracts carry pain and temperature sensation. They run in the tegmentum (posteriorly) and are typically spared in a pure basilar artery infarction, so sensation may remain intact.",
+        "B": "Rubrospinal tracts originate in the midbrain and are involved in flexor tone. They are not the primary pathway for voluntary movement, and their loss does not explain complete quadriplegia.",
+        "D": "Dorsal columns (medial lemniscus at this level) carry proprioception and vibration. They are located in the tegmentum and are usually spared.",
+        "E": "Medial longitudinal fasciculi (MLF) coordinate horizontal eye movements. While horizontal gaze is lost in pontine lesions, MLF damage causes INO, not quadriplegia."
+      }
+    }
+  },
+  {
+    "question": "A patient presents with weakness of the right arm and leg, and the tongue deviates to the left upon protrusion. Where is the lesion?",
+    "choices": {
+      "A": "Right Medial Medulla",
+      "B": "Left Pontine Base",
+      "C": "Left Medial Medulla",
+      "D": "Right Lateral Medulla",
+      "E": "Left Lateral Medulla"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "This is Medial Medullary Syndrome (Dejerine Syndrome). Left Tongue Deviation indicates a Lower Motor Neuron (LMN) lesion of the left Hypoglossal nerve (CN XII) or nucleus (tongue points toward the lesion). Right Hemiparesis indicates damage to the left Pyramid (Corticospinal tract) before the decussation, causing contralateral weakness.",
+      "incorrect": {
+        "A": "A right lesion would cause left hemiparesis and right tongue deviation.",
+        "B": "A pontine lesion would involve CN VI or VII (face/eye), not the tongue (CN XII).",
+        "D": "Lateral medullary lesions (Wallenberg) involve the spinothalamic tract and nucleus ambiguus, causing sensory loss and dysphagia, not hemiparesis or tongue deviation.",
+        "E": "Lateral medullary lesions (Wallenberg) involve the spinothalamic tract and nucleus ambiguus, causing sensory loss and dysphagia, not hemiparesis or tongue deviation."
+      }
+    }
+  },
+  {
+    "question": "You are examining a cross-section of the closed medulla. Which internal structure indicates that you are at the level of the sensory decussation?",
+    "choices": {
+      "A": "The facial colliculus",
+      "B": "The trapezoid body",
+      "C": "The olive (inferior olivary nucleus)",
+      "D": "The pyramidal decussation",
+      "E": "The internal arcuate fibers"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Internal arcuate fibers are the axons arising from the Nucleus Gracilis and Nucleus Cuneatus. They curve ventrally and cross the midline to form the contralateral Medial Lemniscus. This crossing is the sensory decussation.",
+      "incorrect": {
+        "A": "Facial colliculus is located in the dorsal pons (floor of the 4th ventricle).",
+        "B": "Trapezoid body is part of the auditory pathway located in the caudal pons.",
+        "C": "The olive is a prominent feature of the open medulla (rostral medulla), superior to the sensory decussation.",
+        "D": "Pyramidal decussation is the motor decussation, which occurs at the junction of the medulla and spinal cord, caudal (below) to the sensory decussation."
+      }
+    }
+  },
+  {
+    "question": "A patient has a lesion in the rostral pons. They present with ipsilateral ataxia and loss of pain/temperature sensation on the contralateral body. Which artery is most likely occluded?",
+    "choices": {
+      "A": "Anterior Spinal Artery (ASA)",
+      "B": "Posterior Inferior Cerebellar Artery (PICA)",
+      "C": "Posterior Cerebral Artery (PCA)",
+      "D": "Anterior Inferior Cerebellar Artery (AICA)",
+      "E": "Superior Cerebellar Artery (SCA)"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The SCA supplies the dorsolateral rostral pons and the superior surface of the cerebellum. Occlusion affects the Superior Cerebellar Peduncle (causing severe ipsilateral ataxia) and the Spinothalamic tract (causing contralateral pain/temp loss). Hearing is typically spared (unlike AICA).",
+      "incorrect": {
+        "A": "ASA supplies the medial medulla (Dejerine syndrome).",
+        "B": "PICA supplies the lateral medulla (Wallenberg syndrome).",
+        "C": "PCA supplies the midbrain and occipital lobe.",
+        "D": "AICA supplies the caudal lateral pons. While it causes ataxia and contralateral pain loss, it classically involves CN VII (facial weakness) and CN VIII (hearing loss), which are not mentioned here."
+      }
+    }
+  },
+  {
+    "question": "A 65-year-old male presents with sudden vertigo, vomiting, and dysphagia. Exam reveals right-sided facial analgesia (loss of pain), left-sided body analgesia, right Horner's syndrome, and ataxia falling to the right. Where is the lesion?",
+    "choices": {
+      "A": "Right Medial Medulla",
+      "B": "Right Lateral Pons",
+      "C": "Left Medial Pons",
+      "D": "Left Lateral Medulla",
+      "E": "Right Lateral Medulla"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "This is Right Lateral Medullary Syndrome (Wallenberg). Ipsilateral findings (Right) include facial pain loss (Spinal Trigeminal nucleus), Horner's (Sympathetic fibers), Ataxia (ICP), and Dysphagia (Nucleus Ambiguus). Contralateral findings (Left) include body pain loss (Spinothalamic tract). The side of the lesion corresponds to the ipsilateral face and Horner's signs.",
+      "incorrect": {
+        "A": "Medial medulla causes contralateral hemiparesis and tongue deviation.",
+        "B": "Lateral pons (AICA) would typically involve facial motor weakness (LMN VII) and hearing loss.",
+        "C": "Medial pons causes contralateral hemiparesis and INO/Gaze palsy.",
+        "D": "A Left Lateral Medulla lesion would cause Left facial signs and Right body sensory loss."
+      }
+    }
+  },
+  {
+    "question": "A patient has lost the ability to taste on the anterior two-thirds of their tongue. The lesion might involve the cell bodies in the Geniculate Ganglion or their central termination. Where do these taste fibers terminate in the brainstem?",
+    "choices": {
+      "A": "Nucleus Ambiguus",
+      "B": "Caudal portion of Nucleus Solitarius",
+      "C": "Rostral portion of Nucleus Solitarius",
+      "D": "Spinal Trigeminal Nucleus",
+      "E": "Superior Salivatory Nucleus"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The Nucleus Solitarius is divided functionally. The Rostral portion (Gustatory Nucleus) receives Special Visceral Afferent (SVA) taste fibers from CN VII, IX, and X.",
+      "incorrect": {
+        "A": "Nucleus Ambiguus provides Special Visceral Efferent (SVE) motor innervation to muscles of the pharynx and larynx.",
+        "B": "The Caudal portion of Nucleus Solitarius receives General Visceral Afferent (GVA) inputs from the cardiorespiratory and GI systems (CN IX, X).",
+        "D": "Spinal Trigeminal Nucleus receives pain and temperature sensation from the face (GSA).",
+        "E": "Superior Salivatory Nucleus provides parasympathetic (GVE) output to salivary/lacrimal glands."
+      }
+    }
+  },
+  {
+    "question": "A patient has hoarseness, dysphagia, and a diminished gag reflex. The uvula deviates to the left. Which side is the lesion on, and which nucleus is affected?",
+    "choices": {
+      "A": "Left Nucleus Ambiguus",
+      "B": "Left Hypoglossal Nucleus",
+      "C": "Right Dorsal Motor Nucleus of Vagus",
+      "D": "Right Nucleus Ambiguus",
+      "E": "Right Hypoglossal Nucleus"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The uvula deviates toward the healthy side because the palatal muscles on the intact side pull the uvula over. Uvula points Left means the Right side is weak/paralyzed. Palatal muscles are innervated by CN X (Vagus), originating from the Nucleus Ambiguus (SVE component).",
+      "incorrect": {
+        "A": "A left lesion would cause the uvula to deviate to the right.",
+        "B": "Hypoglossal nucleus lesions affect the tongue, not the uvula or voice.",
+        "C": "The Dorsal Motor Nucleus of Vagus provides parasympathetic innervation to the heart and gut (GVE), not skeletal motor innervation to the palate/larynx.",
+        "E": "Hypoglossal nucleus lesions affect the tongue, not the uvula or voice."
+      }
+    }
+  }
+]

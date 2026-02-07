@@ -1,1 +1,161 @@
-[]
+[
+  {
+    "question": "A patient presents with 'fluent' speech that is grammatically correct but meaningless (word salad). They cannot comprehend spoken language. Based on the pattern of deficits, which Brodmann area is most likely affected?",
+    "choices": {
+      "A": "Brodmann Area 44, 45",
+      "B": "Brodmann Area 39",
+      "C": "Brodmann Area 40",
+      "D": "Brodmann Area 17",
+      "E": "Brodmann Area 22"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Brodmann Area 22 corresponds to Wernicke's area (in the dominant hemisphere), which is the Word identification area or Auditory association area. Damage to this area causes Wernicke's (sensory) aphasia, characterized by 'fluent' speech that is meaningless (paraphasia) and poor comprehension of spoken language.",
+      "incorrect": {
+        "A": "This is Broca's area (motor speech area). Damage here causes non-fluent aphasia (Broca's aphasia), where the patient cannot speak fluently but comprehension is generally preserved.",
+        "B": "This is the Angular gyrus. It acts as a Word recognition center linking vision, sound, and touch. Damage here is often associated with Gerstmann's syndrome or reading/writing deficits (alexia/agraphia) rather than pure fluent aphasia.",
+        "C": "This is the Supramarginal gyrus. Like BA 39, it is part of the word recognition center but is not the primary site for auditory comprehension deficits seen in Wernicke's aphasia.",
+        "D": "This is the Primary visual cortex. Damage here causes cortical blindness or visual field defects (hemianopia), not language deficits."
+      }
+    }
+  },
+  {
+    "question": "Which white matter tract specifically connects the frontal and temporal lobes by sweeping around the insula, and is critical for the repetition of spoken words?",
+    "choices": {
+      "A": "Uncinate fasciculus",
+      "B": "Arcuate fasciculus",
+      "C": "Inferior longitudinal fasciculus",
+      "D": "Cingulum",
+      "E": "Superior longitudinal fasciculus"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The Arcuate fasciculus connects the Frontal and Temporal lobes by sweeping around the insula. It connects Wernicke's area (temporal) to Broca's area (frontal) and forms the Repetition circuit. Damage to this tract causes Conduction aphasia, where the patient cannot repeat words despite having fluent speech and good comprehension.",
+      "incorrect": {
+        "A": "This connects the Frontal and Temporal lobes (F-T) but is involved in emotional regulation and behavior, not specifically language repetition.",
+        "C": "This connects the Occipital and Temporal lobes (auditory-visual associations), not the frontal lobe for speech repetition.",
+        "D": "This is located in the cingulate gyrus and connects the cingulate cortex to the parahippocampal gyrus. It is part of the Papez circuit for memory, not language.",
+        "E": "This connects the Frontal, Parietal, and Occipital lobes (F-P-O), but the specific tract for repetition sweeping around the insula is the Arcuate fasciculus."
+      }
+    }
+  },
+  {
+    "question": "A patient exhibits urinary incontinence, apathy, and weakness primarily in the contralateral leg and foot. Which specific anatomical location is the lesion most likely affecting?",
+    "choices": {
+      "A": "Inferior frontal gyrus",
+      "B": "Postcentral gyrus",
+      "C": "Superior parietal lobule",
+      "D": "Lateral surface of the precentral gyrus",
+      "E": "Posterior paracentral lobule"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The paracentral lobule (specifically the anterior part for motor) on the medial side of the cerebral hemisphere corresponds to the leg and foot area of the motor homunculus. Additionally, the medial frontal lobe (especially the paracentral lobule) controls micturition (urination) and fecal continence; bilateral damage here leads to incontinence. The 'Medial frontal syndrome' is also characterized by apathy and akinesia.",
+      "incorrect": {
+        "A": "This area contains Broca's area (BA 44, 45) in the dominant hemisphere. Damage causes motor aphasia, not leg weakness or incontinence.",
+        "B": "This is the Primary somatosensory area (BA 3,1,2). Damage causes sensory loss (hypoesthesia), not motor weakness.",
+        "C": "This is the sensory association cortex (BA 5,7). Damage causes astereognosia or neglect, not motor weakness.",
+        "D": "The lateral surface of the primary motor cortex controls the face, hand, and upper extremity. The leg and foot are on the medial surface."
+      }
+    }
+  },
+  {
+    "question": "Which of the following structures is a commissural fiber that connects the two temporal lobes and is involved in the olfactory and limbic systems?",
+    "choices": {
+      "A": "Corpus callosum",
+      "B": "Hippocampal commissure",
+      "C": "Posterior commissure",
+      "D": "Anterior commissure",
+      "E": "Habenular commissure"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The Anterior commissure connects both temporal lobes and is involved in the olfactory and limbic systems.",
+      "incorrect": {
+        "A": "This is the main commissural fiber connecting the hemispheres. It has parts like the rostrum, genu, body, and splenium, but the specific connection for the temporal lobes/olfactory system described is the anterior commissure.",
+        "B": "This connects both the fornix and hippocampus (limbic system), not the temporal lobes generally for olfaction.",
+        "C": "This connects both pretectal nuclei and is involved in the consensual light reflex.",
+        "E": "This connects both habenular nuclei (olfaction) but does not connect the temporal lobes."
+      }
+    }
+  },
+  {
+    "question": "Which Brodmann Area (BA) corresponds to the Primary Visual Cortex located along the calcarine fissure?",
+    "choices": {
+      "A": "BA 17",
+      "B": "BA 41",
+      "C": "BA 19",
+      "D": "BA 39",
+      "E": "BA 18"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Brodmann Area 17 is the Primary visual cortex, located along the banks of the calcarine fissure.",
+      "incorrect": {
+        "B": "This is the Primary auditory cortex (Heschl's gyri).",
+        "C": "This is the Tertiary visual cortex (visual association area) involved in color, motion, and depth.",
+        "D": "This is the Angular gyrus (part of the parietal-temporal-occipital association cortex).",
+        "E": "This is the Secondary visual cortex (visual association area)."
+      }
+    }
+  },
+  {
+    "question": "You are examining a patient with 'Anosognosia' (unawareness of their own deficit) and 'Hemi-neglect'. In which lobe and hemisphere is the lesion most likely located?",
+    "choices": {
+      "A": "Non-dominant (Right) Frontal Lobe",
+      "B": "Non-dominant (Right) Parietal Lobe",
+      "C": "Dominant (Left) Temporal Lobe",
+      "D": "Dominant (Left) Parietal Lobe",
+      "E": "Dominant (Left) Occipital Lobe"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The Non-dominant cerebral hemisphere (Right side), specifically the Parietal lobe (Inferior parietal lobule), controls visuospatial analysis and spatial attention. Lesions here cause Hemi-neglect (neglecting the left side of the world/body) and Anosognosia (unawareness of the deficit).",
+      "incorrect": {
+        "A": "Lesions here might cause motor deficits or personality changes, but hemi-neglect is classically a parietal sign.",
+        "C": "This contains Wernicke's area; lesions cause aphasia.",
+        "D": "Lesions here (inferior parietal lobule) cause Gerstmann's syndrome (acalculia, agraphia, finger agnosia, left-right disorientation).",
+        "E": "Lesions here affect vision (hemianopia) or reading (alexia without agraphia if splenium is involved), not neglect."
+      }
+    }
+  },
+  {
+    "question": "The 'Orbitofrontal syndrome' is characterized clinically by which of the following sets of symptoms?",
+    "choices": {
+      "A": "Apathy, indifference, and poor abstract thought",
+      "B": "Akinesia, sparse verbal output, and urinary incontinence",
+      "C": "Disinhibition, emotional lability, and poor judgment",
+      "D": "Visual agnosia and prosopagnosia",
+      "E": "Fluent aphasia and poor comprehension"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Orbitofrontal syndrome is caused by damage to the orbitofrontal cortex. The clinical features include disinhibition (inability to suppress impulses), emotional lability (mood swings), and poor judgment.",
+      "incorrect": {
+        "A": "This describes Frontal convexity syndrome (damage to the prefrontal cortex/lateral surface).",
+        "B": "This describes Medial frontal syndrome.",
+        "D": "These are associated with lesions in the occipital or temporal lobes (fusiform gyrus for prosopagnosia).",
+        "E": "This describes Wernicke's aphasia (Temporal lobe lesion)."
+      }
+    }
+  },
+  {
+    "question": "A patient arrives in a coma. Examination reveals a 'stiff neck' and the patient does not open eyes to pain (E2). This suggests a structural pathology. Which structure, if compressed by herniation, would directly lead to this loss of consciousness?",
+    "choices": {
+      "A": "Occipital Pole",
+      "B": "Medulla Oblongata",
+      "C": "Frontal Pole",
+      "D": "Cerebellum",
+      "E": "Reticular Formation"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Consciousness depends on the Ascending Reticular Activating System (ARAS), which is located in the Reticular Formation of the upper brainstem (midbrain, upper pons) and diencephalon. Compression of these structures (e.g., by herniation or a mass) disrupts the level of consciousness, leading to coma. The case scenario described (Coma, E2M5V2, stiff neck) implies a severe intracranial event affecting the arousal system.",
+      "incorrect": {
+        "A": "Damage to the poles alone generally affects specific functions (vision, personality) but does not cause coma unless the lesion is large enough to compress the brainstem/ARAS.",
+        "B": "While vital centers (respiration, cardiac) are here, the primary system for alertness/consciousness (ARAS) is located more rostrally in the upper pons and midbrain.",
+        "D": "A cerebellar lesion causes ataxia. It causes coma only if it expands and compresses the brainstem (ARAS). The direct cause of the coma is the compression of the ARAS, not the cerebellum itself."
+      }
+    }
+  }
+]

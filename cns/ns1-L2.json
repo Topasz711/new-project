@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "question": "A tissue sample from the central nervous system is stained with a heavy metal impregnation method. You observe large, flask-shaped neuronal cell bodies arranged in a single row. Their elaborate, fan-like dendritic trees extend into a superficial molecular layer. What is the primary function of these specific cells within their neural circuit?",
+    "choices": {
+      "A": "Myelination of central axons",
+      "B": "Inhibitory output from the cerebellar cortex",
+      "C": "Sensory transduction of vestibular signals",
+      "D": "Excitatory relay to the thalamus",
+      "E": "Production of cerebrospinal fluid"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The cell described is the Purkinje cell, a hallmark of the cerebellar cortex. Histological Clues: The 'flask-shaped' cell bodies arranged in a 'single row' (the Purkinje cell layer) and the 'elaborate, fan-like dendritic trees' extending into the molecular layer are unique structural features of Purkinje cells. Function: Purkinje cells are the sole output neurons of the cerebellar cortex. They use the neurotransmitter GABA to send inhibitory signals to the deep cerebellar nuclei, thereby regulating motor coordination.",
+      "incorrect": {
+        "A": "This is the function of Oligodendrocytes.",
+        "C": "This refers to hair cells in the inner ear or bipolar neurons in the vestibular ganglion, not Purkinje cells.",
+        "D": "This describes neurons in the sensory pathways or deep cerebellar nuclei (which Purkinje cells inhibit), but Purkinje cells themselves are inhibitory.",
+        "E": "This is the function of Ependymal cells (specifically in the choroid plexus)."
+      }
+    }
+  },
+  {
+    "question": "In the 'metaphor' of the neuron's delivery system, the axon hillock is the 'decision point'. If the 'decision' (Action Potential) is made, it must be transmitted. Which structure acts as the 'insulation tape' to ensure this transmission is fast, and which cell applies it in the PNS?",
+    "choices": {
+      "A": "Axolemma; Satellite Cell",
+      "B": "Perineurium; Fibroblast",
+      "C": "Endoneurium; Schwann Cell",
+      "D": "Myelin Sheath; Oligodendrocyte",
+      "E": "Myelin Sheath; Schwann Cell"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Structure: The Myelin Sheath acts as the electrical insulation for axons, preventing charge leakage and allowing for rapid 'saltatory conduction' (jumping from node to node). Cell Type: In the Peripheral Nervous System (PNS), the cell responsible for producing this myelin is the Schwann Cell. A single Schwann cell wraps around a single segment of an axon.",
+      "incorrect": {
+        "A": "The axolemma is the cell membrane of the axon itself, not the insulation. Satellite cells support neuron cell bodies in ganglia, they do not myelinate axons.",
+        "B": "Perineurium is a connective tissue sheath bundling nerve fascicles, not the axonal insulation.",
+        "C": "Endoneurium is the connective tissue surrounding the nerve fiber, not the myelin sheath itself.",
+        "D": "While Oligodendrocytes do produce myelin, they function exclusively in the Central Nervous System (CNS), not the PNS."
+      }
+    }
+  },
+  {
+    "question": "A patient with a suspected viral infection of the brain (Encephalitis) shows signs of neuronal damage. The virus (e.g., Herpes/Rabies) likely reached the neuronal soma from the periphery by hijacking a specific intracellular transport mechanism. Which mechanism is this?",
+    "choices": {
+      "A": "Saltatory conduction",
+      "B": "Anterograde transport via Kinesin",
+      "C": "Passive diffusion through the axoplasm",
+      "D": "Transport via the bloodstream and crossing the BBB",
+      "E": "Retrograde transport via Dynein"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Mechanism: To get from the peripheral nerve terminal (where the virus enters, e.g., from a bite or skin lesion) back to the cell body (soma) in the CNS, the virus must travel 'backwards' up the axon. This direction is called Retrograde transport. Motor Protein: The molecular motor responsible for retrograde transport along microtubules is Dynein. The text explicitly mentions that Dynein carries 'pathogens (e.g., herpes, rabies)'.",
+      "incorrect": {
+        "A": "Saltatory conduction is the propagation of electrical signals (Action Potentials), not the physical transport of materials or viruses.",
+        "B": "Anterograde transport moves materials from the soma out to the axon terminal (using Kinesin). This is the opposite direction of what the virus needs to reach the CNS from the periphery.",
+        "C": "Diffusion is far too slow to transport materials over the long distances of an axon.",
+        "D": "While some viruses cross the BBB, neurotropic viruses like Rabies specifically use axonal transport to bypass the bloodstream and the BBB initially."
+      }
+    }
+  },
+  {
+    "question": "A patient has a mutation affecting the 'tight junctions' between endothelial cells. In the nervous system, this would most critically compromise the function of which structure, and which glial cell normally supports it?",
+    "choices": {
+      "A": "Choroid Plexus; Microglia",
+      "B": "Blood-Nerve Barrier; Schwann Cell",
+      "C": "Blood-Brain Barrier; Astrocyte",
+      "D": "Synapse; Satellite Cell",
+      "E": "Myelin Sheath; Oligodendrocyte"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Structure: The Blood-Brain Barrier (BBB) is structurally formed by the tight junctions between the endothelial cells of brain capillaries. These junctions prevent the free leakage of substances from the blood into the brain. Supporting Cell: Astrocytes extend specialized processes called 'end-feet' that surround these capillaries. They are critical for inducing and maintaining these tight junctions and thus the integrity of the BBB.",
+      "incorrect": {
+        "A": "The Choroid Plexus forms the Blood-CSF barrier (using ependymal cells), and Microglia are immune cells, not barrier-maintenance cells.",
+        "B": "The Blood-Nerve barrier is formed by the perineurium, not primarily supported by Schwann cells in this context.",
+        "D": "Satellite cells function in ganglia (PNS), and while they support neurons, the description of 'endothelial tight junctions' specifically points to the vascular barriers like the BBB.",
+        "E": "Oligodendrocytes form myelin, which insulates axons; they do not form the blood-brain barrier."
+      }
+    }
+  }
+]

@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "question": "Identify the ion channel behavior responsible for the repolarization phase of an action potential.",
+    "choices": {
+      "A": "Closing of voltage-gated K+ channels",
+      "B": "Opening of voltage-gated Na+ channels",
+      "C": "Closing of voltage-gated Na+ channels",
+      "D": "Opening of voltage-gated K+ channels",
+      "E": "Inactivation of leak K+ channels"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The repolarization phase is primarily driven by the opening of voltage-gated K+ channels. As these channels open, potassium ions (K+) flow out of the cell (efflux) down their electrochemical gradient, returning the membrane potential toward the negative resting state.",
+      "incorrect": {
+        "A": "Closing of these channels occurs at the end of the repolarization/hyperpolarization phase, not during the falling phase itself.",
+        "B": "Opening of voltage-gated Na+ channels is responsible for the depolarization phase (rising phase).",
+        "C": "While voltage-gated Na+ channels do inactivate (close) at the peak of the action potential, this alone stops depolarization but does not actively drive the rapid repolarization without K+ efflux.",
+        "E": "Leak K+ channels differ from voltage-gated channels and are primarily responsible for maintaining the resting membrane potential, not the dynamic changes of the action potential."
+      }
+    }
+  },
+  {
+    "question": "Which protein structure is responsible for the 'absolute' nature of the absolute refractory period?",
+    "choices": {
+      "A": "The voltage sensor of the Ca2+ channel",
+      "B": "The activation gate of the K+ channel",
+      "C": "The Na+-K+ ATPase pump",
+      "D": "The inactivation gate of the Na+ channel",
+      "E": "The ligand-binding domain of the postsynaptic receptor"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The absolute refractory period is the time during which a second action potential cannot be initiated, no matter how strong the stimulus. This occurs because the inactivation gates of the voltage-gated Na+ channels are closed and the channels are in an 'inactivated' state. They cannot be reset to the 'closed but ready' state until the membrane repolarizes.",
+      "incorrect": {
+        "A": "Voltage-gated Ca2+ channels are involved in neurotransmitter release at the terminal, not the refractory period of the axon.",
+        "B": "The kinetics of K+ channels contribute to the relative refractory period (hyperpolarization), but not the absolute refractory period.",
+        "C": "The Na+-K+ pump restores ion gradients over the long term but is not involved in the millisecond-scale timing of the refractory period.",
+        "E": "This structure is involved in receiving signals at the synapse, not in the propagation or refractory properties of the action potential."
+      }
+    }
+  },
+  {
+    "question": "If the concentration of extracellular Potassium (K+) increases (Hyperkalemia), how does this affect the Resting Membrane Potential (RMP) based on the Nernst relationship?",
+    "choices": {
+      "A": "The Na+ channels become permanently inactivated immediately.",
+      "B": "The RMP becomes more negative (hyperpolarized).",
+      "C": "The RMP becomes less negative (depolarized).",
+      "D": "The RMP remains unchanged as K+ is not the main ion.",
+      "E": "The membrane becomes impermeable to K+."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "According to the Nernst equation, the equilibrium potential for potassium (Ek) depends on the ratio of intracellular to extracellular K+. Increasing extracellular K+ decreases the concentration gradient for K+ to leave the cell. This makes the equilibrium potential less negative, causing the Resting Membrane Potential (RMP) to depolarize (become less negative).",
+      "incorrect": {
+        "A": "While severe depolarization can lead to Na+ channel inactivation (depolarization block), the primary and immediate effect described by the Nernst relationship is the change in potential (depolarization).",
+        "B": "This would occur if extracellular K+ decreased (Hypokalemia).",
+        "D": "K+ is the primary ion determining RMP due to high resting permeability.",
+        "E": "Hyperkalemia does not change the membrane's permeability to K+, but rather the electrochemical driving force."
+      }
+    }
+  },
+  {
+    "question": "A patient reports severe migraines. Based on the provided text, a deficiency or dysfunction in which neurotransmitter system is implicated, and what class of drugs (Agonists/Antagonists) would be used to treat the acute attack?",
+    "choices": {
+      "A": "Acetylcholine; ACh Inhibitors.",
+      "B": "Serotonin; 5-HT Agonists.",
+      "C": "Dopamine; Dopamine Antagonists.",
+      "D": "GABA; GABA Agonists.",
+      "E": "Glutamate; NMDA Antagonists."
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Migraines are associated with a decrease in Serotonin (5-HT) levels, which leads to vasodilation and pain sensitization. Therefore, 5-HT Agonists (such as Triptans) are used to treat acute attacks by stimulating 5-HT receptors to cause vasoconstriction and inhibit pain pathways.",
+      "incorrect": {
+        "A": "Acetylcholine is primarily involved in muscle contraction and autonomic functions, not the primary target for acute migraine relief.",
+        "C": "Dopamine antagonists are sometimes used as adjuncts for nausea, but the primary pathophysiology involves serotonin.",
+        "D": "GABA medications are often used for seizure prophylaxis or anxiety, not typically for acute migraine abortion.",
+        "E": "Glutamate antagonists are not the standard first-line treatment for acute migraine attacks."
+      }
+    }
+  }
+]

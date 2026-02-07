@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "question": "Which component of the ventricular system is located between the thalamus and the hypothalamus, bounded laterally by these structures?",
+    "choices": {
+      "A": "Cerebral aqueduct",
+      "B": "Cisterna magna",
+      "C": "Fourth ventricle",
+      "D": "Third ventricle",
+      "E": "Lateral ventricle"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The third ventricle is a midline, slit-like cavity derived from the diencephalon. As detailed in the lecture notes, its lateral walls are bounded superiorly by the thalamus and inferiorly by the hypothalamus.",
+      "incorrect": {
+        "A": "This is a narrow channel that connects the third ventricle to the fourth ventricle. It runs through the midbrain, not between the thalamus and hypothalamus.",
+        "B": "This is not a ventricle but a subarachnoid cistern (an enlargement of the subarachnoid space) located between the cerebellum and the medulla.",
+        "C": "This ventricle is located between the brainstem (pons and medulla) anteriorly and the cerebellum posteriorly.",
+        "E": "These are paired C-shaped cavities located within the cerebral hemispheres (telencephalon), connected to the third ventricle via the interventricular foramen."
+      }
+    }
+  },
+  {
+    "question": "Which structure connects the third ventricle to the fourth ventricle?",
+    "choices": {
+      "A": "Cerebral aqueduct (of Sylvius)",
+      "B": "Median aperture (of Magendie)",
+      "C": "Interventricular foramen (of Monro)",
+      "D": "Lateral aperture (of Luschka)",
+      "E": "Central canal"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The cerebral aqueduct is the narrow channel passing through the midbrain that specifically connects the third ventricle to the fourth ventricle.",
+      "incorrect": {
+        "B": "This is an opening in the roof of the fourth ventricle that allows cerebrospinal fluid (CSF) to flow from the fourth ventricle into the subarachnoid space (specifically the cisterna magna), not back to the third ventricle.",
+        "C": "This structure connects the lateral ventricles to the third ventricle.",
+        "D": "Like the median aperture, these are paired openings in the fourth ventricle that drain CSF into the subarachnoid space.",
+        "E": "This is the caudal continuation of the ventricular system that extends from the fourth ventricle down into the spinal cord."
+      }
+    }
+  },
+  {
+    "question": "A neurosurgeon is operating on a tumor located in the cerebellomedullary angle. To access the area, they open a specific subarachnoid cistern located between the cerebellum and the dorsal surface of the medulla oblongata. What is this cistern?",
+    "choices": {
+      "A": "Quadrigeminal cistern",
+      "B": "Interpeduncular cistern",
+      "C": "Cisterna magna",
+      "D": "Chiasmatic cistern",
+      "E": "Pontine cistern"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Also known as the cerebellomedullary cistern, this is the largest subarachnoid cistern. It is located in the space between the inferior surface of the cerebellum and the dorsal surface of the medulla oblongata.",
+      "incorrect": {
+        "A": "Also known as the cisterna ambiens, this is located posterior to the midbrain (colliculi) and superior to the cerebellum, not at the medullary level.",
+        "B": "This cistern is located on the ventral surface of the midbrain, between the cerebral peduncles.",
+        "D": "This cistern is located around the optic chiasm, anterior to the interpeduncular cistern.",
+        "E": "This is located on the ventral aspect of the pons (prepontine), not between the cerebellum and medulla."
+      }
+    }
+  },
+  {
+    "question": "A patient suffers a traumatic head injury resulting in the rupture of the 'bridging veins'. These veins drain blood from the cerebral cortex into the superior sagittal sinus. In which anatomical space does the blood accumulate?",
+    "choices": {
+      "A": "Intraventricular space",
+      "B": "Subpial space",
+      "C": "Subarachnoid space",
+      "D": "Subdural space",
+      "E": "Epidural space"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The 'bridging veins' traverse the potential space between the dura mater and the arachnoid mater (the subdural space) to reach the dural venous sinuses. Rupture of these veins (often from shaking or trauma) causes blood to accumulate in the subdural space, leading to a subdural hematoma.",
+      "incorrect": {
+        "A": "This refers to bleeding inside the ventricles, often associated with intracerebral hemorrhage or trauma, but not specifically the rupture of surface bridging veins.",
+        "B": "This is the space below the pia mater, which is firmly adherent to the brain surface; it is not a common site for traumatic hematomas of this nature.",
+        "C": "Bleeding here (subarachnoid hemorrhage) is typically caused by the rupture of an arterial aneurysm (e.g., Circle of Willis) or trauma damaging cortical arteries, not bridging veins.",
+        "E": "An epidural hematoma is usually caused by a skull fracture rupturing the middle meningeal artery, resulting in blood accumulation between the skull and the dura mater."
+      }
+    }
+  }
+]

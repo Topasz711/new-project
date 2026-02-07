@@ -1,1 +1,122 @@
-[]
+[
+  {
+    "question": "A patient presents with a loss of proprioception and vibration sense in the lower limbs. MRI reveals a lesion affecting a specific ascending tract in the posterior funiculus. Considering the somatotopic organization, which structure is most likely affected and at what spinal level could this lesion theoretically occur?",
+    "choices": {
+      "A": "Fasciculus cuneatus, below T6",
+      "B": "Fasciculus gracilis, below T6",
+      "C": "Fasciculus cuneatus, above T6",
+      "D": "Lateral spinothalamic tract, any level",
+      "E": "Anterior corticospinal tract, cervical level"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The posterior (dorsal) white column consists of two main tracts: the Fasciculus gracilis and the Fasciculus cuneatus. The Fasciculus gracilis carries sensory information (proprioception, vibration, two-point discrimination) from the lower limbs and trunk (specifically from spinal levels T6 and below). Therefore, a lesion here would cause the symptoms described in the lower limbs.",
+      "incorrect": {
+        "A": "The Fasciculus cuneatus is present only from segments T6 and above (specifically C1-T6) and carries information from the upper limbs and upper trunk. A lesion here would affect the upper body, not the lower limbs.",
+        "C": "The Fasciculus cuneatus is present only from segments T6 and above (specifically C1-T6) and carries information from the upper limbs and upper trunk. A lesion here would affect the upper body, not the lower limbs.",
+        "D": "The Lateral spinothalamic tract is part of the anterolateral system and is responsible for transmitting pain and temperature, not proprioception and vibration.",
+        "E": "The Anterior corticospinal tract is a descending motor pathway, not a sensory tract. A lesion here would cause motor deficits, not sensory loss."
+      }
+    }
+  },
+  {
+    "question": "You are examining a cross-section of the spinal cord. You observe a distinct lateral horn, slender dorsal horns, and a relatively small amount of gray matter compared to white matter. Based on these morphological patterns, which spinal segments could this section represent?",
+    "choices": {
+      "A": "T1 - L2",
+      "B": "S2 - S4",
+      "C": "C1 - C4",
+      "D": "L4 - S1",
+      "E": "C5 - T1"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The thoracic and upper lumbar segments (T1-L2) are morphologically distinct. They feature a Lateral horn (containing sympathetic preganglionic neurons), slender H-shaped gray matter, and a relatively small amount of gray matter compared to the large amount of white matter.",
+      "incorrect": {
+        "B": "While S2-S4 also contains autonomic neurons (parasympathetic), the sacral level is characterized by massive ventral and dorsal horns and very little white matter (Gray matter > White matter).",
+        "C": "Cervical segments (C1-C8) are oval-shaped and have massive ventral and dorsal horns (especially in the enlargement C5-C8) to innervate the upper limbs. They do not typically have a prominent lateral horn like the thoracic segments.",
+        "D": "The lumbar enlargement segments (L4-S1) have massive dorsal and ventral horns to innervate the lower limbs and do not match the 'slender' description.",
+        "E": "Cervical segments (C1-C8) are oval-shaped and have massive ventral and dorsal horns (especially in the enlargement C5-C8) to innervate the upper limbs. They do not typically have a prominent lateral horn like the thoracic segments."
+      }
+    }
+  },
+  {
+    "question": "Consider the Nucleus Dorsalis (Clarke's Nucleus). At which spinal levels is this nucleus primarily located, and which tract originates from it?",
+    "choices": {
+      "A": "L4-S3; Fasciculus Gracilis",
+      "B": "T1-L2; Lateral Spinothalamic Tract",
+      "C": "S2-S4; Ventral Corticospinal Tract",
+      "D": "C8-L3; Posterior Spinocerebellar Tract",
+      "E": "C1-C7; Anterior Spinocerebellar Tract"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The Nucleus Dorsalis (of Clarke) is located at the base of the dorsal horn and extends from segments C8 (or T1) to L3 (or L4). It receives unconscious proprioceptive input and its axons form the Posterior (dorsal) Spinocerebellar tract.",
+      "incorrect": {
+        "A": "Fasciculus gracilis is a tract in the white matter, not originating from Clarke's nucleus (which is gray matter).",
+        "B": "The Lateral Spinothalamic tract originates from the Substantia Gelatinosa and Nucleus Proprius/Laminae I, IV, V mainly for pain and temp.",
+        "C": "S2-S4 contains the parasympathetic nuclei (Intermediomedial nucleus), not Clarke's nucleus.",
+        "E": "The Anterior Spinocerebellar tract originates from Laminae V, VI, and VII, not primarily from a specific column restricted like Clarke's, and C1-C7 is the cervical level where Clarke's is mostly absent (except C8)."
+      }
+    }
+  },
+  {
+    "question": "Which of the following correctly pairs a spinal cord level with its corresponding bony vertebral level in an adult?",
+    "choices": {
+      "A": "All spinal cord segments align perfectly with their corresponding vertebrae.",
+      "B": "Lower cervical spinal cord segments lie adjacent to the same numbered vertebrae.",
+      "C": "The sacral spinal segments are found at the level of the sacrum.",
+      "D": "The L5 spinal cord segment is found at the level of the L5 vertebra.",
+      "E": "The lumbar spinal cord segments (L1-L5) roughly correspond to the T10-T11 vertebrae."
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Due to the differential growth of the spinal cord and vertebral column, the spinal cord is shorter. The Lumbar spinal segments (L1-L5) are shifted upwards and are located approximately at the level of the T10-T11 vertebrae.",
+      "incorrect": {
+        "A": "They do not align perfectly; the spinal cord ends at L1-L2 vertebrae.",
+        "B": "Lower cervical segments (C6-C8) are located one vertebra above their corresponding vertebral number (e.g., C8 segment is at C7 vertebra).",
+        "C": "Sacral spinal segments (S1-S5) are located at the level of T12-L1 vertebrae, not at the sacrum.",
+        "D": "The L5 spinal cord segment is located much higher (around T11) than the L5 vertebra."
+      }
+    }
+  },
+  {
+    "question": "Identify the structure that acts as a triangular extension of the pia mater, anchoring the spinal cord laterally to the dura mater.",
+    "choices": {
+      "A": "Conus medullaris",
+      "B": "Cauda equina",
+      "C": "Denticulate ligament",
+      "D": "Arachnoid trabeculae",
+      "E": "Filum terminale"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The Denticulate ligaments are triangular, saw-toothed extensions of the pia mater that attach laterally to the dura mater. They function to anchor and stabilize the spinal cord within the dural sheath.",
+      "incorrect": {
+        "A": "The Conus medullaris is the conical termination/end of the spinal cord itself.",
+        "B": "The Cauda equina is the collection of nerve roots (L2 to Coccygeal) extending below the conus medullaris.",
+        "D": "Arachnoid trabeculae are delicate strands within the subarachnoid space, but the primary lateral anchor described is the denticulate ligament.",
+        "E": "The Filum terminale anchors the spinal cord vertically from the conus medullaris to the coccyx, not laterally."
+      }
+    }
+  },
+  {
+    "question": "Rexed Lamina IX in the ventral horn is organized somatotopically. Where are the motor neurons controlling the 'Distal' muscles of the limbs located within the ventral horn?",
+    "choices": {
+      "A": "Lateral group",
+      "B": "Central group",
+      "C": "Dorsal horn",
+      "D": "Medial group",
+      "E": "Intermediate zone"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The Lateral group of the ventral horn (Lamina IX) is present in the cervical and lumbar enlargements and innervates the muscles of the limbs. Within this lateral group, there is a somatotopic organization where neurons controlling distal muscles (like the hand or foot) are located more laterally than those controlling proximal muscles.",
+      "incorrect": {
+        "B": "The Central group contains specific nuclei like the Phrenic nucleus (diaphragm) and Spinal accessory nucleus.",
+        "C": "The Dorsal horn contains sensory neurons (Laminae I-VI), not motor neurons.",
+        "D": "The Medial group innervates the axial muscles (neck and trunk).",
+        "E": "The Intermediate zone (Lamina VII) contains interneurons and autonomic neurons, not the somatic motor neurons for limb muscles."
+      }
+    }
+  }
+]

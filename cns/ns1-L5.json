@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "A 3rd-year medical student is examining a histological slide of the eyelid. They identify a gland located within the tarsal plate that secretes an oily substance to prevent tear evaporation. If this gland becomes obstructed and chronically inflamed, resulting in a painless nodule, which structure is primarily involved?",
+    "choices": {
+      "A": "Glands of Moll",
+      "B": "Accessory lacrimal glands of Krause",
+      "C": "Glands of Zeis",
+      "D": "Goblet cells of the conjunctiva",
+      "E": "Meibomian glands"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The Meibomian glands (or tarsal glands) are sebaceous glands embedded directly within the tarsal plate. They secrete an oily layer (sebum) that forms the outer layer of the tear film to prevent evaporation. Obstruction and chronic inflammation of these glands lead to a Chalazion (a painless nodule or Meibomian cyst), which matches the clinical description.",
+      "incorrect": {
+        "A": "These are apocrine sweat glands located near the eyelash follicles. They are not located within the tarsal plate.",
+        "B": "These are located in the fornix of the lacrimal sac and secrete the watery (serous) layer of tears, not the oily layer.",
+        "C": "These are sebaceous glands associated with the eyelashes (not the tarsal plate). Infection here causes a Hordeolum (Stye), which is typically painful.",
+        "D": "These cells are found in the stratified columnar epithelium of the conjunctiva and secrete the mucous layer of the tear film."
+      }
+    }
+  },
+  {
+    "question": "A patient presents with 'tunnel vision' and elevated intraocular pressure. The ophthalmologist suspects a blockage in the drainage of aqueous humor. This fluid, produced by the non-pigmented ciliary epithelium, normally drains directly into which structure after passing through the trabecular meshwork?",
+    "choices": {
+      "A": "Choroidal stroma",
+      "B": "Lacrimal sac",
+      "C": "Posterior chamber",
+      "D": "Vitreous chamber",
+      "E": "Canal of Schlemm"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Aqueous humor is secreted into the posterior chamber, flows through the pupil to the anterior chamber, and drains through the trabecular meshwork at the iridocorneal angle. From the trabecular meshwork, it drains directly into the Canal of Schlemm (scleral venous sinus) to enter the venous circulation. Blockage here causes Glaucoma.",
+      "incorrect": {
+        "A": "This is the vascular layer of the eye (uvea), not the primary drainage route for aqueous humor.",
+        "B": "This structure drains tears from the eye surface into the nasolacrimal duct, not aqueous humor from inside the eye.",
+        "C": "This is where aqueous humor is secreted by the ciliary processes, not where it drains out of the eye.",
+        "D": "This contains the vitreous body and is located posterior to the lens; aqueous humor circulates in the anterior/posterior chambers."
+      }
+    }
+  },
+  {
+    "question": "A patient presents with a 'down and out' gaze of the right eye, ptosis, and a dilated pupil. You suspect a lesion of the Oculomotor nerve. In a healthy eye, the parasympathetic fibers carried by this nerve synapse in a ganglion before supplying which muscle?",
+    "choices": {
+      "A": "Dilator pupillae",
+      "B": "Lateral rectus",
+      "C": "Superior tarsal muscle",
+      "D": "Levator palpebrae superioris",
+      "E": "Ciliary muscle"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The Oculomotor nerve (CN III) carries presynaptic parasympathetic fibers to the Ciliary ganglion. After synapsing, the postsynaptic fibers supply the Sphincter pupillae (constricts pupil) and the Ciliary muscle (accommodation). Therefore, the ciliary muscle is a direct target of these fibers.",
+      "incorrect": {
+        "A": "This muscle is supplied by sympathetic fibers (from the internal carotid plexus), not parasympathetic fibers from CN III.",
+        "B": "This muscle is innervated by the Abducent nerve (CN VI).",
+        "C": "This is a smooth muscle supplied by sympathetic fibers. Loss of this supply causes partial ptosis (Horner's syndrome).",
+        "D": "This is a skeletal muscle innervated by the somatic motor component of the Oculomotor nerve (CN III), not the parasympathetic component."
+      }
+    }
+  },
+  {
+    "question": "In the context of eye movements, if the Right Superior Rectus muscle contracts, it primarily elevates the eye. However, because its origin is medial to the visual axis, it also has secondary actions. What are the complete actions of the Superior Rectus?",
+    "choices": {
+      "A": "Depression, Adduction, Extorsion",
+      "B": "Depression, Abduction, Intorsion",
+      "C": "Elevation, Abduction, Extorsion",
+      "D": "Elevation, Adduction, Extorsion",
+      "E": "Elevation, Adduction, Intorsion"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The Superior Rectus inserts on the sclera superiorly. Its primary action is Elevation. Because the muscle pulls from the apex (medial) towards the eye, it also pulls the eye medially (Adduction) and rotates the top of the eyeball medially (Intorsion or medial rotation).",
+      "incorrect": {
+        "A": "The Superior Rectus elevates the eye, it does not depress it (Depression is the action of the Inferior Rectus and Superior Oblique).",
+        "B": "See above regarding depression.",
+        "C": "The Superior Rectus adducts, it does not abduct (Abduction is the action of Lateral Rectus, Superior Oblique, and Inferior Oblique).",
+        "D": "The Superior Rectus intorts, it does not extort (Extorsion is the action of the Inferior Rectus and Inferior Oblique)."
+      }
+    }
+  },
+  {
+    "question": "A 50-year-old man complains of dizziness and vertigo. The physician suspects an issue with the linear acceleration receptors in the inner ear. These receptors are located in the maculae of the utricle and saccule. What is the specific characteristic of the gelatinous layer overlying these receptors?",
+    "choices": {
+      "A": "It forms a dome-shaped cupula blocking the endolymph flow.",
+      "B": "It is suspended in perilymph within the bony labyrinth.",
+      "C": "It is attached directly to the tectorial membrane.",
+      "D": "It contains the stria vascularis producing endolymph.",
+      "E": "It contains calcium carbonate crystals called otoliths."
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The maculae of the utricle and saccule (vestibular receptors for linear acceleration/gravity) consist of hair cells covered by an otolithic membrane. This gelatinous layer contains calcium carbonate crystals known as otoliths (or otoconia), which provide the mass/inertia required to detect gravity and linear movement.",
+      "incorrect": {
+        "A": "The dome-shaped cupula is found in the crista ampullaris of the semicircular ducts (detecting angular rotation), not in the maculae.",
+        "B": "The maculae are part of the membranous labyrinth and are surrounded by endolymph, not perilymph.",
+        "C": "The tectorial membrane is part of the Spiral Organ (Organ of Corti) in the cochlea for hearing, not the vestibular system.",
+        "D": "The stria vascularis is located in the lateral wall of the cochlear duct and produces endolymph."
+      }
+    }
+  },
+  {
+    "question": "Following a viral infection, a patient develops paralysis of the Stapedius muscle. As a result, they complain of hyperacusis (increased sensitivity to loud sounds). Which wall of the tympanic cavity contains the pyramidal eminence from which this muscle originates?",
+    "choices": {
+      "A": "Lateral (Membranous) wall",
+      "B": "Anterior (Carotid) wall",
+      "C": "Medial (Labyrinthine) wall",
+      "D": "Roof (Tegmental wall)",
+      "E": "Posterior (Mastoid) wall"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The Posterior wall (Mastoid wall) of the tympanic cavity features the pyramidal eminence, a bony projection that houses the Stapedius muscle. This wall also contains the aditus to the mastoid antrum.",
+      "incorrect": {
+        "A": "This is the membranous wall formed mainly by the tympanic membrane.",
+        "B": "This is the Carotid wall, containing the opening of the pharyngotympanic (auditory) tube and the carotid canal.",
+        "C": "This is the Labyrinthine wall, featuring the promontory, oval window, and round window.",
+        "D": "This is the Tegmental wall (tegmen tympani), which separates the middle ear from the middle cranial fossa."
+      }
+    }
+  },
+  {
+    "question": "Which of the following structures in the vestibule contains the hair cells responsible for detecting vertical linear acceleration (like riding an elevator)?",
+    "choices": {
+      "A": "Crista ampullaris of the posterior canal",
+      "B": "Spiral ganglion",
+      "C": "Organ of Corti",
+      "D": "Macula of the Utricle",
+      "E": "Macula of the Saccule"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The Macula of the Saccule is oriented vertically and is specifically responsible for detecting vertical (up and down) acceleration, such as movement in an elevator.",
+      "incorrect": {
+        "A": "These are located in the semicircular ducts and detect angular (rotational) acceleration, not linear acceleration.",
+        "B": "This contains the cell bodies of the auditory nerve fibers, not vestibular hair cells.",
+        "C": "This is the sensory organ for hearing located in the cochlear duct.",
+        "D": "This is oriented horizontally and detects horizontal acceleration (e.g., moving in a car)."
+      }
+    }
+  },
+  {
+    "question": "The tensor tympani muscle dampens the vibration of the malleus. It is derived from the first pharyngeal arch. Therefore, it is innervated by a branch of which nerve?",
+    "choices": {
+      "A": "Facial nerve (CN VII)",
+      "B": "Vagus nerve (CN X)",
+      "C": "Accessory nerve (CN XI)",
+      "D": "Trigeminal nerve (V3)",
+      "E": "Glossopharyngeal nerve (CN IX)"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The Tensor tympani muscle is embryologically derived from the 1st Pharyngeal Arch. All muscles derived from the 1st arch (including the muscles of mastication, mylohyoid, anterior belly of digastric, tensor veli palatini, and tensor tympani) are innervated by the Mandibular division of the Trigeminal nerve (CN V3). Specifically, the nerve to the medial pterygoid usually branches to supply the tensor tympani.",
+      "incorrect": {
+        "A": "This nerve supplies derivatives of the 2nd Pharyngeal Arch, which includes the Stapedius muscle (the other muscle in the middle ear), muscles of facial expression, posterior belly of digastric, and stylohyoid.",
+        "B": "This nerve supplies derivatives of the 4th and 6th Pharyngeal Arches, such as the muscles of the larynx and pharynx (e.g., levator veli palatini), but not the middle ear muscles.",
+        "C": "This nerve primarily innervates the Sternocleidomastoid and Trapezius muscles. It is not involved in the innervation of the middle ear muscles.",
+        "E": "This nerve supplies derivatives of the 3rd Pharyngeal Arch, primarily the Stylopharyngeus muscle. In the middle ear, it provides sensory innervation (via the tympanic plexus) but does not innervate the muscles."
+      }
+    }
+  }
+]

@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "Which type of mechanoreceptor is primarily responsible for detecting 'vibration' and 'pressure' and is located deep in the dermis or hypodermis?",
+    "choices": {
+      "A": "Free nerve ending",
+      "B": "Ruffini ending",
+      "C": "Pacinian corpuscle",
+      "D": "Meissner's corpuscle",
+      "E": "Merkel's disk"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The Pacinian corpuscle is specifically classified as a receptor that senses 'pressure' and 'vibration'. In terms of location, the slides illustrate it situated deep within the dermis and hypodermis.",
+      "incorrect": {
+        "A": "Free nerve endings primarily sense pain (nociceptors) and temperature (thermoreceptors), or crude touch, not vibration.",
+        "B": "Ruffini endings are responsible for detecting 'stretching' of the skin.",
+        "D": "Meissner's corpuscles are located closer to the epidermis (dermal papillae) and detect 'touch' (specifically shape and surfaces/tactile), not deep pressure.",
+        "E": "Merkel's disks detect 'indentations' and are located at the epidermal-dermal border."
+      }
+    }
+  },
+  {
+    "question": "Which spinal tract is responsible for transmitting 'conscious' proprioception, vibration, and fine touch from the lower body (below T6)?",
+    "choices": {
+      "A": "Dorsal spinocerebellar tract",
+      "B": "Fasciculus gracilis",
+      "C": "Anterior spinothalamic tract",
+      "D": "Fasciculus cuneatus",
+      "E": "Lateral spinothalamic tract"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The Fasciculus gracilis is part of the Dorsal Column pathway. It carries conscious proprioception, vibration, and fine touch from the lower body (below T6).",
+      "incorrect": {
+        "A": "The Dorsal spinocerebellar tract carries unconscious proprioception (not conscious) to the cerebellum.",
+        "C": "The Anterior spinothalamic tract carries crude (gross) touch, not fine touch or proprioception.",
+        "D": "The Fasciculus cuneatus carries the same modalities (conscious proprioception/fine touch) but specifically for the upper body (T6 and above).",
+        "E": "The Lateral spinothalamic tract carries pain and temperature sensation."
+      }
+    }
+  },
+  {
+    "question": "A 55-year-old patient presents with a loss of pain and temperature sensation on the LEFT side of the body below the umbilicus. Based on the decussation pattern of the spinothalamic tract, where is the lesion likely located?",
+    "choices": {
+      "A": "Bilateral spinal cord at T10",
+      "B": "Right side of the medulla oblongata",
+      "C": "Right side of the spinal cord at T8",
+      "D": "Left side of the spinal cord at T10",
+      "E": "Left side of the spinal cord at L1"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The Lateral Spinothalamic Tract carries pain and temperature. The fibers enter the spinal cord, ascend 1-2 segments in Lissauer's tract, and then cross the midline to the opposite (contralateral) side. Since the loss is on the LEFT, the lesion must be on the RIGHT. The umbilicus corresponds to T10. Because fibers ascend 1-2 segments before crossing, a lesion at T8 on the Right would block signals from Left T10 and below.",
+      "incorrect": {
+        "A": "A bilateral lesion would cause sensory loss on both sides of the body.",
+        "B": "A lesion in the medulla would likely affect the entire side of the body (including the upper limb), not just below the umbilicus.",
+        "D": "A lesion on the Left side would cause loss of pain/temperature on the Right side of the body (contralateral symptoms).",
+        "E": "Similar to D, an ipsilateral (Left) lesion causes contralateral (Right) deficits. Additionally, L1 is too low to affect the umbilicus (T10)."
+      }
+    }
+  },
+  {
+    "question": "Which nucleus in the brainstem is responsible for mediating the 'jaw jerk reflex' (reflex proprioception)?",
+    "choices": {
+      "A": "Principal sensory nucleus",
+      "B": "Solitary nucleus",
+      "C": "Spinal trigeminal nucleus",
+      "D": "Motor nucleus of V",
+      "E": "Mesencephalic nucleus"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The Mesencephalic nucleus of CN V functions in Reflex proprioception, specifically noted as the 'jaw jerk reflex'.",
+      "incorrect": {
+        "A": "The Principal (Main) sensory nucleus is responsible for fine touch, proprioception, vibration, and pressure, but not the reflex arc itself.",
+        "B": "The Solitary nucleus is related to visceral sensation and taste, not somatic proprioception.",
+        "C": "The Spinal trigeminal nucleus is responsible for pain, temperature, and crude touch.",
+        "D": "The Motor nucleus of V is the efferent (motor) limb of the reflex, but the sensory limb (the receptor nucleus asked for) is the Mesencephalic nucleus."
+      }
+    }
+  },
+  {
+    "question": "Which of the following describes the location of the second-order neurons for the Dorsal Column-Medial Lemniscus pathway?",
+    "choices": {
+      "A": "Gracile and Cuneate Nuclei in the Medulla",
+      "B": "Dorsal Root Ganglion",
+      "C": "Substantia Gelatinosa",
+      "D": "Ventral Posterolateral (VPL) Nucleus of Thalamus",
+      "E": "Clarke's Nucleus"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "In the DC-ML pathway, the 1st order neurons synapse with the 2nd order neurons located in the Gracile and Cuneate nuclei within the medulla oblongata.",
+      "incorrect": {
+        "B": "The Dorsal Root Ganglion (DRG) contains the cell bodies of the 1st order neurons.",
+        "C": "The Substantia Gelatinosa is the site of the 2nd order neurons for the Spinothalamic tract (ALS).",
+        "D": "The VPL of the Thalamus contains the 3rd order neurons for the DC-ML pathway.",
+        "E": "Clarke's Nucleus is the site of the 2nd order neurons for the Dorsal Spinocerebellar Tract."
+      }
+    }
+  },
+  {
+    "question": "Which of the following tracts carries unconscious proprioceptive information from the upper limb (above C8)?",
+    "choices": {
+      "A": "Cuneocerebellar Tract",
+      "B": "Spino-olivary Tract",
+      "C": "Lateral Corticospinal Tract",
+      "D": "Dorsal Spinocerebellar Tract",
+      "E": "Ventral Spinocerebellar Tract"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The Cuneocerebellar tract is the analogue to the dorsal spinocerebellar tract but for the upper limbs (above C8). It carries unconscious proprioception.",
+      "incorrect": {
+        "B": "The Spino-olivary tract is an accessory pathway, not the primary tract for this specific function.",
+        "C": "The Lateral Corticospinal tract is a descending motor tract, not a sensory tract.",
+        "D": "The Dorsal Spinocerebellar tract carries unconscious proprioception from the lower body and trunk (C8-L2).",
+        "E": "The Ventral Spinocerebellar tract also carries unconscious proprioception from the lower body (below T6) and crosses twice."
+      }
+    }
+  },
+  {
+    "question": "A patient cannot identify an object placed in their right hand with eyes closed (Astereognosis), but has normal primary sensation (touch, vibration). Where is the lesion likely located?",
+    "choices": {
+      "A": "Right Postcentral Gyrus (Area 3,1,2)",
+      "B": "Left Thalamus (VPL)",
+      "C": "Left Sensory Association Cortex (Area 5, 7)",
+      "D": "Right Sensory Association Cortex (Area 5, 7)",
+      "E": "Right Medial Lemniscus"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Astereognosis (inability to recognize objects by touch) is caused by damage to the Sensory Association Cortex (Areas 5 and 7). Since the sensory input crosses to the contralateral side, a deficit in the Right hand indicates a lesion in the Left cortex.",
+      "incorrect": {
+        "A": "Damage to the Primary Sensory Area (Area 3,1,2) causes Anesthesia (absence of all sensation), not just astereognosis.",
+        "B": "Injury to the Thalamus would cause a contralateral deficit of all modalities (fine touch, pain, temp), not just object recognition.",
+        "D": "The Right association cortex processes information from the Left hand.",
+        "E": "The Right Medial Lemniscus carries information from the Left side of the body."
+      }
+    }
+  },
+  {
+    "question": "A patient has lost the corneal reflex (sensory part) and pain sensation on the forehead. Which specific branch and nucleus are involved?",
+    "choices": {
+      "A": "V3 (Mandibular) and Principal Nucleus",
+      "B": "V3 (Mandibular) and Spinal Trigeminal Nucleus",
+      "C": "V1 (Ophthalmic) and Mesencephalic Nucleus",
+      "D": "V2 (Maxillary) and Mesencephalic Nucleus",
+      "E": "V1 (Ophthalmic) and Spinal Trigeminal Nucleus"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The Ophthalmic nerve (V1) supplies the forehead and cornea. Pain sensation (and the sensory component of the corneal reflex) is processed by the Spinal Trigeminal Nucleus, which handles pain and temperature for the face.",
+      "incorrect": {
+        "A": "V3 supplies the lower face/jaw, and the Principal Nucleus handles fine touch.",
+        "B": "V3 does not innervate the forehead or cornea.",
+        "C": "While V1 is the correct nerve, the Mesencephalic nucleus handles proprioception, not pain.",
+        "D": "V2 supplies the maxillary region (cheek, upper lip), not the forehead."
+      }
+    }
+  }
+]

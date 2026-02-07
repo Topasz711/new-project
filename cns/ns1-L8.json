@@ -1,1 +1,160 @@
-[]
+[
+  {
+    "question": "A patient presents with an inability to abduct the right eye. When looking straight ahead, the right eye is adducted. Which specific nucleus or nerve is likely affected, and what is its passage through the skull?",
+    "choices": {
+      "A": "Oculomotor nerve; Optic canal",
+      "B": "Trochlear nerve; Superior orbital fissure",
+      "C": "Trigeminal nerve; Foramen ovale",
+      "D": "Abducens nerve; Superior orbital fissure",
+      "E": "Abducens nerve; Foramen rotundum"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The Abducens nerve (CN VI) innervates the Lateral Rectus muscle, which is responsible for abducting the eye (moving it outward). A lesion here results in unopposed adduction (the eye turns inward) because the medial rectus (innervated by CN III) pulls it in. The CN VI passes through the Superior Orbital Fissure to enter the orbit.",
+      "incorrect": {
+        "A": "The Oculomotor nerve (CN III) controls adduction (Medial Rectus), not abduction. It also passes through the superior orbital fissure, not the optic canal.",
+        "B": "The Trochlear nerve (CN IV) controls the Superior Oblique (depression/intorsion), not abduction.",
+        "C": "The Trigeminal nerve (CN V) is primarily sensory for the face and motor for mastication.",
+        "E": "While the nerve is correct (Abducens), the Foramen Rotundum is the exit for the Maxillary nerve (CN V2), not CN VI."
+      }
+    }
+  },
+  {
+    "question": "Regarding the pupillary light reflex: If light is shone into the right eye and the right pupil constricts but the left pupil does not, where is the lesion likely located?",
+    "choices": {
+      "A": "Left Optic nerve (CN II)",
+      "B": "Right Oculomotor nerve (CN III)",
+      "C": "Optic Chiasm",
+      "D": "Left Oculomotor nerve (CN III)",
+      "E": "Right Optic nerve (CN II)"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The pupillary light reflex involves an afferent limb (CN II) and an efferent limb (CN III). Since the right pupil constricts when light is shone in the right eye, the Right CN II (Afferent) and Right CN III (Efferent) are intact. The signal crosses centrally (Edinger-Westphal nucleus) to stimulate both eyes. Since the left pupil fails to constrict (loss of consensual reflex), the issue is with the Left CN III (Efferent), which carries the motor signal to the left iris sphincter.",
+      "incorrect": {
+        "A": "Damage to the Optic nerve (CN II) would prevent the brain from detecting light, so neither pupil would constrict if light were shone into the damaged eye.",
+        "B": "If the Right CN III were damaged, the right pupil would not constrict (direct response lost).",
+        "C": "A chiasm lesion typically affects visual fields (bitemporal hemianopsia) rather than isolating a unilateral loss of the consensual pupillary reflex.",
+        "E": "Same as A, damage to the afferent limb would prevent any response."
+      }
+    }
+  },
+  {
+    "question": "A 55-year-old male presents with difficulty shrugging his right shoulder and turning his head to the left. Which nerve is damaged, and through which foramen does it exit the skull?",
+    "choices": {
+      "A": "Right Accessory nerve; Foramen magnum",
+      "B": "Right Hypoglossal nerve; Hypoglossal canal",
+      "C": "Left Accessory nerve; Jugular foramen",
+      "D": "Right Vagus nerve; Jugular foramen",
+      "E": "Right Accessory nerve; Jugular foramen"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The Accessory Nerve (CN XI) innervates the Trapezius (shrugging shoulders) and the Sternocleidomastoid (SCM) (turning the head to the opposite side). Weakness shrugging the right shoulder indicates a Right Trapezius issue. Weakness turning head to the left indicates a Right SCM issue (since Right SCM turns head left). Therefore, the Right CN XI is damaged. It exits the skull via the Jugular Foramen.",
+      "incorrect": {
+        "A": "While the spinal root enters via the Foramen Magnum, the nerve exits the skull to reach the muscles via the Jugular Foramen.",
+        "B": "CN XII controls the tongue, not the neck/shoulders.",
+        "C": "A Left CN XI lesion would affect the left shoulder and turning the head to the right.",
+        "D": "CN X controls the pharynx/larynx/viscera, not the Trapezius/SCM."
+      }
+    }
+  },
+  {
+    "question": "A patient exhibits a tongue deviation to the right upon protrusion. There is also evident atrophy and fasciculation on the right side of the tongue. This indicates:",
+    "choices": {
+      "A": "Right Upper Motor Neuron (UMN) lesion of CN XII",
+      "B": "Left Upper Motor Neuron (UMN) lesion of CN XII",
+      "C": "Right Lower Motor Neuron (LMN) lesion of CN XII",
+      "D": "Bilateral lesion of the Hypoglossal nuclei",
+      "E": "Left Lower Motor Neuron (LMN) lesion of CN XII"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The Genioglossus muscle protrudes the tongue. If one side is weak, the healthy side pushes the tongue toward the paralyzed side. Deviation to the right implies the Right muscles are weak. Furthermore, atrophy (muscle wasting) and fasciculations (twitching) are classic signs of a Lower Motor Neuron (LMN) lesion. Therefore, this is a Right LMN lesion.",
+      "incorrect": {
+        "A": "UMN lesions cause spastic paralysis without significant atrophy or fasciculations. In a UMN lesion, the tongue deviates to the contralateral (opposite) side of the brain lesion.",
+        "B": "See above regarding UMN signs.",
+        "E": "A Left LMN lesion would cause deviation to the left."
+      }
+    }
+  },
+  {
+    "question": "A patient cannot feel a cotton wisp touching the posterior 1/3 of the tongue. Which nerve is responsible for this general sensation (GSA/GVA)?",
+    "choices": {
+      "A": "Internal Laryngeal nerve (CN X)",
+      "B": "Lingual nerve (CN V3)",
+      "C": "Glossopharyngeal nerve (CN IX)",
+      "D": "Chorda Tympani (CN VII)",
+      "E": "Hypoglossal nerve (CN XII)"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The Glossopharyngeal nerve (CN IX) provides General Sensation (GVA/GSA) (touch, pain, temperature) as well as Special Sensation (SVA) (taste) to the posterior 1/3 of the tongue.",
+      "incorrect": {
+        "A": "CN X supplies sensation to the epiglottis and laryngopharynx.",
+        "B": "The Lingual nerve (CN V3) supplies general sensation to the anterior 2/3 of the tongue.",
+        "D": "Chorda Tympani (CN VII) supplies taste to the anterior 2/3 of the tongue.",
+        "E": "CN XII is purely motor for the tongue."
+      }
+    }
+  },
+  {
+    "question": "A patient shows 'intorsion' of the eye is weak. When asked to look down and in, the eye does not move correctly, and the patient complains of diplopia when walking down stairs. Which nerve is affected?",
+    "choices": {
+      "A": "Oculomotor nerve (CN III)",
+      "B": "Optic nerve (CN II)",
+      "C": "Abducens nerve (CN VI)",
+      "D": "Trochlear nerve (CN IV)",
+      "E": "Ophthalmic nerve (CN V1)"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The Trochlear nerve (CN IV) innervates the Superior Oblique muscle. The primary actions of the Superior Oblique are intorsion and depression (looking down), especially when the eye is adducted (looking in). Patients often complain of vertical diplopia, particularly when reading or going down stairs.",
+      "incorrect": {
+        "A": "CN III controls elevation, depression (via inferior rectus), and adduction, but the specific 'down and in' movement is best achieved by the Superior Oblique (CN IV).",
+        "C": "CN VI controls abduction (looking out).",
+        "E": "CN V1 is sensory."
+      }
+    }
+  },
+  {
+    "question": "A 45-year-old woman presents with severe, sharp, shooting pain on the right side of her face, triggered by brushing her teeth. The pain is localized to the lower jaw and lip. Which foramen transmits the nerve affected in this condition?",
+    "choices": {
+      "A": "Stylomastoid Foramen",
+      "B": "Foramen Ovale",
+      "C": "Foramen Rotundum",
+      "D": "Superior Orbital Fissure",
+      "E": "Jugular Foramen"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The symptoms describe Trigeminal Neuralgia affecting the Mandibular division (CN V3), which supplies the lower jaw, lip, and teeth. The Mandibular nerve (CN V3) exits the skull through the Foramen Ovale.",
+      "incorrect": {
+        "A": "Exits the Facial nerve (CN VII).",
+        "C": "Exits the Maxillary nerve (CN V2), which supplies the upper jaw/cheek.",
+        "D": "Exits the Ophthalmic nerve (CN V1).",
+        "E": "Exits CN IX, X, and XI."
+      }
+    }
+  },
+  {
+    "question": "During a thyroidectomy, the Superior Laryngeal Nerve (external branch) is accidentally damaged. What symptom will the patient likely experience?",
+    "choices": {
+      "A": "Severe hoarseness and breathy voice",
+      "B": "Monotone voice",
+      "C": "Loss of sensation above the vocal cords",
+      "D": "Tongue deviation",
+      "E": "Inability to swallow"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The external branch of the Superior Laryngeal Nerve (a branch of CN X) innervates the Cricothyroid muscle. This muscle tenses the vocal cords to produce high-pitch sounds. Loss of this nerve function results in an inability to change pitch, leading to a monotone voice (though the voice is not necessarily hoarse, just limited in range).",
+      "incorrect": {
+        "A": "Severe hoarseness is typically caused by damage to the Recurrent Laryngeal Nerve, which controls most intrinsic laryngeal muscles (abductors/adductors).",
+        "C": "Loss of sensation above the vocal cords is caused by damage to the Internal branch of the Superior Laryngeal Nerve.",
+        "D": "Caused by CN XII damage.",
+        "E": "Dysphagia (inability to swallow) involves the pharyngeal muscles (CN IX, X), but a specific lesion to the external laryngeal nerve primarily affects voice pitch."
+      }
+    }
+  }
+]

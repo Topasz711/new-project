@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "question": "A small emissary vein traversing the foramen caecum establishes a potential route for infection to spread from the nasal cavity into the cranial cavity. Into which dural venous sinus does this vein directly drain?",
+    "choices": {
+      "A": "Inferior sagittal sinus",
+      "B": "Sigmoid sinus",
+      "C": "Straight sinus",
+      "D": "Superior sagittal sinus",
+      "E": "Cavernous sinus"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The foramen caecum is a small hole located at the base of the frontal crest, anterior to the crista galli. It transmits a nasal emissary vein (found in 1% of the population) which connects the extracranial veins of the nasal cavity directly to the superior sagittal sinus. This connection is clinically significant as it allows infections from the nose ('danger area') to spread into the intracranial venous system.",
+      "incorrect": {
+        "A": "This sinus runs along the inferior free edge of the falx cerebri. It is located too far posteriorly and inferiorly to communicate with the foramen caecum.",
+        "B": "The sigmoid sinus is the continuation of the transverse sinus in the posterior cranial fossa. It drains into the internal jugular vein and is far removed from the anterior cranial fossa where the foramen caecum is located.",
+        "C": "This sinus is formed by the union of the inferior sagittal sinus and the great cerebral vein (of Galen). It is located centrally within the tentorium cerebelli, far posterior to the frontal bone.",
+        "E": "While the cavernous sinus does receive blood from the ophthalmic veins (which communicate with the face), the specific emissary vein passing through the foramen caecum drains superiorly into the superior sagittal sinus, not inferiorly into the cavernous sinus."
+      }
+    }
+  },
+  {
+    "question": "A 45-year-old patient presents with a deep orbital infection. While reviewing the venous drainage, a medical student notes that the superior ophthalmic vein enters the cranial cavity by passing through the superior orbital fissure. When considering the arterial supply to the same region, through which of the following structures must the ophthalmic artery pass to reach the orbit?",
+    "choices": {
+      "A": "Foramen rotundum",
+      "B": "Foramen ovale",
+      "C": "Optic canal",
+      "D": "Foramen spinosum",
+      "E": "Superior orbital fissure"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The optic canal connects the middle cranial fossa to the orbit. It transmits two key structures: the Optic nerve (CN II) and the Ophthalmic artery. This is a crucial distinction because the artery does not follow the vein through the fissure.",
+      "incorrect": {
+        "A": "This foramen transmits the Maxillary nerve (CN V2) into the pterygopalatine fossa.",
+        "B": "This foramen transmits the Mandibular nerve (CN V3), the accessory meningeal artery, and the lesser petrosal nerve (sometimes).",
+        "D": "This foramen transmits the Middle meningeal artery and the meningeal branch of CN V3.",
+        "E": "While this fissure transmits the superior ophthalmic vein and cranial nerves III, IV, V1, and VI, it does not transmit the ophthalmic artery."
+      }
+    }
+  },
+  {
+    "question": "In the formation of the Circle of Willis, the anterior cerebral arteries are terminal branches of the internal carotid arteries. The posterior cerebral arteries, which complete the posterior circulation, are the terminal branches of which vessel?",
+    "choices": {
+      "A": "Middle cerebral artery",
+      "B": "Posterior communicating artery",
+      "C": "Vertebral artery",
+      "D": "Basilar artery",
+      "E": "Anterior communicating artery"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The basilar artery is formed by the union of the two vertebral arteries. It ascends along the clivus and terminates at the pontomesencephalic junction by bifurcating into the paired Posterior Cerebral Arteries (PCA).",
+      "incorrect": {
+        "A": "This is the larger terminal branch of the Internal Carotid Artery, supplying the lateral cortex.",
+        "B": "This artery connects the internal carotid/middle cerebral system to the posterior cerebral artery, completing the 'circle,' but it is not the origin of the PCA.",
+        "C": "The vertebral arteries join to form the basilar artery; they do not directly give rise to the PCAs.",
+        "E": "This small artery connects the left and right Anterior Cerebral Arteries."
+      }
+    }
+  },
+  {
+    "question": "A patient presents with an inability to close the ipsilateral eye and a loss of the efferent limb of the corneal reflex. These signs suggest a lesion of the facial nerve. Which foramen does the main motor trunk of this nerve traverse to exit the skull?",
+    "choices": {
+      "A": "Foramen spinosum",
+      "B": "Jugular foramen",
+      "C": "Stylomastoid foramen",
+      "D": "Foramen ovale",
+      "E": "Internal acoustic meatus"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The main motor trunk of the Facial nerve (CN VII) exits the temporal bone via the stylomastoid foramen (located between the styloid and mastoid processes) to supply the muscles of facial expression. A lesion here causes total ipsilateral facial paralysis.",
+      "incorrect": {
+        "A": "Transmits the middle meningeal artery.",
+        "B": "Transmits CN IX, X, and XI, along with the internal jugular vein.",
+        "D": "Transmits CN V3.",
+        "E": "While the facial nerve (CN VII) enters the petrous temporal bone through this meatus (along with CN VIII), it is not the point of exit from the skull to the face."
+      }
+    }
+  }
+]

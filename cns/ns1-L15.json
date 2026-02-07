@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "question": "In the indirect pathway, the subthalamic nucleus (STN) receives inhibitory input from the Globus Pallidus externa (GPe). What is the subsequent action of the STN upon its target?",
+    "choices": {
+      "A": "Inhibition of the Globus Pallidus interna (GPi) via GABA",
+      "B": "Excitation of the Globus Pallidus interna (GPi) via Glutamate",
+      "C": "Inhibition of the Substantia Nigra pars compacta via Glycine",
+      "D": "Inhibition of the Thalamus via GABA",
+      "E": "Excitation of the Striatum via Dopamine"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "In the basal ganglia circuitry, particularly the Indirect Pathway, the Subthalamic Nucleus (STN) plays a unique role. Unlike the Striatum (Caudate/Putamen) and Globus Pallidus which are GABAergic (inhibitory), the STN contains Glutamatergic neurons. Therefore, when the STN projects its fibers to its primary target, the Globus Pallidus interna (GPi), it releases Glutamate, resulting in the excitation of the GPi. This excitation of the GPi increases the inhibitory output to the thalamus, effectively braking or suppressing movement.",
+      "incorrect": {
+        "A": "The STN is not GABAergic; it is Glutamatergic. The GPe inhibits the STN via GABA, but the STN excites the GPi.",
+        "C": "The STN does not primarily project to the Substantia Nigra pars compacta (SNc) using Glycine. Its main outflow is excitatory to the output nuclei (GPi and SNr).",
+        "D": "The STN does not project directly to the Thalamus. It projects to the GPi and SNr. It is the GPi/SNr that subsequently inhibits the Thalamus via GABA.",
+        "E": "Dopamine is produced by the Substantia Nigra pars compacta (SNc), not the STN. The SNc projects dopamine to the Striatum."
+      }
+    }
+  },
+  {
+    "question": "An MRI shows a lesion affecting the 'Lenticular Fasciculus' (Field H2). Which pathway is primarily disrupted?",
+    "choices": {
+      "A": "Projections from the Subthalamic nucleus to the GPi",
+      "B": "Output fibers from the GPi to the Thalamus",
+      "C": "Dopaminergic fibers from SNc to Striatum",
+      "D": "Input fibers from the Cortex to the Putamen",
+      "E": "Fibers connecting Caudate to Putamen"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The Basal Ganglia output (from the Globus Pallidus interna or GPi) travels to the Thalamus (VA/VL nuclei) via two main bundles: the Ansa Lenticularis and the Lenticular Fasciculus. The Lenticular Fasciculus (also known as Field H2 of Forel) carries these inhibitory GABAergic output fibers from the GPi, through the internal capsule, towards the Thalamus to regulate motor commands.",
+      "incorrect": {
+        "A": "The projection from the STN to the GPi is the Subthalamic Fasciculus, not the Lenticular Fasciculus.",
+        "C": "Dopaminergic fibers traveling from the SNc to the Striatum form the Nigrostriatal pathway, which is distinct from the Lenticular Fasciculus.",
+        "D": "Input fibers from the Cortex to the Putamen are Corticostriatal fibers. These pass through the internal capsule but are not part of the Lenticular Fasciculus.",
+        "E": "Connections between the Caudate and Putamen (striatal interneurons or cell bridges) are within the striatum itself, not the outflow tracts like the Lenticular Fasciculus."
+      }
+    }
+  },
+  {
+    "question": "The Substantia Nigra pars reticulata (SNr) function is histologically and functionally most similar to which other basal ganglia structure?",
+    "choices": {
+      "A": "Putamen",
+      "B": "Subthalamic Nucleus (STN)",
+      "C": "Globus Pallidus externa (GPe)",
+      "D": "Globus Pallidus interna (GPi)",
+      "E": "Substantia Nigra pars compacta (SNc)"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The Substantia Nigra pars reticulata (SNr) and the Globus Pallidus interna (GPi) are collectively known as the 'Output Nuclei' of the basal ganglia. They share identical characteristics: They both receive inhibitory input from the Striatum (Direct pathway) and excitatory input from the STN (Indirect pathway). They both contain GABAergic neurons (inhibitory). They both project to the Thalamus.",
+      "incorrect": {
+        "A": "The Putamen is an input nucleus (Striatum), not an output nucleus. It receives cortical input and is distinct from the SNr.",
+        "B": "The STN is an excitatory (Glutamatergic) nucleus, whereas the SNr is inhibitory (GABAergic).",
+        "C": "While the GPe is GABAergic, it is an intrinsic nucleus involved in the indirect loop (projecting to the STN), whereas the SNr is an output nucleus projecting to the Thalamus.",
+        "E": "The Substantia Nigra pars compacta (SNc) contains Dopaminergic neurons, which is chemically and functionally opposite to the GABAergic SNr."
+      }
+    }
+  },
+  {
+    "question": "A 58-year-old male suffers a stroke affecting the anterior cerebral artery (ACA). Based on the blood supply to the basal nuclei, which specific structure is most likely to be ischemic?",
+    "choices": {
+      "A": "The Head of the Caudate Nucleus",
+      "B": "The Tail of the Caudate Nucleus",
+      "C": "The Globus Pallidus interna",
+      "D": "The entire Putamen",
+      "E": "The Subthalamic Nucleus"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The vascular supply to the basal ganglia is compartmentalized. The Anterior Cerebral Artery (ACA), specifically via the Recurrent Artery of Heubner (medial striate artery), supplies the Head of the Caudate Nucleus and the anterior limb of the internal capsule.",
+      "incorrect": {
+        "B": "The Tail of the Caudate is supplied mainly by the Anterior Choroidal Artery (a branch of the Internal Carotid) or branches of the Posterior Cerebral Artery, not the ACA.",
+        "C": "The Globus Pallidus (both segments) and the Putamen are supplied primarily by the Lenticulostriate arteries, which are branches of the Middle Cerebral Artery (MCA).",
+        "D": "See above regarding the Putamen's supply.",
+        "E": "The Subthalamic Nucleus is located deeper and is supplied by branches of the Posterior Cerebral Artery (PCA) and Posterior Communicating Artery, not the ACA."
+      }
+    }
+  }
+]
