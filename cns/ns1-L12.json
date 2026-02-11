@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "A 55-year-old male presents to the ER with complaints of severe, crushing chest pain that radiates to his left arm and jaw. ECG confirms an acute myocardial infarction. The patient's perception of pain in his left arm, despite the primary ischemia occurring in the myocardium, is best explained by which of the following neuroanatomical mechanisms?",
+    "choices": {
+      "A": "Collaterals of visceral afferent fibers synapsing on somatosensory posterior horn tract cells.",
+      "B": "Direct ischemic damage to the brachial plexus and corresponding cervical nerve roots.",
+      "C": "Convergence of somatic efferent fibers onto sympathetic postganglionic neurons in the ganglia.",
+      "D": "Ectopic action potential generation within the dorsal root ganglion of the C5-T1 spinal segments.",
+      "E": "Sensitization of TRPV1 receptors in the peripheral cutaneous tissue of the affected arm."
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "This specifically describes the mechanism of referred pain, where noxious stimuli originating in a visceral structure (like the heart) are perceived by the patient as arising from a somatic portion of the body wall. This phenomenon happens because collaterals of visceral afferent fibers synapse on and excite posterior horn tract cells that usually transmit only somatosensory information.",
+      "incorrect": {
+        "B": "The ischemia is localized to the myocardium (viscera), so there is no direct structural damage to the brachial plexus or cervical nerves.",
+        "C": "Referred pain is a sensory (afferent) phenomenon happening in the central nervous system, not an issue of motor (efferent) fibers converging on sympathetic ganglia.",
+        "D": "The pain originates from physiological nociceptive signals caused by myocardial ischemia and the release of inflammatory compounds, not from ectopic (spontaneous or abnormal) action potentials within the dorsal root ganglion.",
+        "E": "While TRPV1 receptors can be sensitized during neuropathic or inflammatory pain, the cutaneous tissue in the patient's arm is completely healthy and unaffected by the local cardiac ischemia."
+      }
+    }
+  },
+  {
+    "question": "Which of the following best characterizes the fundamental anatomical difference in sensory transduction between a complex neural somatic receptor (e.g., Pacinian corpuscle) and a special senses receptor (e.g., auditory hair cell or photoreceptor)?",
+    "choices": {
+      "A": "Special senses receptors are always heavily myelinated, whereas somatic receptors are strictly unmyelinated fibers.",
+      "B": "Special senses receptors undergo rapid adaptation to all stimuli, whereas somatic receptors exhibit only slow adaptation.",
+      "C": "Special senses receptors generate action potentials directly, while somatic receptors only generate graded receptor potentials.",
+      "D": "Special senses receptors utilize a separate receptor cell, whereas complex somatic receptors are modified afferent endings.",
+      "E": "Special senses receptors exclusively utilize mechanically gated ion channels, while somatic receptors use voltage-gated channels."
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Most special senses receptors are separate, specialized cells that release neurotransmitters onto sensory neurons to initiate an action potential. In contrast, complex neural receptors (somatic receptors) have their own nerve endings enclosed in connective tissue capsules.",
+      "incorrect": {
+        "A": "Somatic receptors are not strictly unmyelinated; for example, touch receptors like Pacinian corpuscles utilize myelinated A-beta fibers.",
+        "B": "Both receptor types have varying adaptation speeds. Somatic receptors can be rapidly adapting (e.g., Pacinian corpuscle) or slowly adapting (e.g., Ruffini endings).",
+        "C": "It is actually the reverse. Special senses typically generate graded potentials that cause neurotransmitter release. Somatic receptors (modified afferent endings) generate receptor potentials that directly trigger action potentials within their own axon fiber.",
+        "E": "Both somatic and special senses utilize various channel types. For example, somatic mechanoreceptors use stimulus-sensitive non-specific cation channels. Special senses include chemoreceptors (taste/smell) and photoreceptors (vision), not exclusively mechanoreceptors."
+      }
+    }
+  },
+  {
+    "question": "A surgical resident puts on a face mask before entering the operating room. Initially, she is acutely aware of the elastic bands pressing against her skin, but after several minutes, she completely loses the sensation of the mask. Which of the following best describes the physiological properties of the receptors responsible for this phenomenon?",
+    "choices": {
+      "A": "They are heavily modulated by descending inhibitory pain pathways originating from the periaqueductal gray matter.",
+      "B": "They produce an 'off response' when the stimulus is removed and primarily detect transient changes in stimulus intensity.",
+      "C": "They continue to fire action potentials at a constant frequency as long as the pressure stimulus is maintained.",
+      "D": "They strictly utilize unmyelinated C-fibers to transmit their slowly conducting sensory signals to the dorsal horn.",
+      "E": "They are specialized to monitor the stationary position of limbs and transmit sustained pressure information to the CNS."
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "This scenario describes sensory receptor adaptation. Rapidly adapting receptors are very active when a stimulus starts but stop firing if the stimulus continues steadily. They are designed to detect changes and often fire an 'off response' when the stimulus is finally removed.",
+      "incorrect": {
+        "A": "The fading sensation of clothes or masks is due to peripheral sensory adaptation, not central descending pain modulation.",
+        "C": "This accurately describes slowly adapting receptors, which keep firing continuously in the presence of a sustained stimulus. If these were the primary receptors involved, the resident would constantly feel the mask.",
+        "D": "Touch receptors generally utilize myelinated A-beta fibers, whereas unmyelinated C-fibers primarily transmit slow pain and temperature.",
+        "E": "Monitoring the stationary position and detecting sustained pressure are functions of slowly adapting receptors, such as Ruffini endings."
+      }
+    }
+  },
+  {
+    "question": "While boiling water, a chef accidentally touches the extremely hot surface of a kettle. Within milliseconds, he rapidly withdraws his hand, experiencing a sharp, pricking sensation of pain before a secondary, dull ache sets in. Which of the following nerve fibers is primarily responsible for transmitting this initial rapid, sharp thermal-pain sensation?",
+    "choices": {
+      "A": "A-alpha fibers",
+      "B": "A-beta fibers",
+      "C": "A-delta fibers",
+      "D": "C fibers",
+      "E": "Type Ia fibers"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "A-delta fibers are lightly myelinated, fast-conducting fibers (5-30 m/s) responsible for transmitting sharp, pricking pain and temperature.",
+      "incorrect": {
+        "A": "A-alpha fibers are large and heavily myelinated, functioning primarily in proprioception and skeletal muscle control.",
+        "B": "A-beta fibers transmit tactile information (touch, vibration, pressure) from receptors like Pacinian and Meissner's corpuscles, not primarily pain.",
+        "D": "C fibers are unmyelinated, slowly conducting fibers (0.5-2 m/s) that are responsible for the secondary, slow, burning pain sensation.",
+        "E": "Type Ia fibers are associated with muscle spindles and mediate proprioception (muscle length), not cutaneous pain."
+      }
+    }
+  },
+  {
+    "question": "During a neurological examination, a physician uses a caliper to test a patient's somatosensory function. When the caliper tips are placed 4 mm apart on the patient's back, the patient reports feeling only a single point. However, when placed 4 mm apart on the fingertip, two distinct points are felt. What is the primary physiological reason for the sensation of only a single point on the back?",
+    "choices": {
+      "A": "The primary somatosensory cortex allocates significantly more surface area to the back, leading to a dilution of the sensory signal.",
+      "B": "The lateral spinothalamic tract actively inhibits the dorsal column-medial lemniscus pathway originating from the torso.",
+      "C": "Both caliper points fall within a single, large secondary receptive field that converges onto one secondary sensory neuron.",
+      "D": "The dorsal skin of the back completely lacks any specialized tactile receptors such as Meissner's corpuscles.",
+      "E": "The primary afferent fibers from the back have a much slower conduction velocity than those originating from the fingertips."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Two-point discrimination depends heavily on the size of receptive fields. On the back, which has a large two-point discrimination threshold (67.5 mm), multiple primary sensory neurons converge onto a single secondary sensory neuron. Therefore, two points spaced closely together stimulate only one large receptive field, resulting in the perception of a single point.",
+      "incorrect": {
+        "A": "The cortical homunculus allocates a very small amount of surface area to the trunk/back and a massive surface area to the fingertips.",
+        "B": "Two-point discrimination is mediated by the Lemniscal pathway (dorsal column-medial lemniscus). There is no physiological broad inhibition from the spinothalamic tract causing this specific deficit.",
+        "D": "The back still possesses tactile receptors; the difference is in receptor density and neuronal convergence, not a total absence of receptors.",
+        "E": "Conduction velocity relates to the specific fiber type (e.g., A-beta for touch), which is the same type used in both the back and fingertips."
+      }
+    }
+  },
+  {
+    "question": "A competitive weightlifter attempts a deadlift with a weight significantly exceeding his 1-rep maximum. As he pulls forcefully, the extreme tension threatens to tear his muscle fibers. Suddenly, his muscles involuntarily relax, causing him to drop the barbell. This protective reflex is initiated by which of the following mechanisms?",
+    "choices": {
+      "A": "Pacinian corpuscles activating A-beta fibers to inhibit gamma motor neurons and reduce intrafusal fiber tension.",
+      "B": "Joint capsule receptors activating A-alpha fibers to initiate the crossed-extensor reflex and stabilize the posture.",
+      "C": "Muscle spindles activating Ia afferent fibers to directly stimulate alpha motor neurons for a compensatory contraction.",
+      "D": "Free nerve endings activating unmyelinated C fibers to trigger a widespread protective flexor withdrawal reflex.",
+      "E": "Golgi tendon organs activating Ib afferent fibers to stimulate inhibitory interneurons, leading to alpha motor neuron relaxation."
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Golgi tendon organs are tension sensors located in the tendon. During extreme muscle tension, they fire via Ib afferent fibers, which synapse onto inhibitory interneurons, eventually causing relaxation of the alpha motor neuron to prevent muscle avulsion.",
+      "incorrect": {
+        "A": "Pacinian corpuscles detect vibrations and deep pressure, not muscle tension.",
+        "B": "Joint capsule receptors (e.g., Ruffini corpuscles) provide joint position and motion information by sensing stretch in articular capsules. They do not trigger autogenic inhibition.",
+        "C": "Muscle spindles are length sensors. When activated by muscle stretch, they send signals via Ia afferents that lead to muscle contraction (the stretch reflex), which is the opposite of the relaxation seen here.",
+        "D": "The flexor withdrawal reflex is triggered by nociceptors (pain), not directly by extreme isometric muscle tension measured in the tendon."
+      }
+    }
+  },
+  {
+    "question": "A patient accidentally spills scalding hot coffee (temperature approximately 65°C) on their thigh, causing immediate, intense burning pain. At the molecular level, which specific transient receptor potential (TRP) channels are most likely activated by this noxious thermal stimulus to mediate the nociceptive pain?",
+    "choices": {
+      "A": "TRPV4 and TRPM8",
+      "B": "TRPA1 and TRPM8",
+      "C": "TRPV1 and TRPV2",
+      "D": "TRPA1 and TRPV4",
+      "E": "ASICs and TREK-1"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "TRPV1 and TRPV2 are thermoreceptors associated with noxious heat-pain. Based on the receptor temperature range, TRPV1 activates at high temperatures (approx. >42°C), and TRPV2 activates at extremely high, noxious temperatures (approx. >50°C).",
+      "incorrect": {
+        "A": "TRPV4 is a warm temperature sensor that activates at physiological temperatures (~30-40°C), while TRPM8 is a cold receptor.",
+        "B": "TRPA1 and TRPM8 both function as cold receptors.",
+        "D": "TRPA1 detects cold, and TRPV4 is a warm sensor. Neither is specifically geared for scalding heat-pain.",
+        "E": "ASICs (acid-sensing ion channels) are stimulated by acid to cause static mechanical hyperalgesia, and TREK-1 channels respond to stimuli like mechanical stretch, not severe thermal heat."
+      }
+    }
+  },
+  {
+    "question": "A patient recovering from a severe case of shingles (herpes zoster) complains of persistent burning pain on their torso. The patient notes that even the lightest touch from putting on a soft cotton T-shirt, which is normally completely painless, now elicits excruciating pain. This specific clinical presentation is best categorized as:",
+    "choices": {
+      "A": "Primary hyperalgesia",
+      "B": "Temporal summation (wind-up)",
+      "C": "Pallhypoesthesia",
+      "D": "Mechanical dynamic allodynia",
+      "E": "Mechanical static hyperalgesia"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Mechanical dynamic allodynia is defined as pain evoked by a normally non-painful light-pressure moving stimulus on the skin (such as rubbing a cotton shirt or a painter's brush). It is a hallmark symptom of neuropathic pain due to central and peripheral sensitization.",
+      "incorrect": {
+        "A": "Hyperalgesia involves an exaggerated pain response to a stimulus that is already normally painful (like a pinprick). A cotton T-shirt is normally a completely painless stimulus.",
+        "B": "Temporal summation (wind-up) happens when repetitive application of identical single noxious stimuli is perceived as increasing pain sensation.",
+        "C": "Pallhypoesthesia is a negative sensory sign defined as a reduced sensation to vibration.",
+        "E": "Hyperalgesia involves an increased response to noxious stimuli. Furthermore, static stimuli would be tested with gentle sustained pressure, whereas putting on a shirt is a dynamic moving stimulus."
+      }
+    }
+  }
+]

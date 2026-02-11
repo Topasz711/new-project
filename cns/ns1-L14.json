@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "A patient presents with contralateral hemiparalysis and loss of discriminative touch. A stroke is suspected in the white matter tract located specifically between the thalamus and the lentiform nucleus. Which of the following fibers is most likely directly compromised in this patient?",
+    "choices": {
+      "A": "Corticobulbar fibers descending to the brainstem motor nuclei",
+      "B": "Sensory radiations projecting to Brodmann areas 3, 1, and 2",
+      "C": "Frontopontine fibers projecting originating from the prefrontal cortex",
+      "D": "Fibers connecting the septal area internally with the habenular nuclei",
+      "E": "Mammillothalamic tract fibers projecting specifically to the anterior nucleus"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The posterior limb of the internal capsule is strictly located between the thalamus and the lentiform nucleus. This specific division contains crucial ascending sensory radiations from the ventral posterior (VP) nucleus to the primary somatosensory cortex (areas 3, 1, 2). It also houses descending corticospinal fibers. Therefore, a stroke here perfectly explains the combination of contralateral hemiparalysis and sensory loss.",
+      "incorrect": {
+        "A": "Corticobulbar fibers are located within the genu of the internal capsule, not the posterior limb.",
+        "C": "Frontopontine and prefrontal fibers predominantly run through the anterior limb of the internal capsule, which is positioned between the caudate nucleus and the lentiform nucleus, not the thalamus.",
+        "D": "Fibers connecting the septal area with the habenular nuclei form the stria medullaris thalami. This is part of the epithalamus, entirely separate from the internal capsule.",
+        "E": "The mammillothalamic tract is an internal diencephalic pathway connecting the mammillary body to the anterior nucleus, and is not considered a component of the internal capsule traversing to the cortex."
+      }
+    }
+  },
+  {
+    "question": "A patient with a chronic history of alcohol use disorder presents with profound long-term (remote) memory loss and severely uncontrolled emotional outbursts, characteristic of Wernicke-Korsakoff syndrome. Bilateral degeneration of which specific thalamic structure is most directly responsible for these clinical manifestations?",
+    "choices": {
+      "A": "The prominent anterior tubercle closely associated with the Papez circuit",
+      "B": "The lateral dorsal nucleus projecting exclusively to the cingulate gyrus",
+      "C": "The medial nuclear group receiving input from the amygdaloid complex",
+      "D": "The association relay nucleus integrating multimodal sensory inputs",
+      "E": "The intralaminar nuclei projecting diffusely to the entire cerebral cortex"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "This correctly describes the dorsomedial (DM) nucleus, which is the major component of the medial nuclear group. It regulates emotion, expression affect, and motivation via input from the amygdaloid complex and reciprocal connections with the prefrontal cortex. Its destruction is a hallmark of Wernicke-Korsakoff syndrome, leading to long-term (remote) memory loss and emotional uncontrol.",
+      "incorrect": {
+        "A": "The anterior tubercle refers to the anterior nuclear group. While part of the limbic Papez circuit, it is primarily associated with short-term (recent) memory rather than the profound long-term memory loss specified in Wernicke-Korsakoff syndrome.",
+        "B": "The lateral dorsal nucleus is a limbic relay nucleus in the dorsal tier, but it is not the primary site implicated in Wernicke-Korsakoff's remote memory and severe emotional uncontrol deficits.",
+        "D": "The association relay nucleus integrating multimodal sensory inputs is the pulvinar, which deals with sensory integration rather than remote memory or primary limbic emotion.",
+        "E": "The intralaminar nuclei (like the centromedian nucleus) receive basal ganglia input and project diffusely to the cortex and striatum for motor and widespread arousal functions, not for long-term limbic memory."
+      }
+    }
+  },
+  {
+    "question": "A 45-year-old musician experiences a subtle but progressive deficit in processing complex auditory stimuli. Neurological imaging reveals a highly localized microinfarction within the metathalamus. From which of the following brainstem structures does the compromised thalamic nucleus normally receive its primary ascending afferent fibers?",
+    "choices": {
+      "A": "The optic tract originating entirely from the retinal ganglion cells",
+      "B": "The brachium of the inferior colliculus located within the midbrain",
+      "C": "The superior colliculus responsible for primitive visual reflex integration",
+      "D": "The medial lemniscus carrying tactile and conscious proprioceptive signals",
+      "E": "The spinothalamic tract carrying conscious nociceptive and thermal signals"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "A localized lesion causing an auditory deficit in the metathalamus points to the medial geniculate body (MGB). The MGB functions as the auditory relay nucleus and receives its primary auditory input directly from the brachium of the inferior colliculus.",
+      "incorrect": {
+        "A": "The optic tract delivers visual input to the lateral geniculate body (LGB), which is the visual relay nucleus, not the auditory center.",
+        "C": "The superior colliculus is involved in the visual system and projects to the pulvinar and LGB, unrelated to the primary auditory processing pathway.",
+        "D": "The medial lemniscus carries somatosensory (tactile) information and terminates in the ventral posterolateral (VPL) nucleus, completely bypassing the metathalamus.",
+        "E": "The spinothalamic tract carries pain and temperature sensation and also terminates in the VPL nucleus, not the metathalamic auditory relay."
+      }
+    }
+  },
+  {
+    "question": "A 60-year-old right-handed patient suffers an ischemic stroke. Surprisingly, while the primary auditory cortex remains structurally intact, the patient exhibits profound sensory (receptive) aphasia. The neurologist suspects a lesion in the dominant side of the largest association nucleus of the thalamus. Which structure is most likely infarcted?",
+    "choices": {
+      "A": "The lateral posterior nucleus connecting mainly to the parietal lobe",
+      "B": "The dorsomedial nucleus connecting primarily to the prefrontal cortex",
+      "C": "The medial geniculate body relaying isolated raw auditory signals",
+      "D": "The prominent pulvinar located precisely at the posterior thalamic pole",
+      "E": "The centromedian nucleus projecting strongly to the basal ganglia striatum"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The pulvinar is definitively the largest nucleus of the thalamus and functions as a critical association relay center. It integrates visual, auditory, and somatic inputs. Crucially, a lesion affecting the pulvinar on the dominant side can disrupt multimodal integration, leading directly to sensory (receptive) aphasia despite intact primary sensory cortices.",
+      "incorrect": {
+        "A": "The lateral posterior (LP) nucleus is indeed an association relay nucleus, but its reciprocal connections are primarily restricted to the parietal lobe (areas 5 & 7), and it is not the largest nucleus nor the classic site for aphasia.",
+        "B": "The dorsomedial nucleus is primarily a limbic relay center connected to the prefrontal cortex for behavior, emotion, and memory, not for integrating language comprehension.",
+        "C": "The medial geniculate body (MGB) relays raw auditory signals. A lesion here would cause hearing loss or cortical deafness, but the prompt explicitly states the primary auditory cortex is intact, pointing to an integration (aphasia) issue.",
+        "E": "The centromedian (CM) nucleus is an intralaminar nucleus primarily involved in the motor system through its projections to the striatum, unrelated to complex language processing."
+      }
+    }
+  },
+  {
+    "question": "A neurosurgeon is planning a stereotactic deep brain stimulation (DBS) procedure to alleviate severe, medically refractory resting tremor in a patient with Parkinson's disease. To optimally modulate the hyperactive extrapyramidal motor circuits, the stimulating electrode should ideally target which specific thalamic nucleus?",
+    "choices": {
+      "A": "Ventral posterolateral (VPL) nucleus",
+      "B": "Ventral lateral (VL) nucleus",
+      "C": "Dorsomedial (DM) nucleus",
+      "D": "Anterior thalamic (AN) nucleus",
+      "E": "Medial geniculate body (MGB)"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The ventral lateral (VL) nucleus acts as a major motor relay nucleus, receiving significant input from the basal ganglia (globus pallidus, substantia nigra) and the cerebellum. Disruption or targeted destruction of the VL (or VA) nucleus is clinically proven to alleviate Parkinsonian tremor (resting tremor), making it the prime target for DBS.",
+      "incorrect": {
+        "A": "The VPL nucleus is strictly a somatosensory relay nucleus handling pain, temperature, and touch from the trunk and extremities.",
+        "C": "The DM nucleus regulates limbic functions such as emotion, affect, and planning through prefrontal connections, holding no direct role in managing extrapyramidal motor tremors.",
+        "D": "The AN nucleus is a limbic relay station tied to the Papez circuit for short-term memory, unrelated to motor control.",
+        "E": "The MGB is the auditory relay center of the metathalamus, completely unrelated to Parkinsonian symptoms."
+      }
+    }
+  },
+  {
+    "question": "During an anatomical dissection of the diencephalon, a medical student isolates a distinct bundle of nerve fibers known as the stria medullaris thalami. According to its functional neuroanatomy, this specific tract primarily serves to transmit neural signals between which two anatomical structures?",
+    "choices": {
+      "A": "From the mammillary bodies directly to the anterior thalamic nuclear group",
+      "B": "From the internal globus pallidus directly to the ventral anterior thalamic nucleus",
+      "C": "From the anterior prefrontal cortex directly to the dorsomedial thalamic nucleus",
+      "D": "From the forebrain septal area directly to the epithalamic habenular nuclei",
+      "E": "From the midbrain inferior colliculus directly to the medial geniculate body"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The stria medullaris thalami is clearly identified as a constituent part of the epithalamus. Its specific anatomical function is to act as a nerve fiber tract that connects the septal area to the habenular nuclei, forming a crucial link in the limbic and olfactory systems.",
+      "incorrect": {
+        "A": "The tract connecting the mammillary bodies to the anterior thalamic nucleus is called the mammillothalamic tract.",
+        "B": "The fibers transmitting signals from the globus pallidus to the ventral anterior nucleus travel through the lenticular fasciculus and ansa lenticularis, not the stria medullaris thalami.",
+        "C": "Connections between the prefrontal cortex and the dorsomedial nucleus are reciprocal thalamocortical and corticothalamic fibers, lacking this specific bundled name.",
+        "E": "The pathway from the inferior colliculus to the medial geniculate body is the brachium of the inferior colliculus."
+      }
+    }
+  },
+  {
+    "question": "A patient is brought to the emergency department presenting with severe, intractable hyperthermia despite a normal ambient room temperature and no underlying infectious etiology. A focal lesion in the chiasmatic (anterior) region of the hypothalamus is identified on MRI. Which specific nucleus is most likely destroyed, resulting in this failure of heat dissipation?",
+    "choices": {
+      "A": "The posterior nucleus, which normally regulates physiological heat conservation",
+      "B": "The preoptic or anterior nucleus, which normally functions as the primary heat loss center",
+      "C": "The suprachiasmatic nucleus, which normally regulates the intrinsic biological clock",
+      "D": "The paraventricular nucleus, which normally synthesizes and secretes antidiuretic hormone",
+      "E": "The ventromedial nucleus, which normally suppresses the drive for continuous food intake"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Within the chiasmatic (anterior) region of the hypothalamus, the preoptic nucleus and the anterior nucleus function specifically as the body temperature and heat loss centers. A lesion in this area physically removes the body's ability to dissipate heat, directly resulting in pathological hyperthermia (increased body temperature).",
+      "incorrect": {
+        "A": "While the posterior nucleus is involved in temperature regulation, it is located in the mammillary (posterior) region and functions as the heat conservation center; its lesion would cause hypothermia.",
+        "C": "The suprachiasmatic nucleus is indeed in the chiasmatic region, but it is exclusively responsible for regulating circadian rhythms (the biological clock), not thermal regulation.",
+        "D": "The paraventricular nucleus regulates water balance by producing ADH and oxytocin, maintaining no direct primary role in acute heat dissipation.",
+        "E": "The ventromedial nucleus is located in the tuberal region, not the chiasmatic region, and it governs satiety; lesions here lead to hyperphagia and obesity."
+      }
+    }
+  },
+  {
+    "question": "A 28-year-old female presents with severe anorexia nervosa and precipitous weight loss that is completely refractory to psychiatric intervention. A comprehensive neurological evaluation reveals a small, isolated tumor compressing a specific nucleus within the tuberal region of the medial hypothalamus. Which nucleus is functionally compromised in this patient?",
+    "choices": {
+      "A": "The non-discrete lateral hypothalamic area, functioning as the primary feeding center",
+      "B": "The structurally prominent ventromedial nucleus, functioning as the primary satiety center",
+      "C": "The medially situated dorsomedial nucleus, functioning as a critical tuberal feeding center",
+      "D": "The anteriorly positioned supraoptic nucleus, functioning to produce necessary vasopressin",
+      "E": "The strictly regulated suprachiasmatic nucleus, functioning to maintain precise metabolic rhythms"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The dorsomedial nucleus is located within the tuberal region of the medial hypothalamus and is explicitly designated as a feeding center. A lesion or functional compression of this specific nucleus suppresses the physiological drive to eat, classically presenting as anorexia nervosa and subsequent severe weight loss.",
+      "incorrect": {
+        "A": "While the lateral hypothalamic area acts as a feeding center (lesions cause hypophagia), it lacks discrete named nuclei and is located in the lateral zone, not the specified medial tuberal region.",
+        "B": "The ventromedial nucleus is in the tuberal region, but it functions as the satiety center; a lesion here would destroy the feeling of fullness, leading to uncontrollable overeating (hyperphagia) and obesity, which is the exact opposite of the patient's presentation.",
+        "D": "The supraoptic nucleus is located in the chiasmatic (anterior) region, not the tuberal region, and its primary function is the production of ADH and oxytocin.",
+        "E": "The suprachiasmatic nucleus is located in the anterior chiasmatic region and controls circadian rhythms, not primary feeding behaviors."
+      }
+    }
+  }
+]

@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "question": "A 75-year-old male is brought to the clinic with progressive urinary incontinence, cognitive decline, and a wide-based \"magnetic\" gait. A lumbar puncture shows a normal opening pressure. Which of the following statements best describes the pathophysiology or management of his condition?",
+    "choices": {
+      "A": "The condition is primarily driven by massive CSF overproduction from a choroid plexus papilloma.",
+      "B": "High-resolution imaging will definitively show a structural obstruction within the fourth ventricle.",
+      "C": "The patient's clinical symptoms, particularly gait, may dramatically improve after large-volume CSF removal.",
+      "D": "The ventricular dilatation is exclusively due to cortical atrophy and loss of brain parenchyma over time.",
+      "E": "The disease course is acute and represents an immediate neurosurgical emergency due to impending herniation."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "This clinical vignette describes the classic triad of Normal Pressure Hydrocephalus (NPH): gait difficulties (magnetic gait), urinary incontinence, and mental decline (dementia) in an elderly individual. Measurements of CSF pressure in NPH are usually not elevated. A hallmark diagnostic and therapeutic feature of NPH is that patients often show dramatic improvement, particularly in their gait, after a large-volume CSF removal via lumbar puncture or following ventriculoperitoneal (VP) shunting.",
+      "incorrect": {
+        "A": "CSF overproduction is a very rare cause of hydrocephalus and is typically associated with tumors like a choroid plexus papilloma, not NPH. NPH is generally considered a communicating hydrocephalus related to impaired CSF reabsorption.",
+        "B": "NPH is a form of communicating hydrocephalus. Therefore, an anatomical or structural obstruction within the ventricular system (like the fourth ventricle) is not the underlying cause.",
+        "D": "Ventricular dilatation strictly due to cortical atrophy and loss of brain tissue is known as hydrocephalus ex vacuo. While it also presents with enlarged ventricles, it does not typically present with this specific clinical triad and, importantly, does not improve with CSF removal.",
+        "E": "NPH is a chronic condition typically affecting elderly individuals over months or years. It is not an acute disease course presenting with signs of impending brain herniation."
+      }
+    }
+  },
+  {
+    "question": "A 35-year-old construction worker falls from a height. On physical examination, his vital signs are stable, but the physician notes clear fluid dripping from his nose (rhinorrhea) and bilateral periorbital ecchymosis (\"Raccoon's eyes\") without direct trauma to the orbits. Which of the following conditions is most likely present?",
+    "choices": {
+      "A": "A massive depressed fracture isolated to the bilateral parietal bone convexities.",
+      "B": "A diastatic fracture exclusively separating the sagittal and coronal suture lines.",
+      "C": "A simple linear fracture of the temporal bone vault without deep extension.",
+      "D": "A complex comminuted fracture strictly limited to the posterior occipital squama.",
+      "E": "A basilar skull fracture involving the floor of the anterior cranial fossa deeply."
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The patient is exhibiting classic clinical signs of a basilar skull fracture, specifically CSF rhinorrhea (leakage of cerebrospinal fluid from the nose) and \"Raccoon's eyes\" (periorbital ecchymosis in the absence of direct orbital trauma). These specific signs strongly point to a fracture involving the floor of the anterior cranial fossa (e.g., the cribriform plate of the ethmoid bone), allowing CSF to leak into the nasal cavity and blood to track into the periorbital tissues.",
+      "incorrect": {
+        "A": "A depressed fracture of the parietal bone convexities (the roof of the skull) would present with localized scalp swelling, hematoma, or neurological deficits corresponding to the underlying cortex, but it would not directly cause fluid leakage from the nose or Raccoon's eyes.",
+        "B": "A diastatic fracture involves the separation of cranial sutures. Unless it extends down into the cranial base, simply separating the sagittal and coronal sutures at the cranial vault will not produce these basal signs.",
+        "C": "A simple linear fracture of the temporal vault without deep extension into the petrous temporal bone (the base) would not cause basilar skull fracture signs.",
+        "D": "A fracture limited to the posterior occipital squama (posterior cranial fossa) might cause Battle's sign (postauricular ecchymosis) or CSF otorrhea, but it is not the anatomical location that leads to rhinorrhea or periorbital ecchymosis."
+      }
+    }
+  },
+  {
+    "question": "A neonate delivered via vacuum-assisted extraction develops a swelling on the right side of the head. The physician notes that the swelling is strictly confined to the right parietal bone and does NOT cross the midline sagittal suture. In which specific potential anatomical space has the blood accumulated?",
+    "choices": {
+      "A": "The subgaleal space, representing a potentially massive and expansile subgaleal hematoma.",
+      "B": "The subarachnoid space, representing a traumatic hemorrhage directly irritating the cortex.",
+      "C": "The subperiosteal space, representing a classically constrained and localized cephalohematoma.",
+      "D": "The epidural space, representing a traumatic rupture of the deep middle meningeal artery.",
+      "E": "The subcutaneous space, representing a superficial and entirely benign soft tissue contusion."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The crucial clinical clue here is that the swelling does not cross the suture lines. This is the defining characteristic of a subperiosteal hematoma (commonly known as a cephalohematoma). The bleeding occurs in the subperiosteal space, and because the periosteum (pericranium) is tightly bound to the edges of the skull bones at the sutural ligaments, the hematoma is limited to the surface of a single cranial bone.",
+      "incorrect": {
+        "A": "A subgaleal hematoma occurs in the loose areolar connective tissue layer (the subgaleal space). Because this tissue layer spans continuously across the cranial vault over the sutures, bleeding here is expansile, extensive, and freely crosses suture lines.",
+        "B": "A subarachnoid hemorrhage occurs intracranial beneath the arachnoid membrane. It would present with severe neurological signs (e.g., seizures, altered mental status) rather than a visible, palpable external scalp swelling.",
+        "D": "An epidural hematoma occurs inside the skull between the inner table of the bone and the dura mater. While it is also constrained by cranial sutures internally, it does not present as a superficial scalp swelling in a neonate; it presents with mass effect and neurological deterioration.",
+        "E": "Subcutaneous swelling (caput succedaneum) is superficial and can cross suture lines because it is located above the galea aponeurotica. It also typically feels boggy rather than like a distinct fluid collection constrained to one bone."
+      }
+    }
+  },
+  {
+    "question": "A 55-year-old male is diagnosed with a large, aggressively growing glioblastoma localized entirely within his left frontal lobe. Over weeks, he develops progressive and profound weakness completely isolated to his right leg. A follow-up MRI reveals a significant left-to-right shift of midline brain structures. Which specific type of herniation is occurring, and what essential vascular structure is being compromised?",
+    "choices": {
+      "A": "Uncal herniation causing direct compression of the right middle cerebral artery branches.",
+      "B": "Central herniation exerting direct mechanical pressure onto the left cerebral peduncle.",
+      "C": "Subfalcine herniation displacing the cingulate gyrus and compressing the anterior cerebral artery.",
+      "D": "Tonsillar herniation producing severe compression of the upper cervical spinal cord segments.",
+      "E": "Transtentorial herniation resulting in mechanical occlusion of the left posterior cerebral artery."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The patient has a left frontal mass causing a midline shift. The presentation of isolated right leg weakness is the classic sign of a subfalcine herniation. In this syndrome, the mass pushes the cingulate gyrus beneath the falx cerebri, mechanically compressing the anterior cerebral artery (ACA). The ACA supplies the medial aspect of the frontal and parietal lobes (the motor and sensory homunculus areas for the contralateral lower extremity), resulting in isolated leg weakness.",
+      "incorrect": {
+        "A": "An uncal herniation involves the medial temporal lobe (uncus) herniating over the tentorium. It typically compresses the ipsilateral cranial nerve III (causing pupillary dilation) and the midbrain cerebral peduncle (causing hemiparesis, often of the entire contralateral side, not isolated to the leg).",
+        "B": "Central herniation involves the downward displacement of the diencephalon and midbrain through the tentorial notch. It typically presents with a progressive decrease in consciousness, abnormal posturing, and bilateral midposition unreactive pupils, rather than an isolated focal leg deficit.",
+        "D": "Tonsillar herniation involves the cerebellar tonsils being pushed down through the foramen magnum. This catastrophically compresses the medulla, rapidly leading to respiratory arrest and death, not isolated leg weakness.",
+        "E": "While transtentorial herniation (which generally encompasses uncal or central herniation) can compress the posterior cerebral artery (PCA) leading to visual cortex ischemia, this would present with visual field deficits (e.g., contralateral homonymous hemianopia), not lower extremity motor weakness."
+      }
+    }
+  }
+]
