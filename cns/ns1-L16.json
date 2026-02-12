@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "question": "A 55-year-old hypertensive female exhibits a wide-based gait and pronounced lower limb dystaxia. Radiological findings indicate an infarction specifically localizing to the anterior lobe of the cerebellum. Which of the following arteries is the primary source of blood supply to this infarcted region?",
+    "choices": {
+      "A": "The anterior inferior cerebellar artery",
+      "B": "The posterior inferior cerebellar artery",
+      "C": "The superior cerebellar artery territory",
+      "D": "The main trunk of the vertebral artery",
+      "E": "The anterior spinal artery main branch"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "According to the anatomical blood supply of the cerebellum, the anterior lobe is primarily supplied by the superior cerebellar artery (SCA). An infarction here classicly presents with gait dystaxia due to the involvement of the spinocerebellum (anterior lobe).",
+      "incorrect": {
+        "A": "The anterior inferior cerebellar artery (AICA) primarily supplies the flocculonodular lobe, not the anterior lobe.",
+        "B": "The posterior inferior cerebellar artery (PICA) is responsible for supplying the posterior lobe of the cerebellum.",
+        "D": "While the vertebral artery is the parent vessel that eventually gives rise to the PICA, its main trunk does not directly supply the anterior lobe of the cerebellum.",
+        "E": "The anterior spinal artery branches off the vertebral arteries to supply the anterior portion of the spinal cord and the medial medulla, but it does not supply the cerebellar cortex."
+      }
+    }
+  },
+  {
+    "question": "A patient with a tumor invading the deep posterior cranial fossa suffers from severe vertigo and uncoordinated eye tracking. The neurologist notes that the efferent signals from the vestibular nuclei fail to reach the extraocular motor nuclei (CN III, IV, VI). Which specific pathway is most likely disrupted?",
+    "choices": {
+      "A": "The medial longitudinal fasciculus",
+      "B": "The lateral vestibulospinal tract",
+      "C": "The medial reticulospinal pathway",
+      "D": "The corticopontocerebellar fibers",
+      "E": "The superior cerebellar peduncle"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "In the vestibulocerebellar pathway, the vestibular nuclei project efferent signals via the medial longitudinal fasciculi (MLF) directly to the ocular motor nuclei (Cranial Nerves III, IV, and VI) to properly coordinate eye movements. Disruption here leads to the uncoordinated eye tracking seen in this patient.",
+      "incorrect": {
+        "B": "The vestibulospinal tracts (both medial and lateral) project downward to the spinal cord to regulate neck and antigravity muscles, not upward to the extraocular nuclei.",
+        "C": "The medial reticulospinal tract is a descending motor pathway involved in postural control, not in coordinating cranial nerves for eye movement.",
+        "D": "The corticopontocerebellar fibers are an afferent pathway bringing sensory and motor information from the cerebral cortex into the cerebellar hemisphere, totally unrelated to the specific vestibular-ocular efferent connection.",
+        "E": "The superior cerebellar peduncle is the main efferent pathway for the dentate and interposed nuclei projecting to the red nucleus and thalamus, rather than the vestibular output to the eye muscles."
+      }
+    }
+  },
+  {
+    "question": "A toddler is brought to the pediatric clinic. The child exhibits a \"rag-doll\" appearance, excessively loose joints, and pendular deep tendon reflexes. Based on cerebellar neurophysiology, this classical presentation of hypotonia most directly results from which of the following?",
+    "choices": {
+      "A": "Loss of cerebellar facilitation via tonic firing of cerebellar nuclei",
+      "B": "Inability to arrest voluntary muscular movement at a desired point",
+      "C": "Complete destruction of the primary sensory and motor cortices",
+      "D": "Hyperpolarization of the descending rubrospinal tract neurons",
+      "E": "Selective damage to the ascending spinocerebellar afferent fibers"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Cerebellar hypotonia (characterized by decreased muscle resistance, a \"rag-doll\" appearance, and pendular reflexes) directly results from the loss of cerebellar facilitation of the motor cortex, which is normally maintained by the continuous, tonic firing of the deep cerebellar nuclei.",
+      "incorrect": {
+        "B": "The inability to arrest a muscular movement at a desired point is the definition of dysmetria (or past-pointing), which is a form of dyssynergia, not the underlying cause of hypotonia.",
+        "C": "Complete destruction of the motor cortex would result in upper motor neuron (UMN) syndrome. While initial spinal shock might cause flaccidity, it typically progresses to spasticity and hyperreflexia, which contradicts the pendular reflexes and loose joints seen here.",
+        "D": "While the rubrospinal tract is involved in motor execution, hypotonia is broadly caused by a generalized lack of cerebellar excitatory tone to the motor cortex, not specifically hyperpolarization of the rubrospinal tract alone.",
+        "E": "Damage to the ascending spinocerebellar tracts deprives the cerebellum of proprioceptive input. This primarily leads to ataxia (loss of coordination) rather than the classic isolated sign of severe hypotonia caused by efferent failure."
+      }
+    }
+  },
+  {
+    "question": "A neurologist identifies a focal lesion in the paravermal zone of a patient's cerebellum. The patient shows profound incoordination specifically in the distal muscle groups of the extremities. Which specific descending tracts ultimately serve as the primary execution pathways for this affected circuit?",
+    "choices": {
+      "A": "The lateral corticospinal and the rubrospinal tracts",
+      "B": "The anterior corticospinal and vestibulospinal tracts",
+      "C": "The medial reticulospinal and the tectospinal tracts",
+      "D": "The ventral spinocerebellar and olivocerebellar tracts",
+      "E": "The dentatorubrothalamic and the corticobulbar tracts"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The paravermal spinocerebellar pathway is responsible for maintaining muscle tone and postural control over distal muscle groups. The paravermis projects to the interposed nuclei, which then send excitatory outputs to the ventral lateral nucleus (which gives rise to the lateral corticospinal tract regulating distal muscles) and the red nucleus (which gives rise to the rubrospinal tract mediating control over distal muscles).",
+      "incorrect": {
+        "B": "The anterior corticospinal and vestibulospinal tracts are driven by the vermal spinocerebellar pathway, and their primary role is to regulate muscle tone of truncal (axial) and proximal muscles, not distal extremities.",
+        "C": "The reticulospinal and tectospinal tracts are largely involved in axial and proximal postural adjustments and head/eye reflex coordination, primarily receiving influence from the vermal zone/fastigial nucleus, not the paravermal zone.",
+        "D": "The ventral spinocerebellar and olivocerebellar tracts are afferent input pathways bringing signals into the cerebellum, not descending motor execution pathways.",
+        "E": "The dentatorubrothalamic tract is an efferent pathway originating from the lateral hemisphere (neocerebellum), not the paravermis. Furthermore, the corticobulbar tract innervates cranial nerve nuclei, which do not control the distal muscles of the extremities."
+      }
+    }
+  }
+]
