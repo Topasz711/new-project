@@ -1,0 +1,162 @@
+[
+  {
+    "question": "A 70-year-old woman presents for a routine pacemaker evaluation. During the check, her permanent pacemaker (normally set to 70 bpm) is temporarily inhibited to assess her underlying rhythm. Her intrinsic ECG shows a regular heart rate of 50 bpm with absent P waves and narrow QRS complexes. Which structure is most likely her dominant pacemaker?",
+    "choices": {
+      "A": "SA node",
+      "B": "Atrial muscle",
+      "C": "AV node",
+      "D": "Bundle of His",
+      "E": "Purkinje fibers"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The AV node has an intrinsic pacemaker firing rate of 40–60 beats per minute (bpm). A narrow QRS complex (<0.12 seconds) indicates that ventricular depolarization is occurring normally through the rapid His-Purkinje conduction system, meaning the impulse must originate from the AV junction or above. The absence of P waves combined with a rate of 50 bpm and narrow QRS classically identifies the AV node as the dominant intrinsic pacemaker (forming a junctional escape rhythm) that has taken over due to a failing SA node.",
+      "incorrect": {
+        "A": "The intrinsic firing rate of the Sinoatrial (SA) node is 60–100 bpm. Furthermore, if the SA node were the dominant pacemaker, normal upright P waves would be visible preceding each QRS complex.",
+        "B": "Atrial muscle tissue is not a primary pacemaker structure and does not have a reliable, regular intrinsic rhythm of 50 bpm under normal physiological conditions. Additionally, ectopic atrial rhythms typically present with visible, albeit morphologically abnormal, P waves.",
+        "D": "The Bundle of His can act as a subsidiary pacemaker, but its intrinsic rate is generally lower (around 40 bpm or less). While an impulse from the Bundle of His also produces a narrow QRS, the AV node is anatomically higher in the conduction system and has a faster intrinsic rate (40-60 bpm), making it the primary and most likely escape pacemaker when the SA node fails.",
+        "E": "Purkinje fibers have a very slow intrinsic firing rate of 20–40 bpm. Most importantly, an impulse originating from the Purkinje fibers (ventricular origin) would produce a wide QRS complex (>0.12 seconds), not a narrow one."
+      }
+    }
+  },
+  {
+    "question": "A 72-year-old woman with chronic atrial fibrillation undergoes an electrophysiological study. The study reveals that a certain atrial structure conducts impulses from the right atrium to the left atrium at a velocity of approximately 1.7 m/sec. The electrophysiologist notes that this same structure can also generate spontaneous action potentials under severe ischemic conditions. Which structure is being described?",
+    "choices": {
+      "A": "Atrioventricular (AV) node",
+      "B": "Bachmann’s bundle",
+      "C": "Purkinje fibers",
+      "D": "Sinoatrial (SA) node",
+      "E": "Bundle of His"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Bachmann's bundle (the anterior interatrial band) is the specialized primary conduction pathway that rapidly transmits the electrical impulse from the right atrium to the left atrium, ensuring synchronous atrial contraction.",
+      "incorrect": {
+        "A": "The AV node is located in the lower interatrial septum and conducts impulses from the atria to the ventricles. It is characterized by slow conduction (to allow ventricular filling), not rapid interatrial conduction.",
+        "C": "Purkinje fibers are located in the inner ventricular walls, responsible for the rapid distribution of the electrical impulse to the ventricular muscle, not between the atria.",
+        "D": "The SA node is the primary pacemaker located in the superior wall of the right atrium. It generates the initial impulse but does not act as the interatrial conduction tract.",
+        "E": "The Bundle of His transmits impulses from the AV node down into the interventricular septum toward the ventricles, not from the right atrium to the left atrium."
+      }
+    }
+  },
+  {
+    "question": "Which ion channel is responsible for the rapid repolarization (Phase 3) in both cardiac myocytes and SA node cells?",
+    "choices": {
+      "A": "Voltage-gated potassium channels",
+      "B": "Fast sodium channels",
+      "C": "Funny current channels",
+      "D": "L-type calcium channels",
+      "E": "T-type calcium channels"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "In both pacemaker cells (SA node) and non-pacemaker cells (ventricular myocytes), Phase 3 is the rapid repolarization phase. This is primarily driven by the opening of voltage-gated potassium (K+) channels (delayed rectifiers), allowing K+ to exit the cell down its concentration gradient, returning the membrane potential to its negative resting or maximum diastolic potential.",
+      "incorrect": {
+        "B": "Fast sodium channels are responsible for Phase 0 (rapid depolarization) in non-pacemaker ventricular myocytes, not repolarization.",
+        "C": "Funny current (If) channels open during hyperpolarization and allow a slow, inward mixed Na+/K+ current. They are responsible for Phase 4 spontaneous depolarization in pacemaker cells.",
+        "D": "L-type calcium channels are responsible for Phase 0 (depolarization) in the SA node and Phase 2 (plateau) in ventricular myocytes. Their activity opposes repolarization.",
+        "E": "T-type (transient) calcium channels open briefly during the late stages of Phase 4 in the SA node to help bring the membrane potential to the threshold."
+      }
+    }
+  },
+  {
+    "question": "During Phase 4 of the Sinoatrial (SA) node action potential, which ion current is primarily responsible for spontaneous depolarization toward the threshold?",
+    "choices": {
+      "A": "Fast sodium current",
+      "B": "Delayed rectifier potassium current",
+      "C": "Funny current (If) via sodium channels",
+      "D": "Sodium-Potassium ATPase pump",
+      "E": "L-type calcium current"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The hallmark of SA node pacemaker cells is their unstable resting membrane potential during Phase 4. This spontaneous depolarization is primarily driven by the \"funny current\" (If), which allows a slow, continuous influx of sodium (Na+) ions as the membrane becomes hyperpolarized from the previous action potential.",
+      "incorrect": {
+        "A": "Fast sodium channels are largely inactivated or absent in normal SA node cells; they drive Phase 0 in ventricular and atrial working myocardium.",
+        "B": "The delayed rectifier potassium current drives Phase 3 repolarization. During Phase 4, K+ channels are actually closing, which assists the depolarizing effect of the funny current.",
+        "D": "The Na+/K+ ATPase pump maintains long-term concentration gradients (moving 3 Na+ out and 2 K+ in) and is net electrogenic (creates a slight negative charge), which opposes depolarization.",
+        "E": "While L-type calcium current contributes to the very end of Phase 4 to trigger the action potential, it is primarily responsible for the rapid upstroke (Phase 0) in the SA node, not the initial steady slope of Phase 4."
+      }
+    }
+  },
+  {
+    "question": "Which lead is most likely to show an entirely negative P-QRS-T complex in a healthy patient with normal heart orientation?",
+    "choices": {
+      "A": "Lead V5",
+      "B": "Lead I",
+      "C": "Lead II",
+      "D": "Lead aVF",
+      "E": "Lead aVR"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Lead aVR is an augmented unipolar limb lead that \"looks\" at the heart from the right shoulder. The normal electrical axis of the heart depolarizes from the upper right (SA node) to the lower left (left ventricle). Because the general wave of depolarization moves entirely away from the right shoulder, the resulting waveforms (P wave, QRS complex, and T wave) are normally inverted (negative) in Lead aVR.",
+      "incorrect": {
+        "A": "Lead V5 looks at the lateral left ventricle. The dominant left ventricular depolarization moves toward V5, producing a strong positive R wave.",
+        "B": "Lead I looks at the heart from the left arm (0 degrees). Since the normal axis is down and to the left, the complex in Lead I is predominantly positive.",
+        "C": "Lead II looks from the left leg (+60 degrees), which is almost perfectly aligned with the heart's normal electrical axis. It typically shows the tallest, most positive complexes.",
+        "D": "Lead aVF looks from the inferior aspect (+90 degrees). The normal axis is directed inferiorly, so aVF normally shows positive deflections."
+      }
+    }
+  },
+  {
+    "question": "In Einthoven’s triangle, the three limb leads are formed by different electrode pairs. If the potential difference between the right arm and left leg is +1.2 mV, and the potential difference between the right arm and left arm is +0.5 mV, what is the expected potential difference between the left arm and left leg?",
+    "choices": {
+      "A": "+0.7 mV",
+      "B": "+1.7 mV",
+      "C": "-0.7 mV",
+      "D": "+0.5 mV",
+      "E": "-1.7 mV"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "According to Einthoven's Law, the electrical potential of Lead II is equal to the sum of the potentials of Lead I and Lead III (Lead I + Lead III = Lead II). Lead II (Right Arm to Left Leg) = +1.2 mV, Lead I (Right Arm to Left Arm) = +0.5 mV. Lead III (Left Arm to Left Leg) is the unknown. Using the formula: 0.5 mV + Lead III = 1.2 mV. Therefore, Lead III = 1.2 mV - 0.5 mV = +0.7 mV.",
+      "incorrect": {
+        "B": "This incorrectly adds Lead II and Lead I (1.2 + 0.5 = 1.7).",
+        "C": "This incorrectly subtracts Lead II from Lead I (0.5 - 1.2 = -0.7).",
+        "D": "This merely repeats the value of Lead I.",
+        "E": "This is the negative value of adding both leads incorrectly."
+      }
+    }
+  },
+  {
+    "question": "Analysis of a patient's ECG shows a PR interval that gradually lengthens from 0.18s to 0.22s and then 0.26s, followed by a P wave that is not followed by a QRS. The cycle then repeats. This pattern is diagnostic of:",
+    "choices": {
+      "A": "Third-degree AV block",
+      "B": "Sinus Arrhythmia",
+      "C": "Second-degree AV block Mobitz Type I",
+      "D": "Second-degree AV block Mobitz Type II",
+      "E": "First-degree AV block"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "A progressive lengthening of the PR interval followed by a non-conducted P wave (a \"dropped\" QRS complex) is the exact textbook definition of Second-degree AV block Mobitz Type I, also known as the Wenckebach phenomenon. It usually occurs due to reversible conduction delay within the AV node.",
+      "incorrect": {
+        "A": "In Third-degree (complete) AV block, there is absolute AV dissociation. P waves and QRS complexes beat independently of each other; the PR interval is completely random, not progressively lengthening.",
+        "B": "Sinus arrhythmia is a normal variation in the heart rate associated with breathing (HR increases on inspiration, decreases on expiration). Every P wave is followed by a QRS, and the PR interval remains constant.",
+        "D": "In Second-degree AV block Mobitz Type II, the PR interval remains constant for conducted beats. Beats are dropped suddenly and unpredictably without any prior progressive PR lengthening.",
+        "E": "In First-degree AV block, the PR interval is prolonged (fixed > 0.20s), but every single P wave is conducted to the ventricles. There are no dropped QRS complexes."
+      }
+    }
+  },
+  {
+    "question": "A 60-year-old patient with syncope is found to have a heart rate of 38 bpm on ECG. There is no relationship between P waves and QRS complexes. The QRS complexes are wide (>0.12 sec) and occur at a regular rate of 38 bpm. Which part of the conduction system is most likely serving as the pacemaker?",
+    "choices": {
+      "A": "SA node",
+      "B": "Atrial myocardium",
+      "C": "AV node",
+      "D": "Bundle of His",
+      "E": "Purkinje fibers"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "This ECG describes a Third-degree (complete) AV block with a ventricular escape rhythm. The lack of relationship between P waves and QRS complexes indicates complete AV dissociation. The regular, slow rate of 38 bpm paired with a wide QRS complex (>0.12 sec) proves the pacemaker must be located in the ventricles, below the bifurcation of the bundle of His. The Purkinje fibers generate exactly this type of slow (20-40 bpm), wide-complex escape rhythm.",
+      "incorrect": {
+        "A": "The SA node fires at 60-100 bpm. Even if it were firing at 38 bpm (severe sinus bradycardia), it would produce a narrow QRS, and there would be a 1:1 relationship between P waves and QRS complexes.",
+        "B": "Atrial pacing would result in a narrow QRS complex, as the impulse would still travel down the normal His-Purkinje pathway.",
+        "C": "An AV nodal (junctional) escape rhythm typically operates at 40-60 bpm and, crucially, produces a narrow QRS complex because the impulse still travels normally down the His bundle and bundle branches.",
+        "D": "While the Bundle of His can generate an escape rate around 40-60 bpm, impulses originating here still enter the bundle branches normally, typically resulting in a narrow QRS complex."
+      }
+    }
+  }
+]

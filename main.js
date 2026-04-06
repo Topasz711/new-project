@@ -297,6 +297,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (quizView) quizView.classList.remove('hidden');
                 if (title) title.textContent = '';
                 if (container) container.innerHTML = placeholderHTML;
+            } else if (parentPaneId === 'cardiovascularContent') {
+                const list = document.getElementById('cardiovascularListView');
+                const quizView = document.getElementById('cardiovascularQuizView');
+                const title = document.getElementById('cardiovascular-quiz-title');
+                const container = document.getElementById('cardiovascularQuizContainer');
+
+                if (list) list.classList.add('hidden'); 
+                if (quizView) quizView.classList.remove('hidden');
+                if (title) title.textContent = '';
+                if (container) container.innerHTML = placeholderHTML;
             }
         }
     };
@@ -390,6 +400,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else if (quizView && !quizView.classList.contains('hidden')) {
                      // ถ้าไม่มี subTarget แต่ quizView เปิดอยู่ ให้คง quizView ไว้ (กรณี refresh)
                 }
+            } else if (targetId === 'cardiovascularContent') {
+                const list = document.getElementById('cardiovascularListView');
+                const quizView = document.getElementById('cardiovascularQuizView');
+                if (list) list.classList.remove('hidden');
+                if (quizView) quizView.classList.add('hidden');
             } else if (targetId === 'miniGameContent') {
                 // Reset to menu view when entering Mini-Game tab
                 document.getElementById('miniGameMenu').classList.remove('hidden');
@@ -524,6 +539,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.querySelectorAll('.cns-sub-pane').forEach(pane => pane.classList.add('hidden')); 
                 
                 if (titleEl) titleEl.textContent = quizTitle || 'CNS Quiz';
+                if (quizView) quizView.classList.remove('hidden');
+                if (quizType === 'mcq') startNewMcqQuiz(fetchedData, quizContainerId, quizFile, null, navLinks);
+            } else if (parentPaneId === 'cardiovascularContent') {
+                const listView = document.getElementById('cardiovascularListView');
+                const titleEl = document.getElementById('cardiovascular-quiz-title');
+                const quizView = document.getElementById('cardiovascularQuizView');
+                
+                if (listView) listView.classList.add('hidden');
+                if (titleEl) titleEl.textContent = quizTitle || 'Cardiovascular Quiz';
                 if (quizView) quizView.classList.remove('hidden');
                 if (quizType === 'mcq') startNewMcqQuiz(fetchedData, quizContainerId, quizFile, null, navLinks);
             }

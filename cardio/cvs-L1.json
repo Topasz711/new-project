@@ -1,0 +1,242 @@
+[
+  {
+    "question": "A blood vessel is described microscopically as having a relatively thinner wall compared to its accompanying artery, and it possesses valves along its lumen. What type of vessel is being described?",
+    "choices": {
+      "A": "Artery",
+      "B": "Arteriole",
+      "C": "Capillary",
+      "D": "Vein",
+      "E": "Sinusoid"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Veins are characterized by thinner walls, larger lumens, and the presence of valves (especially in the lower extremities) to prevent backflow and return deoxygenated blood to the heart under low pressure.",
+      "incorrect": {
+        "A": "Arteries have thick muscular or elastic walls designed to transport blood under high pressure away from the heart and do not contain valves.",
+        "B": "Arterioles are the smallest arterial branches and possess a thick smooth muscle layer relative to their lumen; they act as a major site of vascular resistance and do not possess valves.",
+        "C": "Capillaries consist only of a single endothelial layer and a basement membrane, serving as the primary site of microscopic gas, nutrient, and waste exchange without the use of valves.",
+        "E": "Sinusoids are a highly permeable, fenestrated type of capillary network, lacking the described characteristics of a distinct muscular wall possessing valves."
+      }
+    }
+  },
+  {
+    "question": "A medical student uses the mnemonic \"RAT PLANT\" to recall structures at the level of the sternal angle (T4/T5). Which structure from this mnemonic continues inferiorly from the superior mediastinum into the posterior mediastinum as a major vessel?",
+    "choices": {
+      "A": "Rib 2 (R)",
+      "B": "Aortic arch (A)",
+      "C": "Pulmonary trunk (P)",
+      "D": "Azygos vein (A)",
+      "E": "Thoracic duct (T)"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The aortic arch begins and ends at the sternal angle (T4-T5). It curves posteriorly and continues inferiorly as the descending thoracic aorta into the posterior mediastinum.",
+      "incorrect": {
+        "A": "Rib 2 articulates at the sternal angle, but it is a bony structural landmark of the thoracic cage, not a major vessel continuing into the posterior mediastinum.",
+        "C": "The pulmonary trunk bifurcates at the level of the sternal angle (T4-T5) into the left and right pulmonary arteries, rather than continuing inferiorly into the posterior mediastinum.",
+        "D": "While the azygos vein is present at this level, it arches over the right main bronchus to drain superiorly into the superior vena cava from the posterior mediastinum, rather than traveling inferiorly.",
+        "E": "The thoracic duct is a lymphatic vessel, not a blood vessel, and it ascends from the posterior mediastinum up into the superior mediastinum to empty into the left subclavian vein."
+      }
+    }
+  },
+  {
+    "question": "A cardiac surgeon needs to temporarily occlude the ascending aorta during a coronary artery bypass graft (CABG) procedure. To pass a clamp around the aorta, the surgeon must access a potential space within the pericardial sac that lies anterior to the superior vena cava (SVC) and left atrium, and posterior to the ascending aorta and pulmonary trunk. Which pericardial sinus is this?",
+    "choices": {
+      "A": "Oblique sinus",
+      "B": "Transverse sinus",
+      "C": "Anterior mediastinal space",
+      "D": "Posterior mediastinal recess",
+      "E": "Costomediastinal recess"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The transverse sinus of the pericardium is anatomically bounded anteriorly by the ascending aorta and pulmonary trunk, and posteriorly by the SVC and left atrium. In cardiac surgery, this potential space allows surgeons to pass a finger or clamp behind the aorta and pulmonary trunk to isolate them safely.",
+      "incorrect": {
+        "A": "The oblique sinus is a blind-ending cul-de-sac located posterior to the left atrium, separating it from the esophagus and other posterior mediastinal structures. It is not positioned between the great arteries and veins.",
+        "C": "This is a distinct subdivision of the mediastinum bounded between the sternum and pericardium, containing thymus remnants and fat, not a sinus within the pericardial sac itself.",
+        "D": "This is a fabricated term; it is not a recognized anatomical space within the pericardial sac used for isolating the great vessels.",
+        "E": "This is a potential space in the pleural cavity between the costal and mediastinal parietal pleurae, completely unrelated to the pericardial sinuses or the heart's great vessels."
+      }
+    }
+  },
+  {
+    "question": "A 25-year-old man encounters a life-threatening situation, triggering his \"fight or flight\" response. Which of the following correctly describes the expected changes in his heart rate and coronary artery diameter?",
+    "choices": {
+      "A": "Heart rate decreases; coronary arteries constrict",
+      "B": "Heart rate decreases; coronary arteries dilate",
+      "C": "Heart rate increases; coronary arteries constrict",
+      "D": "Heart rate increases; coronary arteries dilate",
+      "E": "No change in heart rate; coronary arteries constrict"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Sympathetic efferent innervation drives the \"fight or flight\" response, which physiologically functions to increase heart rate, increase the force of myocardial contraction, and dilate the coronary arteries.",
+      "incorrect": {
+        "A": "This physiological profile perfectly describes parasympathetic (vagal) efferent stimulation, which dominates at rest, not during a \"fight or flight\" scenario.",
+        "B": "A decreased heart rate is a parasympathetic action, while coronary dilation is a sympathetic action. These directly opposing physiological effects do not occur simultaneously as part of a single autonomic response.",
+        "C": "While the heart rate correctly increases under sympathetic control, the coronary arteries must dilate, not constrict, to increase blood flow and meet the heightened myocardial oxygen demand.",
+        "E": "A life-threatening situation violently activates sympathetic nerves, which will strictly cause an increase in the heart rate."
+      }
+    }
+  },
+  {
+    "question": "A 60-year-old patient presents with hoarseness and a widened mediastinum on chest X-ray. Imaging reveals an aortic arch aneurysm. Which nerve is most likely compressed, and where does it loop?",
+    "choices": {
+      "A": "Right recurrent laryngeal nerve – around the right subclavian artery",
+      "B": "Left recurrent laryngeal nerve – around the ligamentum arteriosum",
+      "C": "Phrenic nerve – around the aortic arch",
+      "D": "Vagus nerve – at the level of the carina",
+      "E": "Sympathetic trunk – at the T4 ganglion"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The left recurrent laryngeal nerve hooks underneath the aortic arch, specifically curving around the ligamentum arteriosum. Compression from an aortic arch aneurysm at this specific location classically presents with hoarseness.",
+      "incorrect": {
+        "A": "While it is anatomically true that the right recurrent laryngeal nerve hooks underneath the right subclavian artery, an aortic arch aneurysm is located too centrally and leftward to typically compress this right-sided structure.",
+        "C": "The phrenic nerves run anterior to the root of the lung directly on the pericardium and do not loop around the aortic arch. Compression of this nerve leads to diaphragmatic paralysis or hiccups, not hoarseness.",
+        "D": "The bilateral vagus nerves run posterior to the lung roots. While the vagus nerve gives rise to the recurrent laryngeal nerves, the main vagus nerve itself at the carina is not the specific structure whose compression directly causes hoarseness in an arch aneurysm.",
+        "E": "The sympathetic trunks are located vertically in the posterior mediastinum and are not anatomically positioned to be compressed by the aortic arch to cause vocal cord paralysis and hoarseness."
+      }
+    }
+  },
+  {
+    "question": "During cardiac surgery, the surgeon identifies a muscular band that connects the interventricular septum to the base of the anterior papillary muscle of the right ventricle. This structure carries the right bundle branch. What is it called?",
+    "choices": {
+      "A": "Septomarginal trabecula",
+      "B": "Crista terminalis",
+      "C": "Conus arteriosus",
+      "D": "Supraventricular crest",
+      "E": "Septal papillary muscle"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Also known clinically as the moderator band, this specialized muscular bridge extends from the interventricular septum across the cavity to the base of the anterior papillary muscle strictly within the right ventricle. Its electrical role is to carry the right bundle branch directly to the anterior papillary muscle.",
+      "incorrect": {
+        "B": "This is a distinct internal muscular ridge in the right atrium that acts as the dividing line separating the smooth-walled sinus venarum from the rough, pectinate muscles.",
+        "C": "Also known as the infundibulum, this represents the smooth-walled, funnel-shaped outflow tract of the right ventricle leading upward into the pulmonary trunk.",
+        "D": "This is a thick muscular ridge located inside the right ventricle that serves to separate its rough inflow tract from its smooth outflow tract.",
+        "E": "This is the smallest and least constant of the right ventricular papillary muscles, arising directly from the interventricular septum to anchor chordae tendineae to the septal and anterior cusps of the tricuspid valve. It is not a spanning band carrying the bundle branch."
+      }
+    }
+  },
+  {
+    "question": "A patient is diagnosed with superior vena cava (SVC) syndrome due to a mediastinal mass. Which of the following veins provides an important collateral pathway bypassing the SVC obstruction?",
+    "choices": {
+      "A": "Hemiazygos vein",
+      "B": "Internal jugular vein",
+      "C": "Azygos vein",
+      "D": "Brachiocephalic vein",
+      "E": "Pulmonary vein"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The azygos venous system provides a crucial, major collateral circulation pathway in the event of an SVC obstruction. An enlarged azygos arch seen on imaging is a direct clinical indicator of SVC obstruction or portal hypertension.",
+      "incorrect": {
+        "A": "The hemiazygos vein is part of the azygos system, but it primarily drains the lower left thoracic wall crossing over to empty into the azygos vein. It is not the main terminal collateral conduit that bypasses blood directly to the unaffected IVC or SVC.",
+        "B": "The internal jugular vein drains venous blood from the head and neck downward into the brachiocephalic vein. Because it sits upstream of the SVC, it would be backed up and dilated during an SVC obstruction, not act as a bypass.",
+        "D": "The right and left brachiocephalic veins unite to structurally form the SVC. If the SVC is blocked, these venous trunks are directly obstructed and cannot serve as an alternative bypass route.",
+        "E": "Pulmonary veins transport newly oxygenated blood from the lungs back to the left atrium and are entirely separate from the body's systemic venous collateral bypass pathways."
+      }
+    }
+  },
+  {
+    "question": "A patient has an occlusion of the left coronary artery (left main stem). Which of the following blood vessels would most likely be ischemic (lose blood supply)?",
+    "choices": {
+      "A": "SA nodal artery",
+      "B": "Posterior descending artery (PDA)",
+      "C": "Right marginal artery",
+      "D": "AV nodal artery",
+      "E": "Circumflex artery"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The circumflex artery is one of the two primary branches that the Left Coronary Artery (LCA) bifurcates into, with the other being the anterior interventricular artery (LAD). An occlusion of the left main stem would directly cut off anterograde blood flow to the circumflex artery.",
+      "incorrect": {
+        "A": "The SA nodal artery most commonly arises from the Right Coronary Artery (RCA) in approximately 60% of the population, making its ischemia largely independent of a left main occlusion.",
+        "B": "In the majority of the population (about 70-85%), the heart is right-dominant, which means the PDA branches from the Right Coronary Artery (RCA).",
+        "C": "The right marginal artery is a direct, major branch of the Right Coronary Artery (RCA).",
+        "D": "The AV nodal artery typically originates from the RCA (seen in ~90% of individuals with right dominance)."
+      }
+    }
+  },
+  {
+    "question": "A patient has an occlusion of an artery that arises from the right coronary artery, runs along the acute margin of the right ventricle, and then continues posteriorly toward the diaphragmatic surface. Which of the following veins runs alongside this artery in the coronary sulcus?",
+    "choices": {
+      "A": "Great cardiac vein",
+      "B": "Middle cardiac vein",
+      "C": "Small cardiac vein",
+      "D": "Inferior vena cava",
+      "E": "Superior vena cava"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The artery detailed in the prompt is the right marginal artery, which structurally runs along the inferior (acute) margin of the right ventricle. The small cardiac vein anatomically accompanies the right marginal artery in this location.",
+      "incorrect": {
+        "A": "The great cardiac vein runs alongside the anterior interventricular artery (LAD) within the anterior interventricular sulcus before entering the coronary sinus.",
+        "B": "The middle cardiac vein accompanies the posterior descending artery (PDA) within the posterior interventricular sulcus.",
+        "D": "The IVC is a major systemic vessel returning blood from the abdomen, pelvis, and lower limbs to the right atrium, not a cardiac vein running in the heart's coronary sulcus.",
+        "E": "The SVC is a great vessel returning blood from the head, neck, and upper limbs to the right atrium, entirely unassociated with the acute margin of the heart."
+      }
+    }
+  },
+  {
+    "question": "A 70-year-old man with a history of hypertension and heavy smoking presents with sudden onset of left flank pain and scrotal swelling. Imaging shows a large infrarenal abdominal aortic aneurysm (AAA) with mural thrombus. Which of the following arteries is most likely compromised by the thrombus, leading to testicular ischemia?",
+    "choices": {
+      "A": "Celiac artery",
+      "B": "Common iliac artery",
+      "C": "Left renal artery",
+      "D": "Superior mesenteric artery",
+      "E": "Left gonadal artery"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The gonadal arteries (testicular in males, ovarian in females) branch directly off the anterior abdominal aorta between the level of the renal arteries (L1-L2) and the aortic bifurcation (L4). An infrarenal AAA with an expanding thrombus would directly compromise these specific arteries in this segment, causing testicular ischemia.",
+      "incorrect": {
+        "A": "The celiac trunk branches from the anterior abdominal aorta at the T12-L1 level, which is situated well above the infrarenal segment where the described aneurysm is located.",
+        "B": "The common iliac arteries are formed by the terminal bifurcation of the aorta at the L4 level. While they could potentially be affected if the aneurysm extends downward, the direct anatomical cause of localized scrotal/testicular ischemia points specifically to the gonadal vessels.",
+        "C": "Renal arteries branch off at the L1-L2 vertebral level. An \"infrarenal\" AAA, by its anatomical definition, occurs distal to (below) the renal arteries, keeping the main renal arteries mostly unaffected by the dilation.",
+        "D": "The SMA branches off at the L1 level, making it proximal (superior) to an infrarenal aneurysm."
+      }
+    }
+  },
+  {
+    "question": "Auscultation at the right second intercostal space, just lateral to the sternum, is the standard location to best hear which cardiac valve?",
+    "choices": {
+      "A": "Pulmonary valve",
+      "B": "Aortic valve",
+      "C": "Mitral valve",
+      "D": "Tricuspid valve",
+      "E": "Semilunar valve"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Although the valve physically sits behind the left half of the sternum, the acoustic sound of the aortic valve closing is projected by blood flow upward and to the right, making the right 2nd intercostal space (just lateral to the sternum) the optimal site for auscultation.",
+      "incorrect": {
+        "A": "The pulmonary valve is anatomically best auscultated at the left 2nd intercostal space, just lateral to the sternum.",
+        "C": "The mitral valve is best auscultated at the left 5th intercostal space at the midclavicular line, which corresponds to the apex beat of the heart.",
+        "D": "The tricuspid valve is best heard at the left 4th or 5th intercostal space, at the lower left sternal border.",
+        "E": "\"Semilunar\" is a broad categorical term that includes both the aortic and pulmonary valves. The right 2nd intercostal space is an auscultation site strictly specific to the aortic semilunar valve, not the pulmonary semilunar valve."
+      }
+    }
+  },
+  {
+    "question": "A 50-year-old patient presents with sharp chest pain that worsens when lying flat and improves when leaning forward. A pericardial friction rub is heard. The pain radiates to the left shoulder. Irritation of which type of nerve fibers is most likely responsible for this referred pain?",
+    "choices": {
+      "A": "Somatic motor fibers",
+      "B": "Somatic afferent fibers",
+      "C": "Sympathetic efferent fibers",
+      "D": "Parasympathetic afferent fibers",
+      "E": "Visceral afferent fibers"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The patient is exhibiting classic signs of pericarditis, which presents with sharp pleuritic pain referred to the C3-C5 dermatomes (the left shoulder/trapezius ridge) via irritation of the phrenic nerve. The sensory innervation of the fibrous and parietal pericardium carried by the phrenic nerve is specifically categorized physiologically as somatic afferent (sensory).",
+      "incorrect": {
+        "A": "Somatic motor fibers innervate skeletal muscle (such as providing motor control to the diaphragm via the phrenic nerve) and do not carry sensory information regarding pain.",
+        "C": "Sympathetic efferent fibers act as vasomotor controls to adjust blood vessel diameter and do not mediate referred somatic pain from the pericardium.",
+        "D": "While the vagus nerve carries parasympathetic signals and some sensory information related to visceral reflexes, it does not transmit this specific type of referred, sharp shoulder pain.",
+        "E": "Visceral afferent fibers (which travel with the sympathetic and vagus nerves) typically convey dull, poorly localized, crushing pain (such as in angina pectoris during myocardial ischemia), not the sharp, well-localized, shoulder-radiating pain associated with somatic afferent irritation of the phrenic nerve seen in pericarditis."
+      }
+    }
+  }
+]

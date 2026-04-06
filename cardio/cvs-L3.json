@@ -1,0 +1,162 @@
+[
+  {
+    "question": "A histological section of the heart wall reveals a layer containing large, pale-staining cells with abundant glycogen, located just beneath the simple squamous endothelial lining. These cells lack T-tubules and have fewer myofibrils than typical cardiomyocytes. Which layer is being described?",
+    "choices": {
+      "A": "Myocardium proper",
+      "B": "Subepicardial connective tissue",
+      "C": "Subendocardial layer",
+      "D": "Tunica media of the endocardium",
+      "E": "Visceral layer of serous pericardium"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The subendocardial layer is the deepest connective tissue layer of the endocardium, connecting it to the myocardium. It houses Purkinje fibers, which perfectly match the description: they are specialized conducting cells that are larger than typical cardiomyocytes, stain pale due to massive amounts of glycogen displacing the myofibrils to the periphery, and conspicuously lack T-tubules.",
+      "incorrect": {
+        "A": "The myocardium proper consists of standard contractile cardiomyocytes. These cells are strongly eosinophilic (pink-staining), packed with myofibrils, and have highly developed T-tubule systems for excitation-contraction coupling.",
+        "B": "The subepicardial layer is located on the outer surface of the heart (epicardium) and contains adipose tissue, larger coronary vessels, and nerves, not Purkinje fibers.",
+        "D": "The middle layer of the endocardium contains smooth muscle and elastic/collagen fibers. The conduction cells are specifically in the deeper subendocardial layer.",
+        "E": "This is another term for the epicardium on the outer surface of the heart, which is lined by mesothelium and does not house the heart's internal conduction system."
+      }
+    }
+  },
+  {
+    "question": "A researcher is observing 'thermoregulation' in skin biopsies. They notice blood is bypassing the capillary beds and flowing directly from an arteriole into a venule. Which structure is likely 'open' during this process?",
+    "choices": {
+      "A": "Precapillary sphincters",
+      "B": "Vasa vasorum",
+      "C": "Venous valves",
+      "D": "Arteriovenous anastomosis",
+      "E": "Fenestrated pores"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Arteriovenous (AV) anastomoses, or shunts, are direct connections between arterioles and venules that completely bypass the capillary bed. In the skin, they play a massive role in thermoregulation. When open, blood bypasses the superficial capillaries (retaining core body heat). When closed, blood is forced into the capillary beds near the skin surface to radiate and lose heat.",
+      "incorrect": {
+        "A": "Precapillary sphincters are rings of smooth muscle at the entrance of capillaries. When they open, blood flows into the capillary bed, which is the exact opposite of bypassing it.",
+        "B": "Vasa vasorum are the \"vessels of vessels\" that supply oxygen and nutrients to the thick walls of large arteries and veins. They are not involved in shunting blood to bypass capillaries.",
+        "C": "Venous valves are folds of the tunica intima in veins that prevent the retrograde flow of blood; they do not dictate arterial-to-venous shunting.",
+        "E": "Fenestrated pores are structural features of specific capillary walls (like in the kidneys or endocrine glands) designed for rapid molecular exchange, not for bypassing the bed entirely."
+      }
+    }
+  },
+  {
+    "question": "A patient is hospitalized for 10 days with total immobilization following orthopedic surgery. They develop sudden shortness of breath. A dislodged clot from a 'large vein' is suspected. Histologically, why is a large vein a more likely site for thrombus formation than a large artery?",
+    "choices": {
+      "A": "Presence of longitudinal smooth muscle bundles",
+      "B": "Higher concentrations of P-selectin in venous endothelium",
+      "C": "Absence of vasa vasorum to nourish the wall",
+      "D": "Low pressure and presence of valves that can cause stasis",
+      "E": "Lack of an external elastic lamina in veins"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Veins operate as a low-pressure, high-capacitance system. To assist venous return against gravity, veins of the limbs have valves. During prolonged immobilization, the skeletal muscle pump fails to push blood upward. Blood pools (stasis) in the valve pockets, creating a perfect histological and hemodynamic environment for a thrombus to form (Deep Vein Thrombosis, or DVT), which can subsequently dislodge and cause a pulmonary embolism.",
+      "incorrect": {
+        "A": "Large veins, like the inferior vena cava, do possess bundles of longitudinal smooth muscle in their tunica adventitia, but this structural feature does not cause blood stasis or clotting.",
+        "B": "P-selectin is present in the Weibel-Palade bodies of endothelial cells in both arteries and veins. Its primary role is in leukocyte rolling during inflammation, not serving as the root cause of stasis-induced thrombosis.",
+        "C": "Large veins actually have more vasa vasorum than comparable arteries because venous blood is highly deoxygenated, forcing the vein wall to rely heavily on an external blood supply.",
+        "E": "Veins do lack a distinct external elastic lamina, but this simply reflects their low-pressure mechanical needs and has no bearing on hypercoagulability or stasis."
+      }
+    }
+  },
+  {
+    "question": "A 55-year-old male with a history of heavy smoking presents with chest pain. A biopsy of a coronary artery might show lipid accumulation primarily in which histological layer as an early sign of atherosclerosis?",
+    "choices": {
+      "A": "Endocardium",
+      "B": "Pericardium",
+      "C": "Tunica media",
+      "D": "Tunica intima",
+      "E": "Tunica adventitia"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Atherosclerosis is fundamentally a disease of the tunica intima. It begins with endothelial cell injury (exacerbated by smoking, hypertension, etc.). Lipids (specifically LDL cholesterol) accumulate in the subendothelial connective tissue of the intima. Macrophages migrate in to consume the lipid, transforming into \"foam cells\" and creating a \"fatty streak\"—the classic histological hallmark of early atherosclerosis.",
+      "incorrect": {
+        "A": "The endocardium is the innermost lining of the heart chambers, not the wall of the coronary arteries.",
+        "B": "The pericardium is the sac wrapping the outside of the heart; it does not develop atherosclerotic plaques.",
+        "C": "While smooth muscle cells from the tunica media will eventually migrate into the tunica intima and proliferate to form a fibrous cap in advanced plaques, the initial lipid accumulation does not happen in the media.",
+        "E": "The tunica adventitia is the outermost connective tissue layer of the vessel, housing vasa vasorum and nervi vascularis. Plaques do not originate here."
+      }
+    }
+  },
+  {
+    "question": "Which histological feature is the most reliable marker to distinguish a muscular artery from an elastic artery?",
+    "choices": {
+      "A": "Prominent internal elastic lamina",
+      "B": "Absence of an external elastic lamina",
+      "C": "Presence of smooth muscle in the media",
+      "D": "A single layer of endothelium",
+      "E": "Presence of vasa vasorum"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "In muscular (distributing) arteries, the internal elastic lamina (IEL) is an extremely thick, distinct, wavy, refractile layer that clearly separates the tunica intima from the tunica media. In elastic (conducting) arteries like the aorta, while an IEL exists, it is functionally obscured by the dozens of thick elastic lamellae tightly packed throughout the entire tunica media, making it difficult to single out.",
+      "incorrect": {
+        "B": "Muscular arteries typically have a distinguishable external elastic lamina separating the media from the adventitia, making this option factually backward.",
+        "C": "Both elastic and muscular arteries contain smooth muscle cells in their tunica media. In elastic arteries, these cells synthesize the elastic lamellae.",
+        "D": "Every single blood vessel in the body, from the largest artery to the smallest capillary, is lined by a single layer of simple squamous endothelium. It offers no distinguishing value.",
+        "E": "Both large muscular arteries and elastic arteries possess vasa vasorum in their adventitia to supply oxygen to the outer layers of the thick vessel walls."
+      }
+    }
+  },
+  {
+    "question": "Which cardiomyocyte type is characterized by possessing secretory granules that release factors to decrease blood pressure by promoting sodium excretion?",
+    "choices": {
+      "A": "Nodal cardiac muscle cells",
+      "B": "Contractile cardiomyocytes",
+      "C": "Mesothelial cells",
+      "D": "Purkinje fibers",
+      "E": "Myoendocrine cells"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Myoendocrine cells are specialized cardiomyocytes located primarily in the right atrium. Under the microscope, they can be seen containing electron-dense secretory granules. These granules store Atrial Natriuretic Factor/Peptide (ANF/ANP). When the atrial wall is stretched by high blood volume, ANP is released, acting on the kidneys to increase sodium and water excretion (diuresis), thereby decreasing blood volume and pressure.",
+      "incorrect": {
+        "A": "Nodal cells (found in the SA and AV nodes) are specialized for spontaneously generating action potentials (pacemaking), not endocrine secretion.",
+        "B": "Typical contractile cardiomyocytes in the ventricles are packed with myofibrils to maximize pumping force. They lack significant secretory granules.",
+        "C": "Mesothelial cells form the simple squamous epithelium of the epicardium/pericardium and secrete lubricating serous fluid, not blood-pressure-regulating hormones.",
+        "D": "Purkinje fibers are specialized strictly for the rapid electrical conduction of action potentials through the ventricles."
+      }
+    }
+  },
+  {
+    "question": "A patient is diagnosed with a condition that causes excessive fluid accumulation in the pericardial cavity. Which cells are primarily responsible for producing the serous fluid that normally lubricates this space?",
+    "choices": {
+      "A": "Endothelial cells",
+      "B": "Cardiomyocytes",
+      "C": "Fibroblasts",
+      "D": "Mesothelial cells",
+      "E": "Pericytes"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The pericardial cavity is a potential space situated between the parietal layer of the serous pericardium and the visceral layer (epicardium). Both of these layers are lined by a simple squamous epithelium known as mesothelium. The primary physiological function of mesothelial cells is to secrete a slippery, serous transudate that lubricates the moving surfaces of the heart, minimizing friction during the cardiac cycle.",
+      "incorrect": {
+        "A": "Endothelial cells line the interior luminal surface of blood vessels and the heart chambers. They are not in contact with the pericardial cavity.",
+        "B": "Cardiomyocytes form the thick muscular layer (myocardium) and do not secrete pericardial fluid.",
+        "C": "Fibroblasts reside in the connective tissue beneath the mesothelium, tasked with maintaining the extracellular matrix and collagen, not secreting the surface lubricating fluid.",
+        "E": "Pericytes are specialized, slightly contractile support cells that wrap around the endothelial cells of capillaries and venules. They are completely unrelated to the pericardium."
+      }
+    }
+  },
+  {
+    "question": "An electron micrograph of a vessel wall shows specialized membrane-bound organelles containing Von Willebrand factor. If these organelles are absent in a specific vessel type, which of the following is the most likely identity of that vessel?",
+    "choices": {
+      "A": "Postcapillary venule",
+      "B": "Elastic artery",
+      "C": "Muscular artery",
+      "D": "Continuous capillary",
+      "E": "Lymphatic capillary"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The organelles being described are Weibel-Palade bodies. These are rod-shaped storage granules found in the endothelial cells of the blood vascular system, storing Von Willebrand factor (crucial for platelet adhesion) and P-selectin. Lymphatic vessels, including lymphatic capillaries, have a highly specialized endothelium that completely lacks Weibel-Palade bodies, making their absence a definitive ultrastructural marker for lymphatic vessels.",
+      "incorrect": {
+        "A": "Postcapillary venules, elastic arteries, muscular arteries, and continuous capillaries are all components of the blood circulatory system. Their endothelial cells all reliably possess Weibel-Palade bodies to aid in coagulation and inflammation responses.",
+        "B": "Postcapillary venules, elastic arteries, muscular arteries, and continuous capillaries are all components of the blood circulatory system. Their endothelial cells all reliably possess Weibel-Palade bodies to aid in coagulation and inflammation responses.",
+        "C": "Postcapillary venules, elastic arteries, muscular arteries, and continuous capillaries are all components of the blood circulatory system. Their endothelial cells all reliably possess Weibel-Palade bodies to aid in coagulation and inflammation responses.",
+        "D": "Postcapillary venules, elastic arteries, muscular arteries, and continuous capillaries are all components of the blood circulatory system. Their endothelial cells all reliably possess Weibel-Palade bodies to aid in coagulation and inflammation responses."
+      }
+    }
+  }
+]

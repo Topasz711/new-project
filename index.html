@@ -45,7 +45,7 @@
                     <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="musculoskeletalContent">Musculoskeletal</a></li>
                     <li><a href="#" id="cns-menu-btn" class="flex justify-between items-center w-full py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full"><span>CNS</span><span>&gt;</span></a></li>
                     <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="placeholderContent">Urban Health</a></li>
-                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="placeholderContent">Cardiovascular</a></li>
+                    <li><a href="#" class="sidebar-link block py-2 px-4 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-white rounded-r-full" data-target="cardiovascularContent">Cardiovascular</a></li>
                 </ul>
             </nav>
             <nav id="infectious-sub-menu" class="nav-menu sub-menu mt-4">
@@ -421,6 +421,42 @@
                         <p class="mt-2 text-lg text-gray-600 dark:text-gray-400">Test your knowledge.</p>
                     </header>
                     <div id="cnsQuizContainer" class="space-y-8"></div>
+                </div>
+            </div>
+
+            <div id="cardiovascularContent" class="main-content-pane hidden">
+                <div id="cardiovascularListView">
+                    <h2 class="text-2xl font-bold mb-4">Cardiovascular Lectures</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-L1.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="L1: Anatomy of Cardiovascular system"><b>L1:</b> Anatomy of Cardiovascular system</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-L2.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="L2: Cardiac conducting system"><b>L2:</b> Cardiac conducting system</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-L3.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="L3: Histology of Cardiovascular system"><b>L3:</b> Histology of Cardiovascular system</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-L4.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="L4: Cardiac physiology"><b>L4:</b> Cardiac physiology</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-L5.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="L5: Development of heart and blood vessels"><b>L5:</b> Development of heart and blood vessels</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-L6.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="L6: Overview in congenital malformation"><b>L6:</b> Overview in congenital malformation</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-L7.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="L7: Cardiovascular hemodynamic"><b>L7:</b> Cardiovascular hemodynamic</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-L8.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="L8: Circulation in vascular beds"><b>L8:</b> Circulation in vascular beds</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-L9.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="L9: Neural and hormonal regulation"><b>L9:</b> Neural and hormonal regulation</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-L10.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="L10: Infectious/inflammatory/immunologic disorder"><b>L10:</b> Infectious/inflammatory/immunologic disorder</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-L11.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="L11: Sympathomimetic drugs"><b>L11:</b> Sympathomimetic drugs</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-L12.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="L12: Investigation for CVS and Cardiac markers"><b>L12:</b> Investigation for CVS and Cardiac markers</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-L13.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="L13: Pharmacology in hypertension"><b>L13:</b> Pharmacology in hypertension</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-L14.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="L14: Antiarrhythmic drug"><b>L14:</b> Antiarrhythmic drug</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-L15.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="L15: Pathogenesis of atherosclerosis"><b>L15:</b> Pathogenesis of atherosclerosis</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-L16.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="L16: Radiology"><b>L16:</b> Radiology</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-case-dyspnea.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="Case study: Dyspnea and edema"><b>Case study:</b> Dyspnea and edema</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-case-chestpain.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="Case study: Chest pain"><b>Case study:</b> Chest pain</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-case-palpitation.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="Case study: Palpitation and syncope"><b>Case study:</b> Palpitation and syncope</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-case-valvular.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="Case study: Valvular heart disease"><b>Case study:</b> Valvular heart disease</button>
+                        <button class="lecture-btn bg-white dark:bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 text-left" data-quiz-type="mcq" data-quiz-file="cardio/cvs-case-ht.json" data-quiz-container="cardiovascularQuizContainer" data-quiz-title="Case study: Hypertension"><b>Case study:</b> Hypertension</button>
+                    </div>
+                </div>
+                <div id="cardiovascularQuizView" class="hidden">
+                    <header class="text-center mb-8">
+                        <h1 id="cardiovascular-quiz-title" class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-gray-50"></h1>
+                        <p class="mt-2 text-lg text-gray-600 dark:text-gray-400">Test your knowledge.</p>
+                    </header>
+                    <div id="cardiovascularQuizContainer" class="space-y-8"></div>
                 </div>
             </div>
 
