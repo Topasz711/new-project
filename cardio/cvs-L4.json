@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "A 65-year-old patient with hypertension has a left ventricular pressure-volume loop that shows a narrower width (decreased stroke volume) and an upward shift of the end-systolic pressure-volume relationship. Which of the following conditions is the most likely cause?",
+    "choices": {
+      "A": "Increased preload",
+      "B": "Decreased afterload",
+      "C": "Increased afterload",
+      "D": "Decreased contractility",
+      "E": "Increased heart rate"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "In patients with hypertension, the resistance against which the left ventricle must pump (afterload) is high. This causes the ventricular pressure to rise higher to open the aortic valve, shifting the top of the pressure-volume loop upward. Consequently, the ventricle ejects less blood, increasing the end-systolic volume (ESV) and decreasing the stroke volume (narrower loop width).",
+      "incorrect": {
+        "A": "An increase in preload would shift the right border of the loop further to the right (increased end-diastolic volume), widening the loop and increasing the stroke volume.",
+        "B": "This would lower the top border of the loop (aortic valve opening pressure) and widen the loop because less resistance allows for a larger stroke volume.",
+        "D": "This would shift the end-systolic pressure-volume relationship (ESPVR) downward and to the right, not upward.",
+        "E": "Tachycardia primarily decreases the filling time, which reduces the end-diastolic volume but does not directly cause an upward shift in the pressure-volume loop."
+      }
+    }
+  },
+  {
+    "question": "A patient with severe mitral stenosis undergoes cardiac catheterization. Which of the following pressure-volume loop changes would be expected?",
+    "choices": {
+      "A": "Reduced end-diastolic volume with a normal end-systolic volume",
+      "B": "Increased end-diastolic volume with a steep filling slope",
+      "C": "Prolonged isovolumetric relaxation time and reduced early filling",
+      "D": "Increased stroke volume and widened loop",
+      "E": "Decreased end-systolic volume with a leftward shift"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The hallmark of mitral stenosis is an obstruction to blood flow from the left atrium to the left ventricle. This significantly impairs and reduces the early rapid filling phase. Additionally, the altered pressure gradients can prolong the isovolumetric relaxation time before the stiff/stenotic valve finally opens. The overall PV loop becomes smaller and shifts leftward.",
+      "incorrect": {
+        "A": "While EDV is reduced, ESV is typically also reduced because the overall stroke volume and ventricular size are smaller.",
+        "B": "Mitral stenosis creates a physical barrier to filling, so EDV decreases.",
+        "D": "Stroke volume drops because the ventricle cannot fill adequately.",
+        "E": "While partially true (the loop does shift left and ESV can drop), choice C provides a much more precise mechanistic description of the impaired phase in the cardiac cycle."
+      }
+    }
+  },
+  {
+    "question": "In a pressure-volume loop of the left ventricle, the segment representing 'Isovolumetric Contraction' is bounded by which two valvular events?",
+    "choices": {
+      "A": "Mitral valve closes and Mitral valve opens",
+      "B": "Mitral valve closes and Aortic valve opens",
+      "C": "Mitral valve opens and Mitral valve closes",
+      "D": "Aortic valve closes and Mitral valve opens",
+      "E": "Aortic valve opens and Aortic valve closes"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Phase II (Isovolumetric contraction) begins when ventricular pressure exceeds atrial pressure, causing the mitral valve to close. It ends when the pressure inside the ventricle finally builds up enough to exceed aortic pressure, pushing the aortic valve open to begin ejection. Volume remains constant during this time.",
+      "incorrect": {
+        "A": "This spans almost the entire cardiac cycle (systole plus isovolumetric relaxation), not just one phase.",
+        "C": "This represents Phase I, the period of ventricular filling.",
+        "D": "This represents Phase IV, the period of isovolumetric relaxation.",
+        "E": "This represents Phase III, the period of rapid and reduced ejection."
+      }
+    }
+  },
+  {
+    "question": "A 55-year-old man with aortic regurgitation has a pressure-volume loop that shows an increased end-diastolic volume and a widened loop with no change in end-systolic volume. Which phase of the cardiac cycle is primarily affected?",
+    "choices": {
+      "A": "Isovolumetric contraction",
+      "B": "Rapid ejection",
+      "C": "Diastasis",
+      "D": "Isovolumetric relaxation",
+      "E": "Atrial systole"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "In aortic regurgitation, the aortic valve fails to close completely. As soon as the ventricle begins to relax, blood immediately flows backward from the aorta into the left ventricle. Because volume is continuously increasing as pressure falls, the ventricle never experiences a true \"isovolumetric\" relaxation phase. This causes the left border of the PV loop to blur or curve rightward instead of dropping straight down.",
+      "incorrect": {
+        "A": "While ejection and filling are altered in volume, the most structurally \"erased\" phase on the PV loop is isovolumetric relaxation.",
+        "B": "While ejection and filling are altered in volume, the most structurally \"erased\" phase on the PV loop is isovolumetric relaxation.",
+        "C": "While ejection and filling are altered in volume, the most structurally \"erased\" phase on the PV loop is isovolumetric relaxation.",
+        "E": "While ejection and filling are altered in volume, the most structurally \"erased\" phase on the PV loop is isovolumetric relaxation."
+      }
+    }
+  },
+  {
+    "question": "A 60-year-old patient with heart failure has a reduced ejection fraction. Which of the following best describes the relationship between end-diastolic volume (EDV) and stroke volume (SV) in this condition?",
+    "choices": {
+      "A": "EDV decreased, SV increased",
+      "B": "EDV increased, SV decreased",
+      "C": "EDV normal, SV normal",
+      "D": "EDV decreased, SV decreased",
+      "E": "EDV increased, SV increased"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "In heart failure with reduced ejection fraction (LV dysfunction), the contractility of the myocardium is severely impaired. The heart cannot pump blood efficiently, leading to a decreased stroke volume. As a result, blood accumulates in the ventricle over time, leading to compensatory dilation and a significantly increased end-diastolic volume.",
+      "incorrect": {
+        "A": "These do not represent the pathophysiological changes seen in systolic heart failure.",
+        "C": "These do not represent the pathophysiological changes seen in systolic heart failure.",
+        "D": "These do not represent the pathophysiological changes seen in systolic heart failure.",
+        "E": "These do not represent the pathophysiological changes seen in systolic heart failure."
+      }
+    }
+  },
+  {
+    "question": "During strenuous exercise, a healthy individual increases cardiac output primarily by increasing heart rate. However, stroke volume also increases due to which mechanism?",
+    "choices": {
+      "A": "Decreased afterload from vasodilation",
+      "B": "Increased end-diastolic volume via Frank-Starling mechanism",
+      "C": "Decreased end-systolic volume from reduced contractility",
+      "D": "Prolonged diastasis allowing more filling",
+      "E": "Increased vagal tone to the SA node"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "During exercise, venous return significantly increases due to muscle pump action and venoconstriction. This extra blood fills the heart, stretching the myocardial fibers to an optimal length (increasing EDV or preload). According to the Frank-Starling mechanism, this stretch results in a much stronger force of contraction, effectively increasing the stroke volume.",
+      "incorrect": {
+        "A": "While skeletal muscle vasodilation occurs, the massive increase in cardiac output maintains or slightly elevates systemic blood pressure, so afterload isn't the primary driver of the SV increase.",
+        "C": "Contractility increases during exercise due to sympathetic stimulation.",
+        "D": "Tachycardia dramatically shortens the diastasis phase.",
+        "E": "Exercise is dominated by sympathetic, not vagal (parasympathetic), activity."
+      }
+    }
+  },
+  {
+    "question": "A 60-year-old patient with congestive heart failure is given a diuretic to reduce fluid overload. The medication decreases venous return and reduces end-diastolic volume. Which of the following best describes the effect on preload and stroke volume according to the Frank-Starling mechanism?",
+    "choices": {
+      "A": "Preload increases, stroke volume increases",
+      "B": "Preload decreases, stroke volume decreases",
+      "C": "Preload increases, stroke volume decreases",
+      "D": "Preload decreases, stroke volume increases",
+      "E": "Preload remains unchanged, stroke volume increases"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Diuretics remove excess fluid, directly decreasing blood volume and venous return. Because less blood enters the heart, the end-diastolic volume (preload) drops. According to the Frank-Starling curve, a decrease in stretch leads to a less forceful contraction, which correspondingly decreases the stroke volume. (Note: In failing hearts, moving left on a very depressed curve might relieve congestion without dropping SV too much, but pure physiological Frank-Starling dictates a drop).",
+      "incorrect": {
+        "A": "Preload is synonymous with the stretch prior to contraction (represented by EDV). If fluid volume drops, preload drops.",
+        "C": "Preload is synonymous with the stretch prior to contraction (represented by EDV). If fluid volume drops, preload drops.",
+        "D": "Preload is synonymous with the stretch prior to contraction (represented by EDV). If fluid volume drops, preload drops.",
+        "E": "Preload is synonymous with the stretch prior to contraction (represented by EDV). If fluid volume drops, preload drops."
+      }
+    }
+  },
+  {
+    "question": "A 70-year-old patient with chronic kidney disease presents with weakness and ECG changes showing tall, peaked T waves and a widened QRS complex. Laboratory results reveal severe hyperkalemia. Which of the following cardiac effects is most directly caused by hyperkalemia?",
+    "choices": {
+      "A": "Increased calcium influx leading to spastic contraction",
+      "B": "Hyperpolarization of pacemaker cells with increased heart rate",
+      "C": "Decreased intensity of action potential and weak contraction",
+      "D": "Prolonged plateau phase and increased contractility",
+      "E": "Increased conduction velocity through the AV node"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Excess potassium ions shift the resting membrane potential to a less negative value. This partial depolarization inactivates many fast sodium channels, leading to a sluggish and less intense action potential, which ultimately causes a weak contraction.",
+      "incorrect": {
+        "A": "Excess calcium (not potassium) causes spastic contraction.",
+        "B": "High extracellular potassium makes the resting membrane potential less negative (closer to zero), not hyperpolarized.",
+        "D": "Hyperkalemia tends to accelerate repolarization (peaked T waves).",
+        "E": "Hyperkalemia blocks or slows down conduction of the cardiac impulse, particularly through the A-V bundle."
+      }
+    }
+  }
+]

@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "A researcher is studying the local effects of inflammation in a tissue bed. She injects a small dose of bradykinin directly into the brachial artery. Which of the following local vascular responses is the most characteristic finding following this injection?",
+    "choices": {
+      "A": "Intense vasoconstriction of arterioles and increased capillary hydrostatic pressure",
+      "B": "Vasodilation of arterioles and increased capillary permeability",
+      "C": "Venoconstriction and decreased venous pooling",
+      "D": "Vasodilation of large conduit arteries only, with no change in capillary function",
+      "E": "Endothelial-independent vasoconstriction followed by reflex vasodilation"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Bradykinin is a small polypeptide that acts as a potent vasodilator. Its physiological effects include strong arteriolar dilation, which significantly increases blood flow, and increased capillary permeability, which leads to fluid leakage and edema formation.",
+      "incorrect": {
+        "A": "Bradykinin causes vasodilation, not vasoconstriction.",
+        "C": "It primarily dilates arterioles rather than constricting veins.",
+        "D": "It significantly alters capillary function by increasing permeability; it does not solely affect large arteries.",
+        "E": "Bradykinin does not induce vasoconstriction."
+      }
+    }
+  },
+  {
+    "question": "A 60-year-old patient with hypertension is prescribed a beta-1 adrenergic blocker. Which of the following effects on the heart is expected?",
+    "choices": {
+      "A": "Increased heart rate (positive chronotropy)",
+      "B": "Increased conduction velocity (positive dromotropy)",
+      "C": "Decreased force of contraction (negative inotropy)",
+      "D": "Increased cardiac output",
+      "E": "Vasodilation of coronary arteries"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "β1-adrenergic receptors in the heart mediate positive inotropic (increased contractility), positive chronotropic (increased heart rate), and positive dromotropic (increased conduction velocity) effects. Therefore, blocking these receptors with a beta-1 blocker (e.g., metoprolol) will reverse these effects, resulting in a decreased heart rate, decreased contractility (negative inotropy), and decreased conduction velocity.",
+      "incorrect": {
+        "A": "Beta-1 blockers decrease, rather than increase, heart rate and conduction velocity.",
+        "B": "Beta-1 blockers decrease, rather than increase, heart rate and conduction velocity.",
+        "D": "Decreasing heart rate and contractility will lower, not increase, cardiac output.",
+        "E": "Vasodilation is primarily mediated by β2-adrenergic receptors, not β1 receptors."
+      }
+    }
+  },
+  {
+    "question": "A 30-year-old pregnant woman experiences syncope while lying supine. Which of the following reflexes is most likely responsible for her bradycardia and hypotension?",
+    "choices": {
+      "A": "Cushing reflex",
+      "B": "Bainbridge reflex",
+      "C": "Bezold-Jarisch reflex",
+      "D": "Baroreceptor reflex",
+      "E": "Chemoreceptor reflex"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The Bezold-Jarisch reflex is triggered by low ventricular filling (hypovolemia) or myocardial ischemia, which activates cardiac mechanoreceptors and chemoreceptors. This reflex leads to increased vagal activity and decreased sympathetic activity, resulting in profound bradycardia, hypotension, and vasodilation. This reflex can cause syncope.",
+      "incorrect": {
+        "A": "The Cushing reflex occurs in response to increased intracranial pressure and causes hypertension and bradycardia.",
+        "B": "The Bainbridge reflex is triggered by increased atrial pressure and leads to an increased heart rate.",
+        "D": "The Baroreceptor reflex typically increases heart rate and causes vasoconstriction in response to hypotension, not bradycardia.",
+        "E": "The Chemoreceptor reflex responds to low oxygen or high carbon dioxide, primarily causing vasoconstriction and increased blood pressure."
+      }
+    }
+  },
+  {
+    "question": "A patient with severe head trauma has an increased intracranial pressure. Which reflex would cause hypertension and bradycardia?",
+    "choices": {
+      "A": "Baroreceptor reflex",
+      "B": "Bainbridge reflex",
+      "C": "Bezold-Jarisch reflex",
+      "D": "Cushing reflex",
+      "E": "Chemoreceptor reflex"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Increased intracranial pressure (ICP) severely decreases blood flow to the vasomotor center, causing central ischemia. This activates a massive sympathetic response known as the Cushing Reflex, which raises systemic arterial pressure dramatically (hypertension). The resulting high blood pressure stretches arterial baroreceptors, which then trigger a parasympathetic response that lowers the heart rate (bradycardia).",
+      "incorrect": {
+        "A": "While the baroreceptor reflex is part of the final bradycardic response, the primary initiator of this specific triad (including hypertension from brain ischemia) is the Cushing reflex.",
+        "B": "The Bainbridge reflex increases heart rate in response to atrial stretch.",
+        "C": "The Bezold-Jarisch reflex causes hypotension, not hypertension.",
+        "E": "Peripheral chemoreceptors respond to blood gas changes in the carotid and aortic bodies, not primarily to increased ICP."
+      }
+    }
+  },
+  {
+    "question": "A 50-year-old man with chronic heart failure has elevated levels of B-type natriuretic peptide (BNP). Which of the following is the primary physiological effect of BNP?",
+    "choices": {
+      "A": "Vasoconstriction and sodium retention",
+      "B": "Increased heart rate and contractility",
+      "C": "Vasodilation and natriuresis",
+      "D": "Increased aldosterone secretion",
+      "E": "Activation of the renin-angiotensin system"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Natriuretic peptides (such as ANP and BNP) are released in response to cardiac distension. Their primary physiological effects include vasodilation (which decreases preload and systemic vascular resistance) and renal effects that promote natriuresis (sodium excretion) and diuresis (water excretion). They also counter the Renin-Angiotensin-Aldosterone System (RAAS).",
+      "incorrect": {
+        "A": "They cause vasodilation and sodium excretion, not constriction and retention.",
+        "B": "They do not directly increase heart rate and contractility; they lower blood pressure and volume.",
+        "D": "They inhibit renin release and decrease angiotensin II and aldosterone levels, counteracting the RAAS rather than activating it.",
+        "E": "They inhibit renin release and decrease angiotensin II and aldosterone levels, counteracting the RAAS rather than activating it."
+      }
+    }
+  },
+  {
+    "question": "A researcher records arterial pressure in a normal dog over 24 hours. She then surgically denervates the baroreceptors and repeats the 24-hour recording. Compared to the normal state, the frequency distribution curve of arterial pressure in the denervated dog will show:",
+    "choices": {
+      "A": "A shift to a much lower mean pressure with no change in variability",
+      "B": "A shift to a much higher mean pressure with decreased variability",
+      "C": "No change in mean pressure but a marked increase in minute-by-minute variation",
+      "D": "No change in mean pressure and a complete loss of diurnal rhythm",
+      "E": "A significant decrease in variability due to unopposed sympathetic tone"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "A primary purpose of the arterial baroreceptor system is to reduce minute-by-minute variations in arterial pressure. When baroreceptors are denervated, the mean arterial pressure over 24 hours remains roughly the same as in a normal dog, but there is a massive increase in pressure variability (a much wider frequency distribution curve).",
+      "incorrect": {
+        "A": "The mean arterial pressure remains approximately the same (around 100 mmHg), it does not shift much higher or lower.",
+        "B": "The mean arterial pressure remains approximately the same (around 100 mmHg), it does not shift much higher or lower.",
+        "D": "The mean arterial pressure remains approximately the same (around 100 mmHg), it does not shift much higher or lower.",
+        "E": "Denervation increases variability drastically; it does not decrease it."
+      }
+    }
+  },
+  {
+    "question": "Activation of low-pressure receptors in the atria leads to a decrease in renal sympathetic nerve activity. What is the physiological effect of this decreased sympathetic activity on the kidney, and what is its purpose?",
+    "choices": {
+      "A": "It causes intense vasoconstriction of afferent arterioles to decrease GFR and conserve volume.",
+      "B": "It stimulates the release of renin to activate the RAAS and raise blood pressure.",
+      "C": "It causes dilation of afferent arterioles, increasing GFR to promote fluid excretion.",
+      "D": "It directly inhibits the action of ADH on the collecting duct.",
+      "E": "It increases tubular reabsorption of sodium to expand blood volume further."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Activation of low-pressure receptors in the atria (due to increased blood volume) triggers a volume reflex that decreases renal sympathetic nerve activity. This reduction in sympathetic tone causes dilation of the afferent arterioles in the kidney, which increases the Glomerular Filtration Rate (GFR). This process promotes fluid excretion to reduce overall blood volume.",
+      "incorrect": {
+        "A": "Decreased sympathetic activity causes vasodilation, not intense vasoconstriction.",
+        "B": "The reflex aims to lower blood pressure and volume, not raise it.",
+        "D": "While ADH secretion is decreased by the reflex, this specific mechanism is mediated via the hypothalamus/pituitary axis, not directly by renal sympathetic nerves.",
+        "E": "The reflex decreases tubular reabsorption to excrete fluid, rather than increasing it to expand volume."
+      }
+    }
+  },
+  {
+    "question": "The baroreceptor reflex arc involves an integration center in the medulla. When baroreceptor afferent input increases (indicating high pressure), what is the specific pattern of efferent output from this center?",
+    "choices": {
+      "A": "Increased sympathetic tone and increased vagal tone.",
+      "B": "Decreased sympathetic tone and increased vagal tone.",
+      "C": "Increased sympathetic tone and decreased vagal tone.",
+      "D": "Decreased sympathetic tone and decreased vagal tone.",
+      "E": "No change in autonomic tone; only humoral factors are adjusted."
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "High blood pressure stretches baroreceptors, increasing their firing rate to the nucleus tractus solitarius (NTS) in the medulla. The NTS then activates the vagal center (resulting in increased parasympathetic activity) and inhibits the vasomotor center (resulting in decreased sympathetic activity). This combined efferent response lowers the heart rate and causes vasodilation to return blood pressure to normal.",
+      "incorrect": {
+        "A": "The specific autonomic balance required to lower blood pressure is an increase in vagal (parasympathetic) tone and a decrease in sympathetic tone.",
+        "C": "The specific autonomic balance required to lower blood pressure is an increase in vagal (parasympathetic) tone and a decrease in sympathetic tone.",
+        "D": "The specific autonomic balance required to lower blood pressure is an increase in vagal (parasympathetic) tone and a decrease in sympathetic tone.",
+        "E": "The reflex directly alters autonomic neural tone."
+      }
+    }
+  }
+]

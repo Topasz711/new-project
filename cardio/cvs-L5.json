@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "The smooth part of the right atrium, known as the sinus venarum, is embryologically derived from which of the following structures?",
+    "choices": {
+      "A": "Pulmonary vein incorporation",
+      "B": "Bulbus cordis",
+      "C": "Primitive atrium",
+      "D": "Sinus venosus",
+      "E": "Truncus arteriosus"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The right horn of the sinus venosus is incorporated into the wall of the right atrium to form the smooth part, which is called the sinus venarum.",
+      "incorrect": {
+        "A": "The incorporation of the primitive pulmonary veins forms the smooth-walled part of the left atrium, not the right atrium.",
+        "B": "The bulbus cordis forms the smooth parts of the right ventricle (conus arteriosus) and the left ventricle (aortic vestibule).",
+        "C": "The primitive atrium gives rise to the trabeculated (rough) parts of both the right and left atria.",
+        "E": "The truncus arteriosus forms the proximal portions of the great arteries, specifically the aorta and the pulmonary trunk."
+      }
+    }
+  },
+  {
+    "question": "The angioblastic cords fuse together to form which single structure during early cardiac development?",
+    "choices": {
+      "A": "Primitive heart tube",
+      "B": "Dorsal aorta",
+      "C": "Sinus venosus",
+      "D": "Endocardial cushions",
+      "E": "Pericardial cavity"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "During the lateral folding of the embryo, the paired endocardial heart tubes (also called angioblastic cords) approach each other and fuse in the midline to form a single primitive heart tube.",
+      "incorrect": {
+        "B": "The dorsal aortae are separate primitive blood vessels that develop bilaterally and eventually fuse or connect with pharyngeal arch arteries; they are not the direct product of the fusing angioblastic cords.",
+        "C": "The sinus venosus is one of the five specific dilations that develop on the primitive heart tube after it has already formed and begun to elongate.",
+        "D": "Endocardial cushions develop much later within the atrioventricular canal to help partition the heart into four chambers.",
+        "E": "The pericardial cavity is derived from the pericardial coelom, which is the space surrounding the developing heart tubes, not the tubes themselves."
+      }
+    }
+  },
+  {
+    "question": "A 2-day-old infant has persistent cyanosis that does not improve with oxygen. Echocardiography shows transposition of the great arteries (aorta arises from right ventricle, pulmonary trunk from left ventricle). Abnormal development of which embryonic structure is the most likely cause?",
+    "choices": {
+      "A": "Endocardial cushions",
+      "B": "Truncal and bulbar ridges",
+      "C": "Sinus venosus",
+      "D": "Septum primum",
+      "E": "Primitive ventricle"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Normally, the truncal and bulbar ridges (which fuse to form the conotruncal ridges) undergo a 180-degree counterclockwise spiraling to form the aorticopulmonary septum. This spiraling ensures the aorta connects to the left ventricle and the pulmonary trunk connects to the right ventricle. Failure of this spiraling process results in the transposition of the great arteries.",
+      "incorrect": {
+        "A": "Defects in the endocardial cushions typically lead to atrioventricular (AV) canal defects (e.g., atrial or ventricular septal defects and AV valve malformations), not transposition of great vessels.",
+        "C": "Abnormalities involving the sinus venosus usually result in a specific type of atrial septal defect (sinus venosus ASD).",
+        "D": "Failure of the septum primum to develop normally results in an atrial septal defect (ostium primum defect).",
+        "E": "The primitive ventricle simply forms the trabeculated portions of both the right and left ventricles and does not play a role in dividing the outflow tract."
+      }
+    }
+  },
+  {
+    "question": "During embryonic development, the proepicardial organ (PEO) gives rise to which of the following structures?",
+    "choices": {
+      "A": "Myocardium of the ventricles",
+      "B": "Endocardial cushions",
+      "C": "Coronary vasculature",
+      "D": "Primitive atrium",
+      "E": "Conduction system (SA node)"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "As the heart loops, cells from the proepicardial organ spread over the myocardium to form the epicardium. These epicardial cells then undergo an epithelial-to-mesenchymal transition (EMT) to give rise to cardiac fibroblasts and the smooth muscle cells of the coronary vasculature.",
+      "incorrect": {
+        "A": "The myocardium differentiates directly from the splanchnic mesoderm (primary heart field) surrounding the early heart tube, not from the PEO.",
+        "B": "The mesenchyme of the endocardial cushions derives primarily from the endocardium undergoing EMT, not the epicardium.",
+        "D": "The primitive atrium is an early dilation of the primitive heart tube.",
+        "E": "The sinoatrial (SA) node originates from the right wall of the sinus venosus, not the PEO."
+      }
+    }
+  },
+  {
+    "question": "During a routine autopsy of a neonate, a pathologist notes a structure connecting the left pulmonary artery to the arch of the aorta. This structure is a remnant of which pharyngeal arch artery?",
+    "choices": {
+      "A": "Left fourth arch",
+      "B": "Right sixth arch",
+      "C": "Third arch",
+      "D": "Right fourth arch",
+      "E": "Left sixth arch"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The structure described is the ductus arteriosus (which becomes the ligamentum arteriosum after birth). The proximal part of the left 6th pharyngeal arch artery persists as the proximal part of the left pulmonary artery, while its distal part persists as the ductus arteriosus.",
+      "incorrect": {
+        "A": "The left 4th pharyngeal arch artery forms the middle portion of the aortic arch.",
+        "B": "The proximal part of the right 6th arch artery becomes the proximal right pulmonary artery, but its distal part degenerates and loses its connection to the dorsal aorta.",
+        "C": "The 3rd pharyngeal arch arteries form the common carotid arteries and the proximal parts of the internal carotid arteries.",
+        "D": "The right 4th arch artery becomes the proximal part of the right subclavian artery."
+      }
+    }
+  },
+  {
+    "question": "A fetus is found to have a total occlusion of the ductus venosus. In this scenario, where would the well-oxygenated blood from the placenta go first?",
+    "choices": {
+      "A": "Back to the placenta through the umbilical arteries.",
+      "B": "Into the portal vein through the vitelline anastomosis.",
+      "C": "Directly into the inferior vena cava (IVC).",
+      "D": "Into the left atrium via the foramen ovale.",
+      "E": "Into the hepatic sinusoids of the liver."
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "In a normal fetal circulation, the ductus venosus acts as a shunt that allows oxygenated blood from the umbilical vein to bypass the hepatic sinusoids and enter the IVC directly. If the ductus venosus is completely occluded, all the incoming blood from the left umbilical vein is forced to flow through the hepatic sinusoids before it can eventually reach the IVC.",
+      "incorrect": {
+        "A": "The umbilical arteries carry deoxygenated blood and waste products away from the fetus back to the placenta; they do not receive incoming blood from the umbilical vein.",
+        "B": "While the portal vein (derived from vitelline veins) enters the liver, the primary alternative vascular bed for the occluded umbilical blood is the massive network of hepatic sinusoids.",
+        "C": "The exact function of the ductus venosus is to provide this direct path to the IVC; without it, direct entry is physically impossible.",
+        "D": "Blood can only reach the foramen ovale and left atrium after it has successfully navigated through the liver/IVC and entered the right atrium."
+      }
+    }
+  },
+  {
+    "question": "A mutation prevents the epithelial-to-mesenchymal transition (EMT) of the endocardium in the atrioventricular canal. Which of the following adult structures will be most severely affected?",
+    "choices": {
+      "A": "Azygos vein",
+      "B": "Fossa ovale",
+      "C": "Aortic arch",
+      "D": "AV valves",
+      "E": "Pectinate muscles"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The endocardial cushions form in the AV canal when endocardial cells undergo EMT to become cushion mesenchyme. These fused AV cushions are critical for dividing the AV canal and directly contribute to the formation of the membranous septa and the leaflets of the atrioventricular (AV) valves (mitral and tricuspid).",
+      "incorrect": {
+        "A": "The azygos vein develops from the embryonic supracardinal veins, entirely unrelated to the endocardium of the heart.",
+        "B": "The fossa ovale is a remnant of the foramen ovale, formed by the fusion of the septum primum and septum secundum, not primarily the AV cushions.",
+        "C": "The aortic arch develops from the aortic sac, the left 4th pharyngeal arch artery, and the left dorsal aorta.",
+        "E": "Pectinate muscles represent the rough, trabeculated part of the atrial wall, which derives directly from the primitive atrium."
+      }
+    }
+  },
+  {
+    "question": "The transverse pericardial sinus, a clinically important space for surgeons to clamp the great vessels, is formed by the degeneration of which embryonic structure?",
+    "choices": {
+      "A": "Neural fold",
+      "B": "Parietal pericardium",
+      "C": "Dorsal mesocardium",
+      "D": "Proepicardial organ",
+      "E": "Septum transversum"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "During early development, the primitive heart tube is suspended in the pericardial cavity by a double layer of peritoneum called the dorsal mesocardium. As the heart loops and develops, the central portion of this dorsal mesocardium degenerates, creating a passage behind the aorta and pulmonary trunk known as the transverse pericardial sinus.",
+      "incorrect": {
+        "A": "The neural folds are part of the developing central nervous system and are located dorsal to the embryo's heart fields.",
+        "B": "The parietal pericardium derives from somatic mesoderm and forms the outer fibrous/serous sac containing the heart, not the sinus space itself.",
+        "D": "The proepicardial organ provides cells that migrate over the heart to form the epicardium and coronary vessels.",
+        "E": "The septum transversum is a block of mesoderm that separates the pericardial cavity from the peritoneal cavity and eventually forms the central tendon of the diaphragm."
+      }
+    }
+  }
+]

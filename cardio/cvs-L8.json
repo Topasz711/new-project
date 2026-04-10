@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "According to the Starling principle, which of the following changes would most directly promote 'net filtration' at the arterial end of a capillary?",
+    "choices": {
+      "A": "A decrease in interstitial fluid hydrostatic pressure",
+      "B": "An increase in plasma oncotic pressure",
+      "C": "Arteriolar constriction",
+      "D": "A decrease in the filtration coefficient (Kf)",
+      "E": "An increase in interstitial fluid oncotic pressure to 15 mmHg"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Fluid movement is determined by the net driving force: Kf[(Pc + πif) - (Pif + πp)]. A decrease in interstitial fluid hydrostatic pressure (Pif) directly increases the net outward pressure gradient, thereby promoting filtration out of the capillary.",
+      "incorrect": {
+        "B": "Plasma oncotic pressure (πp) acts as a \"pulling\" force that draws water into the capillary. Increasing it would promote reabsorption, not filtration.",
+        "C": "Arteriolar constriction increases precapillary resistance, which leads to a decrease in downstream capillary hydrostatic pressure (Pc). A lower Pc reduces filtration.",
+        "D": "A decrease in the filtration coefficient (Kf) reduces the hydraulic conductance of the capillary wall, which would decrease the overall rate of fluid movement (both filtration and reabsorption).",
+        "E": "While an increase in interstitial fluid oncotic pressure (πif) does favor filtration, a physiological increase to 15 mmHg is extreme and highly pathological (normal is ~0 mmHg). Option A is the most direct and physiologically standard answer provided for typical Starling force dynamics."
+      }
+    }
+  },
+  {
+    "question": "Which endothelial factor is produced from L-arginine and acts via cGMP to cause vascular smooth muscle relaxation?",
+    "choices": {
+      "A": "Thromboxane A2",
+      "B": "Endothelin-1",
+      "C": "Prostacyclin (PGI2)",
+      "D": "Nitric Oxide (NO)",
+      "E": "Bradykinin"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Nitric Oxide (NO) is synthesized from the amino acid L-arginine by the enzyme endothelial nitric oxide synthase (eNOS). NO diffuses into vascular smooth muscle cells and activates guanylyl cyclase, which increases intracellular cGMP levels, leading to relaxation.",
+      "incorrect": {
+        "A": "Thromboxane A2 is a potent vasoconstrictor and promotes platelet aggregation.",
+        "B": "Endothelin-1 (ET-1) is a potent vasoconstrictor peptide produced by endothelial cells.",
+        "C": "Prostacyclin (PGI2) is a vasodilator, but it is synthesized from arachidonic acid (AA) via the cyclooxygenase (COX) pathway, not L-arginine. It typically acts via the cAMP pathway.",
+        "E": "Bradykinin is a vasodilator, but it works primarily by stimulating endothelial cells to produce NO and PGI2. It is not synthesized from L-arginine."
+      }
+    }
+  },
+  {
+    "question": "When precapillary sphincters contract, blood is shunted from the arteriole directly to the venule via which structure?",
+    "choices": {
+      "A": "True capillaries",
+      "B": "Lymphatic capillary",
+      "C": "Metarteriole",
+      "D": "Arteriolar wall",
+      "E": "Collecting venule"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Metarterioles act as thoroughfare channels. When the precapillary sphincters are contracted, blood bypasses the true capillary bed and flows directly through the metarteriole into the venule.",
+      "incorrect": {
+        "A": "True capillaries are the actual sites of exchange. When sphincters contract, blood flow through these vessels decreases.",
+        "B": "Lymphatic capillaries collect excess interstitial fluid and return it to the venous system; they are not part of the direct arteriovenous blood shunt.",
+        "D": "The arteriolar wall is the structural boundary of the arteriole, not a pathway for blood to bypass capillaries.",
+        "E": "The collecting venule is the vessel that receives blood after it has passed through the capillary bed or metarteriole; it is not the shunt structure itself."
+      }
+    }
+  },
+  {
+    "question": "If a tissue's metabolic rate remains constant but the arterial pressure drops from 100 to 80 mmHg, how will the local arterioles respond to maintain constant blood flow?",
+    "choices": {
+      "A": "They will dilate to decrease resistance",
+      "B": "They will constrict via the myogenic mechanism",
+      "C": "They will release Endothelin-1",
+      "D": "The tissue will increase its oxygen consumption",
+      "E": "Precapillary sphincters will close to conserve blood"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Autoregulation ensures stable tissue perfusion despite changes in blood pressure. Blood flow (Q) is directly proportional to the pressure gradient (delta P) and inversely proportional to resistance (R). If pressure drops, arterioles must dilate to decrease resistance, thereby keeping blood flow constant.",
+      "incorrect": {
+        "B": "The myogenic mechanism responds to stretch. A drop in pressure decreases vessel wall stretch, which causes smooth muscle relaxation (vasodilation), not constriction.",
+        "C": "Endothelin-1 is a vasoconstrictor. Releasing it would increase resistance and further reduce blood flow.",
+        "D": "The premise states the metabolic rate remains constant. A change in pressure does not spontaneously force the tissue to consume more oxygen.",
+        "E": "Closing precapillary sphincters would drastically reduce tissue perfusion, defeating the purpose of autoregulation."
+      }
+    }
+  },
+  {
+    "question": "A child is diagnosed with Nephrotic Syndrome, characterized by heavy proteinuria (loss of albumin in urine). Which change in Starling forces is responsible for the resulting generalized edema?",
+    "choices": {
+      "A": "Decreased Plasma Colloid Osmotic Pressure",
+      "B": "Increased Interstitial Fluid Hydrostatic Pressure",
+      "C": "Decreased Capillary Permeability",
+      "D": "Increased Lymphatic Drainage",
+      "E": "Increased Capillary Hydrostatic Pressure"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Albumin is the primary protein responsible for generating plasma colloid osmotic pressure (πp). Losing albumin in the urine (proteinuria) severely decreases πp, removing the force that normally holds fluid within the blood vessels, leading to net filtration and edema.",
+      "incorrect": {
+        "B": "Increased interstitial fluid hydrostatic pressure actually opposes fluid filtration. While it may rise slightly as tissue swells, it is not the cause of the edema here.",
+        "C": "Decreased capillary permeability would reduce fluid leakage and prevent edema.",
+        "D": "Increased lymphatic drainage is a compensatory mechanism that attempts to clear excess interstitial fluid; it does not cause edema.",
+        "E": "Increased capillary hydrostatic pressure causes edema in conditions like heart failure or venous obstruction, not specifically due to protein loss in nephrotic syndrome."
+      }
+    }
+  },
+  {
+    "question": "A patient with severe liver cirrhosis presents with ascites (fluid in the abdominal cavity). Laboratory tests show a plasma albumin level of 2.0 g/dl (Normal: 3.5 to 5.0 g/dl). Which of the following best explains the ascites?",
+    "choices": {
+      "A": "Increased lymphatic flow in the abdomen",
+      "B": "Decreased capillary permeability (Kf)",
+      "C": "High interstitial fluid pressure",
+      "D": "High capillary hydrostatic pressure in the portal system",
+      "E": "Low plasma oncotic pressure (πp)"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The liver synthesizes albumin. Severe liver failure results in an inability to produce adequate proteins, leading to a low plasma albumin level. This significantly decreases the plasma oncotic pressure (πp), allowing fluid to easily escape into the interstitial spaces (or peritoneal cavity, causing ascites).",
+      "incorrect": {
+        "A": "Increased lymphatic flow would help clear fluid from the interstitial space, working against the formation of ascites.",
+        "B": "Decreased capillary permeability would limit fluid movement out of the vessels, preventing edema.",
+        "C": "High interstitial fluid pressure pushes fluid back into the capillaries, opposing the development of edema.",
+        "D": "While portal hypertension (high capillary hydrostatic pressure) is a major factor in cirrhosis-induced ascites, the specific laboratory finding provided in the prompt (albumin of 2.0 g/dl) directly points to the oncotic pressure deficit as the targeted concept for this question."
+      }
+    }
+  },
+  {
+    "question": "A 70-year-old man with hypertension is given a drug that blocks endothelin-1 (ET-1) receptors. Which of the following vascular effects is expected?",
+    "choices": {
+      "A": "Vasodilation",
+      "B": "Vasoconstriction",
+      "C": "Increased platelet aggregation",
+      "D": "Increased vascular permeability",
+      "E": "Increased smooth muscle proliferation"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Endothelin-1 (ET-1) is a potent endogenous vasoconstrictor produced by endothelial cells. By blocking its receptors, the constrictive effect is removed, resulting in vasodilation.",
+      "incorrect": {
+        "B": "Vasoconstriction is the direct action of ET-1; an antagonist would prevent this.",
+        "C": "Blocking ET-1 does not primarily increase platelet aggregation.",
+        "D": "ET-1 receptor blockade is not directly responsible for increasing vascular permeability.",
+        "E": "ET-1 typically promotes vascular smooth muscle proliferation. Blocking its receptors would inhibit, not increase, this process."
+      }
+    }
+  },
+  {
+    "question": "A 30-year-old woman undergoes a prolonged surgery in the supine position. Postoperatively, she develops mild dependent edema that resolves with ambulation. Which of the following best explains the mechanism of this edema?",
+    "choices": {
+      "A": "Increased capillary permeability due to inflammation",
+      "B": "Decreased plasma oncotic pressure from malnutrition",
+      "C": "Impaired lymphatic drainage due to lack of muscle contraction",
+      "D": "Increased capillary hydrostatic pressure from heart failure",
+      "E": "Decreased interstitial hydrostatic pressure"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The flow of lymph heavily relies on the extrinsic compression provided by surrounding skeletal muscle contractions. Prolonged immobility during surgery removes this \"skeletal muscle pump,\" leading to impaired lymphatic drainage and fluid accumulation. Ambulation restores muscle contractions, clearing the edema.",
+      "incorrect": {
+        "A": "While surgery can cause local inflammation, generalized dependent edema resolving simply with ambulation is primarily a mechanical flow issue, not systemic inflammation.",
+        "B": "Malnutrition requires a prolonged period to lower albumin levels and would not resolve immediately upon walking.",
+        "D": "There is no indication of heart failure in this healthy 30-year-old patient.",
+        "E": "Decreased interstitial hydrostatic pressure would technically favor filtration, but the primary cause of dependent fluid accumulation during immobility is the failure of venous and lymphatic return mechanisms."
+      }
+    }
+  }
+]

@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "During a fetal ultrasound, the heart is noted to be located in the right hemithorax. Further imaging reveals that the liver is on the left and the stomach is on the right. This patient is at the highest risk for which of the following cardiac configurations?",
+    "choices": {
+      "A": "Left atrial isomerism (Polysplenia syndrome)",
+      "B": "Normal cardiac anatomy (Situs Inversus Totalis)",
+      "C": "Double outlet right ventricle (DORV)",
+      "D": "Tricuspid atresia",
+      "E": "Right atrial isomerism (Asplenia syndrome)"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The clinical vignette describes complete mirror-image reversal of the internal organs, known as Situs Inversus Totalis (heart on the right, liver on the left, stomach on the right). Unlike Situs Ambiguus (Heterotaxy syndromes), Situs Inversus Totalis is generally associated with a structurally normal heart (though mirrored) and has a very low risk of congenital heart defects.",
+      "incorrect": {
+        "A": "Left atrial isomerism (Polysplenia) is a Heterotaxy syndrome (Situs Ambiguus) where there is a bilateral left-sidedness. It is heavily associated with severe cardiac defects, but the patient's presentation of a perfect mirror image points to Situs Inversus Totalis, not Heterotaxy.",
+        "C": "DORV and Tricuspid Atresia are severe congenital heart defects. While they can occur in anyone, the probability of having a structurally normal heart is overwhelmingly higher in isolated Situs Inversus Totalis.",
+        "D": "DORV and Tricuspid Atresia are severe congenital heart defects. While they can occur in anyone, the probability of having a structurally normal heart is overwhelmingly higher in isolated Situs Inversus Totalis.",
+        "E": "Right atrial isomerism (Asplenia) is another Heterotaxy syndrome (bilateral right-sidedness) strongly associated with complex congenital heart diseases. The description does not match Heterotaxy."
+      }
+    }
+  },
+  {
+    "question": "A 1-week-old infant is diagnosed with a condition resulting from the failure of the first heart field (FHF) to differentiate properly. Based on the molecular basis of cardiogenesis, which of the following structures is most likely to be underdeveloped?",
+    "choices": {
+      "A": "Outflow tracts (Conotruncal region)",
+      "B": "Right Ventricle",
+      "C": "Superior Vena Cava",
+      "D": "Left Ventricle",
+      "E": "Pulmonary Artery"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "During embryological cardiogenesis, the First Heart Field (FHF) primarily contributes to the formation of the left ventricle and portions of the atria. Failure here leads to left-sided heart defects.",
+      "incorrect": {
+        "A": "The outflow tracts (conotruncal region) are derived from the Second Heart Field (SHF) and neural crest cells.",
+        "B": "The right ventricle is primarily derived from the Second Heart Field (SHF).",
+        "C": "The Superior Vena Cava is formed from the cardinal venous system and the right horn of the sinus venosus, not the FHF.",
+        "E": "The pulmonary artery is part of the outflow tract, developing from the truncus arteriosus via the Second Heart Field and neural crest cells."
+      }
+    }
+  },
+  {
+    "question": "A 12-hour-old neonate with Trisomy 21 has failed her pulse oximetry screening. Echocardiography reveals a large 'hole' in the center of the heart involving both the atrial and ventricular septa, with a single common atrioventricular valve. Which embryological error best explains this finding?",
+    "choices": {
+      "A": "Failure of the septum secundum to cover the ostium secundum",
+      "B": "Defective development of the muscular ventricular septum",
+      "C": "Abnormal looping of the heart tube to the left",
+      "D": "Failure of the endocardial cushions to fuse",
+      "E": "Over-resorption of the septum primum"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The clinical picture perfectly describes a complete Atrioventricular Septal Defect (AVSD), which is the most common congenital heart defect in Down Syndrome (Trisomy 21). The endocardial cushions are responsible for dividing the AV canal and forming the lower part of the atrial septum, the upper (membranous) part of the ventricular septum, and the AV valves. Their failure to fuse causes this central 'hole'.",
+      "incorrect": {
+        "A": "This error leads to a Secundum Atrial Septal Defect (ASD). It does not affect the ventricular septum or the AV valves.",
+        "B": "This would result in an isolated muscular Ventricular Septal Defect (VSD), not a combined septal and valvular defect.",
+        "C": "Abnormal leftward looping (L-loop) causes ventricular inversion, typically seen in congenitally corrected Transposition of the Great Arteries (ccTGA), not AVSD.",
+        "E": "This embryological error leads to a Secundum ASD (due to an excessively large ostium secundum)."
+      }
+    }
+  },
+  {
+    "question": "A patient is found to have 'Persistent Truncus Arteriosus.' This condition results from the failure of which embryological structure to develop?",
+    "choices": {
+      "A": "Conus arteriosus",
+      "B": "Septum primum",
+      "C": "Ductus venosus",
+      "D": "Bulbus cordis",
+      "E": "Aorticopulmonary septum"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Persistent Truncus Arteriosus occurs when the truncus arteriosus fails to divide into the pulmonary trunk and the aorta. This division is normally achieved by the formation of the aorticopulmonary septum, which relies on the proper migration of neural crest cells.",
+      "incorrect": {
+        "A": "The conus arteriosus is the smooth upper portion of the right ventricle leading to the pulmonary valve.",
+        "B": "The septum primum is involved in atrial septation. Its failure leads to a Primum ASD.",
+        "C": "The ductus venosus is a fetal vessel that bypasses the liver. Its failure to close after birth is rare and unrelated to Truncus Arteriosus.",
+        "D": "The bulbus cordis forms the right ventricle and the ventricular outflow tracts."
+      }
+    }
+  },
+  {
+    "question": "A neonate with Heterotaxy syndrome is found to have 'Right Atrial Isomerism.' Which of the following non-cardiac findings is most likely to be present in this patient?",
+    "choices": {
+      "A": "Horseshoe Kidney",
+      "B": "Biliary Atresia",
+      "C": "Polysplenia (multiple small spleens)",
+      "D": "Annular Pancreas",
+      "E": "Asplenia (absence of the spleen)"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Right Atrial Isomerism (bilateral right-sidedness) is highly associated with Asplenia syndrome. Since the spleen normally develops on the left side, having bilateral \"right\" sides results in the absence of spleen development.",
+      "incorrect": {
+        "A": "Horseshoe kidney is a fusion anomaly of the kidneys, classically associated with Turner syndrome, not Heterotaxy.",
+        "B": "Biliary atresia is frequently associated with Left Atrial Isomerism, not Right.",
+        "C": "Polysplenia is the hallmark of Left Atrial Isomerism, where bilateral \"left\" sidedness leads to the formation of multiple splenic tissues.",
+        "D": "Annular pancreas is a developmental defect of the pancreatic buds, often associated with Down Syndrome, but not classically defining Right Isomerism."
+      }
+    }
+  },
+  {
+    "question": "A 1-day-old infant is noted to be cyanotic. On physical exam, there is a systolic murmur at the LLSB and a single S2. The ECG shows 'Left Axis Deviation' and 'Left Ventricular Hypertrophy,' which is unusual for a newborn. What is the most likely diagnosis?",
+    "choices": {
+      "A": "Hypoplastic Left Heart Syndrome",
+      "B": "Tetralogy of Fallot",
+      "C": "Tricuspid Atresia",
+      "D": "Transposition of the Great Arteries",
+      "E": "Total Anomalous Pulmonary Venous Return"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "In Tricuspid Atresia, there is no communication between the Right Atrium and Right Ventricle, leading to a hypoplastic right ventricle. Systemic venous blood must cross an ASD to the Left Atrium, then into the Left Ventricle. Because the LV is doing all the work to pump blood to both the body and the lungs (via a VSD or PDA), the ECG characteristically shows Left Axis Deviation (LAD) and Left Ventricular Hypertrophy (LVH). This is highly unusual since normal newborns are born with physiologic right ventricular dominance.",
+      "incorrect": {
+        "A": "Hypoplastic Left Heart Syndrome would show Right Axis Deviation and Right Ventricular Hypertrophy, as the RV does all the work.",
+        "B": "Tetralogy of Fallot classically presents with Right Axis Deviation and Right Ventricular Hypertrophy due to the outflow tract obstruction.",
+        "D": "Transposition of the Great Arteries typically has a normal newborn ECG (Right Axis Deviation / Right Ventricular dominance).",
+        "E": "TAPVR features right heart volume overload, leading to Right Axis Deviation and Right Ventricular Hypertrophy."
+      }
+    }
+  },
+  {
+    "question": "A patient is born with a heart that has the morphological right atrium on the left side and the morphological left atrium on the right side (Situs Inversus). If the heart tube loops to the right (D-loop) instead of the left (L-loop) in this patient, what is the expected result?",
+    "choices": {
+      "A": "Normal heart anatomy",
+      "B": "Atrioventricular discordance",
+      "C": "Isolated Dextrocardia",
+      "D": "Situs Inversus Totalis",
+      "E": "Tetralogy of Fallot"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "In a normal heart (Situs Solitus), the morphological RA is on the right. Normal D-looping places the morphological RV on the right. Thus, the RA connects to the RV (Atrioventricular concordance). In this patient, the atria are inverted (RA is on the left). However, D-looping still places the morphological RV on the right and LV on the left. Therefore, the left-sided RA will connect to the left-sided LV, and the right-sided LA will connect to the right-sided RV. This mismatch is called Atrioventricular discordance.",
+      "incorrect": {
+        "A": "Normal anatomy requires both Situs Solitus and D-looping (or Situs Inversus and L-looping for a normal mirror-image heart).",
+        "C": "Isolated dextrocardia refers to a right-sided heart with normal abdominal situs, but it does not specify the internal AV connections which are discordant here.",
+        "D": "Situs Inversus Totalis refers to the organ positioning itself, not the functional outcome of the mismatched D-looping which causes the AV discordance.",
+        "E": "Tetralogy of Fallot is a conotruncal septation defect, not a primary looping connection abnormality."
+      }
+    }
+  },
+  {
+    "question": "A 5-year-old boy from an underdeveloped region is evaluated for chronic cyanosis and fatigue. His parents report that he often 'takes a break' and sits on his haunches (squats) while playing with other children. Physical examination shows significant digital clubbing and a 'boot-shaped' heart on chest X-ray. Laboratory results show a hematocrit of 65%. The primary driver of this patient's cyanosis is the resistance at which of the following locations?",
+    "choices": {
+      "A": "Interatrial septum",
+      "B": "Mitral valve orifice",
+      "C": "Descending aorta",
+      "D": "Subpulmonic infundibular region",
+      "E": "Ductus arteriosus"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The clinical presentation (cyanosis, squatting/tet spells, clubbing, polycythemia, boot-shaped heart) is classic for Tetralogy of Fallot (TOF). The degree of right-to-left shunting across the VSD (and thus the severity of cyanosis) is primarily determined by the degree of Right Ventricular Outflow Tract (RVOT) obstruction. This obstruction is most commonly caused by subpulmonic stenosis at the infundibular region. Squatting increases systemic vascular resistance, temporarily reversing the shunt and improving pulmonary blood flow.",
+      "incorrect": {
+        "A": "Resistance at the interatrial septum is irrelevant here; TOF pathology centers on the ventricular level and outflow tracts.",
+        "B": "The mitral valve is on the left side and functions normally in TOF.",
+        "C": "Resistance in the descending aorta (like in Coarctation) would not cause this classic cyanotic presentation. In fact, increasing systemic resistance (by squatting) helps patients with TOF.",
+        "E": "A patent ductus arteriosus (PDA) actually helps patients with TOF by providing alternative blood flow to the lungs. It does not cause the primary cyanosis."
+      }
+    }
+  }
+]

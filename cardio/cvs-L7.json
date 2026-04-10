@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "An arteriole undergoes vasoconstriction, reducing its radius to one-third of its original size. By what factor does the vascular resistance increase?",
+    "choices": {
+      "A": "3 times",
+      "B": "9 times",
+      "C": "27 times",
+      "D": "81 times",
+      "E": "243 times"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "According to Poiseuille's law, vascular resistance (R) is inversely proportional to the fourth power of the vessel's radius (r). The formula is R = 8ηL / πr⁴. If the radius is reduced to 1/3 of its original size, the new resistance becomes proportional to 1 divided by (1/3)⁴. Since (1/3)⁴ = 1/81, the resistance increases by a factor of 81.",
+      "incorrect": {
+        "A": "This option represents incorrect math — using 3¹ instead of 3⁴. Only 3⁴ = 81 correctly reflects how resistance changes when the radius changes.",
+        "B": "This option represents incorrect math — using 3² instead of 3⁴. Only 3⁴ = 81 correctly reflects how resistance changes when the radius changes.",
+        "C": "This option represents incorrect math — using 3³ instead of 3⁴. Only 3⁴ = 81 correctly reflects how resistance changes when the radius changes.",
+        "E": "This option represents incorrect math — using 3⁵ instead of 3⁴. Only 3⁴ = 81 correctly reflects how resistance changes when the radius changes."
+      }
+    }
+  },
+  {
+    "question": "A 55-year-old woman with polycythemia vera (elevated hematocrit) has a significantly increased blood viscosity. Which of the following hemodynamic changes would most directly result from this condition?",
+    "choices": {
+      "A": "Decreased vascular resistance",
+      "B": "Increased blood flow",
+      "C": "Increased vascular resistance",
+      "D": "Decreased blood pressure",
+      "E": "Increased vessel radius"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Polycythemia involves an overproduction of red blood cells (elevated hematocrit), which increases blood viscosity. Vascular resistance is directly proportional to blood viscosity (R ∝ η). That means if viscosity increases, vascular resistance also increases.",
+      "incorrect": {
+        "A": "This is wrong because viscosity and resistance are directly proportional. Increased viscosity increases resistance, not decreases it.",
+        "B": "According to the flow equation (Q = ΔP / R), if resistance increases and the pressure gradient stays the same, blood flow will decrease, not increase.",
+        "D": "Increased vascular resistance usually leads to increased blood pressure (since MAP = CO x TPR), not decreased blood pressure.",
+        "E": "Viscosity is a property of the blood itself, not a physical dimension of the blood vessel. Increased viscosity does not directly cause the vessel radius to increase."
+      }
+    }
+  },
+  {
+    "question": "A healthy young adult moves from a supine (lying down) position to a standing position. Which of the following changes in central venous pressure (CVP) and venous pressure in the legs is most expected?",
+    "choices": {
+      "A": "CVP increases, leg venous pressure increases",
+      "B": "CVP decreases, leg venous pressure increases",
+      "C": "CVP increases, leg venous pressure decreases",
+      "D": "CVP decreases, leg venous pressure decreases",
+      "E": "CVP unchanged, leg venous pressure unchanged"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "When a person moves from a supine to a standing position, gravity causes blood to pool in the lower extremities. This pooling expands the compliant veins, leading to a significant increase in venous pressure (Pv) in the legs. Because blood is pooling in the legs, venous return to the heart drops, which subsequently causes central venous pressure (CVP) to decrease.",
+      "incorrect": {
+        "A": "CVP does not increase; it decreases due to reduced venous return.",
+        "C": "Venous pressure in the legs increases due to gravity, it does not decrease.",
+        "D": "Venous pressure in the legs increases due to gravity, it does not decrease.",
+        "E": "Gravity significantly alters pressures when changing posture, so they do not remain unchanged."
+      }
+    }
+  },
+  {
+    "question": "An increase in sympathetic stimulation to the veins leads to which sequence of events?",
+    "choices": {
+      "A": "Venoconstriction → increased CVP → decreased Stroke Volume",
+      "B": "Venoconstriction → decreased compliance → increased venous return",
+      "C": "Vasoconstriction → increased stressed volume in veins → decreased MAP",
+      "D": "Vasodilation → increased compliance → decreased CVP",
+      "E": "Decreased venous tone → increased pooling → increased CO"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Sympathetic stimulation causes veins to constrict, which decreases their compliance. This forces blood out of the veins (shifting it from unstressed to stressed volume) and pushes it back toward the heart, thereby increasing venous return.",
+      "incorrect": {
+        "A": "Increased CVP leads to increased end-diastolic volume and increased stroke volume (Frank-Starling mechanism), not decreased.",
+        "C": "Veins primarily hold unstressed volume. Shifting blood to the heart increases Cardiac Output and Mean Arterial Pressure (MAP), it does not decrease MAP.",
+        "D": "Sympathetic stimulation causes vasoconstriction/venoconstriction, not vasodilation.",
+        "E": "Sympathetic stimulation increases venous tone, it does not decrease it."
+      }
+    }
+  },
+  {
+    "question": "What happens to the velocity of blood flow as it moves from the arterioles into the capillaries?",
+    "choices": {
+      "A": "It decreases because area increases",
+      "B": "It decreases due to higher viscosity",
+      "C": "It increases significantly",
+      "D": "It increases due to lower resistance",
+      "E": "It remains constant"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The velocity of blood flow is calculated by the equation v = Q / A, where Q is flow and A is the total cross-sectional area. Because capillaries run in massive parallel networks, their combined total cross-sectional area (2500 square centimeters) is drastically larger than that of arterioles (40 square centimeters). Thus, velocity drops to its lowest point to allow time for nutrient exchange.",
+      "incorrect": {
+        "B": "Velocity changes due to the physical cross-sectional area of the capillary beds, not changes in blood viscosity.",
+        "C": "Velocity decreases drastically in capillaries, it does not increase.",
+        "D": "Velocity decreases drastically in capillaries, it does not increase.",
+        "E": "Velocity does not remain constant; it fluctuates based on the cross-sectional area of the specific vessel type."
+      }
+    }
+  },
+  {
+    "question": "A patient with severe diarrhea presents with low blood pressure and a fast heart rate. Which set of findings for stressed and unstressed volumes is most likely?",
+    "choices": {
+      "A": "Normal Stressed volume, ↑ Unstressed volume",
+      "B": "↑ Stressed volume, ↑ Unstressed volume",
+      "C": "↑ Stressed volume, ↓ Unstressed volume",
+      "D": "↓ Stressed volume, ↑ Unstressed volume",
+      "E": "↓ Stressed volume, ↓ Unstressed volume"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Severe diarrhea causes profound dehydration and a loss of total circulating blood volume. Unstressed volume resides in the highly compliant veins, while stressed volume resides in the arteries and generates pressure. When total fluid volume plummets drastically, the body loses volume from both the venous reservoirs (unstressed) and the arterial system (stressed), leading to systemic hypotension.",
+      "incorrect": {
+        "A": "Total body fluid loss cannot logically result in an increase or maintenance of normal volumes in these compartments. Both compartments suffer a deficit.",
+        "B": "Total body fluid loss cannot logically result in an increase or maintenance of normal volumes in these compartments. Both compartments suffer a deficit.",
+        "C": "Total body fluid loss cannot logically result in an increase or maintenance of normal volumes in these compartments. Both compartments suffer a deficit.",
+        "D": "Total body fluid loss cannot logically result in an increase or maintenance of normal volumes in these compartments. Both compartments suffer a deficit."
+      }
+    }
+  },
+  {
+    "question": "A patient is given a potent vasodilator medication that primarily acts on the arterioles. What is the most likely step-wise effect on the cardiovascular system?",
+    "choices": {
+      "A": "↑ Radius → ↓ Viscosity → ↑ MAP → Reflex tachycardia",
+      "B": "↓ Radius → ↑ Resistance → ↓ Blood flow → ↑ CVP",
+      "C": "↑ Radius → ↑ Resistance → ↑ MAP → Reflex bradycardia",
+      "D": "↑ Radius → ↓ Resistance → ↓ MAP → Reflex tachycardia",
+      "E": "↓ Length → ↓ Resistance → ↑ Flow → ↑ MAP"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Vasodilation involves the relaxation of smooth muscle, which directly increases the vessel's radius. An increased radius drastically lowers vascular resistance (R ∝ 1/r^4). According to the equation MAP = CO x TPR, a drop in total peripheral resistance (TPR) leads to a drop in mean arterial pressure (MAP). The body compensates for this sudden drop in blood pressure via the baroreceptor reflex, resulting in a compensatory increase in heart rate (reflex tachycardia).",
+      "incorrect": {
+        "A": "Vasodilators do not change the viscosity of the blood.",
+        "B": "Vasodilators increase the radius; they do not decrease it.",
+        "C": "Increasing the radius decreases resistance; it does not increase it.",
+        "E": "Medications do not alter the physical length of the body's blood vessels."
+      }
+    }
+  },
+  {
+    "question": "A vessel with high compliance will demonstrate which of the following characteristics?",
+    "choices": {
+      "A": "Large pressure change for small volume change",
+      "B": "Low capacitance",
+      "C": "Small volume change for large pressure change",
+      "D": "Large volume change for small pressure change",
+      "E": "High resistance to flow"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Compliance (C) is defined as C = ΔV / ΔP (change in volume over change in pressure). A vessel with high compliance (like a vein) can easily expand, meaning it can take a large increase in volume (ΔV) with only a small increase in pressure (ΔP).",
+      "incorrect": {
+        "A": "This describes a stiff or low-compliance vessel (like an aged artery) where a small volume increase causes a big pressure spike.",
+        "B": "Highly compliant vessels like veins are called capacitance vessels because they have high capacitance.",
+        "C": "This describes a stiff or low-compliance vessel (like an aged artery) where a small volume increase causes a big pressure spike.",
+        "E": "Compliance is about volume and pressure, not resistance to flow (resistance depends on radius, length, and viscosity)."
+      }
+    }
+  }
+]
