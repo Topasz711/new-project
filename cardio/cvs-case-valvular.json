@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "A 45-year-old female presents with progressive dyspnea on exertion and orthopnea. On examination, you hear a low-pitched diastolic rumble at the apex. Which valvular abnormality is most likely?",
+    "choices": {
+      "A": "Aortic stenosis",
+      "B": "Aortic regurgitation",
+      "C": "Mitral regurgitation",
+      "D": "Mitral stenosis",
+      "E": "Tricuspid regurgitation"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "A mid-diastolic rumble heard at the apex is the classic auscultatory finding of mitral stenosis. Patients typically present with breathlessness and orthopnea due to elevated pulmonary venous pressure and pulmonary congestion.",
+      "incorrect": {
+        "A": "Presents with a harsh ejection systolic murmur radiating to the carotid arteries.",
+        "B": "Presents with a soft, early blowing diastolic decrescendo murmur at the left sternal edge.",
+        "C": "Characterized by a soft, blowing holosystolic murmur at the apex radiating to the left axilla.",
+        "E": "Presents with a holosystolic murmur that is best heard at the lower left sternal border and increases in intensity upon inspiration."
+      }
+    }
+  },
+  {
+    "question": "Which heart sound abnormality is characteristic of aortic regurgitation?",
+    "choices": {
+      "A": "Systolic ejection murmur at the right second intercostal space",
+      "B": "Diastolic decrescendo murmur at the left sternal border",
+      "C": "Holosystolic murmur at the apex",
+      "D": "Mid-diastolic rumble at the apex",
+      "E": "Systolic click followed by a murmur"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Aortic regurgitation allows blood to flow back from the aorta into the left ventricle during diastole, creating a soft, blowing, diastolic decrescendo murmur best heard at the left sternal edge.",
+      "incorrect": {
+        "A": "This is the characteristic finding of aortic stenosis.",
+        "C": "This is the hallmark murmur of mitral regurgitation.",
+        "D": "This describes the classic murmur of mitral stenosis.",
+        "E": "This is characteristic of mitral valve prolapse."
+      }
+    }
+  },
+  {
+    "question": "A patient with tricuspid valve disease is most likely to present with which of the following clinical findings?",
+    "choices": {
+      "A": "Jugular venous distension",
+      "B": "Pulmonary edema",
+      "C": "Orthopnea",
+      "D": "Paroxysmal nocturnal dyspnea",
+      "E": "Cough with pink frothy sputum"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Tricuspid valve disease (such as stenosis or regurgitation) leads to right-sided heart failure and elevated right atrial pressure. This manifests clinically as systemic venous congestion, which prominently includes engorged, pulsating neck veins (jugular venous distension), along with an enlarged pulsating liver and ascites.",
+      "incorrect": {
+        "B": "Pulmonary edema is a classic sign of left-sided heart failure and pulmonary congestion. This is typically caused by left-sided valvular lesions (mitral or aortic disease) rather than right-sided (tricuspid) issues.",
+        "C": "Orthopnea is a classic sign of left-sided heart failure and pulmonary congestion. This is typically caused by left-sided valvular lesions (mitral or aortic disease) rather than right-sided (tricuspid) issues.",
+        "D": "Paroxysmal nocturnal dyspnea is a classic sign of left-sided heart failure and pulmonary congestion. This is typically caused by left-sided valvular lesions (mitral or aortic disease) rather than right-sided (tricuspid) issues.",
+        "E": "Cough with pink frothy sputum is a classic sign of left-sided heart failure and pulmonary congestion. This is typically caused by left-sided valvular lesions (mitral or aortic disease) rather than right-sided (tricuspid) issues."
+      }
+    }
+  },
+  {
+    "question": "Which of the following is the most common cause of mitral stenosis?",
+    "choices": {
+      "A": "Degenerative calcification",
+      "B": "Rheumatic heart disease",
+      "C": "Infective endocarditis",
+      "D": "Congenital abnormality",
+      "E": "Systemic lupus erythematosus"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Rheumatic heart disease is globally the most common cause of mitral stenosis. It causes chronic inflammation that leads to thickening, fusion of the commissures, and fibrosis of the mitral valve leaflets over time.",
+      "incorrect": {
+        "A": "While age-related calcification can affect the mitral annulus, it is a much more common cause of aortic stenosis.",
+        "C": "This typically causes destructive lesions on the valves, leading to vegetation formation and leaflet perforation, which results in regurgitation rather than pure stenosis.",
+        "D": "Congenital mitral stenosis is a very rare condition.",
+        "E": "Can cause Libman-Sacks endocarditis, which is generally asymptomatic or causes mild regurgitation, but is not the most common cause of stenosis."
+      }
+    }
+  },
+  {
+    "question": "In a patient with severe, chronic mitral regurgitation, which physiological mechanism explains the presence of an S3 heart sound?",
+    "choices": {
+      "A": "Sudden tensing of the chordae tendineae as the mitral valve opens",
+      "B": "Turbulent blood flow across a restricted aortic orifice during systole",
+      "C": "Delayed closure of the pulmonic valve during inspiration",
+      "D": "Atrial contraction forcing blood into a stiff, non-compliant ventricle",
+      "E": "Rapid filling of a dilated left ventricle during early diastole"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "In severe mitral regurgitation, a large volume of regurgitant blood accumulates in the enlarged left atrium during systole. During early diastole, this massive volume rapidly rushes into the dilated left ventricle, causing an S3 heart sound due to the rapid ventricular filling.",
+      "incorrect": {
+        "A": "This describes the mechanism for an opening snap, a high-pitched sound characteristic of mitral stenosis.",
+        "B": "This generates the harsh ejection systolic murmur seen in aortic stenosis.",
+        "C": "This explains the physiological splitting of the S2 sound during inspiration.",
+        "D": "This is the mechanism for an S4 heart sound (atrial gallop), which is often heard in conditions causing a stiff, hypertrophied left ventricle, such as severe aortic stenosis."
+      }
+    }
+  },
+  {
+    "question": "A patient presents with a soft, blowing holosystolic murmur best heard at the lower left sternal border. The murmur is noted to increase in intensity when the patient takes a deep breath. This finding is most characteristic of which abnormality?",
+    "choices": {
+      "A": "Aortic Stenosis",
+      "B": "Ventricular Septal Defect",
+      "C": "Tricuspid Regurgitation",
+      "D": "Mitral Regurgitation",
+      "E": "Pulmonic Stenosis"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Tricuspid insufficiency (regurgitation) produces a soft, blowing systolic murmur. The defining clinical feature that differentiates it from left-sided holosystolic murmurs is that its intensity is increased on inspiration (Carvallo's sign) due to increased venous return to the right side of the heart.",
+      "incorrect": {
+        "A": "Produces a harsh ejection systolic murmur radiating to the carotids.",
+        "B": "Produces a holosystolic murmur, but its intensity does not typically increase significantly with inspiration.",
+        "D": "Produces a soft, blowing holosystolic murmur radiating to the left axilla, but it does not increase with inspiration.",
+        "E": "Produces a systolic ejection murmur, not a holosystolic one."
+      }
+    }
+  },
+  {
+    "question": "A 70-year-old woman complains of dizziness when walking uphill. Auscultation reveals a harsh ejection systolic murmur at the right upper sternal border that radiates to the carotid arteries. Her arterial pulse feels weak and delayed. What is the most likely diagnosis?",
+    "choices": {
+      "A": "Aortic Regurgitation",
+      "B": "Mitral Regurgitation",
+      "C": "Aortic Stenosis",
+      "D": "Mitral Stenosis",
+      "E": "Tricuspid Regurgitation"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The clinical presentation of exertional dizziness (syncope), accompanied by a harsh ejection systolic murmur radiating to the carotid arteries and a weak, slow-rising \"plateau\" pulse (pulsus parvus et tardus), is the classic triad pointing directly to severe aortic stenosis.",
+      "incorrect": {
+        "A": "Presents with a bounding, collapsing pulse (Corrigan's sign), a wide pulse pressure, and a diastolic decrescendo murmur.",
+        "B": "Features a holosystolic murmur radiating to the axilla.",
+        "D": "Characterized by a mid-diastolic rumble, an opening snap, and a \"tapping\" apex due to a palpable S1.",
+        "E": "Presents with a systolic murmur that increases with inspiration and engorged neck veins."
+      }
+    }
+  },
+  {
+    "question": "A 70-year-old female presents with palpitations and an irregularly irregular pulse. ECG confirms atrial fibrillation. Which valvular lesion is most classically associated with creating the structural substrate for this arrhythmia?",
+    "choices": {
+      "A": "Aortic stenosis with concentric left ventricular hypertrophy",
+      "B": "Aortic regurgitation with volume overload and dilation",
+      "C": "Mitral regurgitation with left atrial volume expansion",
+      "D": "Mitral stenosis with chronic left atrial enlargement",
+      "E": "Tricuspid regurgitation with right atrial dilation"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "While both mitral stenosis and mitral regurgitation result in an enlarged left atrium, mitral stenosis causes chronic, severe left atrial pressure elevation and structural enlargement. This massive dilation and stasis make atrial fibrillation frequently common and significantly increase the risk of thrombosis and embolism.",
+      "incorrect": {
+        "A": "Primarily results in left ventricular concentric hypertrophy and failure.",
+        "B": "Primarily causes severe left ventricular dilation and hypertrophy.",
+        "C": "Although it also enlarges the left atrium and can cause atrial fibrillation, mitral stenosis is the most \"classic\" lesion associated with profound atrial architectural changes leading to this arrhythmia.",
+        "E": "Primarily leads to right-sided enlargement (right atrium and ventricle)."
+      }
+    }
+  }
+]

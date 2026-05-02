@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "question": "A 45-year-old male with a family history of premature CAD undergoes screening. His Lp(a) level is 150 nmol/L. Which of the following is the most appropriate interpretation of this result?",
+    "choices": {
+      "A": "This marker should be measured annually to monitor risk.",
+      "B": "This is a normal level with no cardiovascular risk.",
+      "C": "It indicates an increased risk for aortic stenosis.",
+      "D": "It directly correlates with high dietary fat intake.",
+      "E": "The risk is primarily due to reduced blood clotting."
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "High levels of Lp(a) are associated with the narrowing of the aortic valve, a condition known as aortic stenosis. Chronic inflammation caused by Lp(a) leads to calcium building up on the valve, which causes stiffness.",
+      "incorrect": {
+        "A": "Current guidelines recommend testing Lp(a) at least once in every adult, rather than measuring it annually.",
+        "B": "An Lp(a) level of ≥125 nmol/L (or ≥50 mg/dL) is considered a risk-enhancing factor, so a level of 150 nmol/L is definitely not a normal level without cardiovascular risk.",
+        "D": "Lp(a) is primarily genetically determined and unlike standard LDL-cholesterol, it is not directly managed by simply adjusting dietary fat intake (the text emphasizes its structure and inflammatory role rather than dietary correlation).",
+        "E": "Lp(a) actually promotes increased blood clotting, rather than reducing it."
+      }
+    }
+  },
+  {
+    "question": "A 58-year-old man presents with chest pain that began 2 hours ago. Laboratory testing reveals a biomarker that rises within 2–3 hours, peaks at 6–12 hours, and returns to baseline within 24 hours. It lacks tissue specificity because it is also abundant in skeletal muscle. Which biomarker fits this kinetic and distribution pattern?",
+    "choices": {
+      "A": "Cardiac troponin I",
+      "B": "CK-MB",
+      "C": "Myoglobin",
+      "D": "High-sensitivity CRP",
+      "E": "NT-proBNP"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Myoglobin is a heme-containing protein found in both cardiac and skeletal muscle, meaning it lacks specificity for the heart. However, it is an early marker of myocardial damage because it leaks rapidly from damaged cells. It typically rises within 2-3 hours, peaks around 6 to 12 hours, and returns to baseline after 24 hours.",
+      "incorrect": {
+        "A": "Cardiac troponin I (cTnI) levels take significantly longer to return to normal, usually remaining elevated for 5-10 days.",
+        "B": "CK-MB peaks later, typically between 18-24 hours, and returns to normal after 48-72 hours. While it is found in cardiac and skeletal muscle, its timeline does not fit the prompt perfectly.",
+        "D": "High-sensitivity CRP (hs-CRP) is a marker of systemic inflammation and coronary risk, not an early kinetic marker specifically for acute myocardial necrosis.",
+        "E": "NT-proBNP is a marker of myocardial stretch and congestive heart failure, not an acute marker of myocardial injury."
+      }
+    }
+  },
+  {
+    "question": "A 58-year-old man presents to the ED with 40 minutes of crushing substernal chest pain. ECG shows normal sinus rhythm without ST-segment changes. Vital signs are stable, and he has no high-risk historical features. Which biomarker, when measured with a high-sensitivity assay and repeated at 1 hour using the ESC algorithm, provides the highest negative predictive value to safely rule out acute myocardial infarction in this early window?",
+    "choices": {
+      "A": "CK-MB mass",
+      "B": "Myoglobin",
+      "C": "Troponin",
+      "D": "hs-CRP",
+      "E": "NT-proBNP"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "High-sensitivity cardiac troponin (hs-cTn) assays have a significantly higher negative predictive value (NPV) for acute myocardial infarction, especially for patients presenting early. The European Society of Cardiology (ESC) recommends using the 0 h/1 h algorithm as the best option for ruling out MI based on absolute values of hs-cTn.",
+      "incorrect": {
+        "A": "While CK-MB was the gold standard before troponin, it is less specific and is no longer the primary biomarker used in rapid rule-out algorithms today.",
+        "B": "Although Myoglobin is an early marker, it lacks the high tissue specificity required to definitively rule out a myocardial infarction when compared to modern highly sensitive assays.",
+        "D": "hs-CRP indicates low-grade chronic inflammation and risk for cardiovascular disease, rather than being an acute tool to rule out myocardial damage.",
+        "E": "NT-proBNP is primarily used to diagnose and assess heart failure due to volume overload and ventricular stretch, not to rapidly rule out an acute myocardial infarction."
+      }
+    }
+  },
+  {
+    "question": "An 82-year-old male presents with dyspnea on exertion, orthopnea (uses 3 pillows), and bilateral ankle edema. He has a history of long-standing hypertension. Which marker is the 'Most Useful' for confirming the diagnosis in this clinical setting?",
+    "choices": {
+      "A": "hs-CRP",
+      "B": "CK-MB",
+      "C": "Lactate Dehydrogenase",
+      "D": "Cardiac Troponin T",
+      "E": "BNP or NT-proBNP"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The patient's presentation of breathlessness, orthopnea, and ankle edema are classic symptoms and signs of congestive heart failure. B-type natriuretic peptide (BNP) and N-terminal pro-B-type natriuretic peptide (NT-proBNP) are hormones secreted by the cardiac ventricles in response to ventricular wall stretch and volume overload. These biomarkers are highly recommended for the diagnosis of heart failure.",
+      "incorrect": {
+        "A": "hs-CRP is an acute phase reactant used as a marker for coronary risk and systemic inflammation, not for confirming heart failure.",
+        "B": "CK-MB is a biomarker for myocardial injury and infarction, not the primary diagnostic tool for evaluating congestive heart failure.",
+        "C": "Lactate Dehydrogenase (LDH) lacks specificity and is traditionally a marker of myocardial damage, not a direct indicator of heart failure.",
+        "D": "While Cardiac Troponin T can be elevated in heart failure and provides prognostic information, it is primarily the gold standard marker for detecting acute myocardial necrosis in acute coronary syndromes."
+      }
+    }
+  }
+]

@@ -1,1 +1,242 @@
-[]
+[
+  {
+    "question": "A chest radiograph shows a 'flask-shaped' or 'water-bottle' cardiac silhouette. If the volume of fluid required to produce this finding on a plain film is present, which of the following is the most likely diagnosis?",
+    "choices": {
+      "A": "Pericardial effusion with volume > 250 cc",
+      "B": "Right ventricular enlargement due to Pulmonary Stenosis",
+      "C": "Congestive heart failure with alveolar edema",
+      "D": "Mitral Stenosis leading to Left Atrial Enlargement",
+      "E": "Aortic aneurysm involving the ascending aorta"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "A 'flask' or 'water-bottle' shaped cardiac silhouette is a classic radiographic sign of a pericardial effusion.  For this abnormality to be detectable on a plain chest radiograph, the fluid volume typically must exceed 250 cc.",
+      "incorrect": {
+        "B": "Right ventricular enlargement can cause an upward displacement of the cardiac apex and filling of the retrosternal space on a lateral view, but it does not produce a uniform flask-shaped silhouette.",
+        "C": "Congestive heart failure with alveolar edema classically presents with pulmonary venous congestion and a 'batwing' pattern of bilateral opacities, not a water-bottle heart.",
+        "D": "Left atrial enlargement presents with distinct findings such as the 'double contour' sign and a widening carinal angle, rather than a flask shape.",
+        "E": "An aortic aneurysm typically presents as a focal or long-segment enlargement of the aorta, not a symmetrically enlarged flask-like cardiac shadow."
+      }
+    }
+  },
+  {
+    "question": "In a lateral chest radiograph, a radiologist identifies the 'Oreo cookie sign.' Which of the following correctly describes the layers observed in this sign from anterior to posterior?",
+    "choices": {
+      "A": "Effusion, epicardial fat, myocardium",
+      "B": "Pleural fluid, pericardial fat, lung parenchyma",
+      "C": "Sternum, pericardial fat, effusion",
+      "D": "Epicardial fat, pericardial fat, effusion",
+      "E": "Pericardial fat, effusion, epicardial fat"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The 'Oreo cookie sign' is indicative of a pericardial effusion visible on a lateral chest radiograph.  It represents a radiopaque layer of pericardial fluid (\"the cream\") sandwiched between two radiolucent layers of fat (\"the chocolate\"): the anterior pericardial fat and the posterior epicardial fat adherent to the myocardium.",
+      "incorrect": {
+        "A": "These sequences do not accurately represent the anatomical layers of fat and fluid that create the classical Oreo cookie sign on lateral imaging.",
+        "B": "These sequences do not accurately represent the anatomical layers of fat and fluid that create the classical Oreo cookie sign on lateral imaging.",
+        "C": "These sequences do not accurately represent the anatomical layers of fat and fluid that create the classical Oreo cookie sign on lateral imaging.",
+        "D": "These sequences do not accurately represent the anatomical layers of fat and fluid that create the classical Oreo cookie sign on lateral imaging."
+      }
+    }
+  },
+  {
+    "question": "A 30-year-old male with sharp chest pain shows air outlining the heart that does NOT extend beyond the heart contour. The lines are smoother than usual streaks. This is most likely:",
+    "choices": {
+      "A": "Pneumomediastinum",
+      "B": "Aortic dissection",
+      "C": "Pneumothorax",
+      "D": "Pneumopericardium",
+      "E": "Kerley B lines"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Pneumopericardium involves air within the pericardial sac. Radiographically, it appears as a smooth radiolucency that sharply outlines the heart but does not extend beyond the upper limits of the pericardial reflection (the heart contour).",
+      "incorrect": {
+        "A": "Pneumomediastinum appears as multiple thin, lucent streaks that outline mediastinal structures and can extend upward into the neck, beyond the heart silhouette.",
+        "B": "Aortic dissection is characterized by a widened mediastinum and a double contour of the aorta, not radiolucent air streaks.",
+        "C": "Pneumothorax involves air in the pleural space leading to a visible visceral pleural edge, not air strictly outlining the heart.",
+        "E": "Kerley B lines are short, horizontal opacities representing thickened interlobular septa due to interstitial edema, not air radiolucencies."
+      }
+    }
+  },
+  {
+    "question": "A chest radiograph shows 'streak radiolucent lines along the mediastinum' and a 'ring around the artery sign' on the lateral view. Which of the following is the most likely cause?",
+    "choices": {
+      "A": "Pneumopericardium",
+      "B": "Pneumoperitoneum",
+      "C": "Pneumothorax",
+      "D": "Alveolar pulmonary edema",
+      "E": "Pneumomediastinum"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Pneumomediastinum is characterized by extraluminal gas in the mediastinum, presenting radiographically as streak radiolucent lines and the distinct 'ring around the artery' sign (air completely surrounding the pulmonary artery) visible on lateral views.",
+      "incorrect": {
+        "A": "Pneumopericardium is smoother and confined strictly within the heart's outline, lacking the extensive streaking seen in pneumomediastinum.",
+        "B": "Pneumoperitoneum refers to air under the diaphragm within the peritoneal cavity, not in the mediastinum.",
+        "C": "Pneumothorax involves air in the pleural cavity, lacking the typical streak radiolucencies tracking through the mediastinum.",
+        "D": "Alveolar pulmonary edema presents with diffuse central opacities, not radiolucent (black) streaks of air."
+      }
+    }
+  },
+  {
+    "question": "A patient's radiograph shows a 'Batwing' appearance of opacities. This is a characteristic sign of:",
+    "choices": {
+      "A": "Pulmonary embolism",
+      "B": "Alveolar edema",
+      "C": "Pectus excavatum",
+      "D": "Pneumomediastinum",
+      "E": "Interstitial edema"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The 'batwing' (or butterfly) appearance consists of central, symmetrical opacities radiating from the hila.  This is a hallmark radiographic sign of alveolar pulmonary edema.",
+      "incorrect": {
+        "A": "Pulmonary embolism on a plain film might show a Westermark sign (oligemia) or Fleischner sign (enlarged central artery), but not diffuse batwing opacities.",
+        "C": "Pectus excavatum presents with a blurred right heart border and increased density in the inferomedial lung zone, not diffuse batwing opacities.",
+        "D": "Pneumomediastinum presents with streak lucencies, not dense opacities.",
+        "E": "Interstitial edema presents primarily with Kerley B lines, peribronchial cuffing, and poorly defined perihilar vessels before progressing to full alveolar edema."
+      }
+    }
+  },
+  {
+    "question": "In a patient with suspected Left Atrial Enlargement, which finding is most likely to be seen on a lateral radiograph after a barium swallow?",
+    "choices": {
+      "A": "Compression of the trachea",
+      "B": "Filling of the retrosternal space",
+      "C": "Anterior displacement of the esophagus",
+      "D": "Posterior displacement of the esophagus",
+      "E": "Downward pointing of the cardiac apex"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The left atrium is the most posterior cardiac chamber. When it enlarges, it compresses and displaces adjacent structures, characteristically displacing the esophagus posteriorly, which is easily visualized during a lateral barium swallow study.",
+      "incorrect": {
+        "A": "While massive enlargement might eventually compress the airway, posterior esophageal displacement is the more classic and direct barium swallow finding.",
+        "B": "Filling of the retrosternal space on a lateral view is a classic sign of Right Ventricular Enlargement, as the right ventricle is the most anterior chamber.",
+        "C": "The left atrium sits anterior to the esophagus; therefore, its enlargement pushes the esophagus posteriorly.",
+        "E": "A downward pointing cardiac apex on a PA view indicates Left Ventricular Enlargement, not left atrial enlargement."
+      }
+    }
+  },
+  {
+    "question": "A 55-year-old woman with chronic mitral stenosis presents with increasing orthopnea. Her CXR shows a double contour sign on the right heart border. Which anatomical structure is forming the 'inner' shadow of this double contour?",
+    "choices": {
+      "A": "Pulmonary Trunk",
+      "B": "Superior Vena Cava (SVC)",
+      "C": "Descending Aorta",
+      "D": "Left Atrium (LA)",
+      "E": "Right Atrium (RA)"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "In Left Atrial Enlargement (LAE), the enlarged left atrium bulges toward the right side. This creates a denser, 'inner' overlapping shadow superimposed on the normal right heart border, producing the classic double contour sign.",
+      "incorrect": {
+        "A": "The pulmonary trunk forms a segment of the left cardiac border, not the right.",
+        "B": "The SVC forms the superior aspect of the right mediastinal border above the heart, not the double contour of the heart itself.",
+        "C": "The descending aorta is located on the left side of the spine and forms part of the left mediastinal contour.",
+        "E": "The Right Atrium (RA) forms the normal 'outer' border of the right cardiac silhouette, while the pathologically enlarged LA forms the 'inner' overlapping contour."
+      }
+    }
+  },
+  {
+    "question": "A chest radiograph reveals the gastric bubble and the heart apex both on the right side. The aortic arch is also on the right. This condition is best described as:",
+    "choices": {
+      "A": "Situs inversus totalis",
+      "B": "Situs ambiguous",
+      "C": "Dextroposition",
+      "D": "Situs solitus with Dextrocardia",
+      "E": "Levocardia with Situs Inversus"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Situs inversus totalis is a complete mirror image of normal anatomy. Radiographically, the stomach bubble, aortic arch, and descending aorta are located on the right side (situs inversus), and the cardiac apex also points to the right (dextrocardia).",
+      "incorrect": {
+        "B": "Situs ambiguous involves a disorganized left-right organ distribution that does not entirely correspond to a complete mirror image.",
+        "C": "Dextroposition refers to the heart being physically displaced to the right side by an extrinsic force (e.g., mass or atelectasis) rather than a congenital mirroring.",
+        "D": "Situs solitus with dextrocardia implies normal abdominal positioning (stomach on the left) but with the heart apex pointing to the right.",
+        "E": "Levocardia with situs inversus means the stomach and aorta are on the right, but the heart apex points to the left."
+      }
+    }
+  },
+  {
+    "question": "A radiologist notes 'cephalization' of pulmonary vessels on a chest radiograph. This finding indicates:",
+    "choices": {
+      "A": "Situs inversus totalis",
+      "B": "Pulmonary Embolism",
+      "C": "Tetralogy of Fallot",
+      "D": "Pulmonary Arterial Hypertension",
+      "E": "Pulmonary Venous Hypertension"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Cephalization refers to the redistribution of blood flow to the upper lung zones, causing abnormal enlargement of the upper lobe pulmonary vessels.  This is an early and hallmark radiographic sign of pulmonary venous hypertension (often due to congestive heart failure).",
+      "incorrect": {
+        "A": "Situs inversus refers to abnormal anatomical organ positioning, not vascular flow redistribution.",
+        "B": "Pulmonary embolism may show decreased peripheral vascularity (Westermark sign) or enlarged central arteries, not upper lobe redistribution.",
+        "C": "Tetralogy of Fallot typically shows decreased pulmonary vascularity overall due to right ventricular outflow tract obstruction.",
+        "D": "Pulmonary Arterial Hypertension (PAH) causes marked enlargement of the main and central pulmonary arteries with rapid peripheral tapering, distinct from upper lobe venous cephalization."
+      }
+    }
+  },
+  {
+    "question": "A patient with known pectus excavatum undergoes routine chest radiography. The PA view shows blurring of the right heart border, increased density in the inferomedial lung zone, and displacement of the heart toward the left. Which additional radiographic feature is expected?",
+    "choices": {
+      "A": "Horizontal posterior ribs and vertical anterior ribs",
+      "B": "Elevated diaphragm and crowded basal markings",
+      "C": "Widened mediastinum and tracheal deviation",
+      "D": "Prominent aortic knob and post-stenotic dilatation",
+      "E": "Bilateral Kerley B lines and cephalization"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Pectus excavatum is a chest wall deformity characterized by a depressed sternum. On a PA chest radiograph, classic features include a blurred right heart border, inferomedial lung opacity, leftward cardiac displacement, and a distinct rib pattern: horizontal posterior ribs with steeply vertical anterior ribs (creating a 'heart-shaped' thorax).",
+      "incorrect": {
+        "B": "An elevated diaphragm and crowded markings describe poor inspiratory effort, not the structural deformity of pectus excavatum.",
+        "C": "A widened mediastinum and tracheal deviation are signs of severe pathology like an aortic dissection or a mass, not a congenital chest wall deformity.",
+        "D": "A prominent aortic knob and post-stenotic dilatation are seen in vascular conditions like aortic stenosis.",
+        "E": "Kerley B lines and cephalization indicate pulmonary venous congestion."
+      }
+    }
+  },
+  {
+    "question": "A 60-year-old man with hypertension presents with sudden tearing chest pain radiating to the back. A PA chest radiograph shows a widened mediastinum (>8 cm at the aortic knob), displaced intimal calcification >1 cm from the outer aortic margin, and a double contour along the ascending aorta. What is the pathophysiological mechanism of the displaced calcification, and which imaging study is indicated?",
+    "choices": {
+      "A": "Atherosclerotic plaque rupture; Echocardiography",
+      "B": "Intimal tear creating false lumen; Contrast-enhanced CT",
+      "C": "Medial cystic necrosis; Non-contrast MRI",
+      "D": "Vasculitic wall thickening; Coronary angiography",
+      "E": "Post-stenotic dilatation; Transesophageal ultrasound"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The clinical presentation and radiographic findings (widened mediastinum, displaced intimal calcification >1 cm) are highly indicative of an aortic dissection. Dissection is caused by an intimal tear that separates the aortic wall layers, creating a false lumen that pushes the calcified intima inward. The imaging modality of choice to visualize the true/false lumen and intimal flap is a contrast-enhanced CT scan.",
+      "incorrect": {
+        "A": "While plaque rupture causes acute myocardial infarction, the classic mechanism for widely displaced calcifications in this context is the creation of a false lumen via dissection.",
+        "C": "A contrast-enhanced CT is preferred over a non-contrast MRI in an acute emergency setting to accurately diagnose a dissection.",
+        "D": "Vasculitis does not acutely create a widened mediastinum with false lumen formation.",
+        "E": "Post-stenotic dilatation causes focal aortic enlargement, not an acute intimal tear with tearing pain."
+      }
+    }
+  },
+  {
+    "question": "A 58-year-old man presents to the emergency department with sudden-onset dyspnea and sharp right-sided chest pain worsened by inspiration. He underwent abdominal surgery 7 days ago and has been largely immobilized since. Vital signs reveal heart rate 108/min, respiratory rate 22/min, and oxygen saturation 88% on room air. D-dimer is markedly elevated. A CT pulmonary angiography (CTPA) is obtained, which demonstrates a focal, abrupt termination of intravascular contrast in a segmental branch of the right middle lobe pulmonary artery, explicitly reported as a \"total cutoff of vascular enhancement.\" No intraluminal enhancing mass or chronic vessel wall thickening is seen. Which diagnosis is most consistent with these findings?",
+    "choices": {
+      "A": "Primary pulmonary artery sarcoma",
+      "B": "Acute pulmonary embolism",
+      "C": "Chronic thromboembolic pulmonary hypertension",
+      "D": "Pulmonary vasculitis with thrombosis",
+      "E": "Pulmonary arteriovenous malformation"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The patient's clinical presentation (recent surgery, immobilization, sudden pleuritic chest pain) is highly suspicious for an acute pulmonary embolism (PE). On a CT pulmonary angiography (CTPA), the hallmark vascular abnormality of an acute PE is an intraluminal filling defect or a \"total cutoff of vascular enhancement\" caused by the occlusive clot.",
+      "incorrect": {
+        "A": "A primary sarcoma is a rare malignancy that might present as an enhancing mass, whereas an acute thromboembolism does not demonstrate enhancement.",
+        "C": "Chronic thromboembolic disease typically shows chronic vessel wall thickening or intra-arterial webs, rather than a solitary, abrupt total cutoff without chronic changes.",
+        "D": "Pulmonary vasculitis typically presents with systemic inflammatory symptoms and diffuse vessel wall thickening.",
+        "E": "An arteriovenous malformation would appear as an abnormal tangle of vessels with enhancement, not a complete loss of contrast enhancement."
+      }
+    }
+  }
+]

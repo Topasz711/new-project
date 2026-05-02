@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "A patient is prescribed a medication that inhibits the Na+/K+/2Cl- cotransporter in the thick ascending limb of the loop of Henle. Which of the following electrolyte abnormalities is MOST likely to occur?",
+    "choices": {
+      "A": "Hypercalcemia",
+      "B": "Hypertension",
+      "C": "Metabolic acidosis",
+      "D": "Hyperkalemia",
+      "E": "Hypomagnesemia"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Loop diuretics block the Na+/K+/2Cl- cotransporter in the thick ascending limb. This inhibition disrupts the lumen-positive electrical potential that normally drives the paracellular reabsorption of divalent cations. Consequently, both magnesium and calcium are lost in the urine, making hypomagnesemia and hypocalcemia classic side effects.",
+      "incorrect": {
+        "A": "Loop diuretics (like furosemide) decrease the reabsorption of calcium, leading to hypocalcemia, not hypercalcemia. Thiazide diuretics are the class associated with hypercalcemia.",
+        "B": "Loop diuretics cause diuresis and reduce blood volume, which is used to relieve edema and treat hypertension, thus they may cause postural hypotension, not hypertension.",
+        "C": "Loop diuretics promote the excretion of H+ and K+, which typically leads to metabolic alkalosis, not acidosis. Carbonic anhydrase inhibitors are known to cause metabolic acidosis.",
+        "D": "Inhibiting the Na+/K+/2Cl- cotransporter leads to increased distal delivery of sodium, which promotes potassium excretion, resulting in hypokalemia."
+      }
+    }
+  },
+  {
+    "question": "A 28-year-old woman at 32 weeks of gestation presents with a blood pressure of 165/105 mmHg. Which of the following is considered a first-line drug of choice for managing hypertension in this specific patient population?",
+    "choices": {
+      "A": "Enalapril",
+      "B": "Spironolactone",
+      "C": "Methyldopa",
+      "D": "Valsartan",
+      "E": "Furosemide"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Methyldopa is a centrally acting alpha-2 agonist. It has an extensive, long-standing safety profile in pregnant women and is recognized as the drug of choice for pregnancy hypertension.",
+      "incorrect": {
+        "A": "Enalapril is an ACE inhibitor. ACE inhibitors are absolutely contraindicated during pregnancy because they are highly teratogenic and can cause fetal death in the mid-trimester.",
+        "B": "It is a potassium-sparing diuretic and aldosterone inhibitor, which is not indicated as a first-line therapy for pregnancy-induced hypertension.",
+        "D": "Valsartan is an Angiotensin Receptor Blocker (ARB). Like ACE inhibitors, ARBs are teratogenic and contraindicated during pregnancy.",
+        "E": "Diuretics may be used to reduce the chance of developing pre-eclampsia, but they are not the primary first-line agents for lowering blood pressure acutely in pregnancy, as they might reduce placental perfusion."
+      }
+    }
+  },
+  {
+    "question": "A patient starting an antihypertensive regimen develops a persistent, dry, non-productive cough. This symptom is most likely due to the accumulation of which substance in the respiratory tract?",
+    "choices": {
+      "A": "Aldosterone",
+      "B": "Prostaglandin E2",
+      "C": "Bradykinin",
+      "D": "Angiotensin I",
+      "E": "Angiotensin II"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Angiotensin-converting enzyme (ACE) is responsible not only for converting Angiotensin I to Angiotensin II but also for degrading bradykinin into inactive metabolites. ACE inhibitors prevent this degradation, leading to elevated bradykinin levels. Bradykinin-evoked sensitization of airway sensory nerves is the underlying mechanism for the classic dry cough associated with ACE inhibitors.",
+      "incorrect": {
+        "A": "ACE inhibitors decrease the production of Angiotensin II, which subsequently decreases aldosterone secretion.",
+        "B": "While bradykinin can stimulate local prostaglandin release, the primary substance directly accumulating due to the enzyme inhibition is bradykinin.",
+        "D": "Angiotensin I levels will increase because its conversion is blocked, but it does not cause the respiratory cough symptom.",
+        "E": "ACE inhibitors reduce the levels of Angiotensin II, which is the desired mechanism to cause vasodilation and lower blood pressure."
+      }
+    }
+  },
+  {
+    "question": "A 70-year-old woman is taking a two-drug combination regimen for mixed dyslipidemia. She presents to the clinic complaining of severe muscle weakness and passing dark-colored urine. Laboratory results reveal a creatine kinase (CK) level greater than 10 times the upper limit of normal. Which of the following drug combinations is the most likely cause of her condition?",
+    "choices": {
+      "A": "Atorvastatin + Fenofibrate",
+      "B": "Rosuvastatin + Fish Oil",
+      "C": "Pravastatin + Ezetimibe",
+      "D": "Lovastatin + Niacin",
+      "E": "Simvastatin + Gemfibrozil"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The patient's symptoms (muscle weakness, dark urine from myoglobinuria, and markedly elevated CK) indicate rhabdomyolysis, a severe form of myopathy. Combining statins with fibrates—particularly gemfibrozil—significantly increases this risk. Gemfibrozil inhibits the glucuronidation pathway used to clear statins, resulting in toxic statin accumulation in the blood.",
+      "incorrect": {
+        "A": "While any statin-fibrate combination requires caution, fenofibrate is generally considered safer and is the fibrate of choice when combined with statins because it interferes less with statin metabolism compared to gemfibrozil.",
+        "B": "Omega-3 fatty acids (fish oils) are used to lower triglycerides and do not significantly interact with statins to cause severe myopathy.",
+        "C": "Ezetimibe works by preventing cholesterol absorption at the small intestine brush border and is safely and frequently combined with statins without a massive risk of rhabdomyolysis.",
+        "D": "Although niacin can have some muscular side effects, it is not the classic or most dangerous culprit for severe rhabdomyolysis when paired with a statin."
+      }
+    }
+  },
+  {
+    "question": "A 58-year-old male with hypertension and benign prostatic hyperplasia (BPH) would benefit most from which class of drugs that addresses both conditions simultaneously?",
+    "choices": {
+      "A": "Loop diuretics",
+      "B": "Beta-blockers",
+      "C": "ACE inhibitors",
+      "D": "Dihydropyridine CCBs",
+      "E": "Alpha-1 selective blockers"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Medications such as prazosin, doxazosin, and terazosin selectively block alpha-1 adrenoceptors. In blood vessels, this blocking action leads to vasodilation, reducing peripheral resistance and lowering blood pressure. In the genitourinary tract, it relaxes the smooth muscle of the prostate and bladder neck, directly relieving the symptoms of benign prostatic hyperplasia (BPH).",
+      "incorrect": {
+        "A": "They cause rapid diuresis, which would worsen urinary frequency and urgency, making BPH symptoms more difficult to manage.",
+        "B": "Beta-blockers act on the heart (decreasing heart rate and contractility) and kidneys (decreasing renin), but they do not relax prostatic smooth muscle.",
+        "C": "They cause vasodilation by blocking the renin-angiotensin-aldosterone system but do not provide relief for prostatic obstruction.",
+        "D": "Drugs like nifedipine or amlodipine are potent arterial vasodilators for hypertension but lack efficacy in treating BPH symptoms."
+      }
+    }
+  },
+  {
+    "question": "A patient experiences a sharp drop in blood pressure accompanied by compensatory tachycardia and edema after starting a potent direct vasodilator. Which drug is most associated with the adverse effect of a 'lupus-like syndrome'?",
+    "choices": {
+      "A": "Minoxidil",
+      "B": "Sodium nitroprusside",
+      "C": "Hydralazine",
+      "D": "Nifedipine",
+      "E": "Clonidine"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Hydralazine causes vasodilation through the release of nitric oxide. Because of its potent arterial dilation, it often triggers compensatory sympathetic responses like tachycardia and salt/water retention. High doses or prolonged use of hydralazine are famously associated with the development of a reversible drug-induced lupus-like syndrome.",
+      "incorrect": {
+        "A": "Minoxidil is a strong vasodilator that causes severe reflex tachycardia and edema. A unique adverse effect of minoxidil is hypertrichosis (hair growth), not a lupus-like syndrome.",
+        "B": "It is used in hypertensive emergencies. Its major specific toxicity is related to the accumulation of cyanide and thiocyanate, not lupus-like syndrome.",
+        "D": "This calcium channel blocker can cause reflex tachycardia, flushing, and peripheral edema, but it is not linked to lupus-like syndrome.",
+        "E": "Clonidine is a centrally acting alpha-2 agonist that decreases sympathetic outflow. It is associated with sedation and rebound hypertension, not lupus-like syndrome."
+      }
+    }
+  },
+  {
+    "question": "A 50-year-old patient with a history of heart failure and a baseline blood pressure of 150/95 mmHg is prescribed a combination of a loop diuretic and a medication that can cause cyanide accumulation with prolonged use. He is brought to the ED with confusion and a 'bitter almond' breath odor. Which drug is responsible?",
+    "choices": {
+      "A": "Nicardipine",
+      "B": "Nitroglycerin",
+      "C": "Esmolol",
+      "D": "Hydralazine",
+      "E": "Sodium Nitroprusside"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Sodium nitroprusside is a potent vasodilator used in hypertensive emergencies. The drug molecule contains cyanide groups, and during its metabolism, cyanide and thiocyanate are released. Prolonged infusion (especially more than 24-48 hours) or use in patients with compromised renal or hepatic function can lead to toxic cyanide accumulation, manifesting as confusion, metabolic acidosis, and classically, a bitter almond breath odor.",
+      "incorrect": {
+        "A": "Nicardipine is an IV calcium channel blocker used for hypertensive emergencies but it does not contain cyanide groups.",
+        "B": "Nitroglycerin acts by releasing nitric oxide, primarily causing venous dilation. It does not carry a risk for cyanide toxicity.",
+        "C": "It is an IV beta-blocker with a very short half-life, used for rate control and hypertension, but unrelated to cyanide toxicity.",
+        "D": "Hydralazine is a direct vasodilator but its notable severe toxicity is lupus-like syndrome, not cyanide poisoning."
+      }
+    }
+  },
+  {
+    "question": "A 45-year-old patient with familial hypercholesterolemia has failed to reach LDL targets despite maximal statin therapy and ezetimibe. His physician adds a monoclonal antibody that binds to PCSK9. Which intracellular hepatic process is primarily enhanced by this addition to achieve further LDL reduction?",
+    "choices": {
+      "A": "Inhibition of cholesterol esterification",
+      "B": "Prevention of LDL receptor lysosomal degradation",
+      "C": "Suppression of hepatic VLDL synthesis",
+      "D": "Activation of bile acid sequestration in the intestine",
+      "E": "Upregulation of intestinal cholesterol efflux transporters"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Proprotein convertase subtilisin/kexin type 9 (PCSK9) is a protein that binds to LDL receptors on the surface of hepatocytes, tagging them for degradation in lysosomes. PCSK9 inhibitors (like alirocumab and evolocumab) are monoclonal antibodies that bind and neutralize PCSK9 in the blood. Without PCSK9 attached, the LDL receptor is spared from lysosomal degradation and is recycled back to the cell surface. This massive upregulation of LDL receptors leads to significantly enhanced clearance of LDL cholesterol from the bloodstream.",
+      "incorrect": {
+        "A": "This is not the target of PCSK9 inhibitors. ACAT inhibitors would affect this pathway, but they are not standard lipid-lowering therapies in this context.",
+        "C": "Niacin and fibrates primarily work to alter VLDL synthesis and triglyceride clearance.",
+        "D": "Bile acid sequestrants (resins like cholestyramine and colesevelam) bind bile acids in the gut to prevent their reabsorption, forcing the liver to use more cholesterol to synthesize new bile acids.",
+        "E": "Ezetimibe works at the intestine brush border to decrease cholesterol uptake by inhibiting the NPC1L1 transporter."
+      }
+    }
+  }
+]

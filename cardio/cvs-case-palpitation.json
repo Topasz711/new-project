@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "A 22-year-old medical student faints after seeing blood during a procedure. She experienced sweating and nausea beforehand. This is MOST consistent with:",
+    "choices": {
+      "A": "Cardiac syncope",
+      "B": "Orthostatic hypotension",
+      "C": "Vasovagal syncope",
+      "D": "Seizure disorder",
+      "E": "Psychogenic pseudosyncope"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Reflex vasovagal syncope is highly probable if the syncope is precipitated by an emotional trigger such as fear, pain, or blood phobia, and is associated with a typical progressive prodrome like pallor, sweating, and nausea.",
+      "incorrect": {
+        "A": "This type of syncope is typically associated with structural heart disease or arrhythmias and lacks classical autonomic prodromes like sweating or nausea.",
+        "B": "This is caused by a sudden drop in blood pressure upon standing up, not by emotional triggers or blood phobia.",
+        "D": "Epileptic seizures usually present with tonic-clonic movements and abnormal brain activity, not typically triggered strictly by seeing blood accompanied by this specific autonomic prodrome.",
+        "E": "This is a psychiatric condition without true cerebral hypoperfusion or the classic reflex autonomic prodromes seen in this patient."
+      }
+    }
+  },
+  {
+    "question": "Which cardiac condition is MOST likely to cause syncope during exertion?",
+    "choices": {
+      "A": "Vasovagal syncope",
+      "B": "Aortic stenosis",
+      "C": "Orthostatic hypotension",
+      "D": "Situational syncope",
+      "E": "Anxiety-related palpitations"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Structural cardiac diseases, such as aortic stenosis, are major causes of cardiac syncope, particularly when symptoms occur during physical exertion.",
+      "incorrect": {
+        "A": "Usually triggered by orthostatic stress (standing) or emotional triggers, not typically during active physical exertion.",
+        "C": "Triggered by active standing or volume depletion, not specifically by physical exertion itself.",
+        "D": "This reflex syncope is triggered by very specific situations such as micturition, gastrointestinal stimulation, or coughing.",
+        "E": "This condition presents with a slightly elevated heart rate and somatic symptoms like tingling, but does not cause syncope during exertion."
+      }
+    }
+  },
+  {
+    "question": "Which of the following BEST describes \"extrasystolic palpitations\"?",
+    "choices": {
+      "A": "Continuous rapid fluttering sensation like \"beating wings\"",
+      "B": "Strong, regular, persistent pounding heartbeats",
+      "C": "Sensation of \"skipping a beat\" or \"heart sinking\" interspersed with normal beats",
+      "D": "Slightly elevated heart rate with multiple somatic symptoms like tingling and throat lump",
+      "E": "Palpitations only occurring during fever or anemia"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Extrasystolic palpitations are specifically described as 'skipping/missing a beat' or 'sinking of the heart' interspersed with periods during which the heart beats normally.",
+      "incorrect": {
+        "A": "This subjective description is classic for tachycardiac palpitations, not extrasystolic ones.",
+        "B": "This describes pulsation palpitations, which are often linked to structural heart diseases or high output states.",
+        "D": "This perfectly describes anxiety-related palpitations.",
+        "E": "Fever and anemia cause systemic high-output states that typically lead to pulsation palpitations."
+      }
+    }
+  },
+  {
+    "question": "A patient describes palpitations as \"fluttering wings\" with a very rapid, regular heartbeat. This is MOST suggestive of:",
+    "choices": {
+      "A": "Premature atrial contractions (PACs)",
+      "B": "Anxiety-related sinus tachycardia",
+      "C": "Atrioventricular reentrant tachycardia",
+      "D": "Aortic regurgitation",
+      "E": "Hypoglycemia"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Tachycardiac palpitations are perceived as very rapid 'beating wings' in the chest. Regular sensations in this category are highly suggestive of arrhythmias like atrioventricular reentrant tachycardia or atrial flutter.",
+      "incorrect": {
+        "A": "PACs cause extrasystolic palpitations, which feel like a skipped beat rather than continuous 'fluttering wings'.",
+        "B": "This condition generally presents as a slightly accelerated heartbeat with associated somatic symptoms, not as extremely rapid 'beating wings'.",
+        "D": "This structural heart disease typically causes pulsation palpitations characterized by strong, persistent heartbeats.",
+        "E": "Hypoglycemia is a systemic cause that usually triggers sinus tachycardia (pulsation or anxiety-like), not the extremely rapid, sudden-onset regular rhythm seen in AVRT."
+      }
+    }
+  },
+  {
+    "question": "A 30-year-old female presents to the clinic complaining of an agitated feeling, tingling in her hands and face, a 'lump in her throat', and sighing dyspnea. Her heart rate is regular at 95 bpm. Which pattern best fits her presentation?",
+    "choices": {
+      "A": "Pulsation palpitations",
+      "B": "Tachycardiac palpitations",
+      "C": "Primary autonomic failure",
+      "D": "Anxiety-related palpitations",
+      "E": "Extrasystolic palpitations"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "This pattern is characterized by a slightly accelerated heartbeat along with unspecific symptoms such as tingling in the hands and face, a lump in the throat, agitation, and sighing dyspnea.",
+      "incorrect": {
+        "A": "These present as strong, normal frequency heartbeats, mostly related to structural problems or high-output states, without this specific constellation of somatic symptoms.",
+        "B": "Patients with this pattern perceive their heartbeat as very rapid (often higher than their maximum estimated heart rate), whereas this patient's heart rate is only mildly elevated at 95 bpm.",
+        "C": "This condition leads to neurogenic orthostatic hypotension, not classical anxiety symptoms.",
+        "E": "These are felt as a sudden 'skipping a beat' or 'heart sinking', not as a continuous agitated state with a regular rhythm."
+      }
+    }
+  },
+  {
+    "question": "A 75-year-old male stands up from his chair and immediately feels lightheaded, followed by a brief loss of consciousness. His blood pressure drops from 140/80 mmHg seated to 110/60 mmHg upon standing. This pattern is definitively:",
+    "choices": {
+      "A": "Postural orthostatic tachycardia syndrome (POTS)",
+      "B": "Psychogenic pseudosyncope",
+      "C": "Cardioinhibitory reflex syncope",
+      "D": "Carotid sinus syncope",
+      "E": "Classical orthostatic hypotension"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "It is precisely defined as a sustained decrease in systolic BP >=20 mmHg or diastolic BP >=10 mmHg within 3 minutes of active standing. The patient's systolic dropped 30 mmHg and diastolic dropped 20 mmHg.",
+      "incorrect": {
+        "A": "POTS requires a marked orthostatic heart rate increase (>30 bpm) in the absolute absence of classical orthostatic hypotension.",
+        "B": "This is a psychiatric condition and does not feature objective, definitive drops in blood pressure upon standing.",
+        "C": "This involves efferent components dominated by bradycardia or asystole triggered by specific stimuli, not an immediate blood pressure drop upon standing.",
+        "D": "This is triggered by mechanical manipulation of the carotid sinuses, not simply by the act of active standing."
+      }
+    }
+  },
+  {
+    "question": "A 70-year-old male with a known systolic ejection murmur experiences syncope while climbing a flight of stairs. He denies any prodromal symptoms like nausea or sweating. This pattern is highly suspicious for:",
+    "choices": {
+      "A": "Drug-induced orthostatic hypotension",
+      "B": "Reflex syncope",
+      "C": "Psychogenic pseudosyncope",
+      "D": "Situational syncope",
+      "E": "Structural cardiac syncope"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Syncope occurring during exertion in a patient with a known murmur (which strongly suggests aortic stenosis) points directly to a structural cardiac cause.",
+      "incorrect": {
+        "A": "This typically occurs immediately upon standing due to failure of autonomic compensation, not during sustained physical exertion like climbing stairs.",
+        "B": "Typically accompanied by a progressive prodrome (pallor, sweating, nausea) and triggered by pain, fear, or prolonged standing.",
+        "C": "It presents without structural cardiac abnormalities and is not linked to organic exertion-induced loss of consciousness.",
+        "D": "Triggered by specific events like coughing, micturition, or swallowing, rather than physical exertion."
+      }
+    }
+  },
+  {
+    "question": "An ECG rhythm strip shows a premature, abnormal-looking P wave followed by a narrow QRS complex and an incomplete compensatory pause. This pattern is characteristic of:",
+    "choices": {
+      "A": "Ventricular tachycardia",
+      "B": "Premature Atrial Contraction (PAC)",
+      "C": "Premature Ventricular Contraction (PVC)",
+      "D": "Atrial fibrillation",
+      "E": "Sinus arrest"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "An ectopic focus in the atrium firing early produces a premature, abnormal P wave that is followed by a narrow QRS complex.",
+      "incorrect": {
+        "A": "This arrhythmia features a rapid succession of wide QRS complexes, lacking preceding P waves.",
+        "C": "PVCs are characterized by wide QRS complexes and the absence of a preceding P wave.",
+        "D": "It presents as an irregularly irregular rhythm with a complete absence of distinct P waves.",
+        "E": "This bradyarrhythmia presents as a prolonged pause or absence of P waves, not as premature or early ectopic beats."
+      }
+    }
+  }
+]

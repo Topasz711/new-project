@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "A 55-year-old male presents with a blood pressure of 210/130 mmHg and evidence of new-onset confusion and retinal hemorrhages. This clinical scenario is best defined as:",
+    "choices": {
+      "A": "Hypertensive Emergency",
+      "B": "Hypertensive Urgency",
+      "C": "Essential Hypertension",
+      "D": "Refractory Hypertension",
+      "E": "White Coat Hypertension"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "A Hypertensive Emergency is defined clinically by a severely elevated blood pressure (typically >180/120 mmHg) accompanied by acute, ongoing target organ damage. In this patient, new-onset confusion (hypertensive encephalopathy) and retinal hemorrhages clearly indicate acute end-organ compromise, requiring immediate intravenous intervention to lower the blood pressure safely.",
+      "incorrect": {
+        "B": "Hypertensive Urgency also presents with severely elevated blood pressure, but strictly without any evidence of acute target organ damage.",
+        "C": "Essential hypertension is a chronic condition of elevated blood pressure without a specific identifiable secondary cause, which does not describe this acute crisis state.",
+        "D": "Refractory (or Resistant) Hypertension refers to blood pressure that remains uncontrolled despite the concurrent use of at least three antihypertensive medications of different classes, including a diuretic. This term defines a treatment response, not an acute presentation.",
+        "E": "White Coat Hypertension is characterized by elevated blood pressure only in a clinical setting while home readings remain normal, without acute target organ damage."
+      }
+    }
+  },
+  {
+    "question": "A 22-year-old with HTN has weak femoral pulses and a systolic murmur heard over the back. What is the renal compensatory response to this condition?",
+    "choices": {
+      "A": "Afferent arteriole vasoconstriction to protect the glomerulus",
+      "B": "Renin release due to decreased renal perfusion pressure",
+      "C": "Suppression of RAAS due to high pressure at the carotid sinus",
+      "D": "Decreased production of Erythropoietin",
+      "E": "Increased ANP production leading to massive diuresis"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The clinical presentation of upper extremity hypertension, weak/delayed femoral pulses, and a systolic interscapular murmur is classic for Coarctation of the Aorta (CoA). The narrowing of the descending aorta restricts blood flow to the lower body, resulting in decreased renal perfusion pressure. The juxtaglomerular (JG) cells in the kidneys perceive this hypoperfusion as volume depletion and respond by releasing renin, strongly activating the Renin-Angiotensin-Aldosterone System (RAAS) and paradoxically worsening the systemic hypertension.",
+      "incorrect": {
+        "A": "The primary reflex to hypoperfusion is to maintain the Glomerular Filtration Rate (GFR). This is achieved via Angiotensin II, which preferentially constricts the efferent arteriole, not the afferent arteriole.",
+        "C": "While the carotid sinus baroreceptors sense high pressure in the upper extremities, the local renal response is entirely driven by the low pressure reaching the kidneys, which stimulates rather than suppresses RAAS.",
+        "D": "Erythropoietin production is stimulated by hypoxia, not directly by the hemodynamic changes of CoA.",
+        "E": "Atrial Natriuretic Peptide (ANP) is released by atrial stretch from volume overload, not by the kidneys responding to hypoperfusion."
+      }
+    }
+  },
+  {
+    "question": "An obese patient with HTN is found to have increased levels of Leptin and Insulin. How do these factors contribute to the pathogenesis of his essential hypertension?",
+    "choices": {
+      "A": "Activation of the Sympathetic Nervous System in the hypothalamus",
+      "B": "Promotion of Nitric Oxide synthesis in the vascular endothelium",
+      "C": "Increased sodium excretion via Atrial Natriuretic Peptide",
+      "D": "Inhibition of Renin release from the Juxtaglomerular apparatus",
+      "E": "Direct vasodilation of peripheral arterioles"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "In obesity, adipose tissue produces excess leptin (hyperleptinemia), and systemic insulin resistance leads to hyperinsulinemia. Both of these hormonal abnormalities act centrally on the hypothalamus to chronically stimulate sympathetic nervous system (SNS) outflow. This SNS overactivity increases heart rate and peripheral vascular resistance, directly driving essential hypertension.",
+      "incorrect": {
+        "B": "Obesity and its associated metabolic disturbances actually cause endothelial dysfunction, which decreases the synthesis of the vasodilator Nitric Oxide (NO).",
+        "C": "Insulin resistance promotes sodium retention at the renal tubules, not sodium excretion.",
+        "D": "Visceral fat can physically compress the kidneys and independently produce angiotensinogen, which overactivates the RAAS pathway rather than inhibiting it.",
+        "E": "Increased sympathetic tone causes peripheral vasoconstriction, not vasodilation."
+      }
+    }
+  },
+  {
+    "question": "A 40-year-old male experiences paroxysmal episodes of sweating, palpitations, and hand tremors. During an episode, his BP is 210/120 mmHg. Which cell type and location are most likely responsible for this pathology?",
+    "choices": {
+      "A": "Zona glomerulosa cells in the adrenal cortex",
+      "B": "Postganglionic parasympathetic neurons in the heart",
+      "C": "Juxtaglomerular cells in the afferent arteriole",
+      "D": "Chromaffin cells in the adrenal medulla",
+      "E": "Zona fasciculata cells in the adrenal cortex"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The classic triad of episodic sweating (diaphoresis), palpitations, and severe headaches accompanied by paroxysmal hypertension is the hallmark of a Pheochromocytoma. This neuroendocrine tumor arises from the chromaffin cells located in the adrenal medulla, which secrete massive amounts of catecholamines (epinephrine and norepinephrine) into the bloodstream.",
+      "incorrect": {
+        "A": "The zona glomerulosa of the adrenal cortex secretes aldosterone. An adenoma here causes Primary Hyperaldosteronism (Conn's syndrome), characterized by continuous hypertension and hypokalemia, not paroxysmal sympathetic attacks.",
+        "B": "Parasympathetic activation causes bradycardia and hypotension. The patient's symptoms are purely sympathetic (tachycardia, hypertension, diaphoresis).",
+        "C": "Juxtaglomerular cells secrete renin. While reninomas can cause severe hypertension, they do not produce the explosive, episodic catecholamine-driven symptoms seen here.",
+        "E": "The zona fasciculata secretes cortisol. Hyperactivity leads to Cushing's syndrome, which causes gradual weight gain, striae, and chronic hypertension, rather than episodic crises."
+      }
+    }
+  },
+  {
+    "question": "A 24-year-old man presents for a routine physical examination. Blood pressure is 162/94 mmHg in both arms and 110/72 mmHg in both legs. Femoral pulses are weak and delayed compared to radial pulses. Cardiac auscultation reveals a harsh systolic ejection murmur best heard at the left interscapular region. Which of the following best explains the acoustic characteristics and precise anatomical location of this finding?",
+    "choices": {
+      "A": "Regurgitant flow through a bicuspid aortic valve radiating posteriorly",
+      "B": "Diastolic decrescendo murmur from aortic root dilation radiating to the back",
+      "C": "Continuous vibrations from collateral intercostal artery runoff",
+      "D": "Pleural friction rub transmitted from inflamed posterior lung parenchyma",
+      "E": "Turbulent blood flow across a narrowed segment of the descending thoracic aorta"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The clinical triad of upper extremity hypertension, diminished/delayed femoral pulses, and a specific murmur points directly to Coarctation of the Aorta (CoA). The systolic ejection murmur is generated by the highly turbulent blood flow passing through the stricture in the descending aorta during systole. Because the descending aorta lies posteriorly in the mediastinum along the spine, the murmur is classically heard best at the left interscapular area on the patient's back.",
+      "incorrect": {
+        "A": "While a Bicuspid Aortic Valve (BAV) is strongly associated with CoA, an aortic regurgitation murmur is diastolic, and an aortic stenosis murmur is systolic but best heard at the right upper sternal border radiating to the carotids, not isolated to the back.",
+        "B": "Aortic root dilation causes a diastolic decrescendo murmur heard best at the left sternal border.",
+        "C": "Collateral intercostal vessels can enlarge in CoA and cause rib notching, but they typically produce continuous bruits over the lateral chest wall, not a distinct systolic ejection murmur at the left interscapular region.",
+        "D": "A pleural friction rub is a grating, respiratory-cycle-dependent sound caused by pleural inflammation, completely unrelated to the cardiovascular findings of bounding pulses and hypertension."
+      }
+    }
+  },
+  {
+    "question": "A 62-year-old man with a long history of hypertension, type 2 diabetes mellitus, and chronic kidney disease (eGFR 35 mL/min/1.73 m²) presents for follow-up. He reports strict medication adherence. His current regimen includes Losartan 100 mg daily, Nifedipine ER 60 mg daily, and Chlorthalidone 25 mg daily. His average blood pressure today is 156/92 mmHg. Physical examination is unremarkable, with no evidence of acute end-organ damage or retinal changes. This clinical condition is best classified as:",
+    "choices": {
+      "A": "Secondary hypertension due to renal artery stenosis",
+      "B": "Hypertensive urgency",
+      "C": "Resistant hypertension",
+      "D": "Pseudoresistant hypertension",
+      "E": "Malignant hypertension"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Resistant hypertension is definitively diagnosed when a patient's blood pressure remains uncontrolled (above the target goal) despite confirmed adherence to a regimen of at least three antihypertensive medications from different pharmacological classes, one of which must be a diuretic, given at optimal doses. This patient is taking an ARB (Losartan), a CCB (Nifedipine), and a diuretic (Chlorthalidone) but is still failing to meet BP targets.",
+      "incorrect": {
+        "A": "While secondary causes must be ruled out in resistant hypertension, diagnosing renal artery stenosis requires specific imaging or clinical clues (like an abdominal bruit or a flash pulmonary edema event), which are absent here.",
+        "B": "Hypertensive urgency generally refers to severe BP elevations (usually >180/120 mmHg). His BP of 156/92 mmHg is inadequately controlled but not at the threshold of urgency.",
+        "D": "Pseudoresistance occurs when BP appears uncontrolled but is actually well-managed (e.g., due to white coat effect or poor medication adherence). Since the patient reports strict adherence and has structural risks (CKD), true resistance is the accurate diagnosis.",
+        "E": "Malignant hypertension is an older term functionally identical to hypertensive emergency, requiring acute end-organ damage (like papilledema or acute kidney injury), which the prompt explicitly denies."
+      }
+    }
+  },
+  {
+    "question": "A 58-year-old man with a 10-year history of type 2 diabetes mellitus and stage 3 chronic kidney disease (eGFR 48 mL/min/1.73 m²) presents for hypertension management. His average office blood pressure over three visits is 144/88 mmHg. According to contemporary hypertension guidelines, including the Thai Society of Hypertension (TSH) and major international standards, what is the most appropriate blood pressure target for this patient to optimally reduce cardiovascular and renal complications?",
+    "choices": {
+      "A": "< 150/90 mmHg",
+      "B": "< 140/90 mmHg",
+      "C": "< 130/80 mmHg",
+      "D": "< 120/75 mmHg",
+      "E": "< 130/90 mmHg"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "For patients with established high-risk comorbidities, particularly Chronic Kidney Disease (CKD) and Type 2 Diabetes Mellitus, contemporary international guidelines mandate a strict target blood pressure of less than 130/80 mmHg. This aggressive target is proven to slow the progression of nephropathy and significantly reduce major adverse cardiovascular events.",
+      "incorrect": {
+        "A": "Targets of <150/90 or <140/90 are historically older standards or reserved for very frail, elderly populations where the risk of orthostatic hypotension outweighs the benefit of tight control. They are inadequate for a 58-year-old diabetic patient.",
+        "B": "Targets of <150/90 or <140/90 are historically older standards or reserved for very frail, elderly populations where the risk of orthostatic hypotension outweighs the benefit of tight control. They are inadequate for a 58-year-old diabetic patient.",
+        "D": "While <120/80 is considered \"normal\" BP, aggressively pushing a CKD patient's target below 120/75 could hypoperfuse the kidneys and acutely worsen the GFR.",
+        "E": "The diastolic target for high-risk patients must be <80 mmHg, not <90 mmHg."
+      }
+    }
+  },
+  {
+    "question": "Which of the following molecular sequences best describes the primary mechanism by which chronic cigarette smoke exposure contributes to endothelial dysfunction and elevated total peripheral resistance?",
+    "choices": {
+      "A": "Increased nitric oxide synthase activity leading to enhanced cyclic GMP production and smooth muscle relaxation",
+      "B": "ROS accumulation causing nitric oxide scavenging and unopposed endothelin-1 mediated vasoconstriction",
+      "C": "Upregulation of prostacyclin synthesis resulting in systemic vasodilation and reduced sympathetic tone",
+      "D": "Activation of potassium channels leading to vascular smooth muscle hyperpolarization and decreased calcium influx",
+      "E": "Inhibition of angiotensin-converting enzyme resulting in bradykinin accumulation and arterial vasodilation"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Cigarette smoke introduces toxins that generate copious amounts of Reactive Oxygen Species (ROS). This oxidative stress directly damages the vascular endothelium, causing a sharp decrease in the availability of Nitric Oxide (NO)—a crucial vasodilator—by scavenging it. Simultaneously, the injured endothelium increases the secretion of Endothelin-1, a potent vasoconstrictor. This loss of NO paired with high Endothelin-1 causes chronic arterial stiffness and increased total peripheral resistance (TPR).",
+      "incorrect": {
+        "A": "This describes the normal, healthy physiologic pathway of vasodilation. Smoking inhibits nitric oxide synthase activity.",
+        "C": "Prostacyclin is a vasodilator. Smoking impairs its synthesis, driving the balance toward vasoconstriction and platelet aggregation.",
+        "D": "Hyperpolarization leads to vascular relaxation. Smoking induces depolarization and calcium influx, promoting vessel contraction.",
+        "E": "This is the exact mechanism of action for ACE inhibitor medications. Smoking does not inhibit ACE; it worsens vascular tone."
+      }
+    }
+  }
+]

@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "A 65-year-old female is diagnosed with heart failure with preserved ejection fraction (diastolic heart failure). Which of the following drugs is contraindicated in this patient?",
+    "choices": {
+      "A": "Digoxin",
+      "B": "Metoprolol",
+      "C": "Enalapril",
+      "D": "Furosemide",
+      "E": "Spironolactone"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Digoxin is a cardiac glycoside that increases intracellular calcium, leading to a positive inotropic effect. In diastolic heart failure, the primary pathophysiological issue is left ventricular diastolic dysfunction (impaired relaxation and filling). Digoxin can exacerbate this impaired relaxation, which is why it is strictly contraindicated in diastolic heart failure.",
+      "incorrect": {
+        "B": "Beta-blockers (Metoprolol), ACE inhibitors (Enalapril), and mineralocorticoid receptor antagonists (Spironolactone) are standard, guideline-directed medical therapies used in heart failure management to reduce mortality and remodeling.",
+        "C": "Beta-blockers (Metoprolol), ACE inhibitors (Enalapril), and mineralocorticoid receptor antagonists (Spironolactone) are standard, guideline-directed medical therapies used in heart failure management to reduce mortality and remodeling.",
+        "D": "Loop diuretics like furosemide are utilized to decrease preload and provide symptom relief in patients presenting with fluid overload (congestion), regardless of whether the heart failure is systolic or diastolic.",
+        "E": "Beta-blockers (Metoprolol), ACE inhibitors (Enalapril), and mineralocorticoid receptor antagonists (Spironolactone) are standard, guideline-directed medical therapies used in heart failure management to reduce mortality and remodeling."
+      }
+    }
+  },
+  {
+    "question": "A 54-year-old male presents with septic shock. His MAP is 58 mmHg despite 3L crystalloid resuscitation. Echocardiography reveals an ejection fraction of 35% with global hypokinesis. Which agent should be initiated first to support perfusion while minimizing arrhythmogenic risk?",
+    "choices": {
+      "A": "High-dose dopamine",
+      "B": "Isoproterenol",
+      "C": "Dobutamine",
+      "D": "Norepinephrine",
+      "E": "Epinephrine"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Norepinephrine acts as an \"inoconstrictor\" and is the preferred first-line agent for severe hypotension accompanied by vasodilation, such as in sepsis and distributive shock. It provides potent α1-mediated vasoconstriction to elevate blood pressure, alongside some β1-mediated inotropic support.",
+      "incorrect": {
+        "A": "High-dose dopamine acts similarly to epinephrine but carries a significantly higher risk of inducing tachycardia and arrhythmias.",
+        "B": "Isoproterenol is an \"inodilator\" (β1 and β2 agonist) that causes vasodilation and drops peripheral resistance, which would dangerously worsen the patient's hypotension.",
+        "C": "While dobutamine is an inotrope used for low cardiac output and sepsis, its primary effect is inotropic with potential for vasodilation (β2 effect), making it less suitable as the initial standalone agent for a patient with a critically low MAP (58 mmHg).",
+        "E": "Epinephrine is an option for refractory hypotension but is typically reserved as a second-line agent in septic shock due to more pronounced metabolic and arrhythmogenic side effects compared to norepinephrine."
+      }
+    }
+  },
+  {
+    "question": "A 68-year-old male with chronic heart failure and atrial fibrillation is managed with Digoxin. He develops a severe infection and is started on a multidrug regimen. Which of the following drugs would be most likely to REDUCE his Digoxin clearance, necessitating a dose reduction?",
+    "choices": {
+      "A": "Furosemide",
+      "B": "Amiodarone",
+      "C": "Cholestyramine",
+      "D": "Antacids",
+      "E": "Rifampin"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Digoxin is a substrate for P-glycoprotein (P-gp), an efflux pump. Amiodarone is a known P-gp inhibitor. Co-administration decreases digoxin clearance and displaces digoxin from tissue binding sites, leading to elevated plasma levels and potential toxicity.",
+      "incorrect": {
+        "A": "Furosemide (a loop diuretic) does not directly inhibit P-gp. However, it can cause hypokalemia, which increases the sensitivity of the myocardium to digoxin toxicity, but it does not primarily reduce digoxin clearance via drug-drug interaction.",
+        "C": "Cholestyramine and antacids decrease the gastrointestinal absorption of digoxin, which would lower (not raise) plasma levels.",
+        "D": "Cholestyramine and antacids decrease the gastrointestinal absorption of digoxin, which would lower (not raise) plasma levels.",
+        "E": "Rifampin is a P-gp inducer (not an inhibitor), which would increase digoxin clearance."
+      }
+    }
+  },
+  {
+    "question": "A patient receives an intravenous infusion of a medication that selectively inhibits phosphodiesterase-3. Which of the following hemodynamic profiles is most characteristic of this drug's clinical effect?",
+    "choices": {
+      "A": "Increased systemic vascular resistance with decreased heart rate",
+      "B": "Decreased afterload, decreased preload, and increased contractility",
+      "C": "Increased myocardial oxygen demand with coronary vasoconstriction",
+      "D": "Decreased stroke volume with reflex tachycardia",
+      "E": "Increased pulmonary capillary wedge pressure with bradycardia"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Phosphodiesterase-3 (PDE3) inhibitors, such as milrinone, are classified as \"inodilators\". By inhibiting PDE3, they increase intracellular cAMP. In the myocardium, this leads to an influx of calcium, increasing contractility and stroke volume. In vascular smooth muscle, increased cAMP activates myosin phosphatase, resulting in vasodilation that effectively decreases both preload and afterload.",
+      "incorrect": {
+        "A": "PDE3 inhibitors do not cause vasoconstriction (increased SVR or coronary constriction) or decrease stroke volume.",
+        "C": "PDE3 inhibitors do not cause vasoconstriction (increased SVR or coronary constriction) or decrease stroke volume.",
+        "D": "PDE3 inhibitors do not cause vasoconstriction (increased SVR or coronary constriction) or decrease stroke volume.",
+        "E": "PDE3 inhibitors do not cause vasoconstriction (increased SVR or coronary constriction) or decrease stroke volume."
+      }
+    }
+  },
+  {
+    "question": "A patient on continuous intravenous dobutamine infusion for cardiogenic shock develops progressively diminishing hemodynamic responses after 72 hours. Which molecular adaptation best explains this phenomenon?",
+    "choices": {
+      "A": "Upregulation of β2-adrenergic receptors",
+      "B": "Increased synthesis of intracellular cAMP phosphodiesterases",
+      "C": "Internalization and downregulation of β1-adrenergic receptors",
+      "D": "Competitive antagonism by endogenous catecholamines",
+      "E": "Acidosis-induced conformational change in receptor structure"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Dobutamine predominantly stimulates β1-adrenergic receptors. Continuous infusion over a period of time (typically within 3 days) leads to pharmacological tolerance known as tachyphylaxis. This is fundamentally caused by the downregulation and internalization of the β1-receptors on the myocardial surface.",
+      "incorrect": {
+        "A": "While other systemic changes can alter hemodynamics, the specific molecular mechanism behind the rapid loss of efficacy (tachyphylaxis) of inotropic sympathomimetics like dobutamine is receptor downregulation.",
+        "B": "While other systemic changes can alter hemodynamics, the specific molecular mechanism behind the rapid loss of efficacy (tachyphylaxis) of inotropic sympathomimetics like dobutamine is receptor downregulation.",
+        "D": "While other systemic changes can alter hemodynamics, the specific molecular mechanism behind the rapid loss of efficacy (tachyphylaxis) of inotropic sympathomimetics like dobutamine is receptor downregulation.",
+        "E": "While other systemic changes can alter hemodynamics, the specific molecular mechanism behind the rapid loss of efficacy (tachyphylaxis) of inotropic sympathomimetics like dobutamine is receptor downregulation."
+      }
+    }
+  },
+  {
+    "question": "A patient receives an epinephrine infusion initially at 0.01 mcg/kg/min, later increased to 0.2 mcg/kg/min. Which hemodynamic shift is most expected at the higher dose?",
+    "choices": {
+      "A": "Predominant β2 vasodilation causing MAP decline",
+      "B": "α1 vasoconstriction increasing MAP",
+      "C": "β1 chronotropy suppressed by baroreflex activation",
+      "D": "D1-mediated renal vasodilation predominating",
+      "E": "Pure α1 effect with complete loss of inotropy"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Epinephrine's receptor affinity is highly dose-dependent. At low doses, it primarily stimulates β1 and β2 receptors. However, at higher doses, its α1-adrenergic agonist properties overpower the β2-mediated vasodilation. This results in potent peripheral vasoconstriction, leading to a marked increase in systemic vascular resistance and mean arterial pressure (MAP).",
+      "incorrect": {
+        "A": "This describes the effect of low-dose epinephrine.",
+        "C": "Although severe vasoconstriction can trigger a reflex, epinephrine retains potent direct β1 chronotropic and inotropic effects at high doses.",
+        "D": "Epinephrine does not act on dopamine (D1) receptors.",
+        "E": "It is not a pure α1 effect; it still maintains significant β1 activity (β1 = α1 >> β2)."
+      }
+    }
+  },
+  {
+    "question": "A 62-year-old male with acute decompensated heart failure presents with cardiogenic shock. BP is 82/50 mmHg, HR 110, cold extremities, and pulmonary edema. He has a history of advanced heart failure and has been on chronic beta-blocker therapy. After initial stabilization, which agent should be prioritized to improve contractility?",
+    "choices": {
+      "A": "Digoxin",
+      "B": "Milrinone",
+      "C": "Dobutamine",
+      "D": "Isoproterenol",
+      "E": "Norepinephrine"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Milrinone is a PDE3 inhibitor that increases intracellular cAMP independently of the β-adrenergic receptor pathway. This makes it uniquely efficacious as an inotrope in patients who are actively taking or have a history of chronic beta-blocker therapy, where agents like dobutamine might have blunted efficacy.",
+      "incorrect": {
+        "A": "Digoxin is generally not potent enough for the acute management of cardiogenic shock.",
+        "C": "Dobutamine relies on β1-receptor stimulation to exert its inotropic effects. Its efficacy is significantly diminished in patients who are heavily beta-blocked.",
+        "D": "Isoproterenol causes profound vasodilation and tachycardia, which is highly detrimental in cardiogenic shock.",
+        "E": "Norepinephrine is a vasopressor used to correct hypotension but is not primarily utilized as an inotrope to improve contractility."
+      }
+    }
+  },
+  {
+    "question": "A pharmacology resident is comparing two vasopressors used for anesthesia-induced hypotension. Drug X is a mixed-acting sympathomimetic with high oral bioavailability (~88%) that is primarily resistant to MAO and COMT metabolism. Drug Y is a selective α1-agonist with an immediate onset but short duration (5–10 min). Which of the following accurately describes a pharmacokinetic property specific to Drug X?",
+    "choices": {
+      "A": "Its renal clearance is significantly accelerated by alkalinization of the urine",
+      "B": "It undergoes extensive first-pass hepatic metabolism, resulting in low oral bioavailability",
+      "C": "Its elimination half-life is shortened by concurrent administration of MAO inhibitors",
+      "D": "Its renal tubular excretion is enhanced by acidification of the urine",
+      "E": "It is primarily metabolized by catechol-O-methyltransferase in the synaptic cleft"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The clinical vignette describes Ephedrine (Drug X) and Phenylephrine (Drug Y). Ephedrine is largely resistant to metabolism by MAO and COMT and is excreted mostly unchanged in the urine (60-70%). Because it is a weak base, acidifying the urine increases the proportion of ionized drug, preventing tubular reabsorption and thus accelerating its excretion.",
+      "incorrect": {
+        "A": "Alkalinization would increase the non-ionized fraction, promoting reabsorption and decreasing clearance.",
+        "B": "Ephedrine lacks the catechol hydroxyl groups, making it resistant to COMT and allowing for high oral bioavailability.",
+        "C": "Ephedrine is largely resistant to MAO metabolism.",
+        "E": "Ephedrine lacks the catechol hydroxyl groups, making it resistant to COMT and allowing for high oral bioavailability."
+      }
+    }
+  }
+]

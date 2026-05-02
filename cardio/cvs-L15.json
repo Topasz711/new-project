@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "A 60-year-old patient with malignant hypertension presents with acute renal failure. Histological examination of the renal arterioles reveals concentric, laminated thickening of the walls with luminal obliteration. Which of the following best describes this pattern?",
+    "choices": {
+      "A": "Atheromatous plaque formation",
+      "B": "Fibromuscular intimal hyperplasia",
+      "C": "Hyperplastic arteriolosclerosis",
+      "D": "Hyaline arteriolosclerosis",
+      "E": "Mönckeberg medial sclerosis"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Hyperplastic arteriolosclerosis is a pathologic variant related to malignant hypertension. It is characterized by \"onion-skinning\" (concentric, laminated thickening) which causes luminal obliteration.",
+      "incorrect": {
+        "A": "Atheromatous plaques generally involve the intima of large elastic and medium-sized muscular arteries, presenting with a lipid core and fibrous cap, not concentric laminated thickening of arterioles.",
+        "B": "Fibromuscular intimal hyperplasia is a nonatherosclerotic process occurring in muscular arteries larger than arterioles, often caused by inflammation or mechanical injury (like stents).",
+        "D": "Hyaline arteriolosclerosis is associated with chronic hypertension, not malignant hypertension. It presents with thickened arteriolar walls due to the deposition of amorphous proteinaceous (hyalinized) material, rather than laminated thickening.",
+        "E": "Mönckeberg medial sclerosis involves calcific deposits in the muscular arteries of individuals over 50 years of age, and the lesions do not encroach on the vessel lumen."
+      }
+    }
+  },
+  {
+    "question": "A 70-year-old asymptomatic male is found to have incidental 'pipestem' calcifications on a pelvic X-ray. Histology shows calcific deposits within the media of the femoral arteries without luminal narrowing. What is the most likely diagnosis?",
+    "choices": {
+      "A": "Atherosclerosis",
+      "B": "Arteriolosclerosis",
+      "C": "Hyaline arteriolosclerosis",
+      "D": "Mönckeberg medial sclerosis",
+      "E": "Fibromuscular intimal hyperplasia"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Mönckeberg medial sclerosis is characterized by the presence of calcific deposits in the media of muscular arteries. It typically occurs in patients older than 50 years of age, does not encroach on the vessel lumen, and has no clinical significance.",
+      "incorrect": {
+        "A": "Atherosclerosis is characterized by intimal lesions (atheromatous plaques) that impinge on the vascular lumen and can cause obstruction.",
+        "B": "Arteriolosclerosis affects small arteries and arterioles, causing luminal narrowing and downstream ischemic injury.",
+        "C": "Hyaline arteriolosclerosis causes marked narrowing of the arteriolar lumen due to proteinaceous deposition.",
+        "E": "Fibromuscular intimal hyperplasia is driven by inflammation or mechanical injury and is characterized by intimal thickening, not primarily medial calcification."
+      }
+    }
+  },
+  {
+    "question": "Which specific hemodynamic pattern is most associated with 'athero-prone' zones, such as the ostia of exiting vessels?",
+    "choices": {
+      "A": "Turbulent or disturbed flow",
+      "B": "Laminar blood flow",
+      "C": "Uniform endothelial alignment",
+      "D": "Increased nitric oxide production",
+      "E": "High wall shear stress"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Atherosclerotic plaques tend to occur at branch points and the ostia of exiting vessels due to turbulent or disturbed blood flow and low or oscillatory wall shear stress. This triggers localized endothelial dysfunction and allows for prolonged LDL retention.",
+      "incorrect": {
+        "B": "Laminar flow is associated with straight regions of vessels, which are considered athero-protected zones.",
+        "C": "In athero-prone zones with disturbed flow, endothelial cells adopt a cobblestone appearance and lose structural integrity. Elongated alignment is seen in athero-protected zones.",
+        "D": "The provided text does not mention increased nitric oxide production in these zones; rather, these zones are defined by localized endothelial dysfunction.",
+        "E": "High wall shear stress is a characteristic of athero-protected zones with laminar flow, not athero-prone zones."
+      }
+    }
+  },
+  {
+    "question": "During the progression of an atheroma, macrophages ingest oxidized LDL via scavenger receptors. This process leads to the formation of which characteristic cell type?",
+    "choices": {
+      "A": "Endothelial progenitor cells",
+      "B": "T lymphocytes",
+      "C": "Quiescent smooth muscle cells",
+      "D": "Hyaline deposits",
+      "E": "Foam cells"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The accumulation of lipoproteins, mainly oxidized LDL, within the intima leads to its ingestion by macrophages (and smooth muscle cells), which results in the formation of lipid-filled foamy macrophages, known as foam cells.",
+      "incorrect": {
+        "A": "Endothelial cells form the single monolayer of the intima contacting the bloodstream, they do not form from macrophages ingesting LDL.",
+        "B": "T lymphocytes are recruited to the plaque as part of the inflammatory response, but they do not ingest lipids to become this specific cell type.",
+        "C": "Smooth muscle cells in the healthy media are in a quiescent, contractile state. While SMCs can migrate and ingest lipids, the general term for these lipid-laden cells is foam cells.",
+        "D": "Hyaline is an amorphous proteinaceous material deposited in hyaline arteriolosclerosis, not a cell type formed by lipid ingestion."
+      }
+    }
+  },
+  {
+    "question": "A 58-year-old male presents to the ED with crushing substernal chest pain radiating to his left arm, lasting 45 minutes. He has a 30-pack-year smoking history, poorly controlled type 2 diabetes, and familial hypercholesterolemia. ECG shows ST-segment elevation in leads II, III, and aVF. Coronary angiography reveals a completely occluded right coronary artery. Histologic examination of the excised thrombus would most likely reveal which underlying plaque characteristic that precipitated this event?",
+    "choices": {
+      "A": "Dense collagenous cap with minimal macrophage infiltration",
+      "B": "Thin fibrous cap overlying a large, lipid-rich necrotic core",
+      "C": "Medial calcification with preserved intimal architecture",
+      "D": "Concentric intimal hyperplasia without lipid accumulation",
+      "E": "Extensive neovascularization without thrombogenic exposure"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The clinical presentation indicates an acute myocardial infarction triggered by acute coronary thrombosis superimposed on an atherosclerotic plaque rupture. Plaques with a high risk of rupturing (vulnerable plaques) are characterized by thin fibrous caps, large lipid cores, abundant extracellular lipid, and prominent inflammation.",
+      "incorrect": {
+        "A": "A densely collagenized and thickened fibrous cap with minimal inflammation is characteristic of a stable plaque, which has a lower risk of rupturing.",
+        "C": "This describes Mönckeberg medial sclerosis, which does not encroach on the vessel lumen or cause myocardial infarctions.",
+        "D": "Concentric intimal hyperplasia describes hyperplastic arteriolosclerosis , not the atheromatous plaques responsible for large vessel coronary occlusions.",
+        "E": "Acute plaque changes involve the rupture, ulceration, or erosion of the luminal surface, which exposes highly thrombogenic substances to the bloodstream, inducing thrombus formation."
+      }
+    }
+  },
+  {
+    "question": "A 45-year-old hypertensive patient undergoes renal biopsy. The arterioles show thickened walls with homogeneous, pink, amorphous material deposition and markedly narrowed lumina. This histologic pattern is most strongly associated with which underlying clinical condition?",
+    "choices": {
+      "A": "Malignant hypertension",
+      "B": "Chronic hypertension",
+      "C": "Diabetes insipidus",
+      "D": "Familial hypercholesterolemia",
+      "E": "Smoking-induced vasculitis"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The histologic description of arteriolar walls thickened by the deposition of amorphous proteinaceous (hyalinized) material matches hyaline arteriolosclerosis, which is related to chronic hypertension.",
+      "incorrect": {
+        "A": "Malignant hypertension is the pathologic cause of hyperplastic arteriolosclerosis, which presents with \"onion-skinning\".",
+        "C": "Diabetes insipidus is not listed as a clinical cause for these vascular changes.",
+        "D": "Familial hypercholesterolemia is a genetic disorder that is a major risk factor for atherosclerosis , which primarily affects large and medium-sized arteries, not the specific hyalinization of arterioles.",
+        "E": "Cigarette smoking is a major modifiable risk factor for ischemic heart disease and atherosclerosis , but the specific findings described point directly to chronic hypertension."
+      }
+    }
+  },
+  {
+    "question": "A pathologist examines a cross-section of the abdominal aorta from a 70-year-old individual. The intima shows eccentric, raised lesions. Microscopically, the lesion has a superficial fibrous cap and a central necrotic core containing cholesterol crystals and lipid-laden cells. The area where the cap meets the normal vessel wall shows a high density of immune cells and proliferating smooth muscle cells. This specific region is most accurately referred to as the:",
+    "choices": {
+      "A": "Basal lamina",
+      "B": "Shoulder region",
+      "C": "Media propria",
+      "D": "Adventitial border",
+      "E": "Lipid arc"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Atherosclerotic plaques have a superficial fibrous cap, and the area where this cap meets the normal vessel wall is known as the \"shoulder\". The shoulder area is noted for being more cellular, containing macrophages, T cells, and smooth muscle cells.",
+      "incorrect": {
+        "A": "These terms do not accurately describe this specific region of an atherosclerotic plaque based on the provided text.",
+        "C": "These terms do not accurately describe this specific region of an atherosclerotic plaque based on the provided text.",
+        "D": "These terms do not accurately describe this specific region of an atherosclerotic plaque based on the provided text.",
+        "E": "These terms do not accurately describe this specific region of an atherosclerotic plaque based on the provided text."
+      }
+    }
+  },
+  {
+    "question": "A 12-year-old boy undergoes autopsy following an unexpected non-cardiac death. Gross examination of the thoracic and abdominal aorta reveals multiple minute, yellow, flat macules along the intimal surface, particularly near the ostia of branch vessels. Microscopic evaluation demonstrates an accumulation of lipid-filled foamy macrophages within the intima. The lesions are minimally raised and do not cause any significant hemodynamic disturbance. Which of the following best describes this pathologic finding?",
+    "choices": {
+      "A": "Complicated atheromatous plaque",
+      "B": "Fibromuscular intimal hyperplasia",
+      "C": "Hyaline arteriolosclerosis",
+      "D": "Fatty streak",
+      "E": "Mönckeberg medial calcification"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Fatty streaks are the earliest lesions in atherosclerosis, beginning as minute yellow, flat macules composed of lipid-filled foamy macrophages. They are minimally raised, do not cause significant flow disturbance, and are present in virtually all children older than 10 years of age.",
+      "incorrect": {
+        "A": "Atheromatous plaques are distinctly raised lesions that can mechanically obstruct vascular lumina and cause sudden occlusion if ruptured, unlike the flat, non-obstructive lesions described here.",
+        "B": "This is a nonatherosclerotic process caused by inflammation or mechanical injury.",
+        "C": "Hyaline arteriolosclerosis affects small arteries and arterioles, showing amorphous proteinaceous thickening rather than lipid-laden macrophages.",
+        "E": "This condition involves medial calcification and is typically seen in individuals older than 50 years of age."
+      }
+    }
+  }
+]

@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "A 68-year-old man with persistent atrial fibrillation is started on a drug that blocks L-type calcium channels in the SA and AV nodes, thereby slowing ventricular rate. Which class of antiarrhythmic agents does this drug belong to?",
+    "choices": {
+      "A": "Class IA",
+      "B": "Class IB",
+      "C": "Class II",
+      "D": "Class III",
+      "E": "Class IV"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "Class IV drugs are non-dihydropyridine (non-DHP) calcium channel blockers, such as verapamil and diltiazem. They specifically block L-type calcium channels in the SA and AV nodes, which slows pacemaker firing and AV nodal conduction, making them ideal for ventricular rate control in atrial fibrillation.",
+      "incorrect": {
+        "A": "These drugs (e.g., quinidine, procainamide) block fast sodium channels with moderate potency and also prolong repolarization. They do not primarily target L-type calcium channels.",
+        "B": "These drugs (e.g., lidocaine) are weak sodium channel blockers that actually decrease the action potential duration and are mainly used for ischemic ventricular arrhythmias.",
+        "C": "Class II drugs are beta-blockers, which reduce sympathetic influence on the heart and slow AV conduction, but their primary mechanism is blocking beta-adrenoceptors, not calcium channels.",
+        "D": "These drugs block potassium channels, which prolongs the action potential duration and effective refractory period (ERP)."
+      }
+    }
+  },
+  {
+    "question": "A 50-year-old man develops ventricular tachycardia 24 hours after an acute anterior myocardial infarction. He is hemodynamically stable. Based on the mechanism, which drug has a favorable profile due to its selective binding to inactivated sodium channels in depolarized, ischemic tissue?",
+    "choices": {
+      "A": "Procainamide",
+      "B": "Lidocaine",
+      "C": "Quinidine",
+      "D": "Propranolol",
+      "E": "Verapamil"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Lidocaine is a Class IB antiarrhythmic. Class IB agents are unique because they bind preferentially to the inactivated state of sodium channels. This state is prominent in depolarized, ischemic myocardium, making lidocaine highly effective and favorable for ischemic ventricular tachycardia.",
+      "incorrect": {
+        "A": "It is a Class IA agent. While it blocks sodium channels, it binds primarily to open channels and is not highly selective for ischemic tissue.",
+        "C": "Like procainamide, it is a Class IA sodium channel blocker and lacks the high selectivity for ischemic tissue seen in Class IB drugs.",
+        "D": "It is a Class II beta-blocker. While beneficial post-MI, its primary mechanism is reducing sympathetic tone, not binding to inactivated sodium channels.",
+        "E": "It is a Class IV calcium channel blocker and is generally not a primary drug for ventricular arrhythmias."
+      }
+    }
+  },
+  {
+    "question": "Which of the following drugs is most likely to be used as a first-line pharmacologic agent for acute termination of regular narrow-complex tachycardia after failure of vagal maneuvers?",
+    "choices": {
+      "A": "Digoxin",
+      "B": "Adenosine",
+      "C": "Amiodarone",
+      "D": "Procainamide",
+      "E": "Lidocaine"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Adenosine rapidly depresses AV nodal conduction and has a very short half-life of less than 10 seconds. It is the ideal and first-line pharmacologic treatment for the rapid termination of regular narrow-QRS SVT caused by AV nodal reentry.",
+      "incorrect": {
+        "A": "While it increases vagal tone and slows AV conduction, its onset of action is not rapid enough for the acute termination of SVT compared to adenosine.",
+        "C": "It is a broad-spectrum antiarrhythmic but is generally reserved for refractory or more complex arrhythmias (like VT or AF), not as an initial push for a simple narrow-complex SVT.",
+        "D": "It can be used for certain SVTs (like those involving accessory pathways) but is not the rapid, first-line agent for typical regular narrow-complex SVT.",
+        "E": "Lidocaine acts on fast-response tissues (ventricles) and has no significant effect on the AV node; thus, it is ineffective for SVT."
+      }
+    }
+  },
+  {
+    "question": "A 64-year-old woman with atrial fibrillation is started on a drug for rhythm control. She has known prior myocardial infarction and reduced ejection fraction. Which of the following should be avoided due to increased risk of proarrhythmia and mortality in such patients?",
+    "choices": {
+      "A": "Amiodarone",
+      "B": "Sotalol",
+      "C": "Flecainide",
+      "D": "Metoprolol",
+      "E": "Diltiazem"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Flecainide is a Class IC antiarrhythmic. Class IC agents carry a high risk of proarrhythmia and must be strictly avoided in patients with prior myocardial infarction or structural heart disease due to the risk of life-threatening ventricular tachycardia.",
+      "incorrect": {
+        "A": "Amiodarone is actually considered one of the safer antiarrhythmic options for rhythm control in patients with structural heart disease or prior MI.",
+        "B": "While it carries a risk of QT prolongation and torsades de pointes, it is not an absolute contraindication in prior MI like Class IC drugs are (though it must be used cautiously in heart failure).",
+        "D": "It is a beta-blocker, which is generally beneficial and often indicated in patients with prior MI and reduced ejection fraction to reduce mortality.",
+        "E": "Although non-DHP CCBs should be avoided in severe heart failure with reduced ejection fraction (HFrEF), the specific textbook classic for \"proarrhythmia and mortality in prior MI\" related to rhythm control is Flecainide (Class IC)."
+      }
+    }
+  },
+  {
+    "question": "Which of the following antiarrhythmic agents is known to produce a lupus-like syndrome as an adverse effect, limiting its long-term use?",
+    "choices": {
+      "A": "Adenosine",
+      "B": "Lidocaine",
+      "C": "Procainamide",
+      "D": "Amiodarone",
+      "E": "Diltiazem"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Procainamide is a Class IA agent. A well-known and unique adverse effect of long-term procainamide therapy is the development of a drug-induced lupus-like syndrome.",
+      "incorrect": {
+        "A": "Its common adverse effects are very brief and include flushing, headache, and transient hypotension.",
+        "B": "Its main adverse effects are related to central nervous system toxicity.",
+        "D": "Amiodarone causes multiple organ toxicities, notably pulmonary fibrosis, thyroid dysfunction, hepatotoxicity, and corneal microdeposits, but not a lupus-like syndrome.",
+        "E": "Its adverse effects include bradycardia, AV block, and sometimes constipation."
+      }
+    }
+  },
+  {
+    "question": "A drug with both Class II (beta-blocker) and Class III (potassium channel blocking) properties, used for atrial fibrillation and ventricular arrhythmias but requiring careful monitoring for QT prolongation and torsades de pointes, is:",
+    "choices": {
+      "A": "Propranolol",
+      "B": "Metoprolol",
+      "C": "Sotalol",
+      "D": "Verapamil",
+      "E": "Diltiazem"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Sotalol is unique as it possesses both beta-blocking (Class II) and potassium channel blocking (Class III) effects. Because of its Class III activity, it increases the QT interval and carries a significant risk of torsades de pointes, requiring baseline and ongoing ECG monitoring.",
+      "incorrect": {
+        "A": "It is a non-selective beta-blocker (pure Class II) without significant Class III potassium channel blocking effects.",
+        "B": "It is a cardioselective beta-blocker (pure Class II) without Class III properties.",
+        "D": "It is a Class IV calcium channel blocker.",
+        "E": "It is a Class IV calcium channel blocker."
+      }
+    }
+  },
+  {
+    "question": "A 68-year-old man with chronic kidney disease (eGFR 35 mL/min) is on digoxin for AF rate control. He presents with nausea, confusion, and yellow-tinted vision. ECG shows atrial tachycardia with 2:1 AV block. Serum digoxin level is elevated. Which electrolyte disturbance most likely contributed to his digoxin toxicity?",
+    "choices": {
+      "A": "Hyperkalemia",
+      "B": "Hypokalemia",
+      "C": "Hypernatremia",
+      "D": "Hypocalcemia",
+      "E": "Hypermagnesemia"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Hypokalemia is a major trigger and risk factor that makes digoxin toxicity occur more easily. Digoxin and potassium compete for the same binding site on the Na+/K+ ATPase pump; low potassium allows more digoxin to bind, amplifying its toxic effects.",
+      "incorrect": {
+        "A": "Severe acute digoxin toxicity can cause hyperkalemia, but it is not the condition that typically precipitates the toxicity.",
+        "C": "It does not have a direct, significant role in precipitating digoxin toxicity.",
+        "D": "Hypercalcemia (not hypocalcemia) can worsen digoxin toxicity by increasing intracellular calcium overload.",
+        "E": "Hypomagnesemia (low magnesium) is a known trigger for arrhythmias and can exacerbate digoxin toxicity, but hypermagnesemia does not."
+      }
+    }
+  },
+  {
+    "question": "A 65-year-old man presents with atrial fibrillation and a rapid ventricular response. Which of the following drugs is an appropriate first-line choice for rate control specifically due to its ability to slow AV nodal conduction by reducing sympathetic influence?",
+    "choices": {
+      "A": "Quinidine",
+      "B": "Lidocaine",
+      "C": "Metoprolol",
+      "D": "Flecainide",
+      "E": "Ibutilide"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "Metoprolol is a Class II antiarrhythmic (beta-blocker). Beta-blockers are a primary group considered for rate control in atrial fibrillation. They reduce the sympathetic influence on the heart, which effectively slows conduction velocity at the AV node and reduces the rapid ventricular response.",
+      "incorrect": {
+        "A": "Quinidine is a Class IA antiarrhythmic drug used primarily for rhythm control rather than rate control. It does not act by reducing sympathetic influence on the AV node.",
+        "B": "Lidocaine is a Class IB agent that targets fast sodium channels in ventricular tissue and ischemic myocardium. It has no significant direct effect on AV nodal conduction and is not used for AF rate control.",
+        "D": "Flecainide is a potent Class IC agent. It is used for rhythm control (maintaining sinus rhythm) in highly selected patients, not for slowing the AV node for rate control.",
+        "E": "Ibutilide is a Class III potassium-channel blocker. It is used to prolong repolarization for rhythm control of atrial fibrillation or flutter, not for chronic rate control via sympathetic blockade."
+      }
+    }
+  }
+]

@@ -1,1 +1,122 @@
-[]
+[
+  {
+    "question": "A 12-year-old boy presents with migratory polyarthritis and a new holosystolic murmur. He had a severe sore throat 3 weeks ago that resolved without treatment. Endomyocardial biopsy reveals focal myocardial lesions with central fibrinoid necrosis surrounded by lymphocytes, plasma cells, and activated macrophages with wavy, ribbon-like chromatin. Which of the following histological structures is pathognomonic for this patient's condition?",
+    "choices": {
+      "A": "Negri bodies",
+      "B": "Councilman bodies",
+      "C": "Aschoff bodies",
+      "D": "Ghon complex",
+      "E": "Michaelis-Gutmann bodies"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The clinical presentation of migratory polyarthritis and a murmur following an untreated group A streptococcal (GAS) infection strongly suggests Acute Rheumatic Fever (ARF). The pathognomonic histological finding for ARF is the Aschoff body. These consist of central necrosis associated with a circumscribed collection of cells. This includes Anitschkow cells, which are activated macrophages characterized by clear nuclei with a central bar of wavy chromatin.",
+      "incorrect": {
+        "A": "Negri bodies are eosinophilic intracytoplasmic inclusions found in neurons infected with the rabies virus.",
+        "B": "Councilman bodies represent apoptotic hepatocytes typically seen in viral hepatitis or yellow fever.",
+        "D": "A Ghon complex is a radiographic and pathologic finding associated with primary tuberculosis, not rheumatic fever.",
+        "E": "Michaelis-Gutmann bodies are calcified inclusions found in macrophages in malakoplakia, typically affecting the urinary tract."
+      }
+    }
+  },
+  {
+    "question": "A 60-year-old woman with a history of recurrent acute pericarditis presents with progressive lower extremity edema, ascites, and exertional dyspnea. Physical examination reveals elevated JVP that paradoxically rises during deep inspiration. Echocardiography shows a calcified, thickened pericardium with normal biventricular systolic function. Which of the following hemodynamic phenomena explains the inspiratory rise in JVP?",
+    "choices": {
+      "A": "Increased intrathoracic pressure transmitted to the superior vena cava",
+      "B": "Left-to-right shunting across an atrial septal defect",
+      "C": "Enhanced right ventricular contractility during inspiration",
+      "D": "Impaired right ventricular diastolic filling due to a rigid pericardium",
+      "E": "Pulmonary vasoconstriction secondary to hypoxia"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The patient's symptoms and calcified pericardium indicate constrictive pericarditis, which is caused by a thick, noncompliant pericardium. This rigid structure inhibits ventricular filling and prevents the normal transmission of intrathoracic pressure to the heart. Consequently, during inspiration, the increased venous return cannot be accommodated by the right ventricle. This causes blood to back up, resulting in a paradoxical rise in jugular venous pressure (JVP), known as Kussmaul sign.",
+      "incorrect": {
+        "A": "Inspiration normally decreases intrathoracic pressure, pulling blood into the thoracic cavity.",
+        "B": "An atrial septal defect causes volume overload but does not inherently cause a paradoxical rise in JVP during inspiration.",
+        "C": "Enhanced right ventricular contractility would lower, not raise, the JVP by effectively pumping blood forward.",
+        "E": "Hypoxic pulmonary vasoconstriction affects pulmonary vascular resistance but is not the primary mechanism for Kussmaul sign in a structurally restricted heart."
+      }
+    }
+  },
+  {
+    "question": "A 22-year-old collegiate swimmer develops progressive fatigue, exertional dyspnea, and palpitations following a recent upper respiratory illness. Echocardiography reveals left ventricular dilation with reduced ejection fraction. Troponin is elevated. An endomyocardial biopsy is performed to confirm the suspected viral etiology. Which histological finding is most characteristic of this condition?",
+    "choices": {
+      "A": "Dense lymphocytic infiltrate with myocyte injury and edema",
+      "B": "Granulomatous inflammation with multinucleated giant cells",
+      "C": "Fibrinoid necrosis with neutrophilic microabscesses",
+      "D": "Aschoff bodies with central wavy chromatin macrophages",
+      "E": "Amyloid deposition in the interstitial space"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "The patient's history of a recent viral illness followed by heart failure symptoms (exertional dyspnea, reduced ejection fraction) and elevated troponin is classic for viral myocarditis. The characteristic histological finding is lymphocytic myocarditis. This is marked by an infiltrate of mononuclear cells (lymphocytes) associated with interstitial edema and active myocyte injury.",
+      "incorrect": {
+        "B": "Granulomatous inflammation points toward giant cell myocarditis or cardiac sarcoidosis, which are different entities.",
+        "C": "Neutrophilic infiltrates and microabscesses are typical of acute bacterial infections, not viral etiologies.",
+        "D": "Aschoff bodies are specific to acute rheumatic carditis.",
+        "E": "Amyloid deposition represents an infiltrative cardiomyopathy, not a post-viral inflammatory picture."
+      }
+    }
+  },
+  {
+    "question": "A 48-year-old man with poor dentition presents with 5 weeks of low-grade fever, night sweats, and fatigue. Examination reveals multiple non-tender erythematous macules on his palms and soles, tender palpable nodules on his fingertips, linear streaks under several fingernails, and fundoscopic findings of pale-centered retinal hemorrhages. Blood cultures are pending. Which organism is most likely responsible for this clinical syndrome?",
+    "choices": {
+      "A": "Pseudomonas aeruginosa",
+      "B": "Candida albicans",
+      "C": "Staphylococcus aureus",
+      "D": "Streptococcus pyogenes",
+      "E": "Viridans group streptococci"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The patient's presentation of a prolonged fever, poor dentition, and immunologic/vascular phenomena (Janeway lesions, Osler nodes, splinter hemorrhages, Roth spots) strongly indicates subacute infective endocarditis. Viridans streptococci, which are typically community-acquired oral flora, are the most common cause of subacute endocarditis.",
+      "incorrect": {
+        "A": "Pseudomonas is more common in intravenous drug users or healthcare-associated infections.",
+        "B": "Fungal endocarditis is rare and typically occurs in significantly immunocompromised individuals or those with long-term indwelling catheters.",
+        "C": "While S. aureus causes infective endocarditis, it typically causes an acute, highly destructive endocarditis often seen in IV drug users, rather than an indolent subacute course.",
+        "D": "Streptococcus pyogenes (Group A strep) is the cause of acute rheumatic fever following pharyngitis, not subacute infective endocarditis."
+      }
+    }
+  },
+  {
+    "question": "A 34-year-old man presents with sharp retrosternal chest pain that worsens with deep inspiration and supine positioning, radiates to the trapezius ridge, and significantly improves when he sits up and leans forward. Pericardial fluid analysis reveals a fibrinous exudate. Gross examination of the pericardial surfaces shows an irregular, shaggy appearance resembling crusts of bread coated with butter. Which of the following is the most likely diagnosis?",
+    "choices": {
+      "A": "Neoplastic pericardial effusion",
+      "B": "Rheumatic heart disease",
+      "C": "Infective endocarditis",
+      "D": "Viral pericarditis",
+      "E": "Acute myocardial infarction with pericardial rub"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "The clinical symptoms of pleuritic chest pain that exacerbates when lying down and improves upon sitting up or leaning forward are classic for acute pericarditis. In acute viral pericarditis, the exudate is typically fibrinous. This imparts an irregular, shaggy appearance to the pericardial surface, often referred to as \"bread and butter\" pericarditis.",
+      "incorrect": {
+        "A": "Neoplastic effusions are typically hemorrhagic or serosanguineous, rather than classically fibrinous.",
+        "B": "While rheumatic heart disease can cause a pancarditis, a primary isolated \"bread and butter\" presentation in a 34-year-old strongly points to a viral etiology.",
+        "C": "Infective endocarditis involves the heart valves (endocardium) and presents with vegetations, not a fibrinous pericardial exudate.",
+        "E": "While post-MI pericarditis can occur, viral infection is the most common overall cause of acute pericarditis, and the specific \"bread and butter\" pathology is highly characteristic of it and uremia."
+      }
+    }
+  },
+  {
+    "question": "A 70-year-old woman with metastatic pancreatic adenocarcinoma suddenly develops a right-sided hemiparesis. Imaging shows a multi-embolic stroke. A TEE reveals small (2mm), bland vegetations on the mitral valve. Blood cultures are negative. What is the most likely diagnosis, and what is the key morphologic feature?",
+    "choices": {
+      "A": "Acute Rheumatic Fever; Aschoff bodies",
+      "B": "Culture-negative infective endocarditis; bacterial clumps trapped in fibrin",
+      "C": "Non-bacterial thrombotic endocarditis (NBTE); sterile fibrin thrombi",
+      "D": "Libman-Sacks endocarditis; inflammatory vegetations on both sides of the valve",
+      "E": "Chronic Rheumatic Heart Disease; commissural fusion"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The patient's underlying malignancy (mucinous adenocarcinoma) and the finding of small, sterile (bland) vegetations with negative cultures point directly to Non-bacterial thrombotic endocarditis (NBTE). These lesions are composed of fibrin and platelets and are associated with hypercoagulable states, leading to systemic embolization such as stroke.",
+      "incorrect": {
+        "A": "Acute Rheumatic Fever presents with inflammatory verrucae along the lines of closure, not bland thrombi causing embolic strokes in the elderly.",
+        "B": "Culture-negative infective endocarditis would still be an infectious process and would not have sterile/bland thrombi.",
+        "D": "Libman-Sacks endocarditis is associated with Systemic Lupus Erythematosus (SLE), not mucinous adenocarcinomas, and features inflammatory vegetations.",
+        "E": "Chronic RHD is characterized by permanent thickening, retraction, and commissural fusion of the leaflets, not bland vegetations."
+      }
+    }
+  }
+]

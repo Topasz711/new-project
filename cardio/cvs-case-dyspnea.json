@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "A 63-year-old male with a history of anterior MI presents with progressive dyspnea and orthopnea. Physical exam reveals a displaced apical impulse and a third heart sound. Echocardiography shows an LVEF of 30%. Which of the following initial compensatory mechanisms is responsible for maintaining cardiac output by moving the patient's operating point along the Frank-Starling curve?",
+    "choices": {
+      "A": "Inhibition of natriuretic peptide secretion",
+      "B": "Myocardial hypertrophy and spherical remodeling",
+      "C": "Decreased renal perfusion and salt retention",
+      "D": "Peripheral vasoconstriction via alpha-1 receptors",
+      "E": "Increased ventricular end-diastolic volume"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "The Frank-Starling curve demonstrates how the stroke volume increases with an increase in the amount of blood filling the ventricles, known as the ventricular end-diastolic volume (EDV).",
+      "incorrect": {
+        "A": "Natriuretic peptides are actually secreted in response to ventricular wall stretch and volume overload, not inhibited.",
+        "B": "Ventricular remodeling (changing from an ellipsoid to a spherical shape) is a long-term structural progression of heart failure, not the acute physiological mechanism described by the Frank-Starling law.",
+        "C": "While reduced renal perfusion leads to fluid retention as a compensatory mechanism, this describes the neurohormonal activation (RAAS pathway), not the Frank-Starling principle itself.",
+        "D": "Peripheral vasoconstriction is a compensatory response driven by the sympathetic nervous system and other pathways, which increases afterload rather than operating on the Frank-Starling curve."
+      }
+    }
+  },
+  {
+    "question": "Which symptom of Left-sided Heart Failure is characterized by respiratory distress that usually occurs in the 'early night' (a few hours after falling asleep) but can also be seen in 'late night' in asthma?",
+    "choices": {
+      "A": "Cheyne-Stokes respiration",
+      "B": "Hemoptysis",
+      "C": "Paroxysmal Nocturnal Dyspnea",
+      "D": "Exertional dyspnea",
+      "E": "Orthopnea"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "PND is defined as acute shortness of breath accompanied by coughing and wheezing that usually occurs when a person is asleep, specifically in the \"early night\" for heart failure, differentiating it from asthma which occurs in the \"late night\".",
+      "incorrect": {
+        "A": "This is a pattern of breathing characterized by alternating periods of deep breathing and apnea, often seen in left-sided heart failure, but it does not specifically describe acute respiratory distress waking the patient up.",
+        "B": "While patients with severe pulmonary edema might have pink, frothy sputum, hemoptysis is not defined by the time of night it occurs.",
+        "D": "This is dyspnea caused by physical exercise, not sleep.",
+        "E": "Orthopnea is shortness of breath that occurs when lying flat and is relieved by sitting up."
+      }
+    }
+  },
+  {
+    "question": "A patient on HFrEF treatment developed a dry, hacking cough after starting their first medication. If the clinician decides to switch to a drug that does not affect bradykinin levels but still inhibits the RAS system, which of the following is the most appropriate choice?",
+    "choices": {
+      "A": "Valsartan",
+      "B": "Enalapril",
+      "C": "Carvedilol",
+      "D": "Furosemide",
+      "E": "Spironolactone"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Valsartan is an Angiotensin Receptor Blocker (ARB). The guidelines recommend an ARB if a patient is intolerant to an ACE inhibitor (such as developing a bradykinin-induced cough) because ARBs do not inhibit the breakdown of bradykinin.",
+      "incorrect": {
+        "B": "Enalapril is an ACE inhibitor. This is the exact class of drug that causes the dry cough by increasing bradykinin levels.",
+        "C": "Carvedilol is a beta-blocker. While it is a pillar of HFrEF treatment, it does not inhibit the Renin-Angiotensin System (RAS).",
+        "D": "This is a loop diuretic used to control fluid congestion, not a RAS inhibitor.",
+        "E": "Spironolactone is a Mineralocorticoid Receptor Antagonist (MRA). While it works downstream in the RAAS pathway, it is not the indicated direct substitution for an ACEI to relieve a cough while maintaining upstream RAS blockade."
+      }
+    }
+  },
+  {
+    "question": "A patient with HFrEF presents with severe dyspnea and bi-basal crackles. Initial investigation shows an LVEF of 20% on Echo. What is the primary role of 'Chest Radiograph (CXR)' in the assessment of this acute presentation?",
+    "choices": {
+      "A": "To replace the need for an Electrocardiogram (ECG)",
+      "B": "To serve as the definitive test for coronary artery disease",
+      "C": "To identify specific genetic mutations in the myocardium",
+      "D": "To measure the exact ejection fraction of the left ventricle",
+      "E": "To distinguish between cardiac and pulmonary causes of dyspnea"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "A chest radiograph is used to determine whether the dyspnea has a cardiac cause (e.g., cardiomegaly) or a pulmonary cause.",
+      "incorrect": {
+        "A": "Both CXR and ECG are distinct initial assessments; an ECG looks for abnormal electrical activity (like arrhythmias or ischemia), while a CXR looks at structures.",
+        "B": "Coronary angiography or CTA is the appropriate investigation for coronary artery disease.",
+        "C": "Genetic mutations are identified via specialized genetic testing or myocardial biopsy, not imaging.",
+        "D": "Echocardiography, CMR, or MUGA scans are used to assess the ejection fraction and ventricular function."
+      }
+    }
+  },
+  {
+    "question": "Which of the following describes 'Orthopnea' as defined in the stages of dyspnea?",
+    "choices": {
+      "A": "Shortness of breath lying flat that is relieved by sitting up",
+      "B": "Dyspnea that occurs only during vigorous exercise",
+      "C": "Breathing difficulty that is worse when sitting up",
+      "D": "Constant shortness of breath even while resting",
+      "E": "Acute SOB accompanied by coughing that wakes the patient up"
+    },
+    "correctAnswer": "A",
+    "reasoning": {
+      "correct": "Orthopnea is defined as shortness of breath when lying flat that gets better when sitting up.",
+      "incorrect": {
+        "B": "This is the definition of exertional dyspnea.",
+        "C": "This describes platypnea, which is the physiological opposite of orthopnea.",
+        "D": "This refers to resting dyspnea.",
+        "E": "This describes Paroxysmal Nocturnal Dyspnea (PND)."
+      }
+    }
+  },
+  {
+    "question": "The development of a holosystolic murmur at the apex in a patient with a dilated left ventricle is most commonly due to which mechanism?",
+    "choices": {
+      "A": "Rupture of the chordae tendineae due to acute MI",
+      "B": "Calcification of the aortic valve leaflets",
+      "C": "Vegetations on the tricuspid valve",
+      "D": "Displacement of papillary muscles and annular dilatation",
+      "E": "Increased velocity of blood flow across a normal valve"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "In Dilated Cardiomyopathy (DCM), enlargement of the ventricle dilates the annulus and displaces the papillary muscles, which can result in the holosystolic murmur of functional mitral regurgitation.",
+      "incorrect": {
+        "A": "This causes an acute form of mitral regurgitation, but it is a mechanical complication of an MI, not the primary mechanism associated with a chronically dilated left ventricle.",
+        "B": "This leads to aortic stenosis, which produces a systolic crescendo-decrescendo murmur typically heard at the right upper sternal border, not a holosystolic murmur at the apex.",
+        "C": "This causes tricuspid regurgitation, producing a murmur best heard at the lower left sternal border.",
+        "E": "This generally causes a physiologic or flow murmur, which is typically mid-systolic and not related to the pathological structural changes of a dilated ventricle."
+      }
+    }
+  },
+  {
+    "question": "A 55-year-old female with a history of obesity and hypertension presents with dyspnea on exertion. Echocardiography reveals an LVEF of 55%, left ventricular hypertrophy, and impaired relaxation. According to her symptoms and EF, she is categorized as NYHA Class II. What is the most appropriate interpretation of her functional status?",
+    "choices": {
+      "A": "No limitation of physical activity; ordinary activity does not cause undue fatigue",
+      "B": "Structural heart disease present but no signs or symptoms of heart failure",
+      "C": "Marked limitation of physical activity; symptoms occur with minimal exertion",
+      "D": "Inability to carry out any physical activity without discomfort; symptoms at rest",
+      "E": "Slight limitation of physical activity; ordinary activity causes symptoms"
+    },
+    "correctAnswer": "E",
+    "reasoning": {
+      "correct": "NYHA Class II is defined by a slight limitation of physical activity where the patient is comfortable at rest, but ordinary physical activity results in HF symptoms.",
+      "incorrect": {
+        "A": "This defines NYHA Class I.",
+        "B": "This defines Stage B in the ACC/AHA classification system, not the NYHA functional classification.",
+        "C": "This corresponds to NYHA Class III, where patients are comfortable at rest but less than ordinary activity results in HF symptoms.",
+        "D": "This defines NYHA Class IV."
+      }
+    }
+  },
+  {
+    "question": "In the context of the 2021 ESC guidelines, how is 'HFmrEF' (Heart Failure with mildly reduced ejection fraction) specifically defined?",
+    "choices": {
+      "A": "LVEF greater than or equal to 50%",
+      "B": "LVEF between 41% and 49%",
+      "C": "At risk for HF without structural heart disease",
+      "D": "Presence of S3 gallop regardless of ejection fraction",
+      "E": "LVEF less than 40%"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "HFmrEF is defined as heart failure with a mildly reduced ejection fraction ranging from 41% to 49%.",
+      "incorrect": {
+        "A": "This is the definition for HFpEF (Heart Failure with preserved ejection fraction).",
+        "C": "This describes Stage A heart failure in the ACC/AHA classification.",
+        "D": "A third heart sound (S3 gallop) is a specific sign of heart failure, but it is not the parameter used to define the HFmrEF category.",
+        "E": "This is the definition for HFrEF (Heart Failure with reduced ejection fraction)."
+      }
+    }
+  }
+]

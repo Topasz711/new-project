@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "question": "During history taking, which feature makes myocardial ischemia LEAST likely?",
+    "choices": {
+      "A": "Retrosternal pressure lasting 20 minutes",
+      "B": "Pain triggered by emotional stress",
+      "C": "Pain radiating to the left jaw",
+      "D": "Sharp pain that worsens with deep inspiration",
+      "E": "Pain relieved by rest or sublingual nitroglycerin"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "According to clinical guidelines, sharp chest pain that increases with inspiration (pleuritic pain) and worsens when lying supine is unlikely to be related to ischemic heart disease. This presentation is more characteristic of conditions like acute pericarditis or pulmonary embolism.",
+      "incorrect": {
+        "A": "These describe classic features of ischemic heart disease. Anginal symptoms are typically perceived as retrosternal chest discomfort (pressure, squeezing, heaviness, tightness) that may radiate to the jaw, neck, or arms. They are often triggered by exertional or emotional stress and are classically relieved by rest or nitroglycerin.",
+        "B": "These describe classic features of ischemic heart disease. Anginal symptoms are typically perceived as retrosternal chest discomfort (pressure, squeezing, heaviness, tightness) that may radiate to the jaw, neck, or arms. They are often triggered by exertional or emotional stress and are classically relieved by rest or nitroglycerin.",
+        "C": "These describe classic features of ischemic heart disease. Anginal symptoms are typically perceived as retrosternal chest discomfort (pressure, squeezing, heaviness, tightness) that may radiate to the jaw, neck, or arms. They are often triggered by exertional or emotional stress and are classically relieved by rest or nitroglycerin.",
+        "E": "These describe classic features of ischemic heart disease. Anginal symptoms are typically perceived as retrosternal chest discomfort (pressure, squeezing, heaviness, tightness) that may radiate to the jaw, neck, or arms. They are often triggered by exertional or emotional stress and are classically relieved by rest or nitroglycerin."
+      }
+    }
+  },
+  {
+    "question": "A 24-year-old male presents with pleuritic chest pain that improves when leaning forward. ECG shows diffuse concave ST elevation and PR depression. Which physical finding is most specific?",
+    "choices": {
+      "A": "S3 gallop",
+      "B": "Pericardial friction rub",
+      "C": "Unilateral absent breath sounds",
+      "D": "Janeway lesions",
+      "E": "Pulsus alternans"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "The patient's clinical presentation (pleuritic pain improved by leaning forward) and electrocardiographic findings (diffuse ST elevation) strongly suggest acute pericarditis. A pericardial friction rub is a highly specific physical examination finding for acute pericarditis.",
+      "incorrect": {
+        "A": "An S3 gallop and pulsus alternans are indicative of heart failure or severe left ventricular dysfunction, while Janeway lesions are associated with infective endocarditis.",
+        "C": "Unilateral absent breath sounds, accompanied by dyspnea and pain on inspiration, are characteristic of a pneumothorax.",
+        "D": "An S3 gallop and pulsus alternans are indicative of heart failure or severe left ventricular dysfunction, while Janeway lesions are associated with infective endocarditis.",
+        "E": "An S3 gallop and pulsus alternans are indicative of heart failure or severe left ventricular dysfunction, while Janeway lesions are associated with infective endocarditis."
+      }
+    }
+  },
+  {
+    "question": "Radiation of pain to which area is UNLIKELY to be related to myocardial ischemia?",
+    "choices": {
+      "A": "Left arm",
+      "B": "Neck",
+      "C": "Jaw",
+      "D": "Below the umbilicus",
+      "E": "Upper back"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "Pain radiating to areas below the umbilicus or to the hip is considered unlikely to be related to myocardial ischemia.",
+      "incorrect": {
+        "A": "Ischemic chest discomfort frequently radiates to areas other than the chest, including the shoulder, arm, neck, back, and jaw.",
+        "B": "Ischemic chest discomfort frequently radiates to areas other than the chest, including the shoulder, arm, neck, back, and jaw.",
+        "C": "Ischemic chest discomfort frequently radiates to areas other than the chest, including the shoulder, arm, neck, back, and jaw.",
+        "E": "Ischemic chest discomfort frequently radiates to areas other than the chest, including the shoulder, arm, neck, back, and jaw."
+      }
+    }
+  },
+  {
+    "question": "A 55-year-old male with hypertension and dyslipidemia presents with squeezing substernal chest pain for 30 minutes and diaphoresis. What is the most appropriate INITIAL investigation?",
+    "choices": {
+      "A": "High-sensitivity troponin",
+      "B": "Chest X-ray",
+      "C": "12-lead EKG",
+      "D": "Transthoracic echocardiography",
+      "E": "Coronary CTA"
+    },
+    "correctAnswer": "C",
+    "reasoning": {
+      "correct": "The investigation of choice for acute chest pain is a 12-lead ECG obtained within 10 minutes of presentation. This is crucial to rapidly identify or rule out ST-segment elevation myocardial infarction (STEMI) and guide immediate reperfusion therapy.",
+      "incorrect": {
+        "A": "While high-sensitivity cardiac troponin is the preferred biomarker to identify acute myocardial injury, waiting for lab results delays immediate critical triage.",
+        "B": "A chest X-ray is useful to evaluate for other thoracic causes of symptoms, and echo/CTA have their roles, but they are not the primary, time-sensitive triage tools.",
+        "D": "A chest X-ray is useful to evaluate for other thoracic causes of symptoms, and echo/CTA have their roles, but they are not the primary, time-sensitive triage tools.",
+        "E": "A chest X-ray is useful to evaluate for other thoracic causes of symptoms, and echo/CTA have their roles, but they are not the primary, time-sensitive triage tools."
+      }
+    }
+  },
+  {
+    "question": "An 80-year-old patient presents with an unexplained fall, mild confusion, and shortness of breath, but no chest pain. Which condition should be highly suspected?",
+    "choices": {
+      "A": "Acute appendicitis",
+      "B": "Acute coronary syndrome",
+      "C": "Diabetic ketoacidosis",
+      "D": "Pulmonary embolism",
+      "E": "Acute cholecystitis"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "In patients older than 75 years of age, acute coronary syndrome (ACS) must be strongly considered even when classic chest pain is absent. Accompanying \"nonclassical\" symptoms such as shortness of breath, acute delirium, syncope, or experiencing an unexplained fall are significant indicators of ACS in this population.",
+      "incorrect": {
+        "A": "Although elderly patients can present atypically for many diseases, the specific combination of symptoms listed is a recognized \"angina equivalent\" presentation in geriatric cardiology.",
+        "C": "Although elderly patients can present atypically for many diseases, the specific combination of symptoms listed is a recognized \"angina equivalent\" presentation in geriatric cardiology.",
+        "D": "Although elderly patients can present atypically for many diseases, the specific combination of symptoms listed is a recognized \"angina equivalent\" presentation in geriatric cardiology.",
+        "E": "Although elderly patients can present atypically for many diseases, the specific combination of symptoms listed is a recognized \"angina equivalent\" presentation in geriatric cardiology."
+      }
+    }
+  },
+  {
+    "question": "Which of the following describes the angiographic finding typically associated with a STEMI?",
+    "choices": {
+      "A": "Stable calcified plaque",
+      "B": "Spasm without any thrombus",
+      "C": "Normal coronary arteries",
+      "D": "Completely occlusive thrombus",
+      "E": "Partially occlusive thrombus"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "A STEMI is typically caused by a completely occlusive thrombus in a coronary artery, leading to profound ischemia and resulting in ST-segment elevation on the ECG.",
+      "incorrect": {
+        "A": "These do not describe the typical acute angiographic pathophysiology responsible for the transmural ischemia seen in STEMI.",
+        "B": "These do not describe the typical acute angiographic pathophysiology responsible for the transmural ischemia seen in STEMI.",
+        "C": "These do not describe the typical acute angiographic pathophysiology responsible for the transmural ischemia seen in STEMI.",
+        "E": "A partially occlusive thrombus is more characteristically associated with Non-ST-Segment Elevation Myocardial Infarction (NSTEMI) or Unstable Angina."
+      }
+    }
+  },
+  {
+    "question": "A 50-year-old man presents with chest pain and sweating. His EKG shows ST-segment depression in leads V4-V6. His cardiac troponin levels are significantly elevated. What is the most likely diagnosis?",
+    "choices": {
+      "A": "Prinzmetal Angina",
+      "B": "Acute Pericarditis",
+      "C": "STEMI",
+      "D": "NSTEMI",
+      "E": "Unstable Angina"
+    },
+    "correctAnswer": "D",
+    "reasoning": {
+      "correct": "NSTEMI is characterized by clinical ischemic symptoms, electrocardiographic changes such as ST-segment depression or T-wave inversion, and positive cardiac biomarkers (elevated troponin).",
+      "incorrect": {
+        "A": "The presence of ischemic ECG changes and elevated cardiac biomarkers points toward an acute thrombotic ischemic event rather than pure vasospasm or pericardial inflammation.",
+        "B": "The presence of ischemic ECG changes and elevated cardiac biomarkers points toward an acute thrombotic ischemic event rather than pure vasospasm or pericardial inflammation.",
+        "C": "STEMI diagnosis requires the presence of ST-segment elevation in at least two contiguous leads.",
+        "E": "Unstable angina presents with similar clinical symptoms and potentially similar ECG findings (like ST depression), but cardiac biomarkers remain negative."
+      }
+    }
+  },
+  {
+    "question": "Which clinical finding is most suggestive of Acute Coronary Syndrome (ACS) with complications such as heart failure or cardiogenic shock?",
+    "choices": {
+      "A": "Normal blood pressure and heart rate",
+      "B": "S3 gallop and pulmonary crackles",
+      "C": "Pulse differential between arms",
+      "D": "Pleuritic pain relieved by NSAIDs",
+      "E": "Localized tenderness to touch"
+    },
+    "correctAnswer": "B",
+    "reasoning": {
+      "correct": "Physical examination findings such as diaphoresis, tachypnea, tachycardia, hypotension, pulmonary crackles, an S3 gallop, or a new murmur (like mitral regurgitation) in the setting of ACS strongly indicate severe complications, specifically left ventricular failure or cardiogenic shock.",
+      "incorrect": {
+        "A": "Normal vital signs are reassuring and do not suggest acute decompensation.",
+        "C": "An extremity pulse differential is a classic physical finding for an aortic dissection.",
+        "D": "Pleuritic pain points toward a pericardial or pulmonary etiology.",
+        "E": "Localized tenderness to palpation of the chest wall is indicative of a musculoskeletal cause, such as costochondritis."
+      }
+    }
+  }
+]
